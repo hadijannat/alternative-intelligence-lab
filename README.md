@@ -77,11 +77,15 @@ L = ln(c_Fe / c_Si) = −z [mean(u_Fe) − mean(u_Si)]
 
 Here `exp(L)` is an electrical-only infinite-dilution statistical weight. It is not a measured adsorption constant or probability of intact recovery.
 
+Distances are measured from the assigned diffuse-boundary plane, the plane of `psi_d`. Both charge representations share one centre distance `d = a + gap`, where `a` is the padded shell radius and the gap runs from that plane to the nearest point of the shell. The point model uses `u(d)`; the shell model uses the surface average `(1/2) ∫[−1,1] u(d + a·mu) dmu`. With these conventions, the formula and the values stored in the full output (the shell radius, the thermal voltage and the screening constant `kappa` of each bath) reproduce the saved rows; placing the point charge at `x = gap` instead gives 12.007 rather than 6.290 for the illustrated point value at zero added NaCl (FeIII +50 mV, silica 0 mV, 0.5 nm gap). The conventions are those of the archived `encounter/protocol.md` and `encounter/model.py` (release asset `research-0003.tar.gz`).
+
 The illustrated CSV uses T = 297.45 K, nominal ideal HCl pH 1.7, assumed relative permittivity 78.5, FeIII +50 mV, silica 0 mV, charge −8, and a 0.5 nm gap. Point and uniformly charged-shell representations are compared. The shell radius includes an assumed 0.300 nm padding around the Mo skeletal radius.
 
 The 480 main cases varied bath, two interface fields, distance and charge representation. Equal-field, sign, swap, far-field, weak-field and quadrature controls passed. Maximum 64/128-point shell quadrature discrepancy was **4.26 × 10−14** in L. Such checks establish numerical consistency, not empirical calibration.
 
-The model omits surface reaction pathways, dissolution, real Mo speciation, nucleation, transport and clogging. Only 36 qualified Mo coordinates were available; incomplete/anomalous O/H information prevented justified full-cluster DFT. [4]
+In all 480 rows the sign of L equals the sign of the assigned Fe-minus-silica potential, so every reversal is an input assumption: it requires silica to be assigned a higher potential than the FeIII interface. Literature charge-reversal points added in post-publication review [9, 10] are discussed, with their limits, in the [final report](docs/FINAL_RESULTS.md#conditional-electrical-result).
+
+The model omits surface reaction pathways, dissolution, real Mo speciation, nucleation, transport and clogging. It is also a test-charge calculation: the assigned interface fields do not respond to the −8 solute, and dielectric boundaries and solute-induced field distortion are neglected. Each assigned potential is held fixed across the salt grid as a deliberate sensitivity choice; real surfaces may regulate charge. The archived protocol calls the test-particle approximation “especially conditional” for the highly charged Mo36, and treats the point/shell comparison as representation sensitivity, not a confidence interval. Only 36 qualified Mo coordinates were available; incomplete/anomalous O/H information prevented justified full-cluster DFT. [4]
 
 The [complete frozen 480-case result](data/mo36-encounter-full.json), [illustrated data](data/mo36-encounter-illustrative.csv), and [scientific limits](docs/FINAL_RESULTS.md#mo36-interface-comparison) are available separately.
 
@@ -91,16 +95,18 @@ The [complete frozen 480-case result](data/mo36-encounter-full.json), [illustrat
 
 The registered CCO pilot trained eight architectures with three seeds each. Its 128-cell model remained near chance on the held-out graph-reachability task and did not outperform its primary learned baselines. A conventional recurrent GNN solved the in-distribution task, but its performance deteriorated on unseen longer paths.
 
-![CCO pilot correctness: CCO remained near chance; recurrent GNN solved the ID task but fell near chance on longer-path OOD queries.](assets/cco-summary.svg)
+The ID test has 512 queries in 256 graph pairs, and each OOD set has 384 queries in 192 pairs. Every graph supplies one positive and one negative query, so chance is exactly 50%. Each run received 192 optimizer updates, with no hyperparameter search. The GNN's 51.39% on longer paths is a one-sided failure, not chance-like behavior: a post-publication recount of the archived predictions, pooled over the three seeds, found all 576 negative predictions correct (192 queries per seed) and only 16 of the 576 positive predictions correct, all 16 from one seed.
 
-This is a bounded negative result for the architecture, benchmark and training allowance. It does not refute collective intelligence generally. Compute, routing, recurrent-state capacity and parameters differed between some baselines; compute-matched superiority was not tested. The complete pilot report, checkpoints, predictions and analysis are in the [CCO release archive](https://github.com/hadijannat/alternative-intelligence-lab/releases/tag/research-2026-10-13).
+![CCO pilot correctness: CCO remained near chance; recurrent GNN solved the ID task but failed on longer-path OOD queries.](assets/cco-summary.svg)
+
+This is a bounded negative result for the architecture, benchmark and training allowance. It does not refute collective intelligence generally. Compute, routing, recurrent-state capacity and parameters differed between some baselines (the GNN has 52,033 parameters against 37,706 for CCO128, but about one-fifth of the estimated forward compute of CCO128); compute-matched superiority was not tested. The complete pilot report, checkpoints, predictions and analysis are in the [CCO release archive](https://github.com/hadijannat/alternative-intelligence-lab/releases/tag/research-2026-10-13).
 
 ## What the gold and SAPO-34 papers actually contributed
 
 | Paper | Supported contribution | Evidence boundary |
 | :--- | :--- | :--- |
 | **Duan et al., gold-autocatalyzed multielement nanoparticles** [5] | Feed-controlled material synthesis and separately powered catalytic testing | The inspected main text did not establish parent-linked functional heredity; supplementary information was not fully inspected |
-| **Akhgar et al., SAPO-34 seed study** [6] | Seed/recipe-dependent product properties and MTO catalyst performance | A materials “genetic effect” does not by itself establish a replicating, evolving functional lineage |
+| **Akhgar et al., SAPO-34 seed study** [6] | Seed/recipe-dependent product properties and MTO catalyst performance | A seed-dependent materials effect does not by itself establish a replicating, evolving functional lineage |
 
 These are valuable materials results. Their contribution to the alternative-life question depends on additional tests of identity, transmission, new-product function and resource closure.
 
@@ -120,7 +126,7 @@ These are valuable materials results. Their contribution to the alternative-life
 
 The repository holds the synthesis, figures and key machine-readable results. Release assets preserve the much larger authored scientific record: reports, numerical outputs, configurations, model code, negative findings and historical studies. Archives are split where needed; membership and checksums are indexed.
 
-The release preserves **23,926 eligible files in 14 archive parts**: 3.04 GB of compressed archives and 6.91 GB of reconstructed files. Counts include historical versions and repeated provenance copies. Select a study group with the [extraction helper](docs/ARCHIVE_POLICY.md#invocation) when you need a smaller subset.
+The release preserves **23,926 eligible files in 14 archive parts**: 3.04 GB of compressed archives (the 14 archive parts, without the manifest and index assets) and 6.91 GB of reconstructed files, in decimal gigabytes (10⁹ bytes). Counts include historical versions and repeated provenance copies. Select a study group with the [extraction helper](docs/ARCHIVE_POLICY.md#invocation) when you need a smaller subset.
 
 - [Complete archive catalogue](data/archive-catalogue.json) — assets, sizes, checksums and coverage.
 - [Searchable research-file index](data/research-index.csv) — result/report paths and asset membership.
@@ -128,7 +134,7 @@ The release preserves **23,926 eligible files in 14 archive parts**: 3.04 GB of 
 - [Initial claim-level evidence ledger](data/initial-evidence-ledger.json) — 34 claims, conditions and limitations from the earlier bounded review.
 - [Publication policy and exclusions](docs/ARCHIVE_POLICY.md) — third-party acquisition payloads, private tool records, dependencies and path sanitization.
 
-Historical reports retain their original dates and conclusions. Some describe an investigation as “active”; the [current status overlay](docs/FINAL_RESULTS.md) supersedes those statements. Publication does not rerun or independently replicate the original scientific experiments.
+Historical reports retain their original dates and conclusions. Some describe an investigation as “active”; the [current status overlay](docs/FINAL_RESULTS.md) supersedes those statements. Publication does not rerun or independently replicate the original scientific experiments. Corrections made after the tagged snapshot are listed in [docs/CORRECTIONS.md](docs/CORRECTIONS.md).
 
 ## Inspect and reproduce
 
@@ -158,6 +164,8 @@ For the larger goal, those results would still need to connect to driven mainten
 6. [Akhgar, Towfighi & Hamidzadeh (2020), *Investigation of synthesis time and type of seed along with reduction of template consumption in the preparation of SAPO-34 catalyst and its performance in the MTO reaction*](https://doi.org/10.1039/D0RA05673A).
 7. [Engineered XNA genetic information storage and recovery (2012)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3362463/). Carbon-containing polymers and supplied enzymes.
 8. [XNA catalytic function and FANA fragment ligation (2014/2015)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4336857/). Catalysis and copying machinery do not establish autonomous organisms.
+9. [Kosmulski (1998), *Positive Electrokinetic Charge of Silica in the Presence of Chlorides*](https://doi.org/10.1006/jcis.1998.5859). Added in post-publication review; abstract-level reading only. Context for the assigned silica potential, not a calibration.
+10. [Schwertmann & Fechter (1982), *The point of zero charge of natural and synthetic ferrihydrites and its relation to adsorbed silicate*](https://www.cambridge.org/core/journals/clay-minerals/article/point-of-zero-charge-of-natural-and-synthetic-ferrihydrites-and-its-relation-to-adsorbed-silicate/6731E772B614A298097A94D944C9E24F). Added in post-publication review; abstract-level reading only. Not a calibration of the FeIII support.
 
 Links identify the primary literature behind specific claims. An accessible citation is distinct from a newly verified full text; the archived ledgers record which originals, methods and supplements were actually inspected.
 
