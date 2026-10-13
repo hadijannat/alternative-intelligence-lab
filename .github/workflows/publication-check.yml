@@ -1,0 +1,13 @@
+name: Publication integrity
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify saved publication assets
+        run: python3 tools/verify_publication.py

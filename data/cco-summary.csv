@@ -1,0 +1,11 @@
+model,split,correctness_percent
+CCO 128,ID,49.67
+Independent cells 128,ID,50.59
+Centralized recurrent,ID,50.00
+Recurrent GNN,ID,100.00
+CCO 128,Larger size,50.52
+CCO 128,Concentrated allocation,50.69
+CCO 128,Longer path,50.26
+Recurrent GNN,Larger size,98.96
+Recurrent GNN,Concentrated allocation,100.00
+Recurrent GNN,Longer path,51.39

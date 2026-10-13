@@ -1,0 +1,30 @@
+{
+  "snapshot": "2026-10-13",
+  "registry_version": "2.44",
+  "preparations": 329,
+  "architecture_groups": 58,
+  "scientific_goal": "UNMET",
+  "chemical_goal_status": "BLOCKED",
+  "integrated_gates": {
+    "G0": "UNRESOLVED",
+    "G1": "UNRESOLVED",
+    "G2": "UNRESOLVED",
+    "G3": "UNRESOLVED",
+    "G4": "UNRESOLVED",
+    "G5": "UNRESOLVED",
+    "G6": "UNRESOLVED"
+  },
+  "scientific_runs_during_publication": 0,
+  "source_sha256": {
+    "discovery-loop/candidate_registry.json": "54166af7bbe905942e6bf4bacf459df5f0380227b821156512c043398c34abf8",
+    ".omo/evidence/mo36-resume-encounter-native-2026-10-13.json": "7a724f37cf50eb7dcab0a00d3b910dbc1ec432dbfa94cf3af2c66d4635652a67",
+    "alternative-biochemistry-2026-10-06/data/evidence_ledger.json": "37b7e6d40f944c8195b735e6adc9e0c0562d855d59f1bb2c724eef9d82189b16",
+    ".omo/evidence/e1092-research-report.md": "37dfb1258488d64c2808669963b02d9c358b1867ba1c3f6f5cd589827f74805b",
+    "cco/REPORT.md": "ac01a62fba7e644b8ae487f0db23ad57881ac726d3aa0a0b39e064a5026342a8"
+  },
+  "core_exports": {
+    "candidates.csv": "Column projection; complete original registry in archive",
+    "mo36-encounter-full.json": "Parsed saved numerical stdout; no model execution",
+    "initial-evidence-ledger.json": "Earlier bounded 34-claim review"
+  }
+}

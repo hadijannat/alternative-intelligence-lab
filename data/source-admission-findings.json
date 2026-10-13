@@ -1,0 +1,186 @@
+[
+  {
+    "source_path": ".omo/evidence/e878-primary-route-packet.json",
+    "source_original_sha256": "83160f02101c858b21ac9ced59c0876573a19e721d3bb1d2706a3169aca373ab",
+    "source_published_sha256": "cd40cc9c6647aa656fafa07a51f0f7088ee94defb74bc98243c6b6810c847fc2",
+    "projection": "Own findings retained; raw provider captures excluded",
+    "scientific_calculation_performed": false,
+    "stage": "E878",
+    "status": "INSUFFICIENT_PRIMARY_RATE_DATA",
+    "goal_status": "ACTIVE_UNMET",
+    "joint_physical_gates": "G0-G6 UNRESOLVED",
+    "budget": 4,
+    "calls_used": 4,
+    "primary_coverage": [
+      {
+        "doi": "10.1039/AN9790400897",
+        "class": "PUBLISHER_ABSTRACT_PAGE_RETRIEVED_FULL_METHODS_NOT_RETRIEVED",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/1979/an/an9790400897",
+        "reference": "turn1722view0",
+        "locations": {
+          "bibliography": "45-47,64-83",
+          "abstract": "49-52",
+          "access_widget": "53-55",
+          "download_widget": "63"
+        },
+        "notes": "Access widget text is not proof of full text access: loader error and no methods in retrieved coverage. Non-JavaScript link 7 returned 403."
+      },
+      {
+        "doi": "10.1039/AN9750000203",
+        "class": "OFFICIAL_DOMAIN_SEARCH_SNIPPET_ONLY_DIRECT_PAGE_403",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/1975/an/an9750000203",
+        "search_reference": "turn1720search1",
+        "failed_open_reference": "turn1721view0"
+      }
+    ],
+    "new_rate_constants": [],
+    "new_measured_data": [],
+    "scientific_models_executed": 0,
+    "missing_fields": [
+      "Numerical fitted formation and reverse coefficients with units",
+      "Final measured molybdate and silicate concentrations, precursor identities and mixing/dilution recipe",
+      "Temperature, acid recipe, operational pH/proton-activity convention, salts and ionic strength",
+      "Reaction time unit and raw time points",
+      "Absorbance wavelength, extinction calibration, recovery, species-selectivity and controls",
+      "Replicates, uncertainties, covariance and residuals",
+      "Underlying molybdate equilibrium constants and inputs",
+      "Matched intact Mo36 recovery or assembly assay"
+    ],
+    "decision": "Publisher provenance of the 1979 abstract improved; quantitative calibration did not progress. Repeating qualitative abstract claims cannot justify a new simulation. Further methods access or an alternate measured dataset is needed."
+  },
+  {
+    "source_path": ".omo/evidence/e910-mo248-primary.json",
+    "source_original_sha256": "33776c48835cbef4a9f795deb5156f924460ea386c9a13f344666c75386b90f0",
+    "source_published_sha256": "33776c48835cbef4a9f795deb5156f924460ea386c9a13f344666c75386b90f0",
+    "projection": "Own findings retained; raw provider captures excluded",
+    "scientific_calculation_performed": false,
+    "stage": "E910",
+    "status": "TERMINAL_BOUNDED_INSUFFICIENCY",
+    "protocol": ".omo/evidence/e910-mo248-primary-protocol.md",
+    "source_call_budget": 4,
+    "source_calls_used": 4,
+    "provenance": {
+      "starting_lead": {
+        "doi": "10.1039/C9DT02478F",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2019/dt/c9dt02478f",
+        "scope": "2019 paper cites Mo248 in introduction, reference40; search text discusses Mn10W4-P8W48 as its own compound. It is not the original Mo248 report.",
+        "access": "Call1 web403; no unchanged retry."
+      },
+      "original": {
+        "title": "Molecular growth from a Mo176 to a Mo248 cluster",
+        "authors": [
+          "A. M\u00fcller",
+          "Syed Q. N. Shah",
+          "H. B\u00f6gge",
+          "M. Schmidtmann"
+        ],
+        "doi": "10.1038/16215",
+        "journal": "Nature",
+        "volume": 397,
+        "pages": "48\u201350",
+        "date": "1999-01-07",
+        "url": "https://www.nature.com/articles/16215",
+        "url_provenance": "Call2 actual RePEc result lists publisher URL; call4 publisher search result confirms original bibliographic identity and abstract.",
+        "coverage": "Publisher abstract, figure captions, partial references, author metadata via search; no original methods/fullbody/SI/coordinates/raw data.",
+        "access": "Call3 web returns500 redirected to idp.nature.com/authorize not safe to open, non-retryable; authentication redirect not followed.",
+        "primary_abstract_scope": "Growth by addition of units to Mo176 inner surface, arranged into two Mo36 hub-caps described as unstable in isolation. No solution-survival challenge measurement available in retrieved primary coverage."
+      },
+      "native_get_count": 0,
+      "binary_bytes_obtained": false,
+      "source_binary_sha256": null,
+      "primary_body_artifact": null,
+      "provider_timing": "Web provider managed"
+    },
+    "secondary_context_not_admitted": [
+      {
+        "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/022-CroninEPST2002.pdf",
+        "coverage": "Call2 author-hosted review search excerpt only, not opened",
+        "reported_claims": "Ascorbic-acid reducing conditions; two Mo36 units added to wheel; mixed-crystal hubcap occupancy50%; [Mo36O96(H2O)24]-type fragment; resemblance to Mo5O14 segment.",
+        "eligibility": "Useful identity warning, not qualified original formula/recipe. Structural occupancy cannot be a guest survival fraction."
+      },
+      {
+        "url": "https://wwwhomes.uni-bielefeld.de/chemie/ehemalig/ac1-mueller/AMU/oxomolybdates.pdf",
+        "coverage": "Calls2/4 author-hosted chapter search excerpts only",
+        "reported_claims": "Neutral Mo36-type hubcaps, nucleation within Mo176; cites original1999Nature paper.",
+        "eligibility": "No primary-body claim or full formulation admission."
+      },
+      {
+        "url": "https://pdfs.semanticscholar.org/cf13/4916522748d9fd3f65e8a15d50e11b3ed2b1.pdf",
+        "coverage": "Call2 search excerpt of2019paper",
+        "reported_claims": "Mo248 cited as addition of twoMo36 units toMo176; own study concerns Mn/W/P cluster.",
+        "eligibility": "Do not transfer its aqueous pH1\u20138 statement for P8W48 into Mo248 or Mo36."
+      }
+    ],
+    "admission_gap_matrix": [
+      {
+        "field": "Guest identity/oxidation",
+        "status": "UNRESOLVED",
+        "available": "Original abstract identifies newly formed hub-caps unstable in isolation; secondary excerpt suggests different formula from canonicalMo36.",
+        "missing": "Original fullformula/oxidation/protonation and assay-specific equivalence to target Mo36."
+      },
+      {
+        "field": "Complete host/formulation",
+        "status": "UNRESOLVED",
+        "available": "Mo176/Mo248 short names",
+        "missing": "Original fullformula, charge, hydration, counterions, occupancy/refinement context."
+      },
+      {
+        "field": "Carbon dependencies/preparation",
+        "status": "UNRESOLVED",
+        "available": "Secondary author-review excerpt names ascorbic acid",
+        "missing": "Original reagent recipe, purification and complete formulation. Cannot label lifecycle carbon-free."
+      },
+      {
+        "field": "Final exposure conditions",
+        "status": "UNRESOLVED",
+        "available": "No qualified acid/redox/iron/silicon challenge",
+        "missing": "Final mixture concentrations, acid/pH/activity, salt,temperature,dose,time."
+      },
+      {
+        "field": "Species-calibrated survival",
+        "status": "UNRESOLVED",
+        "available": "No assay body retrieved",
+        "missing": "Intact hosted/free/fragments/emptyhost resolution, response calibration, limits, controls, independent replicates,error."
+      },
+      {
+        "field": "Mass balance/precipitation/clogging",
+        "status": "UNRESOLVED",
+        "available": "No qualified measurements",
+        "missing": "Solution andsolidMo balance, precipitation identity/yield, actual flow obstruction."
+      }
+    ],
+    "decision": {
+      "canonical_Mo36_guest_protection_admitted": false,
+      "complete_formula_admitted": false,
+      "carbon_free_eligibility": "UNRESOLVED_NOT_ASSUMED",
+      "numeric_survival_input": false,
+      "occupancy_as_survival": false,
+      "scientific_models_executed": 0,
+      "global_absence_claim": false,
+      "original_target": "Mo36\u2013FeIII/silica",
+      "goal": "ACTIVE_UNMET",
+      "physical_G0_G6": "ALL_UNRESOLVED"
+    },
+    "evidence_scenarios": [
+      {
+        "scenario": "Original-source tracing",
+        "invocation": "Calls2 and4 exactMo248/DOI searches",
+        "observable": "OriginalNature DOI10.1038/16215 publisher abstract and identity returned",
+        "artifact": ".omo/evidence/e910-mo248-primary.json"
+      },
+      {
+        "scenario": "Fullbody route test",
+        "invocation": "Calls1 and3 actual publisher opens",
+        "observable": "RSC403; Nature500safe-redirect refusal; no auth followed",
+        "artifact": ".omo/evidence/e910-mo248-primary.json"
+      },
+      {
+        "scenario": "Input qualification",
+        "invocation": "Compare retrieved coverage with prospectiveE910 requirements",
+        "observable": "Six unresolved admission rows; no survival or formula input admitted",
+        "artifact": ".omo/evidence/e910-mo248-primary.json"
+      }
+    ],
+    "restrictions": "No frozen model/checker execute/import/compile/replay; excluded workbook/copies/routes untouched; no auth/terms/contact/purchases/install/lab; onlynewownedfiles written withapply_patch."
+  }
+]

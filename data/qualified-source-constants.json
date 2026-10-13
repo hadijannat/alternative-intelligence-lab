@@ -1,0 +1,32 @@
+{
+  "source_path": ".omo/artifacts/Mg-charge-budget-next/constant-captures.json",
+  "source_original_sha256": "118dac6e05148a006380a139701459c1e9eb77275d16f5394c048f48bcb57fe4",
+  "source_published_sha256": "118dac6e05148a006380a139701459c1e9eb77275d16f5394c048f48bcb57fe4",
+  "projection": "Own findings retained; raw provider captures excluded",
+  "scientific_calculation_performed": false,
+  "experiment_id": "DL-E406",
+  "registered_at_utc": "2026-10-09 03:20:59 UTC",
+  "read_extent": "All18returned web records turn822search0-17 and all provider returned lines: elementary charge29lines, wall_2022PDFfailed400one line. Older1986/1998values deliberately excluded; no full constants PDF claim.",
+  "qualified_parameters": {
+    "e": {
+      "value": "1.602176634e-19",
+      "units": "C",
+      "exact": true,
+      "primary_provider": "https://physics.nist.gov/cuu/Constants/Value/e.html",
+      "anchor": "turn823view0L17-25"
+    },
+    "NA": {
+      "value": "6.02214076e23",
+      "units": "mol^-1",
+      "exact": true,
+      "primary_search_record": "https://physics.nist.gov/cuu/pdf/all.pdf",
+      "anchor": "turn822search13 PHYSICOCHEMICALtable;corroboratedturn822search15wall2022and2018tables",
+      "extent": "Primary NIST search-rendered selected table, not acquired fullPDF."
+    },
+    "F": {
+      "rule": "derive e*NA during sole future calculation",
+      "units": "C mol^-1",
+      "numeric_value_not_yet_calculated": true
+    }
+  }
+}
