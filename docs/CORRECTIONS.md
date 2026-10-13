@@ -2,7 +2,7 @@
 
 These corrections follow a review of commit `e098662` (tag `research-2026-10-13`) that AI language-model agents carried out at the request of the maintainer. It is not an independent peer review. The corrections change wording, add omitted context, add two literature sources that were not read in full, and correct one value in the exported evidence ledger (claim N01, 90 K to 94 K). They change no saved scientific result.
 
-The tag `research-2026-10-13`, the release assets, `data/snapshot.json` and the archived originals are unchanged. No scientific model was rerun and no model was trained. The review recomputed the 480 Mo36 rows with its own code from the published formula and the inputs stored in `data/mo36-encounter-full.json`; that is an independent evaluation of the formula, not arithmetic on saved outputs, and it also produced the value 12.007 quoted in the README for a convention the archived model does not use. The review recounted the CCO percentages from the archived predictions, which is arithmetic on a saved output. Neither reran an archived script, and the review scripts are not part of this repository. The review read the maintainer's local originals, not the release copies; their hashes equal the published index except for the two path-sanitized files named in `docs/REPRODUCIBILITY.md`.
+The tag `research-2026-10-13`, the release assets, `data/snapshot.json` and the archived originals are unchanged. The corrected text is tagged `research-2026-10-13.1`; the release assets remain with the tag `research-2026-10-13`. No scientific model was rerun and no model was trained. The review recomputed the 480 Mo36 rows with its own code from the published formula and the inputs stored in `data/mo36-encounter-full.json`; that is an independent evaluation of the formula, not arithmetic on saved outputs, and it also produced the value 12.007 quoted in the README for a convention the archived model does not use. The review recounted the CCO percentages from the archived predictions, which is arithmetic on a saved output. Neither reran an archived script, and the review scripts are not part of this repository. The review read the maintainer's local originals, not the release copies; their hashes equal the published index except for the two path-sanitized files named in `docs/REPRODUCIBILITY.md`.
 
 ## Corrections
 
@@ -19,6 +19,7 @@ The tag `research-2026-10-13`, the release assets, `data/snapshot.json` and the 
 | `README.md` | Replace the quoted phrase “genetic effect” with “seed-dependent materials effect”; the quoted phrase does not occur in the cited SAPO-34 paper. | Full-text search of README source 6 |
 | `README.md` | State that archive sizes are decimal gigabytes and that 3.04 GB covers the 14 archive parts only. | `data/archive-catalogue.json` |
 | `docs/REPRODUCIBILITY.md` | Separate the PySCF runtime diagnostic from the 480-case model, which uses the standard library and NumPy only. | Archived `encounter/model.py` |
+| `CITATION.cff` | Set `version` to `research-2026-10-13.1`, the tag of the corrected text. No other field changed. | Maintainer decision, 13 October 2026 |
 | `docs/REPRODUCIBILITY.md` | Name the inputs that the release does not contain: the Mo36 coordinate table read by `model.py` and four inputs of the two export tools. Name the two hashes that refer to unsanitized originals. Define `verified_member_count`. | `data/research-index.csv`, `data/snapshot.json`, `data/archive-catalogue.json`, `tools/export_snapshot.py`, `tools/export_mixed_records.py` |
 
 The table omits the following smaller changes made in the same pass: cross-references to this file in `README.md` and `docs/FINAL_RESULTS.md`; the archived protocol's wording that the point/shell difference is representation sensitivity, not a confidence interval; the path distances of training and longer-path positives and the ID range of the seven non-GNN architectures, both from the archived `cco/REPORT.md`; and the figure alt text in `README.md`, which now says that the GNN failed on longer-path queries. Some added sentences are inferences of the review rather than statements of the sources named above: the reading of the CCO-minus-GNN interval, the reading of the message ablations, and the comparison of the literature values with the assigned potentials, including the 72-row subset.
@@ -26,7 +27,7 @@ The table omits the following smaller changes made in the same pass: cross-refer
 ## Not changed
 
 - The figures and `data/cco-summary.csv`. The figure text already says that the GNN failed on longer paths.
-- `docs/RELEASE_NOTES.md` and `CITATION.cff`, which describe the tagged release.
+- `docs/RELEASE_NOTES.md`, which describes the release `research-2026-10-13`.
 - `docs/publication-review.md`. It is a self-review of an interim state, as its own scope lines say, and it was not repeated on the final tree. No independent external review of this archive exists.
 
 ## Open items
