@@ -1,0 +1,152 @@
+{
+  "status": "RETROSPECTIVE_RECEIVER_FUNCTION_CONSTRAINTS",
+  "candidate_role_count_added": 0,
+  "verified_integrated_complements_added": 0,
+  "sources": [
+    {
+      "id": "stracke-dissertation-2013",
+      "type": "author_manuscript_dissertation",
+      "url": "https://mountainscholar.org/bitstreams/fb2173ae-02db-4bb6-8085-2687859c3d03/download",
+      "path": "raw/dissertation.pdf",
+      "bytes": 2961030,
+      "sha256": "faca4c0449995e5774b9185501ebb09f443b0caa648ca8bb256aef578720508e",
+      "pages": 200,
+      "locators": [
+        "PDF122-123 calibration and deposition",
+        "PDF133-135 oxygen comparison and estimates"
+      ],
+      "publisher_version": false
+    },
+    {
+      "id": "stracke-finke-2013-si",
+      "doi": "10.1021/cs400141t.s001",
+      "parent_doi": "10.1021/cs400141t",
+      "url": "https://ndownloader.figshare.com/files/4203919",
+      "metadata_url": "https://api.figshare.com/v2/articles/2560840",
+      "path": "raw/cs400141t_si_001.pdf",
+      "bytes": 1398792,
+      "sha256": "73daecbf5a781acc8643f923385cd30f52c1bcc5d5312788b045c53ce1a28305",
+      "pages": 9,
+      "license": "CC BY-NC 4.0",
+      "locator": "S4 Figure S5"
+    },
+    {
+      "id": "stracke-finke-2011-si",
+      "doi": "10.1021/ja205569j.s001",
+      "parent_doi": "10.1021/ja205569j",
+      "url": "https://ndownloader.figshare.com/files/4260016",
+      "metadata_url": "https://api.figshare.com/v2/articles/2610202",
+      "path": "raw/ja205569j_si_001.pdf",
+      "bytes": 1113177,
+      "sha256": "c114566fd376a1b9f29acb292169386bf9e6c6015999753d22c192e0f2ea3658",
+      "pages": 16,
+      "license": "CC BY-NC 4.0",
+      "locators": [
+        "S2 washed-deposit electrochemistry",
+        "S4 separate oxygen experiments"
+      ]
+    }
+  ],
+  "evidence_families": 2,
+  "positive_control": {
+    "material": "variable-composition CoOx oxo/hydroxo deposit",
+    "feed": "Co(NO3)2",
+    "feed_mM": 0.1,
+    "electrolyte": "0.1 M sodium phosphate",
+    "deposition_pH": 8,
+    "deposition_V_vs_AgAgCl": 0.79,
+    "receiver": "cleaned glassy carbon electrode",
+    "supplied_solid_founder": false,
+    "water_rinse": true,
+    "transferred_to": "precursor-free sodium phosphate",
+    "product_endpoint": "dissolved O2 measured with calibrated FOXY-R probe",
+    "assay_seconds": 60,
+    "assay_V_vs_AgAgCl": 1.4,
+    "assay_pH": [
+      5.8,
+      8
+    ],
+    "oxygen_two_point_calibration": true,
+    "quantitative_rinse_carryover_bound": null,
+    "cobalt_amount_method": "background-subtracted deposition charge assuming one electron per cobalt",
+    "independent_atom_count": false,
+    "deposit_stable_during_assay": false,
+    "exclusive_surface_catalysis_proven": false
+  },
+  "negative_control": {
+    "feed": "2.5 micromolar [Co4(H2O)2(PW9O34)2]10-",
+    "electrolysis_V_vs_AgAgCl": 1.4,
+    "phosphate_M": 0.1,
+    "pH": [
+      5.8,
+      8
+    ],
+    "transfer": "water rinse, then POM-free electrolyte",
+    "endpoint": "post-transfer current approximately background",
+    "post_transfer_oxygen_nondetection_claim": false,
+    "transient_heterogeneous_catalysis_excluded": false
+  },
+  "comparison_2011": {
+    "washed_deposit_electrochemical_activity": true,
+    "washed_deposit_product_quantification_verified": false,
+    "oxygen_assay_medium": "aged POM or Co(NO3)2 solution; separate experiment"
+  },
+  "conditional_activity_equivalent_accounting": {
+    "pom_uM": 2.5,
+    "volume_mL": 1.5,
+    "cobalt_per_pom": 4,
+    "total_cobalt_nmol": 15,
+    "reported_cobalt_nmol_by_pH": {
+      "8.0": [
+        0.45,
+        0.58
+      ],
+      "5.8": [
+        1,
+        1.5
+      ]
+    },
+    "calculated_percent_interval_fraction_strings": {
+      "8.0": [
+        "3",
+        "58/15"
+      ],
+      "5.8": [
+        "20/3",
+        "10"
+      ]
+    },
+    "reported_manuscript_summary_percent": [
+      4,
+      8
+    ],
+    "representative_cobalt_nmol_by_pH": {
+      "8.0": {
+        "estimate": 0.51,
+        "reported_plus_minus": 0.07
+      },
+      "5.8": {
+        "estimate": 1.2,
+        "reported_plus_minus": 0.3
+      }
+    },
+    "reported_metadata_abstract_percent": [
+      3.4,
+      8.3
+    ],
+    "rounding_reconciliation": "Representative rounding is plausible; exact rounding choices unresolved. Summary is not treated as full interval.",
+    "measured_conversion_fractions": false,
+    "exact_per_active_site_rates_inferred": false
+  },
+  "limits": {
+    "target_identity_verified": false,
+    "target_renewal_verified": false,
+    "functional_inheritance_verified": false,
+    "shared_target_medium_verified": false,
+    "physical_experiments": 0,
+    "fitted_models": 0,
+    "graph_digitization": false,
+    "heldout_target_validation": false,
+    "raw_measurement_arrays_acquired": false
+  }
+}

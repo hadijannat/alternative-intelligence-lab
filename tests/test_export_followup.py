@@ -49,7 +49,7 @@ class PublicationSelection(unittest.TestCase):
     def test_renewal_sources_excluded_and_authored_constraints_retained(self):
         base = Path('recursive-compound-2026-10-15/renewal')
         for folder in ('copI-source', 'mo-blue-route', 'oxide-isotope-constraints',
-                       'manganese-regeneration-constraints'):
+                       'manganese-regeneration-constraints', 'receiver-function-audit'):
             for name in ('raw/ja900023k_si_001.pdf', 'raw/ja3c09344_si_001.pdf',
                          'raw/figshare-2869057.json', 'si-text.txt'):
                 self.assertTrue(exclusion(base / folder / name))
@@ -237,7 +237,9 @@ class OpenMPRenewalVerification(unittest.TestCase):
                   / 'recursive-compound-2026-10-15')
         for folder in ('renewal/copI-source', 'renewal/mo-blue-route',
                        'renewal/oxide-isotope-constraints', 'renewal/manganese-regeneration-constraints',
-                       'parent-openmp-qualification', 'parent-openmp-qualification-v2', 'parent-openmp-first-j'):
+                       'renewal/receiver-function-audit', 'identity/mixed-addenda-source-audit',
+                       'parent-openmp-qualification', 'parent-openmp-qualification-v2',
+                       'parent-openmp-first-j', 'parent-openmp-first-j-v2'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.py', '.md', '.csv'):
@@ -245,7 +247,7 @@ class OpenMPRenewalVerification(unittest.TestCase):
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_bytes(path.read_bytes())
 
-    def test_failure_qualified_runtime_and_unrun_parent_are_preserved(self):
+    def test_failures_qualified_runtime_and_first_j_scope_are_preserved(self):
         verify_openmp_renewal(self.recursive, self.case_names)
 
     def test_admission_and_result_mutations_are_rejected(self):
@@ -270,6 +272,21 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/result.json',
              ('SCF', 'converged'), False),
             ('parent-openmp-first-j/preparation.json', 'J_calls', 1),
+            ('parent-openmp-first-j/run-v1/launch-result.json', 'status', 'PASS_BOUNDED_FIRST_J_ONLY'),
+            ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'gate_unchanged', False),
+            ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'parent_SCF_readiness', True),
+            ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'J_sha256_observed', '0' * 64),
+            ('identity/mixed-addenda-source-audit/evidence.json', 'exact_target_established', True),
+            ('identity/mixed-addenda-source-audit/evidence.json',
+             ('source_findings', 0, 'refined_w_occupancy'), 1),
+            ('renewal/receiver-function-audit/constraints.json',
+             ('positive_control', 'quantitative_rinse_carryover_bound'), 0),
+            ('renewal/receiver-function-audit/constraints.json',
+             ('negative_control', 'post_transfer_oxygen_nondetection_claim'), True),
+            ('renewal/receiver-function-audit/constraints.json',
+             ('conditional_activity_equivalent_accounting', 'measured_conversion_fractions'), True),
+            ('renewal/receiver-function-audit/constraints.json',
+             ('limits', 'functional_inheritance_verified'), True),
             ('renewal/oxide-isotope-constraints/analysis.json', 'reported_rate_count', 119),
             ('renewal/oxide-isotope-constraints/analysis.json', ('site_endpoints', 'A'), 'oxygen_exchange'),
             ('renewal/oxide-isotope-constraints/analysis.json', ('inference_limits', 'life_demonstrated'), True),
@@ -292,14 +309,31 @@ class OpenMPRenewalVerification(unittest.TestCase):
                     verify_openmp_renewal(self.recursive, self.case_names)
                 path.write_bytes(original)
 
-    def test_approved_or_launched_parent_is_rejected(self):
-        for name in ('independent-root-review.json', 'run-v1'):
+    def test_results_added_to_failed_parent_are_rejected(self):
+        for name in ('result.json', 'J.npy'):
             with self.subTest(name=name):
-                path = self.recursive / 'parent-openmp-first-j' / name
+                path = self.recursive / 'parent-openmp-first-j/run-v1' / name
                 path.write_text('{}')
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)
                 path.unlink()
+
+    def test_consistently_promoted_first_j_worker_is_rejected(self):
+        run = self.recursive / 'parent-openmp-first-j-v2/run-v1'
+        worker_path, launch_path = run / 'result.json', run / 'launch-result.json'
+        worker_original, launch_original = worker_path.read_bytes(), launch_path.read_bytes()
+        for key, value in (('SCFs_launched', 1), ('whole_SCF_performance_claim', True),
+                           ('physical_admission', True)):
+            with self.subTest(key=key):
+                worker, launch = json.loads(worker_original), json.loads(launch_original)
+                worker[key] = value
+                launch['worker_result'] = worker
+                worker_path.write_text(json.dumps(worker))
+                launch_path.write_text(json.dumps(launch))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        worker_path.write_bytes(worker_original)
+        launch_path.write_bytes(launch_original)
 
     def test_unquantified_rate_replaced_with_zero_is_rejected(self):
         path = self.recursive / 'renewal/oxide-isotope-constraints/rates.csv'

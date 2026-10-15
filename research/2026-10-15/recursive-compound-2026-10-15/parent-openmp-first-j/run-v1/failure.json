@@ -1,0 +1,5 @@
+{
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-first-j/run.py\", line 244, in <module>\n    try:sys.exit(worker())\n                 ^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-first-j/run.py\", line 194, in worker\n    stage('setup_complete');require(not solvent._intermediates and solvent.surface is None,'PCM allocated during setup')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-first-j/run.py\", line 32, in require\n    if not value:raise ValueError(message)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: PCM allocated during setup\n",
+  "SCFs_launched": 0,
+  "physical_admission": false
+}

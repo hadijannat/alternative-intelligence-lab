@@ -1,0 +1,117 @@
+{
+  "audit_date": "2026-10-15",
+  "target_nominal": "[Mo(VI)34 W(VI) V(V) O112(H2O)16]9-",
+  "exact_target_established": false,
+  "source_findings": [
+    {
+      "id": "moussawi_2017_mo36",
+      "kind": "primary institutional thesis summary",
+      "primary_url": "https://www.uvsq.fr/%C2%AB-assemblages-a-base-de-polyoxometallates-des-interactions-fondamentales-aux-materiaux-hybrides-supramoleculaires-%C2%BB-par-mhamad-aly-moussawi",
+      "hal": "tel-01719282v1",
+      "nnt": "2017SACLV078",
+      "thesis_doi": "10.70675/0c7d0a8azeb8bz4b8fzb5c0zc6a013ac8438",
+      "locator": "English abstract first paragraph; summary PDF page 2",
+      "ordinary_mo36_explicit": true,
+      "parent_formula_as_reported": "[Mo36O112(H2O)16]8-",
+      "reported_w_preference": "central heptacoordinated site of pentagonal unit",
+      "topology_preserving_claim_level": "author abstract report; no derivative coordinate validation",
+      "w_loading": null,
+      "refined_w_occupancy": null,
+      "substituted_salt_formula": null,
+      "derivative_cif": null,
+      "protonation_assignment": null,
+      "quantified_solution_stability": null,
+      "v_substitution_reported": false,
+      "exact_target_supported": false,
+      "local_summary_pdf": "raw/uvsq2017.pdf",
+      "full_thesis_acquired": false,
+      "limitation": "Summary lists NMR/XRD/EXAFS but does not assign specific measurements or uncertainties to Mo36."
+    },
+    {
+      "id": "sanchez_sanchez_2012",
+      "kind": "primary manuscript and SI already retained",
+      "doi": "10.1002/anie.201200746",
+      "primary_url": "https://pure.mpg.de/rest/items/item_1849723/component/file_1854326/content",
+      "locator": "SI sections 4.1 and 4.2, printed pp.11-12, Figure S5",
+      "evidence_tier": "tentative Raman assignment in a solution/solid hydrothermal mixture",
+      "nb_cluster_notation": "{Mo36-xNbxO112}",
+      "v_substitution_reported": "tentative partial substitution assignment, not refined occupancy",
+      "isolated_v_mo36_structure": false,
+      "exact_target_supported": false
+    },
+    {
+      "id": "dieterle_2001",
+      "kind": "primary doctoral thesis",
+      "title": "In Situ Resonance Raman Studies of Molybdenum Oxide Based Selective Oxidation Catalysts",
+      "author": "Martin Dieterle",
+      "institution": "Technische Universität Berlin",
+      "defense_date": "2001-03-20",
+      "primary_url": "https://pure.mpg.de/rest/items/item_741372/component/file_741371/content",
+      "locator": "Section 5.2.7.1; printed pp.163-165; PDF pp.172-174; Figure5.18",
+      "local_pdf": "raw/mpg-movw-thesis.pdf",
+      "w_incorporation_status": "explicitly unresolved because of low concentration and lower Raman cross section",
+      "v_incorporation_status": "minor incorporation inferred across mixed solution population; no Mo36-specific occupancy",
+      "mo36_assignment": "tentative mixed Mo36-related species",
+      "exact_target_supported": false,
+      "negative_scope": "Feed composition does not establish a defined mixed cluster; not a failed synthesis of the proposed exact target."
+    },
+    {
+      "id": "soleil_2018_oc21",
+      "kind": "primary conference abstract indexed online",
+      "title": "Evidencing the Mo/W Regioselectivity at the Pentagonal Motifs within Giant Polyoxometalates",
+      "primary_url": "https://www.synchrotron-soleil.fr/en/file/9820/download",
+      "locator": "OC-21; 13th SOLEIL Users Meeting, January18-19 2018",
+      "evidence_tier": "indexed primary abstract; direct PDF acquisition failed404",
+      "ordinary_mo36_explicit": false,
+      "claim": "central W in mixed Mo/W pentagonal units supported by diffraction and EXAFS",
+      "exact_target_supported": false
+    }
+  ],
+  "relationship_to_existing_bvs": {
+    "new_calculation": false,
+    "w_best_labels_previously_reported": [
+      "Mo8@0",
+      "Mo8@2"
+    ],
+    "previous_coordination": 7,
+    "qualitatively_compatible": true,
+    "exact_source_to_parent_site_map_established": false
+  },
+  "access_failures": [
+    {
+      "route": "HAL document endpoint, direct file endpoint, and theses.fr PDF redirect",
+      "observed": "HTTP200 text/html anti-bot pages; not PDFs",
+      "retained_in": "acquisition.json"
+    },
+    {
+      "route": "HAL versioned file via web tool",
+      "observed": "Anubis access denied"
+    },
+    {
+      "route": "CUA in-app browser",
+      "observed": "Browser is not available: iab"
+    },
+    {
+      "route": "CUA Chrome",
+      "observed": "Automation blocked because another extension UI is open; no UI dismissal attempted"
+    },
+    {
+      "route": "HAL public API field documentation",
+      "observed": "No fulltext field found; API metadata contains abstract, no recovered chapter text"
+    },
+    {
+      "route": "MPG thesis via web tool",
+      "observed": "403 reported by web; subsequent ordinary HTTPS acquisition succeeded and PDF verified"
+    }
+  ],
+  "bounded_queries_this_resume": [
+    "\"74668_MOUSSAWI_2017_archivage.pdf\"",
+    "\"Moussawi\" \"Mo36\" tungsten",
+    "\"Mo36\" \"W\" \"Moussawi\" occupancy",
+    "\"2017SACLV078\"",
+    "\"Moussawi\" \"Regioselectivity\"",
+    "\"Moussawi\" \"Krebs\""
+  ],
+  "search_absence_interpretation": "No exact target or refined V occupancy found in inspected sources; not proof of novelty or impossibility.",
+  "numerical_chemistry_jobs_run": 0
+}

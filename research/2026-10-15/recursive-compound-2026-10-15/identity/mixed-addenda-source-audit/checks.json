@@ -1,0 +1,75 @@
+{
+  "source_record_count": 9,
+  "retained_raw_file_count": 8,
+  "all_hashes_match": true,
+  "all_byte_counts_match": true,
+  "verified_pdf_count": 2,
+  "records": [
+    {
+      "filename": "uvsq2017.html",
+      "bytes": 142924,
+      "sha256": "caf3c63d23852341f7762a54816bbb0519bb18b6cba06db9627805d982315050",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "uvsq2017.pdf",
+      "bytes": 88265,
+      "sha256": "179bda8c7259ed201fd8540a717f41b8ea94cc68aaaa103f8f8fed72695a6356",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": true,
+      "pdf_pages": 3
+    },
+    {
+      "filename": "hal-query.json",
+      "bytes": 1691,
+      "sha256": "95fc8833981c027d09ee0a1c739f7ba76c094ddd7e046a610863bbf547a68103",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "moussawi2017-blocked.html",
+      "bytes": 12504,
+      "sha256": "d6a791d0469ae28d875096bc37f695239090f050ca86ddca8e346e711c689770",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "hal-thesis-metadata.json",
+      "bytes": 50982,
+      "sha256": "a55cc5c39f2984acf6160e0ce3be7ec0add494d3b52de030c07cdd495022077f",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "moussawi2017-theses-blocked.html",
+      "bytes": 12501,
+      "sha256": "8aeafefec9e5fea0d1c9bc45e46a7b544da732f0f35950cab3753dc8ecf1cffd",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "moussawi2017-hal-file.response",
+      "bytes": 12504,
+      "sha256": "47ef5038ceef47170b1888dd5b35c65143feeb8388cdc123c7b79fc32eddce76",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": false
+    },
+    {
+      "filename": "mpg-movw-thesis.pdf",
+      "bytes": 2837632,
+      "sha256": "8b3c2e7e207d0c3c2a2f24cdaf2890c66de909063e3c12cbdd654d36f792fb04",
+      "hash_matches_record": true,
+      "bytes_match_record": true,
+      "pdf_magic": true,
+      "pdf_pages": 198
+    }
+  ]
+}

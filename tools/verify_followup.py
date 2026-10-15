@@ -372,15 +372,46 @@ def verify_openmp_renewal(recursive, case_names):
         checks.extend(item['checks'])
     assert len(checks) == 529 and all(check['pass'] is True for check in checks)
     assert len([path for path in run.rglob('scf-*') if path.is_dir()]) == 1
-    pending = recursive / 'parent-openmp-first-j'
-    preparation = json.loads((pending / 'preparation.json').read_text())
-    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
-    assert preparation['parent_molecule_built'] is False
-    assert preparation['J_calls'] == preparation['SCFs_launched'] == 0
-    assert preparation['density']['shape'] == [3068, 3068]
-    assert preparation['density']['cycle'] == 0
-    for name in ('independent-root-review.json', 'run-v1'):
-        assert not (pending / name).exists()
+    for campaign in ('parent-openmp-first-j', 'parent-openmp-first-j-v2'):
+        base = recursive / campaign
+        preparation = json.loads((base / 'preparation.json').read_text())
+        assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+        assert preparation['parent_molecule_built'] is False
+        assert preparation['J_calls'] == preparation['SCFs_launched'] == 0
+        assert preparation['density']['shape'] == [3068, 3068]
+        assert preparation['density']['cycle'] == 0
+        run = base / 'run-v1'
+        launch = json.loads((run / 'launch-result.json').read_text())
+        assert launch['receipt'] == json.loads((run / 'supervisor.json').read_text())
+        assert launch['gate_unchanged'] is True and launch['gate_error'] is None
+        assert launch['maximum_children'] == launch['maximum_J_calls'] == 1
+        assert launch['maximum_SCFs'] == 0
+        assert launch['physical_admission'] is False and launch['parent_SCF_readiness'] is False
+        assert launch['receipt']['termination_reason'] is None and launch['receipt']['monitor_error'] is None
+        if campaign == 'parent-openmp-first-j':
+            assert launch['status'] == 'INCOMPLETE_OR_FAILED_FIRST_J'
+            assert launch['receipt']['returncode'] == 1 and launch['worker_result'] == {}
+            assert launch['J_sha256_observed'] is None
+            failure = json.loads((run / 'failure.json').read_text())
+            assert 'ValueError: PCM allocated during setup' in failure['exception']
+            assert failure['SCFs_launched'] == 0 and failure['physical_admission'] is False
+            assert not (run / 'result.json').exists() and not (run / 'J.npy').exists()
+        else:
+            assert launch['status'] == 'PASS_BOUNDED_FIRST_J_ONLY'
+            assert launch['receipt']['returncode'] == 0
+            assert launch['worker_result_error'] is None and launch['J_hash_error'] is None
+            worker = json.loads((run / 'result.json').read_text())
+            assert launch['worker_result'] == worker
+            assert worker['status'] == 'PASS_BOUNDED_FIRST_J_ONLY'
+            assert worker['J_calls'] == 1 and worker['SCFs_launched'] == 0
+            assert worker['J_sha256'] == launch['J_sha256_observed']
+            assert len(worker['J_sha256']) == 64
+            assert worker['physical_admission'] is False and worker['parent_SCF_readiness'] is False
+            assert worker['whole_SCF_performance_claim'] is False
+            assert worker['checks'] == json.loads((run / 'checks.json').read_text())
+            assert set(worker['checks']) == {'J_shape', 'J_finite', 'J_symmetric', 'one_J', 'one_factor',
+                'no_ERI', 'no_3index', 'metric_cd', 'metric_shape', 'factor_immutable_Fortran', 'auxbasis', 'no_PCM'}
+            assert all(value is True for value in worker['checks'].values())
 
     oxide = recursive / 'renewal/oxide-isotope-constraints'
     analysis = json.loads((oxide / 'analysis.json').read_text())
@@ -427,6 +458,35 @@ def verify_openmp_renewal(recursive, case_names):
     control = manganese['phosphate_free_control']
     assert control['detection_limit'] is None
     assert control['reaction_rate_inferred_zero'] is False and control['catalytic_renewal_measured'] is False
+    mixed = json.loads((recursive / 'identity/mixed-addenda-source-audit/evidence.json').read_text())
+    assert mixed['exact_target_established'] is False and mixed['numerical_chemistry_jobs_run'] == 0
+    findings = mixed['source_findings']
+    assert len(findings) == 4 and all(finding['exact_target_supported'] is False for finding in findings)
+    tungsten = next(finding for finding in findings if finding['id'] == 'moussawi_2017_mo36')
+    for key in ('w_loading', 'refined_w_occupancy', 'derivative_cif', 'quantified_solution_stability'):
+        assert tungsten[key] is None
+    assert tungsten['full_thesis_acquired'] is False
+    assert mixed['relationship_to_existing_bvs']['new_calculation'] is False
+    assert mixed['relationship_to_existing_bvs']['exact_source_to_parent_site_map_established'] is False
+    receiver = json.loads((recursive / 'renewal/receiver-function-audit/constraints.json').read_text())
+    assert receiver['status'] == 'RETROSPECTIVE_RECEIVER_FUNCTION_CONSTRAINTS'
+    assert receiver['candidate_role_count_added'] == receiver['verified_integrated_complements_added'] == 0
+    positive = receiver['positive_control']
+    assert positive['water_rinse'] is True and positive['oxygen_two_point_calibration'] is True
+    assert positive['quantitative_rinse_carryover_bound'] is None
+    for key in ('independent_atom_count', 'deposit_stable_during_assay', 'exclusive_surface_catalysis_proven'):
+        assert positive[key] is False
+    assert receiver['negative_control']['post_transfer_oxygen_nondetection_claim'] is False
+    assert receiver['negative_control']['transient_heterogeneous_catalysis_excluded'] is False
+    assert receiver['comparison_2011']['washed_deposit_product_quantification_verified'] is False
+    accounting = receiver['conditional_activity_equivalent_accounting']
+    assert accounting['measured_conversion_fractions'] is False
+    assert accounting['exact_per_active_site_rates_inferred'] is False
+    for key in ('target_identity_verified', 'target_renewal_verified', 'functional_inheritance_verified',
+                'shared_target_medium_verified', 'graph_digitization', 'heldout_target_validation',
+                'raw_measurement_arrays_acquired'):
+        assert receiver['limits'][key] is False
+    assert receiver['limits']['physical_experiments'] == receiver['limits']['fitted_models'] == 0
 
 
 if __name__ == '__main__':

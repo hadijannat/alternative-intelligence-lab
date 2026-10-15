@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: completed runtime qualification and prepared first-J diagnostic
+## Current research: one parent J completed; new structural and receiver constraints
+
+Previous turn made publication progress at remote-verifiedf34d43e, not chemical-function progress. This continuation launched the reviewed parent first-J once: setup failed in10.324s because a native empty-dictionary PCM state was incorrectly rejected. That failure remains immutable. A separate v2 exact-state correction passed16tests and independent review, froze172pins, and launched once. Authoritative session20337 exited0: PASS_BOUNDED_FIRST_J_ONLY,12checks,oneJ240.320929s,child251.532840s,sampledmaxRSS3432890368bytes,zeroSCF. Jhash88f8f78f3d371295cc5834db043d9c9223819132a35251dc536b56903c2fb007. No parentSCF or targetphysicalresult is established.
+
+New primary evidence reports W substitution in ordinaryMo36 with central seven-coordinate preference; exact occupancy/V/targetspeciation remain unresolved. Separate washedfreshCoOx controls demonstrate measuredO2 production after transfer, while POM-transfer negatives, dissolution, carryover and approximate active-impurity accounting remain explicit. All sourcehashes and conditional arithmetic were independently checked. No new candidate-role count or integratedadmission:22/0.
+
+Next numerical step is qualification of a one-use exact saved-J handoff and PCM/metric allocation lifetimes, followed only then by a separately boundedSCF. Empirical identity, same-medium compatibility, founder-bounded functionalinheritance and jointadaptation remain missing. Current research is local; earlier publication is unchanged. The fullgoal remainsactive.
+
+The entries below are historical checkpoints.
+
+## Previous publication checkpoint: completed runtime qualification and prepared first-J diagnostic
 
 The user requested commit and push of the current changes to main. OpenMP v2 is now terminal PASS_RETROSPECTIVE_RUNTIME_EQUIVALENCE: 529 checks across fourteen operator children and one small-reference SCF, with 2524 pins unchanged. Independent saved-array review supports the available comparisons while retaining the missing W/V oracle-q/V and delta/zero-J arrays as a reconstruction limitation. This is retrospective numerical evidence, with no fresh held-out target validation, parent feasibility or physical admission established. The original runtime FAIL remains preserved.
 

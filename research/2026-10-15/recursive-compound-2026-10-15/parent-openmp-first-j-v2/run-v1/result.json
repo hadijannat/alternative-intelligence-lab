@@ -1,0 +1,25 @@
+{
+  "status": "PASS_BOUNDED_FIRST_J_ONLY",
+  "checks": {
+    "J_shape": true,
+    "J_finite": true,
+    "J_symmetric": true,
+    "one_J": true,
+    "one_factor": true,
+    "no_ERI": true,
+    "no_3index": true,
+    "metric_cd": true,
+    "metric_shape": true,
+    "factor_immutable_Fortran": true,
+    "auxbasis": true,
+    "no_PCM": true
+  },
+  "first_J_seconds": 240.32092929200735,
+  "J_max_asymmetry": 0.0,
+  "J_calls": 1,
+  "SCFs_launched": 0,
+  "J_sha256": "88f8f78f3d371295cc5834db043d9c9223819132a35251dc536b56903c2fb007",
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "whole_SCF_performance_claim": false
+}

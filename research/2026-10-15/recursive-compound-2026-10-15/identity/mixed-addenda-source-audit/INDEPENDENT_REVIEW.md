@@ -1,0 +1,7 @@
+# Root source and scope review
+
+Root independently opened the official UVSQ summary and read its English paragraph distinguishing ordinary Krebs Mo36 from the Keplerate and Mo154 examples. It explicitly reports central seven-coordinate W preference. This is author-summary evidence; exact composition, occupancy and persistence are absent. Root also inspected the existing site-score CSV: Mo8 inversion copies are seven-coordinate and W rank1; Mo10 copies are seven-coordinate and rank3. The new summary is qualitatively compatible with the earlier screen, with no established source-to-parent atom mapping.
+
+Root rehashed all eight retained raw files against checks.json: all matched. Root independently extracted Dieterle PDF pages172-174. The author studies a nominal Mo/V/W60/30/10 mixture across titration conditions; the Mo36-related assignment appears below pH1.5 and remains tentative. The source explicitly cannot decide W incorporation. Its population-level V inference is not a Mo36-site occupancy or a test of the nominal34/1/1 target. This negative evidence rejects equating a mixed feed with a demonstrated single-cluster identity, without establishing target impossibility.
+
+No physical admission, exact derivative identity, novelty or life-function claim follows. The full Moussawi thesis remains inaccessible, and the SOLEIL indexed abstract remains a lead rather than a recovered dataset. No new numerical chemistry was run for this audit.
