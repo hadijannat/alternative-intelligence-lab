@@ -1,0 +1,9 @@
+# Runtime qualification failed its provenance gate
+
+The frozen first campaign is terminal FAIL, launcher session62408 exit1. All fourteen operator children finished. Its520 numerical checks passed, but four W/V children were marked ERROR because their post-operation runtime inventories differed from preparation. The single SCF was correctly skipped. No parent calculation was launched. The parent process's original pin comparison remained true; this does not override failed child inventories.
+
+Root reproduced the change in a separate metadata-only process: compute the manifest, import the existing W/V source parser and call verified_sources(), then recompute the manifest. This loads two previously absent standard-library extensions inside the isolated environment: `_elementtree.cpython-312-darwin.so` and `pyexpat.cpython-312-darwin.so`. No pinned file content changed or disappeared; original and driver maps remained equal. No operator or SCF was evaluated in this diagnosis.
+
+The runtime inventory included numerical package binaries and currently loaded binaries, but omitted unloaded standard-library extension binaries. The XML parser therefore changed the inventory after preparation. This is a provenance-coverage defect, not evidence of chemical failure or numerical equivalence qualification. Its complete frozen preparation, arrays, checks and failed receipts remain preserved.
+
+A separate v2 campaign may freeze the standard-library extension binaries in advance and repeat the same retrospective checks. Numerical tolerances, geometries, initial densities and scientific implementation must remain unchanged. A repaired pass cannot retroactively change this campaign's FAIL or become a fresh holdout. The prior parent900second failures and target uncertainties remain unresolved.

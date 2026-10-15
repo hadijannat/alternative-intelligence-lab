@@ -1,0 +1,22 @@
+{
+  "command": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/bin/micromamba",
+    "create",
+    "--no-rc",
+    "-y",
+    "-p",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned",
+    "--file",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/aligned-explicit-spec.txt"
+  ],
+  "environment_overrides": {
+    "MAMBA_ROOT_PREFIX": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/mamba-root",
+    "CONDA_PKGS_DIRS": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/pkgs",
+    "TMPDIR": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/tmp",
+    "XDG_CACHE_HOME": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/cache"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 16.12306687491946,
+  "max_sampled_logical_bytes": 1756830681,
+  "termination_reason": null
+}

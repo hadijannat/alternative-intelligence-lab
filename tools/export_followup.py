@@ -51,6 +51,12 @@ def strip_signed_urls(text):
 def exclusion(rel, directory=False):
     parts = tuple(part.lower() for part in rel.parts)
     name = rel.name.lower()
+    if parts[:2] == ('recursive-compound-2026-10-15', 'parent-openmp'):
+        if len(parts) > 2 and (parts[2] in {'env', 'pkgs', 'cache', 'tmp', 'bin'}
+                               or parts[2].startswith('env-')):
+            return 'isolated runtime, package cache, or downloaded executable subtree'
+        if name == 'conda-pyscf-metadata.json':
+            return 'third-party package registry snapshot; authored runtime receipts retained'
     if rel.as_posix() == 'recursive-compound-2026-10-15/published-parent/item.html':
         return 'acquired repository landing page; provenance URL and hash retained'
     if rel.suffix.lower() == '.xyz' and rel.as_posix() not in COORDINATES:

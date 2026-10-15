@@ -1,0 +1,150 @@
+{
+  "case": "WO4",
+  "phase": "operators",
+  "SCFs_launched": 0,
+  "checks": [
+    {
+      "name": "initial/saved_J",
+      "value": 1.794120407794253e-13,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "initial/oracle_energy",
+      "value": 1.3877787807814457e-17,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "initial/oracle_V",
+      "value": 2.7755575615628914e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "initial/oracle_q",
+      "value": 3.8163916471489756e-17,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "perturbed/saved_J",
+      "value": 1.4210854715202004e-13,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "perturbed/oracle_energy",
+      "value": 1.3877787807814457e-17,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "perturbed/oracle_V",
+      "value": 3.0531133177191805e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "perturbed/oracle_q",
+      "value": 3.686287386450715e-17,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/saved_J",
+      "value": 2.5934809855243657e-13,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/oracle_energy",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/oracle_V",
+      "value": 6.661338147750939e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/oracle_q",
+      "value": 6.418476861114186e-17,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/saved_PCM_V",
+      "value": 9.992007221626409e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/saved_PCM_q",
+      "value": 1.025221574302293e-15,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/saved_J",
+      "value": 1.238453783969362e-13,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/oracle_energy",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/oracle_V",
+      "value": 4.996003610813204e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/oracle_q",
+      "value": 1.0148132334464322e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/saved_PCM_V",
+      "value": 6.106226635438361e-16,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/saved_PCM_q",
+      "value": 1.096345236817342e-15,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "J_additivity",
+      "value": 5.435651928564766e-13,
+      "limit": 1e-09,
+      "pass": true
+    },
+    {
+      "name": "J_zero",
+      "value": 0.0,
+      "limit": 1e-09,
+      "pass": true
+    },
+    {
+      "name": "storage_contract_violated",
+      "value": 0.0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "fresh_holdout": false,
+  "physical_admission": false,
+  "status": "ERROR",
+  "threads": 1,
+  "runtime_guard_pass": false
+}

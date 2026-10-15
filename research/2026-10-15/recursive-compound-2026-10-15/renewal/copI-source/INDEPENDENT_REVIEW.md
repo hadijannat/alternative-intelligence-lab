@@ -1,0 +1,7 @@
+# Root source and arithmetic review
+
+Root independently read the acquired primary SI pages S2-S4 and S7-S8 after the research agent's extraction. Table S1 explicitly concerns radioactivity removed in aliquots. S4 reports separate open-circuit leaching values of 1.6% and 1.3% after 30 h for Co-Pi, and 0.18% and 0.16% after 6 h for Co-X. The two-standard-deviation counting statement and approximate between-run error describe different uncertainty sources.
+
+The S7-S8 approximate 0.25% to 0.05% change is a 0.20-percentage-point decline, about 80% of the small solution pool. The electrode-removal control supports electrode-associated uptake within the tested conditions. It does not identify a positive fraction of newly competent catalyst. The final S8 reference to Figure S3a remains a cross-reference ambiguity; no correction is silently inserted.
+
+The reported lower bound of zero is the trivial nonnegative bound, not a measured absence of renewal. Upper bounds, founder organization and new-material activity remain unidentified. The approximately 98% complement of the cobalt-leaching percentage is not a molecular or functional survival fraction. No target experiment, held-out validation or fixed material stoichiometry is supported. Root accepts role22 as a component comparator with zero verified integrated additions. Main-article bytes and raw counting time series remain unavailable.

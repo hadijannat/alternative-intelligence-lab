@@ -1,0 +1,290 @@
+{
+  "argv": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-qualification/run.py",
+    "--worker",
+    "1",
+    "operators",
+    "heldout-Mo2O7"
+  ],
+  "pid": 43868,
+  "returncode": 0,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 14.107224749983288,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 309329920,
+  "samples": [
+    {
+      "elapsed_seconds": 0.00620595901273191,
+      "rss_bytes": 7503872
+    },
+    {
+      "elapsed_seconds": 0.21746283397078514,
+      "rss_bytes": 74563584
+    },
+    {
+      "elapsed_seconds": 0.429287959006615,
+      "rss_bytes": 121208832
+    },
+    {
+      "elapsed_seconds": 0.6356247499352321,
+      "rss_bytes": 232046592
+    },
+    {
+      "elapsed_seconds": 0.8478180839447305,
+      "rss_bytes": 237731840
+    },
+    {
+      "elapsed_seconds": 1.0595470420084894,
+      "rss_bytes": 266272768
+    },
+    {
+      "elapsed_seconds": 1.271137208910659,
+      "rss_bytes": 272252928
+    },
+    {
+      "elapsed_seconds": 1.482106624986045,
+      "rss_bytes": 273022976
+    },
+    {
+      "elapsed_seconds": 1.6899023340083659,
+      "rss_bytes": 275906560
+    },
+    {
+      "elapsed_seconds": 1.8988079169066623,
+      "rss_bytes": 276742144
+    },
+    {
+      "elapsed_seconds": 2.1071035839850083,
+      "rss_bytes": 277184512
+    },
+    {
+      "elapsed_seconds": 2.317564833909273,
+      "rss_bytes": 277364736
+    },
+    {
+      "elapsed_seconds": 2.529726209002547,
+      "rss_bytes": 277168128
+    },
+    {
+      "elapsed_seconds": 2.7364875419298187,
+      "rss_bytes": 277708800
+    },
+    {
+      "elapsed_seconds": 2.9478687499649823,
+      "rss_bytes": 277708800
+    },
+    {
+      "elapsed_seconds": 3.1570892919553444,
+      "rss_bytes": 282296320
+    },
+    {
+      "elapsed_seconds": 3.3651924589648843,
+      "rss_bytes": 282394624
+    },
+    {
+      "elapsed_seconds": 3.573762624990195,
+      "rss_bytes": 282394624
+    },
+    {
+      "elapsed_seconds": 3.7855089999502525,
+      "rss_bytes": 282443776
+    },
+    {
+      "elapsed_seconds": 3.9974417500197887,
+      "rss_bytes": 282689536
+    },
+    {
+      "elapsed_seconds": 4.207097416976467,
+      "rss_bytes": 282558464
+    },
+    {
+      "elapsed_seconds": 4.416702374932356,
+      "rss_bytes": 282558464
+    },
+    {
+      "elapsed_seconds": 4.628533334005624,
+      "rss_bytes": 282574848
+    },
+    {
+      "elapsed_seconds": 4.840470750001259,
+      "rss_bytes": 282755072
+    },
+    {
+      "elapsed_seconds": 5.052178583922796,
+      "rss_bytes": 283279360
+    },
+    {
+      "elapsed_seconds": 5.263489958946593,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 5.473758124979213,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 5.683538042008877,
+      "rss_bytes": 286556160
+    },
+    {
+      "elapsed_seconds": 5.8957535839872435,
+      "rss_bytes": 286670848
+    },
+    {
+      "elapsed_seconds": 6.107337999972515,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 6.318863999913447,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 6.528948999941349,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 6.740426249918528,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 6.948758916929364,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 7.157088459003717,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 7.365422458969988,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 7.576950958929956,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 7.788332291995175,
+      "rss_bytes": 286556160
+    },
+    {
+      "elapsed_seconds": 8.000182083924301,
+      "rss_bytes": 286670848
+    },
+    {
+      "elapsed_seconds": 8.210415791952983,
+      "rss_bytes": 286539776
+    },
+    {
+      "elapsed_seconds": 8.422504666959867,
+      "rss_bytes": 286752768
+    },
+    {
+      "elapsed_seconds": 8.634079749928787,
+      "rss_bytes": 286752768
+    },
+    {
+      "elapsed_seconds": 8.845545874908566,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 9.05708620895166,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 9.268730291980319,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 9.480551459011622,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 9.69048266694881,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 9.900167749961838,
+      "rss_bytes": 286867456
+    },
+    {
+      "elapsed_seconds": 10.107089416938834,
+      "rss_bytes": 286982144
+    },
+    {
+      "elapsed_seconds": 10.318197791930288,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 10.52994595898781,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 10.741511499974877,
+      "rss_bytes": 286851072
+    },
+    {
+      "elapsed_seconds": 10.953097458928823,
+      "rss_bytes": 287064064
+    },
+    {
+      "elapsed_seconds": 11.165252625010908,
+      "rss_bytes": 287096832
+    },
+    {
+      "elapsed_seconds": 11.377333499956876,
+      "rss_bytes": 287096832
+    },
+    {
+      "elapsed_seconds": 11.585331958951429,
+      "rss_bytes": 287096832
+    },
+    {
+      "elapsed_seconds": 11.797308999928646,
+      "rss_bytes": 287113216
+    },
+    {
+      "elapsed_seconds": 12.00902395893354,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 12.22082849999424,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 12.432695625000633,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 12.640415833913721,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 12.851251167012379,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 13.063069499912672,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 13.274905124912038,
+      "rss_bytes": 289128448
+    },
+    {
+      "elapsed_seconds": 13.4813899169676,
+      "rss_bytes": 289161216
+    },
+    {
+      "elapsed_seconds": 13.690415291930549,
+      "rss_bytes": 289161216
+    },
+    {
+      "elapsed_seconds": 13.898828041972592,
+      "rss_bytes": 309329920
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import build_archive as archive
 from export_followup import LABS, exclusion, export, strip_signed_urls
-from verify_followup import verify_memory_followup
+from verify_followup import verify_memory_followup, verify_openmp_renewal
 
 
 class PublicationSelection(unittest.TestCase):
@@ -32,6 +32,48 @@ class PublicationSelection(unittest.TestCase):
 
     def test_negative_audit_retained(self):
         self.assertIsNone(exclusion(Path('rna-seed-transport-2026-10-15/independent/campaign-v1/checks.json')))
+
+    def test_openmp_dependencies_excluded_at_subtree_boundary(self):
+        base = Path('recursive-compound-2026-10-15/parent-openmp')
+        for name in ('env', 'env-aligned', 'env-future', 'pkgs', 'cache', 'tmp', 'bin'):
+            with self.subTest(name=name):
+                self.assertTrue(exclusion(base / name, directory=True))
+                self.assertTrue(exclusion(base / name / 'metadata.json'))
+        for name in ('conda-pyscf-metadata.json', 'micromamba.tar.bz2'):
+            self.assertTrue(exclusion(base / name))
+        for name in ('ALIGNED_REPORT.md', 'guard-aligned.py', 'probe-aligned.py',
+                     'aligned-install-receipt.json', 'aligned-source-binary-pins.json',
+                     'aligned-probe-result.json', 'bootstrap.json'):
+            self.assertIsNone(exclusion(base / name))
+
+    def test_renewal_sources_excluded_and_authored_constraints_retained(self):
+        base = Path('recursive-compound-2026-10-15/renewal')
+        for folder in ('copI-source', 'mo-blue-route'):
+            for name in ('raw/ja900023k_si_001.pdf', 'raw/ja3c09344_si_001.pdf',
+                         'raw/figshare-2869057.json', 'si-text.txt'):
+                self.assertTrue(exclusion(base / folder / name))
+            for name in ('REPORT.md', 'analysis.json', 'audit.py', 'SOURCES.json'):
+                self.assertIsNone(exclusion(base / folder / name))
+
+    def test_export_prunes_runtime_trees_and_keeps_failure(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source, output = Path(temporary) / 'source', Path(temporary) / 'published'
+            for lab in LABS:
+                (source / lab).mkdir(parents=True)
+            base = Path('recursive-compound-2026-10-15')
+            runtime = base / 'parent-openmp/env-aligned'
+            (source / runtime).mkdir(parents=True)
+            (source / runtime / 'metadata.json').write_text('{invalid dependency payload')
+            failure = base / 'parent-openmp-qualification/run-v1/result.json'
+            (source / failure).parent.mkdir(parents=True)
+            (source / failure).write_text('{"status":"FAIL"}')
+            with contextlib.redirect_stdout(io.StringIO()):
+                export(source, output)
+            self.assertFalse((output / runtime).exists())
+            self.assertEqual(json.loads((output / failure).read_text()), {'status': 'FAIL'})
+            records = json.loads((output / 'manifest.json').read_text())['files']
+            record = next(r for r in records if r['path'] == str(runtime))
+            self.assertEqual((record['status'], record['scope']), ('excluded', 'subtree'))
 
     def test_historical_model_retained(self):
         self.assertIsNone(exclusion(Path('rna-turnover-tests-2026-10-15/results-v1/frozen/model.py')))
@@ -181,6 +223,65 @@ class PublicationSelection(unittest.TestCase):
             self.assertEqual(manifest['included_files'], 1)
             self.assertEqual(manifest['files'][0]['published_sha256'],
                              hashlib.sha256((output / rel).read_bytes()).hexdigest())
+
+
+class OpenMPRenewalVerification(unittest.TestCase):
+    case_names = {'anion-water', 'neutral-water', 'anion-eps1', 'heldout-Mo2O7', 'new-external'}
+
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.recursive = Path(temporary.name)
+        source = (Path(__file__).resolve().parents[1] / 'research/2026-10-15'
+                  / 'recursive-compound-2026-10-15')
+        for folder in ('renewal/copI-source', 'renewal/mo-blue-route',
+                       'parent-openmp-qualification', 'parent-openmp-qualification-v2'):
+            self.assertTrue((source / folder).is_dir(), folder)
+            for path in (source / folder).rglob('*'):
+                if path.is_file() and path.suffix in ('.json', '.py', '.md'):
+                    target = self.recursive / path.relative_to(source)
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(path.read_bytes())
+
+    def test_failure_and_unrun_repair_are_preserved(self):
+        verify_openmp_renewal(self.recursive, self.case_names)
+
+    def test_admission_and_result_mutations_are_rejected(self):
+        mutations = (
+            ('renewal/copI-source/assessment.json', 'admitted_to_assembly', True),
+            ('renewal/copI-source/assessment.json', 'retained_founder_organization_fraction', 0.98),
+            ('renewal/mo-blue-route/analysis.json', 'experimental_holdout', True),
+            ('renewal/mo-blue-route/analysis.json',
+             ('raman_normalization', 'absolute_species_mass_balance_identified'), True),
+            ('parent-openmp-qualification/run-v1/result.json', 'status', 'PASS'),
+            ('parent-openmp-qualification/run-v1/phase1-gate.json', 'SCFs_launched', 1),
+            ('parent-openmp-qualification/run-v1/threads-1/run-v1/operators-WO4/result.json',
+             'runtime_guard_pass', True),
+            ('parent-openmp-qualification/run-v1/threads-4/run-v1/operators-VO4/result.json',
+             ('checks', 0, 'pass'), False))
+        for name, key, value in mutations:
+            with self.subTest(name=name, key=key):
+                path = self.recursive / name
+                original = path.read_bytes()
+                data = json.loads(original)
+                keys = key if isinstance(key, tuple) else (key,)
+                target = data
+                for part in keys[:-1]:
+                    target = target[part]
+                target[keys[-1]] = value
+                path.write_text(json.dumps(data))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+                path.write_bytes(original)
+
+    def test_prepared_or_launched_v2_is_rejected(self):
+        for name in ('preparation.json', 'run-v1', 'pins.json'):
+            with self.subTest(name=name):
+                path = self.recursive / 'parent-openmp-qualification-v2' / name
+                path.write_text('{}')
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+                path.unlink()
 
 
 class MemoryFollowupVerification(unittest.TestCase):

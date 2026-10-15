@@ -1,0 +1,62 @@
+{
+  "argv": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-qualification/run.py",
+    "--worker",
+    "4",
+    "operators",
+    "WO4"
+  ],
+  "pid": 44560,
+  "returncode": 1,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 2.1215446670539677,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 265453568,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0056932090083137155,
+      "rss_bytes": 7307264
+    },
+    {
+      "elapsed_seconds": 0.21626949997153133,
+      "rss_bytes": 77922304
+    },
+    {
+      "elapsed_seconds": 0.42758408398367465,
+      "rss_bytes": 121487360
+    },
+    {
+      "elapsed_seconds": 0.639412209042348,
+      "rss_bytes": 229720064
+    },
+    {
+      "elapsed_seconds": 0.8515260419808328,
+      "rss_bytes": 238747648
+    },
+    {
+      "elapsed_seconds": 1.0617546250578016,
+      "rss_bytes": 248643584
+    },
+    {
+      "elapsed_seconds": 1.275211333995685,
+      "rss_bytes": 249544704
+    },
+    {
+      "elapsed_seconds": 1.485946667031385,
+      "rss_bytes": 249692160
+    },
+    {
+      "elapsed_seconds": 1.6981229999801144,
+      "rss_bytes": 252870656
+    },
+    {
+      "elapsed_seconds": 1.9098538750549778,
+      "rss_bytes": 265453568
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/df/df_jk.py",
+    "expected": "7f4e8c3a930b8f55d1656b0bd6d24dcca7fe365ba5de00cfcebcebf813347cee",
+    "actual": "7f4e8c3a930b8f55d1656b0bd6d24dcca7fe365ba5de00cfcebcebf813347cee",
+    "matches": true
+  },
+  {
+    "path": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/solvent/pcm.py",
+    "expected": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed",
+    "actual": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed",
+    "matches": true
+  },
+  {
+    "path": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_decomp_cholesky.py",
+    "expected": "8049dead6bf409e4e0d45cefb9c3d0e05974fc6df8c3f735d74cf97c48a83f91",
+    "actual": "8049dead6bf409e4e0d45cefb9c3d0e05974fc6df8c3f735d74cf97c48a83f91",
+    "matches": true
+  },
+  {
+    "path": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/gto/basis/def2-universal-jkfit.dat",
+    "expected": "8970edf068a6010954535eb2b1ee978900dbea989b20e305c730dabb0298de5a",
+    "actual": "8970edf068a6010954535eb2b1ee978900dbea989b20e305c730dabb0298de5a",
+    "matches": true
+  }
+]

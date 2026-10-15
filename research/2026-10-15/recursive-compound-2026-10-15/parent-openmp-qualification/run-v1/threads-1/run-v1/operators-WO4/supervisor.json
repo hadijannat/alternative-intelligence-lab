@@ -1,0 +1,82 @@
+{
+  "argv": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-qualification/run.py",
+    "--worker",
+    "1",
+    "operators",
+    "WO4"
+  ],
+  "pid": 44150,
+  "returncode": 1,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 3.177724124980159,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 269385728,
+  "samples": [
+    {
+      "elapsed_seconds": 0.006397249992005527,
+      "rss_bytes": 7389184
+    },
+    {
+      "elapsed_seconds": 0.21753679192624986,
+      "rss_bytes": 72810496
+    },
+    {
+      "elapsed_seconds": 0.4254263750044629,
+      "rss_bytes": 117473280
+    },
+    {
+      "elapsed_seconds": 0.636876416974701,
+      "rss_bytes": 196837376
+    },
+    {
+      "elapsed_seconds": 0.8494394589215517,
+      "rss_bytes": 250937344
+    },
+    {
+      "elapsed_seconds": 1.0617034169845283,
+      "rss_bytes": 251248640
+    },
+    {
+      "elapsed_seconds": 1.2788724589627236,
+      "rss_bytes": 253755392
+    },
+    {
+      "elapsed_seconds": 1.4905487499199808,
+      "rss_bytes": 255279104
+    },
+    {
+      "elapsed_seconds": 1.7022644999669865,
+      "rss_bytes": 255279104
+    },
+    {
+      "elapsed_seconds": 1.9140449999831617,
+      "rss_bytes": 255279104
+    },
+    {
+      "elapsed_seconds": 2.1257664168952033,
+      "rss_bytes": 255852544
+    },
+    {
+      "elapsed_seconds": 2.337611833936535,
+      "rss_bytes": 255918080
+    },
+    {
+      "elapsed_seconds": 2.549359874916263,
+      "rss_bytes": 255852544
+    },
+    {
+      "elapsed_seconds": 2.7587109999731183,
+      "rss_bytes": 260046848
+    },
+    {
+      "elapsed_seconds": 2.9706438339781016,
+      "rss_bytes": 269385728
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

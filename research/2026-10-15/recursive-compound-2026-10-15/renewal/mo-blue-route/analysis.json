@@ -1,0 +1,90 @@
+{
+  "status": "SOURCE_METHOD_CONSTRAINTS_ONLY",
+  "source_doi": "10.1021/jacs.3c09344.s001",
+  "source_sha256": "693c8723f09a0d9c4bb96131c60172f575c21c986047556637cbcdd2e53d64fa",
+  "source_scope": "Acquired supporting information only; main article not acquired",
+  "nominal_control_recipe": {
+    "page": 8,
+    "solution_volume_mL": 15,
+    "printed_Na2MoO4_g_mL": 1,
+    "printed_H2SO4_M": 1,
+    "H_equivalents_per_H2SO4_assumed_for_nominal_ratio": 2,
+    "rows": [
+      {
+        "H2SO4_volume_mL": 3.9,
+        "stated_nominal_H_per_Mo": 1.25,
+        "implied_Na2MoO4_formula_unit_mass_g_mol": 2403.846153846154
+      },
+      {
+        "H2SO4_volume_mL": 4.68,
+        "stated_nominal_H_per_Mo": 1.5,
+        "implied_Na2MoO4_formula_unit_mass_g_mol": 2403.846153846154
+      },
+      {
+        "H2SO4_volume_mL": 6.25,
+        "stated_nominal_H_per_Mo": 2.0,
+        "implied_Na2MoO4_formula_unit_mass_g_mol": 2400.0
+      },
+      {
+        "H2SO4_volume_mL": 10.9,
+        "stated_nominal_H_per_Mo": 3.5,
+        "implied_Na2MoO4_formula_unit_mass_g_mol": 2408.256880733945
+      },
+      {
+        "H2SO4_volume_mL": 12.5,
+        "stated_nominal_H_per_Mo": 4.0,
+        "implied_Na2MoO4_formula_unit_mass_g_mol": 2400.0
+      }
+    ],
+    "recipe_consistency_resolved": false,
+    "interpretation": "Printed quantities imply about 2400 g/mol per Mo-containing formula unit. Ordinary anhydrous sodium molybdate or its dihydrate do not reconcile this; no source typo or hydration state is silently corrected."
+  },
+  "raman_normalization": {
+    "page": 9,
+    "each_species_own_maximum_percent": 100,
+    "cross_species_response_calibration_supplied": false,
+    "absolute_species_mass_balance_identified": false,
+    "sampling_side": "UNRESOLVED: page8 says anolyte connection and cathode electrolytes"
+  },
+  "ESI_sampling": {
+    "page": 9,
+    "sample_to_acetonitrile_volume_ratio": [
+      1,
+      39
+    ],
+    "maximum_reported_standing_before_dilution_minutes": 30,
+    "total_scan_completion_delay_minutes": null,
+    "Mo36_route_sample_times_seconds": [
+      0,
+      280,
+      2000,
+      4000,
+      6000
+    ],
+    "unperturbed_operando_solution_identity_established": false
+  },
+  "source_apparatus": {
+    "pages": [
+      5,
+      7,
+      8
+    ],
+    "carbon_paper_electrodes": true,
+    "Nafion_115_membrane": true,
+    "IrO2_oxygen_evolution_catalyst": true,
+    "externally_supplied_flow_mL_min": 112,
+    "applied_current_density_mA_cm2": 2.5,
+    "geometric_electrode_area_cm2": 4
+  },
+  "target_renewal_verified": false,
+  "functional_inheritance_verified": false,
+  "new_candidate_role": false,
+  "experimental_holdout": false,
+  "new_fitted_models": 0,
+  "new_physical_experiments": 0,
+  "limits": [
+    "No raw spectral time series acquired.",
+    "Species-specific normalized Raman areas cannot be summed as concentrations.",
+    "Precursor deassembly and formation of different clusters do not establish original target repair."
+  ]
+}

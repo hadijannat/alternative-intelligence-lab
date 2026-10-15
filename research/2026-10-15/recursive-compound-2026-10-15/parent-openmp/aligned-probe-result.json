@@ -1,0 +1,62 @@
+{
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:35:20) [Clang 16.0.6 ]",
+  "executable": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+  "pyscf": "2.14.0",
+  "pyscf_path": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/__init__.py",
+  "numpy": "2.4.1",
+  "scipy": "1.18.1",
+  "h5py": "3.16.0",
+  "rows": [
+    {
+      "requested": 1,
+      "pyscf_threads": 1,
+      "parallel_region": [
+        {
+          "omp_team_size": 1,
+          "omp_thread_number": 0,
+          "python_thread_ident": 8540536704
+        }
+      ]
+    },
+    {
+      "requested": 4,
+      "pyscf_threads": 4,
+      "parallel_region": [
+        {
+          "omp_team_size": 4,
+          "omp_thread_number": 0,
+          "python_thread_ident": 8540536704
+        },
+        {
+          "omp_team_size": 4,
+          "omp_thread_number": 1,
+          "python_thread_ident": 6107770880
+        },
+        {
+          "omp_team_size": 4,
+          "omp_thread_number": 2,
+          "python_thread_ident": 6116192256
+        },
+        {
+          "omp_team_size": 4,
+          "omp_thread_number": 3,
+          "python_thread_ident": 6124613632
+        }
+      ]
+    },
+    {
+      "requested": 1,
+      "pyscf_threads": 1,
+      "parallel_region": [
+        {
+          "omp_team_size": 1,
+          "omp_thread_number": 0,
+          "python_thread_ident": 8540536704
+        }
+      ]
+    }
+  ],
+  "scientific_operators": 0,
+  "SCFs": 0,
+  "pass": true
+}

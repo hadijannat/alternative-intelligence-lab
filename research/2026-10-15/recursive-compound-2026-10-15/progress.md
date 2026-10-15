@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: W/V result, renewal source audit and runtime diagnostic
+## Current publication checkpoint: isotope renewal audit and OpenMP qualification failure
+
+The user requested commit and push to main. This checkpoint has22candidate-role assessments and zero verified integrated complements. Candidate22 Co-Pi has source-qualified isotope recycling under electrode conditions, without an identified positive lower bound on newly competent catalyst activity. Aliquot-removal percentages are not catalyst-leaching fractions. The separate Mo-blue SI audit retains species-specific Raman normalization, an unresolved printed concentration discrepancy, and sampling/analysis limitations; it adds no candidate role or target-renewal measurement.
+
+An isolated OpenMP environment matches the original numerical package versions and four checked source hashes; native1-to-4-to-1 probing confirms worker availability. The first retrospective qualification is terminal FAIL despite520passing numerical checks across fourteen operator children: four W/V children fail the runtime inventory guard after lazy XML imports. The gated SCF was skipped. A metadata-only reproduction identifies two previously unlisted standard-library binaries. Earlier results and failures remain preserved.
+
+The separate v2 repair freezes all standard-library extension binaries before operators. Its13software tests pass, including actual XML-import inventory stability and simulated digest-change detection. It has no preparation or run directory. No parent first-J diagnostic or new parent run occurred. The publication task performs packaging and software verification only; numerical qualification, physical admission and the full scientific goal remain unresolved.
+
+The entries below are historical checkpoints; counts and run-status descriptions refer to their recorded times.
+
+## Previous publication checkpoint: W/V result, renewal source audit and runtime diagnostic
 
 The user requested commit and push of the current changes to main. The W/V comparison is now terminal PASS_NUMERICAL_SCREEN_ONLY:40/40 checks across four converged direct/MemoryRI SCFs, with all30pins unchanged. Independent saved-array review confirms the selected WO4/VO4 comparisons. This is small-reference numerical evidence; target incorporation, experimental accuracy and parent feasibility remain unverified. The original prepared/unrun reports and all earlier failed runs are retained.
 

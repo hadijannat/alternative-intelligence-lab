@@ -134,6 +134,7 @@ def verify(root):
     assert sum(allocation['terms_bytes'].values()) == allocation['sum_bytes']
     assert allocation['sum_bytes'] < allocation['screen_limit_bytes']
     verify_memory_followup(recursive, case_names)
+    verify_openmp_renewal(recursive, case_names)
     return dict(status='PASS_FOLLOWUP_PUBLICATION_ONLY', laboratories=len(LABS),
                 verified_files=len(included), published_bytes=manifest['published_bytes'], scientific_reruns=0)
 
@@ -274,6 +275,70 @@ def verify_memory_followup(recursive, case_names):
     for response in responses:
         assert response['uncertainty'] is None and response['replicate_count'] is None
     assert 'Retrospective descriptive source audit; no physical experiment or held-out test.' in analysis['limitations']
+
+
+def verify_openmp_renewal(recursive, case_names):
+    renewal = json.loads((recursive / 'renewal/copI-source/assessment.json').read_text())
+    assert renewal['candidate_role'] == 22
+    assert renewal['status'] == 'COMPONENT_RECYCLING_SUPPORTED_TARGET_RENEWAL_UNRESOLVED'
+    for key in ('admitted_to_assembly', 'target_identity_verified', 'target_renewal_verified',
+                'functional_inheritance_verified', 'experimental_holdout',
+                'newly_competent_activity_positive_lower_bound_identified'):
+        assert renewal[key] is False
+    for key in ('fixed_molecular_formula', 'retained_founder_organization_fraction',
+                'newly_competent_activity_upper_bound'):
+        assert renewal[key] is None
+    assert renewal['newly_competent_activity_trivial_lower_bound'] == 0
+    assert renewal['new_physical_experiments'] == renewal['new_fitted_models'] == 0
+    blue = json.loads((recursive / 'renewal/mo-blue-route/analysis.json').read_text())
+    assert blue['status'] == 'SOURCE_METHOD_CONSTRAINTS_ONLY'
+    for key in ('target_renewal_verified', 'functional_inheritance_verified',
+                'new_candidate_role', 'experimental_holdout'):
+        assert blue[key] is False
+    assert blue['new_fitted_models'] == blue['new_physical_experiments'] == 0
+    assert blue['nominal_control_recipe']['recipe_consistency_resolved'] is False
+    raman = blue['raman_normalization']
+    assert raman['each_species_own_maximum_percent'] == 100
+    assert raman['cross_species_response_calibration_supplied'] is False
+    assert raman['absolute_species_mass_balance_identified'] is False
+    assert raman['sampling_side'].startswith('UNRESOLVED:')
+    esi = blue['ESI_sampling']
+    assert esi['sample_to_acetonitrile_volume_ratio'] == [1, 39]
+    assert esi['total_scan_completion_delay_minutes'] is None
+    assert esi['unperturbed_operando_solution_identity_established'] is False
+    run = recursive / 'parent-openmp-qualification/run-v1'
+    result = json.loads((run / 'result.json').read_text())
+    assert result['status'] == 'FAIL' and result['phase1_pass'] is False
+    assert result['phase2'] is None and result['phase2_skipped'] is True
+    assert result['pins_unchanged'] is True
+    for key in ('parent_run', 'fresh_holdout', 'physical_admission'):
+        assert result[key] is False
+    assert json.loads((run / 'phase1-gate.json').read_text()) == {'pass': False, 'SCFs_launched': 0}
+    receipts = json.loads((run / 'operator-receipts.json').read_text())
+    expected = {(threads, name) for threads in (1, 4) for name in case_names | {'WO4', 'VO4'}}
+    assert len(receipts) == 14 and {(r['threads'], r['case']) for r in receipts} == expected
+    checks = []
+    for receipt in receipts:
+        child = run / ('threads-' + str(receipt['threads'])) / 'run-v1' / ('operators-' + receipt['case'])
+        supervisor = json.loads((child / 'supervisor.json').read_text())
+        assert {k: v for k, v in receipt.items() if k not in {'threads', 'case'}} == supervisor
+        failed = receipt['case'] in {'WO4', 'VO4'}
+        assert supervisor['returncode'] == (1 if failed else 0)
+        assert supervisor['termination_reason'] is None and supervisor['monitor_error'] is None
+        result = json.loads((child / 'result.json').read_text())
+        assert result['case'] == receipt['case'] and result['threads'] == receipt['threads']
+        assert result['phase'] == 'operators' and result['SCFs_launched'] == 0
+        assert result['runtime_guard_pass'] is (not failed)
+        assert result['status'] == ('ERROR' if failed else 'PASS_OPERATORS')
+        assert result['physical_admission'] is False and result['fresh_holdout'] is False
+        checks.extend(result['checks'])
+    assert len(checks) == 520 and all(check['pass'] is True for check in checks)
+    assert not list(run.rglob('scf-*')) and not list(run.rglob('SCF-result.json'))
+    pending = recursive / 'parent-openmp-qualification-v2'
+    for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
+        assert (pending / name).is_file() and (pending / name).stat().st_size > 0
+    for name in ('preparation.json', 'run-v1', 'pins.json'):
+        assert not (pending / name).exists()
 
 
 if __name__ == '__main__':

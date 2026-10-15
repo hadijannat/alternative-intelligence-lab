@@ -1,0 +1,30 @@
+{
+  "command": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/bin/micromamba",
+    "create",
+    "--no-rc",
+    "-y",
+    "-p",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned",
+    "-c",
+    "conda-forge",
+    "--override-channels",
+    "python=3.12.3",
+    "pyscf=2.14.0=py311h47f6db6_102",
+    "numpy=2.4.1",
+    "scipy=1.18.1",
+    "h5py=3.16.0",
+    "--dry-run",
+    "--json"
+  ],
+  "environment_overrides": {
+    "MAMBA_ROOT_PREFIX": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/mamba-root",
+    "CONDA_PKGS_DIRS": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/pkgs",
+    "TMPDIR": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/tmp",
+    "XDG_CACHE_HOME": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/cache"
+  },
+  "returncode": 0,
+  "elapsed_seconds": 2.9827057500369847,
+  "max_sampled_logical_bytes": 1108447232,
+  "termination_reason": null
+}
