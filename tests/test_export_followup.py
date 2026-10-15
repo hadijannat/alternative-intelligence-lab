@@ -242,7 +242,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-openmp-first-j', 'parent-openmp-first-j-v2', 'parent-saved-j-qualification',
                        'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup',
                        'identity/vanadium-incorporation-followup', 'identity/competing-mov-speciation',
-                       'identity/next-step/pcm-heldout-selection'):
+                       'identity/next-step/pcm-heldout-selection', 'parent-saved-j-crash-diagnostic',
+                       'identity/competing-mov-primary-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -297,6 +298,23 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('identity/competing-mov-speciation/evidence.json', ('reproduced_numeric_leads', 0, 'calibration_eligible'), True),
             ('identity/next-step/pcm-heldout-selection/selection.json', 'numerical_qualification_pass', True),
             ('identity/next-step/pcm-heldout-selection/selection.json', 'scientific_operators_evaluated', 1),
+            ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'root_cause_identified', True),
+            ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'scientific_operators_evaluated', 1),
+            ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'SCFs_launched', 1),
+            ('parent-saved-j-crash-diagnostic/allocation-audit.json',
+             ('allocation_observation', 'is_RSS_measurement_or_crash_cause'), True),
+            ('parent-saved-j-crash-diagnostic/allocation-audit.json',
+             ('allocation_observation', 'four_GiB_is_conservative_allocated_virtual_bound'), True),
+            ('parent-saved-j-crash-diagnostic/allocation-audit.json', ('guard', 'unchanged'), False),
+            ('parent-saved-j-crash-diagnostic/allocation-audit.json',
+             ('writeback', 'pass2', 'max_destination_index'), 3068**2),
+            ('identity/competing-mov-primary-followup/evidence.json', ('scope', 'new_compounds_admitted'), 1),
+            ('identity/competing-mov-primary-followup/evidence.json',
+             ('original_1991', 'accepted_formation_constant_rows'), [{'value': 60.37}]),
+            ('identity/competing-mov-primary-followup/evidence.json',
+             ('reported_percentage_rows', 0, 'calibration_eligible'), True),
+            ('identity/competing-mov-primary-followup/evidence.json',
+             ('assigned_fingerprint_rows', 0, 'target_mo36_assignment'), True),
             ('parent-saved-j-pilot/preparation.json', 'wall_cap_seconds', 3600),
             ('parent-saved-j-pilot/preparation.json', 'maximum_SCFs', 2),
             ('parent-saved-j-pilot/preparation.json', ('proof', 'method', 'max_cycle'), 40),
@@ -438,6 +456,17 @@ class OpenMPRenewalVerification(unittest.TestCase):
     def test_unquantified_rate_replaced_with_zero_is_rejected(self):
         path = self.recursive / 'renewal/oxide-isotope-constraints/rates.csv'
         path.write_text(path.read_text().replace(',,,too_fast_no_numeric_bound', ',0,0,too_fast_no_numeric_bound', 1))
+        with self.assertRaises(AssertionError):
+            verify_openmp_renewal(self.recursive, self.case_names)
+
+    def test_inconsistent_percentage_rows_cannot_be_normalized(self):
+        path = self.recursive / 'identity/competing-mov-primary-followup/evidence.json'
+        data = json.loads(path.read_text())
+        row = data['reported_percentage_rows'][0]['reported_percent']
+        total = sum(row.values())
+        for key in row:
+            row[key] *= 100 / total
+        path.write_text(json.dumps(data))
         with self.assertRaises(AssertionError):
             verify_openmp_renewal(self.recursive, self.case_names)
 

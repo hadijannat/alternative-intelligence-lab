@@ -636,6 +636,66 @@ def verify_saved_j_followup(recursive):
     for key in ('source_output_spin_verified', 'source_outputs_or_energies_inspected', 'successor_protocol_frozen',
                 'chemical_validation', 'target_identity_verified', 'new_candidate_role', 'independent_source_family'):
         assert holdout[key] is False
+    verify_crash_followup(recursive)
+
+
+def verify_crash_followup(recursive):
+    diagnostic = recursive / 'parent-saved-j-crash-diagnostic'
+    crash = json.loads((diagnostic / 'crash-excerpt.json').read_text())
+    assert crash['status'] == 'OBSERVED_CRASH_BOUNDARY_ROOT_CAUSE_UNRESOLVED'
+    assert crash['root_cause_identified'] is False
+    assert crash['scientific_operators_evaluated'] == crash['SCFs_launched'] == 0
+    assert crash['pid'] == 94528 and crash['signal'] == 'SIGTRAP'
+    assert crash['exception_type'] == 'EXC_BREAKPOINT' and crash['termination_code'] == 5
+    fault = crash['threads'][crash['faulting_thread']]
+    assert fault['faulting'] is True
+    assert fault['frames'][0]['image_name'] == 'libsystem_malloc.dylib'
+    allocation = json.loads((diagnostic / 'allocation-audit.json').read_text())
+    assert allocation['status'] == 'PASS_SOURCE_ONLY_INTEGER_MODEL'
+    assert allocation['guard']['unchanged'] is True
+    assert allocation['guard']['before'] == allocation['guard']['after']
+    assert 'exact compiled-source equivalence unproven' in allocation['evidence_boundary']
+    observation = allocation['allocation_observation']
+    assert observation['combined_bytes_per_thread_before_bookkeeping'] == 3200150672
+    assert observation['OMP4_bytes_before_bookkeeping'] == 12800602688
+    assert observation['four_GiB_is_conservative_allocated_virtual_bound'] is False
+    assert observation['is_RSS_measurement_or_crash_cause'] is False
+    assert allocation['negative_size_limit_control']['rejected'] is True
+    assert allocation['writeback']['pass1']['shape'] == [19612, 1]
+    assert allocation['writeback']['pass2']['shape'] == [3068, 3068]
+    assert allocation['writeback']['pass2']['max_destination_index'] == 3068**2 - 1
+    assert len(allocation['mock_scenarios']) == 3
+    for scenario in allocation['mock_scenarios']:
+        for result in scenario['passes']:
+            assert all(order['flush_required'] is False for order in result['orders'])
+    source = json.loads((recursive / 'identity/competing-mov-primary-followup/evidence.json').read_text())
+    assert source['outcome'] == 'PRIMARY_SMALLER_MOV_FINGERPRINT_FOUND_ORIGINAL_1991_CONSTANTS_UNRESOLVED'
+    assert source['scope']['scientific_fits'] == source['scope']['new_compounds_admitted'] == 0
+    assert source['target']['changed'] is False and source['target']['identity_verified'] is False
+    original = source['original_1991']
+    assert original['original_full_text_acquired'] is False and original['reproduced_values_modified'] is False
+    assert original['accepted_formation_constant_rows'] == []
+    for key in ('verified_formation_reactions', 'verified_component_denominator', 'verified_uncertainties'):
+        assert original[key] is None
+    assert source['primary_assay']['ordinary_mo36'] is False
+    assert source['conditions']['constant_pH_demonstrated'] is False
+    assert source['conditions']['species_specific_response_validation'] is None
+    fingerprint = source['assigned_fingerprint_rows']
+    assert len(fingerprint) == 6
+    assert [row['chemical_shift_ppm'] for row in fingerprint] == [-423, -494, -503, -513, -515, -523]
+    for row in fingerprint:
+        assert row['target_mo36_assignment'] is False and row['quantitative_abundance_calibration'] is False
+    rows = source['reported_percentage_rows']
+    assert len(rows) == 6
+    assert [sum(row['reported_percent'].values()) for row in rows] == [105, 91, 106, 101, 101, 105]
+    for row in rows:
+        assert row['calibration_eligible'] is False and row['denominator'] is None and row['uncertainty'] is None
+        assert row['zeros_are_reported_values_not_validated_detection_limits'] is True
+    multiplicity = source['source_quality_flags'][0]
+    assert multiplicity['as_printed'] == [2, 2, 2, 1, 2, 1]
+    for row in source['reported_prose_observations']:
+        assert row['detected_fraction_upper_bound'] is None and row['kinetic_rate_constant'] is None
+        assert row['not_transferred_to_target'] is True
 
 
 def verify_parent_pilot_source_bindings(included):

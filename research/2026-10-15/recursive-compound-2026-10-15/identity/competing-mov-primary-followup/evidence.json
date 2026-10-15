@@ -1,0 +1,370 @@
+{
+  "date_local": "2026-10-16",
+  "scope": {
+    "worker_access_routes": 4,
+    "worker_route_cap": 4,
+    "separate_root_followup_routes": 1,
+    "worker_search_queries": 5,
+    "discovery_child_search_queries": 2,
+    "scientific_fits": 0,
+    "new_compounds_admitted": 0
+  },
+  "outcome": "PRIMARY_SMALLER_MOV_FINGERPRINT_FOUND_ORIGINAL_1991_CONSTANTS_UNRESOLVED",
+  "original_1991": {
+    "doi": "10.1039/DT9910001799",
+    "original_full_text_acquired": false,
+    "verified_formation_reactions": null,
+    "verified_component_denominator": null,
+    "verified_uncertainties": null,
+    "reproduced_values_modified": false,
+    "accepted_formation_constant_rows": [],
+    "prior_audit": "../competing-mov-speciation/REPORT.md"
+  },
+  "primary_assay": {
+    "doi": "10.3389/fchbi.2023.1126975",
+    "authors": "Kostenkova et al.",
+    "year": 2023,
+    "primary_url": "https://www.frontiersin.org/journals/chemical-biology/articles/10.3389/fchbi.2023.1126975/full",
+    "publication_date": "2023-04-07",
+    "evidence_class": "Original published time-dependent aqueous 51V NMR measurements; spectral assignments compared by authors with earlier literature",
+    "raw_html": "raw/kostenkova2023.html",
+    "bytes": 1114707,
+    "sha256": "a4ec87ae13b74766553bd8922b0285b1d4db364e37b4c5c676a6e87809e00fe5",
+    "source_cluster": "[Mo(VI)V(V)9O28]5-",
+    "source_sodium_salt_as_written": "Na5[MoV9O28].10H2O",
+    "source_mo_v_ratio": "1:9",
+    "target_mo_v_ratio": "34:1",
+    "w_present": false,
+    "ordinary_mo36": false,
+    "organic_ligands_in_formula": false,
+    "carbon_containing_assay_medium": true
+  },
+  "conditions": {
+    "nominal_cluster_concentration_mM": 1,
+    "temperature": "ambient; exact numerical temperature not given",
+    "methods_locator": "Sections 2.2.1-2.2.2",
+    "media": [
+      "DDI-water control",
+      "serum-free supplemented DMEM"
+    ],
+    "stock_pH": 5,
+    "results_pH_approx": 7.4,
+    "constant_pH_demonstrated": false,
+    "aqueous_control_reported_pH": {
+      "at_start": 7.35,
+      "after_1_h": 6.44
+    },
+    "method_timepoints_h": [
+      0,
+      1,
+      5,
+      24,
+      30,
+      48
+    ],
+    "table2_timepoints_h": [
+      0,
+      24,
+      48
+    ],
+    "nmr_frequency_MHz": [
+      105.2,
+      131.5
+    ],
+    "scans": 4096,
+    "relaxation_delay_s": 0.01,
+    "pulse_duration_microseconds": 16,
+    "pulse_angle_degrees": 45,
+    "reference": {
+      "reported_scale": "neat VOCl3 = 0 ppm",
+      "experimental_external_reference_as_written": "NaVO4 solution at pH12",
+      "external_V1_ppm": -535.7,
+      "external_V2_ppm": -560.4
+    },
+    "species_specific_response_validation": null
+  },
+  "assigned_fingerprint_rows": [
+    {
+      "assignment": "VH",
+      "chemical_shift_ppm": -423,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    },
+    {
+      "assignment": "VI",
+      "chemical_shift_ppm": -494,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    },
+    {
+      "assignment": "VJ",
+      "chemical_shift_ppm": -503,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    },
+    {
+      "assignment": "VK",
+      "chemical_shift_ppm": -513,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    },
+    {
+      "assignment": "VL",
+      "chemical_shift_ppm": -515,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    },
+    {
+      "assignment": "VM",
+      "chemical_shift_ppm": -523,
+      "species_as_assigned": "[Mo(VI)V(V)9O28]5-",
+      "source_locator": "Figure 6 caption and adjacent speciation results",
+      "observational_evidence": "New time-dependent spectra with assignments inherited from Kostenkova2021",
+      "uncertainty_ppm": null,
+      "eligible_use": "Condition-specific spectral assignment reference",
+      "target_mo36_assignment": false,
+      "quantitative_abundance_calibration": false
+    }
+  ],
+  "product_peak_rows": [
+    {
+      "assignment": "V1 + PV",
+      "chemical_shift_ppm": -563,
+      "resolved_individual_species": false,
+      "locator": "Figure 6 caption"
+    },
+    {
+      "assignment": "V2",
+      "chemical_shift_ppm": -570,
+      "locator": "Figure 6 caption"
+    }
+  ],
+  "reported_percentage_rows": [
+    {
+      "medium": "aqueous",
+      "time_h": 0,
+      "reported_percent": {
+        "V9Mo": 17.5,
+        "V10": 9.5,
+        "V1_column": 74,
+        "V2": 4,
+        "V4": 0,
+        "V5": 0
+      },
+      "V1_column_label": "V1",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    },
+    {
+      "medium": "DMEM",
+      "time_h": 0,
+      "reported_percent": {
+        "V9Mo": 16.5,
+        "V10": 7.5,
+        "V1_column": 66,
+        "V2": 1,
+        "V4": 0,
+        "V5": 0
+      },
+      "V1_column_label": "V1 + PV",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    },
+    {
+      "medium": "aqueous",
+      "time_h": 24,
+      "reported_percent": {
+        "V9Mo": 21.5,
+        "V10": 10.5,
+        "V1_column": 74,
+        "V2": 0,
+        "V4": 0,
+        "V5": 0
+      },
+      "V1_column_label": "V1",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    },
+    {
+      "medium": "DMEM",
+      "time_h": 24,
+      "reported_percent": {
+        "V9Mo": 0,
+        "V10": 0,
+        "V1_column": 94,
+        "V2": 4,
+        "V4": 3,
+        "V5": 0
+      },
+      "V1_column_label": "V1 + PV",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    },
+    {
+      "medium": "aqueous",
+      "time_h": 48,
+      "reported_percent": {
+        "V9Mo": 18,
+        "V10": 6,
+        "V1_column": 77,
+        "V2": 0,
+        "V4": 0,
+        "V5": 0
+      },
+      "V1_column_label": "V1",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    },
+    {
+      "medium": "DMEM",
+      "time_h": 48,
+      "reported_percent": {
+        "V9Mo": 0,
+        "V10": 0,
+        "V1_column": 97,
+        "V2": 5,
+        "V4": 3,
+        "V5": 0
+      },
+      "V1_column_label": "V1 + PV",
+      "source_locator": "Table 2, V9Mo preparation rows",
+      "denominator": null,
+      "uncertainty": null,
+      "calibration_eligible": false,
+      "zeros_are_reported_values_not_validated_detection_limits": true
+    }
+  ],
+  "source_quality_flags": [
+    {
+      "flag": "Integral multiplicities do not match the stated nine-V formula",
+      "as_printed": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "locator": "Speciation results immediately before Figure 6",
+      "handling": "Preserved without correction; not used to convert signals to concentrations"
+    },
+    {
+      "flag": "VH/VI/VJ overlap with V10",
+      "source_claim": "approximately 50 percent V9Mo and 50 percent V10 contributions accounted for in concentration calculations",
+      "locator": "Paragraph before Figure 6",
+      "reproducible_deconvolution_and_uncertainty": null
+    },
+    {
+      "flag": "Table 2 percentage rows do not consistently close to 100",
+      "aqueous_row_sums_percent": [
+        105,
+        106,
+        101
+      ],
+      "DMEM_row_sums_percent": [
+        91,
+        101,
+        105
+      ],
+      "times_h": [
+        0,
+        24,
+        48
+      ],
+      "handling": "Simple arithmetic source audit only; no normalization, fitting or fraction conversion"
+    },
+    {
+      "flag": "Percentage denominator unresolved",
+      "details": "Table headings and hydrolysis caveat do not establish a reproducible V-atom, cluster-mole or nominal-preparation normalization"
+    },
+    {
+      "flag": "Prose and table differ in temporal interpretation",
+      "details": "Table records aqueous V9Mo17.5/21.5/18 percent whereas prose calls it unchanged; uncertainty absent. The1h disappearance claim is in prose/Figure6, not the0/24/48h Table2."
+    },
+    {
+      "flag": "Detection limit absent",
+      "details": "Printed zero values and complete-hydrolysis prose are not quantitative upper bounds on undetected species"
+    },
+    {
+      "flag": "PV attribution in water control",
+      "details": "Prose mentions phosphate-containing species for a DDI-water control without explicit phosphate addition in the inspected preparation description; phosphate provenance unresolved"
+    },
+    {
+      "flag": "Original source contains valence/formula typography inconsistencies",
+      "details": "Target scope follows title/formula Mo(VI)V(V)9O28; inconsistent Mo(IV)/Pt(VI) prose is not evidence for measured reduced Mo or Pt."
+    }
+  ],
+  "reported_prose_observations": [
+    {
+      "claim": "V9Mo signal disappears in DMEM within1h",
+      "locator": "Paragraph after Figure6",
+      "evidence_kind": "author interpretation of spectra",
+      "time_h": 1,
+      "detected_fraction_upper_bound": null,
+      "kinetic_rate_constant": null,
+      "not_transferred_to_target": true
+    }
+  ],
+  "decision": {
+    "eligible": "A multi-peak reference for testing a MoV9 competing-species assignment under matched medium/pH; combine with independent framework evidence",
+    "not_eligible": [
+      "Original1991 equilibrium calibration",
+      "Normalized species fractions",
+      "Absolute concentration or hydrolysis rate fitting",
+      "V(V) occupancy or exclusion threshold for ordinaryMo36",
+      "Living or intelligent behavior"
+    ],
+    "preferred_followup": "Recover raw NMR data/response corrections and original1991 component conventions before quantitative modeling"
+  },
+  "target": {
+    "formula": "[Mo(VI)34 W(VI) V(V) O112(H2O)16]9-",
+    "changed": false,
+    "identity_verified": false
+  },
+  "independent_source_review": {
+    "agent": "/root/inorganic_structure/vanadium_source_valence_audit",
+    "method": "Read-only local HTML review",
+    "result": "Fingerprint supported; quantitative fraction calibration excluded",
+    "visual_spectrum_review_performed": false
+  }
+}

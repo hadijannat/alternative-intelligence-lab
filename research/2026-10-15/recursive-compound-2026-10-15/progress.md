@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: terminal parent failure
+## Current publication checkpoint: crash boundary and primary spectral constraint
+
+The user requested commit and push of the current changes. A matching macOS report forPID94528 places the immediate SIGTRAP in the allocator while Python creates a buffered file writer. Source ordering confirms a finite native Coulomb result before the last callback; later wrapper completion, the exact Python allocation site and the earlier cause remain unknown. The filtered excerpt excludes device identifiers and registers, and three synthetic extractor tests pass. The parent remains FAIL_OR_INCOMPLETE with no completed SCF cycle.
+
+The accompanying installed PySCF C source, separately hashed from the pinned runtime binaries, requests3,200,150,672bytes per worker or12,800,602,688bytes across four OpenMP workers for JK data plus integral/cache workspace. This corrects the earlier4GiB scratch assumption. Requested allocation does not measure RSS, establish a10GiB breach or identify the crash cause; exact compiled-source equivalence is unproven. A separate auxiliary-shell assertion mismatch is not proof of an invalid write. The final allocation-audit.json passes its source-only integer model with33guarded files unchanged; seven portable tests pass, and the superseded pre-portability audit is preserved. Modeled key/writeback bounds for three mock cache sizes do not validate native writes, actual cache sizes or heap integrity. Packed PCM work and any parent retry remain subject to a separately frozen diagnostic protocol.
+
+The primary MoV9 follow-up recovered six51V NMR assignments and time-dependent water/DMEM observations. Six reported percentage rows are preserved without normalization and excluded from calibration because denominator/closure and peak-overlap issues remain unresolved. MoV9's1:9 Mo:V ratio and near-neutral conditions cannot be transferred to the W-containing34:1 target. Original1991 equilibrium conventions remain unavailable. No new operator, SCF, target fit or physical experiment belongs to this checkpoint;22candidate-role assessments and zero verified integrated complements remain, with all integrated life/intelligence requirements unmet.
+
+The entries below describe historical checkpoints.
+
+## Previous publication checkpoint: terminal parent failure
 
 The user requested commit and push. The parent saved-J pilot is terminal FAIL_OR_INCOMPLETE: one child returned -5(SIGTRAP) after1346.632638seconds with no supervisor wall/RSS termination reason or monitor error. Sampled maximumRSS7584022528bytes is not a certified peak. Initial PCM potential and one saved-J handoff completed; the last stage is native_metric_return at1343.858264seconds with finite_J true, without an enclosing native_J_return. No completed cycle, native convergence or final validation is recorded. The worker's stale RUNNING result remains unchanged as a crash artifact. The signal's underlying cause remains unresolved; independent terminal audit approves preserving/publishing the failure only.
 

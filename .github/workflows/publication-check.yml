@@ -19,3 +19,5 @@ jobs:
         run: python3 -m unittest discover -s research/2026-10-15/recursive-compound-2026-10-15/published-parent -p test_analysis.py
       - name: Check proton topology and GUI bonds with synthetic inputs
         run: python3 -m unittest discover -s research/2026-10-15/recursive-compound-2026-10-15/proton-topology -p 'test_*.py'
+      - name: Check crash extraction and allocation model with synthetic inputs
+        run: python3 -m unittest discover -s research/2026-10-15/recursive-compound-2026-10-15/parent-saved-j-crash-diagnostic -p 'test_*.py'

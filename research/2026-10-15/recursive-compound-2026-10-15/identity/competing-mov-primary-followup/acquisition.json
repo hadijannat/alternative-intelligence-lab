@@ -1,0 +1,82 @@
+{
+  "date_local": "2026-10-16",
+  "worker_route_count": 4,
+  "separate_root_route_count": 1,
+  "routes": [
+    {
+      "route": 1,
+      "url": "https://api.crossref.org/works/10.1039/DT9910001799",
+      "transports": [
+        {
+          "method": "web.open",
+          "result": "Internal Error; no HTTP status reported"
+        },
+        {
+          "method": "urllib.request.urlopen",
+          "result": "200 metadata response"
+        }
+      ],
+      "result": "Publisher metadata only; no data relation or license link; download URL points to previously failed legacy PDF",
+      "new_canonical_primary_resource": "https://pubs.rsc.org/1d/article/20/7/1799-1812/46238",
+      "original_data_acquired": false
+    },
+    {
+      "route": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42380059/",
+      "method": "web.open",
+      "result": "Sparse page with HHS footer only; no study text or numerical data recovered",
+      "http_status": null
+    },
+    {
+      "route": 3,
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cmdc.70354",
+      "method": "web.open",
+      "result": "Publisher abstract, references and public SI filename recovered; no numerical study data in returned article body",
+      "unretrieved_si_filename": "cmdc70354-sup-0001-SuppData-S1.pdf",
+      "si_access_not_attempted": true
+    },
+    {
+      "route": 4,
+      "url": "https://www.frontiersin.org/journals/chemical-biology/articles/10.3389/fchbi.2023.1126975/full",
+      "methods": [
+        "web.open",
+        "urllib.request.urlopen"
+      ],
+      "result": "Original full article and numeric Table2/Figure6 assignments acquired",
+      "status": 200,
+      "raw_file": "raw/kostenkova2023.html",
+      "bytes": 1114707,
+      "sha256": "a4ec87ae13b74766553bd8922b0285b1d4db364e37b4c5c676a6e87809e00fe5"
+    }
+  ],
+  "separate_root_followup": {
+    "url": "https://pubs.rsc.org/1d/article/20/7/1799-1812/46238",
+    "actor": "/root",
+    "method": "web.open",
+    "result": "URL is not accessible via this tool",
+    "http_status": null,
+    "source": "Parent message reporting single follow-up after worker cap",
+    "retried_by_worker": false,
+    "paywall_or_403_inferred": false
+  },
+  "known_failed_original_routes_not_repeated": [
+    "https://pubs.rsc.org/en/content/articlepdf/1991/dt/dt9910001799",
+    "https://pubs.rsc.org/en/content/articlelanding/1991/dt/dt9910001799",
+    "https://wrap.warwick.ac.uk/id/eprint/22597/"
+  ],
+  "parent_search_queries": [
+    "\"DT9910001799\" \"pdf\" -site:researchgate.net -site:pubs.rsc.org -site:wrap.warwick.ac.uk",
+    "\"Aqueous molybdovanadates\" \"umu\" OR \"diva\" OR \"fulltext\"",
+    "site:umu.diva-portal.org \"molybdovanadates\"",
+    "\"Monomolybdononavanadate\" \"1915\" pdf",
+    "\"Polyoxidovanadates\" \"1126975\""
+  ],
+  "discovery_child": {
+    "agent": "/root/inorganic_structure/derivative_primary_audit",
+    "query_count": 2,
+    "opens": 0,
+    "downloads": 0
+  },
+  "access_controls_bypassed": false,
+  "authors_contacted": false
+}

@@ -1,0 +1,19 @@
+{
+  "result": "PASS_SOURCE_ARTIFACT_CHECKS",
+  "worker_routes": 4,
+  "root_additional_route": 1,
+  "source_fingerprint_rows": 6,
+  "quarantined_percentage_rows": 6,
+  "accepted_original_1991_constants": 0,
+  "all_reported_percentages_not_calibration": true,
+  "row_closure_checked_without_normalization": true,
+  "raw_html_hash_matches": true,
+  "unchanged_unverified_target": true,
+  "scientific_fits": 0,
+  "sha256": {
+    "REPORT.md": "405cea11cc32aa18f7b15871c7729fab057adac997e1cf0d2991bc9918b44053",
+    "evidence.json": "69d2bcbb7532a1cc9005b0c2d11d29c9e21a9fd9a32018d7575d4cea383bbbb6",
+    "acquisition.json": "d1acf672be4eadcd10b3e067d416220be93755646ff6ea0945348a83410128a1",
+    "raw/kostenkova2023.html": "a4ec87ae13b74766553bd8922b0285b1d4db364e37b4c5c676a6e87809e00fe5"
+  }
+}

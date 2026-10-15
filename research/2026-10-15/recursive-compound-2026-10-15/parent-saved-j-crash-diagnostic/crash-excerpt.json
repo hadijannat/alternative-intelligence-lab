@@ -1,0 +1,449 @@
+{
+  "status": "OBSERVED_CRASH_BOUNDARY_ROOT_CAUSE_UNRESOLVED",
+  "source_sha256": "d352779ae7fb8c48a5fe2fd457702134a5a242bf244ecad2e17ac23a86e0f6a8",
+  "source_bytes": 54533,
+  "pid": 94528,
+  "process": "python3.12",
+  "capture_time": "2026-10-16 00:58:53.2162 +0200",
+  "process_launch": "2026-10-16 00:36:26.6065 +0200",
+  "exception_type": "EXC_BREAKPOINT",
+  "signal": "SIGTRAP",
+  "termination_namespace": "SIGNAL",
+  "termination_code": 5,
+  "faulting_thread": 0,
+  "threads": [
+    {
+      "index": 0,
+      "faulting": true,
+      "frames": [
+        {
+          "symbol": "<deduplicated_symbol>",
+          "symbol_offset": 0,
+          "image_name": "libsystem_malloc.dylib",
+          "image_uuid": "2339cb57-fe5a-3154-a206-a76059c749eb",
+          "image_offset": 287512
+        },
+        {
+          "symbol": "small_free_list_remove_ptr",
+          "symbol_offset": 196,
+          "image_name": "libsystem_malloc.dylib",
+          "image_uuid": "2339cb57-fe5a-3154-a206-a76059c749eb",
+          "image_offset": 27636
+        },
+        {
+          "symbol": "small_malloc_from_free_list",
+          "symbol_offset": 152,
+          "image_name": "libsystem_malloc.dylib",
+          "image_uuid": "2339cb57-fe5a-3154-a206-a76059c749eb",
+          "image_offset": 9468
+        },
+        {
+          "symbol": "small_malloc_should_clear",
+          "symbol_offset": 180,
+          "image_name": "libsystem_malloc.dylib",
+          "image_uuid": "2339cb57-fe5a-3154-a206-a76059c749eb",
+          "image_offset": 7784
+        },
+        {
+          "symbol": "szone_malloc_should_clear",
+          "symbol_offset": 120,
+          "image_name": "libsystem_malloc.dylib",
+          "image_uuid": "2339cb57-fe5a-3154-a206-a76059c749eb",
+          "image_offset": 7336
+        },
+        {
+          "symbol": "_PyObject_Malloc",
+          "symbol_offset": 204,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 856868
+        },
+        {
+          "symbol": "_buffered_init",
+          "symbol_offset": 76,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2451300
+        },
+        {
+          "symbol": "_io_BufferedWriter___init__",
+          "symbol_offset": 792,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2470600
+        },
+        {
+          "symbol": "type_call",
+          "symbol_offset": 496,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 946072
+        },
+        {
+          "symbol": "_PyObject_MakeTpCall",
+          "symbol_offset": 316,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 438568
+        },
+        {
+          "symbol": "_PyObject_CallFunctionVa",
+          "symbol_offset": 820,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 444760
+        },
+        {
+          "symbol": "_PyObject_CallFunction_SizeT",
+          "symbol_offset": 76,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 445120
+        },
+        {
+          "symbol": "_io_open",
+          "symbol_offset": 2380,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2414168
+        },
+        {
+          "symbol": "_PyEval_EvalFrameDefault",
+          "symbol_offset": 57112,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 1600456
+        },
+        {
+          "symbol": "method_vectorcall",
+          "symbol_offset": 560,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 455728
+        },
+        {
+          "symbol": "_PyEval_EvalFrameDefault",
+          "symbol_offset": 60384,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 1603728
+        },
+        {
+          "symbol": "method_vectorcall",
+          "symbol_offset": 560,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 455728
+        },
+        {
+          "symbol": "_PyEval_EvalFrameDefault",
+          "symbol_offset": 60384,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 1603728
+        },
+        {
+          "symbol": "method_vectorcall",
+          "symbol_offset": 560,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 455728
+        },
+        {
+          "symbol": "_PyEval_EvalFrameDefault",
+          "symbol_offset": 60384,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 1603728
+        },
+        {
+          "symbol": "PyEval_EvalCode",
+          "symbol_offset": 300,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 1539388
+        },
+        {
+          "symbol": "run_mod",
+          "symbol_offset": 228,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2032468
+        },
+        {
+          "symbol": "_PyRun_SimpleFileObject",
+          "symbol_offset": 1516,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2031180
+        },
+        {
+          "symbol": "_PyRun_AnyFileObject",
+          "symbol_offset": 268,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2027708
+        },
+        {
+          "symbol": "Py_RunMain",
+          "symbol_offset": 3144,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2211656
+        },
+        {
+          "symbol": "pymain_main",
+          "symbol_offset": 628,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 2214816
+        },
+        {
+          "symbol": "main",
+          "symbol_offset": 56,
+          "image_name": "python3.12",
+          "image_uuid": "1367fdfb-e2d2-38f1-85d3-18900a317773",
+          "image_offset": 18420
+        },
+        {
+          "symbol": "start",
+          "symbol_offset": 6688,
+          "image_name": "dyld",
+          "image_uuid": "d341ddcb-7969-3a9c-8e03-0cf4751398a9",
+          "image_offset": 204416
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "faulting": false,
+      "frames": [
+        {
+          "symbol": "__psynch_cvwait",
+          "symbol_offset": 8,
+          "image_name": "libsystem_kernel.dylib",
+          "image_uuid": "f63bf418-8f75-34a4-aaf1-8caf2b9b6a05",
+          "image_offset": 17676
+        },
+        {
+          "symbol": "_pthread_cond_wait",
+          "symbol_offset": 980,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 29136
+        },
+        {
+          "symbol": "void __kmp_suspend_64<false, true>(int, kmp_flag_64<false, true>*)",
+          "symbol_offset": 388,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 459004
+        },
+        {
+          "symbol": "kmp_flag_64<false, true>::wait(kmp_info*, int, void*)",
+          "symbol_offset": 1896,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 325832
+        },
+        {
+          "symbol": "__kmp_hyper_barrier_release(barrier_type, kmp_info*, int, int, int, void*)",
+          "symbol_offset": 172,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 306316
+        },
+        {
+          "symbol": "__kmp_fork_barrier(int, int)",
+          "symbol_offset": 464,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 320536
+        },
+        {
+          "symbol": "__kmp_launch_thread",
+          "symbol_offset": 336,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 156960
+        },
+        {
+          "symbol": "__kmp_launch_worker(void*)",
+          "symbol_offset": 280,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 453244
+        },
+        {
+          "symbol": "_pthread_start",
+          "symbol_offset": 136,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 27904
+        },
+        {
+          "symbol": "thread_start",
+          "symbol_offset": 8,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 7404
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "faulting": false,
+      "frames": [
+        {
+          "symbol": "__psynch_cvwait",
+          "symbol_offset": 8,
+          "image_name": "libsystem_kernel.dylib",
+          "image_uuid": "f63bf418-8f75-34a4-aaf1-8caf2b9b6a05",
+          "image_offset": 17676
+        },
+        {
+          "symbol": "_pthread_cond_wait",
+          "symbol_offset": 980,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 29136
+        },
+        {
+          "symbol": "void __kmp_suspend_64<false, true>(int, kmp_flag_64<false, true>*)",
+          "symbol_offset": 388,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 459004
+        },
+        {
+          "symbol": "kmp_flag_64<false, true>::wait(kmp_info*, int, void*)",
+          "symbol_offset": 1896,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 325832
+        },
+        {
+          "symbol": "__kmp_hyper_barrier_release(barrier_type, kmp_info*, int, int, int, void*)",
+          "symbol_offset": 172,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 306316
+        },
+        {
+          "symbol": "__kmp_fork_barrier(int, int)",
+          "symbol_offset": 464,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 320536
+        },
+        {
+          "symbol": "__kmp_launch_thread",
+          "symbol_offset": 336,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 156960
+        },
+        {
+          "symbol": "__kmp_launch_worker(void*)",
+          "symbol_offset": 280,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 453244
+        },
+        {
+          "symbol": "_pthread_start",
+          "symbol_offset": 136,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 27904
+        },
+        {
+          "symbol": "thread_start",
+          "symbol_offset": 8,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 7404
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "faulting": false,
+      "frames": [
+        {
+          "symbol": "__psynch_cvwait",
+          "symbol_offset": 8,
+          "image_name": "libsystem_kernel.dylib",
+          "image_uuid": "f63bf418-8f75-34a4-aaf1-8caf2b9b6a05",
+          "image_offset": 17676
+        },
+        {
+          "symbol": "_pthread_cond_wait",
+          "symbol_offset": 980,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 29136
+        },
+        {
+          "symbol": "void __kmp_suspend_64<false, true>(int, kmp_flag_64<false, true>*)",
+          "symbol_offset": 388,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 459004
+        },
+        {
+          "symbol": "kmp_flag_64<false, true>::wait(kmp_info*, int, void*)",
+          "symbol_offset": 1896,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 325832
+        },
+        {
+          "symbol": "__kmp_hyper_barrier_release(barrier_type, kmp_info*, int, int, int, void*)",
+          "symbol_offset": 172,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 306316
+        },
+        {
+          "symbol": "__kmp_fork_barrier(int, int)",
+          "symbol_offset": 464,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 320536
+        },
+        {
+          "symbol": "__kmp_launch_thread",
+          "symbol_offset": 336,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 156960
+        },
+        {
+          "symbol": "__kmp_launch_worker(void*)",
+          "symbol_offset": 280,
+          "image_name": "libomp.dylib",
+          "image_uuid": "28af3d5b-de8f-3c84-875a-3eb1a56a6907",
+          "image_offset": 453244
+        },
+        {
+          "symbol": "_pthread_start",
+          "symbol_offset": 136,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 27904
+        },
+        {
+          "symbol": "thread_start",
+          "symbol_offset": 8,
+          "image_name": "libsystem_pthread.dylib",
+          "image_uuid": "5a1828c3-cbc2-3b85-bd07-c8ed10021a41",
+          "image_offset": 7404
+        }
+      ]
+    }
+  ],
+  "root_cause_identified": false,
+  "scientific_operators_evaluated": 0,
+  "SCFs_launched": 0
+}
