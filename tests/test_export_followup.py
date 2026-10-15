@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import build_archive as archive
 from export_followup import LABS, exclusion, export, strip_signed_urls
+from verify_followup import verify_memory_followup
 
 
 class PublicationSelection(unittest.TestCase):
@@ -88,7 +89,14 @@ class PublicationSelection(unittest.TestCase):
             'rij-jkfit-qualification/run-v1/new-external/arrays.npz',
             'cpcm-rij-memory/allocation.json',
             'cpcm-rij-memory/evidence/observations.json',
-            'cpcm-rij-memory-qualification/preparation.json')
+            'cpcm-rij-memory-qualification/preparation.json',
+            'cpcm-rij-memory-qualification/run-v1/result.json',
+            'cpcm-rij-memory-qualification/run-v1/scf-new-external/result.json',
+            'energy/silicotungstate-20/assessment.json',
+            'parent-pilot-memory/preparation.json',
+            'parent-pilot-memory/run-v1/launch-result.json',
+            'parent-pilot-memory/run-v1/stages.jsonl',
+            'wv-method-qualification/preparation.json')
         for name in retained:
             with self.subTest(name=name):
                 self.assertIsNone(exclusion(base / name))
@@ -166,3 +174,62 @@ class PublicationSelection(unittest.TestCase):
             self.assertEqual(manifest['included_files'], 1)
             self.assertEqual(manifest['files'][0]['published_sha256'],
                              hashlib.sha256((output / rel).read_bytes()).hexdigest())
+
+
+class MemoryFollowupVerification(unittest.TestCase):
+    case_names = {'anion-water', 'neutral-water', 'anion-eps1', 'heldout-Mo2O7', 'new-external'}
+
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.recursive = Path(temporary.name)
+        source = (Path(__file__).resolve().parents[1] / 'research/2026-10-15'
+                  / 'recursive-compound-2026-10-15')
+        for folder in ('cpcm-rij-memory-qualification', 'energy/silicotungstate-20',
+                       'parent-pilot-memory', 'wv-method-qualification'):
+            self.assertTrue((source / folder).is_dir(), folder)
+            for path in (source / folder).rglob('*'):
+                if path.is_file() and path.suffix in ('.json', '.jsonl'):
+                    target = self.recursive / path.relative_to(source)
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(path.read_bytes())
+
+    def test_saved_terminal_results_and_prepared_snapshots_pass(self):
+        verify_memory_followup(self.recursive, self.case_names)
+
+    def test_result_regressions_are_rejected(self):
+        mutations = (
+            ('cpcm-rij-memory-qualification/preparation.json', 'status', 'EXECUTED'),
+            ('cpcm-rij-memory-qualification/run-v1/result.json', 'phase2_skipped', True),
+            ('cpcm-rij-memory-qualification/run-v1/operators-anion-water/result.json',
+             'checks', [{'pass': False}]),
+            ('cpcm-rij-memory-qualification/run-v1/scf-new-external/result.json',
+             'SCF', {'converged': False, 'cycles': 32}),
+            ('energy/silicotungstate-20/assessment.json', 'admitted_to_assembly', True),
+            ('energy/silicotungstate-20/assessment.json', 'useful_target_energy_transfer_verified', True),
+            ('parent-pilot-memory/run-v1/supervisor.json', 'termination_reason', None),
+            ('wv-method-qualification/preparation.json', 'SCFs_launched', 1))
+        for name, key, value in mutations:
+            with self.subTest(name=name, key=key):
+                path = self.recursive / name
+                original = path.read_bytes()
+                changed = json.loads(original)
+                changed[key] = value
+                path.write_text(json.dumps(changed))
+                try:
+                    with self.assertRaises(AssertionError):
+                        verify_memory_followup(self.recursive, self.case_names)
+                finally:
+                    path.write_bytes(original)
+
+    def test_unreported_parent_result_or_wv_run_is_rejected(self):
+        for name in ('parent-pilot-memory/run-v1/SCF-result.json',
+                     'wv-method-qualification/run-v1'):
+            with self.subTest(name=name):
+                path = self.recursive / name
+                path.touch()
+                try:
+                    with self.assertRaises(AssertionError):
+                        verify_memory_followup(self.recursive, self.case_names)
+                finally:
+                    path.unlink()

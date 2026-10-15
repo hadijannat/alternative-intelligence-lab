@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 2552,
-  "published_bytes": 1084391926,
-  "unique_published_blobs": 1870,
-  "excluded_entries": 472,
+  "included_files": 2618,
+  "published_bytes": 1173307816,
+  "unique_published_blobs": 1931,
+  "excluded_entries": 502,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 283,
+    "recursive-compound-2026-10-15": 349,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 24150,
-      "source_sha256": "035041c6fd63187329a6aec38d3e5582d9a264c76eb54d9ca15da20f7a77fd5b",
-      "published_size": 24150,
-      "published_sha256": "035041c6fd63187329a6aec38d3e5582d9a264c76eb54d9ca15da20f7a77fd5b",
+      "source_size": 24825,
+      "source_sha256": "bcb87ee70ce87268ce9ed7c3810dd55f5a110f319bb835b8693e404292ad8f5b",
+      "published_size": 24825,
+      "published_sha256": "bcb87ee70ce87268ce9ed7c3810dd55f5a110f319bb835b8693e404292ad8f5b",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 6294,
-      "source_sha256": "ad36318a29c354d6c66672e3304513d3db7cccfdd111c7f3e4e3c1a45202b911",
-      "published_size": 6294,
-      "published_sha256": "ad36318a29c354d6c66672e3304513d3db7cccfdd111c7f3e4e3c1a45202b911",
+      "source_size": 6869,
+      "source_sha256": "ffde0947b5337b21775ee52d7bd465c19b69bcb69f3e0f1a2a92bb22906aecee",
+      "published_size": 6869,
+      "published_sha256": "ffde0947b5337b21775ee52d7bd465c19b69bcb69f3e0f1a2a92bb22906aecee",
       "transformations": []
     },
     {
@@ -5178,10 +5178,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 9461,
-      "source_sha256": "7221e73c432b01f416b28da43d9c5ffa12ed3832523c2610ff844dbea6eaa613",
-      "published_size": 9461,
-      "published_sha256": "7221e73c432b01f416b28da43d9c5ffa12ed3832523c2610ff844dbea6eaa613",
+      "source_size": 10291,
+      "source_sha256": "63fa0db7750af90b15edf9806f550be6872200917aaaac205eb55b7afe6925cc",
+      "published_size": 10291,
+      "published_sha256": "63fa0db7750af90b15edf9806f550be6872200917aaaac205eb55b7afe6925cc",
       "transformations": []
     },
     {
@@ -5616,6 +5616,26 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5537,
+      "source_sha256": "ab1dc01625fb76a6fac9191552f6ba0c8e2ecfdbb85288ba3b86099a7b5a57ab",
+      "published_size": 5537,
+      "published_sha256": "ab1dc01625fb76a6fac9191552f6ba0c8e2ecfdbb85288ba3b86099a7b5a57ab",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 986,
+      "source_sha256": "0ab336bd40d2fe044d31d580418c27281c9d8b6a333ddcb76472b59e0eb95a82",
+      "published_size": 986,
+      "published_sha256": "0ab336bd40d2fe044d31d580418c27281c9d8b6a333ddcb76472b59e0eb95a82",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/PROTOCOL.md",
       "status": "included",
       "reason": null,
@@ -5626,13 +5646,23 @@
       "transformations": []
     },
     {
-      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/REPORT.md",
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/REPORT-prelaunch.md",
       "status": "included",
       "reason": null,
       "source_size": 1549,
       "source_sha256": "88c43ba748097350bf1a63cd645c1a318ea7c2e5ce9ce43d3932e7b49fd6ccec",
       "published_size": 1549,
       "published_sha256": "88c43ba748097350bf1a63cd645c1a318ea7c2e5ce9ce43d3932e7b49fd6ccec",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2134,
+      "source_sha256": "132b726b0e2f59c1ad157d7774c2cbb873d8a8bbaac0b1068ab861e5160f0036",
+      "published_size": 2134,
+      "published_sha256": "132b726b0e2f59c1ad157d7774c2cbb873d8a8bbaac0b1068ab861e5160f0036",
       "transformations": []
     },
     {
@@ -5690,6 +5720,449 @@
         {
           "transformation": "project path",
           "count": 57
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operator-receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 21612,
+      "source_sha256": "2edd36c4251d1b390ed44f65732e7be14d91037e409e07479a8fbfe0aa4bf94c",
+      "published_size": 21252,
+      "published_sha256": "efc38edfa37ca00f29a0561b035a807cf25e855c1eea9c30fbfde82489110e5b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 510448,
+      "source_sha256": "a3e30b15858eae73d831921073781f16330589efaba6a29f10375200fc639294",
+      "published_size": 510448,
+      "published_sha256": "a3e30b15858eae73d831921073781f16330589efaba6a29f10375200fc639294",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18100
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6744,
+      "source_sha256": "d20b3f8c73c0a56cf02886b1bca379f77f5c2e411569471cf6a7e82bd3a5081a",
+      "published_size": 6744,
+      "published_sha256": "d20b3f8c73c0a56cf02886b1bca379f77f5c2e411569471cf6a7e82bd3a5081a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 234
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1917,
+      "source_sha256": "de8a9b02326c9e08d2d700e048ac01ab948d03914d54d191ffd0416e62b057d1",
+      "published_size": 1845,
+      "published_sha256": "c12b745fb5b02c1ebfeb6056bd19420892df56d68a24a60a08d6e0f0af10ffff",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 888096,
+      "source_sha256": "10e8af147238a4f0321ab973105da36efdb9d81b11e08afa4eba97c4f1feb5b8",
+      "published_size": 888096,
+      "published_sha256": "10e8af147238a4f0321ab973105da36efdb9d81b11e08afa4eba97c4f1feb5b8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18100
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6495,
+      "source_sha256": "9fbc5fac0e7fdcea4487390c63958015eaca6a40d40fb2c849c3d7b515432e39",
+      "published_size": 6495,
+      "published_sha256": "9fbc5fac0e7fdcea4487390c63958015eaca6a40d40fb2c849c3d7b515432e39",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 236
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2269,
+      "source_sha256": "570611f4fca8da5f23e417eff478be71809649b597b61a7ed6560f64fc47e5a4",
+      "published_size": 2197,
+      "published_sha256": "1dd1f07b7c9e4f33c2d2c3a4952e18c0168dc380eacd4e0a27f8ba66ae8320b0",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4288286,
+      "source_sha256": "65fe1f34c55063705dcf18fb2d9e7ef5996339c0b95bf4905ff4d9b27a7e1719",
+      "published_size": 4288286,
+      "published_sha256": "65fe1f34c55063705dcf18fb2d9e7ef5996339c0b95bf4905ff4d9b27a7e1719",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18633
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6575,
+      "source_sha256": "8c868309794fb4a973862e341bb9534803ce7c4a1b1e4c99a98bdd9133cf720c",
+      "published_size": 6575,
+      "published_sha256": "8c868309794fb4a973862e341bb9534803ce7c4a1b1e4c99a98bdd9133cf720c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 240
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6413,
+      "source_sha256": "42e12cd1c128c19c009ed0c77979bcd138783c168ebb744138705b9765e0f2a6",
+      "published_size": 6341,
+      "published_sha256": "1105f396904bbcae1db49ba899fc923374603d43af8b74d3930c3d6a15859204",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 653421,
+      "source_sha256": "269339ab1924c28e1cf05fe7d2aa3f899981a048f5aa7871f94288366f512f76",
+      "published_size": 653421,
+      "published_sha256": "269339ab1924c28e1cf05fe7d2aa3f899981a048f5aa7871f94288366f512f76",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17966
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6500,
+      "source_sha256": "a0d8122ce6b8a6c33e361983bf126866518456d58e7cc394799b78effe1a4482",
+      "published_size": 6500,
+      "published_sha256": "a0d8122ce6b8a6c33e361983bf126866518456d58e7cc394799b78effe1a4482",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 240
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1575,
+      "source_sha256": "14d88931ca716462ffc9ddc9c3b4491d9f6998be8d58d310a34a1da132e59604",
+      "published_size": 1503,
+      "published_sha256": "9354d19e2b23b82931a921b7c566f451c914e253332eb4c86e2cabc03bc0eac6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4846230,
+      "source_sha256": "2f29b18d5db1bb50b407fc5fe21fe2031b2a71a1bbd4294384f0cb5f7c437be6",
+      "published_size": 4846230,
+      "published_sha256": "2f29b18d5db1bb50b407fc5fe21fe2031b2a71a1bbd4294384f0cb5f7c437be6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18899
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6574,
+      "source_sha256": "eab7a12457ee0688a145cd870a5986d8dff6e4b5959c58bba20baca9808f07aa",
+      "published_size": 6574,
+      "published_sha256": "eab7a12457ee0688a145cd870a5986d8dff6e4b5959c58bba20baca9808f07aa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 238
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/operators-new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 7545,
+      "source_sha256": "846c1741e11abd39d7fb0c85aa8f512fe3029a7b5f9ea65137f08227c033e701",
+      "published_size": 7473,
+      "published_sha256": "a2468786eeb0e6dd1be85d4afe041bea2d55f1a3e64b50b7300f5f0aaca8ac15",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/phase1-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 41,
+      "source_sha256": "a02e961a188599d9732b875387b7b5ff1d947191532415ff9b66815c1b900caf",
+      "published_size": 41,
+      "published_sha256": "a02e961a188599d9732b875387b7b5ff1d947191532415ff9b66815c1b900caf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 11439,
+      "source_sha256": "bb582ba49cf57460f1d097ead424073a0f2cf28ddc6ef305de3b012b055e71fe",
+      "published_size": 9387,
+      "published_sha256": "f86a8a0e6e51861ba8bc6d084e4fa2a393971185bcad851abaf55802f984cfe9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 27779,
+      "source_sha256": "b23d2d0f02088d6389ba4362125eb13b05edba26834c4d569582502ac1e456ef",
+      "published_size": 27707,
+      "published_sha256": "92d5a823caa7074862aa3e98ce3f10e875e9394d69338986bbaf16e989a79c3a",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 1411214,
+      "source_sha256": "7f3c71d2c3f72f3459a6857e096c0fc63fbc287013401568b9ed27a961f841b4",
+      "published_size": 1411214,
+      "published_sha256": "7f3c71d2c3f72f3459a6857e096c0fc63fbc287013401568b9ed27a961f841b4",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/iterations.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2627,
+      "source_sha256": "7973d4a03afc5308e2f81f5086293693559eac72a5b26ed4977d95f4db280daa",
+      "published_size": 2627,
+      "published_sha256": "7973d4a03afc5308e2f81f5086293693559eac72a5b26ed4977d95f4db280daa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 3591,
+      "source_sha256": "205622c4fd2a72f2905acce7e326035136deb1a392f316c3ae3f7b6f8f4cc625",
+      "published_size": 3591,
+      "published_sha256": "205622c4fd2a72f2905acce7e326035136deb1a392f316c3ae3f7b6f8f4cc625",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 28281
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2417,
+      "source_sha256": "491f67bbf19038a7aa3615a8d6e5ebb8e376d419f9fc348659cc456b57b609a9",
+      "published_size": 2417,
+      "published_sha256": "491f67bbf19038a7aa3615a8d6e5ebb8e376d419f9fc348659cc456b57b609a9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 272
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 220
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run-v1/scf-new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 25227,
+      "source_sha256": "1b98d0b37d22f9810c6a93ce738f8fd310905709b3a974e74d91039378e7c05a",
+      "published_size": 25155,
+      "published_sha256": "445c189d58ad518491a45849f5d054500bc1a7dce6d44fd8ce2b5587954ddf67",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
         }
       ]
     },
@@ -6016,6 +6489,26 @@
       "status": "excluded",
       "reason": "third-party raw payload; source URL/hash retained in ledgers",
       "source_size": 64083
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/silicotungstate-20/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3259,
+      "source_sha256": "ce365d2854eb0863d4fa70318b2ddc33731766ecdc05f8e3457f019da904ceac",
+      "published_size": 3259,
+      "published_sha256": "ce365d2854eb0863d4fa70318b2ddc33731766ecdc05f8e3457f019da904ceac",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/silicotungstate-20/assessment.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 802,
+      "source_sha256": "c93c47f21b4b5a77af5060992871f089278d0fa567856b9a404cdb88f5c1a168",
+      "published_size": 802,
+      "published_sha256": "c93c47f21b4b5a77af5060992871f089278d0fa567856b9a404cdb88f5c1a168",
+      "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/energy/source_ledger.json",
@@ -7224,6 +7717,343 @@
       "source_size": 4018
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3237,
+      "source_sha256": "71d08f12eaf92ac8352c2b4d82b0454082c9995052f85b7bc31ed620db7ddd42",
+      "published_size": 3237,
+      "published_sha256": "71d08f12eaf92ac8352c2b4d82b0454082c9995052f85b7bc31ed620db7ddd42",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1487,
+      "source_sha256": "7f3f48ec7d8307c2b63c70179317755afc9f4570ffc8c80ebcdd3b138fc32948",
+      "published_size": 1487,
+      "published_sha256": "7f3f48ec7d8307c2b63c70179317755afc9f4570ffc8c80ebcdd3b138fc32948",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/launch-gate-pending.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 198,
+      "source_sha256": "e7e9495c3ac20aa4bba18dbc1c4b327bd5b4bc01695a29d843de6b63cbe25d52",
+      "published_size": 162,
+      "published_sha256": "e591cce403c4eedad0dcee5d2a6d0adca979ecb55b456cd756fcc9b29712b1dd",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-success/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-success/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 137
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-success/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 633,
+      "source_sha256": "600e253ba5b5956c53b7d446058a4ec379a19ea91af21dc47cff25b1dbb9d0b8",
+      "published_size": 624,
+      "published_sha256": "f11b377ce2fae518b9159a9f977bfe5d1cd8302fd1f4ec15ef7ecc93ddc20956",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-timeout/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-timeout/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/synthetic-timeout/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 585,
+      "source_sha256": "20dc6b08fbc122b090ceace9dcb6fe5dd2c0a3492b2305e4432e20b9f5f12d07",
+      "published_size": 576,
+      "published_sha256": "a6b8f4ada6a76521c36fa437c0ec1fe58a337dea36bfd21417ef7e9df845a1c2",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/terminal-qualification-verification.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 7558,
+      "source_sha256": "092f16d2b0d1726948d97293ca0cb911a1f118b6d2c0a4e39d863d4c20cb78c5",
+      "published_size": 6370,
+      "published_sha256": "7adfdf5a265ce535069c00bfc8d2382b6986d901db2f5c076c300aca56e64354",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 606
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/.omo/evidence/verification-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 903
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3880,
+      "source_sha256": "7bc0826b5d79ea057a38a2452dd7effe3882c9cc64657d6f7299c0023d8de474",
+      "published_size": 3880,
+      "published_sha256": "7bc0826b5d79ea057a38a2452dd7effe3882c9cc64657d6f7299c0023d8de474",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4502,
+      "source_sha256": "0476889894fc3937af290c6dfc8ea232e14bd8a80d72d64bf710539a9c702095",
+      "published_size": 4502,
+      "published_sha256": "0476889894fc3937af290c6dfc8ea232e14bd8a80d72d64bf710539a9c702095",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2726,
+      "source_sha256": "75dfa6623f28458a6b7a01a720fb553e1913c73c629e6e233debb8c7dd9b5a51",
+      "published_size": 2726,
+      "published_sha256": "75dfa6623f28458a6b7a01a720fb553e1913c73c629e6e233debb8c7dd9b5a51",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/independent-root-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 7826,
+      "source_sha256": "fada4fdf8f090f82f7dc276c5fea0587549c615e86e427aeb80f6a6903be5158",
+      "published_size": 6638,
+      "published_sha256": "0470200cfd356410e52b74d8b7242a619129f24aaf4edf4b3b888269d413c5c7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/pilot.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 13170,
+      "source_sha256": "0a2c3fe0ad7fa4e94c0b0f5b0f0c3f88b5c32aaa59427894c0aa628073f64966",
+      "published_size": 13170,
+      "published_sha256": "0a2c3fe0ad7fa4e94c0b0f5b0f0c3f88b5c32aaa59427894c0aa628073f64966",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 13429,
+      "source_sha256": "9cdf4c64838b2db9fd521fd03331958d67f7bb638c2080889b58368d94b50102",
+      "published_size": 11053,
+      "published_sha256": "ace82593c69a47a13c1b12d2f0c1bbc7937ede3d4f8b035d1d61a52edcc5fd71",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 66
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/factor-aliases.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 225,
+      "source_sha256": "44f50d58c96190a8028d5eaa913c848878ca36a4f5049f8ce8330aeab644c788",
+      "published_size": 225,
+      "published_sha256": "44f50d58c96190a8028d5eaa913c848878ca36a4f5049f8ce8330aeab644c788",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 7641,
+      "source_sha256": "67e4a12a8dca853ae97107e8c7848a47db9fdf09d2e704efbe263a2d206bae0a",
+      "published_size": 6453,
+      "published_sha256": "183b6f10d88b23985e9dbc0b2903065ac76529f8d9bb8db39aa36d099279d118",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 373181,
+      "source_sha256": "6f3db500e58f4e37be6519f4c6be64c27b4158a964cdc01e2d52f457c4f73ad4",
+      "published_size": 373109,
+      "published_sha256": "1d2f1042182f4547bd30ff8d0658a273fe49f0fcdfce0bad3975932abcd64e93",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 40577
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/partial.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301510,
+      "source_sha256": "efed2c129419688e0fa9ed60f12617f5441391165ea90c23c87220f1a0ee4ac2",
+      "published_size": 75301510,
+      "published_sha256": "efed2c129419688e0fa9ed60f12617f5441391165ea90c23c87220f1a0ee4ac2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/preflight.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 557,
+      "source_sha256": "751b7d69836b63b406ad599424866f31f617959faddaa21d458300e8117950f2",
+      "published_size": 557,
+      "published_sha256": "751b7d69836b63b406ad599424866f31f617959faddaa21d458300e8117950f2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/runtime-sample.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 111651
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/stages.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 830,
+      "source_sha256": "2ded4170cbf927783eba4700df43ca9599fdf4a191e18eac12f3100aebb24eaf",
+      "published_size": 830,
+      "published_sha256": "2ded4170cbf927783eba4700df43ca9599fdf4a191e18eac12f3100aebb24eaf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 960
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 373181,
+      "source_sha256": "6f3db500e58f4e37be6519f4c6be64c27b4158a964cdc01e2d52f457c4f73ad4",
+      "published_size": 373109,
+      "published_sha256": "1d2f1042182f4547bd30ff8d0658a273fe49f0fcdfce0bad3975932abcd64e93",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 14,
+      "source_sha256": "af0c777f7fb31ce5bb42a24dcc7d2e22741b3854a1c3c18d43daf4bddfcce6ef",
+      "published_size": 14,
+      "published_sha256": "af0c777f7fb31ce5bb42a24dcc7d2e22741b3854a1c3c18d43daf4bddfcce6ef",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/terminal-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 728,
+      "source_sha256": "08936cd245de42400d60c78f5fcf3dca22a7001e6d2f9bd9e771520c066a7757",
+      "published_size": 728,
+      "published_sha256": "08936cd245de42400d60c78f5fcf3dca22a7001e6d2f9bd9e771520c066a7757",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/test-output.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 606
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot-memory/test_pilot.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5061,
+      "source_sha256": "997bae41438e68cd046cd3792878b5f6e5c41e5168b7e859390ef3b0262fe060",
+      "published_size": 5061,
+      "published_sha256": "997bae41438e68cd046cd3792878b5f6e5c41e5168b7e859390ef3b0262fe060",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-pilot/PROTOCOL.md",
       "status": "included",
       "reason": null,
@@ -7310,10 +8140,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 12722,
-      "source_sha256": "025cd1ebd082ef04a84002ed29cb64d778c3c18003ea4e6e977480bb71bc1a66",
-      "published_size": 12722,
-      "published_sha256": "025cd1ebd082ef04a84002ed29cb64d778c3c18003ea4e6e977480bb71bc1a66",
+      "source_size": 16224,
+      "source_sha256": "5d0604d470d30a751c6188738fb06c2d3a66319b73e0ab3a9fae586019af9bd9",
+      "published_size": 16224,
+      "published_sha256": "5d0604d470d30a751c6188738fb06c2d3a66319b73e0ab3a9fae586019af9bd9",
       "transformations": []
     },
     {
@@ -9142,6 +9972,111 @@
       "source_sha256": "153ee9b44cfe152a288fc918ca9032046fc788055b653786ef5e699db46eb38d",
       "published_size": 6797,
       "published_sha256": "153ee9b44cfe152a288fc918ca9032046fc788055b653786ef5e699db46eb38d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3793,
+      "source_sha256": "cd089c4ba4bc8f45ec13746a2485bf18eb8cee4b93f4d1de25a08c36751d68c6",
+      "published_size": 3793,
+      "published_sha256": "cd089c4ba4bc8f45ec13746a2485bf18eb8cee4b93f4d1de25a08c36751d68c6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2901,
+      "source_sha256": "a901e3fb7ff562b4b3b19a131a3c824c827f594628b657bf80c2dffd407d8669",
+      "published_size": 2901,
+      "published_sha256": "a901e3fb7ff562b4b3b19a131a3c824c827f594628b657bf80c2dffd407d8669",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/REPORT-prelaunch.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2214,
+      "source_sha256": "3011f62f704d678ebed8e321da0f0952d0fc088a4909cbd4677abd3d1d3a99cb",
+      "published_size": 2214,
+      "published_sha256": "3011f62f704d678ebed8e321da0f0952d0fc088a4909cbd4677abd3d1d3a99cb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1546,
+      "source_sha256": "68f505e99b8a9ff079d5336a92c6cd7d074fee350ee22493d25a2753c6ba68e4",
+      "published_size": 1546,
+      "published_sha256": "68f505e99b8a9ff079d5336a92c6cd7d074fee350ee22493d25a2753c6ba68e4",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/SOURCES.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1292,
+      "source_sha256": "300785f34cf13bb9be7589fa58aced3f54ac5fe5d8b81884157df0a86b475b32",
+      "published_size": 1292,
+      "published_sha256": "300785f34cf13bb9be7589fa58aced3f54ac5fe5d8b81884157df0a86b475b32",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 8126,
+      "source_sha256": "28d13e73bdda00fad7321d7addfac265807ec8d4f36c6c936f9729724a0ee193",
+      "published_size": 7046,
+      "published_sha256": "00985257f53b57c3e324f07b6293d91f0af3b64b8efc87b00908605d8b44f91b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 9770,
+      "source_sha256": "3b12880ea35fe72c6cc87571ebe88f65def2d484cc9eb54be0470b201b66c7c9",
+      "published_size": 9770,
+      "published_sha256": "3b12880ea35fe72c6cc87571ebe88f65def2d484cc9eb54be0470b201b66c7c9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/sources.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3180,
+      "source_sha256": "d26a471b49b1fd5c6360da4079c51cb88f036cda0eb99c62fbb75162335d0b83",
+      "published_size": 3180,
+      "published_sha256": "d26a471b49b1fd5c6360da4079c51cb88f036cda0eb99c62fbb75162335d0b83",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/test_gate.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 1167,
+      "source_sha256": "e72b2346eeb59bc113d799c0f577bc7954549edc04c5b272914c726c1edc5233",
+      "published_size": 1167,
+      "published_sha256": "e72b2346eeb59bc113d799c0f577bc7954549edc04c5b272914c726c1edc5233",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/wv-method-qualification/test_sources.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3076,
+      "source_sha256": "e31e7802036a1edbcdc8004c41e07a979c27b410b81b8e56d25a502095dfaa06",
+      "published_size": 3076,
+      "published_sha256": "e31e7802036a1edbcdc8004c41e07a979c27b410b81b8e56d25a502095dfaa06",
       "transformations": []
     },
     {

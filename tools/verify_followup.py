@@ -133,14 +133,78 @@ def verify(root):
     assert allocation['certified_peak_RSS'] is False and allocation['parent_array_allocated'] is False
     assert sum(allocation['terms_bytes'].values()) == allocation['sum_bytes']
     assert allocation['sum_bytes'] < allocation['screen_limit_bytes']
+    verify_memory_followup(recursive, case_names)
+    return dict(status='PASS_FOLLOWUP_PUBLICATION_ONLY', laboratories=len(LABS),
+                verified_files=len(included), published_bytes=manifest['published_bytes'], scientific_reruns=0)
+
+
+def verify_memory_followup(recursive, case_names):
     memory_qualification = recursive / 'cpcm-rij-memory-qualification'
     preparation = json.loads((memory_qualification / 'preparation.json').read_text())
     assert preparation['status'] == 'PREPARED_NOT_EXECUTED' and len(preparation['pins']) == 57
     assert len(preparation['cases']) == 5 and set(preparation['cases']) == case_names
     assert preparation['densities_per_case'] == 4 and preparation['SCFs_launched'] == 0
-    assert not (memory_qualification / 'run-v1').exists()
-    return dict(status='PASS_FOLLOWUP_PUBLICATION_ONLY', laboratories=len(LABS),
-                verified_files=len(included), published_bytes=manifest['published_bytes'], scientific_reruns=0)
+    run = memory_qualification / 'run-v1'
+    assert json.loads((run / 'pins.json').read_text()) == preparation['pins']
+    completed = json.loads((run / 'result.json').read_text())
+    assert completed['status'] == 'PASS_RETROSPECTIVE_IMPLEMENTATION_EQUIVALENCE'
+    assert completed['phase1_pass'] is True and completed['phase2_skipped'] is False
+    assert completed['pins_unchanged'] is True and completed['maximum_new_SCFs'] == 1
+    assert completed['parent_run'] is False and completed['physical_admission'] is False
+    gate = json.loads((run / 'phase1-gate.json').read_text())
+    assert gate['pass'] is True and gate['SCFs_launched'] == 0
+    receipts = json.loads((run / 'operator-receipts.json').read_text())
+    assert len(receipts) == 5 and {r['case'] for r in receipts} == case_names
+    children = [('operators-' + r['case'], r['case'], 'operators', r) for r in receipts]
+    children.append(('scf-new-external', 'new-external', 'scf', completed['phase2']))
+    checks = []
+    for folder, name, phase, receipt in children:
+        supervisor = json.loads((run / folder / 'supervisor.json').read_text())
+        assert {k: v for k, v in receipt.items() if k != 'case'} == supervisor
+        assert supervisor['returncode'] == 0 and supervisor['termination_reason'] is None
+        assert supervisor['monitor_error'] is None
+        result = json.loads((run / folder / 'result.json').read_text())
+        assert result['case'] == name and result['phase'] == phase
+        assert result['status'] == ('PASS_OPERATORS' if phase == 'operators' else 'PASS_SCF')
+        assert result['SCFs_launched'] == (0 if phase == 'operators' else 1)
+        assert result['physical_admission'] is False and result['fresh_holdout'] is False
+        assert result['checks'] and all(check['pass'] is True for check in result['checks'])
+        checks.extend(result['checks'])
+        if phase == 'scf':
+            assert result['SCF']['converged'] is True and result['SCF']['cycles'] == 32
+    assert len(checks) == 223
+    reservoir = json.loads((recursive / 'energy/silicotungstate-20/assessment.json').read_text())
+    assert reservoir['candidate_role'] == 20 and reservoir['status'] == 'UNRESOLVED_JOINT_FUNCTION'
+    assert reservoir['standalone_component_evidence'] is True
+    for claim in ('admitted_to_assembly', 'target_existence_verified',
+                  'common_medium_joint_identity_verified', 'useful_target_energy_transfer_verified',
+                  'functional_regeneration_verified'):
+        assert reservoir[claim] is False
+    assert reservoir['new_simulations'] == 0 and reservoir['new_physical_experiments'] == 0
+    parent = recursive / 'parent-pilot-memory'
+    preparation = json.loads((parent / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_TERMINAL_QUALIFICATION_AND_INDEPENDENT_ROOT_REVIEW'
+    assert len(preparation['pins']) == 66 and preparation['SCFs_launched'] == 0
+    assert preparation['parent_molecule_built'] is False and preparation['parent_arrays_allocated'] is False
+    run = parent / 'run-v1'
+    terminal = json.loads((run / 'supervisor.json').read_text())
+    assert json.loads((run / 'launch-result.json').read_text()) == terminal
+    assert terminal['termination_reason'] == 'WALL_LIMIT' and terminal['returncode'] == -15
+    assert terminal['monitor_error'] is None and terminal['wall_cap_seconds'] == 900
+    assert terminal['wall_seconds'] >= terminal['wall_cap_seconds']
+    assert terminal['rss_guard_bytes'] == 10 * 2**30
+    assert terminal['sampled_max_rss_bytes'] < terminal['rss_guard_bytes']
+    assert terminal['hard_OS_memory_limit'] is False
+    stages = [json.loads(line)['stage'] for line in (run / 'stages.jsonl').read_text().splitlines()]
+    assert stages[-1] == 'RI_metric_build_start' and 'SCF_start' not in stages
+    for name in ('SCF-result.json', 'iterations.jsonl', 'storage.json'):
+        assert not (run / name).exists()
+    wv = recursive / 'wv-method-qualification'
+    preparation = json.loads((wv / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_NOT_EXECUTED' and len(preparation['pins']) == 30
+    assert len(preparation['cases']) == 2 and {c['case'] for c in preparation['cases']} == {'WO4', 'VO4'}
+    assert preparation['SCFs_launched'] == 0 and preparation['operators_evaluated'] == 0
+    assert not (wv / 'run-v1').exists()
 
 
 if __name__ == '__main__':

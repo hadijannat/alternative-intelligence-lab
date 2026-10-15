@@ -27,8 +27,11 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 | Tractable Coulomb qualification | rij-qualification/, rij-qualification-v2/ | Preserved ECP initialization failure; repaired run fails neutralMoO3 and externalMo2O7 residual screens; no parent admission |
 | Larger-basis numerical challenge | rij-jkfit-qualification/ | Four retrospective direct references plus preselected external neutral H2Mo2O7; unchanged accuracy limits; five bounded children, at most six SCFs |
 | Parent memory specialization | cpcm-rij-memory/ | Separately prepared exact-equation storage changes; bounded finite checks, failure-abort and alias tests; no parent launch without qualification |
-| Memory operator and SCF qualification | cpcm-rij-memory-qualification/ | Frozen57pins, seven gate tests; five retrospective operator cases then at most one gated SCF; prepared and unrun |
+| Memory operator and SCF qualification | cpcm-rij-memory-qualification/ | All223checks pass; five retrospective operator cases and one converged SCF;57pins unchanged; independent array audit |
+| Bounded parent MemoryRI pilot | parent-pilot-memory/ | Separate reviewed900second/10GiB attempt, fixed hypotheticalP0_A; partial checkpoints and failures retained; no target or optimization claim |
+| Acidic reservoir candidate20 | energy/silicotungstate-20/ | H4SiW12O40 source assessment; no shared-medium target energy-function measurement; no verified addition |
 | W/V comparator acquisition | identity/next-step/wv-reference-selection/ | First available WO4/VO4 source files with URLs/hashes; future charge parser requires scoped CML fields; no W/V calculation |
+| W/V numerical method gap | wv-method-qualification/ | Scoped source validation and four test methods pass;30pins frozen; two direct/RI children prepared but unrun; execute only after parent terminal |
 | Cross-function requirements and decisions | root REPORT.md, PROTOCOL.md, checks.md, progress.md | Explicit unmet requirements, no unsupported verified additions, next discriminating test |
 | Independent arithmetic/claim review | review/ and workspace .omo/evidence/ | Source-to-number checks, limitations and required repairs |
 

@@ -1,0 +1,11 @@
+# Prepared; numerical execution pending
+
+The original six source digests match; both XYZs exactly match their CML final geometries. Scoped charge and restricted spin validators pass. Both selected cases support the requested atomic basis and JKFIT auxiliary metadata. WO4:88AO/535aux,60 ECP core electrons,48 explicit electrons. VO4:87AO/572aux,0 ECP electrons,58 explicit electrons. MemoryPCM's existing guard accepts these configured metadata objects. No Mo-only restriction was found in unchanged MemoryRI or MemoryPCM. Actual W/V operator/SCF support remains untested.
+
+Prepared driver runs two sequential capped children with one direct and one MemoryRI SCF each and the same saved initial density. Both use MemoryPCM. No source implementation is changed. Root review and parent-pilot termination remain prerequisites for launch; this report provides no approval. No run-v1 exists.
+
+Evidence: ../../.omo/evidence/wv-method-preparation/tests.txt contains four passing test methods covering both source records,20 source mutation scenarios,4 malformed/duplicate/missing ledger scenarios and final gate negatives. verification.json confirms current pins, zero SCFs/operators, absent run directory, exact case/core counts, syntax parsing and repeat-prepare refusal. prepare.txt records metadata-only preparation. The pre-expansion preparation snapshot preserves the earlier draft before extra native Fock/attachment source pins were added. Final preparation.json is authoritative for root review.
+
+No numerical comparison result, experimental holdout, W/V target incorporation, target stability or physical admission is claimed. Sampled RSS cannot certify a hard2GiB peak. Numerical worker paths are prepared but deliberately unexecuted.
+
+Root review corrections: exact six unique expected ledger filename/digest pairs are now mandatory. Final campaign acceptance inspects both exact case records, status, exactly two SCFs each, nonempty all-true checks, clean supervisor receipts and unchanged pins. Actual SCF counts are reported, with unknown counts preserved as null if a child produces no result. Pre-review preparation is preserved in evidence; final pins have been regenerated without numerical execution.

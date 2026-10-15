@@ -1,0 +1,81 @@
+{
+  "argv": [
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run.py",
+    "--worker",
+    "operators",
+    "anion-eps1"
+  ],
+  "pid": 25196,
+  "returncode": 0,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 3.107256333110854,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 121651200,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0017095410730689764,
+      "rss_bytes": 1736704
+    },
+    {
+      "elapsed_seconds": 0.2071993330027908,
+      "rss_bytes": 64536576
+    },
+    {
+      "elapsed_seconds": 0.4122766660293564,
+      "rss_bytes": 110821376
+    },
+    {
+      "elapsed_seconds": 0.6210830000927672,
+      "rss_bytes": 115081216
+    },
+    {
+      "elapsed_seconds": 0.8253345000557601,
+      "rss_bytes": 117719040
+    },
+    {
+      "elapsed_seconds": 1.0337350410409272,
+      "rss_bytes": 118767616
+    },
+    {
+      "elapsed_seconds": 1.2422140830894932,
+      "rss_bytes": 118767616
+    },
+    {
+      "elapsed_seconds": 1.4488494580145925,
+      "rss_bytes": 118784000
+    },
+    {
+      "elapsed_seconds": 1.6571812080219388,
+      "rss_bytes": 118800384
+    },
+    {
+      "elapsed_seconds": 1.8655973330605775,
+      "rss_bytes": 118865920
+    },
+    {
+      "elapsed_seconds": 2.0740034580230713,
+      "rss_bytes": 118964224
+    },
+    {
+      "elapsed_seconds": 2.28236483305227,
+      "rss_bytes": 119160832
+    },
+    {
+      "elapsed_seconds": 2.48617050005123,
+      "rss_bytes": 119291904
+    },
+    {
+      "elapsed_seconds": 2.694451583083719,
+      "rss_bytes": 121651200
+    },
+    {
+      "elapsed_seconds": 2.902791375061497,
+      "rss_bytes": 121651200
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

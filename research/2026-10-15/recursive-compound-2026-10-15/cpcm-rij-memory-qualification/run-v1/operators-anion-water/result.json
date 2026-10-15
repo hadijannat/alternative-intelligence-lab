@@ -1,0 +1,317 @@
+{
+  "case": "anion-water",
+  "phase": "operators",
+  "checks": [
+    {
+      "name": "metric_before_PCM",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "initial/J",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "initial/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "initial/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "initial/V",
+      "value": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "initial/factor_reuse",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    },
+    {
+      "name": "perturbed/J",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/V",
+      "value": 3.0531133177191805e-16,
+      "pass": true
+    },
+    {
+      "name": "perturbed/factor_reuse",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    },
+    {
+      "name": "direct_converged/J",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/V",
+      "value": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/factor_reuse",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    },
+    {
+      "name": "RI_converged/J",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/V",
+      "value": 6.106226635438361e-16,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/factor_reuse",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    },
+    {
+      "name": "J_additivity",
+      "value": 5.151434834260726e-13,
+      "pass": true
+    },
+    {
+      "name": "J_zero",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "PCM_affine_PCM_V",
+      "value": 2.1316282072803006e-14,
+      "pass": true
+    },
+    {
+      "name": "PCM_affine_PCM_q",
+      "value": 5.384581669432009e-15,
+      "pass": true
+    },
+    {
+      "name": "reset_clears",
+      "value": null,
+      "pass": true
+    },
+    {
+      "name": "rebuild_new_factor",
+      "value": null,
+      "pass": true
+    },
+    {
+      "name": "rebuild_V",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "rebuild_energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "unsupported_MemoryPCM.grad",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_MemoryPCM.hess",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_MemoryPCM._B_dot_x",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_GroundStateOnlyMemoryPCMRKS.nuc_grad_method",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_GroundStateOnlyMemoryPCMRKS.Hessian",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_GroundStateOnlyMemoryPCMRKS.gen_response",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_GroundStateOnlyMemoryPCMRKS.TDA",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "unsupported_GroundStateOnlyMemoryPCMRKS.TDDFT",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "fresh_holdout": false,
+  "SCFs_launched": 0,
+  "factor_aliases": [
+    {
+      "stage": "RI_metric",
+      "shape": [
+        563,
+        563
+      ],
+      "input_pointer": 491484364800,
+      "factor_pointer": 491484364800,
+      "factor_id": 4540055248,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "stage": "PCM_surface",
+      "shape": [
+        386,
+        386
+      ],
+      "input_pointer": 516853432320,
+      "factor_pointer": 516853432320,
+      "factor_id": 4540054000,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "stage": "PCM_rebuild",
+      "shape": [
+        386,
+        386
+      ],
+      "input_pointer": 516830593024,
+      "factor_pointer": 516830593024,
+      "factor_id": 4540054576,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    }
+  ],
+  "elapsed_seconds": 2.8236859580501914,
+  "status": "PASS_OPERATORS"
+}

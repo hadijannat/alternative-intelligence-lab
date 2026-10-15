@@ -1,0 +1,13 @@
+# Parent MemoryRI pilot: wall limit
+
+The separately reviewed hypothetical P0_A parent attempt ended with `WALL_LIMIT` after 900.273 seconds. The child returned -15; the launcher returned 1. Both processes were subsequently confirmed absent. No completed first Coulomb J call, SCF cycle, converged energy or target validation was recorded. This is a resource-limited numerical attempt, not evidence that the proposed chemistry fails.
+
+[launch-result.json](run-v1/launch-result.json) and [supervisor.json](run-v1/supervisor.json) preserve the terminal outcome. The sampled maximum RSS was 3,527,327,744 bytes against a 10 GiB sampled guard; this is not a certified native peak or hard operating-system memory limit. No monitor error was recorded. All 66 original preparation pins still match. The run was neither restarted nor given a larger budget.
+
+The [partial checkpoint](run-v1/partial.npz) contains only the initial density and cycle 0. Its 3068 by 3068 density is finite, with maximum asymmetry 2.220446049250313e-16. It is not a converged state. The [factor record](run-v1/factor-aliases.json) confirms that the 19612 by 19612 RI metric Cholesky completed using the same storage, in Fortran order and read-only after construction. No PCM factor was recorded.
+
+A single short runtime sample around ten minutes after launch contained 827 main-thread observations, all inside the direct integral driver. Across three disjoint branches, 755 observations (734 + 1 + 20; 91.3%) included `int3c2e_sph`. Six included second-pass screening, and 40 included the auxiliary-coefficient-to-J contraction. The pinned native routine executes these after its first integral contraction and checked metric solve, so the second Coulomb reconstruction pass had been reached. Three-center integral evaluation dominated this sampled interval. The sample cannot establish whole-run timing, remaining duration or eventual convergence. The raw process profile is retained locally and excluded from publication under the existing log/privacy policy.
+
+The last coarse stage, `RI_metric_build_start`, surrounds the entire first J call and does not mean that Cholesky was still running. The direct J path does not consult the ordinary DF `max_memory` or `blockdim` controls. Any later diagnostic requires a separate frozen attempt; this report does not authorize changing the completed run.
+
+The earlier preflight rejection and blocked-parent timeout remain preserved. The small-case memory qualification passes its retrospective implementation checks, but this parent did not complete within its resource budget. W/V comparison remains prepared and unrun at this publication checkpoint. No verified chemical complement or life function was added.

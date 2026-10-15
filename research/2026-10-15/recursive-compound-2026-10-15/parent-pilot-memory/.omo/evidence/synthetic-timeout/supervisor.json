@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+    "-c",
+    "import time;time.sleep(10)"
+  ],
+  "pid": 35766,
+  "returncode": -15,
+  "termination_reason": "WALL_LIMIT",
+  "monitor_error": null,
+  "wall_seconds": 0.43283725006040186,
+  "wall_cap_seconds": 0.3,
+  "rss_guard_bytes": 104857600,
+  "sampled_max_rss_bytes": 15908864,
+  "samples": [
+    {
+      "elapsed_seconds": 0.002318709040991962,
+      "rss_bytes": 1769472
+    },
+    {
+      "elapsed_seconds": 0.2125320000341162,
+      "rss_bytes": 15908864
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

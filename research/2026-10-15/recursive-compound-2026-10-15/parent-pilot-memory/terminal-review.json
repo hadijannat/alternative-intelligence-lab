@@ -1,0 +1,23 @@
+{
+  "status": "RESOURCE_LIMIT_NO_COMPLETED_SCF",
+  "launch_session_exit_code": 1,
+  "child_returncode": -15,
+  "termination_reason": "WALL_LIMIT",
+  "wall_seconds": 900.2730057920562,
+  "sampled_max_rss_bytes": 3527327744,
+  "monitor_error": null,
+  "processes_confirmed_absent": true,
+  "original_pin_count": 66,
+  "original_pin_mismatches": [],
+  "checkpoint_cycle": 0,
+  "checkpoint_keys": ["density", "cycle"],
+  "density_shape": [3068, 3068],
+  "density_finite": true,
+  "density_max_asymmetry": 2.220446049250313e-16,
+  "completed_first_J_recorded": false,
+  "completed_SCF_cycle_recorded": false,
+  "converged_energy_recorded": false,
+  "physical_admission": false,
+  "goal_verified": false,
+  "retry_performed": false
+}

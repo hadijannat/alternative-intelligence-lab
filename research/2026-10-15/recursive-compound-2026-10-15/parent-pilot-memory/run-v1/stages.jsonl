@@ -1,0 +1,6 @@
+{"stage": "basis_build_start", "elapsed_seconds": 0.002686792053282261}
+{"stage": "basis_build_complete", "elapsed_seconds": 0.00786920904647559}
+{"stage": "surface_preflight_start", "elapsed_seconds": 0.011782375047914684}
+{"stage": "preflight_complete", "elapsed_seconds": 0.057109667104668915, "terms_bytes": {"surface_factor": 689541248, "RI_metric_factor": 3077044352, "AO_block1": 75300992, "row_temporary_eight_arrays": 76054528, "finite_validation_chunk_boolean": 65536, "SCF_DIIS_output_AO_buffers_32": 2409631744, "nuclear_integral_block128": 200704, "scratch_headroom_4GiB": 4294967296}, "sum_bytes": 10622806400, "sum_GiB": 9.893259406089783, "certified_peak_RSS": false}
+{"stage": "initial_density_start", "elapsed_seconds": 35.23439800005872}
+{"stage": "RI_metric_build_start", "elapsed_seconds": 36.28737058409024}
