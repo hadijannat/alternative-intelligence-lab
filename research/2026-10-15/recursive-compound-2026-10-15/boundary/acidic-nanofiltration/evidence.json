@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-16",
+  "existing_role": "B2 zirconia boundary refinement",
+  "new_candidate_roles": 0,
+  "verified_integrated_complements_added": 0,
+  "sources": [
+    {
+      "id": "van-gestel2006",
+      "doi": "10.1016/j.memsci.2006.07.020",
+      "url": "https://www.utwente.nl/en/daveblank/publications/pdf-files/JMemSc284%282006%29128.pdf",
+      "path": "raw/van-gestel2006.pdf",
+      "bytes": 1035721,
+      "sha256": "619e43e15e118436b60728fb151187d0ed1eedd41ccc1150af3b039a2a473e0d",
+      "root_download_exit": 0,
+      "visual_pages_one_based": [7, 8],
+      "license": "Copyright Elsevier; author-hosted primary PDF; no redistribution license inferred"
+    },
+    {
+      "id": "chowdhury2006",
+      "doi": "10.1002/chem.200501021",
+      "url": "https://www.utwente.nl/en/daveblank/publications/pdf-files/ChemEurJ12%282006%293061.pdf",
+      "path": "raw/chowdhury2006.pdf",
+      "bytes": 120294,
+      "sha256": "4949829c95a2923c37d278c801b18e505ee44b863efda84a56a4721e8448ef59",
+      "root_download_exit": 0,
+      "visual_pages_one_based": [2, 5],
+      "license": "Copyright Wiley-VCH; author-hosted primary PDF; no redistribution license inferred"
+    }
+  ],
+  "membrane": {
+    "source": "van-gestel2006",
+    "top_layer": "tetragonal ZrO2",
+    "interlayer": "3 mol percent Y2O3-stabilized ZrO2",
+    "support": "alpha-Al2O3",
+    "distinct_from_prior_B2": "Multilayer filtration architecture, not monoclinic zirconia adsorption powder",
+    "organic_fabrication_materials": ["alkoxide precursors", "acetylacetone", "PVA"],
+    "organic_removal": "Air firing intended to remove organics; exact residual carbon not measured in inspected evidence",
+    "carbon_containing_assay_solute": "PEG",
+    "carbon_free_active_layer_composition": "Nominal inorganic oxide phases; no organic membrane function claimed",
+    "chloride_medium_tested": false,
+    "POM_tested": false,
+    "target_tested": false
+  },
+  "corrosion_protocol": {
+    "source_locator": "Van Gestel section 2.2.3, printed page 132",
+    "temperature_C": 25,
+    "pressure_bar": [5, 7],
+    "ordered_conditions": [
+      {"pH": 2, "solute": "HNO3", "weeks": 4},
+      {"pH": 13, "solute": "NaOH", "weeks": 4},
+      {"pH": 1, "solute": "HNO3", "weeks": 4}
+    ],
+    "fresh_feed_interval_weeks": 2,
+    "independent_membrane_replicate_count": null,
+    "sequential_history_not_independent_pH_arms": true
+  },
+  "PEG_assay": {
+    "source_locator": "Van Gestel section 2.2.2, printed page 131",
+    "temperature_C": 25,
+    "pressure_bar": 10,
+    "total_PEG_g_per_L": 3,
+    "feed_volume_L": 2.5,
+    "analysis": "GPC of feed and permeate",
+    "cutoff_definition": "PEG molecular mass at 90 percent retention",
+    "corrosion_pH_during_PEG_assay": null
+  },
+  "printed_cutoff_annotations": [
+    {"elapsed_weeks": 0, "preceding_exposure_pH": null, "MWCO_as_printed": 200, "figure": "14a", "uncertainty": null},
+    {"elapsed_weeks": 2, "preceding_exposure_pH": 2, "MWCO_as_printed": 220, "figure": "14b", "uncertainty": null},
+    {"elapsed_weeks": 4, "preceding_exposure_pH": 2, "MWCO_as_printed": 290, "figure": "14c", "uncertainty": null},
+    {"elapsed_weeks": 6, "preceding_exposure_pH": 13, "MWCO_as_printed": 220, "figure": "15a", "uncertainty": null},
+    {"elapsed_weeks": 8, "preceding_exposure_pH": 13, "MWCO_as_printed": 230, "figure": "15b", "uncertainty": null},
+    {"elapsed_weeks": 10, "preceding_exposure_pH": 1, "MWCO_as_printed": 290, "figure": "16a", "uncertainty": null},
+    {"elapsed_weeks": 12, "preceding_exposure_pH": 1, "MWCO_as_printed": 260, "figure": "16b", "uncertainty": null}
+  ],
+  "permeability": {
+    "source_locator": "Van Gestel sections 3.2.2 and 3.3, printed page 135",
+    "units": "L h^-1 m^-2 bar^-1",
+    "initial": "2.28",
+    "final_after_sequence": "2.35",
+    "uncertainty": null,
+    "final_measurement_context": "Last PEG retention test after corrosion sequence",
+    "actual_corrosive_target_flux": null
+  },
+  "POM_comparator": {
+    "source": "chowdhury2006",
+    "aqueous_salt": "Na12[WZn3(ZnW9O34)2]",
+    "membrane": "gamma-Al2O3 on alpha-Al2O3; not zirconia",
+    "aqueous_pH": null,
+    "concentration_method": "Zn ICP-AES after acidic destruction; W measurements reported inaccurate at about 20 percent",
+    "reported_retention_rows": [
+      {"pore_radius_nm": 2.3, "feed_mM": 6.4, "counterion": "MeN(n-C8H17)3", "solvent": "toluene", "retention_percent": 99.9, "qualifier": ">"},
+      {"pore_radius_nm": 4.3, "feed_mM": 6.4, "counterion": "MeN(n-C8H17)3", "solvent": "toluene", "retention_percent": 93, "qualifier": "reported"},
+      {"pore_radius_nm": 2.3, "feed_mM": 10, "counterion": "Na", "solvent": "water", "retention_percent": 97, "qualifier": "reported"}
+    ],
+    "table_locator": "Table 1, printed page 3062",
+    "uncertainty_for_retention_rows": null,
+    "explicit_retention_denominator": null,
+    "intact_species_resolved_recovery": null,
+    "aqueous_feed_volume_mL": 50,
+    "aqueous_permeate_collected_mL_approx": 8,
+    "applied_pressure_bar": [3, 12],
+    "six_activity_recycles": "Organic ammonium salt in toluene; cyclooctene epoxidation; not the aqueous sodium arm",
+    "smaller_precursor_retention_measured": false,
+    "preserved_ambiguities": [
+      "Larger pore radius is 4.0 nm in prose and 4.3 nm in Table 1",
+      "Preparation says purification was skipped; later aqueous filtration method specifies pure isolated sodium POM",
+      "Retention percentages are not treated as total mass recovery or molecular survival"
+    ]
+  },
+  "decision": {
+    "status": "COMPONENT_SUPPORTED_ACIDIC_MEMBRANE_ARCHITECTURE_TARGET_FUNCTION_UNRESOLVED",
+    "admission": false,
+    "target_retention": null,
+    "target_seed_activity": null,
+    "precursor_and_proton_flux": null,
+    "boundary_renewal": null,
+    "functional_inheritance": null,
+    "cross_paper_integration_claim": false,
+    "heldout_validation": false,
+    "next_test": "Same chloride medium: intact parent/target and seed activity on both sides, precursor/proton exchange, adsorption/extraction recovery, unconfined and membrane-only controls"
+  },
+  "work_scope": {
+    "researcher_queries": 5,
+    "researcher_source_open_attempts": 6,
+    "researcher_failed_publisher_routes": 4,
+    "root_pdf_downloads": 2,
+    "root_pdf_visual_pages": 4,
+    "curve_digitizations": 0,
+    "physical_experiments": 0,
+    "target_transport_fits": 0
+  }
+}

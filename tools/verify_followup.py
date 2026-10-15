@@ -696,6 +696,65 @@ def verify_crash_followup(recursive):
     for row in source['reported_prose_observations']:
         assert row['detected_fraction_upper_bound'] is None and row['kinetic_rate_constant'] is None
         assert row['not_transferred_to_target'] is True
+    verify_signed_boundary_followup(recursive)
+
+
+def verify_signed_boundary_followup(recursive):
+    diagnostic = recursive / 'parent-signed-j-diagnostic'
+    preparation = json.loads((diagnostic / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert preparation['SCFs_launched'] == preparation['operators_executed'] == 0
+    assert preparation['molecule_built'] is False and preparation['physical_admission'] is False
+    assert preparation['maximum_children'] == 1 and preparation['maximum_J_calls'] == 2
+    assert preparation['wall_cap_seconds'] == 600 and preparation['sampled_RSS_guard_bytes'] == 10 * 1024**3
+    assert preparation['density']['shape'] == [3068, 3068] and preparation['density']['cycle'] == 0
+    for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
+        assert (diagnostic / name).is_file()
+    for name in ('independent-root-review.json', 'run-v1'):
+        assert not (diagnostic / name).exists()
+    membrane = json.loads((recursive / 'boundary/acidic-nanofiltration/evidence.json').read_text())
+    assert membrane['new_candidate_roles'] == membrane['verified_integrated_complements_added'] == 0
+    assert membrane['decision']['status'] == 'COMPONENT_SUPPORTED_ACIDIC_MEMBRANE_ARCHITECTURE_TARGET_FUNCTION_UNRESOLVED'
+    for key in ('admission', 'cross_paper_integration_claim', 'heldout_validation'):
+        assert membrane['decision'][key] is False
+    for key in ('target_retention', 'target_seed_activity', 'precursor_and_proton_flux', 'boundary_renewal', 'functional_inheritance'):
+        assert membrane['decision'][key] is None
+    for key in ('chloride_medium_tested', 'POM_tested', 'target_tested'):
+        assert membrane['membrane'][key] is False
+    assert membrane['corrosion_protocol']['sequential_history_not_independent_pH_arms'] is True
+    assert membrane['corrosion_protocol']['independent_membrane_replicate_count'] is None
+    assert membrane['PEG_assay']['corrosion_pH_during_PEG_assay'] is None
+    assert membrane['POM_comparator']['explicit_retention_denominator'] is None
+    assert membrane['POM_comparator']['intact_species_resolved_recovery'] is None
+    assert membrane['POM_comparator']['smaller_precursor_retention_measured'] is False
+    for key in ('curve_digitizations', 'physical_experiments', 'target_transport_fits'):
+        assert membrane['work_scope'][key] == 0
+    assay_dir = recursive / 'identity/mov9-independent-assay-followup'
+    assay = json.loads((assay_dir / 'evidence.json').read_text())
+    assert assay['evidence_status'] == 'ACCESS_LIMITED_NO_QUANTITATIVE_SPECIATION_DATA_ACQUIRED'
+    for key in ('admitted_quantitative_speciation_rows', 'admitted_calibration_rows',
+                'admitted_active_retention_rows', 'admitted_independent_validation_rows'):
+        assert assay[key] == []
+    assert assay['source']['supporting_information_downloaded'] is False
+    assert assay['source']['supporting_information_sha256'] is None
+    assert assay['source']['full_methods_or_spectra_inspected'] is False
+    assert all(value is None for value in assay['unavailable_measurements'].values())
+    assert assay['source_family']['independent_experimental_data'] is None
+    for key in ('independent_research_family', 'data_reuse_demonstrated', 'independent_measurement_check_possible'):
+        assert assay['source_family'][key] is False
+    assert assay['target_boundary']['new_candidate_count'] == 0
+    for key in ('supports_ordinary_Krebs_Mo36_target_identity', 'supports_target_competing_species_quantitative_prediction',
+                'target_admission_count_changed'):
+        assert assay['target_boundary'][key] is False
+    for row in assay['excluded_numerical_observations']:
+        assert row['admissible_for_quantitative_speciation'] is False
+        assert row['admissible_for_active_catalyst_retention'] is False
+    acquisition = json.loads((assay_dir / 'acquisition.json').read_text())
+    routes = {row['id']: row for row in acquisition['routes']}
+    assert routes['R3']['outcome'] == 'FETCH_FAILED_403' and routes['R3']['http_status'] == 403
+    assert routes['R3']['pdf_acquired'] is False and routes['R3']['pdf_sha256'] is None
+    assert routes['R4']['outcome'] == 'FULLTEXT_LINK_REDIRECTED_TO_ABSTRACT'
+    assert routes['R4']['http_status'] is None and routes['R4']['full_article_acquired'] is False
 
 
 def verify_parent_pilot_source_bindings(included):

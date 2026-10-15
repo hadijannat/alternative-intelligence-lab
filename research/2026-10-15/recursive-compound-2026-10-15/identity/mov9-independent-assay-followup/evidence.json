@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "audit_id": "mov9-independent-assay-followup",
+  "audited_on": "2026-10-16",
+  "source": {
+    "doi": "10.1002/cmdc.70354",
+    "title": "Speciation Studies of Monosubstituted Pt, Mo, and W Decavanadates in Culture Media and In Vitro Activity Against Trypanosoma cruzi",
+    "first_published": "2026-06-30",
+    "source_class": "primary_research_article_abstract_metadata_references_only",
+    "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cmdc.70354",
+    "receipt": "raw/route02-article-tool-response.txt",
+    "supporting_information_filename": "cmdc70354-sup-0001-SuppData-S1.pdf",
+    "supporting_information_downloaded": false,
+    "supporting_information_sha256": null,
+    "full_methods_or_spectra_inspected": false
+  },
+  "evidence_status": "ACCESS_LIMITED_NO_QUANTITATIVE_SPECIATION_DATA_ACQUIRED",
+  "admitted_quantitative_speciation_rows": [],
+  "admitted_calibration_rows": [],
+  "admitted_active_retention_rows": [],
+  "admitted_independent_validation_rows": [],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "The graphical abstract lists the Mo-substituted decavanadate formula [MoV9O28]5-; the abstract labels the substituent Mo(VI).",
+      "locator": "route02 source lines236,242",
+      "scope": "Author identity declaration only; no crystallography, salt, hydration, protonation measurement, redox assay or purity data retrieved."
+    },
+    {
+      "id": "C2",
+      "claim": "The abstract reports 51V NMR in culture media and a substitution-dependent stability/speciation effect.",
+      "locator": "route02 source line238",
+      "scope": "No spectral figures, shifts, integrations, response calibration, uncertainty or measurement conditions retrieved."
+    },
+    {
+      "id": "C3",
+      "claim": "Moreira2026 and Kostenkova2023 share coauthor Debbie C. Crans; Moreira references Kostenkova2021 and Kostenkova2023.",
+      "locator": "route02 source lines65-71,308-311; local kostenkova2023.html meta name=citation_author",
+      "scope": "Research-family overlap is confirmed. Experimental independence and any data reuse remain unverified. Shared authorship and citations do not demonstrate reused measurements."
+    },
+    {
+      "id": "C4",
+      "claim": "The publisher lists an SI PDF and says supporting data are there.",
+      "locator": "route02 source lines247-256",
+      "scope": "Availability statement only. SI itself returned HTTP403 and no PDF bytes were acquired."
+    }
+  ],
+  "excluded_numerical_observations": [
+    {
+      "id": "BIO_EC50_ABSTRACT",
+      "source_locator": "route02 source line237",
+      "source_declared_species": [
+        "V9Pt",
+        "V9Mo"
+      ],
+      "endpoint": "EC50 in Trypanosoma cruzi trypomastigotes",
+      "value": 8.1,
+      "unit": "micromolar",
+      "numerical_uncertainty": null,
+      "replicate_count": null,
+      "molar_denominator_definition": null,
+      "measurement_time_h": null,
+      "admissible_for_quantitative_speciation": false,
+      "admissible_for_active_catalyst_retention": false,
+      "exclusion_reason": "Biological response concentration reported only in abstract; no species-resolved chemical amount, kinetic observation or catalyst-activity retention measurement retrieved."
+    }
+  ],
+  "source_family": {
+    "shared_author": "Debbie C. Crans",
+    "cited_prior_studies": [
+      "Kostenkova2021, J Inorg Biochem217:111356",
+      "Kostenkova2023, Front Chem Biol2:1126975"
+    ],
+    "independent_research_family": false,
+    "independent_experimental_data": null,
+    "data_reuse_demonstrated": false,
+    "independent_measurement_check_possible": false
+  },
+  "unavailable_measurements": {
+    "nmr_shifts_ppm": null,
+    "nmr_reference": null,
+    "nmr_frequency_MHz": null,
+    "nmr_pulse_delay": null,
+    "nmr_integration_or_deconvolution": null,
+    "nmr_detection_limit": null,
+    "pH": null,
+    "temperature_C": null,
+    "total_molybdenum_concentration": null,
+    "total_vanadium_concentration": null,
+    "cluster_nominal_concentration": null,
+    "ionic_strength": null,
+    "culture_medium_recipe": null,
+    "sampling_times": null,
+    "uncertainties": null,
+    "raw_FIDs": null,
+    "counterion_hydration_formula": null,
+    "protonation_state_measurement": null,
+    "Mo_to_V_solution_assay": null,
+    "formation_constants": null,
+    "transport_data": null,
+    "catalytic_activity_timecourse": null
+  },
+  "target_boundary": {
+    "nominal_target": "[MoVI34WVI VV O112(H2O)16]9-",
+    "source_Mo_to_V_ratio": "1:9",
+    "target_Mo_to_V_ratio": "34:1",
+    "source_contains_W_in_MoV9_formula": false,
+    "supports_ordinary_Krebs_Mo36_target_identity": false,
+    "supports_target_competing_species_quantitative_prediction": false,
+    "target_admission_count_changed": false,
+    "new_candidate_count": 0
+  },
+  "next_required_evidence": [
+    "Legitimate access to the exact SI PDF and full article, including the actual NMR methods and spectra/tables.",
+    "Observed versus simulated speciation clearly identified; any inherited formation constants traced to original reaction definitions and conditions.",
+    "Measurement provenance compared with Kostenkova2021/2023 before classifying independent validation.",
+    "Defined integration denominator, response factors, overlap treatment, uncertainty and detection limit before abundance calibration.",
+    "Separate species-resolved activity and persistence measurements under relevant inorganic conditions before active retention inference."
+  ]
+}

@@ -76,6 +76,29 @@ class PublicationSelection(unittest.TestCase):
             record = next(r for r in records if r['path'] == str(runtime))
             self.assertEqual((record['status'], record['scope']), ('excluded', 'subtree'))
 
+    def test_signed_boundary_export_keeps_authored_evidence_and_excludes_raw(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source, output = Path(temporary) / 'source', Path(temporary) / 'published'
+            for lab in LABS:
+                (source / lab).mkdir(parents=True)
+            base = Path('recursive-compound-2026-10-15')
+            kept = (base / 'parent-signed-j-diagnostic/preparation.json',
+                    base / 'boundary/acidic-nanofiltration/evidence.json',
+                    base / 'identity/mov9-independent-assay-followup/acquisition.json')
+            excluded = (base / 'boundary/acidic-nanofiltration/raw/article.pdf',
+                        base / 'boundary/acidic-nanofiltration/raw/page.png',
+                        base / 'identity/mov9-independent-assay-followup/raw/route03-si-tool-response.txt',
+                        base / 'parent-openmp/env-aligned/lib/runtime.bin')
+            for path in kept + excluded:
+                (source / path).parent.mkdir(parents=True, exist_ok=True)
+                (source / path).write_text('{}')
+            with contextlib.redirect_stdout(io.StringIO()):
+                export(source, output)
+            for path in kept:
+                self.assertEqual((output / path).read_text(), '{}')
+            for path in excluded:
+                self.assertFalse((output / path).exists())
+
     def test_historical_model_retained(self):
         self.assertIsNone(exclusion(Path('rna-turnover-tests-2026-10-15/results-v1/frozen/model.py')))
 
@@ -243,7 +266,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup',
                        'identity/vanadium-incorporation-followup', 'identity/competing-mov-speciation',
                        'identity/next-step/pcm-heldout-selection', 'parent-saved-j-crash-diagnostic',
-                       'identity/competing-mov-primary-followup'):
+                       'identity/competing-mov-primary-followup', 'parent-signed-j-diagnostic',
+                       'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -301,6 +325,17 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'root_cause_identified', True),
             ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'scientific_operators_evaluated', 1),
             ('parent-saved-j-crash-diagnostic/crash-excerpt.json', 'SCFs_launched', 1),
+            ('parent-signed-j-diagnostic/preparation.json', 'operators_executed', 2),
+            ('parent-signed-j-diagnostic/preparation.json', 'SCFs_launched', 1),
+            ('parent-signed-j-diagnostic/preparation.json', 'physical_admission', True),
+            ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'heldout_validation'), True),
+            ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'admission'), True),
+            ('boundary/acidic-nanofiltration/evidence.json',
+             ('POM_comparator', 'explicit_retention_denominator'), 'feed concentration'),
+            ('identity/mov9-independent-assay-followup/evidence.json', 'admitted_calibration_rows', [{'value': 8.1}]),
+            ('identity/mov9-independent-assay-followup/evidence.json',
+             ('source_family', 'independent_experimental_data'), True),
+            ('identity/mov9-independent-assay-followup/acquisition.json', ('routes', 2, 'http_status'), 200),
             ('parent-saved-j-crash-diagnostic/allocation-audit.json',
              ('allocation_observation', 'is_RSS_measurement_or_crash_cause'), True),
             ('parent-saved-j-crash-diagnostic/allocation-audit.json',
@@ -469,6 +504,15 @@ class OpenMPRenewalVerification(unittest.TestCase):
         path.write_text(json.dumps(data))
         with self.assertRaises(AssertionError):
             verify_openmp_renewal(self.recursive, self.case_names)
+
+    def test_signed_diagnostic_cannot_be_promoted_to_approved_or_run(self):
+        for name in ('independent-root-review.json', 'run-v1'):
+            with self.subTest(name=name):
+                path = self.recursive / 'parent-signed-j-diagnostic' / name
+                path.write_text('{}')
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+                path.unlink()
 
 
 class MemoryFollowupVerification(unittest.TestCase):

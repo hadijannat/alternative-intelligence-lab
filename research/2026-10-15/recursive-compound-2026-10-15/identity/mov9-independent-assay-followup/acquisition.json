@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "audit_id": "mov9-independent-assay-followup",
+  "date": "2026-10-16",
+  "limits": {
+    "distinct_route_cap": 4,
+    "search_query_cap": 4,
+    "conservative_routes_used": 4,
+    "scientific_primary_routes_used": 3,
+    "search_queries_used": 4
+  },
+  "counting_note": "The unintended navigation from a stale link reference is conservatively counted as one access route. No route was retried unchanged.",
+  "routes": [
+    {
+      "id": "R1",
+      "request_kind": "web.click",
+      "request": {
+        "ref_id": "turn430view0",
+        "id": 34
+      },
+      "intended_resource": "Moreira SI using previously recorded link number",
+      "actual_initial_url": "https://onlinelibrary.wiley.com/researchers/tools-resources/sharing",
+      "actual_final_url": "https://onlinelibrary.wiley.com/researchers/share/for-researchers",
+      "outcome": "UNINTENDED_STALE_LINK_NAVIGATION",
+      "http_status": null,
+      "scientific_content_acquired": false,
+      "receipt": "raw/route01-stale-link-tool-response.txt",
+      "note": "The returned resource was Wiley researcher-sharing guidance. This is not evidence that the intended SI failed."
+    },
+    {
+      "id": "R2",
+      "request_kind": "web.open",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cmdc.70354",
+      "outcome": "ABSTRACT_METADATA_REFERENCES_RETRIEVED",
+      "http_status": null,
+      "full_article_acquired": false,
+      "receipt": "raw/route02-article-tool-response.txt",
+      "si_link_locator": "source line256,link34",
+      "fulltext_link_locator": "source line213,link30"
+    },
+    {
+      "id": "R3",
+      "request_kind": "web.click",
+      "request": {
+        "ref_id": "turn439view0",
+        "id": 34
+      },
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fcmdc.70354&file=cmdc70354-sup-0001-SuppData-S1.pdf",
+      "outcome": "FETCH_FAILED_403",
+      "http_status": 403,
+      "pdf_acquired": false,
+      "pdf_sha256": null,
+      "receipt": "raw/route03-si-tool-response.txt",
+      "access_mechanism_or_paywall_reason": null,
+      "note": "Tool explicitly returned (403) Forbidden. No further causal attribution, alternate host retry or bypass attempted."
+    },
+    {
+      "id": "R4",
+      "request_kind": "web.click",
+      "request": {
+        "ref_id": "turn439view0",
+        "id": 30
+      },
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cmdc.70354",
+      "final_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cmdc.70354",
+      "outcome": "FULLTEXT_LINK_REDIRECTED_TO_ABSTRACT",
+      "http_status": null,
+      "full_article_acquired": false,
+      "receipt": "raw/route04-fulltext-tool-response.txt",
+      "note": "Redirect observed; response status and cause not supplied. It is not labeled HTTP403 or a verified paywall."
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q1",
+      "query": "\"cmdc.70354\" \"Supporting\""
+    },
+    {
+      "id": "Q2",
+      "query": "\"Speciation Studies of Monosubstituted\" Moreira pdf"
+    },
+    {
+      "id": "Q3",
+      "query": "\"cmdc70354-sup-0001-SuppData-S1.pdf\""
+    },
+    {
+      "id": "Q4",
+      "query": "\"10.1002/cmdc.70354\" repository"
+    }
+  ],
+  "search_receipt": "raw/search-queries-tool-response.txt",
+  "search_result_scope": "Four queries executed in one batch. Only the Wiley primary page is used for scientific claims. Other indexed records were discovery leads, not validated primary full text.",
+  "unattempted_leads": [
+    {
+      "url": "https://www.researchgate.net/profile/Rodrigo-Moreira-30",
+      "description": "Search result labels the article full-text available on author profile.",
+      "reason_not_followed": "No remaining route allocation; no article document URL or accessible primary file established. Availability and version unverified."
+    }
+  ],
+  "receipt_semantics": "raw/*.txt are preserved web-tool returned text, not original publisher HTML, HTTP response bodies or PDF files. Receipt hashes attest these local UTF-8 records only. Each ends with one newline.",
+  "outcome": {
+    "si_pdf_downloaded": false,
+    "methods_inspected": false,
+    "spectral_figures_inspected": false,
+    "numerical_speciation_data_acquired": false,
+    "admitted_calibration_rows": 0,
+    "admitted_independent_validation_rows": 0
+  }
+}

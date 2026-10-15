@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: crash boundary and primary spectral constraint
+## Current publication checkpoint: signed diagnostic prepared and boundary evidence refined
+
+The user requested commit and push of the latest changes. parent-signed-j-diagnostic is PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW: ten synthetic tests pass and224grouped pin entries bind the preparation. No molecule build, operator, SCF, run-v1 directory or independent root approval exists. The proposed two-call signed-density test remains unlaunched; no native value, memory-safety result or SIGTRAP repair is claimed.
+
+The acidic-nanofiltration source comparison refines existing B2 using a tetragonal zirconia/yttria-stabilized zirconia/alpha-alumina architecture. Seven cutoff labels200,220,290,220,230,290,260follow sequential weeks0,2,4,6,8,10,12. PEG assays used10bar; corrosion exposures used5–7bar. A separate gamma-alumina study's97% aqueous POM endpoint came from destructive Zn analysis with no recovered explicit retention denominator; repeated catalytic activity belongs to its organic-ammonium/toluene arm. No combined target-retention function or new role is admitted.
+
+The Moreira2026 follow-up retrieved article metadata but the official supplement returned HTTP403. No methods, spectra or quantitative calibration/active-retention/independent-validation rows were admitted. Shared authorship and citations establish overlap without resolving data independence; the biological EC50 is not chemical abundance. Earlier negative models, the failed parent SIGTRAP and all frozen results remain preserved. The aggregate stays22candidate-role assessments and zero verified integrated complements, with all integrated life/intelligence functions unresolved.
+
+The entries below describe historical checkpoints.
+
+## Previous publication checkpoint: crash boundary and primary spectral constraint
 
 The user requested commit and push of the current changes. A matching macOS report forPID94528 places the immediate SIGTRAP in the allocator while Python creates a buffered file writer. Source ordering confirms a finite native Coulomb result before the last callback; later wrapper completion, the exact Python allocation site and the earlier cause remain unknown. The filtered excerpt excludes device identifiers and registers, and three synthetic extractor tests pass. The parent remains FAIL_OR_INCOMPLETE with no completed SCF cycle.
 

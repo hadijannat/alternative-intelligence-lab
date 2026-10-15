@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "audit_id": "mov9-independent-assay-followup",
+  "status": "PASS",
+  "scope": "Local artifact integrity and acquisition boundaries only; no chemical validation.",
+  "checks": {
+    "json_parses": true,
+    "zero_admitted_quantitative_speciation_calibration_retention_independent_validation_rows": true,
+    "four_routes_four_queries_within_caps": true,
+    "SI_failure_403": true,
+    "fulltext_http_status_null": true,
+    "no_SI_PDF_hash": true,
+    "all_missing_measurements_null": true,
+    "measurement_independence_unknown": true,
+    "biological_endpoint_excluded": true,
+    "independent_source_scope_review_pass": true,
+    "single_eof_newline:INDEPENDENT_REVIEW.md": true,
+    "single_eof_newline:REPORT.md": true,
+    "single_eof_newline:acquisition.json": true,
+    "single_eof_newline:evidence.json": true,
+    "single_eof_newline:raw/route01-stale-link-tool-response.txt": true,
+    "single_eof_newline:raw/route02-article-tool-response.txt": true,
+    "single_eof_newline:raw/route03-si-tool-response.txt": true,
+    "single_eof_newline:raw/route04-fulltext-tool-response.txt": true,
+    "single_eof_newline:raw/search-queries-tool-response.txt": true,
+    "prior_kostenkova_raw_unchanged": true
+  },
+  "files": [
+    {
+      "path": "INDEPENDENT_REVIEW.md",
+      "bytes": 1698,
+      "sha256": "e42f2db0560a6d6c0931d072a6eb5bf3ee7d66afd1e0dbbe106ad7aa2f54ee2c"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 3752,
+      "sha256": "519dfb539ebdae42de19030c9ac8e3f596808b63e2114b0cc768193a54f6606b"
+    },
+    {
+      "path": "acquisition.json",
+      "bytes": 4394,
+      "sha256": "f7bbb300441d30f0632d2a601687039b0351b21d36feff5f87536f0684818c19"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 5504,
+      "sha256": "730fbb5e09b9ff6f229402012bc94f27d669919e2ff3c9908bca4254b139e781"
+    },
+    {
+      "path": "raw/route01-stale-link-tool-response.txt",
+      "bytes": 7017,
+      "sha256": "47ec7822c02a70577ce24f636caa070f93f0a64ab5ce2532dc9b32114cc92f97"
+    },
+    {
+      "path": "raw/route02-article-tool-response.txt",
+      "bytes": 27790,
+      "sha256": "d28de648cef176336574501cd6a30b5ba551a1f6dc67cd1b9c10ba5c31481985"
+    },
+    {
+      "path": "raw/route03-si-tool-response.txt",
+      "bytes": 301,
+      "sha256": "c566d8c5af668344c5d7948035dcd1e633e9faa6fb027def87c2fcf083e67209"
+    },
+    {
+      "path": "raw/route04-fulltext-tool-response.txt",
+      "bytes": 27702,
+      "sha256": "98d1f8145a02aa6f50fbc6631d5173fd03cd1a1e963fdf45646332cccc4187ea"
+    },
+    {
+      "path": "raw/search-queries-tool-response.txt",
+      "bytes": 29716,
+      "sha256": "5916281383e48ec80a1b3b33030e2fde30a6a6298e3472f7fb39691b52eba075"
+    }
+  ],
+  "prior_source_sha256": "a4ec87ae13b74766553bd8922b0285b1d4db364e37b4c5c676a6e87809e00fe5"
+}
