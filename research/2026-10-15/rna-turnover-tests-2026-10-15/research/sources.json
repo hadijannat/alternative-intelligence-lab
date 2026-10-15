@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Primary-source topology review and stoichiometric design; no fitting",
+  "new_compatible_numerical_holdout_acquired": false,
+  "authors_contacted": false,
+  "sources": [
+    {
+      "id": "salibi2023",
+      "title": "Periodic temperature changes drive the proliferation of self-replicating RNAs in vesicle populations",
+      "url": "https://doi.org/10.1038/s41467-023-36940-z",
+      "primary": true,
+      "access": "Retained article XML/text, SI PDF/text, workbook, and S13 diagram inspected locally",
+      "locations": ["SI Figure S13a-b, PDF page 17", "SI Figure S14, PDF page 18", "SI S13 Methods, PDF page 26", "Article Methods: Generation of inactive R3C reporter substrate", "Article Data availability"],
+      "local_passage_ranges": [
+        {"file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt", "lines": [344, 375], "topic": "Reporter cycle and denaturing analysis"},
+        {"file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt", "lines": [550, 561], "topic": "S13 recipe, preparation and observer"},
+        {"file": "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt", "lines": [101, 103], "topic": "G38A reporter identity"},
+        {"file": "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt", "lines": [201, 203], "topic": "Workbook is the published source-data package"}
+      ],
+      "does_not_establish": "FF/FP release rates, full-length pair affinities, bound-competence hazard, complex transport",
+      "data_admission": "Existing S13 retrospective data only; other recipes remain separate"
+    },
+    {
+      "id": "ferretti2013",
+      "title": "Kinetic Properties of an RNA Enzyme that Undergoes Self-Sustained Exponential Amplification",
+      "url": "https://doi.org/10.1021/bi301646n",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3579227/",
+      "primary": true,
+      "access": "Indexed primary full text inspected; direct BioC download failed with HTTP 503, retained in raw/retrieval.json",
+      "locations": ["Experimental Procedures: Determination of Reaction Rates and Equilibrium Constants", "Results: Dissociation of the E/E-prime Complex", "Discussion", "Figures 4 and 7"],
+      "exact_excerpt": "multiple turnover of the two component reactions is limited by the rate of product release",
+      "constants": {
+        "product_release_min_inverse": 0.21,
+        "product_complex_Kd_uM": 0.016,
+        "author_calculated_product_association_M_inverse_min_inverse": 13000000,
+        "competing_substrate_complex_Kd_uM_approximate": 0.1,
+        "competing_substrate_release_min_inverse_lower_bound": 1,
+        "degradation_fraction_per_hour_approximate": 0.05
+      },
+      "conditions": {"temperature_C": 44, "MgCl2_mM": 25, "EPPS_mM": 50, "pH": 8.5, "system": "E/E-prime cross-replicators"},
+      "admission": "Topology and condition-specific comparisons; not fixed S13 rate constants"
+    },
+    {
+      "id": "robertson2014",
+      "title": "Highly Efficient Self-Replicating RNA Enzymes",
+      "url": "https://doi.org/10.1016/j.chembiol.2013.12.004",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943892/",
+      "primary": true,
+      "access": "Indexed primary full text inspected; direct page recaptcha and BioC HTTP 503 prevented retained full text",
+      "locations": ["Results: Directed Evolution", "Analysis of Individual Evolved Enzymes", "Cross-replication and Sustained Exponential Growth", "Discussion", "Figures S2-S4"],
+      "exact_excerpt": "avoid selecting enzyme variants with altered modes of substrate binding",
+      "constants": {"F1_single_turnover_kcat_min_inverse": 16.6, "F1_single_turnover_kcat_reported_plus_minus": 0.4, "F1_single_turnover_Km_uM": 7.1, "F1_single_turnover_Km_reported_plus_minus": 0.5, "F1_replication_temperature_optimum_C": [46, 50], "F1_growth_min_inverse_at_48C_10uM_substrates": 0.14, "reported_degradation_fraction_per_minute_approximate": 0.001},
+      "admission": "F1 comparison under original assay regimes; 0.21/min release cited from older study, not newly measured in Salibi buffer",
+      "bound_dimer_further_catalysis_measurement_identified": false
+    },
+    {
+      "id": "olea2016",
+      "title": "Real-Time Detection of a Self-Replicating RNA Enzyme",
+      "url": "https://doi.org/10.3390/molecules21101310",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5108293/",
+      "primary": true,
+      "access": "Indexed primary full text inspected; direct page recaptcha and BioC HTTP 503 prevented retained full text",
+      "locations": ["Introduction", "Figure 1a-c"],
+      "exact_excerpt": "The E•E complex then dissociates to begin the next replication cycle",
+      "admission": "Self-replication product-complex topology; different engineered enzyme and labeled-B leaving-group observer",
+      "same_condition_raw_data_acquired": false
+    }
+  ],
+  "retained_input_hashes": {
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.xml": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-mechanism-2026-10-15/sources/salibi/SI13-page17.png": "b06f74143ea0638e55a840940d88680a3f244d3332b5c5aa1b6fd2eccc3c1d5f",
+    "rna-reaction-tests-2026-10-15/research/REPORT.md": "4b6adb91c115b8eaf1acd946769e5e4ebac13f402f402cb56c142c94c48b82f0",
+    "rna-reaction-tests-2026-10-15/research/sources.json": "13818865fc1f3db37ab077c468c7fab04b3914bca588e92b5b29de96ac766144",
+    "rna-reaction-tests-2026-10-15/model.py": "fcca9e82f09ff9a74a93bb7b60dac90585f52464d842e863373a1509e0fc2a8c",
+    "rna-reaction-tests-2026-10-15/PROTOCOL.md": "55963576e40403feb0eb0f88f9ff86d2c54c805bcf8d41eb4e2ff7c15faf26e1",
+    "rna-reaction-tests-2026-10-15/REPORT.md": "509caf10d7cca07cee3b620e673df6d7fa714edddc34796741e7ab8924f11233"
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "status": "PASS",
+  "documents": 13,
+  "local_links": 114,
+  "checks": [
+    {
+      "file": "EXPERIMENTS.md",
+      "target": "research/assays/ledger.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "EXPERIMENTS.md",
+      "target": "research/assays/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "EXPERIMENTS.md",
+      "target": "assay/PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "EXPERIMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "../rna-mechanism-2026-10-15/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "WORKPLAN.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/assays/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "research/lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "assay/PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "assay/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "lineage/PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "checks.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "README.md",
+      "target": "progress.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "../rna-mechanism-2026-10-15/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "EXPERIMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "research/assays/ledger.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "counterexamples.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "assay/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "assay/results-v1/power.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "assay/results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "assay/results-v1/retention.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "lineage/PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "lineage/results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "lineage/results-v1/design-performance.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "lineage/results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "../rna-mechanism-2026-10-15/REPORT.md#new-public-datasets-and-what-they-constrain",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "research/assays/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "research/lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "checks.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "REPORT.md",
+      "target": "../.omo/evidence/rna-inheritance-design-code-review.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "../research/assays/ledger.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/nonidentifiability.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/observations.jsonl",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/retention_observations.jsonl",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/power.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/material_budget.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "tests-development-v3.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "replay-verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "assay/REPORT.md",
+      "target": "results-v1/source.zip",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "WORKPLAN.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "research/assays/ledger.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "research/assays/.omo/evidence/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "EXPERIMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/model.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/results-v1/observations.jsonl",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "counterexamples.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/results-v1/retention_observations.jsonl",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/results-v1/retention.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "counterexamples.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "lineage/model.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "lineage/PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "lineage/results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "EXPERIMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/results-v1/material_budget.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "research/lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "lineage/results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "lineage/results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "assay/replay-verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "EXPERIMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "progress.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "../.omo/evidence/rna-inheritance-design-code-review.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "checks.md",
+      "target": "presentation-checks.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "../research/lineage/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "../research/assays/REPORT.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "../assay/model.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/design-performance.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/retention-1.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "tests.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/sources.zip",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/numerical-digests.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/decisions.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/execution.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "results-v1/pedigree-strong-1.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "../verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/REPORT.md",
+      "target": "checks.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "tests.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "../verification-v1/lineage-tests.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/pedigree-strong-1.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/execution.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/freeze.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "tests.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "model.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/decisions.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/decisions.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "PROTOCOL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/retention-0.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/retention-1.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/retention-2.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/design-performance.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "../verification-v1/verification.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "../verification-v1/lineage/replay.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "lineage/checks.md",
+      "target": "results-v1/sources.zip",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "research/lineage/REPORT.md",
+      "target": "sources.json",
+      "exists_and_anchor_valid": true
+    }
+  ],
+  "errors": [],
+  "figures": [
+    {
+      "path": "assay/results-v1/power.png",
+      "sha256": "136016aa35fcf93d13ad611ab2bd5b631c0d249aebfa7f426703b1e04be99eda",
+      "visual_inspection": "Readable axes, units, conditional scope, thresholds and legends; inspected through view_image"
+    },
+    {
+      "path": "lineage/results-v1/design-performance.png",
+      "sha256": "a979363a73d0a9173e9fc0e13835d45f3029346468f2e466ff92fa16609c898f",
+      "visual_inspection": "Readable axes, units, conditional scope, thresholds and legends; inspected through view_image"
+    }
+  ],
+  "document_sha256": {
+    "WORKPLAN.md": "83729d521bb68a0d71e635c1ae98155e7a9b394724b572e7f3f62c9eeaa67430",
+    "EXPERIMENTS.md": "29a692190a428f37a4f89905363704d5d02c2428e85b2261ebb5f7058300d5e7",
+    "REPORT.md": "2d3f035fee9c16072ae20a2eb263473c780d3224f33eb0f53e83eeed9049d8cb",
+    "progress.md": "8c579f367f2c9e3708846f036baf69bb3974a0b05a6e9c6a00d2028f57002c45",
+    "README.md": "ba0d1f17b6bc5b4bdf927f1de49ad2062d0f86c0b364f21074fbb3ba3a1ff251",
+    "checks.md": "7237d83294592243cb4c79bd08e30fbcd68f766a922bedd65062d77399dbd44d",
+    "assay/REPORT.md": "6ff54abb11b674f02dc3c0000f74c9102afd87bf58b045aa14e8720c95f788a5",
+    "assay/PROTOCOL.md": "7ef03d290335e8853e7f454a071655c5f98fb77f7dde403e7f9982c00708bce5",
+    "lineage/REPORT.md": "d85eb4d99fdd9c52f7f84d974d1cf0f21328525fe2bb53aa53034ecf0defdab7",
+    "lineage/PROTOCOL.md": "771445cab9f1b64ce2f6beb1ffcf67e87a5fccb5b3bfd0aa1aec1d05768d1627",
+    "lineage/checks.md": "6c7ebad1ebe3e816621027d90cd82166b0a6ec08d99d81af9b411ed3e9acd8c7",
+    "research/assays/REPORT.md": "b67b25bcbd9392d2042de831a8587ef834a45226f72711e2abf5559528f19f5e",
+    "research/lineage/REPORT.md": "d105ca9d67ac51aee2ba4b4fc7d9d258045be82474483c1db114c43172401f05"
+  },
+  "plot_source_sha256": "64f8c1e11e71ee806435a1f4d688bf008bbdf823227dca566f20dea7e494bfc3",
+  "limits": "Local paths/anchors and rendered figures only; no live HTTP link crawl or physical validation."
+}

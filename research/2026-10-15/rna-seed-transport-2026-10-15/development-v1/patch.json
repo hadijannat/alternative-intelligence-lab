@@ -1,0 +1,189 @@
+{
+  "active_bounds": [
+    0,
+    0
+  ],
+  "agreeing_successful_starts": 6,
+  "complete": true,
+  "family": "patch",
+  "fixed_parameters": {},
+  "free_parameters": [
+    "nu",
+    "diffusion"
+  ],
+  "jacobian_singular_values": [
+    1.753483700744474,
+    0.005625542166738902
+  ],
+  "max_nfev": 120,
+  "parameters": {
+    "diffusion": 0.3000000000486039,
+    "nu": 4.0000000004650795
+  },
+  "qualified": true,
+  "residual_evaluations": 371,
+  "resolved": true,
+  "rmse_pp": 1.4465714074581252e-13,
+  "sse": 3.7666239063756867e-25,
+  "starts": [
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.5397242079488933,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 12,
+      "njev": 12,
+      "optimizer_parameters": [
+        0.6020599913784578,
+        -0.5228787452099762
+      ],
+      "optimizer_start": [
+        0.07385606273598312,
+        0.7999999999999998
+      ],
+      "residual_evaluations": 60,
+      "sse": 3.7666239063756867e-25,
+      "start_id": 1,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.5060620409203693,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 12,
+      "njev": 12,
+      "optimizer_parameters": [
+        0.602060037343087,
+        -0.5228786812010525
+      ],
+      "optimizer_start": [
+        0.2954242509439325,
+        0.20000000000000018
+      ],
+      "residual_evaluations": 60,
+      "sse": 1.9724848322741562e-19,
+      "start_id": 2,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.3633837919915095,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "optimizer_parameters": [
+        0.6020596402066332,
+        -0.5228792372035876
+      ],
+      "optimizer_start": [
+        0.590848501887865,
+        -0.6000000000000001
+      ],
+      "residual_evaluations": 45,
+      "sse": 2.0131271693270824e-17,
+      "start_id": 3,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.6258496249793097,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 18,
+      "njev": 15,
+      "optimizer_parameters": [
+        0.6020599835732416,
+        -0.5228787560815038
+      ],
+      "optimizer_start": [
+        0.8862727528317974,
+        -1.4
+      ],
+      "residual_evaluations": 78,
+      "sse": 5.5763790700501546e-21,
+      "start_id": 4,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.48230466700624675,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 13,
+      "njev": 12,
+      "optimizer_parameters": [
+        0.6020536593033062,
+        -0.5228875659343734
+      ],
+      "optimizer_start": [
+        1.18169700377573,
+        -2.2
+      ],
+      "residual_evaluations": 61,
+      "sse": 3.732186956305749e-15,
+      "start_id": 5,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.5328592919977382,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 15,
+      "njev": 13,
+      "optimizer_parameters": [
+        0.6020599895838455,
+        -0.5228787477075877
+      ],
+      "optimizer_start": [
+        1.4032651919836792,
+        -2.8
+      ],
+      "residual_evaluations": 67,
+      "sse": 2.937348970437303e-22,
+      "start_id": 6,
+      "status": 1,
+      "success": true
+    }
+  ],
+  "successful_starts": 6,
+  "training_row_ids": [
+    "synthetic_0_1_1",
+    "synthetic_0_1_2",
+    "synthetic_0_1_3",
+    "synthetic_0_2_1",
+    "synthetic_0_2_2",
+    "synthetic_0_2_3",
+    "synthetic_0_3_1",
+    "synthetic_0_3_2",
+    "synthetic_0_3_3",
+    "synthetic_1_1_1",
+    "synthetic_1_1_2",
+    "synthetic_1_1_3",
+    "synthetic_1_2_1",
+    "synthetic_1_2_2",
+    "synthetic_1_2_3",
+    "synthetic_1_3_1",
+    "synthetic_1_3_2",
+    "synthetic_1_3_3"
+  ]
+}

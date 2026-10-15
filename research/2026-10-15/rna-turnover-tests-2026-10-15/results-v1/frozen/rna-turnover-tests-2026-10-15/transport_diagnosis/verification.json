@@ -1,0 +1,24 @@
+{
+  "input_count": 14,
+  "inputs_unchanged": true,
+  "output_sha256": {
+    "PROTOCOL.md": "8cf1097efbdb2c70601840fd2ddec4562650b998c2fbeccf49a36178d1b98c6d",
+    "REPORT.md": "7f69de342c37ac305fedd2b9331007aaf4ad9d59e3bc5c9358e085645e133b8d",
+    "assumption_ledger.json": "35abe9d8c157127d129bd56ad1b3029456d904ea5e0ce16edb3391c478b68fbc",
+    "audit.py": "a9b091a8add21e9a8d155f19aa4bba6c640e1e8781dba8c74ba3d24f4b210fb5",
+    "diagnosis.json": "a166ad642aee00c9face8247c879185c68ec275001d1eae9fdf922b0ec8d7f6d",
+    "dynamic_residuals_by_seed.csv": "4e388a7714ec154c3d3a4bda2ca49043f94ae80f196130ac02b57e8f5ba98445",
+    "g7_state.csv": "e1f9e9b123da52d96363b2abac35a328fac38cf05993e50f50b8cf65ee91ac5d",
+    "input_hashes.json": "58d59e1db4af24a1ad0169abb1009fb8f04822c258fb5da48e8ea1533a5a40fd",
+    "residuals_by_condition.csv": "df521bfaaa84b9bf157f0a5dfd9be173e237dd9bec5c0dc6a131774d78236e25"
+  },
+  "pass_all_assertions": true,
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.1",
+    "openpyxl": "3.1.3",
+    "python": "3.12.3",
+    "scipy": "1.16.1"
+  },
+  "utc": "2026-10-15T14:12:09.005304+00:00"
+}

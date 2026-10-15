@@ -1,0 +1,15 @@
+{
+  "version": "maintenance-v1",
+  "seeds": [2026101500, 2026101501, 2026101502, 2026101503, 2026101504, 2026101505, 2026101506, 2026101507, 2026101508, 2026101509, 2026101510, 2026101511],
+  "steps": 600,
+  "dt": 0.1,
+  "initial": {"fuel": 0.5, "structure": 1.0, "energy": 0.25},
+  "reservoir": 30.0,
+  "feed_rate": 0.35,
+  "feed_noise_fraction": 0.2,
+  "work_rate": 0.1,
+  "params": {"conversion_rate": 0.8, "structure_yield": 0.5, "energy_yield": 2.0, "renewal_energy_cost": 0.5, "decay_rate": 0.04, "energy_leak_rate": 0.03, "renewal": true},
+  "arms": ["normal", "no_feed", "no_renewal", "extra_leak"],
+  "extra_leak_multiplier": 3.0,
+  "criteria": {"normal_structure_minimum": 0.9, "normal_new_structure_minimum": 0.75, "normal_founder_fraction_maximum": 0.25, "normal_work_fraction_minimum": 0.95, "negative_control_structure_ratio_maximum": 0.5, "extra_leak_structure_ratio_maximum": 0.8, "ledger_tolerance": 1e-9}
+}

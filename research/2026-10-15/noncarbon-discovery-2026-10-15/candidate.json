@@ -1,0 +1,41 @@
+{
+  "id": "T1-Mo34WV",
+  "status": "UNVERIFIED_COMPOSITION_HYPOTHESIS",
+  "nominal_anion": "[Mo(VI)34W(VI)V(V)O112(H2O)16]9-",
+  "metal_counts": {"Mo": 34, "W": 1, "V": 1},
+  "framework_oxygen_count": 112,
+  "neutral_water_count": 16,
+  "formal_oxidation_states": {"Mo": 6, "W": 6, "V": 5, "framework_O": -2},
+  "formal_charge": -9,
+  "formal_one_electron_counterpart": {
+    "assignment_hypothesis": "V(V) to V(IV), all other atoms and protonation unchanged",
+    "formal_charge": -10,
+    "electron_localization": "UNMEASURED"
+  },
+  "parent_reference": "[Mo(VI)36O112(H2O)16]8-",
+  "parent_doi": "10.1073/pnas.1921536117",
+  "rationale": "Test whether mixed-metal substitution can preserve parent assembly while adding a distinguishable reversible redox response; neither outcome is predicted by charge arithmetic.",
+  "novelty": "NOT_ESTABLISHED_BY_BOUNDED_SEARCH",
+  "structural_geometry": null,
+  "substitution_sites": null,
+  "counterions_and_protonation": null,
+  "solution_identity": "UNMEASURED",
+  "formation_energy": null,
+  "kinetic_constants": null,
+  "active_retention": "UNMEASURED",
+  "functional_inheritance": "UNMEASURED",
+  "adaptive_behavior": "UNMEASURED",
+  "life_or_intelligence": "NOT_DEMONSTRATED",
+  "carbon_free_nominal_anion": true,
+  "carbon_independent_operating_system": "UNVERIFIED",
+  "relationship_to_jarvis_screen": "Separate molecular hypothesis; not selected, ranked or validated by the 1000 periodic-solid records.",
+  "negative_outcomes_to_retain": [
+    "No isolable intended species",
+    "Alternative nuclearity, topology, hydration or protonation",
+    "Mixed species or precipitation",
+    "Loss of parent autocatalysis",
+    "Irreversible reduction or catalytic discharge",
+    "Increased seed-independent background",
+    "Founder persistence without newly inherited function"
+  ]
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "file": "raw/elife_metadata.json",
+    "url": "https://api.elifesciences.org/articles/83543",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://api.elifesciences.org/articles/83543",
+    "status": "downloaded",
+    "bytes": 183324,
+    "sha256": "944187579d3aafce7c0d0748e401fe494089728d1934a967f408aec932f31bb1"
+  },
+  {
+    "file": "raw/edmond_metadata.json",
+    "url": "https://edmond.mpg.de/api/datasets/:persistentId/?persistentId=doi%3A10.17617%2F3.G6KSU2",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond.mpg.de/api/datasets/:persistentId/?persistentId=doi%3A10.17617%2F3.G6KSU2",
+    "status": "downloaded",
+    "bytes": 288329,
+    "sha256": "01cdfe98a3ee081ad8a0d2b7bc184ec54e8ff37a1cf6251e27f1dad55ec1a730"
+  },
+  {
+    "file": "raw/levay_exchange.zip",
+    "url": "https://cdn.elifesciences.org/articles/83543/elife-83543-fig3-figsupp2-data1-v2.zip",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://cdn.elifesciences.org/articles/83543/elife-83543-fig3-figsupp2-data1-v2.zip",
+    "status": "downloaded",
+    "bytes": 11179,
+    "sha256": "903e9b4c996e59f2d2d6090f4fa775c1b7b8cabb8b68c77dde1083e402dcef92"
+  },
+  {
+    "file": "raw/ghosh_phase_concentrations.xlsx",
+    "url": "https://edmond.mpg.de/api/access/datafile/315224",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977cfe312f-e213338cb290",
+    "status": "downloaded",
+    "bytes": 10377,
+    "sha256": "11c091245fd28bf919a4dd49894a0dd1233cb8e5b4c6551a4cab140eb4ae75e5"
+  },
+  {
+    "file": "raw/ghosh_dilute_concentrations.txt",
+    "url": "https://edmond.mpg.de/api/access/datafile/315264",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977cfe2f46-d1334de02098",
+    "status": "downloaded",
+    "bytes": 3332,
+    "sha256": "3a198257a53dc11ced43774e120950164f8d5fdc3560ef185509413e2f6bf9d6"
+  },
+  {
+    "file": "raw/ghosh_rates.txt",
+    "url": "https://edmond.mpg.de/api/access/datafile/315232",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977d450596-3babb079004c",
+    "status": "downloaded",
+    "bytes": 3920,
+    "sha256": "e865311b811f09c9efb8f333cde08def8c8706af75eb832b001960a170051d94"
+  },
+  {
+    "file": "raw/ghosh_whole_solution_rates.txt",
+    "url": "https://edmond.mpg.de/api/access/datafile/315165",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977cfe1a6e-8209068774d8",
+    "status": "downloaded",
+    "bytes": 7353,
+    "sha256": "a35933008fea03fa97b505d04b3458e3799e93003b9f3d48bd0e22f4c52e7dbb"
+  },
+  {
+    "file": "raw/ghosh_partition_coefficients.xlsx",
+    "url": "https://edmond.mpg.de/api/access/datafile/315202",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977cfe53e0-133656f1746c",
+    "status": "downloaded",
+    "bytes": 8938,
+    "sha256": "78577b89019fed00a7676581023151a3e57876b5082273d241a7890b8e466298"
+  },
+  {
+    "file": "raw/ghosh_supernatant_fit.xlsx",
+    "url": "https://edmond.mpg.de/api/access/datafile/315001",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://edmond-objstor-prod.s3.gwdg.de/10.17617/3.G6KSU2/1977d450374-9f09ee4a7de7",
+    "status": "downloaded",
+    "bytes": 8990,
+    "sha256": "e65b8258389200ddaeab7d46ce7088a32b0481837d1c65a9e3d10dc771dd9655"
+  },
+  {
+    "file": "raw/ghosh_si.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-63656-z/MediaObjects/41467_2025_63656_MOESM1_ESM.pdf",
+    "client_date": "2026-10-15",
+    "http_status": 200,
+    "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-63656-z/MediaObjects/41467_2025_63656_MOESM1_ESM.pdf",
+    "status": "downloaded",
+    "bytes": 16179834,
+    "sha256": "d2d4b4f0c0213b04c215b41e223f43a93fee9a67fcf529152fe6fd6edfdd98ba"
+  },
+  {
+    "file": "raw/levay2023.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10275638/fullTextXML",
+    "client_date": "2026-10-15",
+    "status": "retained",
+    "bytes": 232329,
+    "sha256": "260c2b75c69f3c0df3598799b260e8bb098fde460841a95e7a391cd950bd6d8a"
+  },
+  {
+    "file": "raw/coacervates2025.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12489098/fullTextXML",
+    "client_date": "2026-10-15",
+    "status": "retained",
+    "bytes": 219591,
+    "sha256": "931fb37262dac68ed9609867fa3a82b156b0850daa9bd96ff9d49963ff45bd95"
+  },
+  {
+    "file": "raw/dasgupta2023.html",
+    "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/chem.202301376",
+    "client_date": "2026-10-15",
+    "http_status": 403,
+    "final_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/chem.202301376",
+    "status": "rejected",
+    "bytes": 5641,
+    "response_prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Typ"
+  },
+  {
+    "file": "raw/dasgupta2023_si.pdf",
+    "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/suppl/10.1002/chem.202301376/supinfo/chem202301376-sup-0001-misc_information.pdf",
+    "client_date": "2026-10-15",
+    "http_status": 403,
+    "final_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/suppl/10.1002/chem.202301376/supinfo/chem202301376-sup-0001-misc_information.pdf",
+    "status": "rejected",
+    "bytes": 5864,
+    "response_prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Typ"
+  },
+  {
+    "file": "raw/peter2023.html",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202218507",
+    "client_date": "2026-10-15",
+    "http_status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202218507",
+    "status": "rejected",
+    "bytes": 5581,
+    "response_prefix": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Typ"
+  }
+]

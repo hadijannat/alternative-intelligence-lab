@@ -1,0 +1,1526 @@
+{
+  "OD_operational_windows": [
+    {
+      "OD_threshold": 0.1953,
+      "first_below_min": 5.666666666666667,
+      "last_above_min": 5.5,
+      "well": "G2"
+    },
+    {
+      "OD_threshold": 0.19709,
+      "first_below_min": 5.0,
+      "last_above_min": 4.833333333333333,
+      "well": "G6"
+    }
+  ],
+  "capacity_sensitivity": [
+    {
+      "capacity_mM": 0.8,
+      "holdout_RMSE_mM": 0.033556675338789296,
+      "k0_per_min": 0.07205709461979677,
+      "kcat_per_mM_min": 2.914112900033492,
+      "train_SSE_mM2": 0.002563644975216302
+    },
+    {
+      "capacity_mM": 0.88,
+      "holdout_RMSE_mM": 0.08043751075771159,
+      "k0_per_min": 0.07514236391811119,
+      "kcat_per_mM_min": 2.339743301231942,
+      "train_SSE_mM2": 0.003133010125267279
+    }
+  ],
+  "conclusion": "Bulk formation and observed turbidity do not identify active C3 retention or inherited catalytic function; transfer outcomes are assumption-dependent, not measured inheritance.",
+  "data": {
+    "OD_observations": 126,
+    "holdout_observations": 6,
+    "paired_assays": false,
+    "train_observations": 10
+  },
+  "examples": {
+    "bulk_transfer": {
+      "balance_error": {
+        "TPA_nmol": 0.0,
+        "azide_nmol": -1.1368683772161603e-13,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "escape": 0,
+        "localization": 1,
+        "mode": "bulk",
+        "q": 0.5
+      },
+      "passages": [
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            3.2623557657338758,
+            26.78706729720168,
+            0.5,
+            17.737644234266117
+          ],
+          "feed_cumulative_nmol": [
+            38.73764423426613,
+            133.21293270279833
+          ],
+          "founder_active_fraction": 0.027415821559923087,
+          "hypothetical_new_marginal_rate_mM_min": 0.7728044478521349,
+          "newly_formed_nmol": 35.475288468532234,
+          "passage": 1,
+          "retained_active_new_mM": 0.35475288468532234,
+          "retained_founder_nmol": 0.5,
+          "retained_new_nmol": 17.737644234266117,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.5,
+            0.0,
+            17.737644234266117,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.3716819366566,
+            44.11504580996985,
+            0.75,
+            47.497140180476464
+          ],
+          "feed_cumulative_nmol": [
+            80.62831806334341,
+            275.88495419003016
+          ],
+          "founder_active_fraction": 0.008330696405168059,
+          "hypothetical_new_marginal_rate_mM_min": 1.296579778539034,
+          "newly_formed_nmol": 41.78134765815459,
+          "passage": 2,
+          "retained_active_new_mM": 0.595189918924207,
+          "retained_founder_nmol": 0.25,
+          "retained_new_nmol": 29.75949594621035,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.25,
+            0.0,
+            29.75949594621035,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.395769720636045,
+            61.187309161908175,
+            0.875,
+            83.35280036960218
+          ],
+          "feed_cumulative_nmol": [
+            122.60423027936397,
+            418.81269083809184
+          ],
+          "founder_active_fraction": 0.0034740885615483575,
+          "hypothetical_new_marginal_rate_mM_min": 1.5621811616506092,
+          "newly_formed_nmol": 41.95182443204108,
+          "passage": 3,
+          "retained_active_new_mM": 0.7171132037825143,
+          "retained_founder_nmol": 0.125,
+          "retained_new_nmol": 35.855660189125715,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.125,
+            0.0,
+            35.855660189125715,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4075559223724445,
+            78.22266776711737,
+            0.9375,
+            122.26884426242864
+          ],
+          "feed_cumulative_nmol": [
+            164.5924440776276,
+            561.7773322328826
+          ],
+          "founder_active_fraction": 0.0016034462490914748,
+          "hypothetical_new_marginal_rate_mM_min": 1.6955178160066142,
+          "newly_formed_nmol": 41.976427596527216,
+          "passage": 4,
+          "retained_active_new_mM": 0.7783208778565293,
+          "retained_founder_nmol": 0.0625,
+          "retained_new_nmol": 38.916043892826465,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0625,
+            0.0,
+            38.916043892826465,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.415853902942695,
+            95.24756170882813,
+            0.96875,
+            162.71856822827164
+          ],
+          "feed_cumulative_nmol": [
+            206.58414609705733,
+            704.7524382911719
+          ],
+          "founder_active_fraction": 0.0007719675921426227,
+          "hypothetical_new_marginal_rate_mM_min": 1.7623381201211639,
+          "newly_formed_nmol": 41.98340403885949,
+          "passage": 5,
+          "retained_active_new_mM": 0.8089944793168595,
+          "retained_founder_nmol": 0.03125,
+          "retained_new_nmol": 40.44972396584298,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.03125,
+            0.0,
+            40.44972396584298,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4228248734743945,
+            112.26847462042323,
+            0.984375,
+            203.93645924066146
+          ],
+          "feed_cumulative_nmol": [
+            248.57717512652562,
+            847.7315253795767
+          ],
+          "founder_active_fraction": 0.0003789393074145075,
+          "hypothetical_new_marginal_rate_mM_min": 1.7958060881570779,
+          "newly_formed_nmol": 41.98605805893665,
+          "passage": 6,
+          "retained_active_new_mM": 0.8243578202477962,
+          "retained_founder_nmol": 0.015625,
+          "retained_new_nmol": 41.21789101238981,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.015625,
+            0.0,
+            41.21789101238981,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.429215530062788,
+            129.28764659018842,
+            0.9921875,
+            245.53901409026798
+          ],
+          "feed_cumulative_nmol": [
+            290.5707844699372,
+            990.7123534098116
+          ],
+          "founder_active_fraction": 0.00018775368970814628,
+          "hypothetical_new_marginal_rate_mM_min": 1.8125653556450712,
+          "newly_formed_nmol": 41.9872186868232,
+          "passage": 7,
+          "retained_active_new_mM": 0.8320510969921301,
+          "retained_founder_nmol": 0.0078125,
+          "retained_new_nmol": 41.602554849606506,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0078125,
+            0.0,
+            41.602554849606506,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4353345292797903,
+            146.30600358783946,
+            0.99609375,
+            287.3341725158542
+          ],
+          "feed_cumulative_nmol": [
+            332.56466547072023,
+            1133.6939964121607
+          ],
+          "founder_active_fraction": 9.345304806022461e-05,
+          "hypothetical_new_marginal_rate_mM_min": 1.8209568251222774,
+          "newly_formed_nmol": 41.987762001566026,
+          "passage": 8,
+          "retained_active_new_mM": 0.8359031685117253,
+          "retained_founder_nmol": 0.00390625,
+          "retained_new_nmol": 41.795158425586266,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.00390625,
+            0.0,
+            41.795158425586266,
+            0.0
+          ]
+        }
+      ]
+    },
+    "founder_free": {
+      "balance_error": {
+        "TPA_nmol": 0.0,
+        "azide_nmol": -1.1368683772161603e-13,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "escape": 0,
+        "localization": 1,
+        "q": 0.5,
+        "seed": 0
+      },
+      "passages": [
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.319059584148415,
+            32.957178752445266,
+            0.0,
+            15.680940415851582
+          ],
+          "feed_cumulative_nmol": [
+            36.68094041585159,
+            127.04282124755474
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.6831967278080766,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 1,
+          "retained_active_new_mM": 0.31361880831703165,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 15.680940415851582,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            15.680940415851582,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.475816712545639,
+            50.42745013763695,
+            0.0,
+            44.364653495380146
+          ],
+          "feed_cumulative_nmol": [
+            78.52418328745436,
+            269.5725498623631
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.2497094177789088,
+          "newly_formed_nmol": 41.686485743205544,
+          "passage": 2,
+          "retained_active_new_mM": 0.5736742615905712,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 28.683713079528562,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            28.683713079528562,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.504148108889549,
+            67.5124443266687,
+            0.0,
+            79.67817863880052
+          ],
+          "feed_cumulative_nmol": [
+            120.49585189111045,
+            412.48755567333137
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.5385610929918727,
+          "newly_formed_nmol": 41.9433372073122,
+          "passage": 3,
+          "retained_active_new_mM": 0.7062705028684075,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 35.31352514342038,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            35.31352514342038,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.516899806521124,
+            84.5506994195634,
+            0.0,
+            118.32218951287913
+          ],
+          "feed_cumulative_nmol": [
+            162.4831001934789,
+            555.4493005804367
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.6836657163661866,
+          "newly_formed_nmol": 41.974496604736856,
+          "passage": 4,
+          "retained_active_new_mM": 0.7728802174815723,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 38.64401087407862,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            38.64401087407862,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.525527277827612,
+            101.57658183348286,
+            0.0,
+            158.63556747861196
+          ],
+          "feed_cumulative_nmol": [
+            204.4744727221724,
+            698.4234181665172
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.7563977148486067,
+          "newly_formed_nmol": 41.98274505738702,
+          "passage": 5,
+          "retained_active_new_mM": 0.8062675593146564,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 40.31337796573282,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            40.31337796573282,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.532634730605021,
+            118.5979041918151,
+            0.0,
+            199.78514900870098
+          ],
+          "feed_cumulative_nmol": [
+            246.467365269395,
+            841.402095808185
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.7928299391794953,
+          "newly_formed_nmol": 41.98578509444521,
+          "passage": 6,
+          "retained_active_new_mM": 0.8229916306017803,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 41.149581530089016,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            41.149581530089016,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.53908756653428,
+            135.61726269960292,
+            0.0,
+            241.35348693781623
+          ],
+          "feed_cumulative_nmol": [
+            288.46091243346575,
+            984.3827373003971
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.8110745720890251,
+          "newly_formed_nmol": 41.98709432814149,
+          "passage": 7,
+          "retained_active_new_mM": 0.831366758582305,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 41.56833792911525,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            41.56833792911525,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            5.54523626436754,
+            152.6357087931027,
+            0.0,
+            283.1315072045406
+          ],
+          "feed_cumulative_nmol": [
+            330.45476373563247,
+            1127.3642912068974
+          ],
+          "founder_active_fraction": 0.0,
+          "hypothetical_new_marginal_rate_mM_min": 1.8202101394169166,
+          "newly_formed_nmol": 41.987702604333414,
+          "passage": 8,
+          "retained_active_new_mM": 0.8355604053344866,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 41.77802026672433,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            41.77802026672433,
+            0.0
+          ]
+        }
+      ]
+    },
+    "founder_only": {
+      "balance_error": {
+        "TPA_nmol": 0.0,
+        "azide_nmol": 0.0,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "control": "no_regeneration",
+        "escape": 0,
+        "localization": 1,
+        "q": 0.5
+      },
+      "passages": [
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            21.0,
+            80.0,
+            0.5,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            21.0,
+            80.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 1,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.5,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            42.0,
+            160.0,
+            0.75,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            42.0,
+            160.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 2,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.25,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.25,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            63.0,
+            240.0,
+            0.875,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            63.0,
+            240.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 3,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.125,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.125,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            84.0,
+            320.0,
+            0.9375,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            84.0,
+            320.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 4,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0625,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0625,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            105.0,
+            400.0,
+            0.96875,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            105.0,
+            400.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 5,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.03125,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.03125,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            126.0,
+            480.0,
+            0.984375,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            126.0,
+            480.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 6,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.015625,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.015625,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            147.0,
+            560.0,
+            0.9921875,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            147.0,
+            560.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 7,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0078125,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0078125,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            168.0,
+            640.0,
+            0.99609375,
+            0.0
+          ],
+          "feed_cumulative_nmol": [
+            168.0,
+            640.0
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 0.0,
+          "passage": 8,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.00390625,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.00390625,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "pooled_transfer": {
+      "balance_error": {
+        "TPA_nmol": 0.0,
+        "azide_nmol": -1.1368683772161603e-13,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "escape": 0,
+        "localization": 1,
+        "mode": "pooled",
+        "q": 0.5
+      },
+      "passages": [
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            3.2623557657338758,
+            26.78706729720168,
+            0.5,
+            17.737644234266117
+          ],
+          "feed_cumulative_nmol": [
+            38.73764423426613,
+            133.21293270279833
+          ],
+          "founder_active_fraction": 0.027415821559923087,
+          "hypothetical_new_marginal_rate_mM_min": 0.7728044478521349,
+          "newly_formed_nmol": 35.475288468532234,
+          "passage": 1,
+          "retained_active_new_mM": 0.35475288468532234,
+          "retained_founder_nmol": 0.5,
+          "retained_new_nmol": 17.737644234266117,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.5,
+            0.0,
+            17.737644234266117
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.371681936683768,
+            44.115045810051335,
+            0.75,
+            47.49714018044929
+          ],
+          "feed_cumulative_nmol": [
+            80.62831806331624,
+            275.88495418994864
+          ],
+          "founder_active_fraction": 0.008330696405175603,
+          "hypothetical_new_marginal_rate_mM_min": 1.29657977853785,
+          "newly_formed_nmol": 41.78134765810023,
+          "passage": 2,
+          "retained_active_new_mM": 0.5951899189236635,
+          "retained_founder_nmol": 0.25,
+          "retained_new_nmol": 29.759495946183172,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.25,
+            0.0,
+            29.759495946183172
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.3957697206641497,
+            61.18730916199245,
+            0.875,
+            83.3528003695605
+          ],
+          "feed_cumulative_nmol": [
+            122.60423027933587,
+            418.81269083800754
+          ],
+          "founder_active_fraction": 0.0034740885615497587,
+          "hypothetical_new_marginal_rate_mM_min": 1.562181161649977,
+          "newly_formed_nmol": 41.95182443203924,
+          "passage": 3,
+          "retained_active_new_mM": 0.7171132037822241,
+          "retained_founder_nmol": 0.125,
+          "retained_new_nmol": 35.855660189111205,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.125,
+            0.0,
+            35.855660189111205
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4075559224000025,
+            78.22266776719998,
+            0.9375,
+            122.26884426238026
+          ],
+          "feed_cumulative_nmol": [
+            164.59244407760002,
+            561.7773322328001
+          ],
+          "founder_active_fraction": 0.0016034462490917506,
+          "hypothetical_new_marginal_rate_mM_min": 1.695517816006322,
+          "newly_formed_nmol": 41.97642759652831,
+          "passage": 4,
+          "retained_active_new_mM": 0.7783208778563951,
+          "retained_founder_nmol": 0.0625,
+          "retained_new_nmol": 38.91604389281976,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0625,
+            0.0,
+            38.91604389281976
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.415853902969424,
+            95.24756170890826,
+            0.96875,
+            162.7185682282207
+          ],
+          "feed_cumulative_nmol": [
+            206.5841460970306,
+            704.7524382910917
+          ],
+          "founder_active_fraction": 0.000771967592142671,
+          "hypothetical_new_marginal_rate_mM_min": 1.7623381201210537,
+          "newly_formed_nmol": 41.98340403886114,
+          "passage": 5,
+          "retained_active_new_mM": 0.808994479316809,
+          "retained_founder_nmol": 0.03125,
+          "retained_new_nmol": 40.44972396584045,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.03125,
+            0.0,
+            40.44972396584045
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4228248735006965,
+            112.26847462050205,
+            0.984375,
+            203.93645924060965
+          ],
+          "feed_cumulative_nmol": [
+            248.57717512649936,
+            847.731525379498
+          ],
+          "founder_active_fraction": 0.0003789393074145154,
+          "hypothetical_new_marginal_rate_mM_min": 1.7958060881570401,
+          "newly_formed_nmol": 41.98605805893746,
+          "passage": 6,
+          "retained_active_new_mM": 0.824357820247779,
+          "retained_founder_nmol": 0.015625,
+          "retained_new_nmol": 41.217891012388954,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.015625,
+            0.0,
+            41.217891012388954
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.429215530088386,
+            129.2876465902651,
+            0.9921875,
+            245.53901409021643
+          ],
+          "feed_cumulative_nmol": [
+            290.57078446991164,
+            990.7123534097349
+          ],
+          "founder_active_fraction": 0.00018775368970814506,
+          "hypothetical_new_marginal_rate_mM_min": 1.8125653556450827,
+          "newly_formed_nmol": 41.98721868682458,
+          "passage": 7,
+          "retained_active_new_mM": 0.8320510969921354,
+          "retained_founder_nmol": 0.0078125,
+          "retained_new_nmol": 41.60255484960677,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0078125,
+            0.0,
+            41.60255484960677
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4353345293043835,
+            146.30600358791312,
+            0.99609375,
+            287.33417251580386
+          ],
+          "feed_cumulative_nmol": [
+            332.5646654706957,
+            1133.6939964120868
+          ],
+          "founder_active_fraction": 9.345304806022205e-05,
+          "hypothetical_new_marginal_rate_mM_min": 1.8209568251223271,
+          "newly_formed_nmol": 41.98776200156805,
+          "passage": 8,
+          "retained_active_new_mM": 0.8359031685117482,
+          "retained_founder_nmol": 0.00390625,
+          "retained_new_nmol": 41.79515842558741,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.00390625,
+            0.0,
+            41.79515842558741
+          ]
+        }
+      ]
+    },
+    "retentive_selected": {
+      "balance_error": {
+        "TPA_nmol": 0.0,
+        "azide_nmol": -1.1368683772161603e-13,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "escape": 0,
+        "localization": 1,
+        "q": 0.5
+      },
+      "passages": [
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            3.2623557657338758,
+            26.78706729720168,
+            0.5,
+            17.737644234266117
+          ],
+          "feed_cumulative_nmol": [
+            38.73764423426613,
+            133.21293270279833
+          ],
+          "founder_active_fraction": 0.027415821559923087,
+          "hypothetical_new_marginal_rate_mM_min": 0.7728044478521349,
+          "newly_formed_nmol": 35.475288468532234,
+          "passage": 1,
+          "retained_active_new_mM": 0.35475288468532234,
+          "retained_founder_nmol": 0.5,
+          "retained_new_nmol": 17.737644234266117,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.5,
+            0.0,
+            17.737644234266117,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.3716819366566,
+            44.11504580996985,
+            0.75,
+            47.497140180476464
+          ],
+          "feed_cumulative_nmol": [
+            80.62831806334341,
+            275.88495419003016
+          ],
+          "founder_active_fraction": 0.008330696405168059,
+          "hypothetical_new_marginal_rate_mM_min": 1.296579778539034,
+          "newly_formed_nmol": 41.78134765815459,
+          "passage": 2,
+          "retained_active_new_mM": 0.595189918924207,
+          "retained_founder_nmol": 0.25,
+          "retained_new_nmol": 29.75949594621035,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.25,
+            0.0,
+            29.75949594621035,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.395769720636045,
+            61.187309161908175,
+            0.875,
+            83.35280036960218
+          ],
+          "feed_cumulative_nmol": [
+            122.60423027936397,
+            418.81269083809184
+          ],
+          "founder_active_fraction": 0.0034740885615483575,
+          "hypothetical_new_marginal_rate_mM_min": 1.5621811616506092,
+          "newly_formed_nmol": 41.95182443204108,
+          "passage": 3,
+          "retained_active_new_mM": 0.7171132037825143,
+          "retained_founder_nmol": 0.125,
+          "retained_new_nmol": 35.855660189125715,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.125,
+            0.0,
+            35.855660189125715,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4075559223724445,
+            78.22266776711737,
+            0.9375,
+            122.26884426242864
+          ],
+          "feed_cumulative_nmol": [
+            164.5924440776276,
+            561.7773322328826
+          ],
+          "founder_active_fraction": 0.0016034462490914748,
+          "hypothetical_new_marginal_rate_mM_min": 1.6955178160066142,
+          "newly_formed_nmol": 41.976427596527216,
+          "passage": 4,
+          "retained_active_new_mM": 0.7783208778565293,
+          "retained_founder_nmol": 0.0625,
+          "retained_new_nmol": 38.916043892826465,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0625,
+            0.0,
+            38.916043892826465,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.415853902942695,
+            95.24756170882813,
+            0.96875,
+            162.71856822827164
+          ],
+          "feed_cumulative_nmol": [
+            206.58414609705733,
+            704.7524382911719
+          ],
+          "founder_active_fraction": 0.0007719675921426227,
+          "hypothetical_new_marginal_rate_mM_min": 1.7623381201211639,
+          "newly_formed_nmol": 41.98340403885949,
+          "passage": 5,
+          "retained_active_new_mM": 0.8089944793168595,
+          "retained_founder_nmol": 0.03125,
+          "retained_new_nmol": 40.44972396584298,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.03125,
+            0.0,
+            40.44972396584298,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4228248734743945,
+            112.26847462042323,
+            0.984375,
+            203.93645924066146
+          ],
+          "feed_cumulative_nmol": [
+            248.57717512652562,
+            847.7315253795767
+          ],
+          "founder_active_fraction": 0.0003789393074145075,
+          "hypothetical_new_marginal_rate_mM_min": 1.7958060881570779,
+          "newly_formed_nmol": 41.98605805893665,
+          "passage": 6,
+          "retained_active_new_mM": 0.8243578202477962,
+          "retained_founder_nmol": 0.015625,
+          "retained_new_nmol": 41.21789101238981,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.015625,
+            0.0,
+            41.21789101238981,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.429215530062788,
+            129.28764659018842,
+            0.9921875,
+            245.53901409026798
+          ],
+          "feed_cumulative_nmol": [
+            290.5707844699372,
+            990.7123534098116
+          ],
+          "founder_active_fraction": 0.00018775368970814628,
+          "hypothetical_new_marginal_rate_mM_min": 1.8125653556450712,
+          "newly_formed_nmol": 41.9872186868232,
+          "passage": 7,
+          "retained_active_new_mM": 0.8320510969921301,
+          "retained_founder_nmol": 0.0078125,
+          "retained_new_nmol": 41.602554849606506,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0078125,
+            0.0,
+            41.602554849606506,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": true,
+          "discarded_cumulative_nmol": [
+            3.4353345292797903,
+            146.30600358783946,
+            0.99609375,
+            287.3341725158542
+          ],
+          "feed_cumulative_nmol": [
+            332.56466547072023,
+            1133.6939964121607
+          ],
+          "founder_active_fraction": 9.345304806022461e-05,
+          "hypothetical_new_marginal_rate_mM_min": 1.8209568251222774,
+          "newly_formed_nmol": 41.987762001566026,
+          "passage": 8,
+          "retained_active_new_mM": 0.8359031685117253,
+          "retained_founder_nmol": 0.00390625,
+          "retained_new_nmol": 41.795158425586266,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.00390625,
+            0.0,
+            41.795158425586266,
+            0.0
+          ]
+        }
+      ]
+    },
+    "unretained_selected": {
+      "balance_error": {
+        "TPA_nmol": 5.684341886080802e-14,
+        "azide_nmol": -2.2737367544323206e-13,
+        "founder_nmol": 0.0,
+        "new_C3_nmol": 0.0,
+        "prescribed_net_volume_change_uL": 0.0
+      },
+      "parameters": {
+        "active": 1,
+        "escape": 0,
+        "localization": 0,
+        "q": 0.5
+      },
+      "passages": [
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            3.2623557657338758,
+            26.78706729720168,
+            1.0,
+            35.475288468532234
+          ],
+          "feed_cumulative_nmol": [
+            38.73764423426613,
+            133.21293270279833
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 35.475288468532234,
+          "passage": 1,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            8.581415349882292,
+            59.74424604964695,
+            1.0,
+            66.8371693002354
+          ],
+          "feed_cumulative_nmol": [
+            75.41858465011771,
+            260.2557539503531
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 2,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            13.900474934030708,
+            92.70142480209222,
+            1.0,
+            98.19905013193856
+          ],
+          "feed_cumulative_nmol": [
+            112.09952506596929,
+            387.29857519790784
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 3,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            19.219534518179124,
+            125.65860355453748,
+            1.0,
+            129.56093096364174
+          ],
+          "feed_cumulative_nmol": [
+            148.78046548182087,
+            514.3413964454626
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 4,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            24.53859410232754,
+            158.61578230698274,
+            1.0,
+            160.9228117953449
+          ],
+          "feed_cumulative_nmol": [
+            185.46140589767245,
+            641.3842176930173
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 5,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            29.857653686475956,
+            191.572961059428,
+            1.0,
+            192.28469262704806
+          ],
+          "feed_cumulative_nmol": [
+            222.14234631352403,
+            768.427038940572
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 6,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            35.17671327062437,
+            224.53013981187325,
+            1.0,
+            223.64657345875122
+          ],
+          "feed_cumulative_nmol": [
+            258.82328672937564,
+            895.4698601881266
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 7,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "conditional_function_pass": false,
+          "discarded_cumulative_nmol": [
+            40.49577285477278,
+            257.4873185643185,
+            1.0,
+            255.00845429045438
+          ],
+          "feed_cumulative_nmol": [
+            295.5042271452272,
+            1022.5126814356813
+          ],
+          "founder_active_fraction": 1.0,
+          "hypothetical_new_marginal_rate_mM_min": 0.0,
+          "newly_formed_nmol": 31.361880831703164,
+          "passage": 8,
+          "retained_active_new_mM": 0.0,
+          "retained_founder_nmol": 0.0,
+          "retained_new_nmol": 0.0,
+          "state_nmol": [
+            42.0,
+            160.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  },
+  "max_balance_error_nmol": 1.7053025658242404e-12,
+  "no_autocatalysis_fit": {
+    "capacity_mM": 0.84,
+    "holdout_RMSE_mM": 0.09563302795416527,
+    "holdout_engineering_tolerance_pass": false,
+    "k0_per_min": 0.4241311727645489,
+    "kcat_per_mM_min": 0.0,
+    "train_RMSE_mM": 0.09999094518013334,
+    "train_SSE_mM2": 0.0999818911801643
+  },
+  "observation_witness_max_total_difference_mM": 0.0,
+  "product_dependent_fit": {
+    "capacity_mM": 0.84,
+    "holdout_RMSE_mM": 0.04731792097832515,
+    "holdout_engineering_tolerance_pass": true,
+    "k0_per_min": 0.0742060253206102,
+    "kcat_per_mM_min": 2.593369454565932,
+    "train_RMSE_mM": 0.016957049292892754,
+    "train_SSE_mM2": 0.0028754152072159463
+  },
+  "refinement_error_nmol": 2.5661730518322656e-09,
+  "sweep_counts": {
+    "baseline_only": {
+      "conditional_function_pass": 0,
+      "total": 54
+    },
+    "no_regeneration": {
+      "conditional_function_pass": 0,
+      "total": 54
+    },
+    "regeneration": {
+      "conditional_function_pass": 16,
+      "total": 54
+    }
+  }
+}

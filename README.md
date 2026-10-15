@@ -16,6 +16,8 @@ This repository publishes the final record of an exploratory research campaign: 
 
 This is a research archive with computational results and literature analysis. It is not a report of new laboratory measurements or a peer-reviewed demonstration of alternative life.
 
+**15 October continuation:** [Nine new laboratories](research/2026-10-15/README.md) add measured-chemistry models, RNA failure diagnostics, retention/inheritance assay simulations and a 1,000-record inorganic materials screen. Negative prediction results remain preserved. The proposed Mo/W/V composition remains unverified; no living or intelligent entity was demonstrated. The earlier tagged release remains unchanged.
+
 <p align="center">
   <a href="#the-results-at-a-glance">Results</a> ·
   <a href="docs/FINAL_RESULTS.md">Scientific report</a> ·

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "freeze.json",
+      "sha256": "202cf2fa07778c70438f0fe9a0b3d0acf82522607b7bd4f7f9622a35b21f51b7",
+      "identical": true
+    },
+    {
+      "file": "material_budget.csv",
+      "sha256": "5872b96c45206bb946886cdd7b1cc5c53e87014d7d98c676a5d588e8e8e40c02",
+      "identical": true
+    },
+    {
+      "file": "nonidentifiability.json",
+      "sha256": "52a3094f544c6e37163ad370b0ff462c5ebfc63277fb2a3337db699c6b8fcefc",
+      "identical": true
+    },
+    {
+      "file": "observations.jsonl",
+      "sha256": "de707b2a901cb7ba52ff92d6aefd826fb79b92173b91217ff2b73448c392c2df",
+      "identical": true
+    },
+    {
+      "file": "power.png",
+      "sha256": "136016aa35fcf93d13ad611ab2bd5b631c0d249aebfa7f426703b1e04be99eda",
+      "identical": true
+    },
+    {
+      "file": "retention.json",
+      "sha256": "318d52f297a8b1182081ef6ea3b15348d38568ae419b296702e35172f90aefa1",
+      "identical": true
+    },
+    {
+      "file": "retention_observations.jsonl",
+      "sha256": "c35125a3c416b28c5b7f878dc4956c276a39147c9e2a50c92023680fcb5f2fd2",
+      "identical": true
+    },
+    {
+      "file": "source.zip",
+      "sha256": "24ca36ab4002394c400cd46d64b90ba2f22ed65f30ee12047947c3fa2a9f8aed",
+      "identical": true
+    },
+    {
+      "file": "summary.json",
+      "sha256": "ee1ec3cb7d382ef6e533d015a40eb9fadb6d3da9b5ef73f30532fbdd74a518e0",
+      "identical": true
+    },
+    {
+      "file": "verification.json",
+      "sha256": "bb0c6dd3331b12465a25887253597adf2584d2ef9947b00849efe12335bfffa7",
+      "identical": true
+    }
+  ]
+}

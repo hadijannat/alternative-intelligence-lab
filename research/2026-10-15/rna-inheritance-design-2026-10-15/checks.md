@@ -1,0 +1,25 @@
+# Completion audit
+
+This audit concerns the requested experimental design and simulations. Physical qualification is a separate unresolved scientific requirement. The fixed acceptance list is in [WORKPLAN.md](WORKPLAN.md).
+
+| Requirement | Verdict | Evidence | Correction or limit |
+|---|---|---|---|
+| Chemical identity and origin | pass | [Source ledger](research/assays/ledger.json), [eight-check receipt](research/assays/.omo/evidence/verification.json), [experiment A](EXPERIMENTS.md) | Full length, G38A, ligation junction and isotope provenance are separate; inactive wild-type cannot be identified by mass alone |
+| New functional catalyst | pass | [Assay implementation](assay/model.py), [official observations](assay/results-v1/observations.jsonl), [exact witnesses](counterexamples.py) | Conservative observable-based bounds; unknown calibration is unresolved; native and refolded function are separate |
+| Retention | pass | [Fraction observations](assay/results-v1/retention_observations.jsonl), [retention results](assay/results-v1/retention.json), [exact witnesses](counterexamples.py) | Amount, capacity and specific capacity differ; recovery and surface/missing fractions require measurement |
+| Physical generations | pass | [Lineage implementation](lineage/model.py), [protocol](lineage/PROTOCOL.md), [independent replay](verification-v1/verification.json) | Complementary molecular/volume partition, exact moiety accounting, actual tree topology and terminal sampling checks pass; all 27 illustrative pedigrees replay exactly |
+| Functional inheritance | pass | [243 design cells](lineage/results-v1/summary.json), [experimental specification](EXPERIMENTS.md) | Current-generation capacity, intact/reset, no-founder, inactive-founder/reporter, no-regeneration, shuffled-history and import controls implemented; only strong renewal at the 1 µM cutoff on larger platforms reaches power target |
+| Feasibility | pass | [Material budgets](assay/results-v1/material_budget.csv), [lineage source report](research/lineage/REPORT.md) | Single-GUV sensitivity and repeated larger-compartment division are unqualified; pools establish family averages |
+| Prospective simulation | pass | [Assay freeze](assay/results-v1/freeze.json), [lineage freeze](lineage/results-v1/freeze.json), [lineage summary](lineage/results-v1/summary.json) | 35 assay scenarios × 256; 9 lineage worlds × 3 platforms × 128; all thresholds/failures retained; coverage uncertainty respects simulation clusters |
+| Reproducibility | pass | [Offline suite receipt](verification-v1/verification.json), [assay replay](assay/replay-verification.json) | 17 tests; 74 recorded checks; exact full-campaign replay, current/frozen-source verification and 397 prior files unchanged during checks |
+| Delivery | pass | [Report](REPORT.md), [specification](EXPERIMENTS.md), [README](README.md), [progress](progress.md), [independent review](../.omo/evidence/rna-inheritance-design-code-review.md) | Independent reviewer approves the bounded computational deliverable with no blockers; physical qualification remains unresolved |
+
+Development corrections are retained: assay qualification/coverage fixes preceded official execution; lineage development-v2 contains a contrast-accumulator defect introduced by the additional threshold grid. Independent review caught it before official seeds. The corrected implementation has an explicit known-contrast regression. Development-v1 and corrected development-v3 remain available; only the official namespace supplies reported performance. The original 0.5 µM threshold and the development-motivated 1 and 2 µM thresholds are all reported.
+
+No positive simulated outcome qualifies a physical assay, establishes a calibrated chemical mechanism, or demonstrates life or intelligence.
+
+Verification scope: Python 3.12.3, NumPy 2.4.1, SciPy 1.16.1, matplotlib 3.10.8 and openpyxl 3.1.3. Each laboratory's tests ran in a separate process. Assay replay used its exact official source snapshot. Lineage replay also compared all 27 numerical arrays independently of the runner's own digests. Source ZIP member contents were verified; container timestamps and wall-clock execution durations were excluded. The scientific source hashes remained unchanged throughout the suite. The 74 receipt entries are comparisons and exact-witness/source-receipt checks, not 74 independent scientific experiments.
+
+Source checks: eight exact sequence/ledger/geometry checks were executed afresh. The six lineage design checks were previously executed by the source reviewer; integration verifies that receipt and its report/source hashes. They check design artifacts, not physical feasibility. Four exact rational counterexamples were executed afresh. Both figures were rendered and inspected.
+
+Independent review: **APPROVE**, no blockers, code quality **WATCH**. A low-priority limitation remains in untyped dictionary/array interfaces. Current callers have unit, conservation, censoring and behavioral checks. Dedicated static analysis was not performed. Final local-link and figure evidence is retained in [presentation-checks.json](presentation-checks.json).

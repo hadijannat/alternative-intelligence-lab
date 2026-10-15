@@ -1,0 +1,17 @@
+{
+  "frozen_before_fitting_utc": "2026-10-15T09:49:42.411607+00:00",
+  "files": {
+    "rna_model/PROTOCOL.md": "ac74cc91c40745faf2f471051df8ca2cb33b7ccba34acf7737065cd4c913c31c",
+    "rna_model/model.py": "d42c78d728a1757ae43ca01ba557659321cafbbba8ea757686bd9d1ebc1c6ceb",
+    "rna_model/run.py": "ee740592745852e3d10157f3d2e7b39145fb4a28da8482a51337380e4373e447",
+    "rna_model/test_model.py": "22edbb8e074b56b1f4bbc448d5ae896ab64e16c54a03e235ba0a19610b386145",
+    "rna_sources/observations.csv": "6028744c2828be5c2a8ed851fb17103d193d7cbdc239effcfeaba2d59a189182",
+    "rna_sources/conditions.json": "a9d374adbb1974eb40fa0d78ef4dd22396f0537f7a2c951ff59fa40cbe6f7fbf",
+    "rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7"
+  },
+  "python": "3.12.3",
+  "numpy": "2.4.1",
+  "scipy": "1.16.1",
+  "split": "S13c plus Fig2 zero/1seed calibration; Fig2 2seed and all Fig3 prediction",
+  "holdout_disclosure": "Published heldout values inspected during source discovery; no fitting or tuning to them"
+}

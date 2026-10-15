@@ -1,0 +1,283 @@
+{
+  "active_bounds": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "agreeing_successful_starts": 6,
+  "candidate": "independent_inactivation",
+  "complete": true,
+  "fixed_parameters": {
+    "kb": 0.01
+  },
+  "free_parameters": [
+    "kf",
+    "kh",
+    "ka",
+    "krh",
+    "kd"
+  ],
+  "jacobian_singular_values": [
+    313.5979619593781,
+    125.20836612635902,
+    25.075629919845824,
+    15.979767607402932,
+    3.244971905845237
+  ],
+  "max_nfev": 160,
+  "n_observations": 32,
+  "parameters": {
+    "equilibrated": false,
+    "ka": 0.009869999614531758,
+    "kb": 0.01,
+    "kd": 0.013640219668751927,
+    "kf": 0.11927943496356422,
+    "kh": 0.0005691369683273089,
+    "koff": 0.0,
+    "kon": 0.0,
+    "krh": 0.00043827210128919477,
+    "mixing": 0.1,
+    "retention_f": 0.55,
+    "retention_fragments": 0.55,
+    "transport": "fractional"
+  },
+  "resolved": true,
+  "rmse_pp": 2.094098159566306,
+  "sse": 140.3279072607677,
+  "starts": [
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.5701017499668524,
+      "log10_parameters": [
+        -0.9234343789829695,
+        -3.244784417547265,
+        -2.0056811039946494,
+        -3.358251535687947,
+        -1.8651781623791805
+      ],
+      "log10_start": [
+        -1,
+        -5,
+        -1,
+        -4,
+        -2
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 21,
+      "njev": 17,
+      "sse": 140.32790726185186,
+      "start_id": 1,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.5494389999657869,
+      "log10_parameters": [
+        -0.9234343448260629,
+        -3.2447834903971766,
+        -2.005682416228118,
+        -3.3582549971705626,
+        -1.8651781408943249
+      ],
+      "log10_start": [
+        -0.5,
+        -3.0,
+        -0.5,
+        -2.0,
+        -1.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 16,
+      "njev": 15,
+      "sse": 140.32790726101547,
+      "start_id": 2,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.6827588749583811,
+      "log10_parameters": [
+        -0.9234343392553837,
+        -3.2447834143940306,
+        -2.0056825222325316,
+        -3.3582552775219563,
+        -1.8651781236567002
+      ],
+      "log10_start": [
+        -1.5,
+        -6.0,
+        -1.5,
+        -6.0,
+        -3.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 26,
+      "njev": 20,
+      "sse": 140.32790726140234,
+      "start_id": 3,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.41946945805102587,
+      "log10_parameters": [
+        -0.9234343157667532,
+        -3.2447843567876715,
+        -2.0056811677945237,
+        -3.358251660327005,
+        -1.8651778228027676
+      ],
+      "log10_start": [
+        0.2,
+        -4.0,
+        -2.0,
+        -3.0,
+        -4.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 12,
+      "njev": 11,
+      "sse": 140.32790726271963,
+      "start_id": 4,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.0519863340305164,
+      "log10_parameters": [
+        -0.9234344268386581,
+        -3.2447832038502713,
+        -2.005682864291532,
+        -3.3582561739770784,
+        -1.865178635533014
+      ],
+      "log10_start": [
+        -2.0,
+        -2.0,
+        0.5,
+        -1.0,
+        -0.3
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 21,
+      "njev": 18,
+      "sse": 140.3279072607677,
+      "start_id": 5,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.6650215829722583,
+      "log10_parameters": [
+        -0.9234343569424994,
+        -3.2447840531516654,
+        -2.0056816152895656,
+        -3.358252886644924,
+        -1.865178106844035
+      ],
+      "log10_start": [
+        0.8,
+        -7.0,
+        -0.2,
+        -7.0,
+        -5.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 27,
+      "njev": 25,
+      "sse": 140.3279072621428,
+      "start_id": 6,
+      "status": 2,
+      "success": true
+    }
+  ],
+  "successful_starts": 6,
+  "training_groups": [
+    "S13_F1|0.1|0",
+    "S13_F1|0.25|0",
+    "S13_F1|0.5|0",
+    "S13_F1|1|0",
+    "S13_HyperA|0|1",
+    "S13_HyperA|0|1.5",
+    "S13_HyperA|0|2",
+    "S13_HyperA|0|2.5"
+  ],
+  "training_row_ids": [
+    "observation_109",
+    "observation_110",
+    "observation_111",
+    "observation_112",
+    "observation_114",
+    "observation_115",
+    "observation_116",
+    "observation_117",
+    "observation_119",
+    "observation_120",
+    "observation_121",
+    "observation_122",
+    "observation_124",
+    "observation_125",
+    "observation_126",
+    "observation_127",
+    "observation_129",
+    "observation_130",
+    "observation_131",
+    "observation_132",
+    "observation_134",
+    "observation_135",
+    "observation_136",
+    "observation_137",
+    "observation_139",
+    "observation_140",
+    "observation_141",
+    "observation_142",
+    "observation_144",
+    "observation_145",
+    "observation_146",
+    "observation_147"
+  ],
+  "two_starts_agree": true
+}

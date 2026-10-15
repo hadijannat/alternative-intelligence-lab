@@ -1,0 +1,302 @@
+{
+  "active_bounds": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "agreeing_successful_starts": 6,
+  "candidate": "baseline",
+  "complete": true,
+  "fixed_parameters": {},
+  "free_parameters": [
+    "kf",
+    "kh",
+    "kb",
+    "ka",
+    "krh",
+    "kd"
+  ],
+  "jacobian_singular_values": [
+    273.29346469436695,
+    108.38384041000639,
+    24.930828780013957,
+    20.425273986175643,
+    5.156377466971407,
+    3.9750763720115034
+  ],
+  "max_nfev": 160,
+  "n_observations": 24,
+  "parameters": {
+    "complex_reset": false,
+    "equilibrated": false,
+    "ka": 0.02846964524677142,
+    "kb": 1.1740437555702605,
+    "kbind": 0.0,
+    "kd": 0.014532781316103683,
+    "kf": 0.14669170571637988,
+    "kh": 0.0004032491836187085,
+    "krel": 0.0,
+    "krh": 0.001307746745170107,
+    "loss": "uniform",
+    "mixing": 0.1,
+    "retention_f": 0.55,
+    "retention_fragments": 0.55,
+    "transport": "fractional",
+    "turnover": false
+  },
+  "residual_evaluations": 1384,
+  "resolved": true,
+  "rmse_pp": 1.834043900456134,
+  "sse": 80.72920869120838,
+  "starts": [
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 0.9534096670104191,
+      "log10_parameters": [
+        -0.8335954623591075,
+        -3.3944323219100645,
+        0.06967751148314545,
+        -1.5456164687942033,
+        -2.88347455057087,
+        -1.8376509565729773
+      ],
+      "log10_start": [
+        -1,
+        -5,
+        0,
+        -1,
+        -4,
+        -2
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 14,
+      "njev": 12,
+      "residual_evaluations": 158,
+      "sse": 80.72920869614389,
+      "start_id": 1,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.402658125036396,
+      "log10_parameters": [
+        -0.8335952528742472,
+        -3.3944271055509745,
+        0.06967914569527081,
+        -1.5456193342383093,
+        -2.8834782998046395,
+        -1.8376512416401214
+      ],
+      "log10_start": [
+        -0.5,
+        -3.0,
+        1.0,
+        -0.5,
+        -2.0,
+        -1.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 19,
+      "njev": 18,
+      "residual_evaluations": 235,
+      "sse": 80.72920869186859,
+      "start_id": 2,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.1673032079124823,
+      "log10_parameters": [
+        -0.8335958542851168,
+        -3.394426438905731,
+        0.06967582069299669,
+        -1.5456209574042477,
+        -2.8834803843814045,
+        -1.8376514605642493
+      ],
+      "log10_start": [
+        -1.5,
+        -6.0,
+        -1.0,
+        -1.5,
+        -6.0,
+        -3.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 20,
+      "njev": 15,
+      "residual_evaluations": 200,
+      "sse": 80.72920869464056,
+      "start_id": 3,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.7126715000486001,
+      "log10_parameters": [
+        -0.8335944414630763,
+        -3.3944265031708643,
+        0.06968428298365996,
+        -1.5456179444557672,
+        -2.8834763522077496,
+        -1.8376512615008356
+      ],
+      "log10_start": [
+        0.2,
+        -4.0,
+        1.8,
+        -2.0,
+        -3.0,
+        -4.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 27,
+      "njev": 22,
+      "residual_evaluations": 291,
+      "sse": 80.72920869120838,
+      "start_id": 4,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 1.799677542061545,
+      "log10_parameters": [
+        -0.8335957106287275,
+        -3.394422818736194,
+        0.06967691241740967,
+        -1.5456229593382673,
+        -2.883483018857884,
+        -1.8376516597707322
+      ],
+      "log10_start": [
+        -2.0,
+        -2.0,
+        -1.8,
+        0.5,
+        -1.0,
+        -0.3
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 22,
+      "njev": 17,
+      "residual_evaluations": 226,
+      "sse": 80.72920869987507,
+      "start_id": 5,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elapsed_seconds": 2.7692283750511706,
+      "log10_parameters": [
+        -0.8335953590744342,
+        -3.3944295039517254,
+        0.06967836677312421,
+        -1.5456180262303993,
+        -2.8834765807385008,
+        -1.8376511164739404
+      ],
+      "log10_start": [
+        0.8,
+        -7.0,
+        0.5,
+        -0.2,
+        -7.0,
+        -5.0
+      ],
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 22,
+      "njev": 21,
+      "residual_evaluations": 274,
+      "sse": 80.72920869306941,
+      "start_id": 6,
+      "status": 2,
+      "success": true
+    }
+  ],
+  "successful_starts": 6,
+  "training_groups": [
+    "S13_F1|0.1|0",
+    "S13_F1|0.25|0",
+    "S13_F1|0.5|0",
+    "S13_F1|1|0",
+    "S13_HyperA|0|1",
+    "S13_HyperA|0|2"
+  ],
+  "training_row_ids": [
+    "observation_109",
+    "observation_110",
+    "observation_111",
+    "observation_112",
+    "observation_114",
+    "observation_115",
+    "observation_116",
+    "observation_117",
+    "observation_119",
+    "observation_120",
+    "observation_121",
+    "observation_122",
+    "observation_124",
+    "observation_125",
+    "observation_126",
+    "observation_127",
+    "observation_129",
+    "observation_130",
+    "observation_131",
+    "observation_132",
+    "observation_139",
+    "observation_140",
+    "observation_141",
+    "observation_142"
+  ],
+  "two_starts_agree": true
+}

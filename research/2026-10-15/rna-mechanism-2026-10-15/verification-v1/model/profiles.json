@@ -1,0 +1,372 @@
+[
+  {
+    "fit": {
+      "bounds_hit": [
+        0,
+        0
+      ],
+      "jacobian_singular_values": [
+        763.3437678349292,
+        29.11652072884373
+      ],
+      "n_observations": 40,
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 0.01,
+        "kf": 0.0820415424728799,
+        "kh": 5.067031096702862e-06,
+        "ki": 1000.0,
+        "mixing": 0.1,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      },
+      "resolved": true,
+      "rmse_pp": 9.179978156306186,
+      "sse": 3370.8799580103496,
+      "starts": [
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 14,
+          "sse": 3370.8799603349757,
+          "start": [
+            -1,
+            -5
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 18,
+          "sse": 3370.879959894417,
+          "start": [
+            -0.5,
+            -3
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 15,
+          "sse": 3370.8799580103496,
+          "start": [
+            -1.5,
+            -6
+          ],
+          "success": true
+        }
+      ]
+    },
+    "fixed_KB_uM": 0.01
+  },
+  {
+    "fit": {
+      "bounds_hit": [
+        0,
+        0
+      ],
+      "jacobian_singular_values": [
+        761.0074859468904,
+        28.889325468538406
+      ],
+      "n_observations": 40,
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 0.1,
+        "kf": 0.08353633599476017,
+        "kh": 5.042968107904429e-06,
+        "ki": 1000.0,
+        "mixing": 0.1,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      },
+      "resolved": true,
+      "rmse_pp": 9.105161391758266,
+      "sse": 3316.1585587986124,
+      "starts": [
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 14,
+          "sse": 3316.158560733298,
+          "start": [
+            -1,
+            -5
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 18,
+          "sse": 3316.1585608835976,
+          "start": [
+            -0.5,
+            -3
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 15,
+          "sse": 3316.1585587986124,
+          "start": [
+            -1.5,
+            -6
+          ],
+          "success": true
+        }
+      ]
+    },
+    "fixed_KB_uM": 0.1
+  },
+  {
+    "fit": {
+      "bounds_hit": [
+        0,
+        0
+      ],
+      "jacobian_singular_values": [
+        736.6525994419925,
+        27.391878396945064
+      ],
+      "n_observations": 40,
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 1,
+        "kf": 0.09712092407696966,
+        "kh": 5.237993156196548e-06,
+        "ki": 1000.0,
+        "mixing": 0.1,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      },
+      "resolved": true,
+      "rmse_pp": 8.70342105680466,
+      "sse": 3029.98152368123,
+      "starts": [
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 13,
+          "sse": 3029.9815268693246,
+          "start": [
+            -1,
+            -5
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 19,
+          "sse": 3029.98152368123,
+          "start": [
+            -0.5,
+            -3
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 15,
+          "sse": 3029.9815244782194,
+          "start": [
+            -1.5,
+            -6
+          ],
+          "success": true
+        }
+      ]
+    },
+    "fixed_KB_uM": 1
+  },
+  {
+    "fit": {
+      "bounds_hit": [
+        0,
+        0
+      ],
+      "jacobian_singular_values": [
+        643.161024766166,
+        23.735410119981122
+      ],
+      "n_observations": 40,
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 10,
+        "kf": 0.2266263612843829,
+        "kh": 1.355075649772355e-05,
+        "ki": 1000.0,
+        "mixing": 0.1,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      },
+      "resolved": true,
+      "rmse_pp": 8.090581409546445,
+      "sse": 2618.3003017799415,
+      "starts": [
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 21,
+          "sse": 2618.300307801948,
+          "start": [
+            -1,
+            -5
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 22,
+          "sse": 2618.300311547364,
+          "start": [
+            -0.5,
+            -3
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 20,
+          "sse": 2618.3003017799415,
+          "start": [
+            -1.5,
+            -6
+          ],
+          "success": true
+        }
+      ]
+    },
+    "fixed_KB_uM": 10
+  },
+  {
+    "fit": {
+      "bounds_hit": [
+        0,
+        0
+      ],
+      "jacobian_singular_values": [
+        608.3248125478709,
+        22.099348023129902
+      ],
+      "n_observations": 40,
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 100,
+        "kf": 1.5191492176213877,
+        "kh": 0.00036992523036986365,
+        "ki": 1000.0,
+        "mixing": 0.1,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      },
+      "resolved": true,
+      "rmse_pp": 7.892928583774349,
+      "sse": 2491.932865142486,
+      "starts": [
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 21,
+          "sse": 2491.9328707362993,
+          "start": [
+            -1,
+            -5
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 21,
+          "sse": 2491.9328701625836,
+          "start": [
+            -0.5,
+            -3
+          ],
+          "success": true
+        },
+        {
+          "bounds_hit": [
+            0,
+            0
+          ],
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 22,
+          "sse": 2491.932865142486,
+          "start": [
+            -1.5,
+            -6
+          ],
+          "success": true
+        }
+      ]
+    },
+    "fixed_KB_uM": 100
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "classification": "synthetic implementation timing only",
+  "fits": {
+    "baseline": {
+      "known_mechanism_curve_recovered": null,
+      "resolved": true,
+      "seconds": 10.413908625021577,
+      "successful_starts": 6,
+      "synthetic_rmse_pp": 1.4595385993803383
+    },
+    "reversible_free": {
+      "known_mechanism_curve_recovered": true,
+      "resolved": true,
+      "seconds": 127.08222574996762,
+      "successful_starts": 6,
+      "synthetic_rmse_pp": 6.150808620675292e-09
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "heredity-v1",
+  "seeds": [2026101520, 2026101521, 2026101522, 2026101523, 2026101524, 2026101525, 2026101526, 2026101527, 2026101528, 2026101529, 2026101530, 2026101531],
+  "compartments": 24,
+  "passages": 16,
+  "founder_purge_passage": 6,
+  "founder_counts": [45, 5],
+  "mutation_probabilities": [0.0, 0.05, 0.25],
+  "resource_budgets": [16, 64, 128],
+  "degradation_probability": 0.08,
+  "birth_success_probability": 0.8,
+  "production_slots_per_catalyst": 3,
+  "assay_substrate_per_type": 64,
+  "assay_rate": 0.6,
+  "assay_cross_activity": 0.1,
+  "final_passages": 4,
+  "criteria": {
+    "parent_child_correlation": 0.3,
+    "functional_contrast": 0.2,
+    "contrast_advantage": 0.15,
+    "minimum_median_new_events": 8
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": null,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8488684/fullTextXML",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "raw/analog-2024.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11252732/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11252732/fullTextXML",
+    "bytes": 175736,
+    "sha256": "4e2a79e948d3604d2aaf5146d8be85fb927453d827086a630a8b7c5520f3d349",
+    "status": 200,
+    "verified_document_type": true
+  },
+  {
+    "file": "raw/vo2-2022.pdf",
+    "url": "https://infoscience.epfl.ch/record/296085/files/Glass_like_electronics_VO2.pdf",
+    "final_url": "https://cf002.cdn.4science.cloud/4s-assetstore-epfl-prod/61/24/14/6124141806764882559211298693502695478",
+    "bytes": 2495921,
+    "sha256": "a575eaa14f4b78c299481286df9b2da578377849d1fe378e3d314f0f61bd7060",
+    "status": 200,
+    "verified_document_type": true
+  },
+  {
+    "url": "https://abate.physast.uga.edu/wp-content/uploads/2021/09/Neuromorphic-learning-with-Mott-insulator-NiO.pdf",
+    "file": null,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

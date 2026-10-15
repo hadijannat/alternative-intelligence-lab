@@ -1,0 +1,5055 @@
+{
+  "version": "heredity-v1",
+  "status": "complete",
+  "conditions": [
+    {
+      "mutation": 0.0,
+      "budget": 16,
+      "successes": 2,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.16666666666666666,
+      "wilson_95": [
+        0.04696514218385378,
+        0.4480308622529734
+      ],
+      "exchange_advantage_range": [
+        0.6016066211838271,
+        0.745603203645483
+      ],
+      "neutral_advantage_range": [
+        0.44272590835090836,
+        0.8398684648684648
+      ]
+    },
+    {
+      "mutation": 0.0,
+      "budget": 64,
+      "successes": 12,
+      "total": 12,
+      "every_replicate_pass": true,
+      "pass_fraction": 1.0,
+      "wilson_95": [
+        0.7575059933447592,
+        1.0
+      ],
+      "exchange_advantage_range": [
+        0.5487297854576937,
+        0.7005220437174102
+      ],
+      "neutral_advantage_range": [
+        0.564943345909707,
+        0.6943102692339832
+      ]
+    },
+    {
+      "mutation": 0.0,
+      "budget": 128,
+      "successes": 12,
+      "total": 12,
+      "every_replicate_pass": true,
+      "pass_fraction": 1.0,
+      "wilson_95": [
+        0.7575059933447592,
+        1.0
+      ],
+      "exchange_advantage_range": [
+        0.5149391582834691,
+        0.6328845672372171
+      ],
+      "neutral_advantage_range": [
+        0.48189433468816545,
+        0.6230097908269758
+      ]
+    },
+    {
+      "mutation": 0.05,
+      "budget": 16,
+      "successes": 4,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.3333333333333333,
+      "wilson_95": [
+        0.13812009109121315,
+        0.6093779111272004
+      ],
+      "exchange_advantage_range": [
+        0.1562917678726502,
+        0.47356393606393604
+      ],
+      "neutral_advantage_range": [
+        0.2066871785621786,
+        0.488389504014504
+      ]
+    },
+    {
+      "mutation": 0.05,
+      "budget": 64,
+      "successes": 10,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.8333333333333334,
+      "wilson_95": [
+        0.5519691377470266,
+        0.9530348578161463
+      ],
+      "exchange_advantage_range": [
+        0.16163269668794242,
+        0.36257036101531337
+      ],
+      "neutral_advantage_range": [
+        0.14653016727448778,
+        0.38570263567979546
+      ]
+    },
+    {
+      "mutation": 0.05,
+      "budget": 128,
+      "successes": 9,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.75,
+      "wilson_95": [
+        0.46769466506643426,
+        0.9110583316059453
+      ],
+      "exchange_advantage_range": [
+        0.17893265428753707,
+        0.29879503397425916
+      ],
+      "neutral_advantage_range": [
+        0.1865694295585041,
+        0.31079606278081473
+      ]
+    },
+    {
+      "mutation": 0.25,
+      "budget": 16,
+      "successes": 0,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.0,
+      "wilson_95": [
+        2.7755575615628914e-17,
+        0.24249400665524085
+      ],
+      "exchange_advantage_range": [
+        -0.03704585515247278,
+        0.08483862780737782
+      ],
+      "neutral_advantage_range": [
+        -0.18221085831379952,
+        0.12938270709410418
+      ]
+    },
+    {
+      "mutation": 0.25,
+      "budget": 64,
+      "successes": 0,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.0,
+      "wilson_95": [
+        2.7755575615628914e-17,
+        0.24249400665524085
+      ],
+      "exchange_advantage_range": [
+        -0.03683770089235826,
+        0.07225152212638691
+      ],
+      "neutral_advantage_range": [
+        -0.0392653811035613,
+        0.042548711497405196
+      ]
+    },
+    {
+      "mutation": 0.25,
+      "budget": 128,
+      "successes": 0,
+      "total": 12,
+      "every_replicate_pass": false,
+      "pass_fraction": 0.0,
+      "wilson_95": [
+        2.7755575615628914e-17,
+        0.24249400665524085
+      ],
+      "exchange_advantage_range": [
+        -0.02888176077783801,
+        0.06428289526611547
+      ],
+      "neutral_advantage_range": [
+        -0.029102559392941502,
+        0.042437131238175524
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "seed": 2026101520,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8676199801470068,
+          "functional_contrast": 0.6231090702598056,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.16670307709441873,
+          "functional_contrast": -0.008658008658008656,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2632594336801904,
+          "functional_contrast": 0.06767364579864579,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6317670789178143,
+      "neutral_advantage": 0.5554354244611598,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9098804013557715,
+          "functional_contrast": 0.6315634800928918,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.18496460244978227,
+          "functional_contrast": -0.04642161414365362,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.029807292835512155,
+          "functional_contrast": 0.07292152292152292,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6779850942365454,
+      "neutral_advantage": 0.5586419571713689,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8113157340533347,
+          "functional_contrast": 0.5126580595330595,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.06003903345093478,
+          "functional_contrast": -0.08894856165076755,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.19097209844930307,
+          "functional_contrast": 0.0699321511821512,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6016066211838271,
+      "neutral_advantage": 0.44272590835090836,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8693008081336884,
+          "functional_contrast": 0.6525723986661487,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.031007046390411564,
+          "functional_contrast": 0.024292778980278984,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.04366909800565473,
+          "functional_contrast": -0.036200604950604946,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6282796196858698,
+      "neutral_advantage": 0.6887730036167536,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8726182652648823,
+          "functional_contrast": 0.7367227101602102,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.08760689561473828,
+          "functional_contrast": 0.06185041640004875,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2135568600885289,
+          "functional_contrast": 0.030411255411255424,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6748722937601614,
+      "neutral_advantage": 0.7063114547489547,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8589157670031224,
+          "functional_contrast": 0.6487948683261183,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.10964038964002944,
+          "functional_contrast": -0.02344878365098954,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.3033505126123942,
+          "functional_contrast": 0.03996460715210715,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6722436519771079,
+      "neutral_advantage": 0.6088302611740112,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8833864370929276,
+          "functional_contrast": 0.691052176989677,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.007269175529840348,
+          "functional_contrast": 0.023249566409396114,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.180919194412812,
+          "functional_contrast": -0.026328792735042725,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6678026105802809,
+      "neutral_advantage": 0.7173809697247198,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8992921833902687,
+          "functional_contrast": 0.7711611883486883,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.05196099438395664,
+          "functional_contrast": 0.025557984703205288,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.18703540922904557,
+          "functional_contrast": -0.06870727651977653,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.745603203645483,
+      "neutral_advantage": 0.8398684648684648,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9214727547947165,
+          "functional_contrast": 0.6344185906685906,
+          "median_new_events": 7.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.15479090438572377,
+          "functional_contrast": -0.03258753773459656,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.08098358864897719,
+          "functional_contrast": -0.03252662602991551,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6670061284031872,
+      "neutral_advantage": 0.6669452166985061,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8693338096430175,
+          "functional_contrast": 0.6087725931475931,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.05968410052115365,
+          "functional_contrast": -0.009843667702123582,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.22334231487797368,
+          "functional_contrast": 0.007140891515891515,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6186162608497168,
+      "neutral_advantage": 0.6016317016317017,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8852519383714216,
+          "functional_contrast": 0.7019753972878973,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.12888910432851342,
+          "functional_contrast": 0.02656715561127325,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.029035283001838965,
+          "functional_contrast": 0.03516986485736486,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.675408241676624,
+      "neutral_advantage": 0.6668055324305324,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.0,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8914253632702248,
+          "functional_contrast": 0.7019606550856551,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.07206216337034065,
+          "functional_contrast": 0.01282895345395345,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.03438075657334954,
+          "functional_contrast": 0.013289892977392977,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6891317016317017,
+      "neutral_advantage": 0.6886707621082621,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9519130180587062,
+          "functional_contrast": 0.6099396566281875,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.04272254570374678,
+          "functional_contrast": -0.005979875401966914,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.01958632112195025,
+          "functional_contrast": 0.012618553307823053,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6159195320301544,
+      "neutral_advantage": 0.5973211033203645,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9674162034193419,
+          "functional_contrast": 0.6704567065755769,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.06600132882481673,
+          "functional_contrast": -0.030065337141833313,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.09647777902778569,
+          "functional_contrast": 0.0012926138454120517,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.7005220437174102,
+      "neutral_advantage": 0.6691640927301649,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9559423278227126,
+          "functional_contrast": 0.6708882644763563,
+          "median_new_events": 26.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.08379408114925498,
+          "functional_contrast": -0.014093016132696992,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.06162909217350997,
+          "functional_contrast": 0.015436067792145448,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6849812806090533,
+      "neutral_advantage": 0.6554521966842108,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9335028358427274,
+          "functional_contrast": 0.5561626304992315,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.02593950083200546,
+          "functional_contrast": 0.007432845041537867,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12288946545166508,
+          "functional_contrast": -0.008780715410475431,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5487297854576937,
+      "neutral_advantage": 0.564943345909707,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9441434620030615,
+          "functional_contrast": 0.5907016981954716,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.17536939907276256,
+          "functional_contrast": -0.04848906379300076,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.04553596716933677,
+          "functional_contrast": -0.009440417908486026,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6391907619884724,
+      "neutral_advantage": 0.6001421161039576,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9683877079805691,
+          "functional_contrast": 0.6939397346260155,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.08762136077184925,
+          "functional_contrast": -0.00553614131972819,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.062471054926457444,
+          "functional_contrast": -0.00037053460796765414,
+          "median_new_events": 29.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6994758759457438,
+      "neutral_advantage": 0.6943102692339832,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.960399523803879,
+          "functional_contrast": 0.6413809865378968,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.028870732260300073,
+          "functional_contrast": -0.005549450559756326,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23807158424248645,
+          "functional_contrast": -0.003406184169499514,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6469304370976531,
+      "neutral_advantage": 0.6447871707073963,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9535999766743923,
+          "functional_contrast": 0.6499207825261644,
+          "median_new_events": 24.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.1564529614941433,
+          "functional_contrast": 0.011581975935732292,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23524759529517678,
+          "functional_contrast": -0.018657718394458414,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6383388065904321,
+      "neutral_advantage": 0.6685785009206228,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.95580615888388,
+          "functional_contrast": 0.6112560162330298,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.018993669893089357,
+          "functional_contrast": 0.0012203988953432554,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14728943409196288,
+          "functional_contrast": 0.01417401675534617,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6100356173376866,
+      "neutral_advantage": 0.5970819994776837,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9645576482220971,
+          "functional_contrast": 0.6175623297255963,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.010868792044973893,
+          "functional_contrast": 0.00929696072077919,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.03289404360118691,
+          "functional_contrast": -0.0069356713196330935,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6082653690048171,
+      "neutral_advantage": 0.6244980010452295,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9598091693696975,
+          "functional_contrast": 0.6403718355553918,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.1547793851455215,
+          "functional_contrast": -0.008945258703057042,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2312646999354043,
+          "functional_contrast": -0.026578358220575447,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6493170942584489,
+      "neutral_advantage": 0.6669501937759672,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.0,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9571581398332685,
+          "functional_contrast": 0.6282568451757717,
+          "median_new_events": 25.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.10165907658553716,
+          "functional_contrast": 0.022396204907537926,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14587423312059467,
+          "functional_contrast": 0.0258503262932629,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6058606402682338,
+      "neutral_advantage": 0.6024065188825088,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9562909969772286,
+          "functional_contrast": 0.49054054896788546,
+          "median_new_events": 46.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.13037787732343445,
+          "functional_contrast": -0.025789276255745376,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2566951290468585,
+          "functional_contrast": 0.00864621427972,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5163298252236308,
+      "neutral_advantage": 0.48189433468816545,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9738979621185948,
+          "functional_contrast": 0.595942182816867,
+          "median_new_events": 44.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.12004751109772763,
+          "functional_contrast": 0.00343309407397217,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.02678578924393743,
+          "functional_contrast": -0.014907577607493826,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5925090887428948,
+      "neutral_advantage": 0.6108497604243608,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.969834131283167,
+          "functional_contrast": 0.598002952939485,
+          "median_new_events": 45.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.007654397405707452,
+          "functional_contrast": -0.01783854118534787,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.10213158965242088,
+          "functional_contrast": -0.00397200322050896,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6158414941248329,
+      "neutral_advantage": 0.601974956159994,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.972652207989393,
+          "functional_contrast": 0.5658510373032857,
+          "median_new_events": 45.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.00872339168259311,
+          "functional_contrast": 0.000305576500909191,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.13018787173141239,
+          "functional_contrast": 0.005400754278014807,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5655454608023764,
+      "neutral_advantage": 0.5604502830252709,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9772279185401705,
+          "functional_contrast": 0.6156039292621565,
+          "median_new_events": 44.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.1316930493916422,
+          "functional_contrast": -0.01728063797506063,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.07220020334990647,
+          "functional_contrast": 0.011537552060205881,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6328845672372171,
+      "neutral_advantage": 0.6040663772019506,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9717853785339585,
+          "functional_contrast": 0.6076004065561058,
+          "median_new_events": 44.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.08325463455379704,
+          "functional_contrast": -0.01685527456397176,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.05062762664105877,
+          "functional_contrast": -0.001195866125994456,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6244556811200775,
+      "neutral_advantage": 0.6087962726821002,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9629311269303481,
+          "functional_contrast": 0.5451324711838341,
+          "median_new_events": 46.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.046198835971164365,
+          "functional_contrast": 0.03019331290036493,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12757015531149518,
+          "functional_contrast": 0.007799802521890809,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5149391582834691,
+      "neutral_advantage": 0.5373326686619433,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9782767387727078,
+          "functional_contrast": 0.6096020531439077,
+          "median_new_events": 44.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.0707030442818384,
+          "functional_contrast": 0.006770613330148521,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.15292961173544686,
+          "functional_contrast": -0.013407737683068105,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.6028314398137592,
+      "neutral_advantage": 0.6230097908269758,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.965748987570704,
+          "functional_contrast": 0.5801961079880836,
+          "median_new_events": 45.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.0681881045889175,
+          "functional_contrast": 0.019752812993654875,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.19232646730692377,
+          "functional_contrast": -0.00801929433922152,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5604432949944288,
+      "neutral_advantage": 0.5882154023273052,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9794569346586858,
+          "functional_contrast": 0.5997076906267349,
+          "median_new_events": 44.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.034083654607589914,
+          "functional_contrast": 0.03242727408021119,
+          "median_new_events": 51.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.06269997817145269,
+          "functional_contrast": -0.002819581214905676,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5672804165465237,
+      "neutral_advantage": 0.6025272718416406,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9697736480870156,
+          "functional_contrast": 0.5902407032258357,
+          "median_new_events": 44.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.14384307696968937,
+          "functional_contrast": 0.001723348398398215,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.051879866780494395,
+          "functional_contrast": 0.005655263307472157,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5885173548274375,
+      "neutral_advantage": 0.5845854399183635,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.0,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.9734504525874709,
+          "functional_contrast": 0.5692020555255317,
+          "median_new_events": 45.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.045517182805893536,
+          "functional_contrast": 0.008813048532926367,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14825502280266584,
+          "functional_contrast": 0.015099750594091525,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.5603890069926053,
+      "neutral_advantage": 0.5541023049314402,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7647601475747429,
+          "functional_contrast": 0.4120173807673808,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.00013783091985531762,
+          "functional_contrast": -0.002300477300477305,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2632594336801904,
+          "functional_contrast": 0.06767364579864579,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.41431785806785815,
+      "neutral_advantage": 0.34434373496873505,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7117949773744032,
+          "functional_contrast": 0.3692834364709365,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.05150676707168487,
+          "functional_contrast": -0.005055534743034745,
+          "median_new_events": 7.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.029807292835512155,
+          "functional_contrast": 0.07292152292152292,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.3743389712139712,
+      "neutral_advantage": 0.29636191354941355,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.622956961658242,
+          "functional_contrast": 0.2766193297443298,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.055872295052679516,
+          "functional_contrast": -0.014218420468420465,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.19097209844930307,
+          "functional_contrast": 0.0699321511821512,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.29083775021275027,
+      "neutral_advantage": 0.2066871785621786,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7559848429849365,
+          "functional_contrast": 0.45218889906389903,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.034229639973986516,
+          "functional_contrast": -0.021375037000036998,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.04366909800565473,
+          "functional_contrast": -0.036200604950604946,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.47356393606393604,
+      "neutral_advantage": 0.488389504014504,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7047851431332156,
+          "functional_contrast": 0.3397620319495319,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.12353840020398439,
+          "functional_contrast": 0.015091852591852585,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2135568600885289,
+          "functional_contrast": 0.030411255411255424,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.32467017935767933,
+      "neutral_advantage": 0.3093507765382765,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.6845508170809312,
+          "functional_contrast": 0.30185167841417837,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.11448391112172276,
+          "functional_contrast": 0.004191577793551476,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.3033505126123942,
+          "functional_contrast": 0.03996460715210715,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.29766010062062687,
+      "neutral_advantage": 0.2618870712620712,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.6852004079141395,
+          "functional_contrast": 0.30769425631557984,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.18145744568353905,
+          "functional_contrast": -0.003419641700891693,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.180919194412812,
+          "functional_contrast": -0.026328792735042725,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.31111389801647155,
+      "neutral_advantage": 0.3340230490506226,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.6443671748566296,
+          "functional_contrast": 0.29064037814037813,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.0003409779885705698,
+          "functional_contrast": 0.013212192899692894,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.18703540922904557,
+          "functional_contrast": -0.06870727651977653,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.27742818524068524,
+      "neutral_advantage": 0.35934765466015467,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.726053557384324,
+          "functional_contrast": 0.32081200049950054,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.0192878254299183,
+          "functional_contrast": -0.08254800074653018,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.08098358864897719,
+          "functional_contrast": -0.03252662602991551,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.4033600012460307,
+      "neutral_advantage": 0.35333862652941606,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.6789331108066874,
+          "functional_contrast": 0.402745756422227,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.1625510110096953,
+          "functional_contrast": 0.018823911654794016,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.22334231487797368,
+          "functional_contrast": 0.007140891515891515,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.38392184476743296,
+      "neutral_advantage": 0.39560486490633545,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7024305907962336,
+          "functional_contrast": 0.38146621896621896,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.027971251964889705,
+          "functional_contrast": -0.027881724756724756,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.029035283001838965,
+          "functional_contrast": 0.03516986485736486,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.4093479437229437,
+      "neutral_advantage": 0.3462963541088541,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.05,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.706661705703999,
+          "functional_contrast": 0.2346048049173049,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.11910563831498892,
+          "functional_contrast": 0.0783130370446547,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.03438075657334954,
+          "functional_contrast": 0.013289892977392977,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.1562917678726502,
+      "neutral_advantage": 0.22131491193991193,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8384410628661926,
+          "functional_contrast": 0.25864154010439844,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.17480857740829453,
+          "functional_contrast": -0.008531775904468625,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.01958632112195025,
+          "functional_contrast": 0.012618553307823053,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.26717331600886707,
+      "neutral_advantage": 0.2460229867965754,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8358077593148777,
+          "functional_contrast": 0.26906697026813065,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.008730145792813268,
+          "functional_contrast": -0.06372569530297599,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.09647777902778569,
+          "functional_contrast": 0.0012926138454120517,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.33279266557110665,
+      "neutral_advantage": 0.2677743564227186,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.6676265541582626,
+          "functional_contrast": 0.16196623506663324,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.11499021065682191,
+          "functional_contrast": 0.00033353837869083,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.06162909217350997,
+          "functional_contrast": 0.015436067792145448,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.16163269668794242,
+      "neutral_advantage": 0.14653016727448778,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": true,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8513646513224319,
+          "functional_contrast": 0.37692192026932003,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.23450148157358616,
+          "functional_contrast": 0.014351559254006661,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12288946545166508,
+          "functional_contrast": -0.008780715410475431,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.36257036101531337,
+      "neutral_advantage": 0.38570263567979546,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7644636284437175,
+          "functional_contrast": 0.28824712064062274,
+          "median_new_events": 26.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.06076581045768511,
+          "functional_contrast": -0.03049402859715145,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.04553596716933677,
+          "functional_contrast": -0.009440417908486026,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.3187411492377742,
+      "neutral_advantage": 0.2976875385491088,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7744632131228801,
+          "functional_contrast": 0.2590108487279262,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.051254646876146996,
+          "functional_contrast": -0.01023278753121297,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.062471054926457444,
+          "functional_contrast": -0.00037053460796765414,
+          "median_new_events": 29.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.26924363625913916,
+      "neutral_advantage": 0.25938138333589383,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7493471510681028,
+          "functional_contrast": 0.2109036369708751,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.022185304305709336,
+          "functional_contrast": -0.022921560565226602,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23807158424248645,
+          "functional_contrast": -0.003406184169499514,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.2338251975361017,
+      "neutral_advantage": 0.2143098211403746,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.648753368876689,
+          "functional_contrast": 0.14194392164997216,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.038286862914695234,
+          "functional_contrast": -0.02225846494377193,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23524759529517678,
+          "functional_contrast": -0.018657718394458414,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.1642023865937441,
+      "neutral_advantage": 0.16060164004443056,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8208045090718188,
+          "functional_contrast": 0.3281261922827582,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.11704390129530277,
+          "functional_contrast": 0.0005099613737209012,
+          "median_new_events": 28.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14728943409196288,
+          "functional_contrast": 0.01417401675534617,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.3276162309090373,
+      "neutral_advantage": 0.313952175527412,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8992598323199273,
+          "functional_contrast": 0.3556386532910246,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.04807895775383792,
+          "functional_contrast": 0.002146948838032856,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.03289404360118691,
+          "functional_contrast": -0.0069356713196330935,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.3534917044529918,
+      "neutral_advantage": 0.3625743246106577,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7837588512141407,
+          "functional_contrast": 0.324637057959689,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.09865621411162757,
+          "functional_contrast": -0.0311793304143919,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2312646999354043,
+          "functional_contrast": -0.026578358220575447,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.3558163883740809,
+      "neutral_advantage": 0.3512154161802645,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.05,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7085172177300577,
+          "functional_contrast": 0.25195915167937727,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.006176409597173559,
+          "functional_contrast": 0.035222032422180596,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14587423312059467,
+          "functional_contrast": 0.0258503262932629,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.2167371192571967,
+      "neutral_advantage": 0.22610882538611438,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7953379890467617,
+          "functional_contrast": 0.19521564383822412,
+          "median_new_events": 47.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.031370615432255,
+          "functional_contrast": 0.012811374435963967,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2566951290468585,
+          "functional_contrast": 0.00864621427972,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.18240426940226015,
+      "neutral_advantage": 0.1865694295585041,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8979867672429235,
+          "functional_contrast": 0.2958884851733209,
+          "median_new_events": 47.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.1469448248594191,
+          "functional_contrast": -0.002906548800938295,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.02678578924393743,
+          "functional_contrast": -0.014907577607493826,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.29879503397425916,
+      "neutral_advantage": 0.31079606278081473,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8477310232742488,
+          "functional_contrast": 0.268554069494633,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.008984266276254087,
+          "functional_contrast": -0.0089264044076824,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.10213158965242088,
+          "functional_contrast": -0.00397200322050896,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.2774804739023154,
+      "neutral_advantage": 0.27252607271514195,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8662636711312105,
+          "functional_contrast": 0.23426593224419467,
+          "median_new_events": 47.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.12120001109922485,
+          "functional_contrast": -0.0032799371134982283,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.13018787173141239,
+          "functional_contrast": 0.005400754278014807,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.2375458693576929,
+      "neutral_advantage": 0.22886517796617986,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8602136032367412,
+          "functional_contrast": 0.2029522843652924,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.1457621915949377,
+          "functional_contrast": 0.007786902011760019,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.07220020334990647,
+          "functional_contrast": 0.011537552060205881,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.19516538235353237,
+      "neutral_advantage": 0.19141473230508652,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8967539358656113,
+          "functional_contrast": 0.23339608557622527,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.06538124186679174,
+          "functional_contrast": -0.0016612456674923101,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.05062762664105877,
+          "functional_contrast": -0.001195866125994456,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.23505733124371758,
+      "neutral_advantage": 0.23459195170221972,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7669846402694823,
+          "functional_contrast": 0.1954576190976825,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.04780751304939819,
+          "functional_contrast": 0.016524964810145412,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12757015531149518,
+          "functional_contrast": 0.007799802521890809,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.17893265428753707,
+      "neutral_advantage": 0.1876578165757917,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.7938091140111926,
+          "functional_contrast": 0.1913959830696857,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.13672564643603055,
+          "functional_contrast": -0.004838725512245746,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.15292961173544686,
+          "functional_contrast": -0.013407737683068105,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.19623470858193143,
+      "neutral_advantage": 0.2048037207527538,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8311096275776695,
+          "functional_contrast": 0.22559440539896014,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.01231244702759658,
+          "functional_contrast": 0.0153010465220615,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.19232646730692377,
+          "functional_contrast": -0.00801929433922152,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.21029335887689865,
+      "neutral_advantage": 0.23361369973818166,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8216393330012758,
+          "functional_contrast": 0.21572824121437037,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.009411512072962919,
+          "functional_contrast": -0.006065280089961818,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.06269997817145269,
+          "functional_contrast": -0.002819581214905676,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.2217935213043322,
+      "neutral_advantage": 0.21854782242927603,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.8471782196823879,
+          "functional_contrast": 0.26011121784409286,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.05681540921280813,
+          "functional_contrast": -0.004481081532695601,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.051879866780494395,
+          "functional_contrast": 0.005655263307472157,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.26459229937678846,
+      "neutral_advantage": 0.2544559545366207,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.05,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.874118943530984,
+          "functional_contrast": 0.2657955606865027,
+          "median_new_events": 47.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.16181457799099305,
+          "functional_contrast": -0.00658160562906105,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14825502280266584,
+          "functional_contrast": 0.015099750594091525,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.27237716631556375,
+      "neutral_advantage": 0.25069581009241115,
+      "gates": {
+        "correlation": true,
+        "contrast": true,
+        "exchange_advantage": true,
+        "neutral_advantage": true,
+        "new_activity": true
+      },
+      "passed": true
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.35965753483216323,
+          "functional_contrast": -0.02710504194879195,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.03932938496597425,
+          "functional_contrast": -0.004660839282549809,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2632594336801904,
+          "functional_contrast": 0.06767364579864579,
+          "median_new_events": 6.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.02244420266624214,
+      "neutral_advantage": -0.09477868774743775,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.36119311451230635,
+          "functional_contrast": 0.10787927350427351,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.017471781394092254,
+          "functional_contrast": 0.023040645696895692,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.029807292835512155,
+          "functional_contrast": 0.07292152292152292,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.08483862780737782,
+      "neutral_advantage": 0.034957750582750594,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.18893944271127258,
+          "functional_contrast": -0.11227870713164831,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.027534160980809113,
+          "functional_contrast": -0.08032338032338032,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.19097209844930307,
+          "functional_contrast": 0.0699321511821512,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.031955326808267986,
+      "neutral_advantage": -0.18221085831379952,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.2466419353380534,
+          "functional_contrast": -0.024005681818181815,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.035729850998678335,
+          "functional_contrast": -0.02286346891126303,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.04366909800565473,
+          "functional_contrast": -0.036200604950604946,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.0011422129069187832,
+      "neutral_advantage": 0.012194923132423131,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.4450623270002666,
+          "functional_contrast": 0.06933231868893633,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.21119481020723527,
+          "functional_contrast": 0.003266537312589947,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2135568600885289,
+          "functional_contrast": 0.030411255411255424,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.06606578137634639,
+      "neutral_advantage": 0.038921063277680905,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.21753481924633228,
+          "functional_contrast": 0.07973635161135162,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.09300593770261412,
+          "functional_contrast": -0.00208547239797241,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.3033505126123942,
+          "functional_contrast": 0.03996460715210715,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.08182182400932403,
+      "neutral_advantage": 0.03977174445924447,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.4052644446617033,
+          "functional_contrast": -0.03483793405668404,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.009401056374574786,
+          "functional_contrast": 0.0022079210957887396,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.180919194412812,
+          "functional_contrast": -0.026328792735042725,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.03704585515247278,
+      "neutral_advantage": -0.008509141321641316,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.1838833324736075,
+          "functional_contrast": -0.01828102453102453,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.040735639232581305,
+          "functional_contrast": -0.01680053334465098,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.18703540922904557,
+          "functional_contrast": -0.06870727651977653,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.001480491186373549,
+      "neutral_advantage": 0.050426251988751995,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.2168489069500882,
+          "functional_contrast": -0.0845480907980908,
+          "median_new_events": 7.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.09913975229307644,
+          "functional_contrast": -0.08288540163540163,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.08098358864897719,
+          "functional_contrast": -0.03252662602991551,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.0016626891626891627,
+      "neutral_advantage": -0.052021464768175284,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.2245965612761878,
+          "functional_contrast": 0.02635533397917299,
+          "median_new_events": 8.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.001536957867651826,
+          "functional_contrast": 0.011363636363636381,
+          "median_new_events": 7.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.22334231487797368,
+          "functional_contrast": 0.007140891515891515,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.01499169761553661,
+      "neutral_advantage": 0.019214442463281474,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.16066725941484009,
+          "functional_contrast": -0.008317377067377084,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.07861281307631464,
+          "functional_contrast": -0.033506983552939434,
+          "median_new_events": 6.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.029035283001838965,
+          "functional_contrast": 0.03516986485736486,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.02518960648556235,
+      "neutral_advantage": -0.043487241924741946,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.25,
+      "budget": 16,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.38456608853393914,
+          "functional_contrast": 0.14267260007149715,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.13045477147350118,
+          "functional_contrast": 0.06004889208014209,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.03438075657334954,
+          "functional_contrast": 0.013289892977392977,
+          "median_new_events": 7.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.08262370799135507,
+      "neutral_advantage": 0.12938270709410418,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": false
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3692637290247084,
+          "functional_contrast": -0.012802081975592952,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.0021241358420512764,
+          "functional_contrast": -0.011634277360534637,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.01958632112195025,
+          "functional_contrast": 0.012618553307823053,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.0011678046150583148,
+      "neutral_advantage": -0.025420635283416003,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.32233645624934476,
+          "functional_contrast": 0.01682968507680392,
+          "median_new_events": 26.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.11359469141240607,
+          "functional_contrast": -0.035154751018003576,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.09647777902778569,
+          "functional_contrast": 0.0012926138454120517,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0519844360948075,
+      "neutral_advantage": 0.01553707123139187,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.1966243590811687,
+          "functional_contrast": 0.04150716428422765,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.039389286053178395,
+          "functional_contrast": -0.030744357842159262,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.06162909217350997,
+          "functional_contrast": 0.015436067792145448,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.07225152212638691,
+      "neutral_advantage": 0.0260710964920822,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3813237008365627,
+          "functional_contrast": 0.013339470404108615,
+          "median_new_events": 26.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.08678546590774136,
+          "functional_contrast": -0.025379838457290096,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12288946545166508,
+          "functional_contrast": -0.008780715410475431,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.03871930886139871,
+      "neutral_advantage": 0.022120185814584047,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.16377504004162863,
+          "functional_contrast": 0.007666575032589662,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.15266634825096198,
+          "functional_contrast": -0.0001412314476243945,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.04553596716933677,
+          "functional_contrast": -0.009440417908486026,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0078078064802140565,
+      "neutral_advantage": 0.017106992941075688,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.1081219505880214,
+          "functional_contrast": -0.039635915711528955,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.019461915995949052,
+          "functional_contrast": -0.0027982148191707003,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.062471054926457444,
+          "functional_contrast": -0.00037053460796765414,
+          "median_new_events": 29.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.03683770089235826,
+      "neutral_advantage": -0.0392653811035613,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3907153499239274,
+          "functional_contrast": -0.027846451952384714,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.10963332348453037,
+          "functional_contrast": -0.02958763717139938,
+          "median_new_events": 27.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23807158424248645,
+          "functional_contrast": -0.003406184169499514,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0017411852190146668,
+      "neutral_advantage": -0.0244402677828852,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3206385363330375,
+          "functional_contrast": -0.015873923792070192,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.10027465071480346,
+          "functional_contrast": -0.01655204287387148,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.23524759529517678,
+          "functional_contrast": -0.018657718394458414,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0006781190818012893,
+      "neutral_advantage": 0.002783794602388222,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3689348408253689,
+          "functional_contrast": 0.03006840597292959,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.07795738903885537,
+          "functional_contrast": 0.00975213710373242,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14728943409196288,
+          "functional_contrast": 0.01417401675534617,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.02031626886919717,
+      "neutral_advantage": 0.01589438921758342,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.29843343239901693,
+          "functional_contrast": 0.003850822996128932,
+          "median_new_events": 26.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.015510831280424721,
+          "functional_contrast": 0.010888793445312689,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.03289404360118691,
+          "functional_contrast": -0.0069356713196330935,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.007037970449183757,
+      "neutral_advantage": 0.010786494315762025,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.17690857751207806,
+          "functional_contrast": -0.023635660479921085,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.22598348183828385,
+          "functional_contrast": -0.027776917328941195,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2312646999354043,
+          "functional_contrast": -0.026578358220575447,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.004141256849020111,
+      "neutral_advantage": 0.002942697740654362,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.25,
+      "budget": 64,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.22373624392588873,
+          "functional_contrast": 0.0683990377906681,
+          "median_new_events": 27.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.029902055934938783,
+          "functional_contrast": 0.019342162524940996,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14587423312059467,
+          "functional_contrast": 0.0258503262932629,
+          "median_new_events": 28.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0490568752657271,
+      "neutral_advantage": 0.042548711497405196,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101520,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.21712267975933794,
+          "functional_contrast": 0.03414760478892169,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.008383752829060837,
+          "functional_contrast": 0.0031266138476106825,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.2566951290468585,
+          "functional_contrast": 0.00864621427972,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.031020990941311007,
+      "neutral_advantage": 0.02550139050920169,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101521,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.23867665546711372,
+          "functional_contrast": -0.0064864453552808165,
+          "median_new_events": 47.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.13084555983213314,
+          "functional_contrast": -0.003771047531021366,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.02678578924393743,
+          "functional_contrast": -0.014907577607493826,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.0027153978242594507,
+      "neutral_advantage": 0.008421132252213009,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101522,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3498126004063157,
+          "functional_contrast": 0.031074859191863896,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.09549739629543041,
+          "functional_contrast": -0.03320803607425157,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.10213158965242088,
+          "functional_contrast": -0.00397200322050896,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.06428289526611547,
+      "neutral_advantage": 0.035046862412372856,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101523,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.321618927337068,
+          "functional_contrast": -0.023701805114926696,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.10808017866880386,
+          "functional_contrast": 0.005179955662911311,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.13018787173141239,
+          "functional_contrast": 0.005400754278014807,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.02888176077783801,
+      "neutral_advantage": -0.029102559392941502,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101524,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.27767060694143103,
+          "functional_contrast": 0.015640298299392712,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.1112022510254373,
+          "functional_contrast": -0.016981851895397367,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.07220020334990647,
+          "functional_contrast": 0.011537552060205881,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.032622150194790075,
+      "neutral_advantage": 0.004102746239186831,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101525,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.2093142433571957,
+          "functional_contrast": 0.015468787031841322,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.040978435120175884,
+          "functional_contrast": -0.0043696323383633565,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.05062762664105877,
+          "functional_contrast": -0.001195866125994456,
+          "median_new_events": 48.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.01983841937020468,
+      "neutral_advantage": 0.016664653157835777,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101526,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3873560729954583,
+          "functional_contrast": -0.005735910017127568,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.028400966245341174,
+          "functional_contrast": -0.015356745949565879,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.12757015531149518,
+          "functional_contrast": 0.007799802521890809,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.009620835932438312,
+      "neutral_advantage": -0.013535712539018377,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101527,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.38013891825616697,
+          "functional_contrast": -0.020754107681173063,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.15010595797720658,
+          "functional_contrast": -0.012887631006152098,
+          "median_new_events": 48.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.15292961173544686,
+          "functional_contrast": -0.013407737683068105,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.007866476675020965,
+      "neutral_advantage": -0.007346369998104958,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101528,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.14626574699210987,
+          "functional_contrast": 0.034417836898954,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.009841179077411357,
+          "functional_contrast": 0.020537010128391667,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.19232646730692377,
+          "functional_contrast": -0.00801929433922152,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.013880826770562335,
+      "neutral_advantage": 0.042437131238175524,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101529,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.3672443381519197,
+          "functional_contrast": -0.0017292845990766557,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.14325346230268485,
+          "functional_contrast": 0.024423496338356897,
+          "median_new_events": 51.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": -0.06269997817145269,
+          "functional_contrast": -0.002819581214905676,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": -0.026152780937433555,
+      "neutral_advantage": 0.0010902966158290203,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101530,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.349604215277385,
+          "functional_contrast": 0.02659702061609541,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": 0.16665149558299105,
+          "functional_contrast": 0.00606850303980821,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.051879866780494395,
+          "functional_contrast": 0.005655263307472157,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.0205285175762872,
+      "neutral_advantage": 0.020941757308623254,
+      "gates": {
+        "correlation": true,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    },
+    {
+      "seed": 2026101531,
+      "mutation": 0.25,
+      "budget": 128,
+      "arms": {
+        "faithful": {
+          "parent_child_correlation": 0.27730427488003107,
+          "functional_contrast": 0.012935267905032828,
+          "median_new_events": 50.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "exchanged": {
+          "parent_child_correlation": -0.12314480916320635,
+          "functional_contrast": -0.001678533158042654,
+          "median_new_events": 49.0,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "neutral": {
+          "parent_child_correlation": 0.14825502280266584,
+          "functional_contrast": 0.015099750594091525,
+          "median_new_events": 49.5,
+          "final_extinct_compartments": 0,
+          "post_purge_founder_events": 0
+        },
+        "no_synthesis": {
+          "parent_child_correlation": 0.0,
+          "functional_contrast": 0.0,
+          "median_new_events": 0.0,
+          "final_extinct_compartments": 24,
+          "post_purge_founder_events": 0
+        }
+      },
+      "exchange_advantage": 0.014613801063075482,
+      "neutral_advantage": -0.002164482689058696,
+      "gates": {
+        "correlation": false,
+        "contrast": false,
+        "exchange_advantage": false,
+        "neutral_advantage": false,
+        "new_activity": true
+      },
+      "passed": false
+    }
+  ],
+  "raw_rows": 165888,
+  "elapsed_seconds": 1.9664139589294791,
+  "exact_active_counts_matched": true,
+  "all_material_balances_zero": true,
+  "no_synthesis_post_purge_activity_zero": true,
+  "conclusion": "Conditional supplied-network result; physical heredity, life and intelligence unassessed.",
+  "frozen_pins_verified_after_run": true
+}

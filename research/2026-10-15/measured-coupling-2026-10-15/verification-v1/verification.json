@@ -1,0 +1,490 @@
+{
+  "status": "failed",
+  "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "commands": [
+    {
+      "label": "droplet_model-tests",
+      "argv": [
+        "-m",
+        "unittest",
+        "discover",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "cwd": "droplet_model",
+      "exit_code": 0
+    },
+    {
+      "label": "droplet_model-replay",
+      "argv": [
+        "run.py",
+        "--output",
+        "PROJECT_ROOT/measured-coupling-2026-10-15/verification-v1/droplet_model"
+      ],
+      "cwd": "droplet_model",
+      "exit_code": 0
+    },
+    {
+      "label": "rna_model-tests",
+      "argv": [
+        "-m",
+        "unittest",
+        "discover",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "cwd": "rna_model",
+      "exit_code": 0
+    },
+    {
+      "label": "rna_model-replay",
+      "argv": [
+        "run.py",
+        "--output",
+        "PROJECT_ROOT/measured-coupling-2026-10-15/verification-v1/rna_model"
+      ],
+      "cwd": "rna_model",
+      "exit_code": 0
+    }
+  ],
+  "source_checks": [
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure1/Figure1.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure1/Figure1C_Click.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure1/Figure1C_Control.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure1/Figure1F_Click_droplets.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure1/Figure1F_Click_no_droplets.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure2/Figure2.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure2/Figure2C-D_data.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure2/Figure2E.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure2/Figure2F_Partitioning.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure2/Figure2G_Error_Rates.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3B_Data.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3C_Lifetime.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3G_Data.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_exsitu.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_exsitu_fit.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_exsitu_fit_parameters.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_insitu.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_insitu_fit.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure3/Figure3H_insitu_fit_parameters.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure4/Figure4.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure4/Figure4B_no_dissolved.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure4/Figure4C_dissolved.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure4/Figure4D_Lifetimes.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5B_Plate_reader.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5C_Plate_reader.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5D_Lifetimes.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5E_product_distribution.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/00_Figures Main Text/Figure5/Figure5F_Error_Rate.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS01/FigureS1.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS01/FigureS1.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS01/HS-F-05.xlsx",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS01/HS-F-28.xlsx",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS02/FigureS2.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS02/FigureS2.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS03/Aspartic_Fitter.py",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS03/FigureS3.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS03/FigureS3.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS04/FigureS4.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS04/FigureS4.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS04/Individual_Kinetics.xlsx",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS05, S7 and S10/FigureS5, S7 and S10.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS05, S7 and S10/FiguresS5_S7_S10.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS05, S7 and S10/Final_Triazoles.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS05, S7 and S10/Final_Triazoles_Cys_Gly.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS06/FigureS6.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS06/HS-F-56-Bis.xlsx",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS06/Kinetics_Cys_KR_NaCl.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS06/Kinetics_Cys_NaCl.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS06/Kinetics_KR_NaCl.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS08/FigureS8.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS08/FigureS8_Partitioning.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11 and S12.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11D1.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11D2.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11D3.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11D4.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/FigureS11E.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/Figures_S11_and_S12_PlateReader.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/Figures_S12E.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/HS-F-53-00-Shell_size_t = 11min.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS11 and S12/HS-F-53-03-Shell_size_t = 26.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS13/FIgureS13_data.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS13/FigureS13.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS14/FigureS14.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS14/Profile_Analysis.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS15/FigureS15.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS16/FigureS16.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS17/FigureS17.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS18/FigureS18.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS18/FigureS18.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS19/FigureS19.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS19/FigureS19_full_dataset.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS22/FigureS22.csv",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/FigureS22/FigureS22.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/Read Leica lif files/Example_One_Chanel.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/Read Leica lif files/Example_Two_Channels.ipynb",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/01_Figures SI/Read Leica lif files/Image_analysis_magma.py",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/LICENSE",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/author/README.md",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/article.txt",
+      "matched": true
+    },
+    {
+      "file": "rna_sources/raw/ameta.xml",
+      "matched": true
+    },
+    {
+      "file": "rna_sources/raw/salibi.xml",
+      "matched": true
+    },
+    {
+      "file": "rna_sources/raw/ameta_si.pdf",
+      "matched": true
+    },
+    {
+      "file": "rna_sources/raw/salibi_si.pdf",
+      "matched": true
+    },
+    {
+      "file": "rna_sources/raw/salibi_data.xlsx",
+      "matched": true
+    },
+    {
+      "file": "droplet_sources/tables/observations.csv",
+      "rows": 7104,
+      "matched": true
+    },
+    {
+      "file": "rna_sources/observations.csv",
+      "rows": 148,
+      "matched": true
+    }
+  ],
+  "replay_comparisons": [
+    {
+      "file": "droplet_model/results-v1/conditional_transfer_sweep.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "droplet_model/results-v1/fit_residuals.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "droplet_model/results-v1/observation_witnesses.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "droplet_model/results-v1/rate_profile.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "droplet_model/results-v1/results.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/controls.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/inheritance_witness.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/passive_carryover.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "rna_model/results-v1/predictions.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    },
+    {
+      "file": "rna_model/results-v1/profile.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/sensitivity.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/summary.json",
+      "matched": true,
+      "method": "JSON equality, excluding top-level elapsed_seconds only"
+    },
+    {
+      "file": "rna_model/results-v1/trajectories.csv",
+      "matched": true,
+      "method": "SHA256 byte equality"
+    }
+  ],
+  "physical_replication": false,
+  "packages": {
+    "numpy": "2.4.1",
+    "scipy": "1.16.1",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.3"
+  },
+  "tests_passed": 15,
+  "error": "Inputs changed during verification",
+  "elapsed_seconds": 37.88260637503117
+}

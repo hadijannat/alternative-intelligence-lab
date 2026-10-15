@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "check": "raw/analog-2024.xml source hash",
+      "status": "PASS"
+    },
+    {
+      "check": "raw/vo2-2022.pdf source hash",
+      "status": "PASS"
+    },
+    {
+      "check": "local links",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence boundaries explicit",
+      "status": "PASS"
+    }
+  ],
+  "meaning": "Source integrity and report consistency only; no experimental replication."
+}

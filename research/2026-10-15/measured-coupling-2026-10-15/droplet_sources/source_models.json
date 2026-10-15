@@ -1,0 +1,45 @@
+{
+  "statement": "Transcribed source model forms and existing source fit outputs; no new fit performed here.",
+  "C3_sigmoid": {
+    "equation": "T(t)=(a-b)/(1+exp(-k*(t-x0)))",
+    "time_unit": "min",
+    "concentration_unit": "mM",
+    "source": "author/00_Figures Main Text/Figure1/Figure1.ipynb",
+    "lag_equation": "lag=x0-2/k",
+    "reported_main_text_lag_s_no_droplets": 42,
+    "reported_main_text_lag_s_droplets": 44,
+    "warnings": ["a and b are not separately identifiable in this source expression; only a-b is observed.", "Phenomenological sigmoid; not a mechanistic autocatalytic rate law.", "Nonzero t=0 prediction is permitted by the fitting form; initial zero measurements remain in raw data."]
+  },
+  "azide_conversion": {
+    "equation": "conversion(t)=B+A*exp(-k*t)",
+    "time_unit": "min",
+    "measurement_unit": "percent",
+    "source": "author/01_Figures SI/FigureS04/FigureS4.ipynb; SI FigureS4",
+    "warning": "Source describes these exponential fits as guides to the eye; conversion is not direct selective product yield."
+  },
+  "EDC_source_network": {
+    "equations": ["dF/dt=-k1*F*Ac-k0*F", "dAn/dt=k1*Ac*F/(a+1)-k4*An", "dAc/dt=-k1*F*Ac+k4*An+k1*a*Ac*F/(a+1)", "dW/dt=k1*F*Ac+k0*F"],
+    "time_unit": "min",
+    "concentration_unit": "mM",
+    "k0_unit": "min^-1",
+    "k1_unit": "mM^-1 min^-1",
+    "k4_unit": "min^-1",
+    "a_unit": "dimensionless",
+    "source": "author/01_Figures SI/FigureS03/Aspartic_Fitter.py",
+    "warnings": ["S3 notebook first calls included four-parameter model with fixed k0=0.01, then overwrites results using fitter_simpler with k0=0.001; fitter_simpler is absent from pinned repository.", "Cached final results contain three parameters and half-lives28.57715234s control and23.03409138s click; cannot label them as the included four-parameter model's fit.", "Main text claims activated-peptide half-life approximately50s, inconsistent with cached final notebook values.", "PSS not stated in S3 caption; do not couple these fitted parameters into full droplet chemistry without qualifying the condition mismatch."]
+  },
+  "FRAP": {
+    "equation": "I(t)=A*(1-exp(-t/tau))+C",
+    "half_time_equation": "t_half=ln(2)*tau",
+    "apparent_diffusion_equation": "D=0.224*r^2/t_half",
+    "source": "author/00_Figures Main Text/Figure3/Figure3H_*_fit_parameters.csv",
+    "insitu": {"A": 0.4208275010073014, "tau_s": 66.7032369720316, "C": 0.2777269812482101, "t_half_s": 46.23516064138561, "D_um2_s": 0.0193791908056653},
+    "exsitu": {"A": 0.8555200823487343, "tau_s": 22.316877469081707, "C": 8.963742707930883e-21, "t_half_s": 15.468880696595752, "D_um2_s": 0.0579227429297572},
+    "warnings": ["SI Equation6 labels exponential denominator t_half but omits ln(2); use source CSV distinction tau versus t_half.", "Internal spot diffusion is not a catalyst loss constant or whole-droplet exchange time.", "Labeled NBD-R fraction in KR-N3 reaction is not proven to measure catalytically active KR3 selectively."]
+  },
+  "product_selection": {
+    "equation": "error_fraction=(3*A3+2*A2B+AB2)/(3*(A3+A2B+AB2+B3))",
+    "source": "SI Equation3; Figure5E/F CSV",
+    "warning": "Composition-weighted azide selection statistic; not probability of mutation, molecular copying failure, or loss of inherited function."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "research_date": "2026-10-15",
+  "status": "proposed assays; no experimental performance established",
+  "sequences": {
+    "F1": {"sequence": "GGAAGUUGUUAUCACUUGUUACGUAAGUAACACUUUGGAUGGGUUGAAGUAUGAGACCGCAACUUA", "length_nt": 66, "source": "Salibi SI Table 1", "state": "competent sequence; activity requires assay", "five_prime": "dash in SI; prepared by IVT; do not infer terminal chemistry"},
+    "Hyper_A": {"sequence": "GGAAGUUGUUAUCACUUGUUACGUAAGUAACACUUUGGAUGGGUUGAAGUAU", "length_nt": 52, "source": "Salibi SI Table 1", "state": "precursor with background catalytic activity", "five_prime": "unlabelled"},
+    "Cy5_A": {"sequence": "GGAAGUUGUUAUCACUUGUUACGUAAGUAACACUUUGAAUGGGUUGAAGUAU", "length_nt": 52, "source": "Salibi SI Table 1", "state": "G38A inactive reporter precursor", "five_prime": "Cy5"},
+    "B": {"sequence": "GAGACCGCAACUUA", "length_nt": 14, "source": "Salibi SI Table 1", "state": "ligation substrate", "five_prime": "triphosphate"}
+  },
+  "sources": [
+    {"id": "salibi", "url": "https://doi.org/10.1038/s41467-023-36940-z", "primary": true, "access": "local retained full text and SI directly inspected; primary web search verified", "location": "SI Table 1, S1, S12-S14; main RNA preparation and recovery Methods", "excerpt": "inactivating single point mutation (G38A)", "supports": "sequence identities; analytical PAGE; original compartments and recovery", "compatibility": "exact target chemistry", "does_not_establish": "new active F1-specific signal or individual lineage function"},
+    {"id": "segmental", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2978384/", "primary": true, "access": "primary-indexed search text; full-page open challenged by recaptcha", "excerpt": "multiple segmental isotope labeling of RNA", "supports": "isotope-labelled RNA preparation feasibility", "compatibility": "method transfer only; F1 labelling/activation must be validated", "does_not_establish": "F1 activity equivalence or isotope separation for activity"},
+    {"id": "nail", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7810713/", "primary": true, "access": "primary full-text search excerpts", "excerpt": "distinction of original RNA and new RNA", "supports": "stable isotope pulse-chase provenance; natural-isotope overlap controls", "compatibility": "human cellular RNA/nucleosides; no numerical parameter transfer", "does_not_establish": "parent identity after digest or active fraction"},
+    {"id": "lcms", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2790879/", "primary": true, "access": "primary-indexed search text; full-page open challenged by recaptcha", "excerpt": "high-resolution LTQ-Orbitrap mass spectrometer", "supports": "RNA oligonucleotide mixture identity and sequence analysis", "compatibility": "desalted analytical RNA; high-sucrose Mg matrix needs cleanup", "does_not_establish": "66-nt F1 LOQ; native activity; physical isotope fraction collection"},
+    {"id": "native", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2944885/", "primary": true, "access": "primary full-text search excerpts", "excerpt": "refolding in vitro introduces severe conformational heterogeneity", "supports": "native versus refolded state distinction in VS/HDV comparisons", "compatibility": "other ribozymes and engineered purification tags", "does_not_establish": "F1 native purification performance"},
+    {"id": "robertson", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943892/", "primary": true, "access": "primary full text opened", "excerpt": "necessitating the use of a rapid-quench device", "supports": "F1 functional assays; fast ligation; precursor and product limitations", "compatibility": "25 mM Mg, pH 8.5, temperature/substrate formats differ from Salibi", "does_not_establish": "rate constants in 900 mM sucrose or GUV inheritance"},
+    {"id": "quantification", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191383/", "primary": true, "access": "primary full-text search excerpts", "excerpt": "limits of quantification in the low femtomole range", "supports": "calibration and analyte-specific LOQ practice", "compatibility": "modified nucleosides; not intact F1", "does_not_establish": "single-vesicle F1 detection limit"},
+    {"id": "dasgupta", "url": "https://doi.org/10.1002/chem.202301376", "primary": true, "access": "publisher full-text search excerpts", "excerpt": "efficiency of FAM-labeled RS8_trunc was lower", "supports": "fluorescent-label perturbation; compartment separation controls", "compatibility": "RS8 ligase, fatty-acid vesicles, 2-3 mM Mg; not target chemistry", "does_not_establish": "F1 label neutrality or numerical retention"}
+  ],
+  "measurements": [
+    {"id": "identity", "analyte": "full-length wild-type sequence versus G38A reporter", "method": "length separation plus G38 and junction mapping", "units": "fmol per collected fraction", "admission": "blinded mixtures and calibrated cross-talk at smallest effect", "limitation": "competent sequence is not activity"},
+    {"id": "provenance", "analyte": "permanently heavy founder versus light new F1", "method": "intact LC-HRMS plus sequence-informative mapping", "units": "fmol founder and new RNA", "admission": "isotope purity, natural overlap, reciprocal-label equivalence, matrix LOQ", "limitation": "new cohort has no unique generation label; isotope code does not isolate active molecules"},
+    {"id": "capacity", "analyte": "recovered catalytic activity", "method": "fresh Cy5-A+B challenge without added Hyper-A; initial increment", "units": "product fmol per minute; calibrated F1-equivalent amount", "admission": "short linear regime, founder/precursor/product nuisance envelope, process controls", "limitation": "activity recovery and specific activity may differ between states"},
+    {"id": "new_capacity", "analyte": "functional capacity attributable to new F1", "method": "lower activity bound minus empirical nuisance-only upper envelope", "units": "product fmol per minute", "admission": "same aliquot basis, simultaneous uncertainty, positive bound above LOQ", "limitation": "bound can be zero/indeterminate despite synthesis; no exact active-molecule count"},
+    {"id": "retention", "analyte": "inside versus all outside/lost fractions", "method": "paired molecular and capacity balance before/after treatment", "units": "retained amount fraction and retained capacity fraction separately", "admission": "volume and recovery accounting; nonreacting arm before full chemistry", "limitation": "washing can select intact compartments"},
+    {"id": "inheritance", "analyte": "both daughters of a directly observed parent", "method": "tracked isolated division, randomized destructive branches, matched exchange arm", "units": "transition-level molecular and functional outcomes", "admission": "known pedigree, contamination bound, sufficient recovered amount", "limitation": "population serial transfer is not vertical inheritance; pooling changes estimand"}
+  ],
+  "proposed_gates": {
+    "label_equivalence_90pct_ci": [0.8, 1.25],
+    "loq_max_abs_relative_bias": 0.2,
+    "loq_max_cv": 0.2,
+    "spike_mass_balance_target": [0.8, 1.2],
+    "cross_talk_max_fraction_of_smallest_effect": 0.01,
+    "status": "design targets, not measured performance"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "parameters": {
+      "kf": 0.14700614279831425,
+      "kh": 0.0006836756169276764,
+      "kb": 1.3611955373989844,
+      "ka": 0.01571930404353992,
+      "krh": 0.000708265067441493,
+      "kd": 0.012946670134460872,
+      "turnover": false,
+      "krel": 0.0,
+      "kbind": 0.0,
+      "equilibrated": false,
+      "mixing": 0.03723889814127394,
+      "transport": "fractional",
+      "loss": "uniform",
+      "complex_reset": false,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55
+    },
+    "passive_competent_founder_multiplier_per_later_generation": 0.12646567021014699,
+    "passive_material_founder_multiplier_per_later_generation": 0.275,
+    "mixing_concentration_deviation_multiplier_per_three_FT": 0.8923918716771784,
+    "mixing_variance_multiplier_per_three_FT": 0.7963632526354977,
+    "mixing_and_uniform_retention_variance_multiplier_per_three_FT": 0.24089988392223807,
+    "founder_material_G7_seed2_uM": 0.00015858700358072926,
+    "founder_competent_G7_seed2_uM": 6.898382733820313e-07
+  },
+  "release": {
+    "parameters": {
+      "kf": 3.3289583895472066,
+      "kh": 0.10029461602728545,
+      "kb": 99.9999999999361,
+      "ka": 0.49456880115026886,
+      "krh": 0.12008809206612893,
+      "kd": 0.012507230561280787,
+      "turnover": true,
+      "krel": 1.132448216037662,
+      "kbind": 0.0,
+      "equilibrated": false,
+      "mixing": 0.0687341808323357,
+      "transport": "fractional",
+      "loss": "uniform",
+      "complex_reset": false,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55
+    },
+    "passive_competent_founder_multiplier_per_later_generation": 0.1298444588838755,
+    "passive_material_founder_multiplier_per_later_generation": 0.275,
+    "mixing_concentration_deviation_multiplier_per_three_FT": 0.8076458934344392,
+    "mixing_variance_multiplier_per_three_FT": 0.6522918891815135,
+    "mixing_and_uniform_retention_variance_multiplier_per_three_FT": 0.19731829647740787,
+    "founder_material_G7_seed2_uM": 0.00015858700358072926,
+    "founder_competent_G7_seed2_uM": 8.296648337291179e-07
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "classification": "Prespecified transport-closure sensitivities; no parameter fitted in this audit",
+  "source_doi": "10.1038/s41467-023-36940-z",
+  "source_files_hashed_in": "input_hashes.json",
+  "closures": [
+    {
+      "name": "uniform_concentration_thinning",
+      "rule": "Each FT multiplies every molecular species in every fixed-volume cohort by 0.55^(1/3).",
+      "supported_part": "Approximate total content loss of 45 percent after three FT inferred from source gels.",
+      "unmeasured_part": "Equal per-species loss, concentration reduction in every cohort, fixed volume weighting and identical multiplicative loss each FT.",
+      "source_location": "Article text line 45; SI lines 396-404.",
+      "source_measured_closure": false
+    },
+    {
+      "name": "all_or_none_content_loss",
+      "rule": "Each FT keeps every content-bearing cohort unchanged at weight r=0.55^(1/3), replacing lost weight by zero-content fixed-volume cohorts; merge identical zero cohorts.",
+      "supported_part": "Same weighted aggregate RNA loss as uniform thinning; source reports heterogeneous exchange and content loss.",
+      "unmeasured_part": "Nonselective all-or-none content emptying, common cargo loss, equal volume weighting, independent identical cycle hazard; this is not a measured vesicle death rate.",
+      "source_location": "Article text lines 29, 33, 45; SI lines 294-299.",
+      "source_measured_closure": false,
+      "excluded_by_available_aggregate_data": false,
+      "normalization_caveat": "Complete vesicle removal, volume shrinkage or cargo-selective recovery would require separate weights and observer derivation.",
+      "source_caveat": "S9 microscopy shows a tracer intensity-distribution shift, and may challenge pure all-or-none loss under that distinct protocol. It is not a direct F1/PAGE loss distribution and does not validate this closure."
+    },
+    {
+      "name": "intact_complex_transport",
+      "rule": "Bound complexes remain bound through FT and share all-species common retention.",
+      "supported_part": "No direct complex retention or FT dissociation data were identified.",
+      "unmeasured_part": "Complex survival, competence protection and temperature-dependent binding; no complex-specific retention may be fitted to the benchmark.",
+      "source_measured_closure": false
+    },
+    {
+      "name": "instantaneous_complex_dissociation",
+      "rule": "After every FT, convert bound complexes to their free constituents preserving each RNA moiety and all covalently ligated products.",
+      "supported_part": "A conservative limiting sensitivity for unmeasured complex survival, not an identified FT mechanism.",
+      "unmeasured_part": "Complete per-cycle dissociation; source does not measure its extent.",
+      "source_measured_closure": false,
+      "observer_rule": "Dissociation alone cannot change denaturing PAGE ligation fraction."
+    },
+    {
+      "name": "uniform_competence_hazard",
+      "rule": "Identical irreversible per-strand hazard for every competent F1 whether free or bound; no reactivation.",
+      "supported_part": "Effective bulk-fit activity loss is a model hypothesis, not a direct survival measurement.",
+      "unmeasured_part": "No bound-state protection or distinct hazards.",
+      "founder_identity": "Under this closure and common retention, analytic founder expectation is total competent founder and is not a free-F1 concentration.",
+      "two_copy_warning": "For F1.F1, constituent hazards must remove one competence at a time or implement an exactly equivalent aggregate transition; do not remove both at rate 2kd.",
+      "source_measured_closure": false
+    }
+  ],
+  "validation_boundary": {
+    "chemistry_selection": "Bulk data only; whole-dose and late-time checks.",
+    "transport_fit": "Only one mixing scalar for each prespecified closure using 18 positive Figure 2 seed 0/1 rows.",
+    "untuned_benchmark": "72 positive Figure 2 seed 2 and all Figure 3 rows; already inspected historical data.",
+    "reporting": "Retain all prespecified outcomes; do not choose a chemistry or closure by benchmark score."
+  }
+}

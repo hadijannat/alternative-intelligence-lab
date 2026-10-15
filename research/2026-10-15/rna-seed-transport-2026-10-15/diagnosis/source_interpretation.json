@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "scope": "Interpretive correction only; no numerical outputs, protocol, scripts or prior source artifacts changed",
+  "source_locations": [
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt:111",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt:444-449"
+  ],
+  "confirmed_schedule_elements": [
+    "Initial F1 only",
+    "Half-volume transfer into fresh substrate vesicles",
+    "Three FT cycles and 60-minute warm incubation per generation"
+  ],
+  "corrected_boundary": "The SI wash is applied to collected PAGE aliquots. Methods specify an initial supernatant discard but no later-generation discard. Continued-culture exterior is carried under the described sample transfer unless an additional supernatant-removal assumption is made.",
+  "unsupported_prior_closure": "RNA leaving vesicles is instantaneously and irreversibly removed from continued culture",
+  "diagnostic_scope": "Existing fixed-parameter interventions and analytic contraction formulas remain valid diagnostics of that legacy irreversible-sink model; they do not prove extracellular destruction or establish the same contraction in a finite-bath model.",
+  "comparison_rationale": [
+    "Legacy irreversible-sink reference",
+    "Finite common exterior bath",
+    "Deterministic effective patch exchange"
+  ],
+  "shared_chemistry": "Same frozen selected bulk chemistry across the final comparison",
+  "excluded_from_final_comparison": [
+    "Selective molecular mobility",
+    "Microscopic lattice or permanent lineage graph"
+  ]
+}

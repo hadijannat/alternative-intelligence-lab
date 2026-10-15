@@ -1,0 +1,120 @@
+{
+  "source": "https://doi.org/10.1038/s42003-026-10218-8",
+  "workbook": "rna-seed-transport-2026-10-15/research/raw/tsuji2026_data.xlsx",
+  "workbook_sha256": "4e4396c128abc9b0a537188177b74397a551314ed2e986c5ed3191bc8e24dff8",
+  "use": "Source audit only; excluded from all measured calibration and validation",
+  "sheets": [
+    {
+      "sheet": "Fig1, S1,S2",
+      "xml_member": "xl/worksheets/sheet1.xml",
+      "nonempty_data_rows": 36,
+      "headers": {
+        "A1": "Incubation temperature",
+        "B1": "DMSO concentration (%)",
+        "C1": "replicate",
+        "D1": "fraction of GUV (%)",
+        "E1": "fraction of double positve GUVs (%)",
+        "F1": "Ratio of FITC fluorescence  (Incubated at -20°C/ 4°C) (%)",
+        "G1": "Ratio of APC fluorescence (Incubated at -20°C/°C) (%)"
+      }
+    },
+    {
+      "sheet": "Fig2",
+      "xml_member": "xl/worksheets/sheet2.xml",
+      "nonempty_data_rows": 24,
+      "headers": {
+        "A1": "Incubation temperature",
+        "B1": "DMSO concentration (%)",
+        "C1": "replicate",
+        "D1": "fraction of double positve GUVs (%)"
+      }
+    },
+    {
+      "sheet": "Fig3",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "nonempty_data_rows": 24,
+      "headers": {
+        "A1": "Incubation temperature",
+        "B1": "DMSO concentration (%)",
+        "C1": "replicate",
+        "D1": "fraction of GUV (%)",
+        "E1": "fraction of double positve GUVs (%)"
+      }
+    },
+    {
+      "sheet": "Fig4",
+      "xml_member": "xl/worksheets/sheet4.xml",
+      "nonempty_data_rows": 24,
+      "headers": {
+        "A1": "Incubation temperature",
+        "B1": "DMSO concentration (%)",
+        "C1": "replicate",
+        "D1": "fraction of double positve GUVs (%)"
+      }
+    },
+    {
+      "sheet": "Fig5",
+      "xml_member": "xl/worksheets/sheet5.xml",
+      "nonempty_data_rows": 72,
+      "headers": {
+        "A1": "Initial RNA concentration",
+        "B1": "DMSO concentration (%)",
+        "C1": "nutrient concentration",
+        "D1": "Time",
+        "E1": "replicate",
+        "F1": "fraction of GUV (%)",
+        "G1": "fraction of SYBR Green II-positive GUV (%)",
+        "H1": "mean FITC of GUVs (FITC >10)"
+      }
+    },
+    {
+      "sheet": "Fig6",
+      "xml_member": "xl/worksheets/sheet6.xml",
+      "nonempty_data_rows": 12,
+      "headers": {
+        "B1": "Ratio of nutrient liposomes",
+        "C1": "Replicate",
+        "D1": "Fraction of SYBR positive GUV ",
+        "E1": "Expected SYBR positive GUV fraction without propagation",
+        "F1": "Propagation number"
+      },
+      "selected_cells": {
+        "B5": "1:1",
+        "C5": "1",
+        "D5": "29.380738425473702",
+        "E5": "21.909937161835551",
+        "F5": "1.3409777585602289"
+      }
+    },
+    {
+      "sheet": "Fig7",
+      "xml_member": "xl/worksheets/sheet7.xml",
+      "nonempty_data_rows": 36,
+      "headers": {
+        "A1": "Generation (number of fusion)",
+        "B1": "Nutrient GUVs",
+        "C1": "Reaction time",
+        "D1": "Fraction of GUVs",
+        "E1": "Fraction of SYBR Green II-positive GUVs",
+        "F1": "Mean fluorescence of SYBR Green II in GUVs"
+      },
+      "selected_cells": {
+        "A20": "7",
+        "B20": "0×",
+        "C20": "2 h",
+        "E20": "0.5387771242153131",
+        "A37": "7",
+        "B37": "2×",
+        "C37": "2 h",
+        "E37": "20.673641703377385"
+      }
+    }
+  ],
+  "cautions": [
+    "Fig7 has 36 data rows and no replicate identifier column; do not infer three independent trajectories",
+    "Serial schedule contains overnight storage at generations1 and4 and12days at generation5",
+    "Fig5 columnH says mean FITC of GUVs (FITC >10); article positive-GUV gating uses a different threshold notation; clarify populations before quantitative reuse",
+    "Fig7 columnF says mean fluorescence in GUVs; text discusses all GUVs while figure7E caption says positive GUVs",
+    "Figure7D caption uses PURE-system wording; Methods specify purified Qbeta replicase and nucleotides; retain inconsistency rather than infer a translation assay"
+  ]
+}

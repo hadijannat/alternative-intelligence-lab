@@ -1,0 +1,167 @@
+{
+  "active_bounds": [
+    0
+  ],
+  "agreeing_successful_starts": 6,
+  "complete": true,
+  "family": "legacy",
+  "fixed_parameters": {},
+  "free_parameters": [
+    "mixing"
+  ],
+  "jacobian_singular_values": [
+    372.40999348933684
+  ],
+  "max_nfev": 120,
+  "parameters": {
+    "mixing": 0.3700000000000035
+  },
+  "qualified": true,
+  "residual_evaluations": 119,
+  "resolved": true,
+  "rmse_pp": 1.2730485743751851e-12,
+  "sse": 2.9171748108936445e-23,
+  "starts": [
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.22048487490974367,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "optimizer_parameters": [
+        0.36999999999999866
+      ],
+      "optimizer_start": [
+        0.05
+      ],
+      "residual_evaluations": 27,
+      "sse": 5.971240339125929e-23,
+      "start_id": 1,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.1696766250533983,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "njev": 7,
+      "optimizer_parameters": [
+        0.3700000000000035
+      ],
+      "optimizer_start": [
+        0.2
+      ],
+      "residual_evaluations": 21,
+      "sse": 2.9171748108936445e-23,
+      "start_id": 2,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.11958375002723187,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 5,
+      "njev": 5,
+      "optimizer_parameters": [
+        0.37000000000000083
+      ],
+      "optimizer_start": [
+        0.4
+      ],
+      "residual_evaluations": 15,
+      "sse": 1.848541545736742e-22,
+      "start_id": 3,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.1455439580604434,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 6,
+      "njev": 6,
+      "optimizer_parameters": [
+        0.3699999999999996
+      ],
+      "optimizer_start": [
+        0.6
+      ],
+      "residual_evaluations": 18,
+      "sse": 2.774866701728926e-22,
+      "start_id": 4,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.15170083299744874,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "njev": 6,
+      "optimizer_parameters": [
+        0.37000000000000477
+      ],
+      "optimizer_start": [
+        0.8
+      ],
+      "residual_evaluations": 19,
+      "sse": 1.8785229301916994e-22,
+      "start_id": 5,
+      "status": 1,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0
+      ],
+      "elapsed_seconds": 0.14827933302149177,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "njev": 6,
+      "optimizer_parameters": [
+        0.3699999999999953
+      ],
+      "optimizer_start": [
+        0.95
+      ],
+      "residual_evaluations": 19,
+      "sse": 1.5505607614954124e-22,
+      "start_id": 6,
+      "status": 1,
+      "success": true
+    }
+  ],
+  "successful_starts": 6,
+  "training_row_ids": [
+    "synthetic_0_1_1",
+    "synthetic_0_1_2",
+    "synthetic_0_1_3",
+    "synthetic_0_2_1",
+    "synthetic_0_2_2",
+    "synthetic_0_2_3",
+    "synthetic_0_3_1",
+    "synthetic_0_3_2",
+    "synthetic_0_3_3",
+    "synthetic_1_1_1",
+    "synthetic_1_1_2",
+    "synthetic_1_1_3",
+    "synthetic_1_2_1",
+    "synthetic_1_2_2",
+    "synthetic_1_2_3",
+    "synthetic_1_3_1",
+    "synthetic_1_3_2",
+    "synthetic_1_3_3"
+  ]
+}

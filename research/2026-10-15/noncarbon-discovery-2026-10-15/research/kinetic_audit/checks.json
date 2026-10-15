@@ -1,0 +1,48 @@
+{
+  "status": "PASS independent source and saved-formula replay; no new fitting",
+  "source_rows": 480,
+  "seed_settings": [
+    0.46296,
+    0.92593,
+    1.38889,
+    1.85184,
+    2.3148,
+    3.19442
+  ],
+  "unseeded_rows": 0,
+  "stored_manifest_hashes_verified": 8,
+  "fit_records": 96,
+  "prediction_rows": 7680,
+  "optimizer_start_records": 1008,
+  "optimizer_start_status_counts": {
+    "success": 1008
+  },
+  "max_saved_formula_difference_native_units": 0.0,
+  "mean_heldout_mae_native_units": {
+    "primary/double_relaxation": 1.308001006695145e-06,
+    "primary/last_value": 2.066666666666666e-06,
+    "primary/linear_last10": 1.3397787906201717e-06,
+    "primary/offset_logistic": 2.4269015509618287e-06,
+    "primary/single_relaxation": 2.021453335506898e-06,
+    "stress/double_relaxation": 1.624580800909722e-06,
+    "stress/last_value": 5.415000000000002e-06,
+    "stress/linear_last10": 1.4254320216049532e-05,
+    "stress/offset_logistic": 5.080264781383468e-06,
+    "stress/single_relaxation": 4.382168546583976e-06
+  },
+  "double_relaxation_main_fast_shape_upper_hits": 8,
+  "offset_logistic_offset_lower_hits": 24,
+  "inputs_sha256": {
+    "noncarbon-discovery-2026-10-15/research/pom/raw/mo36_seed_timeseries.csv": "b9cfcb759f2140d61a7b21a984f3c5c761958d7d93ac9c815289596fae4520a7",
+    "metal-oxide/published/calibration/results/manifest.json": "4a49fb85637a5cfc9f0936e054e4514fecd6a75b96ca8ff87ca652c9f0d429dd",
+    "metal-oxide/published/calibration/results/fits.json": "fb8fbc09a64d9dd135f0e1dfa9e78c8551195c527464368b811f803af53805aa",
+    "metal-oxide/published/calibration/results/predictions.csv": "80e5d8072ace16396666a5baa148b3669038b0da8e5ad0d25d684ac57c669f46",
+    "metal-oxide/published/calibration/results/metrics.csv": "463cf5664ec2a45830b8c0941432e914a6f70061bb751c3158d8e3e45fef4a4d"
+  },
+  "verification_script_sha256": "be8d19ba26cefdd9909f9faf2a1d8b0062057361cd019100460db08ba72fe7a4",
+  "limits": [
+    "Numerical replay is not optimizer refitting or experimental replication.",
+    "Chronological holdouts are within previously available seeded traces, not new batches or doses.",
+    "No verified physical units, zero-seed control, functional descendants or derivative rates are present."
+  ]
+}

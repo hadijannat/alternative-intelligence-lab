@@ -1,0 +1,2950 @@
+{
+  "contact_no_exchange": {
+    "metrics": {
+      "bias_pp": -6.350412698412698,
+      "maximum_absolute_mean_error_pp": 13.412999999999998,
+      "n": 63,
+      "passes_development_screen": false,
+      "rmse_pp": 7.649508750696618
+    },
+    "trajectories": {
+      "0": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.4999999999999991,
+            0.3749999999999998,
+            2.25
+          ],
+          "retained_moiety_uM": [
+            1.833333333333334,
+            0.4583333333333335,
+            2.75
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            3.9541666666666657,
+            0.9885416666666664,
+            5.93125
+          ],
+          "retained_moiety_uM": [
+            1.8791666666666673,
+            0.46979166666666683,
+            2.81875
+          ],
+          "source_moiety_uM": [
+            5.833333333333333,
+            1.4583333333333333,
+            8.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            6.441562499999998,
+            1.6103906249999995,
+            9.66234375
+          ],
+          "retained_moiety_uM": [
+            1.891770833333334,
+            0.4729427083333335,
+            2.83765625
+          ],
+          "source_moiety_uM": [
+            8.333333333333332,
+            2.083333333333333,
+            12.5
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 8.881784197001252e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            8.938096354166664,
+            2.234524088541666,
+            13.40714453125
+          ],
+          "retained_moiety_uM": [
+            1.8952369791666674,
+            0.47380924479166686,
+            2.84285546875
+          ],
+          "source_moiety_uM": [
+            10.833333333333332,
+            2.708333333333333,
+            16.25
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            11.437143164062498,
+            2.8592857910156244,
+            17.15571474609375
+          ],
+          "retained_moiety_uM": [
+            1.896190169270834,
+            0.4740475423177085,
+            2.84428525390625
+          ],
+          "source_moiety_uM": [
+            13.333333333333332,
+            3.333333333333333,
+            20.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            13.936881036783852,
+            3.484220259195963,
+            20.90532155517578
+          ],
+          "retained_moiety_uM": [
+            1.8964522965494799,
+            0.47411307413736997,
+            2.844678444824219
+          ],
+          "source_moiety_uM": [
+            15.833333333333332,
+            3.958333333333333,
+            23.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3322676295501878e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            16.436808951782226,
+            4.109202237945556,
+            24.65521342767334
+          ],
+          "retained_moiety_uM": [
+            1.8965243815511075,
+            0.47413109538777687,
+            2.8447865723266603
+          ],
+          "source_moiety_uM": [
+            18.333333333333332,
+            4.583333333333333,
+            27.5
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "1": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.3333333333333333,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3333333333333333,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.18333333333333338,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.18333333333333335,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 2.7755575615628914e-17,
+          "removed_moiety_uM": [
+            1.649999999999999,
+            0.3749999999999998,
+            2.4
+          ],
+          "retained_moiety_uM": [
+            2.0166666666666675,
+            0.4583333333333335,
+            2.9333333333333336
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.05041666666666669,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.05041666666666667,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.718447854656915e-16,
+          "newly_generated_F1_model_uM": 2.0816681711721685e-17,
+          "removed_moiety_uM": [
+            4.237083333333333,
+            0.9885416666666664,
+            6.214166666666667
+          ],
+          "retained_moiety_uM": [
+            1.929583333333334,
+            0.46979166666666683,
+            2.8691666666666666
+          ],
+          "source_moiety_uM": [
+            6.166666666666666,
+            1.4583333333333333,
+            9.083333333333334
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.01386458333333334,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.013864583333333336,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 6.938893903907228e-18,
+          "newly_generated_F1_model_uM": 3.469446951953614e-18,
+          "removed_moiety_uM": [
+            6.7610312499999985,
+            1.6103906249999995,
+            9.9818125
+          ],
+          "retained_moiety_uM": [
+            1.9056354166666674,
+            0.4729427083333335,
+            2.8515208333333337
+          ],
+          "source_moiety_uM": [
+            8.666666666666666,
+            2.083333333333333,
+            12.833333333333334
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.003812760416666669,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0038127604166666674,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 9.462916561453483e-16,
+          "newly_generated_F1_model_uM": 1.734723475976807e-18,
+          "removed_moiety_uM": [
+            9.267616927083331,
+            2.234524088541666,
+            13.736665104166665
+          ],
+          "retained_moiety_uM": [
+            1.8990497395833341,
+            0.47380924479166686,
+            2.8466682291666663
+          ],
+          "source_moiety_uM": [
+            11.166666666666666,
+            2.708333333333333,
+            16.583333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0010485091145833341,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0010485091145833337,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.83554168928535e-16,
+          "newly_generated_F1_model_uM": 4.336808689942018e-19,
+          "removed_moiety_uM": [
+            11.769427988281247,
+            2.8592857910156244,
+            17.4879995703125
+          ],
+          "retained_moiety_uM": [
+            1.8972386783854174,
+            0.4740475423177085,
+            2.8453337630208333
+          ],
+          "source_moiety_uM": [
+            13.666666666666666,
+            3.333333333333333,
+            20.333333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.000288340006510417,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.00028834000651041677,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.0419056990259605e-16,
+          "newly_generated_F1_model_uM": 2.168404344971009e-19,
+          "removed_moiety_uM": [
+            14.269926030110675,
+            3.484220259195963,
+            21.238366548502604
+          ],
+          "retained_moiety_uM": [
+            1.8967406365559902,
+            0.47411307413736997,
+            2.844966784830729
+          ],
+          "source_moiety_uM": [
+            16.166666666666664,
+            3.958333333333333,
+            24.083333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 7.929350179036467e-05,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 7.929350179036463e-05,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3349103723456213e-15,
+          "newly_generated_F1_model_uM": 4.0657581468206416e-20,
+          "removed_moiety_uM": [
+            16.77006299161377,
+            4.109202237945556,
+            24.988467467504883
+          ],
+          "retained_moiety_uM": [
+            1.8966036750528978,
+            0.47413109538777687,
+            2.8448658658284507
+          ],
+          "source_moiety_uM": [
+            18.666666666666664,
+            4.583333333333333,
+            27.833333333333332
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "2": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.6666666666666666,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.6666666666666666,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.36666666666666675,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3666666666666667,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 5.551115123125783e-17,
+          "removed_moiety_uM": [
+            1.799999999999999,
+            0.3749999999999998,
+            2.55
+          ],
+          "retained_moiety_uM": [
+            2.2000000000000006,
+            0.4583333333333335,
+            3.1166666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.10083333333333339,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.10083333333333334,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.996003610813204e-16,
+          "newly_generated_F1_model_uM": 4.163336342344337e-17,
+          "removed_moiety_uM": [
+            4.519999999999999,
+            0.9885416666666664,
+            6.497083333333333
+          ],
+          "retained_moiety_uM": [
+            1.9800000000000006,
+            0.46979166666666683,
+            2.9195833333333336
+          ],
+          "source_moiety_uM": [
+            6.5,
+            1.4583333333333333,
+            9.416666666666666
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.02772916666666668,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.027729166666666673,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3877787807814457e-17,
+          "newly_generated_F1_model_uM": 6.938893903907228e-18,
+          "removed_moiety_uM": [
+            7.080499999999998,
+            1.6103906249999995,
+            10.301281249999999
+          ],
+          "retained_moiety_uM": [
+            1.9195000000000007,
+            0.4729427083333335,
+            2.865385416666667
+          ],
+          "source_moiety_uM": [
+            8.999999999999998,
+            2.083333333333333,
+            13.166666666666666
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.007625520833333338,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.007625520833333335,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.0044048925905713e-15,
+          "newly_generated_F1_model_uM": 3.469446951953614e-18,
+          "removed_moiety_uM": [
+            9.597137499999997,
+            2.234524088541666,
+            14.066185677083332
+          ],
+          "retained_moiety_uM": [
+            1.9028625000000008,
+            0.47380924479166686,
+            2.850480989583333
+          ],
+          "source_moiety_uM": [
+            11.499999999999998,
+            2.708333333333333,
+            16.916666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0020970182291666683,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0020970182291666674,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 5.230191280070073e-16,
+          "newly_generated_F1_model_uM": 8.673617379884035e-19,
+          "removed_moiety_uM": [
+            12.101712812499997,
+            2.8592857910156244,
+            17.82028439453125
+          ],
+          "retained_moiety_uM": [
+            1.8982871875000007,
+            0.4740475423177085,
+            2.8463822721354166
+          ],
+          "source_moiety_uM": [
+            13.999999999999998,
+            3.333333333333333,
+            20.666666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.000576680013020834,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0005766800130208335,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 3.642919299551295e-16,
+          "newly_generated_F1_model_uM": 4.336808689942018e-19,
+          "removed_moiety_uM": [
+            14.602971023437497,
+            3.484220259195963,
+            21.571411541829427
+          ],
+          "retained_moiety_uM": [
+            1.8970289765625008,
+            0.47411307413736997,
+            2.8452551248372395
+          ],
+          "source_moiety_uM": [
+            16.5,
+            3.958333333333333,
+            24.416666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.00015858700358072935,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.00015858700358072926,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3375531151410547e-15,
+          "newly_generated_F1_model_uM": 8.131516293641283e-20,
+          "removed_moiety_uM": [
+            17.10331703144531,
+            4.109202237945556,
+            25.321721507336424
+          ],
+          "retained_moiety_uM": [
+            1.8966829685546882,
+            0.47413109538777687,
+            2.844945159330241
+          ],
+          "source_moiety_uM": [
+            19.0,
+            4.583333333333333,
+            28.166666666666668
+          ],
+          "yield_percent": 0.0
+        }
+      ]
+    }
+  },
+  "contact_no_regeneration": {
+    "metrics": {
+      "bias_pp": -5.52233357701546,
+      "maximum_absolute_mean_error_pp": 13.1572519477959,
+      "n": 63,
+      "passes_development_screen": false,
+      "rmse_pp": 6.774564939397504
+    },
+    "trajectories": {
+      "0": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.749994892327081,
+          "Cy5A_uM": 0.45833333333333354,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8333282256604149,
+          "cohorts": 6,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 5.107672919249315e-06,
+          "moiety_balance_max_error_uM": 3.0733743458175034e-17,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.499999999999999,
+            0.3749999999999997,
+            2.2499999999999996
+          ],
+          "retained_moiety_uM": [
+            1.8333333333333341,
+            0.45833333333333354,
+            2.7500000000000004
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8187427485302483,
+          "Cy5A_uM": 0.4697916666666668,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8791594151969155,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 7.251469751578477e-06,
+          "moiety_balance_max_error_uM": 7.556397863114558e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            3.9541666666666653,
+            0.9885416666666664,
+            5.93125
+          ],
+          "retained_moiety_uM": [
+            1.879166666666667,
+            0.4697916666666668,
+            2.81875
+          ],
+          "source_moiety_uM": [
+            5.833333333333333,
+            1.4583333333333333,
+            8.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.837648227162506,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8917628104958397,
+          "cohorts": 16,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.022837494159038e-06,
+          "moiety_balance_max_error_uM": 4.871320360977371e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            6.441562499999998,
+            1.6103906249999995,
+            9.66234375
+          ],
+          "retained_moiety_uM": [
+            1.8917708333333338,
+            0.4729427083333335,
+            2.83765625
+          ],
+          "source_moiety_uM": [
+            8.333333333333332,
+            2.083333333333333,
+            12.5
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8428471841577356,
+          "Cy5A_uM": 0.4738092447916668,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8952286945744026,
+          "cohorts": 21,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.284592264671026e-06,
+          "moiety_balance_max_error_uM": 1.4950538094853083e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            8.938096354166664,
+            2.2345240885416664,
+            13.407144531250001
+          ],
+          "retained_moiety_uM": [
+            1.8952369791666672,
+            0.4738092447916668,
+            2.8428554687500003
+          ],
+          "source_moiety_uM": [
+            10.833333333333332,
+            2.708333333333333,
+            16.25
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8442768836588406,
+          "Cy5A_uM": 0.47404754231770846,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8961817990234247,
+          "cohorts": 26,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.370247409435559e-06,
+          "moiety_balance_max_error_uM": 1.892871303492763e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            11.437143164062496,
+            2.859285791015625,
+            17.15571474609375
+          ],
+          "retained_moiety_uM": [
+            1.896190169270834,
+            0.47404754231770846,
+            2.84428525390625
+          ],
+          "source_moiety_uM": [
+            13.333333333333332,
+            3.333333333333333,
+            20.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8446700472576247,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8964438989828856,
+          "cohorts": 31,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.397566594410088e-06,
+          "moiety_balance_max_error_uM": 2.9991742596380266e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            13.936881036783848,
+            3.4842202591959635,
+            20.90532155517578
+          ],
+          "retained_moiety_uM": [
+            1.8964522965494799,
+            0.47411307413736997,
+            2.8446784448242193
+          ],
+          "source_moiety_uM": [
+            15.833333333333332,
+            3.958333333333333,
+            23.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844778166211793,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8965159754362408,
+          "cohorts": 36,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.40611486656615e-06,
+          "moiety_balance_max_error_uM": 3.2845566002269455e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            16.436808951782222,
+            4.109202237945556,
+            24.65521342767334
+          ],
+          "retained_moiety_uM": [
+            1.8965243815511075,
+            0.47413109538777687,
+            2.8447865723266594
+          ],
+          "source_moiety_uM": [
+            18.333333333333332,
+            4.583333333333333,
+            27.5
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "1": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.3333333333333333,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3333333333333333,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.680309365561153,
+          "Cy5A_uM": 0.44439563762092027,
+          "Cy5F1_uM": 0.013937695712413198,
+          "F1_uM": 0.1833333333333334,
+          "HyperA_uM": 1.7775803946068995,
+          "cohorts": 6,
+          "founder_F1_upper_bound_uM": 0.18333333333333335,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.05575293872643424,
+          "moiety_balance_max_error_uM": 3.677613769070831e-16,
+          "newly_generated_F1_model_uM": 5.551115123125783e-17,
+          "removed_moiety_uM": [
+            1.6499999999999988,
+            0.3749999999999997,
+            2.3999999999999995
+          ],
+          "retained_moiety_uM": [
+            2.016666666666667,
+            0.4583333333333335,
+            2.933333333333334
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 3.0409517917992424
+        },
+        {
+          "B_uM": 2.7710880519192367,
+          "Cy5A_uM": 0.4602602249894078,
+          "Cy5F1_uM": 0.009531441677259049,
+          "F1_uM": 0.05041666666666669,
+          "HyperA_uM": 1.841036160263163,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.05041666666666667,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.03813050640350396,
+          "moiety_balance_max_error_uM": 6.661338147750939e-16,
+          "newly_generated_F1_model_uM": 2.0816681711721685e-17,
+          "removed_moiety_uM": [
+            4.237083333333332,
+            0.9885416666666663,
+            6.214166666666667
+          ],
+          "retained_moiety_uM": [
+            1.9295833333333337,
+            0.46979166666666683,
+            2.8691666666666666
+          ],
+          "source_moiety_uM": [
+            6.166666666666666,
+            1.4583333333333333,
+            9.083333333333334
+          ],
+          "yield_percent": 2.028865634183744
+        },
+        {
+          "B_uM": 2.8150823723874154,
+          "Cy5A_uM": 0.468429260140881,
+          "Cy5F1_uM": 0.00451344819245249,
+          "F1_uM": 0.01386458333333334,
+          "HyperA_uM": 1.8737104039132013,
+          "cohorts": 16,
+          "founder_F1_upper_bound_uM": 0.013864583333333336,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.018060429420132706,
+          "moiety_balance_max_error_uM": 1.942890293094024e-15,
+          "newly_generated_F1_model_uM": 3.469446951953614e-18,
+          "removed_moiety_uM": [
+            6.7610312499999985,
+            1.6103906249999995,
+            9.981812500000002
+          ],
+          "retained_moiety_uM": [
+            1.9056354166666674,
+            0.47294270833333346,
+            2.851520833333334
+          ],
+          "source_moiety_uM": [
+            8.666666666666666,
+            2.083333333333333,
+            12.833333333333334
+          ],
+          "yield_percent": 0.9543329694960387
+        },
+        {
+          "B_uM": 2.8338030489490884,
+          "Cy5A_uM": 0.47200029306913216,
+          "Cy5F1_uM": 0.0018089517225347148,
+          "F1_uM": 0.0038127604166666683,
+          "HyperA_uM": 1.8879935110882904,
+          "cohorts": 21,
+          "founder_F1_upper_bound_uM": 0.0038127604166666674,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.007243468078377066,
+          "moiety_balance_max_error_uM": 2.4841240175987878e-15,
+          "newly_generated_F1_model_uM": 8.673617379884035e-19,
+          "removed_moiety_uM": [
+            9.267616927083331,
+            2.234524088541666,
+            13.736665104166669
+          ],
+          "retained_moiety_uM": [
+            1.8990497395833341,
+            0.47380924479166686,
+            2.8466682291666667
+          ],
+          "source_moiety_uM": [
+            11.166666666666666,
+            2.708333333333333,
+            16.583333333333332
+          ],
+          "yield_percent": 0.38178903058974883
+        },
+        {
+          "B_uM": 2.8409798498107395,
+          "Cy5A_uM": 0.4733880856855966,
+          "Cy5F1_uM": 0.0006594566321118964,
+          "F1_uM": 0.0010485091145833341,
+          "HyperA_uM": 1.8935442218074354,
+          "cohorts": 26,
+          "founder_F1_upper_bound_uM": 0.0010485091145833337,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0026459474633985713,
+          "moiety_balance_max_error_uM": 1.6514567491299204e-15,
+          "newly_generated_F1_model_uM": 4.336808689942018e-19,
+          "removed_moiety_uM": [
+            11.769427988281247,
+            2.8592857910156244,
+            17.487999570312503
+          ],
+          "retained_moiety_uM": [
+            1.8972386783854174,
+            0.4740475423177085,
+            2.8453337630208333
+          ],
+          "source_moiety_uM": [
+            13.666666666666666,
+            3.333333333333333,
+            20.333333333333332
+          ],
+          "yield_percent": 0.13911191879356394
+        },
+        {
+          "B_uM": 2.8435374105400624,
+          "Cy5A_uM": 0.47388652826078104,
+          "Cy5F1_uM": 0.00022654587658893168,
+          "F1_uM": 0.0002883400065104169,
+          "HyperA_uM": 1.8955378081419125,
+          "cohorts": 31,
+          "founder_F1_upper_bound_uM": 0.00028834000651041677,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0009144884075674269,
+          "moiety_balance_max_error_uM": 1.2906342661267445e-15,
+          "newly_generated_F1_model_uM": 1.0842021724855044e-19,
+          "removed_moiety_uM": [
+            14.269926030110673,
+            3.4842202591959626,
+            21.238366548502604
+          ],
+          "retained_moiety_uM": [
+            1.8967406365559905,
+            0.47411307413736997,
+            2.844966784830729
+          ],
+          "source_moiety_uM": [
+            16.166666666666664,
+            3.958333333333333,
+            24.083333333333332
+          ],
+          "yield_percent": 0.04778308993084044
+        },
+        {
+          "B_uM": 2.8444042249287707,
+          "Cy5A_uM": 0.4740563005708084,
+          "Cy5F1_uM": 7.479481696848092e-05,
+          "F1_uM": 7.929350179036467e-05,
+          "HyperA_uM": 1.8962168289701866,
+          "cohorts": 36,
+          "founder_F1_upper_bound_uM": 7.929350179036463e-05,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0003075525809208147,
+          "moiety_balance_max_error_uM": 1.8457457784393227e-15,
+          "newly_generated_F1_model_uM": 4.0657581468206416e-20,
+          "removed_moiety_uM": [
+            16.770062991613766,
+            4.109202237945556,
+            24.988467467504886
+          ],
+          "retained_moiety_uM": [
+            1.8966036750528978,
+            0.47413109538777687,
+            2.8448658658284502
+          ],
+          "source_moiety_uM": [
+            18.666666666666664,
+            4.583333333333333,
+            27.833333333333332
+          ],
+          "yield_percent": 0.015775134281650224
+        }
+      ],
+      "2": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.6666666666666666,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.6666666666666666,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.6420057272584336,
+          "Cy5A_uM": 0.43673470677580106,
+          "Cy5F1_uM": 0.02159862655753246,
+          "F1_uM": 0.3666666666666668,
+          "HyperA_uM": 1.7469376871492996,
+          "cohorts": 6,
+          "founder_F1_upper_bound_uM": 0.3666666666666667,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.08639564618403453,
+          "moiety_balance_max_error_uM": 1.8041124150158794e-16,
+          "newly_generated_F1_model_uM": 1.1102230246251565e-16,
+          "removed_moiety_uM": [
+            1.7999999999999987,
+            0.3749999999999997,
+            2.5499999999999994
+          ],
+          "retained_moiety_uM": [
+            2.200000000000001,
+            0.45833333333333354,
+            3.1166666666666676
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 4.712427612552534
+        },
+        {
+          "B_uM": 2.7399942195696636,
+          "Cy5A_uM": 0.45404120781666113,
+          "Cy5F1_uM": 0.01575045885000574,
+          "F1_uM": 0.10083333333333339,
+          "HyperA_uM": 1.8161613450863365,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.10083333333333334,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.06300532158033102,
+          "moiety_balance_max_error_uM": 4.163336342344337e-16,
+          "newly_generated_F1_model_uM": 4.163336342344337e-17,
+          "removed_moiety_uM": [
+            4.52,
+            0.9885416666666664,
+            6.497083333333332
+          ],
+          "retained_moiety_uM": [
+            1.9800000000000009,
+            0.4697916666666669,
+            2.9195833333333336
+          ],
+          "source_moiety_uM": [
+            6.5,
+            1.4583333333333333,
+            9.416666666666666
+          ],
+          "yield_percent": 3.3526475600899124
+        },
+        {
+          "B_uM": 2.7985004554909145,
+          "Cy5A_uM": 0.46511270512381214,
+          "Cy5F1_uM": 0.007830003209521359,
+          "F1_uM": 0.02772916666666668,
+          "HyperA_uM": 1.8604450420337697,
+          "cohorts": 16,
+          "founder_F1_upper_bound_uM": 0.027729166666666673,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.03132579129956422,
+          "moiety_balance_max_error_uM": 3.0531133177191805e-16,
+          "newly_generated_F1_model_uM": 6.938893903907228e-18,
+          "removed_moiety_uM": [
+            7.080499999999998,
+            1.6103906249999997,
+            10.30128125
+          ],
+          "retained_moiety_uM": [
+            1.9195000000000007,
+            0.4729427083333335,
+            2.865385416666667
+          ],
+          "source_moiety_uM": [
+            8.999999999999998,
+            2.083333333333333,
+            13.166666666666666
+          ],
+          "yield_percent": 1.6555923310699856
+        },
+        {
+          "B_uM": 2.826607195741943,
+          "Cy5A_uM": 0.47056103436000374,
+          "Cy5F1_uM": 0.0032482104316630778,
+          "F1_uM": 0.007625520833333337,
+          "HyperA_uM": 1.882236916590274,
+          "cohorts": 21,
+          "founder_F1_upper_bound_uM": 0.007625520833333335,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.013000062576393329,
+          "moiety_balance_max_error_uM": 1.5265566588595902e-15,
+          "newly_generated_F1_model_uM": 1.734723475976807e-18,
+          "removed_moiety_uM": [
+            9.597137499999997,
+            2.2345240885416664,
+            14.06618567708333
+          ],
+          "retained_moiety_uM": [
+            1.9028625000000006,
+            0.4738092447916668,
+            2.8504809895833327
+          ],
+          "source_moiety_uM": [
+            11.499999999999998,
+            2.708333333333333,
+            16.916666666666668
+          ],
+          "yield_percent": 0.6855523541106318
+        },
+        {
+          "B_uM": 2.8382154872621093,
+          "Cy5A_uM": 0.4728351749617095,
+          "Cy5F1_uM": 0.0012123673559989517,
+          "F1_uM": 0.0020970182291666683,
+          "HyperA_uM": 1.8913327699826923,
+          "cohorts": 26,
+          "founder_F1_upper_bound_uM": 0.0020970182291666674,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.004857399288141611,
+          "moiety_balance_max_error_uM": 2.220446049250313e-15,
+          "newly_generated_F1_model_uM": 8.673617379884035e-19,
+          "removed_moiety_uM": [
+            12.101712812499997,
+            2.859285791015625,
+            17.82028439453125
+          ],
+          "retained_moiety_uM": [
+            1.8982871875000005,
+            0.47404754231770846,
+            2.8463822721354166
+          ],
+          "source_moiety_uM": [
+            13.999999999999998,
+            3.333333333333333,
+            20.666666666666668
+          ],
+          "yield_percent": 0.2557480522041012
+        },
+        {
+          "B_uM": 2.8425538926611758,
+          "Cy5A_uM": 0.4736898097193804,
+          "Cy5F1_uM": 0.00042326441798952794,
+          "F1_uM": 0.0005766800130208337,
+          "HyperA_uM": 1.894751008804426,
+          "cohorts": 31,
+          "founder_F1_upper_bound_uM": 0.0005766800130208335,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0017012877450537892,
+          "moiety_balance_max_error_uM": 1.4710455076283324e-15,
+          "newly_generated_F1_model_uM": 2.168404344971009e-19,
+          "removed_moiety_uM": [
+            14.602971023437497,
+            3.484220259195964,
+            21.571411541829423
+          ],
+          "retained_moiety_uM": [
+            1.8970289765625006,
+            0.4741130741373699,
+            2.8452551248372395
+          ],
+          "source_moiety_uM": [
+            16.5,
+            3.958333333333333,
+            24.416666666666668
+          ],
+          "yield_percent": 0.08927499389457691
+        },
+        {
+          "B_uM": 2.8440715559488994,
+          "Cy5A_uM": 0.47398976128757536,
+          "Cy5F1_uM": 0.00014133410020157237,
+          "F1_uM": 0.00015858700358072935,
+          "HyperA_uM": 1.8959506992735478,
+          "cohorts": 36,
+          "founder_F1_upper_bound_uM": 0.00015858700358072926,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0005736822775595115,
+          "moiety_balance_max_error_uM": 1.4988010832439613e-15,
+          "newly_generated_F1_model_uM": 8.131516293641283e-20,
+          "removed_moiety_uM": [
+            17.10331703144531,
+            4.109202237945556,
+            25.321721507336427
+          ],
+          "retained_moiety_uM": [
+            1.896682968554688,
+            0.4741310953877769,
+            2.844945159330241
+          ],
+          "source_moiety_uM": [
+            19.0,
+            4.583333333333333,
+            28.166666666666668
+          ],
+          "yield_percent": 0.02980907634543135
+        }
+      ]
+    }
+  },
+  "fractional_no_exchange": {
+    "metrics": {
+      "bias_pp": -6.350412698412698,
+      "maximum_absolute_mean_error_pp": 13.412999999999998,
+      "n": 63,
+      "passes_development_screen": false,
+      "rmse_pp": 7.649508750696618
+    },
+    "trajectories": {
+      "0": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.4999999999999991,
+            0.3749999999999998,
+            2.25
+          ],
+          "retained_moiety_uM": [
+            1.833333333333334,
+            0.4583333333333335,
+            2.75
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            3.9541666666666657,
+            0.9885416666666664,
+            5.93125
+          ],
+          "retained_moiety_uM": [
+            1.8791666666666673,
+            0.46979166666666683,
+            2.81875
+          ],
+          "source_moiety_uM": [
+            5.833333333333333,
+            1.4583333333333333,
+            8.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            6.441562499999998,
+            1.6103906249999995,
+            9.66234375
+          ],
+          "retained_moiety_uM": [
+            1.891770833333334,
+            0.4729427083333335,
+            2.83765625
+          ],
+          "source_moiety_uM": [
+            8.333333333333332,
+            2.083333333333333,
+            12.5
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 8.881784197001252e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            8.938096354166664,
+            2.234524088541666,
+            13.40714453125
+          ],
+          "retained_moiety_uM": [
+            1.8952369791666674,
+            0.47380924479166686,
+            2.84285546875
+          ],
+          "source_moiety_uM": [
+            10.833333333333332,
+            2.708333333333333,
+            16.25
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            11.437143164062498,
+            2.8592857910156244,
+            17.15571474609375
+          ],
+          "retained_moiety_uM": [
+            1.896190169270834,
+            0.4740475423177085,
+            2.84428525390625
+          ],
+          "source_moiety_uM": [
+            13.333333333333332,
+            3.333333333333333,
+            20.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.440892098500626e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            13.936881036783852,
+            3.484220259195963,
+            20.90532155517578
+          ],
+          "retained_moiety_uM": [
+            1.8964522965494799,
+            0.47411307413736997,
+            2.844678444824219
+          ],
+          "source_moiety_uM": [
+            15.833333333333332,
+            3.958333333333333,
+            23.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3322676295501878e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            16.436808951782226,
+            4.109202237945556,
+            24.65521342767334
+          ],
+          "retained_moiety_uM": [
+            1.8965243815511075,
+            0.47413109538777687,
+            2.8447865723266603
+          ],
+          "source_moiety_uM": [
+            18.333333333333332,
+            4.583333333333333,
+            27.5
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "1": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.3333333333333333,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3333333333333333,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.18333333333333338,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.18333333333333335,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 2.7755575615628914e-17,
+          "removed_moiety_uM": [
+            1.649999999999999,
+            0.3749999999999998,
+            2.4
+          ],
+          "retained_moiety_uM": [
+            2.0166666666666675,
+            0.4583333333333335,
+            2.9333333333333336
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.05041666666666669,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.05041666666666667,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.718447854656915e-16,
+          "newly_generated_F1_model_uM": 2.0816681711721685e-17,
+          "removed_moiety_uM": [
+            4.237083333333333,
+            0.9885416666666664,
+            6.214166666666667
+          ],
+          "retained_moiety_uM": [
+            1.929583333333334,
+            0.46979166666666683,
+            2.8691666666666666
+          ],
+          "source_moiety_uM": [
+            6.166666666666666,
+            1.4583333333333333,
+            9.083333333333334
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.01386458333333334,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.013864583333333336,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 6.938893903907228e-18,
+          "newly_generated_F1_model_uM": 3.469446951953614e-18,
+          "removed_moiety_uM": [
+            6.7610312499999985,
+            1.6103906249999995,
+            9.9818125
+          ],
+          "retained_moiety_uM": [
+            1.9056354166666674,
+            0.4729427083333335,
+            2.8515208333333337
+          ],
+          "source_moiety_uM": [
+            8.666666666666666,
+            2.083333333333333,
+            12.833333333333334
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.003812760416666669,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0038127604166666674,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 9.462916561453483e-16,
+          "newly_generated_F1_model_uM": 1.734723475976807e-18,
+          "removed_moiety_uM": [
+            9.267616927083331,
+            2.234524088541666,
+            13.736665104166665
+          ],
+          "retained_moiety_uM": [
+            1.8990497395833341,
+            0.47380924479166686,
+            2.8466682291666663
+          ],
+          "source_moiety_uM": [
+            11.166666666666666,
+            2.708333333333333,
+            16.583333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0010485091145833341,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0010485091145833337,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.83554168928535e-16,
+          "newly_generated_F1_model_uM": 4.336808689942018e-19,
+          "removed_moiety_uM": [
+            11.769427988281247,
+            2.8592857910156244,
+            17.4879995703125
+          ],
+          "retained_moiety_uM": [
+            1.8972386783854174,
+            0.4740475423177085,
+            2.8453337630208333
+          ],
+          "source_moiety_uM": [
+            13.666666666666666,
+            3.333333333333333,
+            20.333333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.000288340006510417,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.00028834000651041677,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.0419056990259605e-16,
+          "newly_generated_F1_model_uM": 2.168404344971009e-19,
+          "removed_moiety_uM": [
+            14.269926030110675,
+            3.484220259195963,
+            21.238366548502604
+          ],
+          "retained_moiety_uM": [
+            1.8967406365559902,
+            0.47411307413736997,
+            2.844966784830729
+          ],
+          "source_moiety_uM": [
+            16.166666666666664,
+            3.958333333333333,
+            24.083333333333332
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 7.929350179036467e-05,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 7.929350179036463e-05,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3349103723456213e-15,
+          "newly_generated_F1_model_uM": 4.0657581468206416e-20,
+          "removed_moiety_uM": [
+            16.77006299161377,
+            4.109202237945556,
+            24.988467467504883
+          ],
+          "retained_moiety_uM": [
+            1.8966036750528978,
+            0.47413109538777687,
+            2.8448658658284507
+          ],
+          "source_moiety_uM": [
+            18.666666666666664,
+            4.583333333333333,
+            27.833333333333332
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "2": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.6666666666666666,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.6666666666666666,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.75,
+          "Cy5A_uM": 0.4583333333333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.36666666666666675,
+          "HyperA_uM": 1.833333333333334,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3666666666666667,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 5.551115123125783e-17,
+          "removed_moiety_uM": [
+            1.799999999999999,
+            0.3749999999999998,
+            2.55
+          ],
+          "retained_moiety_uM": [
+            2.2000000000000006,
+            0.4583333333333335,
+            3.1166666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.81875,
+          "Cy5A_uM": 0.46979166666666683,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.10083333333333339,
+          "HyperA_uM": 1.8791666666666673,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.10083333333333334,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 4.996003610813204e-16,
+          "newly_generated_F1_model_uM": 4.163336342344337e-17,
+          "removed_moiety_uM": [
+            4.519999999999999,
+            0.9885416666666664,
+            6.497083333333333
+          ],
+          "retained_moiety_uM": [
+            1.9800000000000006,
+            0.46979166666666683,
+            2.9195833333333336
+          ],
+          "source_moiety_uM": [
+            6.5,
+            1.4583333333333333,
+            9.416666666666666
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.83765625,
+          "Cy5A_uM": 0.4729427083333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.02772916666666668,
+          "HyperA_uM": 1.891770833333334,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.027729166666666673,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3877787807814457e-17,
+          "newly_generated_F1_model_uM": 6.938893903907228e-18,
+          "removed_moiety_uM": [
+            7.080499999999998,
+            1.6103906249999995,
+            10.301281249999999
+          ],
+          "retained_moiety_uM": [
+            1.9195000000000007,
+            0.4729427083333335,
+            2.865385416666667
+          ],
+          "source_moiety_uM": [
+            8.999999999999998,
+            2.083333333333333,
+            13.166666666666666
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84285546875,
+          "Cy5A_uM": 0.47380924479166686,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.007625520833333338,
+          "HyperA_uM": 1.8952369791666674,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.007625520833333335,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.0044048925905713e-15,
+          "newly_generated_F1_model_uM": 3.469446951953614e-18,
+          "removed_moiety_uM": [
+            9.597137499999997,
+            2.234524088541666,
+            14.066185677083332
+          ],
+          "retained_moiety_uM": [
+            1.9028625000000008,
+            0.47380924479166686,
+            2.850480989583333
+          ],
+          "source_moiety_uM": [
+            11.499999999999998,
+            2.708333333333333,
+            16.916666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.84428525390625,
+          "Cy5A_uM": 0.4740475423177085,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0020970182291666683,
+          "HyperA_uM": 1.896190169270834,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0020970182291666674,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 5.230191280070073e-16,
+          "newly_generated_F1_model_uM": 8.673617379884035e-19,
+          "removed_moiety_uM": [
+            12.101712812499997,
+            2.8592857910156244,
+            17.82028439453125
+          ],
+          "retained_moiety_uM": [
+            1.8982871875000007,
+            0.4740475423177085,
+            2.8463822721354166
+          ],
+          "source_moiety_uM": [
+            13.999999999999998,
+            3.333333333333333,
+            20.666666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844678444824219,
+          "Cy5A_uM": 0.47411307413736997,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.000576680013020834,
+          "HyperA_uM": 1.8964522965494799,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0005766800130208335,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 3.642919299551295e-16,
+          "newly_generated_F1_model_uM": 4.336808689942018e-19,
+          "removed_moiety_uM": [
+            14.602971023437497,
+            3.484220259195963,
+            21.571411541829427
+          ],
+          "retained_moiety_uM": [
+            1.8970289765625008,
+            0.47411307413736997,
+            2.8452551248372395
+          ],
+          "source_moiety_uM": [
+            16.5,
+            3.958333333333333,
+            24.416666666666668
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447865723266603,
+          "Cy5A_uM": 0.47413109538777687,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.00015858700358072935,
+          "HyperA_uM": 1.8965243815511075,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.00015858700358072926,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 1.3375531151410547e-15,
+          "newly_generated_F1_model_uM": 8.131516293641283e-20,
+          "removed_moiety_uM": [
+            17.10331703144531,
+            4.109202237945556,
+            25.321721507336424
+          ],
+          "retained_moiety_uM": [
+            1.8966829685546882,
+            0.47413109538777687,
+            2.844945159330241
+          ],
+          "source_moiety_uM": [
+            19.0,
+            4.583333333333333,
+            28.166666666666668
+          ],
+          "yield_percent": 0.0
+        }
+      ]
+    }
+  },
+  "fractional_no_regeneration": {
+    "metrics": {
+      "bias_pp": -5.224258366815888,
+      "maximum_absolute_mean_error_pp": 13.034163333590703,
+      "n": 63,
+      "passes_development_screen": false,
+      "rmse_pp": 6.491220556619253
+    },
+    "trajectories": {
+      "0": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.749991582889127,
+          "Cy5A_uM": 0.45833333333333337,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8333249162224607,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 8.417110872816754e-06,
+          "moiety_balance_max_error_uM": 7.853350673762971e-17,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.4999999999999996,
+            0.3749999999999999,
+            2.2500000000000004
+          ],
+          "retained_moiety_uM": [
+            1.8333333333333335,
+            0.45833333333333337,
+            2.7499999999999996
+          ],
+          "source_moiety_uM": [
+            3.333333333333333,
+            0.8333333333333333,
+            5.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.818738461889766,
+          "Cy5A_uM": 0.46979166666666666,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.879155128556433,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.1538110233512551e-05,
+          "moiety_balance_max_error_uM": 5.551115123125783e-17,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            3.9541666666666666,
+            0.9885416666666667,
+            5.93125
+          ],
+          "retained_moiety_uM": [
+            1.8791666666666664,
+            0.46979166666666666,
+            2.8187499999999996
+          ],
+          "source_moiety_uM": [
+            5.833333333333333,
+            1.4583333333333333,
+            8.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.837643756579566,
+          "Cy5A_uM": 0.47294270833333335,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8917583399129,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.2493420433268123e-05,
+          "moiety_balance_max_error_uM": 1.9305371645912672e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            6.441562499999999,
+            1.610390625,
+            9.662343749999998
+          ],
+          "retained_moiety_uM": [
+            1.8917708333333334,
+            0.47294270833333335,
+            2.8376562499999993
+          ],
+          "source_moiety_uM": [
+            8.333333333333332,
+            2.083333333333333,
+            12.5
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.842842670755921,
+          "Cy5A_uM": 0.4738092447916667,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8952241811725883,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.2797994078236588e-05,
+          "moiety_balance_max_error_uM": 6.698607597430128e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            8.938096354166666,
+            2.234524088541667,
+            13.40714453125
+          ],
+          "retained_moiety_uM": [
+            1.8952369791666666,
+            0.4738092447916667,
+            2.8428554687499994
+          ],
+          "source_moiety_uM": [
+            10.833333333333332,
+            2.708333333333333,
+            16.25
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844272357212591,
+          "Cy5A_uM": 0.47404754231770835,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8961772725771746,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.2896693658668292e-05,
+          "moiety_balance_max_error_uM": 2.227500139635047e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            11.4371431640625,
+            2.8592857910156253,
+            17.155714746093746
+          ],
+          "retained_moiety_uM": [
+            1.8961901692708332,
+            0.47404754231770835,
+            2.84428525390625
+          ],
+          "source_moiety_uM": [
+            13.333333333333332,
+            3.333333333333333,
+            20.0
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.844665516434949,
+          "Cy5A_uM": 0.4741130741373698,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.8964393681602094,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.2928389269623431e-05,
+          "moiety_balance_max_error_uM": 2.8010227600891446e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            13.936881036783852,
+            3.484220259195964,
+            20.905321555175778
+          ],
+          "retained_moiety_uM": [
+            1.896452296549479,
+            0.4741130741373698,
+            2.844678444824219
+          ],
+          "source_moiety_uM": [
+            15.833333333333332,
+            3.958333333333333,
+            23.75
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.8447736339196448,
+          "Cy5A_uM": 0.4741310953877767,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.0,
+          "HyperA_uM": 1.896511443144092,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.0,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 1.2938407014909342e-05,
+          "moiety_balance_max_error_uM": 2.4924046116911458e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            16.436808951782226,
+            4.109202237945557,
+            24.65521342767334
+          ],
+          "retained_moiety_uM": [
+            1.8965243815511068,
+            0.4741310953877767,
+            2.84478657232666
+          ],
+          "source_moiety_uM": [
+            18.333333333333332,
+            4.583333333333333,
+            27.5
+          ],
+          "yield_percent": 0.0
+        }
+      ],
+      "1": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.3333333333333333,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3333333333333333,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.667690647827813,
+          "Cy5A_uM": 0.44187276575502465,
+          "Cy5F1_uM": 0.016460567578308806,
+          "F1_uM": 0.18333333333333335,
+          "HyperA_uM": 1.7674845487394557,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.18333333333333335,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.065848784593878,
+          "moiety_balance_max_error_uM": 3.0531133177191805e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.6499999999999995,
+            0.3749999999999999,
+            2.4000000000000004
+          ],
+          "retained_moiety_uM": [
+            2.016666666666667,
+            0.4583333333333335,
+            2.933333333333333
+          ],
+          "source_moiety_uM": [
+            3.6666666666666665,
+            0.8333333333333333,
+            5.333333333333333
+          ],
+          "yield_percent": 3.591396562540102
+        },
+        {
+          "B_uM": 2.755425352391791,
+          "Cy5A_uM": 0.4571286887237641,
+          "Cy5F1_uM": 0.01266297794290265,
+          "F1_uM": 0.050416666666666665,
+          "HyperA_uM": 1.82850499700136,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.05041666666666667,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.050661669665306844,
+          "moiety_balance_max_error_uM": 1.6792123247455493e-15,
+          "newly_generated_F1_model_uM": -6.938893903907228e-18,
+          "removed_moiety_uM": [
+            4.237083333333333,
+            0.9885416666666665,
+            6.214166666666667
+          ],
+          "retained_moiety_uM": [
+            1.9295833333333337,
+            0.4697916666666668,
+            2.8691666666666675
+          ],
+          "source_moiety_uM": [
+            6.166666666666666,
+            1.4583333333333333,
+            9.083333333333334
+          ],
+          "yield_percent": 2.695445415784156
+        },
+        {
+          "B_uM": 2.8062527488688254,
+          "Cy5A_uM": 0.4666642981272347,
+          "Cy5F1_uM": 0.006278410206098695,
+          "F1_uM": 0.013864583333333336,
+          "HyperA_uM": 1.8666457424082576,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.013864583333333336,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.02512509092507607,
+          "moiety_balance_max_error_uM": 3.011479954295737e-15,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            6.761031249999999,
+            1.6103906250000002,
+            9.981812500000002
+          ],
+          "retained_moiety_uM": [
+            1.9056354166666671,
+            0.4729427083333334,
+            2.8515208333333337
+          ],
+          "source_moiety_uM": [
+            8.666666666666666,
+            2.083333333333333,
+            12.833333333333334
+          ],
+          "yield_percent": 1.3275202462099547
+        },
+        {
+          "B_uM": 2.829943235985002,
+          "Cy5A_uM": 0.471229257863208,
+          "Cy5F1_uM": 0.002579986928458685,
+          "F1_uM": 0.003812760416666667,
+          "HyperA_uM": 1.8849047333301274,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.0038127604166666674,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.010332245836539453,
+          "moiety_balance_max_error_uM": 2.6645352591003757e-15,
+          "newly_generated_F1_model_uM": -4.336808689942018e-19,
+          "removed_moiety_uM": [
+            9.267616927083333,
+            2.234524088541667,
+            13.73666510416667
+          ],
+          "retained_moiety_uM": [
+            1.8990497395833335,
+            0.4738092447916667,
+            2.8466682291666667
+          ],
+          "source_moiety_uM": [
+            11.166666666666666,
+            2.708333333333333,
+            16.583333333333332
+          ],
+          "yield_percent": 0.5445201749056421
+        },
+        {
+          "B_uM": 2.839490937054652,
+          "Cy5A_uM": 0.47309121564344714,
+          "Cy5F1_uM": 0.0009563266742612321,
+          "F1_uM": 0.0010485091145833335,
+          "HyperA_uM": 1.8923521790934967,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0010485091145833337,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0038379901773366518,
+          "moiety_balance_max_error_uM": 5.440092820663267e-15,
+          "newly_generated_F1_model_uM": -2.168404344971009e-19,
+          "removed_moiety_uM": [
+            11.76942798828125,
+            2.859285791015625,
+            17.487999570312507
+          ],
+          "retained_moiety_uM": [
+            1.8972386783854167,
+            0.47404754231770835,
+            2.8453337630208337
+          ],
+          "source_moiety_uM": [
+            13.666666666666666,
+            3.333333333333333,
+            20.333333333333332
+          ],
+          "yield_percent": 0.20173644811774988
+        },
+        {
+          "B_uM": 2.843003051028762,
+          "Cy5A_uM": 0.47378056420845704,
+          "Cy5F1_uM": 0.00033250992891267365,
+          "F1_uM": 0.00028834000651041666,
+          "HyperA_uM": 1.895109412682936,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.00028834000651041677,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0013428838665433868,
+          "moiety_balance_max_error_uM": 3.635980405647388e-15,
+          "newly_generated_F1_model_uM": -1.0842021724855044e-19,
+          "removed_moiety_uM": [
+            14.269926030110675,
+            3.484220259195964,
+            21.238366548502608
+          ],
+          "retained_moiety_uM": [
+            1.8967406365559898,
+            0.4741130741373697,
+            2.8449667848307283
+          ],
+          "source_moiety_uM": [
+            16.166666666666664,
+            3.958333333333333,
+            24.083333333333332
+          ],
+          "yield_percent": 0.07013304358198992
+        },
+        {
+          "B_uM": 2.844219822048922,
+          "Cy5A_uM": 0.47402032670897215,
+          "Cy5F1_uM": 0.00011076867880451597,
+          "F1_uM": 7.929350179036455e-05,
+          "HyperA_uM": 1.8960683999521737,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 7.929350179036463e-05,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.00045598159893320647,
+          "moiety_balance_max_error_uM": 1.9290125052862095e-15,
+          "newly_generated_F1_model_uM": -8.131516293641283e-20,
+          "removed_moiety_uM": [
+            16.770062991613766,
+            4.109202237945557,
+            24.988467467504883
+          ],
+          "retained_moiety_uM": [
+            1.8966036750528972,
+            0.47413109538777665,
+            2.8448658658284502
+          ],
+          "source_moiety_uM": [
+            18.666666666666664,
+            4.583333333333333,
+            27.833333333333332
+          ],
+          "yield_percent": 0.02336245816442851
+        }
+      ],
+      "2": [
+        {
+          "B_uM": 5.0,
+          "Cy5A_uM": 0.8333333333333333,
+          "Cy5F1_uM": 0.0,
+          "F1_uM": 0.6666666666666666,
+          "HyperA_uM": 3.333333333333333,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.6666666666666666,
+          "generation": 0,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0,
+          "moiety_balance_max_error_uM": 0.0,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retained_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 0.0
+        },
+        {
+          "B_uM": 2.6035254271486985,
+          "Cy5A_uM": 0.4290394443445063,
+          "Cy5F1_uM": 0.02929388898882711,
+          "F1_uM": 0.3666666666666667,
+          "HyperA_uM": 1.7161526494708594,
+          "cohorts": 3,
+          "founder_F1_upper_bound_uM": 0.3666666666666667,
+          "generation": 1,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.11718068386247407,
+          "moiety_balance_max_error_uM": 1.249000902703301e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            1.7999999999999994,
+            0.3749999999999999,
+            2.5500000000000003
+          ],
+          "retained_moiety_uM": [
+            2.2,
+            0.4583333333333334,
+            3.1166666666666663
+          ],
+          "source_moiety_uM": [
+            3.9999999999999996,
+            0.8333333333333333,
+            5.666666666666667
+          ],
+          "yield_percent": 6.3913939611986414
+        },
+        {
+          "B_uM": 2.705453976715069,
+          "Cy5A_uM": 0.44713414893957126,
+          "Cy5F1_uM": 0.022657517727095386,
+          "F1_uM": 0.10083333333333333,
+          "HyperA_uM": 1.788528161108832,
+          "cohorts": 5,
+          "founder_F1_upper_bound_uM": 0.10083333333333334,
+          "generation": 2,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.09063850555783481,
+          "moiety_balance_max_error_uM": 1.942890293094024e-16,
+          "newly_generated_F1_model_uM": -1.3877787807814457e-17,
+          "removed_moiety_uM": [
+            4.52,
+            0.9885416666666665,
+            6.497083333333333
+          ],
+          "retained_moiety_uM": [
+            1.98,
+            0.46979166666666666,
+            2.9195833333333328
+          ],
+          "source_moiety_uM": [
+            6.5,
+            1.4583333333333333,
+            9.416666666666666
+          ],
+          "yield_percent": 4.822886256765314
+        },
+        {
+          "B_uM": 2.78051420654679,
+          "Cy5A_uM": 0.46151642697576306,
+          "Cy5F1_uM": 0.011426281357570282,
+          "F1_uM": 0.027729166666666673,
+          "HyperA_uM": 1.8460550712376937,
+          "cohorts": 7,
+          "founder_F1_upper_bound_uM": 0.027729166666666673,
+          "generation": 3,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.04571576209563971,
+          "moiety_balance_max_error_uM": 8.326672684688674e-16,
+          "newly_generated_F1_model_uM": 0.0,
+          "removed_moiety_uM": [
+            7.0805,
+            1.6103906249999997,
+            10.30128125
+          ],
+          "retained_moiety_uM": [
+            1.9195000000000002,
+            0.47294270833333335,
+            2.865385416666667
+          ],
+          "source_moiety_uM": [
+            8.999999999999998,
+            2.083333333333333,
+            13.166666666666666
+          ],
+          "yield_percent": 2.415996939214244
+        },
+        {
+          "B_uM": 2.8189603481116956,
+          "Cy5A_uM": 0.469032599006427,
+          "Cy5F1_uM": 0.004776645785239712,
+          "F1_uM": 0.007625520833333334,
+          "HyperA_uM": 1.8761185043136022,
+          "cohorts": 9,
+          "founder_F1_upper_bound_uM": 0.007625520833333335,
+          "generation": 4,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.01911847485306451,
+          "moiety_balance_max_error_uM": 1.2212453270876722e-15,
+          "newly_generated_F1_model_uM": -8.673617379884035e-19,
+          "removed_moiety_uM": [
+            9.597137499999999,
+            2.2345240885416664,
+            14.066185677083334
+          ],
+          "retained_moiety_uM": [
+            1.9028625,
+            0.47380924479166675,
+            2.850480989583333
+          ],
+          "source_moiety_uM": [
+            11.499999999999998,
+            2.708333333333333,
+            16.916666666666668
+          ],
+          "yield_percent": 1.0081368900558274
+        },
+        {
+          "B_uM": 2.835293419916888,
+          "Cy5A_uM": 0.47225167641119686,
+          "Cy5F1_uM": 0.0017958659065116106,
+          "F1_uM": 0.002097018229166667,
+          "HyperA_uM": 1.8889942011879832,
+          "cohorts": 11,
+          "founder_F1_upper_bound_uM": 0.0020970182291666674,
+          "generation": 5,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.007195968082850231,
+          "moiety_balance_max_error_uM": 1.1379786002407855e-15,
+          "newly_generated_F1_model_uM": -4.336808689942018e-19,
+          "removed_moiety_uM": [
+            12.101712812499999,
+            2.859285791015625,
+            17.82028439453125
+          ],
+          "retained_moiety_uM": [
+            1.8982871875,
+            0.47404754231770846,
+            2.8463822721354166
+          ],
+          "source_moiety_uM": [
+            13.999999999999998,
+            3.333333333333333,
+            20.666666666666668
+          ],
+          "yield_percent": 0.37883666640929753
+        },
+        {
+          "B_uM": 2.8415092164670135,
+          "Cy5A_uM": 0.4734817828000534,
+          "Cy5F1_uM": 0.0006312913373165361,
+          "F1_uM": 0.0005766800130208333,
+          "HyperA_uM": 1.8939143595295902,
+          "cohorts": 13,
+          "founder_F1_upper_bound_uM": 0.0005766800130208335,
+          "generation": 6,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0025379370198888498,
+          "moiety_balance_max_error_uM": 1.3877787807814457e-15,
+          "newly_generated_F1_model_uM": -2.168404344971009e-19,
+          "removed_moiety_uM": [
+            14.6029710234375,
+            3.4842202591959635,
+            21.571411541829423
+          ],
+          "retained_moiety_uM": [
+            1.8970289765625,
+            0.4741130741373699,
+            2.8452551248372395
+          ],
+          "source_moiety_uM": [
+            16.5,
+            3.958333333333333,
+            24.416666666666668
+          ],
+          "yield_percent": 0.13315206260977847
+        },
+        {
+          "B_uM": 2.8437134449676966,
+          "Cy5A_uM": 0.47391904576488214,
+          "Cy5F1_uM": 0.00021204962289462606,
+          "F1_uM": 0.0001585870035807291,
+          "HyperA_uM": 1.8956633038150377,
+          "cohorts": 15,
+          "founder_F1_upper_bound_uM": 0.00015858700358072926,
+          "generation": 7,
+          "inaccessible_Cy5A_uM": 0.0,
+          "inactive_product_uM": 0.0008610777360692342,
+          "moiety_balance_max_error_uM": 2.248201624865942e-15,
+          "newly_generated_F1_model_uM": -1.6263032587282567e-19,
+          "removed_moiety_uM": [
+            17.10331703144531,
+            4.109202237945556,
+            25.321721507336427
+          ],
+          "retained_moiety_uM": [
+            1.8966829685546875,
+            0.47413109538777676,
+            2.844945159330241
+          ],
+          "source_moiety_uM": [
+            19.0,
+            4.583333333333333,
+            28.166666666666668
+          ],
+          "yield_percent": 0.04472383797590779
+        }
+      ]
+    }
+  }
+}

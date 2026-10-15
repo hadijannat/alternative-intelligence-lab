@@ -1,0 +1,23 @@
+{
+  "status": "PASS_DESIGN_ARTIFACT_CHECKS_ONLY",
+  "date": "2026-10-15",
+  "scenario": "Primary-source ledger integrity, design coverage and GUV amount conversion",
+  "invocation": "python3 standard-library assertions over REPORT.md and sources.json: unique source IDs, citation membership, HTTPS URLs, seven required world names, lineage/pooling requirement terms, and 4*pi/3*(5 um)^3 volume conversion",
+  "binary_observable": "All six assertions true; process exit 0",
+  "checks": {
+    "source_ids_unique": true,
+    "cited_ids_exist": true,
+    "all_source_urls_https": true,
+    "required_worlds_present": true,
+    "lineage_and_pooling_limits_present": true,
+    "volume_and_amount_rounding": true
+  },
+  "volume_pL": 0.5235987755982989,
+  "amount_amol_at_1uM": 0.5235987755982989,
+  "artifacts": {
+    "REPORT.md": "d105ca9d67ac51aee2ba4b4fc7d9d258045be82474483c1db114c43172401f05",
+    "sources.json": "2bbe9be77b5a8aa146100b5370bd451ebbbfdeede0fe586b7590d8eaad4ba595"
+  },
+  "repair": "Initial text-presence assertion was case-sensitive for Sample-amount; corrected the checker to case-insensitive and reran all checks. No scientific content changed.",
+  "limits": "Text checks do not validate experimental feasibility or numerical simulation. Parent owns implementation, independent review and final completion evidence. Source pages reviewed through web tools; no new raw-data downloads in this subtask."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "families": 2,
+  "interventions_per_family": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "stage_rows": 1584,
+  "contrast_rows": 528,
+  "runtime": {
+    "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "numpy": "2.4.1",
+    "scipy": "1.16.1"
+  },
+  "max_reference_yield_error_pp": 0.0,
+  "max_refinement_yield_error_pp": 1.6960915871777615e-06,
+  "max_refinement_inventory_error_uM": 8.326094924626659e-09,
+  "max_moiety_balance_error_uM": 6.690976939172089e-11,
+  "inputs_unchanged": true,
+  "parameter_fits": 0,
+  "limitations": [
+    "Counterfactual explanatory audit, not held-out model validation",
+    "Reuse of prior chemistry implementation, not an independent solver"
+  ]
+}

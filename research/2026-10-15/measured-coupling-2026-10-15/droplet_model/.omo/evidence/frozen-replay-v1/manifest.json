@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "sha256": "14aec2360fddbe1830efa67e9fe02e90a9a39bdac443cf732d1acfae9066b763",
+      "snapshot": "frozen/PROTOCOL.md",
+      "source": "frozen/PROTOCOL.md"
+    },
+    {
+      "sha256": "b1ed4b180b0fa305fc4d996e0974c42bf969deffb2951a002591d5432ad3084b",
+      "snapshot": "frozen/model.py",
+      "source": "frozen/model.py"
+    },
+    {
+      "sha256": "d18faa69788ca9cdba91742b505e78efa3d724bd0bbd29077a2aeb088db02a56",
+      "snapshot": "frozen/run.py",
+      "source": "frozen/run.py"
+    },
+    {
+      "sha256": "5c9cb9d3f163a7761a85502608626050516fa0f0882332cf67f2e55e38b6e8c5",
+      "snapshot": "frozen/test_model.py",
+      "source": "frozen/test_model.py"
+    },
+    {
+      "sha256": "01189bff9b038cbcd34a0e17e9571335396c27f031a73a63bff54c63cfc8334a",
+      "snapshot": "frozen/observations.csv",
+      "source": "frozen/observations.csv"
+    },
+    {
+      "sha256": "2ff8c7a83da6ada00ee2cb6ab85e4264387d1c99c53557d13ad10b04bf7571dd",
+      "snapshot": "frozen/conditions.json",
+      "source": "frozen/conditions.json"
+    }
+  ],
+  "versions": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.1",
+    "python": "3.12.3",
+    "scipy": "1.16.1"
+  }
+}

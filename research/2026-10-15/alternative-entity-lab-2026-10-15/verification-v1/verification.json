@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "tests": 33,
+  "commands": [
+    {
+      "label": "maintenance-tests",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "-m",
+        "unittest",
+        "maintenance.test_model",
+        "-v"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "heredity-tests",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "-m",
+        "unittest",
+        "test_lab",
+        "-v"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15/heredity",
+      "exit_code": 0
+    },
+    {
+      "label": "integrated-tests",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "-m",
+        "pytest",
+        "integrated/test_lab.py",
+        "-q"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "research-tests",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "-m",
+        "unittest",
+        "test_analysis",
+        "-v"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15/research",
+      "exit_code": 0
+    },
+    {
+      "label": "maintenance-replay",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "maintenance/run_lab.py",
+        "--output",
+        "PROJECT_ROOT/alternative-entity-lab-2026-10-15/verification-v1/maintenance"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "heredity-replay",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "heredity/lab.py",
+        "--output",
+        "PROJECT_ROOT/alternative-entity-lab-2026-10-15/verification-v1/heredity"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "integrated-replay",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "integrated/lab.py",
+        "--output",
+        "PROJECT_ROOT/alternative-entity-lab-2026-10-15/verification-v1/integrated"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "research-replay",
+      "argv": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+        "PROJECT_ROOT/alternative-entity-lab-2026-10-15/verification-v1/research/analyze_data.py"
+      ],
+      "cwd": "PROJECT_ROOT/alternative-entity-lab-2026-10-15",
+      "exit_code": 0
+    }
+  ],
+  "checks": [
+    {
+      "source": "maintenance/results-v1/trajectories.csv",
+      "replay": "maintenance/trajectories.csv",
+      "matched": true,
+      "sha256": "003b07de1ec6b0386c13130a51d434c3600ac0b6246edcab7aaca34cae1203b8"
+    },
+    {
+      "source": "maintenance/results-v1/endpoints.json",
+      "replay": "maintenance/endpoints.json",
+      "matched": true,
+      "sha256": "b1be8bd080e3f686c8790f5b8bbdf33f071e0e5cb97e71c5e41cb98819bc6074"
+    },
+    {
+      "source": "maintenance/results-v1/summary.json",
+      "replay": "maintenance/summary.json",
+      "matched": true,
+      "sha256": "bdae40019d605d7c8c7a1e0c9400339824dfa44d192795a9908df8f26f6b88d5"
+    },
+    {
+      "source": "maintenance/results-v1/dt_refinement.json",
+      "replay": "maintenance/dt_refinement.json",
+      "matched": true,
+      "sha256": "c50561315ac50d9fecbf75de704498384b176cd2fa223cfbc12fca47a48360d7"
+    },
+    {
+      "source": "heredity/results-v1/raw.csv",
+      "replay": "heredity/raw.csv",
+      "matched": true,
+      "sha256": "b53fcd8a2f472dfba956c8505173538740a0083313833df51c9f2d3d7b8d25c2"
+    },
+    {
+      "source": "integrated/results-v1.2/trajectories.csv",
+      "replay": "integrated/trajectories.csv",
+      "matched": true,
+      "sha256": "489a96148de7431066e42c3a0409a8d9ac85ed246a5728fb1ac765febcdef19b"
+    },
+    {
+      "source": "integrated/results-v1.2/summary.json",
+      "replay": "integrated/summary.json",
+      "matched": true,
+      "sha256": "bf3d4626a9f3ce7bd85a60c44fc6ca03e355775a786972a69cfd0fb0ee4e927d"
+    },
+    {
+      "source": "research/results.json",
+      "replay": "research/results.json",
+      "matched": true,
+      "sha256": "917d16a87271bbe670b60cd2988c535a1e96eb99666d98e0644cc241d96901dd"
+    },
+    {
+      "source": "heredity/results-v1/results.json",
+      "matched": true,
+      "comparison": "JSON excluding measured elapsed_seconds only"
+    },
+    {
+      "source": "integrated/results-v1.1",
+      "matched": true,
+      "comparison": "input-validation-only v1.2 must preserve v1.1 numerical outputs"
+    }
+  ],
+  "input_sha256": {
+    "run_suite.py": "5ce983cd4910d5afee82660bca7ee7c5c2554414dd21acaad5ceeeb30afcebc5",
+    "maintenance/test_model.py": "dc12586890069be729dc7d3c2dc8cb997396beba15cda1ef269c711c5a7e1f97",
+    "maintenance/config.json": "570a5603cd222bfca68bc2a6d5a346b40eb7e685f48493bb9763785bf552e222",
+    "maintenance/run_lab.py": "0496d8565f2383c36247f228f4433f830956ab1100f8c88a130c8c19f89ca3e7",
+    "maintenance/__init__.py": "c4576af8440ff126561cee1f6d2cd2ef18b98a38fab6e4e73671bd44aa750803",
+    "maintenance/model.py": "2baf1a7a84c21e6e1a1837e24956cb36ecca34195dd7ecaccdff0e3aaadea77d",
+    "maintenance/freeze.json": "c1edddb6d610e88d32912cedfc0c84a1c46690e752322bdc1e5768f6ef7d8fe3",
+    "heredity/config.json": "63e9f7f9d8d3409ee3808b2f9dff55ea62d9d903523b372ddd42b9ce752186d1",
+    "heredity/test_lab.py": "b63f0300ae729d8fe756d9d8d689d7e45f1a93d13074815d4d6a6d97d48a8bc5",
+    "heredity/lab.py": "8ffe8a18f7199afa64a5374cb39d3484c0c5c93f1682ab7353e19de62f932778",
+    "integrated/config.json": "2f642426e4ea74e100a42cba8b3b1c780a34b0ad30e751b2b390e1bd16da9cdf",
+    "integrated/test_lab.py": "2c7f7f6fd441b94041264c34e775d9de505a6c9070b989dcfc76444e4ec604bd",
+    "integrated/lab.py": "8179bb55957fdbb022c515ca031189c575d3c4af8a839153317fe44d2340e213",
+    "research/sources.json": "f2a29c0da9c6ed6c1fee0dbecd8774decc990de80943808b2bf85ad3acd5d304",
+    "research/datasets_manifest.json": "93e8dde725fabedd5f3e6b7de499734033abc99f8d68086ea23ea40609a2e528",
+    "research/test_analysis.py": "00c103f0a779d63f2b1de7075bbf5b5258bc57e175219e1c664bf346c4951b83",
+    "research/analyze_data.py": "5da639d7d5d1f91c54c7a2504ef7c7049bd62ba00406b2c6b3f936216fbf094b"
+  },
+  "replay_is_independent_physical_replication": false
+}

@@ -1,0 +1,100 @@
+{
+  "audit_date": "2026-10-15",
+  "scope": "Independent chemistry and inference review; no synthesis or new physical simulation",
+  "records": [
+    {
+      "id": "CR01",
+      "source": "https://doi.org/10.1073/pnas.1921536117",
+      "primary": true,
+      "access": "Primary full-text indexed search passages; direct PMC open returned recaptcha; author preprint PDF also opened",
+      "observation": "Parent Mo36 seed-dependent formation and decomposition under a strongly reducing condition are reported.",
+      "limit": "Does not test one-electron reduction, W/V-substituted Mo36, functional variants or serial functional inheritance.",
+      "use": "Parent-system reference and destructive redox regime only"
+    },
+    {
+      "id": "CR02",
+      "source": "https://doi.org/10.1021/ja020407z",
+      "primary": true,
+      "access": "Publisher primary abstract and PubMed search text inspected",
+      "observation": "DFT study of mixed-addenda Keggin and Dawson structures relates electronic structure to reduction and proton affinity.",
+      "limit": "No calculation for Mo34WV O112; exact site or redox localization cannot be transferred.",
+      "use": "Prior art and warning against formula-only electronic-property claims"
+    },
+    {
+      "id": "CR03",
+      "source": "https://pure.mpg.de/pubman/item/item_1849723_5/component/file_1854326/Movte_Raman_Angewandte_and_SI.pdf",
+      "primary": true,
+      "access": "Indexed primary manuscript/SI excerpts; direct open failed",
+      "observation": "SI section 4.2 tentatively assigns Raman changes to partial V substitution in Mo36−xNbx solution anions.",
+      "limit": "Tentative spectroscopic interpretation in a different synthesis; not an isolated exact Mo34WV structure.",
+      "use": "Qualifies broad Mo36 substitution novelty claims"
+    },
+    {
+      "id": "CR04",
+      "source": "https://doi.org/10.1002/anie.201105068",
+      "primary": true,
+      "access": "Primary publisher search text and author PDF passages; local compartment dossier inspected",
+      "observation": "POM membranes use organic or organic-ligand cations and demonstrate compartment functions.",
+      "limit": "An inorganic POM component does not make the demonstrated architecture carbon-free.",
+      "use": "Hybrid comparator and dependency audit"
+    },
+    {
+      "id": "CR05",
+      "source": "https://doi.org/10.1002/anie.201805584",
+      "primary": true,
+      "access": "Primary PMC indexed text and source audit inspected",
+      "observation": "Photochemical hydrogen evolution uses methyl viologen, Ru(bipyridyl), triethanolamine and Pt alongside POMs.",
+      "limit": "Does not establish carbon-free metabolism or organizational maintenance.",
+      "use": "Explicit carbon-containing dependencies"
+    },
+    {
+      "id": "CR06",
+      "source": "https://doi.org/10.1038/s41467-020-16866-6",
+      "primary": true,
+      "access": "Primary Nature full text including Methods inspected",
+      "observation": "WO3/PdHx device uses Nafion and externally programmed proton/electron transfer.",
+      "limit": "Material memory is not autonomous adaptation; this implementation is not fully carbon-free.",
+      "use": "Engineered-memory comparator with architecture boundary"
+    },
+    {
+      "id": "CR07",
+      "source": "../compartments/REPORT.md",
+      "primary": false,
+      "access": "Current worker's source-attributed local review read",
+      "observation": "Selected inorganic-feed mineral compartments support growth and electrical output; same-medium POM compatibility remains unresolved.",
+      "limit": "Local synthesis of cited primary sources, not an independent new experiment.",
+      "use": "Compatibility matrix and the distinction between total-metal and active-species retention"
+    },
+    {
+      "id": "CR08",
+      "source": "../../../metal-oxide/docs/published-model.md",
+      "primary": false,
+      "access": "Current local report read; 480-observation source extraction and limits inspected",
+      "observation": "Audited parent-Mo36 concentration observations are available; supplied predictions were excluded from measurements.",
+      "limit": "No replicate error model or substituted-cluster inheritance data are supplied by that table.",
+      "use": "Identifies the supported computational scope without invented candidate rates"
+    },
+    {
+      "id": "CR09",
+      "source": "https://doi.org/10.1126/science.abp8064",
+      "primary": true,
+      "access": "Primary author-PDF indexed text and PubMed abstract inspected; local memory dossier read",
+      "observation": "Inorganic phosphosilicate-glass devices provide externally programmed protonic memory under extreme electric fields.",
+      "limit": "No inference to aqueous autonomy, rebuilding or inherited function is warranted.",
+      "use": "Positive inorganic-memory comparator avoids overgeneralizing the Nafion limitation"
+    }
+  ],
+  "proposal_charge_check": {
+    "MoVI_count": 34,
+    "WVI_count": 1,
+    "V_count": 1,
+    "oxide_oxygen_count": 112,
+    "neutral_water_count": 16,
+    "formal_charge_VV": -9,
+    "formal_charge_VIV": -10,
+    "status": "Arithmetic only; structure, protonation and redox localization unverified"
+  },
+  "integrated_result": "INSUFFICIENT_EVIDENCE",
+  "novelty_result": "EXACT_COMPOSITION_PROPOSAL_ONLY_NOT_ESTABLISHED_NOVEL_STRUCTURE",
+  "not_performed": ["synthesis", "physical simulation", "new kinetic fit", "exhaustive global novelty search"]
+}

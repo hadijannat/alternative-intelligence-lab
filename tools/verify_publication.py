@@ -8,6 +8,8 @@ import sys
 from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
 
+from verify_followup import verify as verify_followup
+
 sys.set_int_max_str_digits(0)
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -90,6 +92,7 @@ def main():
     print(json.dumps({'status': 'PASS_PUBLICATION_ONLY', 'preparations': 329,
                       'groups': 58, 'main_cases': 480, 'local_links': links,
                       'archived_files': len(index), 'scientific_reruns': 0}))
+    print(json.dumps(verify_followup(ROOT)))
 
 
 if __name__ == '__main__':

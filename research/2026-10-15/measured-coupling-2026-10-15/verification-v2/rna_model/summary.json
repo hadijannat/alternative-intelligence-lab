@@ -1,0 +1,91 @@
+{
+  "parameters": {
+    "k": 0.014405334883521595,
+    "kb": 2.906839942794478e-08,
+    "ki": 999.999999999999,
+    "mixing": 0.06739639907609157,
+    "retention": 0.55,
+    "rho": 1.0
+  },
+  "kinetic_fit": {
+    "sse_percent_squared": 2474.965878107867,
+    "rmse_pp": 7.866012137843208,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0,
+      1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      605.1756769746568,
+      21.722781667979255,
+      0.24023000825972649
+    ]
+  },
+  "mixing_fit": {
+    "sse_percent_squared": 20.686171140001214,
+    "rmse_pp": 1.072022261895744,
+    "n_replicates": 18,
+    "optimizer_success": true
+  },
+  "metrics": {
+    "all_prediction": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 3.322380059286248,
+      "bias_pp": -1.7349588363645978,
+      "maximum_absolute_mean_error_pp": 6.889946200392511,
+      "passes_pragmatic_screen": false
+    },
+    "Figure2_2uM_prediction": {
+      "n_nonzero_replicates": 9,
+      "rmse_pp": 4.9463455359879065,
+      "bias_pp": -4.496467873535725,
+      "maximum_absolute_mean_error_pp": 6.889946200392511,
+      "passes_pragmatic_screen": false
+    },
+    "Figure3_prediction": {
+      "n_nonzero_replicates": 63,
+      "rmse_pp": 3.019918161269456,
+      "bias_pp": -1.3404575453401508,
+      "maximum_absolute_mean_error_pp": 6.887473557251212,
+      "passes_pragmatic_screen": false
+    }
+  },
+  "maximum_moiety_balance_error_uM": 5.393417917137766e-15,
+  "refinement": [
+    {
+      "seed_uM": 0,
+      "maximum_yield_difference_pp": 2.7305051020568016e-08
+    },
+    {
+      "seed_uM": 1,
+      "maximum_yield_difference_pp": 1.768451447503594e-07
+    },
+    {
+      "seed_uM": 2,
+      "maximum_yield_difference_pp": 1.3885339900099325e-07
+    }
+  ],
+  "scope": "Same-buffer kinetic extrapolation to vesicle cohorts; not an experimentally calibrated membrane-dependent elementary mechanism",
+  "functional_inheritance": "unidentifiable from these assays",
+  "elapsed_seconds": 34.39274541696068
+}

@@ -1,0 +1,40 @@
+{
+  "all_nine_adequacy_failures_preserved": true,
+  "check_count": 235193,
+  "direct_objectives": 9,
+  "failed_checks": [
+    {
+      "check": "main_refit_same_file_set",
+      "detail": "",
+      "pass": false
+    },
+    {
+      "check": "main_refit:freeze.json",
+      "detail": "",
+      "pass": false
+    }
+  ],
+  "frozen_files_per_run": 46,
+  "heldout_rows": 72,
+  "main_fits": 3,
+  "max_arithmetic_or_replay_discrepancy": 5.684341886080802e-14,
+  "numeric_fields_in_exact_comparison": 506177,
+  "optimization_starts": 126,
+  "patch_diffusion_upper_boundary_retained": 9.999999999999998,
+  "plot_files_byte_comparison_excluded": 6,
+  "predictions": 810,
+  "prior_files_unchanged": 473,
+  "profile_nuisance_fits": 18,
+  "qualified_fit_records": 30,
+  "refined_predictions": 810,
+  "scenarios": 9,
+  "scientific_files_exactly_matched": 91,
+  "scientific_limit": "Numerical and preservation audit only; physical transport and functional inheritance remain unvalidated.",
+  "seed_contrasts": 144,
+  "source_workbook_cells": 90,
+  "stage_rows": 840,
+  "status": "FAIL",
+  "successful_starts": 126,
+  "training_rows": 18,
+  "trajectory_rows": 216
+}

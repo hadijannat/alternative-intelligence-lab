@@ -1,0 +1,32 @@
+[
+  {
+    "file": "raw/sonication-2021.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8482043/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8482043/fullTextXML",
+    "bytes": 109068,
+    "sha256": "8b5a7bc95a755b0a942bac1c127e55d59ba2bdc5a1cb570b22b5af6cca6019c3",
+    "status": "acquired"
+  },
+  {
+    "file": "raw/viedma-2005.pdf",
+    "url": "https://arxiv.org/pdf/cond-mat/0407479",
+    "final_url": "https://arxiv.org/pdf/cond-mat/0407479",
+    "bytes": 295033,
+    "sha256": "8f539523b097747bbc2d0f563f18fc86ac86139a49c95a9b396dfaa258c08912",
+    "status": "acquired"
+  },
+  {
+    "file": "raw/sonication-2021-supplementary.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8482043/supplementaryFiles",
+    "status": "failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "raw/mixing-2014.pdf",
+    "url": "https://pure.hw.ac.uk/ws/files/5959299/An_investigation_into_the_effect_of_mixing_on_the_secondary_nucleation_of_sodium_chlorate.pdf",
+    "final_url": "https://pure.hw.ac.uk/ws/files/5959299/An_investigation_into_the_effect_of_mixing_on_the_secondary_nucleation_of_sodium_chlorate.pdf",
+    "bytes": 387736,
+    "sha256": "2e7f4566e112d29f719822fffe00691082f9c223e0c0688685fce95fccc75eb3",
+    "status": "acquired"
+  }
+]

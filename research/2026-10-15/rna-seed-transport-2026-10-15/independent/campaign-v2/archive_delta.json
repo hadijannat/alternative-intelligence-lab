@@ -1,0 +1,59 @@
+{
+  "added": [
+    {
+      "execution_role": "none: these paths are neither imported nor read by run.py, model.py or plot.py",
+      "explanation": "Finalized after the main freeze and before the fresh-process refit freeze; added evidence only.",
+      "last_modified_utc": "2026-10-15T16:27:01.090924+00:00",
+      "path": "rna-seed-transport-2026-10-15/independent/REPORT.md",
+      "role": "independent verification report",
+      "sha256": "68a4e1ea8db9b7ce3a8233387c57c8a26ce5a8c734f454e914372422e16417e3"
+    },
+    {
+      "execution_role": "none: these paths are neither imported nor read by run.py, model.py or plot.py",
+      "explanation": "Finalized after the main freeze and before the fresh-process refit freeze; added evidence only.",
+      "last_modified_utc": "2026-10-15T16:27:01.063471+00:00",
+      "path": "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+      "role": "duplicate independent verification source snapshot",
+      "sha256": "3d2cbf79662cb35ef190389430048815a1f1098937cd9b4ca9bed53626c4a69e"
+    },
+    {
+      "execution_role": "none: these paths are neither imported nor read by run.py, model.py or plot.py",
+      "explanation": "Finalized after the main freeze and before the fresh-process refit freeze; added evidence only.",
+      "last_modified_utc": "2026-10-15T16:27:01.063702+00:00",
+      "path": "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+      "role": "duplicate independent verification source snapshot",
+      "sha256": "ed84439016d457cd98852819be2ca54b5ea09993621442b41634cd156fc2288d"
+    },
+    {
+      "execution_role": "none: these paths are neither imported nor read by run.py, model.py or plot.py",
+      "explanation": "Finalized after the main freeze and before the fresh-process refit freeze; added evidence only.",
+      "last_modified_utc": "2026-10-15T16:27:01.063897+00:00",
+      "path": "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/model.py",
+      "role": "duplicate independent verification source snapshot",
+      "sha256": "bc30ab0150f5ad30f65cdd00a3d548045d9d34048b2c51815709999a461eff27"
+    },
+    {
+      "execution_role": "none: these paths are neither imported nor read by run.py, model.py or plot.py",
+      "explanation": "Finalized after the main freeze and before the fresh-process refit freeze; added evidence only.",
+      "last_modified_utc": "2026-10-15T16:27:01.064189+00:00",
+      "path": "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+      "role": "duplicate independent verification source snapshot",
+      "sha256": "a6e2816915ab497d85eb65a169bfbdf2df817bd62b0a1507ddd6de79df58b5e1"
+    }
+  ],
+  "changed_common": [],
+  "computational_inputs": [
+    "measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "rna-seed-transport-2026-10-15/model.py",
+    "rna-seed-transport-2026-10-15/plot.py",
+    "rna-seed-transport-2026-10-15/requirements.txt",
+    "rna-seed-transport-2026-10-15/run.py",
+    "rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json"
+  ],
+  "main_freeze_utc": "2026-10-15T16:26:51.418174+00:00",
+  "refit_freeze_utc": "2026-10-15T16:27:01.702444+00:00",
+  "removed": []
+}

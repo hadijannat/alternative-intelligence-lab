@@ -1,0 +1,496 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Primary-source and condition audit for three fixed transport families and a 2x2 exterior sensitivity; no fitting",
+  "new_compatible_numeric_holdout_acquired": false,
+  "author_contact": false,
+  "wet_experiment": false,
+  "sources": [
+    {
+      "id": "salibi2023",
+      "title": "Periodic temperature changes drive the proliferation of self-replicating RNAs in vesicle populations",
+      "primary_url": "https://www.nature.com/articles/s41467-023-36940-z",
+      "doi": "10.1038/s41467-023-36940-z",
+      "access": "Retained primary article XML/text, SI PDF/text and source workbook; primary publisher indexed full text rechecked online",
+      "exact_excerpt": "No exogenous full-length ribozyme was added in later generations.",
+      "locations": [
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt",
+          "lines": [
+            45,
+            51
+          ],
+          "claim": "Figure 3 schedule, initial-only full-length seed and 60-minute incubation"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt",
+          "lines": [
+            85,
+            111
+          ],
+          "claim": "PAGE GUV preparation, 5+5-minute FT, final washing and serial feed"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            110,
+            135
+          ],
+          "claim": "RNA lengths and reporter mutation"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            294,
+            299
+          ],
+          "claim": "Different tracer in S9"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            396,
+            404
+          ],
+          "claim": "S16 loading correction"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            550,
+            581
+          ],
+          "claim": "S13/S15/S18 conditions"
+        },
+        {
+          "file": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            442,
+            450
+          ],
+          "claim": "Only collected PAGE samples washed; continuing half transferred to fresh feed"
+        }
+      ],
+      "conditions": {
+        "membrane": "POPC",
+        "seed_F1_uM": [
+          0,
+          1,
+          2
+        ],
+        "seed_F1_only_initial": true,
+        "HyperA_uM_local_feed": 10,
+        "Cy5A_uM_local_feed": 2.5,
+        "B_uM_local_feed": 15,
+        "initial_population_ratio": [
+          1,
+          1,
+          1
+        ],
+        "fresh_A_B_ratio": [
+          1,
+          1
+        ],
+        "old_fresh_suspension_ratio": [
+          1,
+          1
+        ],
+        "EPPS_mM": 50,
+        "pH": 8.5,
+        "MgCl2_mM": 20,
+        "inner_sucrose_mM": 900,
+        "outer_glucose_mM": 900,
+        "warm_temperature_C": 42,
+        "warm_time_min": 60,
+        "FT_freeze_min": 5,
+        "FT_thaw_min": 5,
+        "FT_per_serial_generation": 3,
+        "F1_length_nt": 66,
+        "HyperA_length_nt": 52,
+        "Cy5A_length_nt": 52,
+        "B_length_nt": 14
+      },
+      "observer": "Washed,lysed,heat-denatured recovered Cy5 ligation product fraction; carried product contributes; inactive reporter is not an active-F1 assay",
+      "cross_assay_exclusions": [
+        "S13 has different substrate ratios and no membrane",
+        "S15 changes substrate concentrations and adds empty GUVs to bulk",
+        "S18 FT clock is 10+10 minutes rather than 5+5",
+        "S9 is 26-base labelled DNA microscopy rather than F1 activity",
+        "Fig2 FT3 and Fig3 G1 have nominally the same inputs but different observed means"
+      ],
+      "not_identified": [
+        "active F1 retention",
+        "per-species permeability",
+        "local internal volume",
+        "neighbor persistence",
+        "reversible F1 loss",
+        "exterior reuptake fraction",
+        "RNA-species retention from aggregate 55%"
+      ],
+      "serial_wash_scope": "Collected PAGE samples only; no continuing-culture wash or exterior discard documented between generations",
+      "available_volume_information_uL": {
+        "emulsion_inner_input": 24,
+        "initial_outer_phase": 600,
+        "wash_approximate": 700,
+        "pellet_resuspension_outer_approximate": 15,
+        "Figure2_sample": 10,
+        "Figure3_initial_seed_suspension": 10,
+        "Figure3_initial_substrate_suspension": 20,
+        "Figure3_initial_supernatant_discard": 15,
+        "Figure3_G0_aliquot": 5,
+        "Figure3_old_per_transfer": 5,
+        "Figure3_feed_per_transfer": 5
+      },
+      "exterior_to_interior_volume_ratio_measured": false
+    },
+    {
+      "id": "peter2023_transport",
+      "title": "Elucidating the Mechanism of Freeze-Thaw Driven Content Mixing between Protocells",
+      "doi": "10.1002/syst.202300008",
+      "primary_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/syst.202300008",
+      "access": "Primary publisher web reader full text inspected; direct HTML/SI HTTP 403, receipts retained",
+      "locations": [
+        "Figure1c andResults: local interface exchange",
+        "Figure2: packing-dependent contentloss",
+        "Figure3 andMethods: cargoandmembraneconditions",
+        "DataAvailabilityStatement"
+      ],
+      "exact_excerpts": [
+        "only a few GUV diameters",
+        "available from the corresponding author upon reasonable request"
+      ],
+      "conditions": {
+        "tracer": "Atto488/Atto655-(CA)13 DNA26bases",
+        "typical_tracer_uM": 2,
+        "inner_sucrose_mM": 900,
+        "outer_glucose_mM": 900,
+        "membranes": [
+          "POPC",
+          "DOPC",
+          "DEPC",
+          "OSPC"
+        ],
+        "standard_FT": "Rapid freezing against -80 C block, 30 min storage, slow room-temperature thaw",
+        "catalytic_buffer": "No Salibi EPPS/Mg recipe in reported tracer Methods",
+        "prep_centrifugation_g": 1500
+      },
+      "supports": [
+        "Local diffusion through transiently permeable membranes and surrounding phase",
+        "Packing changes loss",
+        "Membrane composition changes exchange"
+      ],
+      "does_not_supply": [
+        "Matched R3C mobility",
+        "Universal radius",
+        "F1 catalytic survival",
+        "Persistent serial neighbors"
+      ],
+      "data_admission": "Topology evidence only; authors-on-request raw data not acquired; no coefficient transplant"
+    },
+    {
+      "id": "litschel2018",
+      "title": "Freeze-thaw cycles induce content exchange between cell-sized lipid vesicles",
+      "doi": "10.1088/1367-2630/aabb96",
+      "primary_url": "https://pure.mpg.de/rest/items/item_2573728/component/file_2597531/content",
+      "access": "Primary PDF downloaded with HTTP 200; pdftotext -layout extraction",
+      "exact_excerpt": "even for large molecules up to 40 kDa",
+      "locations": [
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/litschel2018.txt",
+          "lines": [
+            164,
+            183
+          ],
+          "claim": "DNA tracer and dextran conditions"
+        },
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/litschel2018.txt",
+          "lines": [
+            360,
+            408
+          ],
+          "claim": "Density-dependent loss, membrane labels and 40 kDa transport"
+        },
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/litschel2018.txt",
+          "lines": [
+            440,
+            473
+          ],
+          "claim": "Smooth local gradients across tens to hundreds of vesicles and phase-transition mechanism"
+        }
+      ],
+      "conditions": {
+        "membrane": "POPC",
+        "tracers": [
+          "26-base CA-repeat DNA, Cy5 4 uM or 6-FAM 8 uM",
+          "3 kDa and 40 kDa dextran, 0.08 mg/mL"
+        ],
+        "inner_sucrose_mM": 900,
+        "outer_glucose_mM": 900,
+        "preferred_FT": "Fast -80 C freezing, slow room-temperature thaw",
+        "GUVformation_g": 250,
+        "catalytic_RNA_assay": false
+      },
+      "supports": [
+        "Large cargo may exchange without membrane fusion",
+        "Content loss depends on local packing",
+        "Finite local gradients rather than one instant global pool"
+      ],
+      "not_identified": [
+        "R3C size selectivity",
+        "Absolute permeability",
+        "Active F1 lifetime"
+      ],
+      "data_admission": "Physical comparison only; retained PDF is a new acquisition, not a compatible numeric catalytic holdout"
+    },
+    {
+      "id": "peng2022",
+      "title": "Vesicle encapsulation stabilizes intermolecular association and structure formation of functional RNA and DNA",
+      "doi": "10.1016/j.cub.2021.10.047",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8752491/",
+      "alternate_primary_url": "https://par.nsf.gov/servlets/purl/10348628",
+      "access": "Indexed primary abstract/full-text passages inspected; direct PMC recaptcha, eScholarship HTTP 403, NSF download timeout",
+      "exact_excerpt": "encapsulation promoted docking as well as catalytic activity",
+      "locations": [
+        "Discussion",
+        "FRET methods in author manuscript p13",
+        "Graphical abstract"
+      ],
+      "conditions": {
+        "system": "Hairpin ribozyme, stem-loop RNA and DNA triplex; not R3C F1",
+        "FRET_assay": "10 mM Tris-HCl pH 7.5 at 37 C; Mg addition initiates docking",
+        "full_condition_metadata_verified": false
+      },
+      "supports": [
+        "Folding and activity depend on encapsulation",
+        "Functional availability is distinct from RNA quantity"
+      ],
+      "not_identified": [
+        "F1 irreversible versus reversible inactive pool",
+        "FT reactivation fraction",
+        "Same-condition inactivation rate"
+      ],
+      "data_admission": "Qualitative mechanism only; no quantitative constants imported"
+    },
+    {
+      "id": "tsuji2026",
+      "title": "Repetitive temperature cycles with DMSO sustain RNA replicating liposome compartments via fusion mediated content exchange",
+      "doi": "10.1038/s42003-026-10218-8",
+      "primary_url": "https://www.nature.com/articles/s42003-026-10218-8",
+      "version_of_record_pdf": "https://www.nature.com/articles/s42003-026-10218-8.pdf",
+      "source_workbook_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-026-10218-8/MediaObjects/42003_2026_10218_MOESM4_ESM.xlsx",
+      "access": "Acquired publisher HTML, final PDF, in-press reference PDF, SI PDF and seven-sheet source workbook; final PDF takes precedence",
+      "exact_excerpts": [
+        "Qβ replicase provided as substrates",
+        "provided as Supplementary Data"
+      ],
+      "locations": [
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt",
+          "lines": [
+            269,
+            286
+          ],
+          "claim": "Protein replicase supplied; recipient ratios and indirect propagation estimate"
+        },
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt",
+          "lines": [
+            341,
+            385
+          ],
+          "claim": "Seven cycles, nutrient withdrawal and storage interruptions"
+        },
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt",
+          "lines": [
+            428,
+            488
+          ],
+          "claim": "Buffers, centrifugation, exterior replacement and reaction conditions"
+        },
+        {
+          "file": "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt",
+          "lines": [
+            509,
+            512
+          ],
+          "claim": "Public source data availability"
+        }
+      ],
+      "conditions": {
+        "membrane": "POPC for RNA experiments; DOPC for comparison",
+        "RNA_system": "2041-nt Rep-RNA template and purified protein Qbeta replicase",
+        "initial_RNA_single_round_nM": [
+          1,
+          5
+        ],
+        "initial_RNA_serial_nM": 5,
+        "DMSO_serial_percent_vv": 50,
+        "fusion_temperature_C": -20,
+        "fusion_duration_min": 60,
+        "replication_temperature_C": 37,
+        "replication_duration_min": 120,
+        "fusion_centrifugation_g": 18000,
+        "fusion_centrifugation_min": 10,
+        "fusion_buffer": "125mM Tris-HCl pH8,5mM MgCl2,0.01% BSA,1M glucose and DMSO",
+        "RNA_inner_buffer": "125mM Tris-HCl pH8,5mM MgCl2,0.01% BSA,500mM sucrose,350mM potassium glutamate,50mM HEPES-KOH pH7.6",
+        "nutrient_recipe_Methods": "6.25mM each NTP and100nM purified Qbeta replicase replacing template RNA",
+        "replication_assay_Methods": "1.25mM each NTP and20nM replicase; distinguish this recipe from nutrient-vesicle preparation",
+        "exterior_replacement": "Explicit replacement after fusion and before warm incubation",
+        "serial_nutrient_particle_ratio": "1:1",
+        "recipient_ratio_challenge": [
+          "1:1",
+          "1:9",
+          "1:99"
+        ],
+        "storage_interruptions": "Overnight4C at G1/G4;12days4C at G5"
+      },
+      "observer": "Flow cytometry SYBR-positive GUV fraction and fluorescence; protein/lipid tracers for mixing. Recipient propagation number inferred from positive fraction divided by dilution-only expectation, not directly tracked genealogy.",
+      "supports": [
+        "Resource resupply and initial template affect productive compartments",
+        "Feed-withdrawal negative result distinguishes transient carryover from sustained propagation",
+        "Membrane mixing and cargo mixing can diverge"
+      ],
+      "does_not_supply": [
+        "R3C kinetic or permeability constants",
+        "Salibi non-DMSO tracer retention",
+        "Serial response at multiple initial template doses",
+        "Autonomous regeneration of the externally supplied protein catalyst",
+        "Direct mother-daughter lineage tracking"
+      ],
+      "data_admission": "New public comparator dataset only; excluded from all measured calibration and validation in this lab",
+      "data_inventory": "dataset_inventory.json",
+      "raw_fcs_acquired": false,
+      "source_cautions": [
+        "Fig7 has 36 data rows and no replicate identifier column; do not infer three independent trajectories",
+        "Serial schedule contains overnight storage at generations1 and4 and12days at generation5",
+        "Fig5 columnH says mean FITC of GUVs (FITC >10); article positive-GUV gating uses a different threshold notation; clarify populations before quantitative reuse",
+        "Fig7 columnF says mean fluorescence in GUVs; text discusses all GUVs while figure7E caption says positive GUVs",
+        "Figure7D caption uses PURE-system wording; Methods specify purified Qbeta replicase and nucleotides; retain inconsistency rather than infer a translation assay"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "global_exchange",
+      "status": "model closure",
+      "constraint": "Local transport evidence challenges instantaneous population mixing; no universal neighbor count is measured",
+      "test": "Conservative local exchange versus prior global closure"
+    },
+    {
+      "id": "uniform_retention",
+      "status": "unmeasured species/spatial closure",
+      "constraint": "0.55 is approximate aggregate RNA remaining after three FT cycles, not active F1 survival",
+      "test": "Retain historical failure; distinguish initial tracer constraint from later retention"
+    },
+    {
+      "id": "bath_removal",
+      "status": "unsupported as continuing-culture wash",
+      "constraint": "Consecutive FT cycles precede PAGE wash; only collected serial aliquots are washed",
+      "test": "Carry exterior inventory in primary; half-volume sampling transfers exterior too; discarded arm is an explicit limiting sensitivity"
+    },
+    {
+      "id": "irreversible_loss",
+      "status": "effective-fit interpretation",
+      "constraint": "Reporter kinetics alone do not identify chemical destruction",
+      "test": "Retain baseline; reactivation only as an explicitly optimistic hypothesis"
+    },
+    {
+      "id": "reporter_equals_active",
+      "status": "invalid inference",
+      "constraint": "Cy5-A is an inactive variant; PAGE counts recovered labelled ligation",
+      "test": "Separate reporter fraction, denominator, new active inventory and founder carryover"
+    },
+    {
+      "id": "exterior_kinetics",
+      "status": "unmeasured cross-condition closure",
+      "constraint": "Sucrose-calibrated bulk chemistry applied to glucose exterior, or zero exterior chemistry, are both unmeasured closures",
+      "test": "Carry/reactive primary and fixed reactive/inert by carried/discarded sensitivity"
+    },
+    {
+      "id": "tracer_calibration",
+      "status": "parameter-reduction assumption",
+      "constraint": "Initial closed empty bath plus zero FT chemistry and equal permeability gives R3=(1+nu*exp(-3*kappa*(1+1/nu)))/(1+nu)",
+      "test": "If R3=.55, require nu>9/11 and solve kappa analytically; carried bath changes subsequent retention"
+    },
+    {
+      "id": "patch_exchange",
+      "status": "deterministic effective closure",
+      "constraint": "Finite local exchange is motivated; weighted-mean patch equilibration has no measured spatial radius",
+      "test": "Two fitted parameters nu,D; no claim of geometric reconstruction"
+    },
+    {
+      "id": "exterior_homogenization",
+      "status": "unmeasured closure",
+      "constraint": "Global exterior homogenization at warm start and after transfer removes exterior spatial correlations",
+      "test": "Conserve exterior inventory; do not call this tracked neighbor persistence"
+    },
+    {
+      "id": "shared_volume_ratio",
+      "status": "unmeasured closure",
+      "constraint": "Initial and feed suspensions assumed same effective nu",
+      "test": "Record assumption; nominal suspension volumes do not fix encapsulated fraction"
+    }
+  ],
+  "new_models_recommended_not_implemented_here": [
+    "legacy irreversible loss and global mean mixing",
+    "finite common exterior bath (nu)",
+    "deterministic effective exterior-patch exchange (nu,D)"
+  ],
+  "source_input_sha256": {
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt": "af87baafa8f0a46ea465e0e34384c423e9a0333e0731991e179608020b7ac6c3",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.xml": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md": "7f69de342c37ac305fedd2b9331007aaf4ad9d59e3bc5c9358e085645e133b8d",
+    "rna-turnover-tests-2026-10-15/research/sources.json": "a7a609691962ad2a72bc5c07644959a6ea0aaabad777ec79d9611080eaf7eed2",
+    "rna-mechanism-2026-10-15/sources/retention/sources.json": "7fe95e42bdb415f0004afa0c9e0e426069d7361500c1568bf7200a506a02d3e2"
+  },
+  "acquired_sha256": {
+    "rna-seed-transport-2026-10-15/research/raw/litschel2018.pdf": "d11a77c012fb475a6ba613239c4988b1711bd9d73ba80d87316fe794c00eda83",
+    "rna-seed-transport-2026-10-15/research/raw/litschel2018.txt": "38f4c13aeb79f8d1b01c2c031997916f313df0a3b3acc3bc6e3e4fd40ca1a06b",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026.html": "d35bf89a5508ee20f50e8e4d424271aa83103565d1e182549cda8cf5e5e1fc29",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_data.xlsx": "4e4396c128abc9b0a537188177b74397a551314ed2e986c5ed3191bc8e24dff8",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_reference.pdf": "f88a7c8f9b7cf19d8701f02b3c06ae1b31ad094d98bf3f06318b1ddcdcbe67cc",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_reference.txt": "419842654fa6cbc9824eae99f197d40594fefa785dde4a2dfdf5b043c1d910c3",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_si.pdf": "c7a7b671796d6cb663a8cdcbac7ef78974a03308b198c5220c715d8b69d7ba53",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_si.txt": "fb4abc5246a4eabea84349a309d3eb6daf709d6a0fe6423e71163f802ce8de14",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.pdf": "9ed25f667bc1f76c17964846d3171839f379115f575b1031d487aa6166a9e6a3",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt": "d434f377667d61e2314525f7e31081c270dff84e70b4c4c91256681c30a4aecc"
+  },
+  "closed_bath_constraint": {
+    "R3": 0.55,
+    "nu_lower_exclusive": 0.8181818181818182,
+    "kappa_formula": "-nu/(3*(nu+1))*log((0.55*(nu+1)-1)/nu)",
+    "meaning": "Dimensionless integrated exchange per FT, conditional on the initial empty-bath tracer assumptions"
+  },
+  "new_nonmatching_numeric_dataset_acquired": true,
+  "fixed_sensitivity": {
+    "factors": {
+      "exterior_chemistry": [
+        "reactive",
+        "inert"
+      ],
+      "exterior_inventory": [
+        "carried",
+        "discarded"
+      ]
+    },
+    "primary": [
+      "reactive",
+      "carried"
+    ],
+    "interpretation": "Both chemistry choices unmeasured; discarded exterior is an escape/reset limit, not the sampling-only wash"
+  },
+  "effective_patch": {
+    "inside": "dc_i/dtau=kappa*(e_i-c_i)",
+    "outside": "de_i/dtau=(kappa/nu)*(c_i-e_i)+D*(weighted_mean_e-e_i)",
+    "volume": "interior w_i; exterior nu*w_i",
+    "invariant": "sum_i w_i*(c_i+nu*e_i)",
+    "warm_start": "Homogenize exterior to weighted mean conservatively; close interior membranes",
+    "transfer": "Old weights times0.5; add A andB weights0.25 each; exterior mean concentration times0.5 and uniform redistribution",
+    "interpretation": "Deterministic effective compartments; no lattice, physical distance, random contact graph or selective mobility"
+  }
+}

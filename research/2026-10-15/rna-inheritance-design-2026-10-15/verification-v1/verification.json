@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "label": "assay-tests",
+      "args": [
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15/assay",
+      "exit_code": 0
+    },
+    {
+      "label": "lineage-tests",
+      "args": [
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15/lineage",
+      "exit_code": 0
+    },
+    {
+      "label": "source-identities",
+      "args": [
+        "research/assays/verify.py"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "counterexamples",
+      "args": [
+        "counterexamples.py"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "assay-replay",
+      "args": [
+        "PROJECT_ROOT/rna-inheritance-design-2026-10-15/verification-v1/assay-source/run.py",
+        "--output",
+        "PROJECT_ROOT/rna-inheritance-design-2026-10-15/verification-v1/assay"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15",
+      "exit_code": 0
+    },
+    {
+      "label": "lineage-replay",
+      "args": [
+        "PROJECT_ROOT/rna-inheritance-design-2026-10-15/lineage/run.py",
+        "--replay",
+        "PROJECT_ROOT/rna-inheritance-design-2026-10-15/lineage/results-v1",
+        "--output",
+        "PROJECT_ROOT/rna-inheritance-design-2026-10-15/verification-v1/lineage"
+      ],
+      "cwd": "PROJECT_ROOT/rna-inheritance-design-2026-10-15",
+      "exit_code": 0
+    }
+  ],
+  "checks": {
+    "four_exact_counterexamples": true,
+    "lineage_design_receipt_and_source_hashes": true,
+    "assay/freeze.json": true,
+    "assay/observations.jsonl": true,
+    "assay/retention_observations.jsonl": true,
+    "assay/summary.json": true,
+    "assay/retention.json": true,
+    "assay/material_budget.csv": true,
+    "assay/nonidentifiability.json": true,
+    "assay/power.png": true,
+    "assay/verification.json": true,
+    "assay/source-members": true,
+    "lineage/summary.json": true,
+    "lineage/decisions.json": true,
+    "lineage/numerical-digests.json": true,
+    "lineage/retention-0.json": true,
+    "lineage/retention-1.json": true,
+    "lineage/retention-2.json": true,
+    "lineage/pedigree-strong-0.json": true,
+    "lineage/pedigree-strong-1.json": true,
+    "lineage/pedigree-strong-2.json": true,
+    "lineage/pedigree-weak-0.json": true,
+    "lineage/pedigree-weak-1.json": true,
+    "lineage/pedigree-weak-2.json": true,
+    "lineage/pedigree-founder_only-0.json": true,
+    "lineage/pedigree-founder_only-1.json": true,
+    "lineage/pedigree-founder_only-2.json": true,
+    "lineage/pedigree-inactive_new-0.json": true,
+    "lineage/pedigree-inactive_new-1.json": true,
+    "lineage/pedigree-inactive_new-2.json": true,
+    "lineage/pedigree-reporter_only-0.json": true,
+    "lineage/pedigree-reporter_only-1.json": true,
+    "lineage/pedigree-reporter_only-2.json": true,
+    "lineage/pedigree-common_feed-0.json": true,
+    "lineage/pedigree-common_feed-1.json": true,
+    "lineage/pedigree-common_feed-2.json": true,
+    "lineage/pedigree-horizontal-0.json": true,
+    "lineage/pedigree-horizontal-1.json": true,
+    "lineage/pedigree-horizontal-2.json": true,
+    "lineage/pedigree-shared_history_environment-0.json": true,
+    "lineage/pedigree-shared_history_environment-1.json": true,
+    "lineage/pedigree-shared_history_environment-2.json": true,
+    "lineage/pedigree-no_founder-0.json": true,
+    "lineage/pedigree-no_founder-1.json": true,
+    "lineage/pedigree-no_founder-2.json": true,
+    "lineage/freeze.json": true,
+    "lineage/source-members": true,
+    "lineage/raw-strong-0.npz": true,
+    "lineage/raw-strong-1.npz": true,
+    "lineage/raw-strong-2.npz": true,
+    "lineage/raw-weak-0.npz": true,
+    "lineage/raw-weak-1.npz": true,
+    "lineage/raw-weak-2.npz": true,
+    "lineage/raw-founder_only-0.npz": true,
+    "lineage/raw-founder_only-1.npz": true,
+    "lineage/raw-founder_only-2.npz": true,
+    "lineage/raw-inactive_new-0.npz": true,
+    "lineage/raw-inactive_new-1.npz": true,
+    "lineage/raw-inactive_new-2.npz": true,
+    "lineage/raw-reporter_only-0.npz": true,
+    "lineage/raw-reporter_only-1.npz": true,
+    "lineage/raw-reporter_only-2.npz": true,
+    "lineage/raw-common_feed-0.npz": true,
+    "lineage/raw-common_feed-1.npz": true,
+    "lineage/raw-common_feed-2.npz": true,
+    "lineage/raw-horizontal-0.npz": true,
+    "lineage/raw-horizontal-1.npz": true,
+    "lineage/raw-horizontal-2.npz": true,
+    "lineage/raw-shared_history_environment-0.npz": true,
+    "lineage/raw-shared_history_environment-1.npz": true,
+    "lineage/raw-shared_history_environment-2.npz": true,
+    "lineage/raw-no_founder-0.npz": true,
+    "lineage/raw-no_founder-1.npz": true,
+    "lineage/raw-no_founder-2.npz": true
+  },
+  "input_hashes_unchanged": true,
+  "previous_files_unchanged": 397,
+  "versions": {
+    "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "numpy": "2.4.1",
+    "scipy": "1.16.1",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.3"
+  },
+  "exclusions": "ZIP container timestamps and execution elapsed times; scientific data are compared exactly.",
+  "limits": "Computational/source verification only. Physical assays, rates and division remain unqualified."
+}

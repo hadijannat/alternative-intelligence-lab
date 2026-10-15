@@ -1,0 +1,175 @@
+{
+  "evidence_class": "descriptive reanalysis of downloaded measured component data",
+  "integrated_model_calibration": false,
+  "lifetime_min": {
+    "Arg-Arg-Click": {
+      "n": 2,
+      "mean": 14.541666666666668,
+      "min": 13.05,
+      "max": 16.033333333333335,
+      "sample_sd": 2.1095352305398674
+    },
+    "Gly-Gly-Click": {
+      "n": 2,
+      "mean": 6.266666666666667,
+      "min": 5.933333333333334,
+      "max": 6.6,
+      "sample_sd": 0.4714045207910313
+    },
+    "Cys-Cys-Click": {
+      "n": 2,
+      "mean": 5.85,
+      "min": 5.433333333333334,
+      "max": 6.266666666666667,
+      "sample_sd": 0.5892556509887894
+    },
+    "kArg-kArg-Click": {
+      "n": 2,
+      "mean": 22.71666666666667,
+      "min": 20.483333333333334,
+      "max": 24.95,
+      "sample_sd": 3.158410289299911
+    },
+    "kArg-kArg-Control": {
+      "n": 2,
+      "mean": 5.666666666666667,
+      "min": 5.416666666666667,
+      "max": 5.916666666666667,
+      "sample_sd": 0.3535533905932738
+    }
+  },
+  "lifetime_mean_ratio_KR_Click_to_KR_Control": 4.008823529411765,
+  "chemical_selectivity_error_fraction": {
+    "no_PSS": {
+      "n": 2,
+      "mean": 0.5920666666666666,
+      "min": 0.5866333333333333,
+      "max": 0.5974999999999999,
+      "sample_sd": 0.007683893688893755
+    },
+    "PSS": {
+      "n": 2,
+      "mean": 0.29745,
+      "min": 0.2755,
+      "max": 0.31939999999999996,
+      "sample_sd": 0.031041987694089394
+    },
+    "seeded_PSS": {
+      "n": 2,
+      "mean": 0.21628970958925736,
+      "min": 0.2105444265470607,
+      "max": 0.22203499263145404,
+      "sample_sd": 0.008125057197946681
+    },
+    "seeded_no_PSS": {
+      "n": 4,
+      "mean": 0.43327141688739573,
+      "min": 0.42269542269542265,
+      "max": 0.4411308439362295,
+      "sample_sd": 0.008722874916667843
+    }
+  },
+  "turbidity_traces": [
+    {
+      "condition": [
+        "kArg",
+        "kArg",
+        "Click"
+      ],
+      "series_by_time_reset": 0,
+      "rows": 185,
+      "start_min": 0.0,
+      "end_min": 30.4,
+      "peak_OD650": 1.9223,
+      "absolute_time_to_half_peak_min": 8.349893162393162,
+      "auc_observed_OD_min": 20.25907833333333
+    },
+    {
+      "condition": [
+        "kArg",
+        "kArg",
+        "Click"
+      ],
+      "series_by_time_reset": 1,
+      "rows": 185,
+      "start_min": 0.0,
+      "end_min": 30.4,
+      "peak_OD650": 1.9251,
+      "absolute_time_to_half_peak_min": 7.773638968481375,
+      "auc_observed_OD_min": 19.9411825
+    },
+    {
+      "condition": [
+        "kArg",
+        "kArg",
+        "Control"
+      ],
+      "series_by_time_reset": 0,
+      "rows": 62,
+      "start_min": 0.0,
+      "end_min": 10.05,
+      "peak_OD650": 1.9005999999999998,
+      "absolute_time_to_half_peak_min": 4.599576181394363,
+      "auc_observed_OD_min": 8.009601666666667
+    },
+    {
+      "condition": [
+        "kArg",
+        "kArg",
+        "Control"
+      ],
+      "series_by_time_reset": 1,
+      "rows": 62,
+      "start_min": 0.0,
+      "end_min": 10.05,
+      "peak_OD650": 1.8349,
+      "absolute_time_to_half_peak_min": 4.923206914344686,
+      "auc_observed_OD_min": 8.28319
+    }
+  ],
+  "turbidity_rows_total": 494,
+  "physical_memory": [
+    {
+      "file": "fig2/fig2c_avg_response_present1p0.csv",
+      "rows": 51,
+      "past_high_minus_low_initial_A": 4.8642004267084054e-09,
+      "past_high_minus_low_terminal_A": 1.1801565896851718e-09,
+      "terminal_to_initial_separation_ratio": 0.24262088034143392,
+      "terminal_common_time_s": 4.0,
+      "minimum_pulse_counts_at_comparison_brackets": {
+        "0p1": 46,
+        "1p0": 51
+      },
+      "initial_pulse_counts": {
+        "n_past0p1": 46,
+        "n_past0p5": 37,
+        "n_past1p0": 51
+      }
+    },
+    {
+      "file": "fig2/fig2d_avg_response_present0p5.csv",
+      "rows": 50,
+      "past_high_minus_low_initial_A": 5.255743923228694e-09,
+      "past_high_minus_low_terminal_A": 1.3447755758981186e-09,
+      "terminal_to_initial_separation_ratio": 0.2558677887548219,
+      "terminal_common_time_s": 4.0,
+      "minimum_pulse_counts_at_comparison_brackets": {
+        "0p1": 39,
+        "1p0": 42
+      },
+      "initial_pulse_counts": {
+        "n_past0p1": 39,
+        "n_past0p5": 52,
+        "n_past1p0": 42
+      }
+    }
+  ],
+  "photocurrent_rows": 19744,
+  "photocurrent_unique_pulses": 400,
+  "method": {
+    "half_peak": "First linear-interpolated downward crossing of half the raw peak after the peak; absolute acquisition time, no baseline subtraction; not a decay constant or author-defined lifetime",
+    "auc": "Trapezoidal integral over each trace's entire observed interval, with no extrapolation",
+    "memory": "Difference between author-averaged high-past and low-past current groups at t=0 and t=4 s using linear interpolation on separate source grids; source missing tail cells are omitted, never filled with zero; 4 s avoids poorly sampled tails; this descriptive choice is not preregistered",
+    "inference": "No p-values, no fitted parameters, no extrapolation, no mechanistic inference, no cross-material calibration"
+  }
+}

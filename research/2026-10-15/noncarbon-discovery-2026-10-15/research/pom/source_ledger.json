@@ -1,0 +1,137 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Targeted primary-source review, not exhaustive novelty clearance",
+  "sources": [
+    {
+      "id": "POM01",
+      "doi": "10.1073/pnas.1921536117",
+      "title": "Spontaneous formation of autocatalytic sets with self-replicating inorganic metal oxide clusters",
+      "year": 2020,
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Mathis-PNASMay2020.pdf",
+      "access": "Full author PDF newly acquired; Fig. 1 visually inspected; original SI reused from verified local archive after network timeout",
+      "local": [
+        "raw/miras2020.pdf",
+        "raw/miras2020_si.pdf",
+        "raw/miras2020-page2.png"
+      ],
+      "supports": [
+        "Correct Mo36 formula in Fig. 1",
+        "Seeded assembly and inhibition evidence",
+        "Strong reduction failure",
+        "Organic ligand exclusion for Mo132 and Ce wheel"
+      ],
+      "limitations": [
+        "Abstract formula is corrupted",
+        "No functional inherited variants",
+        "Mo36 to Mo6 specific feedback remained unresolved",
+        "Kinetic model parameters phenomenological"
+      ],
+      "license": "CC BY 4.0 stated in paper"
+    },
+    {
+      "id": "POM02",
+      "doi": null,
+      "title": "Mo36 seed time series from POM01 author repository",
+      "year": 2020,
+      "url": "https://raw.githubusercontent.com/croningp/clusterautocatalyticsets/5c143e908367fa756a5bf6468b6bd46a92c7bcd0/Timeseries%20Data/Tidy_mo36_seeding_timeseries.csv",
+      "access": "Fresh pinned download; exact hash match to previous archive",
+      "local": [
+        "raw/mo36_seed_timeseries.csv"
+      ],
+      "supports": [
+        "480 measured rows across six seed conditions"
+      ],
+      "limitations": [
+        "No explicit units or replicate IDs",
+        "Fitted prediction columns must be excluded",
+        "No transport, retention, derivative or heredity data"
+      ],
+      "license": "Article CC BY 4.0; no separate repository software license inferred"
+    },
+    {
+      "id": "POM03",
+      "doi": "10.3390/inorganics11040138",
+      "title": "Comparative Spectroscopic and Electrochemical Study of V(V)-Substituted Keggin-Type Phosphomolybdates and -Tungstates",
+      "year": 2023,
+      "url": "https://www.mdpi.com/2304-6740/11/4/138",
+      "access": "Publisher page rate-limited; full publisher PDF acquired from MDPI content host; SI candidate URL returned 404; no SI table values transcribed",
+      "local": [
+        "raw/raabe2023.pdf"
+      ],
+      "supports": [
+        "H4[PVMo11O40] and Na4[PVW11O40] identities",
+        "pH 1 aqueous electrochemical characterization",
+        "Increased substitution increases dissociation and isomer complexity"
+      ],
+      "limitations": [
+        "Not autocatalysis or heredity",
+        "Some NMR media include acetone; ether used for acid extraction",
+        "No matched Mo36 compatibility measurement"
+      ],
+      "license": "CC BY 4.0 stated in paper"
+    },
+    {
+      "id": "POM04",
+      "doi": "10.1021/jacs.1c10584",
+      "title": "Effective Storage of Electrons in Water by the Formation of Highly Reduced Polyoxometalate Clusters",
+      "year": 2022,
+      "url": "https://eprints.gla.ac.uk/268802/",
+      "access": "Full institutional PDF newly acquired; SI/raw machine-readable archive not acquired",
+      "local": [
+        "raw/chen2022.pdf"
+      ],
+      "supports": [
+        "Li6[P2W18O62] aqueous electron storage",
+        "Dependence on protonation, counterions, aggregation",
+        "Dilution-triggered discharge risk"
+      ],
+      "limitations": [
+        "Externally written redox state",
+        "No state copying or reconstruction",
+        "No common operating conditions established with Mo36"
+      ],
+      "license": "CC BY 4.0 institutional/paper record"
+    },
+    {
+      "id": "POM05",
+      "doi": "10.1002/anie.201200746",
+      "title": "Aiding the Self-Assembly of Supramolecular Polyoxometalates under Hydrothermal Conditions To Give Precursors of Complex Functional Oxides",
+      "year": 2012,
+      "url": "https://pure.mpg.de/rest/items/item_1849723/component/file_1854326/content",
+      "access": "Full institutional accepted manuscript plus SI newly acquired",
+      "local": [
+        "raw/m1_assembly.pdf"
+      ],
+      "supports": [
+        "Raman attribution of Mo36-xNbx solution species",
+        "Possible partial V substitution attribution",
+        "Prior art against generic doped Mo36 novelty"
+      ],
+      "limitations": [
+        "Hydrothermal 448 K mixed species and eventual solid oxide",
+        "No isolated exact Mo34WV molecule",
+        "Niobium oxalate introduces carbon-containing input",
+        "Not autocatalytic or hereditary evidence"
+      ],
+      "license": "Institutional public access; no reuse license independently established"
+    },
+    {
+      "id": "POM06",
+      "doi": "10.1039/C3DT51653A",
+      "title": "Mixed addenda polyoxometalate solutions for stationary energy storage",
+      "year": 2013,
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2013/dt/c3dt51653a/unauth",
+      "access": "Primary abstract/search record inspected; PDF denied 403",
+      "local": [],
+      "supports": [
+        "PV3W9O40(6-) compositions are already known"
+      ],
+      "limitations": [
+        "No detailed numerical use",
+        "No compound novelty inferred",
+        "No heredity evidence"
+      ],
+      "license": "Not assessed"
+    }
+  ]
+}

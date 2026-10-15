@@ -1,0 +1,57 @@
+{
+  "pins": {
+    "config.json": "63e9f7f9d8d3409ee3808b2f9dff55ea62d9d903523b372ddd42b9ce752186d1",
+    "PROTOCOL.md": "d04efedcfdd98c13b818d4d0436615e67d485efd39dd5119f5547f926fc97475",
+    "lab.py": "8ffe8a18f7199afa64a5374cb39d3484c0c5c93f1682ab7353e19de62f932778",
+    "test_lab.py": "b63f0300ae729d8fe756d9d8d689d7e45f1a93d13074815d4d6a6d97d48a8bc5"
+  },
+  "config": {
+    "version": "heredity-v1",
+    "seeds": [
+      2026101520,
+      2026101521,
+      2026101522,
+      2026101523,
+      2026101524,
+      2026101525,
+      2026101526,
+      2026101527,
+      2026101528,
+      2026101529,
+      2026101530,
+      2026101531
+    ],
+    "compartments": 24,
+    "passages": 16,
+    "founder_purge_passage": 6,
+    "founder_counts": [
+      45,
+      5
+    ],
+    "mutation_probabilities": [
+      0.0,
+      0.05,
+      0.25
+    ],
+    "resource_budgets": [
+      16,
+      64,
+      128
+    ],
+    "degradation_probability": 0.08,
+    "birth_success_probability": 0.8,
+    "production_slots_per_catalyst": 3,
+    "assay_substrate_per_type": 64,
+    "assay_rate": 0.6,
+    "assay_cross_activity": 0.1,
+    "final_passages": 4,
+    "criteria": {
+      "parent_child_correlation": 0.3,
+      "functional_contrast": 0.2,
+      "contrast_advantage": 0.15,
+      "minimum_median_new_events": 8
+    }
+  },
+  "python": "3.12.3",
+  "numpy": "2.4.1"
+}

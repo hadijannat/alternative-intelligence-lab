@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "chemical_repository": "https://github.com/hsoria/Primitive-Genotype-Phenotype-coupling",
+  "chemical_data_license_basis": "Repository root MIT license, retained verbatim; no separate data license seen",
+  "datasets": [
+    {
+      "file": "data/Figure3B_Data.csv",
+      "url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure3/Figure3B_Data.csv",
+      "resolved_url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure3/Figure3B_Data.csv",
+      "doi": "10.1016/j.chempr.2025.102816",
+      "license": "MIT",
+      "downloaded_utc": "2026-10-15T08:50:17.406570+00:00",
+      "sha256": "5fa1322592708b75ac8a44be9d03f9eeb212da372b89e8da0e00cd8c12edae73",
+      "bytes": 21827,
+      "columns_units": {
+        "Time": "minutes",
+        "Azide_1": "categorical source label",
+        "Azide_2": "categorical source label",
+        "Type": "Click or Control",
+        "value": "optical density at 650 nm, dimensionless"
+      },
+      "source_commit": "5e39536facd68c2a133454b6a31390d53f19ad30"
+    },
+    {
+      "file": "data/Figure3C_Lifetime.csv",
+      "url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure3/Figure3C_Lifetime.csv",
+      "resolved_url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure3/Figure3C_Lifetime.csv",
+      "doi": "10.1016/j.chempr.2025.102816",
+      "license": "MIT",
+      "downloaded_utc": "2026-10-15T08:50:17.442176+00:00",
+      "sha256": "470b12eca9c992e3afc5b09d3a92d835a8ebe19aa43bb1139e413f5df0a6ddcd",
+      "bytes": 474,
+      "columns_units": {
+        "Lt": "minutes",
+        "Azide_1": "categorical source label",
+        "Azide_2": "categorical source label",
+        "Type": "Click or Control",
+        "C": "condition label"
+      },
+      "source_commit": "5e39536facd68c2a133454b6a31390d53f19ad30"
+    },
+    {
+      "file": "data/Figure2G_Error_Rates.csv",
+      "url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure2/Figure2G_Error_Rates.csv",
+      "resolved_url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/00_Figures%20Main%20Text/Figure2/Figure2G_Error_Rates.csv",
+      "doi": "10.1016/j.chempr.2025.102816",
+      "license": "MIT",
+      "downloaded_utc": "2026-10-15T08:50:17.478804+00:00",
+      "sha256": "63fc6e0afb6b35b16d77a4895bab6a61585cebd1f2d594a1474d2b275eb5f084",
+      "bytes": 598,
+      "columns_units": {
+        "Type": "source condition label",
+        "Azide1": "source label",
+        "Azide2": "source label",
+        "variable": "ER: chemical wrong-azide consumption fraction",
+        "value": "dimensionless fraction, not per-base copying error",
+        "C": "condition label"
+      },
+      "source_commit": "5e39536facd68c2a133454b6a31390d53f19ad30"
+    },
+    {
+      "file": "data/SOURCE_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/hsoria/Primitive-Genotype-Phenotype-coupling/5e39536facd68c2a133454b6a31390d53f19ad30/LICENSE",
+      "doi": "10.1016/j.chempr.2025.102816",
+      "license": "MIT",
+      "downloaded_utc": "2026-10-15T08:50:17.509901+00:00",
+      "sha256": "e1ddef42e1906583e602811dfda99093fe2c1c666305f80a8bbe49648a93386d",
+      "bytes": 1070,
+      "columns_units": {},
+      "source_commit": "5e39536facd68c2a133454b6a31390d53f19ad30"
+    },
+    {
+      "file": "data/zenodo_metadata.json",
+      "url": "https://zenodo.org/api/records/21453837",
+      "resolved_url": "https://zenodo.org/api/records/21453837",
+      "doi": "10.5281/zenodo.21453837",
+      "license": "CC-BY-4.0",
+      "downloaded_utc": "2026-10-15T08:50:17.934711+00:00",
+      "sha256": "6c137a4a65a0c4efd459e15f7e74def739f770aa55b0a1b620d61880fcc9d444",
+      "bytes": 7053,
+      "columns_units": {},
+      "source_commit": null
+    },
+    {
+      "file": "data/fig2.zip",
+      "url": "https://zenodo.org/api/records/21453837/files/fig2.zip/content",
+      "resolved_url": "https://zenodo.org/api/records/21453837/files/fig2.zip/content",
+      "doi": "10.5281/zenodo.21453837",
+      "license": "CC-BY-4.0",
+      "downloaded_utc": "2026-10-15T08:50:18.434755+00:00",
+      "sha256": "8bcaf28f4f30918456e38e0df61f93812934604fe8576b47e68288615c35366b",
+      "bytes": 376821,
+      "columns_units": {
+        "fig2a_overlay_plotted.csv": "time_s/time_rel_s: s; pulse_index: integer; pulse_label: dimensionless relative illumination level; corrected_current_A: A",
+        "fig2c_avg_response_present1p0.csv": "time_past*_s: seconds; mean_past*_A/std_past*_A: A; n_past*: pulse count",
+        "fig2d_avg_response_present0p5.csv": "same schema as fig2c",
+        "fig2_parameters.txt": "author timing, preprocessing, and interpolation details"
+      },
+      "source_commit": null
+    }
+  ],
+  "roles": {
+    "chemical": "Measured component-level lifetime/error/turbidity summaries; no fitting of integrated entity",
+    "physical": "Measured, author-corrected photocurrent memory demonstration; preprint evidence; no claim of chemical compatibility"
+  },
+  "limitations": [
+    "The source chemical time-course lacks explicit replicate identifiers; series are separated only by time reset.",
+    "Lifetime and error-rate groups are small, including n=2; descriptive values are not population estimates.",
+    "Error rate is a chemical product selectivity measure, not a genome mutation probability.",
+    "Photocurrent observations are one supplied device sequence with preprocessing; pulse count is not device replication.",
+    "No numerical parameter is transferred between materials or used to calibrate the synthetic simulation."
+  ]
+}

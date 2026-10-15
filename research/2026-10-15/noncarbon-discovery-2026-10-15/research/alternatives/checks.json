@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "record_count": 12,
+  "proposals": 3,
+  "all_proposal_novelty_unverified": true,
+  "hashed_files": 10,
+  "checks": [
+    "JSON parse",
+    "unique record IDs",
+    "all required fields nonempty",
+    "at most three proposals",
+    "all retained source and report hashes verified"
+  ],
+  "not_performed": [
+    "physical experiments",
+    "new simulation or fitted kinetic model",
+    "exhaustive novelty search",
+    "complete preparation audit for each material"
+  ]
+}

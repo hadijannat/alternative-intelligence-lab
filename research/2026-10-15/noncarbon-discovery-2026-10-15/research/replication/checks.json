@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Seven distinct evidence records have required fields; five designated decisive.",
+    "Every declared local source and derived data path exists.",
+    "All four JSON artifact types parsed.",
+    "Independently downloaded DOCX is byte-identical to the previously archived primary supplement.",
+    "Extractor ran with source hash, table/field/range/count assertions: 13 trials, 12 summaries, 4 discrepancies."
+  ],
+  "hashes": {
+    "raw/sonication-2021-mmc1.txt": "775da1daecd47bdfd940a96b7f9e11a1c8b1149917618a203b8d020f49a646e6",
+    "raw/sonication-2021-mmc1.docx": "d9d7e44ad46285817b343d59928164ec09fafe96d9f13c92a6af7de067ef7477",
+    "raw/mixing-2014.txt": "f2159bdc6dfaf1059d060dc7e3cc417a3f4dc1a94c9fc8823121726f606785ba",
+    "raw/sonication-2021.xml": "8b5a7bc95a755b0a942bac1c127e55d59ba2bdc5a1cb570b22b5af6cca6019c3",
+    "raw/viedma-2005.txt": "68ddff6c01404de613616b11ac642f5f152fec268962a5309f18ea53fc3158c0",
+    "raw/sonication-2021.txt": "66a5caa3011aa5236513ced18783f733c53dac164649592c57866963e96994ab",
+    "raw/mixing-2014.pdf": "2e7f4566e112d29f719822fffe00691082f9c223e0c0688685fce95fccc75eb3",
+    "raw/viedma-2005.pdf": "8f539523b097747bbc2d0f563f18fc86ac86139a49c95a9b396dfaa258c08912"
+  },
+  "limits": [
+    "No wet experiment, causal founder attribution, fitting, new DFT or fresh held-out validation.",
+    "Original aggregate discrepancies retained; no unobserved measurement correction inferred.",
+    "No claim of novelty for NaClO3 or dataset."
+  ]
+}

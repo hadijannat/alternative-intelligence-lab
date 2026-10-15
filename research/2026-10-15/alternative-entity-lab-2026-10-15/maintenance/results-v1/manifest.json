@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-15T08:55:01.227459+00:00",
+  "freeze_sha256": "c1edddb6d610e88d32912cedfc0c84a1c46690e752322bdc1e5768f6ef7d8fe3",
+  "outputs_sha256": {
+    "PROTOCOL.md": "e72348c361566d547749523553121fe98eb74f8f0af4f66444a7f6dcde631325",
+    "config.json": "570a5603cd222bfca68bc2a6d5a346b40eb7e685f48493bb9763785bf552e222",
+    "dt_refinement.json": "c50561315ac50d9fecbf75de704498384b176cd2fa223cfbc12fca47a48360d7",
+    "endpoints.json": "b1be8bd080e3f686c8790f5b8bbdf33f071e0e5cb97e71c5e41cb98819bc6074",
+    "freeze.json": "c1edddb6d610e88d32912cedfc0c84a1c46690e752322bdc1e5768f6ef7d8fe3",
+    "report.md": "f316049d1c482cf23ef0fc18604df3e3c2d634344c84cfdd2facab72ac15a0c2",
+    "summary.json": "bdae40019d605d7c8c7a1e0c9400339824dfa44d192795a9908df8f26f6b88d5",
+    "trajectories.csv": "003b07de1ec6b0386c13130a51d434c3600ac0b6246edcab7aaca34cae1203b8"
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "runtime_seconds": 0.8581596669973806,
+  "source_sha256": {
+    "PROTOCOL.md": "e72348c361566d547749523553121fe98eb74f8f0af4f66444a7f6dcde631325",
+    "__init__.py": "c4576af8440ff126561cee1f6d2cd2ef18b98a38fab6e4e73671bd44aa750803",
+    "config.json": "570a5603cd222bfca68bc2a6d5a346b40eb7e685f48493bb9763785bf552e222",
+    "model.py": "2baf1a7a84c21e6e1a1837e24956cb36ecca34195dd7ecaccdff0e3aaadea77d",
+    "run_lab.py": "0496d8565f2383c36247f228f4433f830956ab1100f8c88a130c8c19f89ca3e7",
+    "test_model.py": "dc12586890069be729dc7d3c2dc8cb997396beba15cda1ef269c711c5a7e1f97"
+  },
+  "trajectory_rows": 28848
+}

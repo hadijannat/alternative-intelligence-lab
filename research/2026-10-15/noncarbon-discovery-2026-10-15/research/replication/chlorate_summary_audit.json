@@ -1,0 +1,122 @@
+[
+  {
+    "condition": "Stirring + No US",
+    "n": 4,
+    "field": "total_crystal_mass_g",
+    "statistic": "Average",
+    "printed": 8.332,
+    "recomputed": 8.06475,
+    "difference": -0.26725000000000065,
+    "agrees_with_rounding": false
+  },
+  {
+    "condition": "Stirring + No US",
+    "n": 4,
+    "field": "total_crystal_mass_g",
+    "statistic": "Standard Deviation",
+    "printed": 0.929,
+    "recomputed": 0.9287081978030917,
+    "difference": -0.00029180219690838616,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "Stirring + No US",
+    "n": 4,
+    "field": "seed_similarity_percent",
+    "statistic": "Average",
+    "printed": 99.26,
+    "recomputed": 99.4425,
+    "difference": 0.18249999999999034,
+    "agrees_with_rounding": false
+  },
+  {
+    "condition": "Stirring + No US",
+    "n": 4,
+    "field": "seed_similarity_percent",
+    "statistic": "Standard Deviation",
+    "printed": 0.66,
+    "recomputed": 0.6651503589414921,
+    "difference": 0.0051503589414920725,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "98kHz, 20W, No Stirring",
+    "n": 5,
+    "field": "total_crystal_mass_g",
+    "statistic": "Average",
+    "printed": 8.906,
+    "recomputed": 9.4868,
+    "difference": 0.5808,
+    "agrees_with_rounding": false
+  },
+  {
+    "condition": "98kHz, 20W, No Stirring",
+    "n": 5,
+    "field": "total_crystal_mass_g",
+    "statistic": "Standard Deviation",
+    "printed": 1.566,
+    "recomputed": 1.5662131719532943,
+    "difference": 0.00021317195329428884,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "98kHz, 20W, No Stirring",
+    "n": 5,
+    "field": "seed_similarity_percent",
+    "statistic": "Average",
+    "printed": 85.75,
+    "recomputed": 84.428,
+    "difference": -1.3220000000000027,
+    "agrees_with_rounding": false
+  },
+  {
+    "condition": "98kHz, 20W, No Stirring",
+    "n": 5,
+    "field": "seed_similarity_percent",
+    "statistic": "Standard Deviation",
+    "printed": 16.94,
+    "recomputed": 16.93689375298788,
+    "difference": -0.0031062470121199226,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "200kHz, 20W, No stirring",
+    "n": 4,
+    "field": "total_crystal_mass_g",
+    "statistic": "Average",
+    "printed": 8.994,
+    "recomputed": 8.994,
+    "difference": 0.0,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "200kHz, 20W, No stirring",
+    "n": 4,
+    "field": "total_crystal_mass_g",
+    "statistic": "Standard Deviation",
+    "printed": 1.141,
+    "recomputed": 1.1412177706292521,
+    "difference": 0.0002177706292521009,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "200kHz, 20W, No stirring",
+    "n": 4,
+    "field": "seed_similarity_percent",
+    "statistic": "Average",
+    "printed": 91.4,
+    "recomputed": 91.4025,
+    "difference": 0.0024999999999977263,
+    "agrees_with_rounding": true
+  },
+  {
+    "condition": "200kHz, 20W, No stirring",
+    "n": 4,
+    "field": "seed_similarity_percent",
+    "statistic": "Standard Deviation",
+    "printed": 8.68,
+    "recomputed": 8.679171907503619,
+    "difference": -0.0008280924963806058,
+    "agrees_with_rounding": true
+  }
+]

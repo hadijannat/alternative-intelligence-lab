@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-15",
+  "scope": "Primary chemistry topology and retained challenge data review; no measured fits",
+  "workbook": "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+  "authors_contacted": false,
+  "new_matched_condition_numeric_data_acquired": false,
+  "retained_input_sha256": {
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.xml": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt": "af87baafa8f0a46ea465e0e34384c423e9a0333e0731991e179608020b7ac6c3",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-mechanism-2026-10-15/sources/salibi/SI13-page17.png": "b06f74143ea0638e55a840940d88680a3f244d3332b5c5aa1b6fd2eccc3c1d5f",
+    "rna-mechanism-2026-10-15/sources/salibi/conditions.json": "10ad697f383d9ca12837a459a54429a0ace021118cf51ad09a9dc5f058e23cbc",
+    "rna-mechanism-2026-10-15/sources/salibi/observations.csv": "374695213995633810e23f3422dd4726329820f2d4cb070cf8b09151277d9134",
+    "rna-reaction-tests-2026-10-15/research/REPORT.md": "4b6adb91c115b8eaf1acd946769e5e4ebac13f402f402cb56c142c94c48b82f0",
+    "rna-turnover-tests-2026-10-15/research/REPORT.md": "ead867c1e652251c2846527945abd782df6ebb5c79c71398be671cb8315a2713",
+    "rna-turnover-tests-2026-10-15/research/sources.json": "a7a609691962ad2a72bc5c07644959a6ea0aaabad777ec79d9611080eaf7eed2"
+  },
+  "sources": [
+    {
+      "id": "salibi2023",
+      "title": "Periodic temperature changes drive the proliferation of self-replicating RNAs in vesicle populations",
+      "doi": "10.1038/s41467-023-36940-z",
+      "url": "https://www.nature.com/articles/s41467-023-36940-z",
+      "primary": true,
+      "access": "Retained article/SI/workbook inspected; primary indexed article rechecked online; live direct article returned authorization redirect",
+      "local_evidence": [
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            319,
+            324
+          ],
+          "claim": "Static2A2B secondary structure, no reaction arrows or kinetic rates"
+        },
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            348,
+            373
+          ],
+          "claim": "S13 Hyper-A catalyst schematic and inactive reporter"
+        },
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt",
+          "lines": [
+            101,
+            107
+          ],
+          "claim": "G38A/Cy5 reporter and GUV recipes"
+        },
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            528,
+            581
+          ],
+          "claim": "S10,S12,S13,S15,S18 experimental conditions"
+        },
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            426,
+            434
+          ],
+          "claim": "S18 substantial highA background after42C"
+        },
+        {
+          "path": "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+          "lines": [
+            307,
+            314
+          ],
+          "claim": "S10caption differs fromMethods recipe"
+        }
+      ],
+      "exact_excerpt": "Secondary structure of the 2A2B substrate tetramer",
+      "observations": "S18 zeroFT42C remains highbackground withoutseed; S15 membraneaddition raisesyield;S10no numericaltable",
+      "does_not_establish": [
+        "concertedtwoFproduction",
+        "S11massactionexponent",
+        "ABaffinity orproductiveconformerfraction",
+        "sameglucose/sucroserates",
+        "activeF1retention orfunctionalinheritance"
+      ]
+    },
+    {
+      "id": "robertson2014",
+      "title": "Highly Efficient Self-Replicating RNA Enzymes",
+      "doi": "10.1016/j.chembiol.2013.12.004",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943892/",
+      "primary": true,
+      "access": "Primary fulltext through web indexed search; not newly downloaded",
+      "locations": [
+        "Results: Analysis of Individual Evolved Enzymes",
+        "Results: Cross-replication and Sustained Exponential Growth",
+        "Experimental Procedures: Assay of Ligation Activity",
+        "Discussion"
+      ],
+      "conditions": "F1kinetics42C,25mMMg,50mMEPPS,pH8.5;traceA<=3nM,B100uM,enzyme0.5\u201337.5uM. Replicationtemperatureandconcentrationsvary.",
+      "exact_excerpt": "non-productive complexes form between A and B",
+      "admission": "Topology evidence for competing precursor complexes; no Salibi binding constants ormatchedholdout",
+      "supports": [
+        "F1 productive andnonproductive complexesmustbedistinguished",
+        "F1 enhancement increasesbothautocatalyticandspontaneousrates"
+      ]
+    },
+    {
+      "id": "ferretti2013",
+      "title": "Kinetic Properties of an RNA Enzyme that Undergoes Self-Sustained Exponential Amplification",
+      "doi": "10.1021/bi301646n",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/bi301646n",
+      "primary": true,
+      "access": "PrimaryACSabstractrecheckedonline; measuredconstantsfrompreviousprimaryfulltextauditretainedandhashed",
+      "locations": [
+        "Experimental Procedures",
+        "Discussion",
+        "Figures4and7"
+      ],
+      "conditions": "E/Eprimecrossreplicators44C,25mMMgCl2,50mMEPPS,pH8.5",
+      "constants_context_only": {
+        "substrate_complex_Kd_uM_approx": 0.1,
+        "substrate_complex_off_per_min_lower_bound": 1,
+        "product_release_per_min": 0.21
+      },
+      "admission": "Competing complex and release mechanisms; no direct transfer of these constants toSalibiF1"
+    }
+  ],
+  "dataset_admission": [
+    {
+      "dataset": "S18_zeroFT_42C",
+      "rows": 6,
+      "cells": [
+        "F5",
+        "G5",
+        "H5",
+        "L5",
+        "M5",
+        "N5"
+      ],
+      "recipe_uM": {
+        "A": 9,
+        "R": 1,
+        "B": 15,
+        "F": [
+          0,
+          1
+        ]
+      },
+      "temperature_C": 42,
+      "time_min": 60,
+      "buffer": "50mMEPPS,20mMMgCl2;sucrosenotlisted",
+      "use": "Separatebuffertransferchallenge,notprimarymatchedaccuracygate",
+      "previously_exported": true
+    },
+    {
+      "dataset": "S18_all",
+      "rows": 48,
+      "use": "FTcontext;10+10minprotocolnotGUV5+5min",
+      "previously_exported": true
+    },
+    {
+      "dataset": "S15",
+      "rows": 18,
+      "use": "Membranemodulationcontext;nominalvsfinalconcentrationambiguity",
+      "previously_exported": true
+    },
+    {
+      "dataset": "S10",
+      "rows": 0,
+      "use": "Same-sucrosehigherA gelcontextonly;noquantitativetableandcaptionMethodsBdiscrepancy",
+      "numeric_data_available": false
+    },
+    {
+      "dataset": "S12",
+      "rows": 126,
+      "use": "Functionalrenewalcontext;initialsamplingnormalisationunresolved",
+      "previously_exported": true
+    }
+  ]
+}

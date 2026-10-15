@@ -1,0 +1,330 @@
+{
+  "summary": {
+    "founder": {
+      "qualified": 2,
+      "coverage": 2,
+      "wilson": [
+        0.34238022750665303,
+        1.0
+      ],
+      "mean_interval": [
+        0.5394291849388589,
+        1.499222606735013
+      ]
+    },
+    "native": {
+      "qualified": 2,
+      "coverage": 2,
+      "wilson": [
+        0.34238022750665303,
+        1.0
+      ],
+      "mean_interval": [
+        0.517917451098623,
+        1.4402177370300668
+      ]
+    },
+    "refolded": {
+      "qualified": 2,
+      "coverage": 2,
+      "wilson": [
+        0.34238022750665303,
+        1.0
+      ],
+      "mean_interval": [
+        0.5070355343140531,
+        1.4099799497471024
+      ]
+    }
+  },
+  "raw": [
+    {
+      "replicate": 0,
+      "before_fmol": 16.0,
+      "after_fmol": 14.400030373916401,
+      "external_loss_fmol": 1.599969626083599,
+      "inactivated_fmol": 0.7199575786734018,
+      "observations": [
+        {
+          "signals": {
+            "founder": {
+              "raw": 3.8392745924130187,
+              "response": 0.24399112221265082,
+              "censored": false
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.24399112221265082,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.24399112221265082,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.24399112221265082,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.24399112221265082,
+              "censored": true
+            },
+            "native": {
+              "raw": 1.9827373818359035,
+              "response": 0.12199556110632541,
+              "censored": false
+            },
+            "refolded": {
+              "raw": 2.0669601300686664,
+              "response": 0.12199556110632541,
+              "censored": false
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 0.01,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 16000.0
+        },
+        {
+          "signals": {
+            "founder": {
+              "raw": 3.368933791962603,
+              "response": 0.21936776448401024,
+              "censored": false
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.21936776448401024,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.21936776448401024,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.21936776448401024,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.21936776448401024,
+              "censored": true
+            },
+            "native": {
+              "raw": 1.7263611162500692,
+              "response": 0.10968388224200512,
+              "censored": false
+            },
+            "refolded": {
+              "raw": 1.7041409105174796,
+              "response": 0.10968388224200512,
+              "censored": false
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 0.01,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 16000.0
+        }
+      ],
+      "ratios": {
+        "founder": [
+          0.5854190302807059,
+          1.6270706066389493
+        ],
+        "native": [
+          0.5807206600278153,
+          1.614862347776034
+        ],
+        "refolded": [
+          0.5498838275417608,
+          1.529091700517026
+        ]
+      },
+      "truth": {
+        "founder": 0.9000018983697751,
+        "native": 0.8550045497026875,
+        "refolded": 0.8640040194361049
+      }
+    },
+    {
+      "replicate": 1,
+      "before_fmol": 16.0,
+      "after_fmol": 14.40006494467924,
+      "external_loss_fmol": 1.5999350553207594,
+      "inactivated_fmol": 0.7200642550241553,
+      "observations": [
+        {
+          "signals": {
+            "founder": {
+              "raw": 4.170806155394763,
+              "response": 0.253035327752076,
+              "censored": false
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.253035327752076,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.253035327752076,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.253035327752076,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.253035327752076,
+              "censored": true
+            },
+            "native": {
+              "raw": 2.088327576095428,
+              "response": 0.126517663876038,
+              "censored": false
+            },
+            "refolded": {
+              "raw": 1.9735703868039265,
+              "response": 0.126517663876038,
+              "censored": false
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 0.01,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 16000.0
+        },
+        {
+          "signals": {
+            "founder": {
+              "raw": 3.5988158462199817,
+              "response": 0.2654101722618538,
+              "censored": false
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.2654101722618538,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.2654101722618538,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.2654101722618538,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.2654101722618538,
+              "censored": true
+            },
+            "native": {
+              "raw": 1.6625147587657128,
+              "response": 0.1327050861309269,
+              "censored": false
+            },
+            "refolded": {
+              "raw": 1.6025148598581522,
+              "response": 0.1327050861309269,
+              "censored": false
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 0.01,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 16000.0
+        }
+      ],
+      "ratios": {
+        "founder": [
+          0.49343933959701197,
+          1.3713746068310766
+        ],
+        "native": [
+          0.4551142421694307,
+          1.2655731262841
+        ],
+        "refolded": [
+          0.4641872410863455,
+          1.2908681989771789
+        ]
+      },
+      "truth": {
+        "founder": 0.9000040590424525,
+        "native": 0.8550000431034428,
+        "refolded": 0.8640008462912447
+      }
+    }
+  ]
+}

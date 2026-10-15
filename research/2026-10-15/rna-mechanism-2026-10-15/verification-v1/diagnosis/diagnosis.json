@@ -1,0 +1,94 @@
+{
+  "overall_rmse_pp": 7.866012137843208,
+  "saved_baseline_reproduced": true,
+  "by_condition": [
+    {
+      "dataset": "S13_F1",
+      "seed_uM": 0.1,
+      "hyper_uM": 0.0,
+      "rmse_pp": 0.9575926973158914,
+      "bias_pp": -0.1287168615314851,
+      "observed_60min_percent": 40.32433,
+      "predicted_60min_percent": 41.94689010043942
+    },
+    {
+      "dataset": "S13_F1",
+      "seed_uM": 0.25,
+      "hyper_uM": 0.0,
+      "rmse_pp": 2.3138345330819208,
+      "bias_pp": -1.4334902640512879,
+      "observed_60min_percent": 67.69833,
+      "predicted_60min_percent": 68.17606776276322
+    },
+    {
+      "dataset": "S13_F1",
+      "seed_uM": 0.5,
+      "hyper_uM": 0.0,
+      "rmse_pp": 7.325127673978658,
+      "bias_pp": -5.932754041150251,
+      "observed_60min_percent": 89.34633,
+      "predicted_60min_percent": 85.30252207430308
+    },
+    {
+      "dataset": "S13_F1",
+      "seed_uM": 1.0,
+      "hyper_uM": 0.0,
+      "rmse_pp": 7.101530398756255,
+      "bias_pp": -4.6493907220129245,
+      "observed_60min_percent": 95.21767,
+      "predicted_60min_percent": 95.79230197887819
+    },
+    {
+      "dataset": "S13_HyperA",
+      "seed_uM": 0.0,
+      "hyper_uM": 1.0,
+      "rmse_pp": 7.386456124615436,
+      "bias_pp": -5.4190226613404775,
+      "observed_60min_percent": 14.40133,
+      "predicted_60min_percent": 0.9608303263318014
+    },
+    {
+      "dataset": "S13_HyperA",
+      "seed_uM": 0.0,
+      "hyper_uM": 1.5,
+      "rmse_pp": 8.128552632980808,
+      "bias_pp": -6.511888866410243,
+      "observed_60min_percent": 28.46933,
+      "predicted_60min_percent": 17.408141417093344
+    },
+    {
+      "dataset": "S13_HyperA",
+      "seed_uM": 0.0,
+      "hyper_uM": 2.0,
+      "rmse_pp": 9.950191468658943,
+      "bias_pp": -2.8493465161429645,
+      "observed_60min_percent": 47.378,
+      "predicted_60min_percent": 61.20446653139222
+    },
+    {
+      "dataset": "S13_HyperA",
+      "seed_uM": 0.0,
+      "hyper_uM": 2.5,
+      "rmse_pp": 12.844988123996448,
+      "bias_pp": 2.4378733742824834,
+      "observed_60min_percent": 59.73033,
+      "predicted_60min_percent": 78.97442822627282
+    }
+  ],
+  "rmse_by_route_pp": {
+    "S13_F1": 5.252619429032108,
+    "S13_HyperA": 9.806032991946733
+  },
+  "B_initial_uM": 7.5,
+  "B_remaining_at_observed_F1_1uM_60min_uM": 2.7391164999999997,
+  "notes": [
+    "The B estimate uses F1-only chemistry with one B consumed per observed reporter product.",
+    "Both held-out transfer outcomes and these bulk observations are now development evidence.",
+    "Residuals diagnose inadequacy; they do not uniquely identify the omitted mechanism."
+  ],
+  "baseline_sha256": {
+    "measured-coupling-2026-10-15/rna_model/model.py": "d42c78d728a1757ae43ca01ba557659321cafbbba8ea757686bd9d1ebc1c6ceb",
+    "measured-coupling-2026-10-15/rna_model/results-v1/summary.json": "7d0574e61e846b69acac87a53c182a31344eb9e4e118da00164bf809fbb28767",
+    "measured-coupling-2026-10-15/rna_sources/observations.csv": "6028744c2828be5c2a8ed851fb17103d193d7cbdc239effcfeaba2d59a189182"
+  }
+}

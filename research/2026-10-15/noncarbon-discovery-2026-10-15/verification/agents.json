@@ -1,0 +1,194 @@
+{
+  "snapshot_utc": "2026-10-15T17:07:54.055250+00:00",
+  "source": "collaboration.list_agents exact-subtree queries during the current noncarbon task; manually transcribed names/statuses from tool results",
+  "snapshot_state": "Final participation snapshot: 23 terminally completed; this final auditor running immediately before terminal response. No further agents planned by coordinator.",
+  "scope": "Only agents participating in noncarbon-discovery-2026-10-15; old RNA agents and /root coordinator excluded from participant count",
+  "requested_subagents": 1000,
+  "actual_participating_subagents": 24,
+  "direct_specialists": 15,
+  "child_audits": 9,
+  "including_coordinator": 25,
+  "thousand_agents_executed": false,
+  "includes_restricted_or_partially_completed_subtasks": true,
+  "material_records_are_not_agents": true,
+  "agents": [
+    {
+      "agent_name": "/root/inorganic_alternatives",
+      "parent": "/root",
+      "role": "Alternative noncarbon structural scaffold review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_alternatives/sulfur_primary",
+      "parent": "/root/inorganic_alternatives",
+      "role": "Primary sulfur and polythiazyl evidence review",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within scope"
+    },
+    {
+      "agent_name": "/root/inorganic_compartments",
+      "parent": "/root",
+      "role": "Mineral compartment and carbon dependency review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_database",
+      "parent": "/root",
+      "role": "JARVIS acquisition, composition-only screen and replay",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_database/jarvis_source_audit",
+      "parent": "/root/inorganic_database",
+      "role": "Independent registry, source property and selection audit",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within scope"
+    },
+    {
+      "agent_name": "/root/inorganic_final_audit",
+      "parent": "/root",
+      "role": "Independent raw-data reconstruction, replay and final claims audit",
+      "observed_status": "running",
+      "participation_class": "direct_specialist",
+      "outcome_limit": "Audit artifacts completed; runtime is still running at this final pre-response snapshot"
+    },
+    {
+      "agent_name": "/root/inorganic_information_audit",
+      "parent": "/root",
+      "role": "Physical learning, information and intelligence evidence audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_information_audit/mechanical_learning",
+      "parent": "/root/inorganic_information_audit",
+      "role": "Physical/mechanical learning evidence and carbon dependencies",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within bounded scope"
+    },
+    {
+      "agent_name": "/root/inorganic_kinetic_audit",
+      "parent": "/root",
+      "role": "Existing parent Mo36 kinetic data and validation audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_memory",
+      "parent": "/root",
+      "role": "Inorganic memory material and dataset review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_novelty",
+      "parent": "/root",
+      "role": "Bounded formula, literature and patent novelty audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_novelty/patent_check",
+      "parent": "/root/inorganic_novelty",
+      "role": "Initial patent/formal-charge check",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "Formal arithmetic completed; assigned role prohibited browsing, so source verification was not performed"
+    },
+    {
+      "agent_name": "/root/inorganic_novelty/patent_sources",
+      "parent": "/root/inorganic_novelty",
+      "role": "Public patent and exact-composition prior-art search",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within bounded scope"
+    },
+    {
+      "agent_name": "/root/inorganic_pom",
+      "parent": "/root",
+      "role": "Polyoxometalate chemistry and parent data review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_prior_repo_audit",
+      "parent": "/root",
+      "role": "Prior repository noncarbon results and negative evidence audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_prior_repo_audit/old_transport_constraints",
+      "parent": "/root/inorganic_prior_repo_audit",
+      "role": "Four prior transport/redox-capacity report constraints",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed read-only"
+    },
+    {
+      "agent_name": "/root/inorganic_redox_compatibility",
+      "parent": "/root",
+      "role": "Shared-medium redox and transport compatibility audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_redox_compatibility/oxide_conditions",
+      "parent": "/root/inorganic_redox_compatibility",
+      "role": "Primary WO3 electrochemical operating-condition check",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within scope"
+    },
+    {
+      "agent_name": "/root/inorganic_replication",
+      "parent": "/root",
+      "role": "Inorganic structural transmission and replication evidence audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_replication/inorganic_clock",
+      "parent": "/root/inorganic_replication",
+      "role": "Inorganic chemical-clock and driven-network evidence check",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "Two access-limited primary leads; no raw dataset or full methods acquired; bounded evidence passed to parent"
+    },
+    {
+      "agent_name": "/root/inorganic_skeptic",
+      "parent": "/root",
+      "role": "Critical chemistry and integrated-function claims review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_structure",
+      "parent": "/root",
+      "role": "Parent structure and derivative geometry evidence audit",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_sulfide",
+      "parent": "/root",
+      "role": "Sulfide, mineral catalyst and transport review",
+      "observed_status": "completed",
+      "participation_class": "direct_specialist"
+    },
+    {
+      "agent_name": "/root/inorganic_sulfide/carbon_audit",
+      "parent": "/root/inorganic_sulfide",
+      "role": "Independent fabrication carbon-confound wording audit",
+      "observed_status": "completed",
+      "participation_class": "child_audit",
+      "outcome_limit": "completed within scope"
+    }
+  ]
+}

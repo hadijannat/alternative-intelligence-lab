@@ -1,0 +1,65 @@
+{
+  "protocol": "v2",
+  "replicates": 2,
+  "development": true,
+  "namespace": [
+    20261015,
+    5199
+  ],
+  "n": [
+    24,
+    48,
+    96
+  ],
+  "thresholds_um": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "fields": [
+    "replicate",
+    "group",
+    "root",
+    "batch",
+    "generation",
+    "volume_pl",
+    "qualified",
+    "new_lower",
+    "new_upper",
+    "state_lower",
+    "state_upper",
+    "detected",
+    "true_current_active",
+    "true_founder_active",
+    "true_older_active",
+    "true_import_active",
+    "founder_raw",
+    "new_raw",
+    "hyper_raw",
+    "reporter_raw",
+    "imported_raw",
+    "native_raw",
+    "refolded_raw",
+    "identity_response",
+    "capacity_response",
+    "native_lower",
+    "native_upper",
+    "true_native",
+    "true_total_f1",
+    "true_current_total",
+    "pedigree_valid",
+    "sample_recovered"
+  ],
+  "sources": {
+    "lineage/model.py": "82c410ee7f1a64a0641852f306d27325f0eb186467ee100d2b0a622464e158a3",
+    "lineage/run.py": "53393f6390244a92ec9f4612cce3ed041779a6acb4802aef167d77dd6bf0caf2",
+    "lineage/test_model.py": "deecbe5bc544ad029a5a42376d1474c312d07f432b1ee29e3346463fcccc399f",
+    "lineage/PROTOCOL.md": "bf7410f20e16aa1711a97b439101c28e034c170ce7c0511cb4287c358591a3ca",
+    "assay/model.py": "0579ff178480f20c5453517518994174af51bff51d769d852276aa2c4f37fa7f",
+    "research/lineage/REPORT.md": "d105ca9d67ac51aee2ba4b4fc7d9d258045be82474483c1db114c43172401f05",
+    "research/lineage/sources.json": "2bbe9be77b5a8aa146100b5370bd451ebbbfdeede0fe586b7590d8eaad4ba595",
+    "research/assays/REPORT.md": "b67b25bcbd9392d2042de831a8587ef834a45226f72711e2abf5559528f19f5e",
+    "research/assays/ledger.json": "b2f9018512b946a8adebccd96102ee13f7aa21d9c1d52a923ca9f6ae60d88eb0"
+  },
+  "numpy": "2.4.1"
+}

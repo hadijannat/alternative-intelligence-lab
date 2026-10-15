@@ -1,0 +1,78 @@
+[
+  {
+    "id": "Miras2020",
+    "doi": "10.1073/pnas.1921536117",
+    "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Mathis-PNASMay2020.pdf",
+    "scope": "Main pp2-3 and SI S5-S9: assembly conditions and loss regimes; stock/initial ambiguity retained",
+    "files": [
+      "../pom/raw/miras2020.pdf",
+      "../pom/raw/miras2020_si.pdf"
+    ],
+    "access": "Local primary PDFs read; main PDF independently opened with web",
+    "file_hashes": {
+      "../pom/raw/miras2020.pdf": "bff5ffb62f6aba2a98ea15032c3dae3f83442a8eff1b891fd8689ace992db8ce",
+      "../pom/raw/miras2020_si.pdf": "204298f459a04c2858dfd81e70a67eda91975520a8269ee7c83951b9de76a8e0"
+    }
+  },
+  {
+    "id": "Spencer2024",
+    "doi": "10.1039/D4SC00102H",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10988594/fullTextXML",
+    "scope": "Sections2.3,2.4,3.1 and3.3; Table1; no assigned electrochemical temperature",
+    "files": [
+      "raw/spencer2024.xml"
+    ],
+    "access": "New primary fulltext acquired; earlier memory-folder HTML was CAPTCHA",
+    "file_hashes": {
+      "raw/spencer2024.xml": "f899e2903a3d7c418dc94e3e84ebde158d282086959c83399044e4ede73d7ad1"
+    }
+  },
+  {
+    "id": "Yao2020",
+    "doi": "10.1038/s41467-020-16866-6",
+    "url": "https://www.nature.com/articles/s41467-020-16866-6",
+    "scope": "Device methods and retention discussion; checked independently by child oxide_conditions",
+    "files": [
+      "../memory/raw/wo3_2020.html"
+    ],
+    "access": "Retained primary fulltext read by child; exact atmosphere and potential convention checked",
+    "file_hashes": {
+      "../memory/raw/wo3_2020.html": "ae3aa92aa06d1166b14a91c1973f4dfff714d6a66a1bb2b046fa882e83b62915"
+    }
+  },
+  {
+    "id": "Roychowdhury2025",
+    "doi": "10.1021/acselectrochem.5c00137",
+    "url": "https://escholarship.org/content/qt9wx6z830/qt9wx6z830_noSplash_85e8c82a55bb690113f20c078595c6e6.pdf",
+    "scope": "Author manuscript pp9-10,14,19-20; publication year verified at ACS; dissolution is inference from electrochemistry not direct dissolved-metal measurement",
+    "files": [],
+    "access": "Primary manuscript readable with web; HTTP download returned202 empty body; no local PDF claimed",
+    "file_hashes": {}
+  },
+  {
+    "id": "Raabe2023",
+    "doi": "10.3390/inorganics11040138",
+    "url": "https://www.mdpi.com/2304-6740/11/4/138",
+    "scope": "Main electrochemical section; reference electrode unresolved because SI inaccessible",
+    "files": [
+      "../pom/raw/raabe2023.pdf"
+    ],
+    "access": "Local primary PDF read; web main429, SI inaccessible; direct SI403 saved",
+    "file_hashes": {
+      "../pom/raw/raabe2023.pdf": "947910692b63e5888a21b7f9a47eb03f88bb1caaf00234df4f4336bddce39ee2"
+    }
+  },
+  {
+    "id": "Chen2022",
+    "doi": "10.1021/jacs.1c10584",
+    "url": "https://eprints.gla.ac.uk/268802/1/268802.pdf",
+    "scope": "Concentration-dependent reduced-state stabilization and dilution-triggered H2; not a kinetic transfer",
+    "files": [
+      "../pom/raw/chen2022.pdf"
+    ],
+    "access": "Local primary PDF and web primary PDF inspected",
+    "file_hashes": {
+      "../pom/raw/chen2022.pdf": "1eaf800df7921bbfec475500549f9d1bd47ba1fce80722b60ed5ff086f705e77"
+    }
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "scope": "Carbon-free compartment candidate audit; no laboratory execution",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Barge et al. 2015",
+      "doi": "10.1002/anie.201501663",
+      "url": "https://authors.library.caltech.edu/records/e0cz9-bgc19",
+      "source_type": "primary experiment",
+      "access": "Publisher abstract and archived SI inspected",
+      "limit": "Electrical compartment; no maintenance demonstration",
+      "access_date": "2026-10-15",
+      "local_path": "PROJECT_ROOT/discovery-loop/sources/mineral-compartments/iron2015-supplement.pdf",
+      "bytes": 369552,
+      "sha256": "a4527dee903a1dfe011d526216dd1a78a7ba39cb6530b9ba0b6340c2ee0f6147"
+    },
+    {
+      "id": "S02",
+      "title": "Glaab et al. 2016",
+      "doi": "10.1039/C6CP02107G",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2016/cp/c6cp02107g",
+      "source_type": "primary experiment",
+      "access": "Publisher abstract and archived complete PDF inspected",
+      "limit": "Coupled diffusion/precipitation; finite gradients",
+      "access_date": "2026-10-15",
+      "local_path": "PROJECT_ROOT/discovery-loop/sources/mineral-compartments/silicate2016-main.pdf",
+      "bytes": 3442738,
+      "sha256": "ba07d2806dfae2d469ed3bb477beb1a7e550f13f148890976733d0158719527c"
+    },
+    {
+      "id": "S03",
+      "title": "Cooper et al. 2011",
+      "doi": "10.1002/anie.201105068",
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Cooper2011AngewChem.pdf",
+      "source_type": "primary experiment",
+      "access": "Complete author PDF acquired and inspected",
+      "limit": "Organic membrane cations are essential in demonstrated examples",
+      "access_date": "2026-10-15",
+      "local_path": "PROJECT_ROOT/noncarbon-discovery-2026-10-15/research/compartments/raw/ichell2011.pdf",
+      "bytes": 455848,
+      "sha256": "9b5016eb86e7102d68e693dd29419b2e10d2930f8100a94157e8b971272f7666"
+    },
+    {
+      "id": "S04",
+      "title": "Nakanishi et al. 2018",
+      "doi": "10.1002/anie.201805584",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6348376/",
+      "source_type": "primary experiment",
+      "access": "Primary full-text search extract inspected",
+      "limit": "Hybrid organic/inorganic energy-conversion system",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S05",
+      "title": "Li et al. 2013",
+      "doi": "10.1038/nchem.1644",
+      "url": "https://www.nature.com/articles/nchem.1644",
+      "source_type": "primary experiment",
+      "access": "Publisher abstract inspected; direct page redirect failed",
+      "limit": "Grafted organic polymer supplies gating",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S06",
+      "title": "Li et al. 2014",
+      "doi": "10.1002/smll.201400639",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/smll.201400639",
+      "source_type": "primary experiment",
+      "access": "Publisher abstract inspected",
+      "limit": "Division uses organosilane-mediated methanol generation",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S07",
+      "title": "Arrhenius et al. 1986",
+      "doi": "10.1002/anie.198606581",
+      "url": "https://www.researchgate.net/publication/250411536_Bemerkungen_zum_Aufsatz_Replikation_und_Evolution_in_anorganischen_Systemen_vonArmin_Weiss",
+      "source_type": "primary critique",
+      "access": "Author-deposited complete letter text inspected; publisher failed",
+      "limit": "Replication methods insufficient for independent repetition",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S08",
+      "title": "Whittaker et al. 2020",
+      "doi": "10.48550/arXiv.2012.09295",
+      "url": "https://arxiv.org/abs/2012.09295",
+      "source_type": "primary preprint",
+      "access": "Author abstract and institutional PDF search extracts inspected",
+      "limit": "Dynamic clay reorganization; no hereditary code demonstrated",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S09",
+      "title": "Gumerova and Rompel 2023",
+      "doi": "10.1126/sciadv.adi0814",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10284552/",
+      "source_type": "primary experiment/data resource",
+      "access": "Primary article methods, results and data statement inspected",
+      "limit": "Medium-dependent POM identity; no mineral permeability rates",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "S10",
+      "title": "Zheng et al. 2025",
+      "doi": "10.1098/rsta.2024.0266",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/47b80a27-3a35-4551-a604-1ff39f8bb5b0/content",
+      "source_type": "primary experiment",
+      "access": "Complete primary PDF acquired and inspected",
+      "limit": "Passive diffusion/fracture comparator",
+      "access_date": "2026-10-15",
+      "local_path": "PROJECT_ROOT/noncarbon-discovery-2026-10-15/research/compartments/raw/garden2025.pdf",
+      "bytes": 5969976,
+      "sha256": "03a3525018a74bf2bc5a3339ed423add668bc298113d76dcea62bedfb9924532"
+    },
+    {
+      "id": "S11",
+      "title": "Zhao and Sakurai 2017",
+      "doi": "10.1021/acsomega.7b00930",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6641959/",
+      "source_type": "primary experiment",
+      "access": "Primary page and supplementary descriptions inspected",
+      "limit": "Elemental transport; not active-species retention",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "D01",
+      "title": "Zheng et al. garden data",
+      "doi": "10.17863/CAM.112968",
+      "url": "https://www.repository.cam.ac.uk/items/ab42cafd-b2f7-4e9b-a4c1-d7ef1e53c639",
+      "source_type": "primary dataset",
+      "access": "Repository metadata inspected; archives not downloaded",
+      "limit": "Whole-condition held-out passive null-model data",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "D02",
+      "title": "Gumerova and Rompel NMR data",
+      "doi": "10.25365/phaidra.398",
+      "url": "https://phaidra.univie.ac.at/o:1648343",
+      "source_type": "primary dataset",
+      "access": "Deposit verified in article; repository anti-bot response",
+      "limit": "Raw NMR not inspected",
+      "access_date": "2026-10-15"
+    },
+    {
+      "id": "D03",
+      "title": "2026 Keggin scaffold NMR lead",
+      "doi": "10.1021/acs.jmedchem.6c01515",
+      "url": "https://phaidra.univie.ac.at/o:2337471",
+      "source_type": "primary dataset lead",
+      "access": "Publisher data-availability statement only",
+      "limit": "Raw NMR and chemistry conditions unverified",
+      "access_date": "2026-10-15"
+    }
+  ]
+}

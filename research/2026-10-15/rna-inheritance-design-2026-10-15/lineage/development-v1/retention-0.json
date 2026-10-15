@@ -1,0 +1,294 @@
+{
+  "summary": {
+    "founder": {
+      "qualified": 0,
+      "coverage": 0,
+      "wilson": null,
+      "mean_interval": null
+    },
+    "native": {
+      "qualified": 0,
+      "coverage": 0,
+      "wilson": null,
+      "mean_interval": null
+    },
+    "refolded": {
+      "qualified": 0,
+      "coverage": 0,
+      "wilson": null,
+      "mean_interval": null
+    }
+  },
+  "raw": [
+    {
+      "replicate": 0,
+      "before_fmol": 0.008384,
+      "after_fmol": 0.0075446094355323574,
+      "external_loss_fmol": 0.0008393908746829093,
+      "inactivated_fmol": 0.00037689255207644796,
+      "observations": [
+        {
+          "signals": {
+            "founder": {
+              "raw": 0.002652359606504258,
+              "response": 0.23850133268765952,
+              "censored": true
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.23850133268765952,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.23850133268765952,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.23850133268765952,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.23850133268765952,
+              "censored": true
+            },
+            "native": {
+              "raw": 0.0016050669102011365,
+              "response": 0.11925066634382976,
+              "censored": true
+            },
+            "refolded": {
+              "raw": 0.0016212062779776876,
+              "response": 0.11925066634382976,
+              "censored": true
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 1.0,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 8.384
+        },
+        {
+          "signals": {
+            "founder": {
+              "raw": 0.0024168749991188105,
+              "response": 0.24721491285164401,
+              "censored": true
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.24721491285164401,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.24721491285164401,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.24721491285164401,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.24721491285164401,
+              "censored": true
+            },
+            "native": {
+              "raw": 0.0013967414464970637,
+              "response": 0.12360745642582201,
+              "censored": true
+            },
+            "refolded": {
+              "raw": 0.0014128039331637258,
+              "response": 0.12360745642582201,
+              "censored": true
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 1.0,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 8.384
+        }
+      ],
+      "ratios": {
+        "founder": null,
+        "native": null,
+        "refolded": null
+      },
+      "truth": {
+        "founder": 0.8998818506121609,
+        "native": 0.854928063389302,
+        "refolded": 0.8639188208338738
+      }
+    },
+    {
+      "replicate": 1,
+      "before_fmol": 0.008384,
+      "after_fmol": 0.007546608724569234,
+      "external_loss_fmol": 0.0008373915856460319,
+      "inactivated_fmol": 0.0003765122886300652,
+      "observations": [
+        {
+          "signals": {
+            "founder": {
+              "raw": 0.002608864822889235,
+              "response": 0.25384911635752605,
+              "censored": true
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.25384911635752605,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.25384911635752605,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.25384911635752605,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.25384911635752605,
+              "censored": true
+            },
+            "native": {
+              "raw": 0.0015842536433639985,
+              "response": 0.12692455817876303,
+              "censored": true
+            },
+            "refolded": {
+              "raw": 0.0015697325592357713,
+              "response": 0.12692455817876303,
+              "censored": true
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 1.0,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 8.384
+        },
+        {
+          "signals": {
+            "founder": {
+              "raw": 0.0024493612181709142,
+              "response": 0.2328735980275597,
+              "censored": true
+            },
+            "new": {
+              "raw": 0.0005,
+              "response": 0.2328735980275597,
+              "censored": true
+            },
+            "hyper": {
+              "raw": 0.0005,
+              "response": 0.2328735980275597,
+              "censored": true
+            },
+            "reporter": {
+              "raw": 0.0005,
+              "response": 0.2328735980275597,
+              "censored": true
+            },
+            "imported": {
+              "raw": 0.0005,
+              "response": 0.2328735980275597,
+              "censored": true
+            },
+            "native": {
+              "raw": 0.0013852262231256272,
+              "response": 0.11643679901377985,
+              "censored": true
+            },
+            "refolded": {
+              "raw": 0.0013917311553638626,
+              "response": 0.11643679901377985,
+              "censored": true
+            }
+          },
+          "calibration": {
+            "recovery": 0.5,
+            "identity_fraction": 0.5,
+            "capacity_fraction": 0.25,
+            "loq": 1.0,
+            "relative_margin": 0.25,
+            "cross_upper": 0.001,
+            "founder_specific_upper": 1.1,
+            "new_specific_upper": 1.1,
+            "hyper_upper": 0.15,
+            "reporter_upper": 0.02,
+            "imported_upper": 1.1,
+            "label_qualified": true,
+            "mixture_qualified": true,
+            "recovery_qualified": true,
+            "native_qualified": true
+          },
+          "qualified": true,
+          "volume_pl": 8.384
+        }
+      ],
+      "ratios": {
+        "founder": null,
+        "native": null,
+        "refolded": null
+      },
+      "truth": {
+        "founder": 0.9001203154304906,
+        "native": 0.8552118840576298,
+        "refolded": 0.864193570332202
+      }
+    }
+  ]
+}

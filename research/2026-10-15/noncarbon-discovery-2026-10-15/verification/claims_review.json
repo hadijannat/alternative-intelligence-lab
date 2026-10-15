@@ -1,0 +1,44 @@
+{
+  "status": "APPROVE_WITH_DOCUMENTED_PROVENANCE_LIMITATION",
+  "review_scope": "Independent source/count/replay/charge audit and manual evidence-boundary review of root REPORT.md and candidate.json; not chemical validation",
+  "reviewed_report_sha256": "af39c60ff75edb4844eb41e69650de4b3454563939867ff44c4a840892e458f2",
+  "reviewed_candidate_sha256": "d4793fb6dd8c88a7d414817d8229134f0895c5929e710bb7c65595db3a4d21db",
+  "reviewed_checks_sha256": "a524aa235deafab00c45859df16da9300aabce53bd11048c941685f3f4cbca2c",
+  "participation_ledger_sha256": "085a24e25b17858f77bdd241091594ee834d6d75869c2e1f847488213b5ac580",
+  "checks": {
+    "reviewed_report_hash_matches_coordinator": true,
+    "reviewed_candidate_hash_matches_coordinator": true,
+    "24_named_unique_participants": true,
+    "15_direct_and_9_child_participants": true,
+    "23_terminally_completed_auditor_running_at_snapshot": true,
+    "restricted_patent_attempt_retained": true,
+    "requested_1000_agent_run_explicitly_not_performed": true,
+    "target_metal_count_36": true,
+    "target_charge_arithmetic": true,
+    "formal_reduced_charge_minus10": true,
+    "no_invented_geometry_energy_or_rates": true,
+    "novelty_and_life_claims_bounded": true,
+    "database_audit_22_checks_pass": true,
+    "root_report_local_links_resolve": true
+  },
+  "blocking_findings": [],
+  "retained_limitations": [
+    "No independently timestamped pre-property exact-code hash is available; composition-only selection and replay are independently verified.",
+    "24 subagents participated; requested 1000-agent run was not performed.",
+    "No target synthesis, DFT, known geometry, measured kinetics, aqueous compatibility or newly inherited function was demonstrated.",
+    "Novelty search is bounded; absence of exact indexed formula matches is not global novelty or patentability."
+  ],
+  "positive_and_negative_evidence_reviewed": [
+    "Parent Mo36 seed-dependent assembly and all-seeded data limitation",
+    "Parent CIF acquisition and sodium-coordinate anomaly",
+    "NaClO3 structural transmission, founder uncertainty and four aggregate discrepancies",
+    "Physical learning and retained material-state evidence; external energy does not by itself invalidate learning",
+    "WO3 HER discharge, condition-dependent dissolution and favorable morphology observation",
+    "Prior inheritance-reset and B-N numerical-qualification failures",
+    "All selected JARVIS negative and missing values retained"
+  ],
+  "replay_scope": "Existing full fresh-process replay verified byte-for-byte in all six scientific files; no exclusions; no redundant third screen",
+  "timestamp_utc": "2026-10-15T17:07:54.056333+00:00",
+  "local_links_checked": 25,
+  "missing_local_links": []
+}

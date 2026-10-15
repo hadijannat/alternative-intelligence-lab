@@ -1,0 +1,412 @@
+[
+  {
+    "ki_uM": 0.03,
+    "parameters": {
+      "k": 0.3240222619026768,
+      "kb": 1.000000000000045e-09,
+      "ki": 0.03,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 18015.253498366736,
+    "rmse_pp": 21.22218974232321,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      -1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      274.19611609451107,
+      1.4517600712136112
+    ]
+  },
+  {
+    "ki_uM": 0.1,
+    "parameters": {
+      "k": 0.11125964556475278,
+      "kb": 1.000000000000822e-09,
+      "ki": 0.1,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 14930.887704040524,
+    "rmse_pp": 19.320253430041053,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      -1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      307.1736405032848,
+      4.309458257739489
+    ]
+  },
+  {
+    "ki_uM": 0.3,
+    "parameters": {
+      "k": 0.05153522814454706,
+      "kb": 1.000000000000004e-09,
+      "ki": 0.3,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 10155.671691664389,
+    "rmse_pp": 15.933982311136464,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      -1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      374.2041864317849,
+      8.022784755686388
+    ]
+  },
+  {
+    "ki_uM": 1,
+    "parameters": {
+      "k": 0.030066368615063357,
+      "kb": 1.000000000000004e-09,
+      "ki": 1,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 5088.912123237584,
+    "rmse_pp": 11.279308626016915,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      -1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      486.41854202966334,
+      11.852983908482809
+    ]
+  },
+  {
+    "ki_uM": 3,
+    "parameters": {
+      "k": 0.02258844979108984,
+      "kb": 1.0000000000000123e-09,
+      "ki": 3,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2955.5428318406057,
+    "rmse_pp": 8.595846136129657,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      -1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      579.8097061859163,
+      13.476169774507714
+    ]
+  },
+  {
+    "ki_uM": 10,
+    "parameters": {
+      "k": 0.017630937615829217,
+      "kb": 6.247465737152661e-09,
+      "ki": 10,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2552.5769816009815,
+    "rmse_pp": 7.988393113763527,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      607.5102820207328,
+      17.623516293489292
+    ]
+  },
+  {
+    "ki_uM": 30,
+    "parameters": {
+      "k": 0.01544854407764284,
+      "kb": 1.82126111253524e-08,
+      "ki": 30,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2491.200053652317,
+    "rmse_pp": 7.891767947761004,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      603.1156492594977,
+      20.283615268792087
+    ]
+  },
+  {
+    "ki_uM": 100,
+    "parameters": {
+      "k": 0.01469394542180118,
+      "kb": 2.5639902902743997e-08,
+      "ki": 100,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2478.1590832352313,
+    "rmse_pp": 7.87108487318494,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      604.0598595522009,
+      21.312981659016913
+    ]
+  },
+  {
+    "ki_uM": 300,
+    "parameters": {
+      "k": 0.014480012065158759,
+      "kb": 2.8147776742869636e-08,
+      "ki": 300,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2475.6806105929936,
+    "rmse_pp": 7.8671478481610375,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      604.8355442495018,
+      21.61333723144459
+    ]
+  },
+  {
+    "ki_uM": 1000,
+    "parameters": {
+      "k": 0.014405339557929329,
+      "kb": 2.906809358763702e-08,
+      "ki": 1000,
+      "mixing": 0.5,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "sse_percent_squared": 2474.9658775576063,
+    "rmse_pp": 7.86601213696878,
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "bounds_hit": [
+      0,
+      0
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "singular_values_of_residual_jacobian": [
+      605.1755665411432,
+      21.719065368894867
+    ]
+  }
+]

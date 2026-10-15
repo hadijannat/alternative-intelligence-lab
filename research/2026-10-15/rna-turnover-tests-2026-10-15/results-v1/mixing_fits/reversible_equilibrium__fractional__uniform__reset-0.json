@@ -1,0 +1,128 @@
+{
+  "bounds": [
+    0,
+    1
+  ],
+  "complete": true,
+  "evaluations": [
+    {
+      "mixing": 0.3819660112501051,
+      "resolved": true,
+      "sse": 25254.181238098103
+    },
+    {
+      "mixing": 0.6180339887498948,
+      "resolved": true,
+      "sse": 47943.71400585096
+    },
+    {
+      "mixing": 0.2360679774997897,
+      "resolved": true,
+      "sse": 8606.889098343514
+    },
+    {
+      "mixing": 0.14589803375031546,
+      "resolved": true,
+      "sse": 1679.403467483775
+    },
+    {
+      "mixing": 0.09016994374947425,
+      "resolved": true,
+      "sse": 114.94734556330097
+    },
+    {
+      "mixing": 0.07602920880385244,
+      "resolved": true,
+      "sse": 26.596609688106213
+    },
+    {
+      "mixing": 0.07309874612271852,
+      "resolved": true,
+      "sse": 19.949359950518215
+    },
+    {
+      "mixing": 0.06969881966761056,
+      "resolved": true,
+      "sse": 16.55911084382622
+    },
+    {
+      "mixing": 0.06891589291186209,
+      "resolved": true,
+      "sse": 16.39663625858987
+    },
+    {
+      "mixing": 0.06875771111540017,
+      "resolved": true,
+      "sse": 16.390798215207873
+    },
+    {
+      "mixing": 0.06873501237231165,
+      "resolved": true,
+      "sse": 16.39069790173616
+    },
+    {
+      "mixing": 0.06873405909798101,
+      "resolved": true,
+      "sse": 16.390697729497827
+    },
+    {
+      "mixing": 0.06873402474515683,
+      "resolved": true,
+      "sse": 16.390697729420722
+    },
+    {
+      "mixing": 0.06873399039233316,
+      "resolved": true,
+      "sse": 16.39069772976618
+    }
+  ],
+  "fitted_parameters": [
+    "mixing"
+  ],
+  "frozen_chemistry_parameters": {
+    "complex_reset": false,
+    "equilibrated": true,
+    "ka": 0.4945709910489476,
+    "kb": 99.9999999990706,
+    "kbind": 1.0001832432226973e-06,
+    "kd": 0.012507226897803191,
+    "kf": 3.328972519252868,
+    "kh": 0.1002946480387821,
+    "krel": 1.1324422007118327,
+    "krh": 0.12008811928675159,
+    "loss": "uniform",
+    "mixing": 0.1,
+    "retention_f": 0.55,
+    "retention_fragments": 0.55,
+    "transport": "fractional",
+    "turnover": true
+  },
+  "message": "Solution found.",
+  "mixing": 0.06873402474515683,
+  "n": 18,
+  "nfev": 14,
+  "resolved": true,
+  "rmse_pp": 0.9542506580040442,
+  "sse": 16.390697729420722,
+  "success": true,
+  "training_row_ids": [
+    "observation_009",
+    "observation_010",
+    "observation_011",
+    "observation_012",
+    "observation_013",
+    "observation_014",
+    "observation_018",
+    "observation_019",
+    "observation_020",
+    "observation_021",
+    "observation_022",
+    "observation_023",
+    "observation_027",
+    "observation_028",
+    "observation_029",
+    "observation_030",
+    "observation_031",
+    "observation_032"
+  ]
+}

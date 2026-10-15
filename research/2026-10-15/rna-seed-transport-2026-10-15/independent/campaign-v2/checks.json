@@ -1,0 +1,5402 @@
+[
+  {
+    "check": "strict_failure_receipt_retained",
+    "pass": true
+  },
+  {
+    "check": "main_manifest_unchanged_since_full_audit",
+    "pass": true
+  },
+  {
+    "check": "refit_manifest_unchanged_since_full_audit",
+    "pass": true
+  },
+  {
+    "check": "exact_five_frozen_additions",
+    "pass": true
+  },
+  {
+    "check": "no_frozen_removals",
+    "pass": true
+  },
+  {
+    "check": "exact_five_manifest_additions",
+    "pass": true
+  },
+  {
+    "check": "no_manifest_removals",
+    "pass": true
+  },
+  {
+    "check": "46_common_frozen_inputs",
+    "pass": true
+  },
+  {
+    "check": "common_input_hashes_identical",
+    "pass": true
+  },
+  {
+    "check": "computational_inputs_present",
+    "pass": true
+  },
+  {
+    "check": "same_runtime_starts_bounds_budget",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/bath.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/legacy.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/patch.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__bath__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__diffusion__8.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:fits/profile__patch__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:freeze.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/generation_production.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/operators.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/summarize.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/dataset_inventory.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-seed-transport-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:frozen/rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:prior_integrity_after.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:prior_integrity_before.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:profiles.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:refined_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:refined_stages.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:refined_trajectories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:scenarios.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:seed_contrasts.pdf",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:seed_contrasts.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:serial_validation.pdf",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:serial_validation.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:splits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:stages.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:summary.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:training_profiles.pdf",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:training_profiles.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:manifest:trajectories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/generation_production.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/operators.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/summarize.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/dataset_inventory.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-seed-transport-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:frozen_and_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_maps",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/bulk_state_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/comparison.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fit_index.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/freeze.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-reaction-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/endpoint_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/parameter_changes.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/replayed_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/summary.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/transport_group_residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/assumption_ledger.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/diagnosis.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/dynamic_residuals_by_seed.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/g7_state.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/residuals_by_condition.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/joint_challenge.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/late_time.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/manifest.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/numerical_checks.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/profile_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/profiles.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/splits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/summary.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_comparison.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_refinement.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_trajectories.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/validation.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/bulk_state_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/comparison.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fit_index.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__joint.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__late.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/freeze.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-reaction-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/endpoint_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/parameter_changes.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/replayed_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/summary.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/transport_group_residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/assumption_ledger.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/diagnosis.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/dynamic_residuals_by_seed.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/g7_state.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/residuals_by_condition.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/joint_challenge.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/late_time.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/manifest.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/numerical_checks.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/profile_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/profiles.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/splits.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/summary.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_comparison.png",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_refinement.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_trajectories.json",
+    "pass": true
+  },
+  {
+    "check": "results-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/validation.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/bath.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/legacy.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/patch.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__bath__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__diffusion__8.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:fits/profile__patch__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:freeze.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/generation_production.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/operators.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/summarize.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v1/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/results-v2/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/dataset_inventory.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-seed-transport-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:frozen/rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:prior_integrity_after.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:prior_integrity_before.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:profiles.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:refined_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:refined_stages.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:refined_trajectories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:scenarios.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:seed_contrasts.pdf",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:seed_contrasts.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:serial_validation.pdf",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:serial_validation.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:splits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:stages.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:summary.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:training_profiles.pdf",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:training_profiles.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:manifest:trajectories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/generation_production.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/operators.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/summarize.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v1/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/results-v2/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/dataset_inventory.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-seed-transport-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:frozen_and_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_maps",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/bulk_state_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/comparison.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fit_index.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/profile__kb__2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/release__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_equilibrium__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/fits/reversible_free__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/freeze.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-reaction-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/endpoint_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/parameter_changes.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/replayed_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/summary.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/transport_group_residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/assumption_ledger.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/diagnosis.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/dynamic_residuals_by_seed.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/g7_state.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/residuals_by_condition.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/joint_challenge.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/late_time.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/manifest.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/baseline__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/release__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_equilibrium__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/mixing_fits/reversible_free__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/numerical_checks.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/profile_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/profiles.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/splits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/summary.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_comparison.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_refinement.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/transport_trajectories.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/results-v1/validation.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/bulk_state_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/comparison.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fit_index.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/profile__kb__2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/release__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_equilibrium__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__joint.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__late.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-1.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-2.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-3.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-4.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-5.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-6-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-6.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-7.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/fits/reversible_free__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/freeze.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-reaction-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/endpoint_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/parameter_changes.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/replayed_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/summary.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/transport_group_residuals.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/assumption_ledger.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/diagnosis.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/dynamic_residuals_by_seed.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/g7_state.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/residuals_by_condition.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/frozen/rna-turnover-tests-2026-10-15/transport_diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/joint_challenge.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/late_time.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/manifest.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/baseline__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/release__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_equilibrium__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__contact__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__contact__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__fractional__all_or_none__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/mixing_fits/reversible_free__fractional__uniform__reset-0.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/numerical_checks.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/profile_inventories.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/profiles.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/splits.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/summary.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_comparison.png",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_refinement.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/transport_trajectories.json",
+    "pass": true
+  },
+  {
+    "check": "verification-v1:prior_live:rna-turnover-tests-2026-10-15/verification-v1/validation.json",
+    "pass": true
+  },
+  {
+    "check": "addition_between_freezes:rna-seed-transport-2026-10-15/independent/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "addition_between_freezes:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "addition_between_freezes:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "addition_between_freezes:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "addition_between_freezes:rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-turnover-tests-2026-10-15/results-v1/full_fits.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/bath.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/legacy.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/patch.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__bath__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__0.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__1.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__2.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__3.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__4.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__5.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__6.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__7.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__diffusion__8.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__0.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__1.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__2.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__3.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__4.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__5.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__6.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__7.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:fits/profile__patch__nu__8.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/measured-coupling-2026-10-15/rna_sources/conditions.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/measured-coupling-2026-10-15/rna_sources/observations.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/WORKPLAN.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/audit.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/generation_production.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/input_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/operators.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/stage_states.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/summarize.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/diagnosis/verification.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v1/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v1/verification.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v2/inputs.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/results-v2/verification.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/independent/verify.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/model.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/plot.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/requirements.txt",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/dataset_inventory.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/raw/retrieval.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/sources.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/verification.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/research/verify.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/run.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/test_model.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-seed-transport-2026-10-15/test_validation.py",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:frozen/rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:prior_integrity_after.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:prior_integrity_before.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:profiles.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:refined_predictions.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:refined_stages.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:refined_trajectories.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:scenarios.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:seed_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:splits.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:stages.csv",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:summary.json",
+    "pass": true
+  },
+  {
+    "check": "common_scientific_exact:trajectories.csv",
+    "pass": true
+  }
+]

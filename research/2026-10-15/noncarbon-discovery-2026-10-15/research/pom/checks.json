@@ -1,0 +1,108 @@
+{
+  "status": "PASS bounded accounting checks only",
+  "formula_checks": [
+    {
+      "formula": "[MoVI36O112(H2O)16]8-",
+      "oxidation_state_counts": {
+        "MoVI": 36,
+        "O": 112
+      },
+      "formal_charge": -8,
+      "evidence_status": "known parent"
+    },
+    {
+      "formula": "[MoVI35WVIO112(H2O)16]8-",
+      "oxidation_state_counts": {
+        "MoVI": 35,
+        "WVI": 1,
+        "O": 112
+      },
+      "formal_charge": -8,
+      "evidence_status": "hypothetical control"
+    },
+    {
+      "formula": "[MoVI35VVO112(H2O)16]9-",
+      "oxidation_state_counts": {
+        "MoVI": 35,
+        "VV": 1,
+        "O": 112
+      },
+      "formal_charge": -9,
+      "evidence_status": "hypothetical control"
+    },
+    {
+      "formula": "[MoVI34WVIVVO112(H2O)16]9-",
+      "oxidation_state_counts": {
+        "MoVI": 34,
+        "WVI": 1,
+        "VV": 1,
+        "O": 112
+      },
+      "formal_charge": -9,
+      "evidence_status": "hypothetical target"
+    },
+    {
+      "formula": "[MoVI34WVIVIVO112(H2O)16]10-",
+      "oxidation_state_counts": {
+        "MoVI": 34,
+        "WVI": 1,
+        "VIV": 1,
+        "O": 112
+      },
+      "formal_charge": -10,
+      "evidence_status": "hypothetical reduced target"
+    },
+    {
+      "formula": "[PVMo11O40]4-",
+      "oxidation_state_counts": {
+        "PV": 1,
+        "VV": 1,
+        "MoVI": 11,
+        "O": 40
+      },
+      "formal_charge": -4,
+      "evidence_status": "known comparator"
+    },
+    {
+      "formula": "[PVW11O40]4-",
+      "oxidation_state_counts": {
+        "PV": 1,
+        "VV": 1,
+        "WVI": 11,
+        "O": 40
+      },
+      "formal_charge": -4,
+      "evidence_status": "known comparator"
+    },
+    {
+      "formula": "[P2W18O62]6-",
+      "oxidation_state_counts": {
+        "PV": 2,
+        "WVI": 18,
+        "O": 62
+      },
+      "formal_charge": -6,
+      "evidence_status": "known comparator"
+    }
+  ],
+  "data_sha256": "b9cfcb759f2140d61a7b21a984f3c5c761958d7d93ac9c815289596fae4520a7",
+  "measured_rows": 480,
+  "condition_counts": {
+    "Exp 1": 80,
+    "Exp 2": 80,
+    "Exp 3": 80,
+    "Exp 4": 80,
+    "Exp 5": 80,
+    "Exp 6": 80
+  },
+  "excluded_prediction_columns": [
+    "c.pred",
+    "c.pred.u",
+    "c.pred.l"
+  ],
+  "limits": [
+    "No existence, geometry or stability prediction follows from charge balance.",
+    "Hydration, protonation and oxidation-state assignments are conditional.",
+    "Raw CSV units and independent replicate identities remain unresolved."
+  ]
+}

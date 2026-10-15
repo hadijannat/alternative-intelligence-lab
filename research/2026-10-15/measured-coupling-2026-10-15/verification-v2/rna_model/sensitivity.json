@@ -1,0 +1,533 @@
+[
+  {
+    "rho": 0.5,
+    "retention": 0.4,
+    "parameters": {
+      "k": 0.02275495196021133,
+      "kb": 1.0000000000086427e-09,
+      "ki": 999.999999994287,
+      "mixing": 0.09401910036323162,
+      "retention": 0.4,
+      "rho": 0.5
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 4130.952911012683,
+      "rmse_pp": 10.1623728909796,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        -1,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        694.3381623498616,
+        14.847302896493291,
+        0.26988325639256117
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 12.73026855770494,
+      "rmse_pp": 0.8409739247412603,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 5.593698803402223,
+      "bias_pp": -4.337190617514334,
+      "maximum_absolute_mean_error_pp": 12.052511291321958,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 0.5,
+    "retention": 0.55,
+    "parameters": {
+      "k": 0.02275495196021133,
+      "kb": 1.0000000000086427e-09,
+      "ki": 999.999999994287,
+      "mixing": 0.06722302116637177,
+      "retention": 0.55,
+      "rho": 0.5
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 4130.952911012683,
+      "rmse_pp": 10.1623728909796,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        -1,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        694.3381623498616,
+        14.847302896493291,
+        0.26988325639256117
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 20.20612033118977,
+      "rmse_pp": 1.0595103777791202,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 3.4819142041908857,
+      "bias_pp": -0.27960888945626566,
+      "maximum_absolute_mean_error_pp": 7.216276464449706,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 0.5,
+    "retention": 0.7,
+    "parameters": {
+      "k": 0.02275495196021133,
+      "kb": 1.0000000000086427e-09,
+      "ki": 999.999999994287,
+      "mixing": 0.05353696534742723,
+      "retention": 0.7,
+      "rho": 0.5
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 4130.952911012683,
+      "rmse_pp": 10.1623728909796,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        -1,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        694.3381623498616,
+        14.847302896493291,
+        0.26988325639256117
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 31.261188684059917,
+      "rmse_pp": 1.3178515487982687,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 7.571508029746688,
+      "bias_pp": 4.234649876505011,
+      "maximum_absolute_mean_error_pp": 14.109049902731565,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 1.0,
+    "retention": 0.4,
+    "parameters": {
+      "k": 0.014405334883521595,
+      "kb": 2.906839942794478e-08,
+      "ki": 999.999999999999,
+      "mixing": 0.09508793315467388,
+      "retention": 0.4,
+      "rho": 1.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 2474.965878107867,
+      "rmse_pp": 7.866012137843208,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        605.1756769746568,
+        21.722781667979255,
+        0.24023000825972649
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 12.762754296012826,
+      "rmse_pp": 0.8420462608040284,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 5.943508797100842,
+      "bias_pp": -4.553256168298848,
+      "maximum_absolute_mean_error_pp": 12.891174915931687,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 1.0,
+    "retention": 0.55,
+    "parameters": {
+      "k": 0.014405334883521595,
+      "kb": 2.906839942794478e-08,
+      "ki": 999.999999999999,
+      "mixing": 0.06739639907609157,
+      "retention": 0.55,
+      "rho": 1.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 2474.965878107867,
+      "rmse_pp": 7.866012137843208,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        605.1756769746568,
+        21.722781667979255,
+        0.24023000825972649
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 20.686171140001214,
+      "rmse_pp": 1.072022261895744,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 3.322380059286248,
+      "bias_pp": -1.7349588363645978,
+      "maximum_absolute_mean_error_pp": 6.889946200392511,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 1.0,
+    "retention": 0.7,
+    "parameters": {
+      "k": 0.014405334883521595,
+      "kb": 2.906839942794478e-08,
+      "ki": 999.999999999999,
+      "mixing": 0.051212914548334224,
+      "retention": 0.7,
+      "rho": 1.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 2474.965878107867,
+      "rmse_pp": 7.866012137843208,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        605.1756769746568,
+        21.722781667979255,
+        0.24023000825972649
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 35.31077209736962,
+      "rmse_pp": 1.4006104244096498,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 6.950604094550114,
+      "bias_pp": 3.8094287655101167,
+      "maximum_absolute_mean_error_pp": 12.761833511448144,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 2.0,
+    "retention": 0.4,
+    "parameters": {
+      "k": 0.007603829979971139,
+      "kb": 1.1143418848732873e-06,
+      "ki": 999.9999999916979,
+      "mixing": 0.10643770205428892,
+      "retention": 0.4,
+      "rho": 2.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 1166.9965810506305,
+      "rmse_pp": 5.4013807981168815,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        482.42430786540535,
+        41.318478251694124,
+        0.23289906172503577
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 11.729337092341657,
+      "rmse_pp": 0.8072359249088369,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 6.0617907125678,
+      "bias_pp": -4.565220073160702,
+      "maximum_absolute_mean_error_pp": 13.126936915033449,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 2.0,
+    "retention": 0.55,
+    "parameters": {
+      "k": 0.007603829979971139,
+      "kb": 1.1143418848732873e-06,
+      "ki": 999.9999999916979,
+      "mixing": 0.07624417707814275,
+      "retention": 0.55,
+      "rho": 2.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 1166.9965810506305,
+      "rmse_pp": 5.4013807981168815,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        482.42430786540535,
+        41.318478251694124,
+        0.23289906172503577
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 19.080614910376603,
+      "rmse_pp": 1.0295796043471281,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 4.675803431450408,
+      "bias_pp": -3.096725826805512,
+      "maximum_absolute_mean_error_pp": 10.844807125752263,
+      "passes_pragmatic_screen": false
+    }
+  },
+  {
+    "rho": 2.0,
+    "retention": 0.7,
+    "parameters": {
+      "k": 0.007603829979971139,
+      "kb": 1.1143418848732873e-06,
+      "ki": 999.9999999916979,
+      "mixing": 0.057655370513864164,
+      "retention": 0.7,
+      "rho": 2.0
+    },
+    "kinetic_fit": {
+      "sse_percent_squared": 1166.9965810506305,
+      "rmse_pp": 5.4013807981168815,
+      "n_summary_means": 40,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "bounds_hit": [
+        0,
+        0,
+        1
+      ],
+      "fixed_starts": [
+        [
+          -1.5,
+          -5,
+          0
+        ],
+        [
+          -1,
+          -4,
+          1
+        ],
+        [
+          -2,
+          -6,
+          2
+        ]
+      ],
+      "singular_values_of_residual_jacobian": [
+        482.42430786540535,
+        41.318478251694124,
+        0.23289906172503577
+      ]
+    },
+    "mixing_fit": {
+      "sse_percent_squared": 33.25263575446128,
+      "rmse_pp": 1.3591794042824614,
+      "n_replicates": 18,
+      "optimizer_success": true
+    },
+    "prediction_metrics": {
+      "n_nonzero_replicates": 72,
+      "rmse_pp": 5.048039899925324,
+      "bias_pp": 2.600982893322671,
+      "maximum_absolute_mean_error_pp": 9.237680192380727,
+      "passes_pragmatic_screen": false
+    }
+  }
+]

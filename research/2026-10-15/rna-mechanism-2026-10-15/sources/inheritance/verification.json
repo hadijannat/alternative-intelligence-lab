@@ -1,0 +1,165 @@
+{
+  "invocation": "python3 rna-mechanism-2026-10-15/sources/inheritance/verify_extract.py",
+  "all_pass": true,
+  "checks": [
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "mizuuchi2022/article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "lai2021/article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "gianni2026/article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/41467_2021_21000_MOESM1_ESM.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/41467_2021_21000_MOESM3_ESM.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/41467_2021_21000_MOESM4_ESM.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "mizuuchi2022/41467_2022_29113_MOESM1_ESM.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "mizuuchi2022/41467_2022_29113_MOESM4_ESM.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "mizuuchi2022/41467_2022_29113_MOESM6_ESM.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/figshare-12865679.json",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/figshare-12867053.json",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "ameta2021/figshare-12865646.json",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "gianni2026/zenodo-metadata.json",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "gianni2026/fidelity_zenodo.zip",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "lai2021/dryad-metadata.json",
+      "pass": true
+    },
+    {
+      "scenario": "source_bytes_match_manifest",
+      "path": "lai2021/dryad-files.json",
+      "pass": true
+    },
+    {
+      "scenario": "lossless_sheet_export",
+      "source_sheet": "Networks (experimental data)",
+      "data_rows": 1837,
+      "path": "normalized/ameta_networks_measured.csv",
+      "pass": true
+    },
+    {
+      "scenario": "lossless_sheet_export",
+      "source_sheet": "Networks (kinetic model)",
+      "data_rows": 1837,
+      "path": "normalized/ameta_networks_author_model.csv",
+      "pass": true
+    },
+    {
+      "scenario": "lossless_sheet_export",
+      "source_sheet": "Droplets (node fractions)",
+      "data_rows": 20039,
+      "path": "normalized/ameta_droplet_fractions.csv",
+      "pass": true
+    },
+    {
+      "scenario": "lossless_sheet_export",
+      "source_sheet": "Droplets (number of UMIs)",
+      "data_rows": 20039,
+      "path": "normalized/ameta_droplet_umis.csv",
+      "pass": true
+    },
+    {
+      "scenario": "replicate_function_export_preserves_missingness",
+      "rows": 182,
+      "missing_labels": 1,
+      "path": "normalized/mizuuchi_clone_function.csv",
+      "pass": true
+    },
+    {
+      "scenario": "archive_crc_and_fasta_record_inventory",
+      "fasta_files": 14,
+      "path": "normalized/qt45_fidelity_inventory.json",
+      "pass": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "normalized/ameta_droplet_fractions.csv",
+      "bytes": 1075478,
+      "sha256": "188875636e4c69b7449f21cc06f080d1c599e889de77edad12364f9f16ece75c"
+    },
+    {
+      "path": "normalized/ameta_droplet_umis.csv",
+      "bytes": 539952,
+      "sha256": "76a7617fea432a8118f386ee8186b3c73f6fb66afac9e7213d5f3eb007ebe979"
+    },
+    {
+      "path": "normalized/ameta_networks_author_model.csv",
+      "bytes": 107694,
+      "sha256": "8cc95869d872d81620022e4d731d0a5efcf81d520842887f83f32de89f4b1df5"
+    },
+    {
+      "path": "normalized/ameta_networks_measured.csv",
+      "bytes": 150027,
+      "sha256": "2e93bef1372cbb2bbc788ade94575f1647e4320d161ea20d68e6f8af19b71176"
+    },
+    {
+      "path": "normalized/mizuuchi_clone_function.csv",
+      "bytes": 8910,
+      "sha256": "75ebf1273e3fc1a739cba5fb3970154ffeb08001d39fc4bbcd7c9ebb6fbf216b"
+    },
+    {
+      "path": "normalized/qt45_fidelity_inventory.json",
+      "bytes": 2311,
+      "sha256": "8af56577bc503123fa20b093c0b347dc3db735f5a42e318104433a22e4a320ce"
+    }
+  ],
+  "limits": "Does not re-estimate published kinetics, fidelity, or evolutionary results. No parent-daughter lineage retention dataset identified in these four systems."
+}

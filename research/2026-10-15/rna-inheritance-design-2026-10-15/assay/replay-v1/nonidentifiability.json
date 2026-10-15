@@ -1,0 +1,26 @@
+{
+  "common_marginals": {
+    "founder_amount": 10,
+    "new_amount": 10,
+    "total_capacity": 10
+  },
+  "interpretation": "Origin and total activity marginals do not uniquely identify new activity.",
+  "new_capacity_interval": [
+    0,
+    10
+  ],
+  "worlds": [
+    {
+      "founder_amount": 10,
+      "founder_capacity": 10,
+      "new_amount": 10,
+      "new_capacity": 0
+    },
+    {
+      "founder_amount": 10,
+      "founder_capacity": 0,
+      "new_amount": 10,
+      "new_capacity": 10
+    }
+  ]
+}

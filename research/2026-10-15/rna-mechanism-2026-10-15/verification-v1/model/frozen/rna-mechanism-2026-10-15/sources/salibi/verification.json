@@ -1,0 +1,21 @@
+{
+  "workbook_sha256": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+  "exact_new_cell_checks": 529,
+  "prior_extraction_cell_checks": 148,
+  "old_files_unchanged": 269,
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-36940-z/MediaObjects/41467_2023_36940_MOESM8_ESM.xlsx",
+  "extraction": "Exact numerical cells; no digitization; no model fitting; histogram bins are not paired lineages.",
+  "v1_calibration_rmse_by_condition_pp": {
+    "F1_0.1_uM": 0.9575926973158914,
+    "F1_0.25_uM": 2.3138345330819208,
+    "F1_0.5_uM": 7.325127673978658,
+    "F1_1.0_uM": 7.101530398756255,
+    "HyperA_1.5_uM": 8.128552632980808,
+    "HyperA_1_uM": 7.386456124615436,
+    "HyperA_2.5_uM": 12.844988123996448,
+    "HyperA_2_uM": 9.950191468658943
+  },
+  "v1_total_calibration_rmse_pp": 7.866012137843208,
+  "tracer_s9_retained_intensity_fraction": 0.7819513893173464,
+  "all_checks_pass": true
+}

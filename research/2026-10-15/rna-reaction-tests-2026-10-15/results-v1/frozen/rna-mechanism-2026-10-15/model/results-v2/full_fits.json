@@ -1,0 +1,413 @@
+{
+  "original": {
+    "bounds_hit": [
+      0,
+      0,
+      1
+    ],
+    "jacobian_singular_values": [
+      605.1786988993841,
+      21.721838746703547,
+      0.2402291921282529
+    ],
+    "n_observations": 40,
+    "parameters": {
+      "family": "original",
+      "hroute": 0,
+      "kb": 1.0,
+      "kf": 0.014405507567133305,
+      "kh": 2.905799270117819e-08,
+      "ki": 999.9999999935702,
+      "mixing": 0.1,
+      "q": 1.0,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true,
+    "rmse_pp": 7.866012150901768,
+    "sse": 2474.965886325371,
+    "starts": [
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 20,
+        "sse": 2474.965890538684,
+        "start": [
+          -1.5,
+          -5,
+          0
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 20,
+        "sse": 2474.9658931030153,
+        "start": [
+          -1,
+          -4,
+          1
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 16,
+        "sse": 2474.965886325371,
+        "start": [
+          -2,
+          -6,
+          2
+        ],
+        "success": true
+      }
+    ]
+  },
+  "saturation": {
+    "bounds_hit": [
+      0,
+      0,
+      1
+    ],
+    "jacobian_singular_values": [
+      901.310387990755,
+      33.023392119658304,
+      0.8574913512619378
+    ],
+    "n_observations": 40,
+    "parameters": {
+      "family": "saturation",
+      "hroute": 0,
+      "kb": 99.99999973874252,
+      "kf": 1.5191726905179304,
+      "kh": 0.0003697516065118584,
+      "ki": 1000.0,
+      "mixing": 0.1,
+      "q": 1.0,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true,
+    "rmse_pp": 7.892928587592682,
+    "sse": 2491.932867553512,
+    "starts": [
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 39,
+        "sse": 2491.932870286453,
+        "start": [
+          -1,
+          -5,
+          0
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 32,
+        "sse": 2491.932867553512,
+        "start": [
+          -0.5,
+          -3,
+          1
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 40,
+        "sse": 2491.9328704655136,
+        "start": [
+          -1.5,
+          -6,
+          -1
+        ],
+        "success": true
+      }
+    ]
+  },
+  "saturation_h": {
+    "bounds_hit": [
+      0,
+      0,
+      1
+    ],
+    "jacobian_singular_values": [
+      900.8610024800548,
+      33.10341546851518,
+      0.8576296226800711
+    ],
+    "n_observations": 40,
+    "parameters": {
+      "family": "saturation",
+      "hroute": 1,
+      "kb": 99.99999996923219,
+      "kf": 1.5177073757499702,
+      "kh": 0.0003745935399886138,
+      "ki": 1000.0,
+      "mixing": 0.1,
+      "q": 1.0,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true,
+    "rmse_pp": 7.889655823794662,
+    "sse": 2489.866760717481,
+    "starts": [
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 40,
+        "sse": 2489.866760717481,
+        "start": [
+          -1,
+          -5,
+          0
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 36,
+        "sse": 2489.866761460854,
+        "start": [
+          -0.5,
+          -3,
+          1
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 40,
+        "sse": 2489.866764369774,
+        "start": [
+          -1.5,
+          -6,
+          -1
+        ],
+        "success": true
+      }
+    ]
+  },
+  "saturation_hq": {
+    "bounds_hit": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "jacobian_singular_values": [
+      960.4401601638491,
+      415.59332267610404,
+      19.852771768970655,
+      0.670841071644688
+    ],
+    "n_observations": 40,
+    "parameters": {
+      "family": "saturation",
+      "hroute": 1,
+      "kb": 99.99999999788291,
+      "kf": 1.5176988615505929,
+      "kh": 0.0003746139915659638,
+      "ki": 1000.0,
+      "mixing": 0.1,
+      "q": 1.0,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true,
+    "rmse_pp": 7.889655822820283,
+    "sse": 2489.8667601024804,
+    "starts": [
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 40,
+        "sse": 2489.8667643974677,
+        "start": [
+          -1,
+          -5,
+          0,
+          -0.155
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 33,
+        "sse": 2489.8667612202316,
+        "start": [
+          -0.5,
+          -3,
+          1,
+          -0.398
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 49,
+        "sse": 2489.8667601024804,
+        "start": [
+          -1.5,
+          -6,
+          -1,
+          -0.0223
+        ],
+        "success": true
+      }
+    ]
+  },
+  "saturation_q": {
+    "bounds_hit": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "jacobian_singular_values": [
+      960.823977472063,
+      415.85709581157164,
+      19.793703365237622,
+      0.6706704099855485
+    ],
+    "n_observations": 40,
+    "parameters": {
+      "family": "saturation",
+      "hroute": 0,
+      "kb": 99.99999999281442,
+      "kf": 1.5191712359344849,
+      "kh": 0.00036976200116542636,
+      "ki": 1000.0,
+      "mixing": 0.1,
+      "q": 1.0,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true,
+    "rmse_pp": 7.892928585027068,
+    "sse": 2491.9328659334956,
+    "starts": [
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 41,
+        "sse": 2491.9328659334956,
+        "start": [
+          -1,
+          -5,
+          0,
+          -0.155
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 33,
+        "sse": 2491.9328697901797,
+        "start": [
+          -0.5,
+          -3,
+          1,
+          -0.398
+        ],
+        "success": true
+      },
+      {
+        "bounds_hit": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 46,
+        "sse": 2491.93286690455,
+        "start": [
+          -1.5,
+          -6,
+          -1,
+          -0.0223
+        ],
+        "success": true
+      }
+    ]
+  }
+}

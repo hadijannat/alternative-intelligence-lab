@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "byte inventory and source-table parsing only",
+  "data_files": [
+    {
+      "file": "nickel-mackinawite.csv",
+      "bytes": 907624,
+      "sha256": "f4c35893de86c3d88016d4a3278891cf35f9fb91f5311432454cb1692b428210",
+      "rows_including_headers": 8502,
+      "maximum_columns": 68
+    },
+    {
+      "file": "mos2-fig1f.csv",
+      "bytes": 3332,
+      "sha256": "7c8fd07d7f01a80d28b27ba342ee3e30a9230c8b83337170cdeafdc4009424a8",
+      "rows_including_headers": 43,
+      "maximum_columns": 17
+    },
+    {
+      "file": "mos2-fig2g.csv",
+      "bytes": 3593,
+      "sha256": "82f96790595aea2fe0f86b8c873537a73aca96cb4cc989547877458ceda2d38e",
+      "rows_including_headers": 17,
+      "maximum_columns": 23
+    },
+    {
+      "file": "mos2-fig2i.csv",
+      "bytes": 2149,
+      "sha256": "bf46c5f18046129206c7491f5658ffe7039e43207d5d5b97694709c47f43d77a",
+      "rows_including_headers": 130,
+      "maximum_columns": 4
+    },
+    {
+      "file": "mos2-fig3b-d.csv",
+      "bytes": 7960,
+      "sha256": "cc2ad835bea1d1d12cccc7ff9352a340e28e1475f17adbb523e96f0947e030e4",
+      "rows_including_headers": 49,
+      "maximum_columns": 31
+    },
+    {
+      "file": "mos2-fig3f.csv",
+      "bytes": 259,
+      "sha256": "50568b476452d6bfeb2364b233db192819fc45e01dac8e1298f656fc6f57f552",
+      "rows_including_headers": 4,
+      "maximum_columns": 6
+    }
+  ],
+  "kinetic_rows": 20,
+  "independent_replicates_verified": false,
+  "fitting_or_predictive_validation_performed": false
+}

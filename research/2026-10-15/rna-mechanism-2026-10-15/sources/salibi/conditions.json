@@ -1,0 +1,67 @@
+{
+  "guv_f1": {
+    "source": "Salibi main Methods: FT-dependent activity and serial dilution of R3C; Figures 2 and 3",
+    "buffer": "50 mM EPPS pH 8.5; 20 mM MgCl2; interior 900 mM sucrose; exterior 900 mM glucose",
+    "temperature_c": 42,
+    "reaction_minutes": 60,
+    "membrane": "POPC GUVs",
+    "initial_population_ratio": "1:1:1 F1-seed:Hyper-A/Cy5-A:B",
+    "seed_population_F1_uM": [0, 1, 2],
+    "A_population_HyperA_uM": 10,
+    "A_population_Cy5A_uM": 2.5,
+    "B_population_B_uM": 15,
+    "FT": "5 minutes -80 C then 5 minutes room temperature; Figure 3 uses 3 FT per generation",
+    "retention_evidence": "~45% content loss per three FT inferred from Figure 2 gel fluorescence; not separately measured active-F1 survival",
+    "identity": "horizontal exchange and supplied fresh substrate GUVs; no tracked parent-daughter pairs"
+  },
+  "bulk_s13": {
+    "source": "SI Figure 13/14, Methods S13, source workbook S13",
+    "buffer": "50 mM EPPS pH 8.5; 20 mM MgCl2; 900 mM sucrose",
+    "temperature_c": 42,
+    "Cy5A_uM": 5,
+    "B_uM": 7.5,
+    "F1_uM_series": [0.1, 0.25, 0.5, 1],
+    "HyperA_uM_series": [1, 1.5, 2, 2.5],
+    "note": "F1 and HyperA series are separate; F1 series has no HyperA. Cy5-A is G38A reporter; ligated Cy5-F1 is inactive. Only means/SD/n supplied for S13, not replicate numbers."
+  },
+  "bulk_s12": {
+    "source": "SI Figure 12, Methods S12, workbook S12",
+    "buffer": "50 mM EPPS pH 8.5; 20 mM MgCl2; sucrose not listed",
+    "temperature_c": 42,
+    "reaction_minutes": 30,
+    "initial_recipes": "Cy5A10+B10+F1=1 uM; HyperA9+Cy5A1+B10+F1=0; HyperA9+Cy5A1+B10+F1=1",
+    "transfer": "1 uL previous reaction to 9 uL fresh substrate mixture; published half-generation coordinates retained literally",
+    "use": "qualitative functional regeneration vs inactive product challenge; not same-condition numeric holdout",
+    "ambiguity": "Before-incubation half-generation fluorescence yields in HyperA arms exceed simple 0.1 times previous endpoint; assay timing/background/normalization unresolved. Actual terminal zero entries D18/E18 retained as values without inventing missing-data status."
+  },
+  "bulk_s15": {
+    "source": "SI Figure 15, Methods S15, workbook S15",
+    "buffer": "50 mM EPPS pH 8.5; 20 mM MgCl2; no sucrose stated for bulk recipe",
+    "temperature_c": 42,
+    "reaction_minutes": 60,
+    "nominal_recipe_uM": "Cy5A0.5+B1+F1 either0or1",
+    "ambiguity": "Methods describes 10 uL initial reaction followed by another 10 uL buffer/GUV mixture; caption repeats nominal concentrations. Actual post-addition concentrations may be half listed; do not silently fit them as exact concentrations.",
+    "use": "membrane modulation challenge only; rates cannot be transplanted into encapsulated S13/serial-GUV fit"
+  },
+  "bulk_s18": {
+    "source": "SI Figure 18, Methods S18, workbook S18",
+    "buffer": "50 mM EPPS pH 8.5; 20 mM MgCl2; sucrose not listed",
+    "recipe_uM": "HyperA9+Cy5A1+B15+F1 either0or1",
+    "FT": "10 minutes -80 C then 10 minutes room temperature; optional subsequent 60 minutes 42 C",
+    "use": "demonstrates nonzero bulk room-temperature/FT-period chemistry; does not identify rate during shorter GUV cycling"
+  },
+  "tracer_s9": {
+    "source": "SI Figure 9, workbook S9",
+    "RNA": "3 uM 5'-Atto655-(CA)13-3', not catalytic F1",
+    "interior": "900 mM sucrose; R3C salts not stated in caption",
+    "protocol": "Microscopy freeze-thaw protocol; distinct from PAGE PCR-tube cycling",
+    "use": "fluorescent tracer intensity distribution and ensemble intensity retention proxy; cannot identify active catalyst retention, activity loss, or parent-daughter inheritance"
+  },
+  "dye_s17": {
+    "source": "SI Figure 17, workbook S17",
+    "interior": "900 mM sucrose + 3 uM Alexa Fluor568 NHS ester",
+    "exterior": "900 mM glucose",
+    "membrane_label": "Atto647N-DOPE",
+    "use": "pre/post GUV size distributions are structural fragmentation evidence, not measured molecule transfer or paired lineages"
+  }
+}

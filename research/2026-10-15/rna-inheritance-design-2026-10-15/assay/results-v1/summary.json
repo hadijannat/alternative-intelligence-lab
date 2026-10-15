@@ -1,0 +1,1451 @@
+[
+  {
+    "case": {
+      "active": 0,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n0_a0",
+      "new": 0
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n10_a0",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n10_a0.25",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n10_a1",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n100_a0",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n100_a0.25",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n100_a1",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n1000_a0",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n1000_a0.25",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 0,
+      "gate": null,
+      "id": "f0_n1000_a1",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n0_a0",
+      "new": 0
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n10_a0",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n10_a0.25",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n10_a1",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n100_a0",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n100_a0.25",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n100_a1",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n1000_a0",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n1000_a0.25",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": null,
+      "id": "f10_n1000_a1",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n0_a0",
+      "new": 0
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n10_a0",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n10_a0.25",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n10_a1",
+      "new": 10
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n100_a0",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n100_a0.25",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n100_a1",
+      "new": 100
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 52,
+      "rate": 0.203125,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.15839924133131683,
+        0.25662867342154433
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 62,
+      "rate": 0.2421875,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.19377015335079256,
+        0.2982277726187974
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n1000_a0",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 0.25,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n1000_a0.25",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 100,
+      "gate": null,
+      "id": "f100_n1000_a1",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": "label_qualified",
+      "id": "label_qualified",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": "mixture_qualified",
+      "id": "mixture_qualified",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": "recovery_qualified",
+      "id": "recovery_qualified",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": "native_qualified",
+      "id": "native_qualified",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": null,
+      "coverage_applicable": false,
+      "coverage_wilson95": null,
+      "detections": 0,
+      "rate": 0.0,
+      "target": "power>=.8",
+      "target_certified": false,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  },
+  {
+    "case": {
+      "active": 1,
+      "founder": 10,
+      "gate": "refolding_only",
+      "id": "refolding_only",
+      "new": 1000
+    },
+    "n": 256,
+    "native": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 0,
+      "rate": 0.0,
+      "target": "false_positive<=.05",
+      "target_certified": true,
+      "wilson95": [
+        0.0,
+        0.01478385642587143
+      ]
+    },
+    "refolded": {
+      "coverage": 1.0,
+      "coverage_applicable": true,
+      "coverage_wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ],
+      "detections": 256,
+      "rate": 1.0,
+      "target": "power>=.8",
+      "target_certified": true,
+      "wilson95": [
+        0.9852161435741286,
+        0.9999999999999999
+      ]
+    }
+  }
+]

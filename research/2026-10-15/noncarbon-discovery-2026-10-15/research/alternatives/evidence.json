@@ -1,0 +1,158 @@
+{
+  "scope": "Bounded primary-source alternative-scaffold screen; no life ranking or novelty claim",
+  "date": "2026-10-15",
+  "records": [
+    {
+      "id": "ALT01",
+      "family": "Na-aluminosilicate LTA",
+      "doi": "10.1038/s41467-018-04296-4",
+      "evidence_class": "experiment",
+      "supported_observation": "Na-directed growth is directly imaged; surface composition evolves during crystallization.",
+      "carbon_audit": "Carbon-free reagent scaffold; no organic structure-directing ion required in reported preparation.",
+      "failure_or_missing_link": "Growth does not establish inherited functional composition.",
+      "source_location": "raw/lta-2018.xml",
+      "read_extent": "primary full text archived"
+    },
+    {
+      "id": "ALT02",
+      "family": "Na/K-aluminosilicate CHA",
+      "doi": "10.1039/C9RA10825D",
+      "evidence_class": "experiment",
+      "supported_observation": "Two successive product-as-seed growth rounds preserve topology but composition and size drift.",
+      "carbon_audit": "Reported growth feed inorganic; FAU starter history follows external reference and is not fully audited.",
+      "failure_or_missing_link": "Founder-core persistence and feed selection can mimic heredity; high alkalinity erases seed topology.",
+      "source_location": "raw/cha-2020.xml",
+      "read_extent": "primary full text archived; direct RSC PDF returned 403"
+    },
+    {
+      "id": "ALT03",
+      "family": "Elemental sulfur Am-SP",
+      "doi": "10.1038/s41467-024-55028-w",
+      "evidence_class": "experiment",
+      "supported_observation": "Chain sulfur remains structurally stable over tested temperature range at high pressure; pressure release partly restores rings.",
+      "carbon_audit": "No organic crosslinker in target material; diamond apparatus and CS2 comparator kept separate.",
+      "failure_or_missing_link": "Imposed pressure history, rather than a parent, may specify structure.",
+      "source_location": "raw/sulfur-glass-2025.xml",
+      "read_extent": "primary full text archived; published 2025 despite DOI suffix"
+    },
+    {
+      "id": "ALT04",
+      "family": "Aqueous inorganic polysulfides",
+      "doi": "10.1023/B:AQUA.0000029023.07252.c3",
+      "evidence_class": "experiment",
+      "supported_observation": "Reported pH-jump disproportionation relaxes on approximately 10 seconds.",
+      "carbon_audit": "Sulfur species inorganic; complete buffer audit unavailable.",
+      "failure_or_missing_link": "Chain-length identity is rapidly exchangeable, so cannot assume long-lived sequence memory.",
+      "source_location": "https://doi.org/10.1023/B:AQUA.0000029023.07252.c3",
+      "read_extent": "primary abstract accessed by sulfur subagent"
+    },
+    {
+      "id": "ALT05",
+      "family": "Hydrogen silsesquioxane",
+      "doi": "10.1039/D5DT01479D",
+      "evidence_class": "experiment",
+      "supported_observation": "Cage/network ratio depends on preparation; water-only precursor formulations are included.",
+      "carbon_audit": "Parent scaffold can be carbon-free; alkyl-passivated optical endpoint is carbon-containing.",
+      "failure_or_missing_link": "Preparation control is not copying; complete SI carbon audit unresolved.",
+      "source_location": "https://pubs.rsc.org/en/content/articlehtml/2025/dt/d5dt01479d",
+      "read_extent": "primary indexed full text; direct HTML failed; SI download returned 404"
+    },
+    {
+      "id": "ALT06",
+      "family": "Template-prepared hydrogen silsesquioxane",
+      "doi": "10.1039/C4NJ01762E",
+      "evidence_class": "experiment",
+      "supported_observation": "Water or dilute-acid washing produced gas and Si-H cleavage in the reported gel.",
+      "carbon_audit": "Organic template used; not a strict carbon-free system.",
+      "failure_or_missing_link": "Mechanism warning only, not a transferable rate for another HSQ preparation.",
+      "source_location": "https://pubs.rsc.org/en/content/articlehtml/2015/nj/c4nj01762e",
+      "read_extent": "primary indexed full text"
+    },
+    {
+      "id": "ALT07",
+      "family": "B/N carbonless DNA",
+      "doi": "10.1039/D4CP04410J",
+      "evidence_class": "quantum calculation",
+      "supported_observation": "Isoelectronic structural replacements and selected electronic-structure method comparisons.",
+      "carbon_audit": "Designed molecular formulas carbon-free.",
+      "failure_or_missing_link": "No demonstrated synthesis, replication, environmental stability or function.",
+      "source_location": "https://pubs.rsc.org/en/content/articlehtml/2025/cp/d4cp04410j",
+      "read_extent": "primary indexed full text; direct page returned 403"
+    },
+    {
+      "id": "ALT08",
+      "family": "Polyborazylene",
+      "doi": "10.1021/cm00058a028",
+      "evidence_class": "experiment",
+      "supported_observation": "Synthesized B/N/H polymer; experimental compendium describes hydrolysis and storage crosslinking.",
+      "carbon_audit": "Unmodified material carbon-free; processing solvents and organomodified variants separate.",
+      "failure_or_missing_link": "Dry persistence does not supply a renewing information polymer.",
+      "source_location": "https://sites.lsa.umich.edu/jbuss/wp-content/uploads/sites/811/2020/08/inorganic-synthesis32.pdf",
+      "read_extent": "primary publisher metadata plus authors experimental chapter indexed text"
+    },
+    {
+      "id": "ALT09",
+      "family": "Poly(difluorophosphazene)",
+      "doi": "10.1021/ma60068a002",
+      "evidence_class": "experiment",
+      "supported_observation": "High-molecular-weight polymer exists; amine substitution can cleave chains.",
+      "carbon_audit": "NPF2 repeat carbon-free; stable organic substitutions fail strict carbon-free criterion.",
+      "failure_or_missing_link": "No measured selective copying and no demonstrated compatible carbon-free solvent cycle.",
+      "source_location": "https://pure.psu.edu/en/publications/synthesis-of-open-chain-polydifluorophosphazene-and-its-reactions",
+      "read_extent": "author institution primary abstract"
+    },
+    {
+      "id": "ALT10",
+      "family": "Polythiazyl (SN)x",
+      "doi": "10.1021/ja00855a012",
+      "evidence_class": "experiment",
+      "supported_observation": "Carbon-free conducting single crystals characterized.",
+      "carbon_audit": "Final composition carbon-free; classic organic processing prevents fully carbon-independent-route claim.",
+      "failure_or_missing_link": "Conductivity does not establish coupled replenishment or variant copying.",
+      "source_location": "https://doi.org/10.1021/ja00855a012",
+      "read_extent": "primary scanned paper inspected by sulfur subagent; publisher direct page 403"
+    },
+    {
+      "id": "ALT11",
+      "family": "Aqueous V2O5 nematic gels",
+      "doi": "10.1021/la9914155",
+      "evidence_class": "experiment identified",
+      "supported_observation": "Primary preparation study identified; no primary inheritance evidence acquired.",
+      "carbon_audit": "Inorganic particles; complete preparation audit unresolved.",
+      "failure_or_missing_link": "Field alignment can be externally imposed; cannot score as inherited state.",
+      "source_location": "https://doi.org/10.1021/la9914155",
+      "read_extent": "metadata identified only; full text unavailable; no quantitative inference"
+    },
+    {
+      "id": "ALT12",
+      "family": "TMA silicate cubic cage",
+      "doi": "10.1039/C8CP05682J",
+      "evidence_class": "experiment",
+      "supported_observation": "Counterion organization is implicated in aqueous cage protection.",
+      "carbon_audit": "Tetramethylammonium contains carbon and is functionally implicated.",
+      "failure_or_missing_link": "Inorganic replacement cannot inherit its stability without measurement.",
+      "source_location": "https://pubs.rsc.org/en/content/articlehtml/2019/cp/c8cp05682j",
+      "read_extent": "primary indexed methods and results"
+    }
+  ],
+  "proposals": [
+    {
+      "id": "P1",
+      "family": "Na/K-aluminosilicate CHA/LTA",
+      "novelty": "unverified; known compounds",
+      "claim": "Test seed-dependent new-material composition and ion selectivity under common feed."
+    },
+    {
+      "id": "P2",
+      "family": "Elemental sulfur chain/ring materials",
+      "novelty": "unverified; known allotropes",
+      "claim": "Test seed dependence against identical pressure/temperature history and founder carryover."
+    },
+    {
+      "id": "P3",
+      "family": "Hydrogen silsesquioxane",
+      "novelty": "unverified; known polymer",
+      "claim": "Conditional test of cage/network templating after full carbon audit."
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "baseline_implementation_error_found": false,
+  "classification": "Retrospective fixed-parameter audit; no fitting",
+  "clock_and_retention": {
+    "FT_freeze_minutes": 5,
+    "FT_per_generation": 3,
+    "FT_thaw_minutes": 5,
+    "active_fraction_after_60min": 0.4598751697878832,
+    "active_half_life_model_minutes": 53.53864613945829,
+    "elapsed_minutes_per_generation": 90,
+    "founder_active_ratio_per_post_g1_generation": 0.1264656716916679,
+    "incorrect_55percent_each_FT_three_cycle_retention": 0.16637500000000005,
+    "model_42C_reaction_minutes_per_generation": 60,
+    "per_FT_retention_model": 0.8193212706006459,
+    "unjustified_same_kd_extra_30min_multiplier": 0.6781409660150928
+  },
+  "differential_retention_code_test": [
+    {
+      "baseline_affected": false,
+      "observed_species_retention": {
+        "B": 0.55,
+        "Cy5A": 0.55,
+        "Cy5F1": 0.55,
+        "F1": 0.8,
+        "HyperA": 0.55,
+        "complex_AB": 0.55,
+        "complex_RB": 0.55,
+        "inactive_F1": 0.8
+      },
+      "test_parameters": {
+        "retention_f": 0.8,
+        "retention_fragments": 0.55
+      },
+      "transport": "contact"
+    },
+    {
+      "baseline_affected": false,
+      "observed_species_retention": {
+        "B": 0.55,
+        "Cy5A": 0.55,
+        "Cy5F1": 0.55,
+        "F1": 0.8,
+        "HyperA": 0.55,
+        "complex_AB": 0.55,
+        "complex_RB": 0.55,
+        "inactive_F1": 0.8
+      },
+      "test_parameters": {
+        "retention_f": 0.8,
+        "retention_fragments": 0.55
+      },
+      "transport": "fractional"
+    }
+  ],
+  "dynamic_residuals_by_seed": [
+    {
+      "bias_pp": 1.224291446966137,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 1.7207051103511193,
+      "n": 9,
+      "rmse_pp": 1.277163734680388,
+      "seed_uM": 0.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": -0.605652198703523,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 2.232642445611589,
+      "n": 9,
+      "rmse_pp": 1.0069714501252809,
+      "seed_uM": 1.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": -6.41757948842744,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 7.881689170953585,
+      "n": 9,
+      "rmse_pp": 6.52400266358318,
+      "seed_uM": 2.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": 1.0292753913625365,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 2.1839496894818424,
+      "n": 21,
+      "rmse_pp": 1.347348526952224,
+      "seed_uM": 0.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": -1.45911022455731,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 3.89632983953529,
+      "n": 21,
+      "rmse_pp": 2.1283560542058577,
+      "seed_uM": 1.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": -7.33015693670712,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 11.520311385681755,
+      "n": 21,
+      "rmse_pp": 7.763037811380159,
+      "seed_uM": 2.0,
+      "transport": "contact"
+    },
+    {
+      "bias_pp": 1.3361740710284307,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 2.1439008576858805,
+      "n": 9,
+      "rmse_pp": 1.4317276246222421,
+      "seed_uM": 0.0,
+      "transport": "fractional"
+    },
+    {
+      "bias_pp": -0.9967318123379386,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 2.9715082779922914,
+      "n": 9,
+      "rmse_pp": 1.396212464108422,
+      "seed_uM": 1.0,
+      "transport": "fractional"
+    },
+    {
+      "bias_pp": -5.705693666012646,
+      "dataset": "Figure_2",
+      "max_absolute_error_pp": 7.754100241337051,
+      "n": 9,
+      "rmse_pp": 5.922085317630712,
+      "seed_uM": 2.0,
+      "transport": "fractional"
+    },
+    {
+      "bias_pp": 1.9468393114973546,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 3.130369374963996,
+      "n": 21,
+      "rmse_pp": 2.1508940102052483,
+      "seed_uM": 0.0,
+      "transport": "fractional"
+    },
+    {
+      "bias_pp": -0.7154219212503237,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 3.00582107583498,
+      "n": 21,
+      "rmse_pp": 1.4985956920132106,
+      "seed_uM": 1.0,
+      "transport": "fractional"
+    },
+    {
+      "bias_pp": -6.3155029401224985,
+      "dataset": "Figure_3",
+      "max_absolute_error_pp": 10.579614778281321,
+      "n": 21,
+      "rmse_pp": 6.847908543014375,
+      "seed_uM": 2.0,
+      "transport": "fractional"
+    }
+  ],
+  "equal_inventory_loss_counterexample": [
+    {
+      "concentration_thinning_percent": 90.98167162246301,
+      "definition": "Synthetic equal-inventory maps, not fitted to either figure",
+      "difference_pp": 8.974887376542483,
+      "fraction_content_loss_percent": 99.9565589990055,
+      "transport": "contact"
+    },
+    {
+      "concentration_thinning_percent": 90.98167162246301,
+      "definition": "Synthetic equal-inventory maps, not fitted to either figure",
+      "difference_pp": 8.974887376542483,
+      "fraction_content_loss_percent": 99.9565589990055,
+      "transport": "fractional"
+    }
+  ],
+  "fresh_reporter_feed_uM": 0.625,
+  "g1_total_reporter_uM": 0.4583333333333333,
+  "g7_state": [
+    {
+      "active_F1_g7_uM": 0.008629212440353461,
+      "cohorts_g7": 36,
+      "founder_F1_g7_uM": 0.0,
+      "no_regeneration_g7_percent": 0.44915155627011094,
+      "observed_g7_percent": 2.1326666666666667,
+      "predicted_g7_percent": 3.173411495773109,
+      "seed_uM": 0,
+      "transport": "contact"
+    },
+    {
+      "active_F1_g7_uM": 0.008629932549622635,
+      "cohorts_g7": 36,
+      "founder_F1_g7_uM": 3.449191649756441e-07,
+      "no_regeneration_g7_percent": 0.4535774000354137,
+      "observed_g7_percent": 4.591333333333334,
+      "predicted_g7_percent": 3.1782140119607445,
+      "seed_uM": 1,
+      "transport": "contact"
+    },
+    {
+      "active_F1_g7_uM": 0.008630701221715026,
+      "cohorts_g7": 36,
+      "founder_F1_g7_uM": 6.898383299512882e-07,
+      "no_regeneration_g7_percent": 0.45667039403672993,
+      "observed_g7_percent": 11.961,
+      "predicted_g7_percent": 3.181322204193861,
+      "seed_uM": 2,
+      "transport": "contact"
+    },
+    {
+      "active_F1_g7_uM": 0.012336643225243988,
+      "cohorts_g7": 15,
+      "founder_F1_g7_uM": 0.0,
+      "no_regeneration_g7_percent": 0.8586668642485791,
+      "observed_g7_percent": 2.1326666666666667,
+      "predicted_g7_percent": 4.108382200930823,
+      "seed_uM": 0,
+      "transport": "fractional"
+    },
+    {
+      "active_F1_g7_uM": 0.01233686550787103,
+      "cohorts_g7": 15,
+      "founder_F1_g7_uM": 3.449191649756441e-07,
+      "no_regeneration_g7_percent": 0.8629704292120087,
+      "observed_g7_percent": 4.591333333333334,
+      "predicted_g7_percent": 4.112937363562518,
+      "seed_uM": 1,
+      "transport": "fractional"
+    },
+    {
+      "active_F1_g7_uM": 0.012337160592291837,
+      "cohorts_g7": 15,
+      "founder_F1_g7_uM": 6.898383299512882e-07,
+      "no_regeneration_g7_percent": 0.8665298177068742,
+      "observed_g7_percent": 11.961,
+      "predicted_g7_percent": 4.116659247324587,
+      "seed_uM": 2,
+      "transport": "fractional"
+    }
+  ],
+  "inputs_unchanged": true,
+  "latent_differential_retention_issue": "Cy5F1 classified as fragment while unlabelled F1 classified as full length; equal-retention saved baseline unaffected",
+  "maximum_moiety_error_uM": 5.009881398621019e-15,
+  "maximum_prediction_replay_difference_pp": 0.0,
+  "maximum_trajectory_replay_difference": 0.0,
+  "nominally_identical_protocol_experiment_differences": [
+    {
+      "combined_sd_percent": 0.6642348982099631,
+      "difference_pp": 1.05,
+      "figure2_ft3_mean": 0.823,
+      "figure3_g1_mean": 1.873,
+      "seed_uM": 0
+    },
+    {
+      "combined_sd_percent": 1.595655560159105,
+      "difference_pp": -1.3200000000000003,
+      "figure2_ft3_mean": 6.553666666666667,
+      "figure3_g1_mean": 5.233666666666667,
+      "seed_uM": 1
+    },
+    {
+      "combined_sd_percent": 1.36871630856556,
+      "difference_pp": -2.8276666666666674,
+      "figure2_ft3_mean": 12.942666666666668,
+      "figure3_g1_mean": 10.115,
+      "seed_uM": 2
+    }
+  ],
+  "predictions_checked": 216,
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.1",
+    "openpyxl": "3.1.3",
+    "python": "3.12.3",
+    "scipy": "1.16.1"
+  },
+  "source_observations_checked": 108,
+  "steady_total_reporter_uM": 0.47413793103448276,
+  "supplied_A_moiety_no_reaction_steady_uM": 2.370689655172414,
+  "unmeasured_closures": [
+    "per-species retention",
+    "loss location versus concentration dilution",
+    "vesicle volume weighting",
+    "all-or-nothing versus fractional exchange",
+    "membrane effects on chemical rates",
+    "active versus reporter product equivalence",
+    "bound-complex survival and activity",
+    "temperature-dependent chemical and inactivation rates during FT"
+  ]
+}

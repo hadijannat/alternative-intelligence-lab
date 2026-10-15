@@ -1,0 +1,96 @@
+{
+  "archive_sha256": "d4c64660e9e1fa45c82bd8868a96ec10162195eed69636445972c05550d8d0d6",
+  "checks": {
+    "923_distinct_reduced_compositions": true,
+    "all_six_fresh_process_replay_outputs_byte_identical": true,
+    "all_source_ids_unique": true,
+    "all_source_selected_rows_retained": true,
+    "archive_md5_matches_independently_fetched_official_metadata": true,
+    "archive_size_matches_official": true,
+    "composition_flags_match_summary": true,
+    "eligibility_count_and_exclusions": true,
+    "eligible_inventory_matches_source": true,
+    "exactly_1000_unique_ids": true,
+    "formal_charges_correct": true,
+    "identity_4000_properties_and_threshold_classes_match_source": true,
+    "life_and_novelty_not_fabricated": true,
+    "no_score_column": true,
+    "official_license_cc_by_4": true,
+    "registry_matches_pinned_official_commit": true,
+    "scalar_availability_matches_summary": true,
+    "selected_and_protocol_hashes_match_manifest": true,
+    "selected_and_screened_same_order": true,
+    "selection_independently_reconstructed": true,
+    "source_rows_75993": true,
+    "source_threshold_counts": true
+  },
+  "counts": {
+    "above_screen_threshold": 320,
+    "ion_element_present": 515,
+    "nonpositive_formation": 912,
+    "positive_formation": 88,
+    "redox_element_present": 439,
+    "within_screen_threshold": 680
+  },
+  "distinct_reduced_compositions": 923,
+  "eligible": 71739,
+  "excluded": {
+    "contains_carbon": 3455,
+    "elemental_not_compound": 799
+  },
+  "formal_charges": {
+    "Mo34_WVI_VIV_hypothesis": -10,
+    "Mo34_WVI_VV_hypothesis": -9,
+    "Mo36_parent": -8
+  },
+  "mismatches": [],
+  "numeric_available": {
+    "ehull": 1000,
+    "formation_energy_peratom": 1000,
+    "mbj_bandgap": 249,
+    "optb88vdw_bandgap": 1000
+  },
+  "official_file_metadata": {
+    "computed_md5": "fb3e1eb80339a70ff313af1c644c1777",
+    "download_url": "https://ndownloader.figshare.com/files/38521619",
+    "id": 38521619,
+    "is_link_only": false,
+    "mimetype": "application/zip",
+    "name": "jdft_3d-12-12-2022.json.zip",
+    "size": 40811489,
+    "supplied_md5": "fb3e1eb80339a70ff313af1c644c1777"
+  },
+  "provenance_limit": "Protocol and selected IDs are hashed in the selection manifest, but no independent time-stamped pre-property code hash or immutable execution receipt is available. Property-blind selection is directly reproducible; chronology is not independently established.",
+  "replay_exclusions": [],
+  "replay_file_hashes": {
+    "eligible_inventory.csv": {
+      "main_sha256": "02c208b9d8d306b36a75360811a0090aafdbdbf645c2864745ce237d1d61854c",
+      "replay_sha256": "02c208b9d8d306b36a75360811a0090aafdbdbf645c2864745ce237d1d61854c"
+    },
+    "screen_summary.json": {
+      "main_sha256": "70bb91830324b8ce537d1b5a7f8a87cfe22f40f08ab59824a03d110c0715e033",
+      "replay_sha256": "70bb91830324b8ce537d1b5a7f8a87cfe22f40f08ab59824a03d110c0715e033"
+    },
+    "screened_1000.csv": {
+      "main_sha256": "410a85eda0bae4c206e93bd4d43b8b5e22704847deaf270d33d1bd367aa55ed8",
+      "replay_sha256": "410a85eda0bae4c206e93bd4d43b8b5e22704847deaf270d33d1bd367aa55ed8"
+    },
+    "selected_1000.csv": {
+      "main_sha256": "a69dcb13159e13d4019f1761c65c0a1d66161eaa12c9aaa24e7aa3c10203a040",
+      "replay_sha256": "a69dcb13159e13d4019f1761c65c0a1d66161eaa12c9aaa24e7aa3c10203a040"
+    },
+    "selected_source_records.json": {
+      "main_sha256": "a8b6b023a5cf9c1f532958ddae78f3b1bdd59f791bb3daecd8b07fb76ca4259c",
+      "replay_sha256": "a8b6b023a5cf9c1f532958ddae78f3b1bdd59f791bb3daecd8b07fb76ca4259c"
+    },
+    "selection_manifest.json": {
+      "main_sha256": "e1fa4dd97f4f1d1129a3121e79b903026bbdbced3154ab66329e2d6531ff4282",
+      "replay_sha256": "e1fa4dd97f4f1d1129a3121e79b903026bbdbced3154ab66329e2d6531ff4282"
+    }
+  },
+  "reviewed_screen_code_sha256": "2240d062d11d1d6f06ca95850abfb524155e3d5b28f2f2739469b2499c9cc2ae",
+  "scope_limit": "DFT crystal screen does not measure aqueous stability, molecular novelty, autonomy, inheritance or intelligence. Formal charge does not establish molecular structure or electron localization.",
+  "selected": 1000,
+  "source_rows": 75993,
+  "status": "PASS_WITH_PROVENANCE_LIMITATION"
+}

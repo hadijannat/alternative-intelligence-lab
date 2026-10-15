@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "workbook_summary_values_checked": 120,
+  "predictions_replayed": 400,
+  "diagnostic_script_sha256": "11c7d4a81acd9c78508ef407aa1aee9cdf92ea02ea86cc62d77e619621386766",
+  "replay_max_absolute_error_pp": 0.0,
+  "matched_exposure_pairs": 5,
+  "source_hashes": {
+    "rna-mechanism-2026-10-15/model/results-v2/kinetic_predictions.csv": "7ab97580beab1016c4ea06f08dccd4b28c6b0b94708496abdb462e0e7b730c6c",
+    "rna-mechanism-2026-10-15/model/results-v2/cross_validation_predictions.csv": "dc35fa1ac39aa0149633e713bf8b78104c84dd7724a110a530f161062de7ec5a",
+    "rna-mechanism-2026-10-15/model/results-v2/full_fits.json": "eecb1a64baa8f80127c31cf331d031acfd8be45e48ecda2c07f9c9befc89ad19",
+    "rna-mechanism-2026-10-15/model/results-v2/cross_validation.json": "58dd6b8661641df9a2ee4416cfb8ab61cab088c6433dd8109b4da43a9c30c31a",
+    "rna-mechanism-2026-10-15/model/results-v2/profiles.json": "4b48ce2b44de7a0a71066c3be698c08c9270dc0b81e7e947492f248c49c4f50f",
+    "rna-mechanism-2026-10-15/model/results-v2/summary.json": "6953c5e3e1ab29ebb23bc1c4ac47c9aba61fb579e267acdc0839485729ce2f13",
+    "rna-mechanism-2026-10-15/model/model.py": "0797f9bf4a1244d423d563fd07cdb390f3aef0b4b937f5e30c8b6c5fc9170593",
+    "rna-mechanism-2026-10-15/sources/salibi/observations.csv": "374695213995633810e23f3422dd4726329820f2d4cb070cf8b09151277d9134",
+    "rna-mechanism-2026-10-15/sources/salibi/conditions.json": "10ad697f383d9ca12837a459a54429a0ace021118cf51ad09a9dc5f058e23cbc",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7"
+  },
+  "source_hashes_unchanged": true,
+  "outputs": {
+    "summary.json": "f3328becd612e09bb8e861db8b5d35a930e202abcce81f8df0fcf4ed9ee97057",
+    "residuals.csv": "833930c938a1bb5f802d2717e546bbe7fa9b9422f74f2e51a8dc908c30a37662"
+  }
+}

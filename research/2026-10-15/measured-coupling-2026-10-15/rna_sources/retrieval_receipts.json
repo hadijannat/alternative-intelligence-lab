@@ -1,0 +1,49 @@
+[
+  {
+    "file": "raw/ameta.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10167250/fullTextXML",
+    "status": "existing retained",
+    "bytes": 127680,
+    "sha256": "a57ee137ab53587869a3c63c48dc1571e0c167d200217ebf51928a45d5cb3b12"
+  },
+  {
+    "file": "raw/salibi.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9984477/fullTextXML",
+    "status": "existing retained",
+    "bytes": 108961,
+    "sha256": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0"
+  },
+  {
+    "file": "raw/ameta_si.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42004-023-00887-5/MediaObjects/42004_2023_887_MOESM1_ESM.pdf",
+    "retrieved_utc": "2026-10-15T09:37:17.318225+00:00",
+    "http_status": 200,
+    "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42004-023-00887-5/MediaObjects/42004_2023_887_MOESM1_ESM.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 18247769,
+    "sha256": "dc11fe46ef105fffc9ab31af5709607d6c7b9c39e7bd1eb41a2d175386b2a799"
+  },
+  {
+    "file": "raw/salibi_si.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-36940-z/MediaObjects/41467_2023_36940_MOESM1_ESM.pdf",
+    "retrieved_utc": "2026-10-15T09:37:50.164656+00:00",
+    "http_status": 200,
+    "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-36940-z/MediaObjects/41467_2023_36940_MOESM1_ESM.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 6789892,
+    "sha256": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd"
+  },
+  {
+    "file": "raw/salibi_data.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-36940-z/MediaObjects/41467_2023_36940_MOESM8_ESM.xlsx",
+    "retrieved_utc": "2026-10-15T09:38:06.780069+00:00",
+    "http_status": 200,
+    "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-36940-z/MediaObjects/41467_2023_36940_MOESM8_ESM.xlsx",
+    "content_type": "application/octet-stream",
+    "status": "downloaded",
+    "bytes": 3152026,
+    "sha256": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7"
+  }
+]

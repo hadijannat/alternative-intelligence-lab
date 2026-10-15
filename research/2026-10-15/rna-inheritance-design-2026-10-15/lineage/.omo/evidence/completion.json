@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "conditional F1 generation experiment design and simulation",
+  "requirements": "../../checks.md",
+  "report": "../../REPORT.md",
+  "official_results": "../../results-v1",
+  "independent_verification": "../../../verification-v1/verification.json",
+  "lineage_tests_passed": 8,
+  "integrated_checks_passed": 74,
+  "raw_observation_count": 2654208,
+  "joint_decisions": 31104,
+  "worlds": 9,
+  "platforms": 3,
+  "experiments_per_world_platform": 128,
+  "physical_assay_or_inheritance_verified": false
+}

@@ -11,3 +11,5 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - name: Verify saved publication assets
         run: python3 tools/verify_publication.py
+      - name: Check follow-up export boundaries
+        run: python3 -m unittest discover -s tests -p 'test_export_followup.py'

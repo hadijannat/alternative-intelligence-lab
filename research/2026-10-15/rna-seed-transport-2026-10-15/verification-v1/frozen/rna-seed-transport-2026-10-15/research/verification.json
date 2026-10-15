@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "source_hashes_checked": {
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.txt": "af87baafa8f0a46ea465e0e34384c423e9a0333e0731991e179608020b7ac6c3",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi.xml": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md": "7f69de342c37ac305fedd2b9331007aaf4ad9d59e3bc5c9358e085645e133b8d",
+    "rna-turnover-tests-2026-10-15/research/sources.json": "a7a609691962ad2a72bc5c07644959a6ea0aaabad777ec79d9611080eaf7eed2",
+    "rna-mechanism-2026-10-15/sources/retention/sources.json": "7fe95e42bdb415f0004afa0c9e0e426069d7361500c1568bf7200a506a02d3e2",
+    "rna-seed-transport-2026-10-15/research/raw/litschel2018.pdf": "d11a77c012fb475a6ba613239c4988b1711bd9d73ba80d87316fe794c00eda83",
+    "rna-seed-transport-2026-10-15/research/raw/litschel2018.txt": "38f4c13aeb79f8d1b01c2c031997916f313df0a3b3acc3bc6e3e4fd40ca1a06b",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026.html": "d35bf89a5508ee20f50e8e4d424271aa83103565d1e182549cda8cf5e5e1fc29",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_data.xlsx": "4e4396c128abc9b0a537188177b74397a551314ed2e986c5ed3191bc8e24dff8",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_reference.pdf": "f88a7c8f9b7cf19d8701f02b3c06ae1b31ad094d98bf3f06318b1ddcdcbe67cc",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_reference.txt": "419842654fa6cbc9824eae99f197d40594fefa785dde4a2dfdf5b043c1d910c3",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_si.pdf": "c7a7b671796d6cb663a8cdcbac7ef78974a03308b198c5220c715d8b69d7ba53",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_si.txt": "fb4abc5246a4eabea84349a309d3eb6daf709d6a0fe6423e71163f802ce8de14",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.pdf": "9ed25f667bc1f76c17964846d3171839f379115f575b1031d487aa6166a9e6a3",
+    "rna-seed-transport-2026-10-15/research/raw/tsuji2026_vor.txt": "d434f377667d61e2314525f7e31081c270dff84e70b4c4c91256681c30a4aecc"
+  },
+  "closed_bath_algebra_cases": [
+    {
+      "nu": 0.82,
+      "kappa": 1.00762446135749,
+      "retention_after_three": 0.5499999999999999
+    },
+    {
+      "nu": 1.0,
+      "kappa": 0.38376418216567415,
+      "retention_after_three": 0.55
+    },
+    {
+      "nu": 2.0,
+      "kappa": 0.24976224370053315,
+      "retention_after_three": 0.55
+    },
+    {
+      "nu": 5.0,
+      "kappa": 0.21570244152749896,
+      "retention_after_three": 0.55
+    },
+    {
+      "nu": 20.0,
+      "kappa": 0.20304965512124298,
+      "retention_after_three": 0.5499999999999999
+    },
+    {
+      "nu": 100.0,
+      "kappa": 0.20001731805577933,
+      "retention_after_three": 0.5500000000000002
+    }
+  ],
+  "effective_patch_conservation_cases": [
+    {
+      "nu": 1.0,
+      "D": 0.0,
+      "total_inventory_flux": 0.0
+    },
+    {
+      "nu": 1.0,
+      "D": 0.3,
+      "total_inventory_flux": 6.245004513516506e-17
+    },
+    {
+      "nu": 1.0,
+      "D": 7.0,
+      "total_inventory_flux": -2.220446049250313e-16
+    },
+    {
+      "nu": 2.0,
+      "D": 0.0,
+      "total_inventory_flux": 0.0
+    },
+    {
+      "nu": 2.0,
+      "D": 0.3,
+      "total_inventory_flux": -7.632783294297951e-17
+    },
+    {
+      "nu": 2.0,
+      "D": 7.0,
+      "total_inventory_flux": -4.440892098500626e-16
+    },
+    {
+      "nu": 20.0,
+      "D": 0.0,
+      "total_inventory_flux": -2.220446049250313e-16
+    },
+    {
+      "nu": 20.0,
+      "D": 0.3,
+      "total_inventory_flux": -6.661338147750939e-16
+    },
+    {
+      "nu": 20.0,
+      "D": 7.0,
+      "total_inventory_flux": -5.329070518200751e-15
+    }
+  ],
+  "dataset_sheets_checked": 7,
+  "dataset_data_rows_checked": 228,
+  "dataset_inventory_sha256": "4ea3d0a7819306698fc92fbeb68b76736477ba663e628815ae66466e10a8d60e",
+  "not_checked": [
+    "Experimental validity of bath assumptions",
+    "Unavailable raw Peter microscopy data",
+    "Measured transport fit"
+  ],
+  "verification_script_sha256": "762ded498cf09fbbbdc9a2ff2524315594dcffd93d4e9cc8a60fd5990dd5de2a",
+  "source_ledger_sha256": "89fda0f4023e5d17b64c06d5728d73af584bed2805fd1ce40f53f8d1ba5a4cf0"
+}

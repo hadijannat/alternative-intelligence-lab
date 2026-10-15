@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-15",
+  "method": "Web tool indexed search, followed by primary-page and raw-file checks where accessible; result descriptions are researcher summaries, not exhaustive result exports.",
+  "scope": "Bounded scientific prior-art screen; no exhaustive structure database or patent-family review.",
+  "exact_candidate_novelty": "UNRESOLVED",
+  "compound_discovery_claim": false,
+  "queries": [
+    {
+      "query": "polyoxometalate molybdenum tungsten vanadium mixed addenda Keggin phosphovanadomolybdate molecular formula self reproduction autocatalysis",
+      "outcome": "Known mixed-addenda POM primary literature and US9991537B2 found."
+    },
+    {
+      "query": "inorganic self replication molybdenum tungsten polyoxometalate Mo36 Mo132 Mo154 discovery origin life",
+      "outcome": "2020 inorganic autocatalytic-set primary study found; source extraction displayed malformed formula, so not used for exact Mo36 identity."
+    },
+    {
+      "query": "iron nickel sulfide autocatalytic carbon free life inorganic chemical network primary research",
+      "outcome": "Carbon-metabolism literature found, not carbon-free life."
+    },
+    {
+      "query": "\"PMo6W5V\" polyoxometalate",
+      "outcome": "No exact candidate verified; generic and binary mixed-addenda papers returned."
+    },
+    {
+      "query": "\"SiMo6W5V\" polyoxometalate",
+      "outcome": "No exact candidate verified; generic and binary mixed-addenda papers returned."
+    },
+    {
+      "query": "\"Mixed-addenda\" \"Mo\" \"W\" \"V\" Keggin synthesis",
+      "outcome": "Positive prior-art family results."
+    },
+    {
+      "query": "\"unique properties\" \"aqueous polyoxometalate\" mixtures 2016 DOI",
+      "outcome": "Primary 10.1016/j.electacta.2016.01.145 recovered."
+    },
+    {
+      "query": "\"Mo34\" \"W\" \"V\" \"O112\"",
+      "outcome": "No exact compound verified; parent Mo36 and unrelated atom labels returned."
+    },
+    {
+      "query": "\"Mo36\" tungsten vanadium substituted cluster",
+      "outcome": "Related substitution/cluster families returned."
+    },
+    {
+      "query": "\"Mo36\" \"H2O\" \"O112\" structure",
+      "outcome": "Known parent and altered hydrated/hydroxylated Mo36 compounds found."
+    },
+    {
+      "query": "\"WO3\" \"Mo36\" polyoxometalate",
+      "outcome": "No exact coupled functional system verified."
+    },
+    {
+      "query": "\"Mo34WVO112\"",
+      "outcome": "Empty indexed search results."
+    },
+    {
+      "query": "\"Mo34\" \"W\" \"V\" \"Mo36\"",
+      "outcome": "Only irrelevant nomenclature/atom-label matches returned."
+    },
+    {
+      "query": "\"Mo35W\" \"O112\"",
+      "outcome": "Empty indexed search results."
+    },
+    {
+      "query": "\"Mo35V\" \"O112\"",
+      "outcome": "Empty indexed search results."
+    },
+    {
+      "query": "\"Mo36\" \"substitution\" \"tungsten\"",
+      "outcome": "No exact proposed Mo35W compound verified."
+    },
+    {
+      "query": "\"Mo36\" \"substituted\" \"vanadium\"",
+      "outcome": "2012 primary manuscript/SI tentative partial V substitution of Mo36\u2212xNbx family found."
+    },
+    {
+      "query": "\"Mo35\" \"tungsten\" cluster",
+      "outcome": "No exact proposed cluster verified; unrelated results returned."
+    },
+    {
+      "query": "\"Mo35\" \"vanadium\" polyoxometalate",
+      "outcome": "No exact proposed cluster verified."
+    },
+    {
+      "query": "\"Mo36\" \"Mo-Nb\" \"Raman\" Angewandte",
+      "outcome": "Primary Sanchez Sanchez 2012 manuscript/SI found."
+    },
+    {
+      "query": "\"Mo36\" \"WO3\" coupling",
+      "outcome": "No exact coupled functional system verified."
+    },
+    {
+      "query": "\"Mo36\" \"tungsten trioxide\"",
+      "outcome": "General chemistry and unrelated references; no exact coupling verified."
+    },
+    {
+      "query": "\"Mo36\" \"vanadium\" \"niobium\" assembly",
+      "outcome": "Tentative hydrothermal substitution and broader speciation work."
+    },
+    {
+      "query": "site.nature.com greigite Fe3S4 hydrogen carbon dioxide reduction origin life 2015",
+      "outcome": "2020 primary Preiner et al. 10.1038/s41559-020-1125-6 found."
+    },
+    {
+      "query": "site.pnas.org nickel sulfide iron sulfide origin life methyl thioacetate 1997 Huber Wachtershauser",
+      "outcome": "PubMed primary abstract 10.1126/science.276.5310.245 found."
+    },
+    {
+      "query": "site.science.org VO2 structural memory 2022 long lived metastable states",
+      "outcome": "Did not establish desired primary result in this batch."
+    },
+    {
+      "query": "\"Ni3S4\" \"polydymite\" mineral structure primary",
+      "outcome": "Known mineral and primary synthesis records found."
+    },
+    {
+      "query": "\"Aiding the Self-Assembly\" \"Sanchez\" DOI",
+      "outcome": "Verified DOI 10.1002/anie.201200746 and publication date 2012-06-08."
+    },
+    {
+      "query": "\"D5SC08564K\" tungsten dopants proton",
+      "outcome": "Verified primary 2026 WO3 doping prior art."
+    },
+    {
+      "query": "site.crystallography.net \"Mo36\" \"O112\"",
+      "outcome": "No exact COD record verified through this indexed query."
+    },
+    {
+      "query": "site.crystallography.net \"Mo34\" \"V\" \"W\"",
+      "outcome": "No exact candidate COD record verified through this indexed query."
+    },
+    {
+      "query": "site.rruff.info \"Greigite\" \"Fe3 S4\"",
+      "outcome": "Known greigite structure record returned via mineral database mirrors; AMCSD 0000127."
+    },
+    {
+      "query": "\"VO2\" \"Glass-like dynamics\" memory nature 2022",
+      "outcome": "Primary author manuscript identified; established memory material."
+    }
+  ],
+  "independent_patent_worker": {
+    "queries": [
+      "\"PMo6W5V\"",
+      "\"SiMo6W5V\"",
+      "\"PMo6W5VO40\"",
+      "\"SiMo6W5VO40\""
+    ],
+    "outcome": "No exact isolated target verified; US4522934A and US6841668B2 positively disclose related/generic families.",
+    "role_note": "First explorer worker could only verify arithmetic because its role prohibited browsing; replacement librarian worker performed public-source search. Both limitations retained."
+  }
+}

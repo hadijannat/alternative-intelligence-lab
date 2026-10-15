@@ -1,0 +1,150 @@
+{
+  "all_refinement_pass": true,
+  "classification": "development study, no prospective unseen validation",
+  "elapsed_seconds": 338.5400778329931,
+  "functional_inheritance": "unidentifiable: no lineage-linked active-F1 observations",
+  "maximum_balance_error_uM": 6.300515664747763e-15,
+  "original_historical_benchmark": {
+    "Figure2_2uM_prediction": {
+      "bias_pp": -4.496467873535725,
+      "maximum_absolute_mean_error_pp": 6.889946200392511,
+      "n_nonzero_replicates": 9,
+      "passes_pragmatic_screen": false,
+      "rmse_pp": 4.9463455359879065
+    },
+    "Figure3_prediction": {
+      "bias_pp": -1.3404575453401508,
+      "maximum_absolute_mean_error_pp": 6.887473557251212,
+      "n_nonzero_replicates": 63,
+      "passes_pragmatic_screen": false,
+      "rmse_pp": 3.019918161269456
+    },
+    "all_prediction": {
+      "bias_pp": -1.7349588363645978,
+      "maximum_absolute_mean_error_pp": 6.889946200392511,
+      "n_nonzero_replicates": 72,
+      "passes_pragmatic_screen": false,
+      "rmse_pp": 3.322380059286248
+    }
+  },
+  "original_kinetic_fit": {
+    "bounds_hit": [
+      0,
+      0,
+      1
+    ],
+    "fixed_starts": [
+      [
+        -1.5,
+        -5,
+        0
+      ],
+      [
+        -1,
+        -4,
+        1
+      ],
+      [
+        -2,
+        -6,
+        2
+      ]
+    ],
+    "message": "`ftol` termination condition is satisfied.",
+    "n_summary_means": 40,
+    "optimizer_success": true,
+    "rmse_pp": 7.866012137843208,
+    "singular_values_of_residual_jacobian": [
+      605.1756769746568,
+      21.722781667979255,
+      0.24023000825972649
+    ],
+    "sse_percent_squared": 2474.965878107867
+  },
+  "selected_chemistry": "saturation",
+  "selection": "whole-dose cross-validation only; 0.25pp simplicity tolerance",
+  "transport": {
+    "contact": {
+      "Figure2_2uM": {
+        "bias_pp": -6.293385936623694,
+        "maximum_absolute_mean_error_pp": 7.0886700390308945,
+        "n": 9,
+        "passes_development_screen": false,
+        "rmse_pp": 6.382974876330571
+      },
+      "Figure3": {
+        "bias_pp": -0.7621259201401915,
+        "maximum_absolute_mean_error_pp": 5.9125258251603405,
+        "n": 63,
+        "passes_development_screen": false,
+        "rmse_pp": 2.990012242798006
+      },
+      "all_benchmark": {
+        "bias_pp": -1.4535334222006293,
+        "maximum_absolute_mean_error_pp": 7.0886700390308945,
+        "n": 72,
+        "passes_development_screen": false,
+        "rmse_pp": 3.59380683879297
+      },
+      "mixing_fit": {
+        "n": 18,
+        "rmse_pp": 0.7788900766143093,
+        "sse": 10.920055526068403
+      },
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 99.99999973874252,
+        "kf": 1.5191726905179304,
+        "kh": 0.0003697516065118584,
+        "ki": 1000.0,
+        "mixing": 0.03295077877871953,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "contact"
+      }
+    },
+    "fractional": {
+      "Figure2_2uM": {
+        "bias_pp": -4.526520069374186,
+        "maximum_absolute_mean_error_pp": 6.944618600225611,
+        "n": 9,
+        "passes_development_screen": false,
+        "rmse_pp": 4.984489258407216
+      },
+      "Figure3": {
+        "bias_pp": -1.2297640023922811,
+        "maximum_absolute_mean_error_pp": 6.643343245492345,
+        "n": 63,
+        "passes_development_screen": false,
+        "rmse_pp": 2.9568184240906277
+      },
+      "all_benchmark": {
+        "bias_pp": -1.6418585107650194,
+        "maximum_absolute_mean_error_pp": 6.944618600225611,
+        "n": 72,
+        "passes_development_screen": false,
+        "rmse_pp": 3.279568560010398
+      },
+      "mixing_fit": {
+        "n": 18,
+        "rmse_pp": 1.088234807888519,
+        "sse": 21.316589947802907
+      },
+      "parameters": {
+        "family": "saturation",
+        "hroute": 0,
+        "kb": 99.99999973874252,
+        "kf": 1.5191726905179304,
+        "kh": 0.0003697516065118584,
+        "ki": 1000.0,
+        "mixing": 0.06651100939962301,
+        "q": 1.0,
+        "retention_f": 0.55,
+        "retention_fragments": 0.55,
+        "transport": "fractional"
+      }
+    }
+  }
+}

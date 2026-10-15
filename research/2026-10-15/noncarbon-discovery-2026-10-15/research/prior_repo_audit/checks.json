@@ -1,0 +1,165 @@
+{
+  "status": "PASS_LOCAL_ARTIFACT_AUDIT_ONLY",
+  "source_count": 19,
+  "checks": [
+    {
+      "name": "source_unchanged",
+      "path": "claude-run/noncarbon-route/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "claude-run/noncarbon-route/STATUS_FOR_THESIS.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "claude-run/noncarbon-route/MATERIAL_SEARCH_B175.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/results/evolution/summary.json",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/frontier/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/frontier/chemistry/results/summary.json",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/docs/published-model.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "metal-oxide/published/calibration/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/sources/chlorate2021/audit.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/chlorate-founder-mass-bound-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/borazine-amino-finer-grid-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/borazine-amino-tight-scf-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/borazine-amino-scf-terminal-diagnostic-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/manganese-mo36-counterion-transport-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/ag-oxide-hydrogen-mo-compatibility-v1/report.md",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "path": "discovery-loop/experiments/mo36-dilution-detectability-v1/results/report.md",
+      "pass": true
+    },
+    {
+      "name": "all_report_links_exist",
+      "pass": true
+    },
+    {
+      "name": "inheritance_summary_values_and_censoring",
+      "pass": true
+    },
+    {
+      "name": "frontier_final_contrasts_include_zero",
+      "pass": true,
+      "values": [
+        {
+          "kappa": 2,
+          "passage": 8,
+          "comparison": "intact_minus_composition_reset",
+          "graph_differences": [
+            0.00948973579464496,
+            -0.02230579442763725,
+            -0.00015870842234816385,
+            0.03143985310552172,
+            0.06656732022421591,
+            -0.026891568315662695,
+            0.014938855858667888,
+            -0.01869377119703114
+          ],
+          "mean": 0.006798240327546404,
+          "low": -0.015010661381342636,
+          "high": 0.028607142036435444,
+          "valid_graphs": 8,
+          "total_graphs": 8
+        },
+        {
+          "kappa": 20,
+          "passage": 8,
+          "comparison": "intact_minus_composition_reset",
+          "graph_differences": [
+            0.0025838651245602695,
+            0.00812953852845466,
+            -0.0723972731760214,
+            -0.05413895395160645,
+            0.0009328821528920561,
+            0.2272159701938437,
+            0.026191272213660965,
+            -0.012743786050255945
+          ],
+          "mean": 0.015721689379440983,
+          "low": -0.047759394082249516,
+          "high": 0.07920277284113147,
+          "valid_graphs": 8,
+          "total_graphs": 8
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Source hashes pin current local bytes, not original publication authenticity.",
+    "No old program was rerun. Child independently inspected four report/result pairs.",
+    "An initial exploratory JSON display incorrectly assumed conditions was always a mapping and raised AttributeError; the corrected type-specific read and assertions passed. No source or result was changed.",
+    "No exhaustive local or external novelty claim."
+  ],
+  "agents": [
+    "/root/inorganic_prior_repo_audit",
+    "/root/inorganic_prior_repo_audit/old_transport_constraints"
+  ]
+}

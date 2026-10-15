@@ -1,0 +1,3658 @@
+{
+  "scores": [
+    {
+      "candidate": "original",
+      "cv_rmse_pp": 9.797886445665988,
+      "fitted_parameter_count": 3,
+      "folds": [
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              596.7693862681853,
+              19.97665988703774,
+              0.19086387092982862
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.014397914050346912,
+              "kh": 2.924169932861451e-08,
+              "ki": 999.999999740385,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.401326154642495,
+            "sse": 2470.379840483802,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 22,
+                "sse": 2470.3798498918104,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 23,
+                "sse": 2470.379840483802,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 20,
+                "sse": 2470.379847909356,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.1,
+            0.0
+          ],
+          "sse": 4.588824756680917
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              584.2697442513177,
+              19.549343174841926,
+              0.22343680800080187
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.01399868077912294,
+              "kh": 3.955998250039878e-08,
+              "ki": 999.999999999999,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.353506003881137,
+            "sse": 2442.3371894907364,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 18,
+                "sse": 2442.3371960626737,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 19,
+                "sse": 2442.3371894907364,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 17,
+                "sse": 2442.3371911529634,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.25,
+            0.0
+          ],
+          "sse": 40.87197414059859
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0
+            ],
+            "jacobian_singular_values": [
+              560.2087944071789,
+              22.67551607599166,
+              5.588525487598252
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.013796824011599063,
+              "kh": 5.977960330434312e-08,
+              "ki": 31.300581348113006,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.773867790920071,
+            "sse": 2115.155715074657,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 18,
+                "sse": 2115.155716098575,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 18,
+                "sse": 2115.1557169482594,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 16,
+                "sse": 2115.155715074657,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.5,
+            0.0
+          ],
+          "sse": 495.53929547431846
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0
+            ],
+            "jacobian_singular_values": [
+              572.5060026377001,
+              37.332781674031125,
+              6.543739397219878
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.016846592098359394,
+              "kh": 1.3097925538023647e-08,
+              "ki": 7.722818874501705,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.767968452620807,
+            "sse": 2111.946685831923,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 17,
+                "sse": 2111.9466859678905,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 17,
+                "sse": 2111.946686466854,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 15,
+                "sse": 2111.946685831923,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            1.0,
+            0.0
+          ],
+          "sse": 564.3222647206251
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              607.1738432073013,
+              21.344096179912547,
+              0.23914390366730895
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.014516437937673462,
+              "kh": 2.531799656028631e-08,
+              "ki": 999.999999999999,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.9296693364679385,
+            "sse": 2200.787952500195,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 20,
+                "sse": 2200.787952500195,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 20,
+                "sse": 2200.7879554256756,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 18,
+                "sse": 2200.787952700549,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.0
+          ],
+          "sse": 275.46972672604556
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              633.0808080856214,
+              17.110507108914142,
+              0.23676358034220962
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.015513630013621903,
+              "kh": 5.246789582739722e-09,
+              "ki": 999.999999999999,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.503924282403224,
+            "sse": 1970.8107872614255,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 19,
+                "sse": 1970.8107872614255,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 19,
+                "sse": 1970.8107894762588,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 17,
+                "sse": 1970.8107902444767,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.5
+          ],
+          "sse": 680.9910041794349
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              489.7348549915699,
+              18.68936056937777,
+              0.23660025425072245
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.015218864214566767,
+              "kh": 1.4443775046932174e-08,
+              "ki": 999.999999999999,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.469326096302104,
+            "sse": 1952.6791316514868,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 27,
+                "sse": 1952.6791385996332,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 1952.6791316514868,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 26,
+                "sse": 1952.6791322439904,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.0
+          ],
+          "sse": 553.2393374962058
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              556.1415324169978,
+              20.72323263511611,
+              0.22925171699309202
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "original",
+              "hroute": 0,
+              "kb": 1.0,
+              "kf": 0.015645758444599183,
+              "kh": 2.4271942419934668e-08,
+              "ki": 999.9999999971297,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 6.465513026987703,
+            "sse": 1463.100054575169,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 12,
+                "sse": 1463.1000548128213,
+                "start": [
+                  -1.5,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 12,
+                "sse": 1463.100054575169,
+                "start": [
+                  -1,
+                  -4,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 12,
+                "sse": 1463.1000546905843,
+                "start": [
+                  -2,
+                  -6,
+                  2
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.5
+          ],
+          "sse": 1224.9207245927028
+        }
+      ],
+      "resolved": true,
+      "sse": 3839.943152086612
+    },
+    {
+      "candidate": "saturation",
+      "cv_rmse_pp": 9.50872617334336,
+      "fitted_parameter_count": 3,
+      "folds": [
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              890.0142031930508,
+              30.197297435300648,
+              0.7136235182695521
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.999999585564,
+              "kf": 1.5153626024270845,
+              "kh": 0.00038005089852575293,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.429006210504337,
+            "sse": 2486.6850993852236,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 2486.6850993852236,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 32,
+                "sse": 2486.6851004475884,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 43,
+                "sse": 2486.685102077179,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.1,
+            0.0
+          ],
+          "sse": 5.310819804163611
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              874.468982516278,
+              29.523931525520005,
+              0.7991660079851288
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999954837946,
+              "kf": 1.474623428920774,
+              "kh": 0.0005087861162667656,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.379797642071011,
+            "sse": 2457.735298272061,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 2457.735298272061,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 2457.735300527632,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 44,
+                "sse": 2457.7353017845853,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.25,
+            0.0
+          ],
+          "sse": 43.1240750399882
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              848.6463616674107,
+              32.985430239718276,
+              0.8047794347162168
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999985423382,
+              "kf": 1.3656554569531252,
+              "kh": 0.0010880346297395354,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.830532974848603,
+            "sse": 2146.1036334566957,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2146.1036334566957,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 26,
+                "sse": 2146.1036361508272,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2146.1036359525874,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.5,
+            0.0
+          ],
+          "sse": 461.1843604895843
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              869.2379146703067,
+              33.45197103897246,
+              0.7790050596265059
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999997322199,
+              "kf": 1.4207213526451499,
+              "kh": 0.0007434696788504836,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.9481711148019265,
+            "sse": 2211.069842456009,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2211.069842456009,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 2211.0698432850395,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 41,
+                "sse": 2211.069843204097,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            1.0,
+            0.0
+          ],
+          "sse": 326.3081379970264
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              903.8305752220858,
+              32.443763860912995,
+              0.8521206770821831
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999990507868,
+              "kf": 1.53105289503568,
+              "kh": 0.0003218881053242493,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.959923279297452,
+            "sse": 2217.6132514305527,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 40,
+                "sse": 2217.6132514305527,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2217.6132534457697,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2217.613256014938,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.0
+          ],
+          "sse": 275.62644987119927
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0
+            ],
+            "jacobian_singular_values": [
+              938.2657191977223,
+              26.303466223269265,
+              0.8346509786726262
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99998092103702,
+              "kf": 1.6360755620051766,
+              "kh": 7.095105107349334e-05,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.505921352670036,
+            "sse": 1971.8599373363795,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 1971.8599391145215,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 32,
+                "sse": 1971.8599373363795,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 41,
+                "sse": 1971.8599394948728,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.5
+          ],
+          "sse": 685.1041758668234
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              723.3933398232056,
+              28.522488412257932,
+              0.8308801068222124
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.9999998953697,
+              "kf": 1.6067822366552884,
+              "kh": 0.00017941106444884647,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.48403763561129,
+            "sse": 1960.3786765936181,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 45,
+                "sse": 1960.3786765936181,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 1960.3786793840263,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 51,
+                "sse": 1960.3786775621638,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.0
+          ],
+          "sse": 563.9949478897769
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              822.0844128762394,
+              31.734847996161513,
+              0.7925378181225097
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999949878344,
+              "kf": 1.6469638262958246,
+              "kh": 0.0003302599962803162,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 6.466628522981321,
+            "sse": 1463.6049558982454,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 1463.6049560058382,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 1463.6049558982454,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 45,
+                "sse": 1463.604956348808,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.5
+          ],
+          "sse": 1255.98197062644
+        }
+      ],
+      "resolved": true,
+      "sse": 3616.6349375850023
+    },
+    {
+      "candidate": "saturation_h",
+      "cv_rmse_pp": 9.517363088250042,
+      "fitted_parameter_count": 3,
+      "folds": [
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              889.4684432154604,
+              30.291808583104828,
+              0.7140994698173917
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999991104482,
+              "kf": 1.5134604309946627,
+              "kh": 0.0003862755349444694,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.4254137854435,
+            "sse": 2484.5659109579474,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 40,
+                "sse": 2484.5659138979745,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2484.5659109579474,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2484.565916297069,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.1,
+            0.0
+          ],
+          "sse": 5.377545099916292
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              873.7016694028571,
+              29.64571807499955,
+              0.7993780352695574
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999973241762,
+              "kf": 1.472075001482435,
+              "kh": 0.0005195066055301997,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.375136212879736,
+            "sse": 2455.0017304501343,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 37,
+                "sse": 2455.0017354131824,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 2455.0017304721628,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 52,
+                "sse": 2455.0017304501343,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.25,
+            0.0
+          ],
+          "sse": 44.172948979964325
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              847.2602646858719,
+              33.20592181507804,
+              0.8048429628262129
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999972074109,
+              "kf": 1.3618287929277757,
+              "kh": 0.001121031507412193,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.8209545931618845,
+            "sse": 2140.8565761904993,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 36,
+                "sse": 2140.8565768813182,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 26,
+                "sse": 2140.856576648001,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2140.8565761904993,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.5,
+            0.0
+          ],
+          "sse": 467.3155882936136
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              868.2980319235492,
+              33.60281994679367,
+              0.7788268476352138
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999995817625,
+              "kf": 1.4179914296618525,
+              "kh": 0.0007601609976820618,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.941360108259185,
+            "sse": 2207.2820129167617,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2207.2820160120586,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 2207.2820129167617,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 41,
+                "sse": 2207.282015871664,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            1.0,
+            0.0
+          ],
+          "sse": 328.9341896871684
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              903.487159741499,
+              32.50048244067693,
+              0.8520558737505008
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999982202635,
+              "kf": 1.5300406119834669,
+              "kh": 0.0003247255448916624,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.957339642245997,
+            "sse": 2216.1738963720877,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2216.1738965979034,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 2216.1738963720877,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2216.173899597491,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.0
+          ],
+          "sse": 275.0729180172391
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0
+            ],
+            "jacobian_singular_values": [
+              937.9879639574672,
+              26.316027630328968,
+              0.8346135607799536
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999539319023,
+              "kf": 1.63563718048902,
+              "kh": 7.124384864777546e-05,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.505223036398104,
+            "sse": 1971.4930489128278,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 37,
+                "sse": 1971.4930530971258,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 33,
+                "sse": 1971.493050396622,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 1971.4930489128278,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.5
+          ],
+          "sse": 684.4325805010963
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              723.1710902252821,
+              28.56572508828776,
+              0.8309366941913311
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999991511817,
+              "kf": 1.6059140895541943,
+              "kh": 0.00018122686832117534,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.4824807613131945,
+            "sse": 1959.5631420197724,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 46,
+                "sse": 1959.5631420197724,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 41,
+                "sse": 1959.563151805727,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 50,
+                "sse": 1959.563151453321,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.0
+          ],
+          "sse": 562.9938060784133
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              821.769113585054,
+              31.77161610709533,
+              0.7925650626568912
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999999972503,
+              "kf": 1.6460722912228678,
+              "kh": 0.00033235327496559605,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 6.4641306369110625,
+            "sse": 1462.4744711868277,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 1462.4744713285997,
+                "start": [
+                  -1,
+                  -5,
+                  0
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 1462.4744711868277,
+                "start": [
+                  -0.5,
+                  -3,
+                  1
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 46,
+                "sse": 1462.474471288422,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.5
+          ],
+          "sse": 1254.9084294859636
+        }
+      ],
+      "resolved": true,
+      "sse": 3623.208006143375
+    },
+    {
+      "candidate": "saturation_q",
+      "cv_rmse_pp": 9.508727600650998,
+      "fitted_parameter_count": 4,
+      "folds": [
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              944.1096515176649,
+              409.96319022716233,
+              17.75190871037114,
+              0.5743266247540182
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999984258142,
+              "kf": 1.5153619108317173,
+              "kh": 0.0003800632798042418,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.429006206732835,
+            "sse": 2486.685097159923,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2486.6851000971146,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 32,
+                "sse": 2486.685097159923,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 44,
+                "sse": 2486.6850985821998,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.1,
+            0.0
+          ],
+          "sse": 5.3108430964963524
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              922.353481560755,
+              388.14272839089784,
+              18.346594459152854,
+              0.6379078615983841
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999986459846,
+              "kf": 1.4746195108730216,
+              "kh": 0.0005088167298074161,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.379797637220973,
+            "sse": 2457.7352954270964,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 2457.735296131836,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 32,
+                "sse": 2457.7352954270964,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2457.73530142625,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.25,
+            0.0
+          ],
+          "sse": 43.12567440223605
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              894.1039477899732,
+              343.4136799319849,
+              20.78499704030631,
+              0.6645233912061255
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999999737423,
+              "kf": 1.3656520472604978,
+              "kh": 0.0010880926343303859,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.830532970930149,
+            "sse": 2146.1036313088453,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 2146.1036348957405,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 28,
+                "sse": 2146.1036313088453,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2146.1036345308225,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.5,
+            0.0
+          ],
+          "sse": 461.1897982293717
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              911.8617213025049,
+              294.78619124681734,
+              14.984680014505425,
+              0.6439190223912754
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999999490349,
+              "kf": 1.4207230562847921,
+              "kh": 0.00074344738835535,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.948171117283177,
+            "sse": 2211.0698438365075,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 34,
+                "sse": 2211.0698438365075,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 29,
+                "sse": 2211.0698461864495,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 40,
+                "sse": 2211.0698441170025,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            1.0,
+            0.0
+          ],
+          "sse": 326.3065054129106
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              962.7734059454468,
+              417.7374406626602,
+              19.486238968889754,
+              0.6628426149877762
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.9999999314057,
+              "kf": 1.5310522971782934,
+              "kh": 0.00032189198688945816,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.959923278323551,
+            "sse": 2217.6132508879,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2217.6132508879,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 2217.6132532517063,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 43,
+                "sse": 2217.6132512608665,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.0
+          ],
+          "sse": 275.6261873731202
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              988.7620638726223,
+              437.69008818836414,
+              15.68711256251909,
+              0.5775566024255265
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.9999831618466,
+              "kf": 1.6360746926192675,
+              "kh": 7.095179242580005e-05,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.50592135207404,
+            "sse": 1971.8599370232346,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 36,
+                "sse": 1971.8599391813718,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 34,
+                "sse": 1971.85993780831,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 44,
+                "sse": 1971.8599370232346,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.5
+          ],
+          "sse": 685.1025973114666
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              803.5481188258607,
+              398.5705653563888,
+              17.52221348326823,
+              0.5872037517654505
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999987042267,
+              "kf": 1.6067823841539395,
+              "kh": 0.0001794088411688348,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.4840376369870505,
+            "sse": 1960.3786773143552,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 49,
+                "sse": 1960.3786811388052,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 1960.3786773143552,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 48,
+                "sse": 1960.3786812267128,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.0
+          ],
+          "sse": 563.9953929039916
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              879.452310689922,
+              426.4312394729813,
+              18.72741769924326,
+              0.5893115492345964
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 0,
+              "kb": 99.99999923849037,
+              "kf": 1.646964283491982,
+              "kh": 0.00033025642419116046,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 6.466628523209162,
+            "sse": 1463.6049560013807,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 1463.6049560899323,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 1463.6049560070055,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 1463.6049560013807,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.5
+          ],
+          "sse": 1255.9790246056905
+        }
+      ],
+      "resolved": true,
+      "sse": 3616.636023335284
+    },
+    {
+      "candidate": "saturation_hq",
+      "cv_rmse_pp": 9.517395028368508,
+      "fitted_parameter_count": 4,
+      "folds": [
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              943.6454342150093,
+              409.6448131737747,
+              17.82186587834379,
+              0.5744897322315489
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.9999998790863,
+              "kf": 1.5134607972051002,
+              "kh": 0.0003862714035036252,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.425413786455502,
+            "sse": 2484.565911554806,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2484.565916742201,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 32,
+                "sse": 2484.565911554806,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 44,
+                "sse": 2484.565916762538,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.1,
+            0.0
+          ],
+          "sse": 5.377531659997638
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              921.6866374994113,
+              387.73715601907037,
+              18.43785075194403,
+              0.6379201260791169
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.9999999930878,
+              "kf": 1.4720724831433345,
+              "kh": 0.0005195247869312797,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 8.375136210379537,
+            "sse": 2455.001728984368,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 2455.00172916183,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 2455.0017298568487,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 43,
+                "sse": 2455.001728984368,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.25,
+            0.0
+          ],
+          "sse": 44.17399666005415
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              892.8711342682768,
+              342.7747798630069,
+              20.96498518234423,
+              0.6650535285743288
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999998376099,
+              "kf": 1.3618296698939931,
+              "kh": 0.0011210216206767624,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.820954593229758,
+            "sse": 2140.8565762276576,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 2140.8565762276576,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 27,
+                "sse": 2140.856578504629,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2140.856576935374,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            0.5,
+            0.0
+          ],
+          "sse": 467.31418133749764
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              911.0063140081984,
+              294.37237153561944,
+              15.104377849401843,
+              0.6443311805114279
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999999775888,
+              "kf": 1.4179901860784339,
+              "kh": 0.0007601753794787304,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.94136010686092,
+            "sse": 2207.2820121394725,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 34,
+                "sse": 2207.282013730535,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 2207.2820121394725,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 40,
+                "sse": 2207.2820139584214,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_F1",
+            1.0,
+            0.0
+          ],
+          "sse": 328.9353908236653
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              962.4787859177917,
+              417.5506628387808,
+              19.52990437330169,
+              0.6627768919174666
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999993513643,
+              "kf": 1.5300389075383856,
+              "kh": 0.0003247375408746457,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.957339638996642,
+            "sse": 2216.1738945621523,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 39,
+                "sse": 2216.1738945621523,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 35,
+                "sse": 2216.1738969291405,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 2216.1739013926694,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.0
+          ],
+          "sse": 275.0720839362792
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "jacobian_singular_values": [
+              988.5295716942437,
+              437.596178674682,
+              15.696371027593,
+              0.5774659890061331
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99996961332965,
+              "kf": 1.6356501164552475,
+              "kh": 7.123287670733714e-05,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.505223044215884,
+            "sse": 1971.4930530200204,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 36,
+                "sse": 1971.4930536519419,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 34,
+                "sse": 1971.4930530200204,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 1971.4930546504686,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            1.5
+          ],
+          "sse": 684.4559130526375
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              803.3879833930207,
+              398.3955718103954,
+              17.55310144197189,
+              0.5873647138221499
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999986594527,
+              "kf": 1.605915726832412,
+              "kh": 0.00018122096854984927,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 7.4824807640124416,
+            "sse": 1959.5631434335673,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 51,
+                "sse": 1959.5631434335673,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 42,
+                "sse": 1959.5631491282725,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 49,
+                "sse": 1959.563144395438,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.0
+          ],
+          "sse": 562.9955361490471
+        },
+        {
+          "fit": {
+            "bounds_hit": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "jacobian_singular_values": [
+              879.1900149082911,
+              426.2553012192611,
+              18.75641740228826,
+              0.5890790291986465
+            ],
+            "n_observations": 35,
+            "parameters": {
+              "family": "saturation",
+              "hroute": 1,
+              "kb": 99.99999949539475,
+              "kf": 1.6460725035230683,
+              "kh": 0.0003323520632397847,
+              "ki": 1000.0,
+              "mixing": 0.1,
+              "q": 1.0,
+              "retention_f": 0.55,
+              "retention_fragments": 0.55,
+              "transport": "fractional"
+            },
+            "resolved": true,
+            "rmse_pp": 6.464130637008133,
+            "sse": 1462.4744712307513,
+            "starts": [
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 36,
+                "sse": 1462.4744712307513,
+                "start": [
+                  -1,
+                  -5,
+                  0,
+                  -0.155
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 30,
+                "sse": 1462.4744712847428,
+                "start": [
+                  -0.5,
+                  -3,
+                  1,
+                  -0.398
+                ],
+                "success": true
+              },
+              {
+                "bounds_hit": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "message": "`ftol` termination condition is satisfied.",
+                "nfev": 38,
+                "sse": 1462.474471846076,
+                "start": [
+                  -1.5,
+                  -6,
+                  -1,
+                  -0.0223
+                ],
+                "success": true
+              }
+            ]
+          },
+          "held_dose": [
+            "S13_HyperA",
+            0.0,
+            2.5
+          ],
+          "sse": 1254.9076914213647
+        }
+      ],
+      "resolved": true,
+      "sse": 3623.2323250405434
+    }
+  ],
+  "selected": "saturation"
+}

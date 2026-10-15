@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "classification": "algebraic model identity; not physical validation",
+  "fit_sha256": "3c620cf36a947c7f7aa018291ce02bbd88d11e8b7b435ebe47204e84198c43aa",
+  "model_sha256": "2ab263a459d83bcfcd1bdb0892ab0d23cda9719c60311de3254c54de26448221",
+  "maximum_release_identity_error_uM_min": 1.422432439716903e-08,
+  "maximum_competent_decay_error_uM": 7.827072323607354e-15,
+  "times_min": [
+    15.0,
+    30.0,
+    45.0,
+    60.0
+  ],
+  "relative_transformed_envelope_width": [
+    0.052935225974561746,
+    0.023992095581370224,
+    0.014456587517624617,
+    0.009771525510013227
+  ],
+  "restriction": "release only, no Hyper-A, initially free F1; correction is not PAGE prediction error"
+}

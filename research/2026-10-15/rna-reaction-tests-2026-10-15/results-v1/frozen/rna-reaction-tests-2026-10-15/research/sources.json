@@ -1,0 +1,62 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Targeted primary mechanistic review; no model fitting or new numerical acquisition",
+  "sources": [
+    {
+      "id": "salibi2023",
+      "url": "https://doi.org/10.1038/s41467-023-36940-z",
+      "primary": true,
+      "access": "Exact local article XML, SI PDF/text and source workbook inspected; online Nature open failed through identity redirect",
+      "locations": ["Main Methods: R3C ligase assay", "SI Table 1", "SI Figures 10-15", "SI S13 Methods", "workbook S13"],
+      "supports": "Reporter identity, separate F1/Hyper-A dose series, proposed precursor reporter route, experimental conditions",
+      "does_not_establish": "Equal active/reporter catalytic efficiency, microscopic concentration order, active-F1 time series",
+      "data_admission": "S13 same-condition retrospective grouped validation; S13d duplicated endpoints excluded as independent evidence",
+      "local_files": {
+        "measured-coupling-2026-10-15/rna_sources/raw/salibi.xml": "ed4082763a53050c4261c3908ee0fd1c91f528900b64515869326820996a94f0",
+        "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf": "f2163e4ff35c06cb60e38889d180ec27134905b8503f677b12d2d47909d895fd",
+        "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+        "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7"
+      }
+    },
+    {
+      "id": "ferretti2013",
+      "url": "https://doi.org/10.1021/bi301646n",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3579227/",
+      "primary": true,
+      "access": "Indexed primary full text retrieved by exact-title web search; direct PMC open returned recaptcha",
+      "locations": ["Results: Steady-State Catalytic Parameters", "Dissociation of E/E-prime Complex", "Discussion", "Table 1", "Figure 7"],
+      "supports": "Nonproductive substrate sequestration; ligation/release/amplification distinctions; approximate 5 percent per hour RNA degradation in related conditions",
+      "does_not_establish": "Salibi F1 rates or 42 C functional inactivation",
+      "data_admission": "Topology motivation only; E/E-prime 25 mM MgCl2 and 44 C differ from S13"
+    },
+    {
+      "id": "robertson2014",
+      "url": "https://doi.org/10.1016/j.chembiol.2013.12.004",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943892/",
+      "primary": true,
+      "access": "Indexed primary full text retrieved by exact-title web searches; direct PMC open returned recaptcha",
+      "locations": ["Results", "Discussion", "Figure 5", "Figure S4"],
+      "supports": "F1 single-turnover kinetic measurements and temperature/substrate dependence; role of nonproductive substrate complexes",
+      "does_not_establish": "Numerical F1 activity on Salibi G38A Cy5 reporter or transferability to 900 mM sucrose",
+      "data_admission": "Distinct-condition constraints; no raw numerical dataset acquired"
+    },
+    {
+      "id": "olea2016",
+      "url": "https://doi.org/10.3390/molecules21101310",
+      "primary_url": "https://www.mdpi.com/1420-3049/21/10/1310",
+      "primary": true,
+      "access": "Indexed publisher and PMC primary text retrieved by exact-title search",
+      "locations": ["Figure 1", "Figure 2", "Introduction"],
+      "supports": "Variant selected to accept modified B reporter; labeling chemistry can alter catalysis",
+      "does_not_establish": "Magnitude or direction of Salibi Cy5-A kinetic effect",
+      "data_admission": "Different evolved enzyme and leaving-group fluorescence; not S13 holdout"
+    }
+  ],
+  "sequences": {
+    "A": "GGAAGUUGUUAUCACUUGUUACGUAAGUAACACUUUGGAUGGGUUGAAGUAU",
+    "R": "GGAAGUUGUUAUCACUUGUUACGUAAGUAACACUUUGAAUGGGUUGAAGUAU",
+    "B": "GAGACCGCAACUUA"
+  },
+  "new_compatible_numerical_holdout_acquired": false,
+  "negative_result": "No newly acquired numerical dataset matched S13 enzyme, reporter, buffer, temperature and observation process in this targeted review."
+}

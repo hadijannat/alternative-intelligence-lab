@@ -1,0 +1,38 @@
+{
+  "inactivation": {
+    "maximum_batch_difference_pp": 3.861877296884586e-05,
+    "maximum_moiety_error_uM": 6.217248937900877e-15,
+    "maximum_tolerance_difference_pp": 3.6732777886072654e-07,
+    "pass": true
+  },
+  "independent": {
+    "maximum_batch_difference_pp": 3.692525112342082e-07,
+    "maximum_moiety_error_uM": 5.329070518200751e-15,
+    "maximum_tolerance_difference_pp": 1.0588961174562428e-07,
+    "pass": true
+  },
+  "independent_inactivation": {
+    "maximum_batch_difference_pp": 4.311987389371552e-07,
+    "maximum_moiety_error_uM": 4.440892098500626e-15,
+    "maximum_tolerance_difference_pp": 5.74732723634952e-08,
+    "pass": true
+  },
+  "revised": {
+    "maximum_batch_difference_pp": 3.861332572085985e-05,
+    "maximum_moiety_error_uM": 7.993605777301127e-15,
+    "maximum_tolerance_difference_pp": 3.673099371326316e-07,
+    "pass": true
+  },
+  "trapping_equilibrium": {
+    "maximum_batch_difference_pp": 1.9380768179644292e-05,
+    "maximum_moiety_error_uM": 1.0658141036401503e-14,
+    "maximum_tolerance_difference_pp": 6.715522360423165e-07,
+    "pass": true
+  },
+  "trapping_free": {
+    "maximum_batch_difference_pp": 9.58601059863895e-07,
+    "maximum_moiety_error_uM": 8.881784197001252e-15,
+    "maximum_tolerance_difference_pp": 7.890889719419647e-08,
+    "pass": true
+  }
+}

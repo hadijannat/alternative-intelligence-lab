@@ -1,0 +1,591 @@
+{
+  "bath|reactive-0|carried-0": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.7511668396036753,
+      "max_absolute_condition_mean_error_pp": 3.858755759701317,
+      "max_absolute_replicate_error_pp": 4.823755759701316,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2521505397206134,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": false,
+    "exterior_reactive": false,
+    "family": "bath",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": -1.9129430018840712,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.700830651102664,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.297027606810516,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 7.943013909507512,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": -1.1437880583231508,
+      "max_absolute_condition_mean_error_pp": 8.692374314355334,
+      "max_absolute_replicate_error_pp": 10.065374314355335,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.030083312080012,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "nu": 2.3569797787284736
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 4.399258735077183e-15,
+      "max_prediction_difference_pp": 3.515415425425772e-08,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "bath|reactive-0|carried-1": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.7511668396036753,
+      "max_absolute_condition_mean_error_pp": 3.858755759701317,
+      "max_absolute_replicate_error_pp": 4.823755759701316,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2521505397206134,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": true,
+    "exterior_reactive": false,
+    "family": "bath",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": 9.251568575335831,
+      "max_absolute_condition_mean_error_pp": 20.60221784544316,
+      "max_absolute_replicate_error_pp": 20.89488451210983,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 12.595065009082042,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.297027606810516,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 7.943013909507512,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": 11.615653744213882,
+      "max_absolute_condition_mean_error_pp": 20.60221784544316,
+      "max_absolute_replicate_error_pp": 20.89488451210983,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 13.125731711290246,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "nu": 2.3569797787284736
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 8.826273045769994e-15,
+      "max_prediction_difference_pp": 1.3925390618396705e-07,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "bath|reactive-1|carried-0": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.7511668396036753,
+      "max_absolute_condition_mean_error_pp": 3.858755759701317,
+      "max_absolute_replicate_error_pp": 4.823755759701316,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2521505397206134,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": false,
+    "exterior_reactive": true,
+    "family": "bath",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": -1.9129430018840712,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.700830651102664,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.297027606810516,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 7.943013909507512,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": -1.1437880583231508,
+      "max_absolute_condition_mean_error_pp": 8.692374314355334,
+      "max_absolute_replicate_error_pp": 10.065374314355335,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.030083312080012,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "nu": 2.3569797787284736
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 8.382183835919932e-15,
+      "max_prediction_difference_pp": 3.515415425425772e-08,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "bath|reactive-1|carried-1": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.7511668396036753,
+      "max_absolute_condition_mean_error_pp": 3.858755759701317,
+      "max_absolute_replicate_error_pp": 4.823755759701316,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2521505397206134,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": true,
+    "exterior_reactive": true,
+    "family": "bath",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": 9.980447213992115,
+      "max_absolute_condition_mean_error_pp": 22.737855318314676,
+      "max_absolute_replicate_error_pp": 23.03052198498134,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 13.563973694620818,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.297027606810516,
+      "max_absolute_condition_mean_error_pp": 9.884521207832263,
+      "max_absolute_replicate_error_pp": 10.266187874498929,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 7.943013909507512,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": 12.448657902678205,
+      "max_absolute_condition_mean_error_pp": 22.737855318314676,
+      "max_absolute_replicate_error_pp": 23.03052198498134,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 14.186309240855598,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "nu": 2.3569797787284736
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 1.3322676295501878e-14,
+      "max_prediction_difference_pp": 2.0158234548262044e-07,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "legacy": {
+    "calibration": {
+      "adequate": true,
+      "bias_pp": 0.16972105607348176,
+      "max_absolute_condition_mean_error_pp": 2.0065084545085616,
+      "max_absolute_replicate_error_pp": 2.9715084545085615,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 1.4140817711423974,
+      "threshold_screen_pass": true
+    },
+    "exterior_carried": true,
+    "exterior_reactive": true,
+    "family": "legacy",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": -2.196069857165579,
+      "max_absolute_condition_mean_error_pp": 9.206614274869406,
+      "max_absolute_replicate_error_pp": 10.579614274869407,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.479467931623857,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -5.7056945376648445,
+      "max_absolute_condition_mean_error_pp": 7.3724339734912805,
+      "max_absolute_replicate_error_pp": 7.754100640157947,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 5.922086075089044,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": -1.694694902808541,
+      "max_absolute_condition_mean_error_pp": 9.206614274869406,
+      "max_absolute_replicate_error_pp": 10.579614274869407,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.233437646081298,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "mixing": 0.037238897601868444
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 7.521760991835436e-15,
+      "max_prediction_difference_pp": 1.87454409772414e-08,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "patch|reactive-0|carried-0": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.8046353339662704,
+      "max_absolute_condition_mean_error_pp": 3.910745982107908,
+      "max_absolute_replicate_error_pp": 4.875745982107907,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2967855381844977,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": false,
+    "exterior_reactive": false,
+    "family": "patch",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": -1.9440955163126534,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.729110468607471,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.399719593722308,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 8.05355421801266,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": -1.164720648111274,
+      "max_absolute_condition_mean_error_pp": 8.711931148664688,
+      "max_absolute_replicate_error_pp": 10.084931148664689,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.0365499952996045,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "diffusion": 9.999999999999998,
+      "nu": 2.2542087001713234
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 7.688294445529209e-15,
+      "max_prediction_difference_pp": 3.859973818354234e-08,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "patch|reactive-0|carried-1": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.8046353339662704,
+      "max_absolute_condition_mean_error_pp": 3.910745982107908,
+      "max_absolute_replicate_error_pp": 4.875745982107907,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2967855381844977,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": true,
+    "exterior_reactive": false,
+    "family": "patch",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": 9.748420895157373,
+      "max_absolute_condition_mean_error_pp": 21.43458326590847,
+      "max_absolute_replicate_error_pp": 21.727249932575138,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 13.177998455740713,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.399719593722308,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 8.05355421801266,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": 12.19815525071161,
+      "max_absolute_condition_mean_error_pp": 21.43458326590847,
+      "max_absolute_replicate_error_pp": 21.727249932575138,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 13.75508950406341,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "diffusion": 9.999999999999998,
+      "nu": 2.2542087001713234
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 6.217248937900877e-15,
+      "max_prediction_difference_pp": 2.1368547109545943e-07,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "patch|reactive-1|carried-0": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.8046353339662704,
+      "max_absolute_condition_mean_error_pp": 3.910745982107908,
+      "max_absolute_replicate_error_pp": 4.875745982107907,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2967855381844977,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": false,
+    "exterior_reactive": true,
+    "family": "patch",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": -1.9440955163126534,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.729110468607471,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.399719593722308,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 8.05355421801266,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": -1.164720648111274,
+      "max_absolute_condition_mean_error_pp": 8.711931148664688,
+      "max_absolute_replicate_error_pp": 10.084931148664689,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 4.0365499952996045,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "diffusion": 9.999999999999998,
+      "nu": 2.2542087001713234
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 8.576472865229334e-15,
+      "max_prediction_difference_pp": 3.859973818354234e-08,
+      "pass": true
+    },
+    "resolved": true
+  },
+  "patch|reactive-1|carried-1": {
+    "calibration": {
+      "adequate": false,
+      "bias_pp": -0.8046353339662704,
+      "max_absolute_condition_mean_error_pp": 3.910745982107908,
+      "max_absolute_replicate_error_pp": 4.875745982107907,
+      "n": 18,
+      "n_conditions": 6,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 2.2967855381844977,
+      "threshold_screen_pass": false
+    },
+    "exterior_carried": true,
+    "exterior_reactive": true,
+    "family": "patch",
+    "fit_qualified": true,
+    "held_out": {
+      "adequate": false,
+      "bias_pp": 10.632338390284316,
+      "max_absolute_condition_mean_error_pp": 23.876176617852952,
+      "max_absolute_replicate_error_pp": 24.16884328451962,
+      "n": 72,
+      "n_conditions": 24,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 14.33073418814456,
+      "threshold_screen_pass": false
+    },
+    "held_out_seed2": {
+      "adequate": false,
+      "bias_pp": -7.399719593722308,
+      "max_absolute_condition_mean_error_pp": 9.963786862324072,
+      "max_absolute_replicate_error_pp": 10.34545352899074,
+      "n": 9,
+      "n_conditions": 3,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 8.05355421801266,
+      "threshold_screen_pass": false
+    },
+    "held_out_serial": {
+      "adequate": false,
+      "bias_pp": 13.208346673713836,
+      "max_absolute_condition_mean_error_pp": 23.876176617852952,
+      "max_absolute_replicate_error_pp": 24.16884328451962,
+      "n": 63,
+      "n_conditions": 21,
+      "numerical_eligible": true,
+      "resolved": true,
+      "rmse_pp": 15.01475371296785,
+      "threshold_screen_pass": false
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "diffusion": 9.999999999999998,
+      "nu": 2.2542087001713234
+    },
+    "prediction_resolved": true,
+    "refinement": {
+      "max_moiety_error_uM": 8.104628079763643e-15,
+      "max_prediction_difference_pp": 2.0261696676016072e-07,
+      "pass": true
+    },
+    "resolved": true
+  }
+}

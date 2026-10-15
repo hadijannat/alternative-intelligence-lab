@@ -1,0 +1,34 @@
+{
+  "status": "PASS_SOURCE_AND_DESIGN_CHECKS_ONLY",
+  "checks": [
+    "primary source hash: measured-coupling-2026-10-15/rna_sources/raw/salibi.xml",
+    "primary source hash: measured-coupling-2026-10-15/rna_sources/raw/salibi_si.pdf",
+    "primary source hash: measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt",
+    "primary source hash: measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx",
+    "exact primary SI sequences and reporter G38A",
+    "revised model shares F efficiencies; optional hroute=1 ties precursor efficiencies",
+    "existing source export inventory; no claimed new acquisition",
+    "all three moieties conserved by proposed net reactions",
+    "complex stoichiometry and Mg-triggered assay start; initial occupancy remains unknown",
+    "bounded primary-source admission ledger"
+  ],
+  "check_count": 10,
+  "scenario": "retained source identities, rate equalities, data inventory and stoichiometric conservation",
+  "invocation": "python3 rna-reaction-tests-2026-10-15/research/verify.py",
+  "source_sheet_counts": {
+    "Figure 2": 36,
+    "Figure 3": 72,
+    "S13": 42,
+    "S12": 126,
+    "S15": 18,
+    "S18": 48,
+    "S9": 105,
+    "S17": 82
+  },
+  "artifact_hashes": {
+    "REPORT.md": "4b6adb91c115b8eaf1acd946769e5e4ebac13f402f402cb56c142c94c48b82f0",
+    "sources.json": "13818865fc1f3db37ab077c468c7fab04b3914bca588e92b5b29de96ac766144",
+    "verify.py": "0878a5bdbfb5947af84ae440dc7797cdf807c3a17ec43bf797f9f382d63afc93"
+  },
+  "not_tested": "No new kinetic fit, physical mechanism, external dataset compatibility experiment, or wet assay."
+}

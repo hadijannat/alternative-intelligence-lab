@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "invocation": "python3 rna-mechanism-2026-10-15/sources/retention/extract.py",
+  "checks": [
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/elife_metadata.json",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/edmond_metadata.json",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/levay_exchange.zip",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_phase_concentrations.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_dilute_concentrations.txt",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_rates.txt",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_whole_solution_rates.txt",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_partition_coefficients.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_supernatant_fit.xlsx",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/ghosh_si.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/levay2023.xml",
+      "pass": true
+    },
+    {
+      "scenario": "retained primary source integrity",
+      "artifact": "raw/coacervates2025.xml",
+      "pass": true
+    },
+    {
+      "scenario": "four condition groups each at four times, exact workbook cells",
+      "count": 16,
+      "pass": true
+    },
+    {
+      "scenario": "77 numerical gel fractions reconstructed from raw band intensities",
+      "maximum_allowed_absolute_error_percent": 1e-06,
+      "pass": true
+    },
+    {
+      "scenario": "7 source phase compositions kept in charge-equivalent units",
+      "pass": true
+    },
+    {
+      "scenario": "SI explicitly defines charge units and limits inferred rates",
+      "pass": true
+    }
+  ],
+  "normalized_rows": {
+    "exchange": 16,
+    "cleavage": 77,
+    "phase_compositions": 7
+  },
+  "limits": [
+    "No fitting",
+    "No active fraction inferred from fluorescence",
+    "No transfer of kinetic constants to R3C/POPC"
+  ]
+}

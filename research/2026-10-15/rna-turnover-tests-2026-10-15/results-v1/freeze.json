@@ -1,0 +1,144 @@
+{
+  "bounds": {
+    "ka": [
+      -4,
+      1
+    ],
+    "kb": [
+      -2,
+      2
+    ],
+    "kbind": [
+      -6,
+      2
+    ],
+    "kd": [
+      -6,
+      0
+    ],
+    "kf": [
+      -4,
+      1
+    ],
+    "kh": [
+      -8,
+      0
+    ],
+    "krel": [
+      -4,
+      2
+    ],
+    "krh": [
+      -8,
+      0
+    ]
+  },
+  "classification": "retrospective previously inspected measured data",
+  "files": {
+    "measured-coupling-2026-10-15/rna_sources/conditions.json": "a9d374adbb1974eb40fa0d78ef4dd22396f0537f7a2c951ff59fa40cbe6f7fbf",
+    "measured-coupling-2026-10-15/rna_sources/observations.csv": "6028744c2828be5c2a8ed851fb17103d193d7cbdc239effcfeaba2d59a189182",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-reaction-tests-2026-10-15/results-v1/full_fits.json": "fcc9e6b9317b7ce9bd9b2a3f7b6103a27324de9ce1888132f449a8692bee7e2e",
+    "rna-turnover-tests-2026-10-15/PROTOCOL.md": "f0025702a0641ea2201025551b8c1c9b736ce955f861a35052d02f09c58dec92",
+    "rna-turnover-tests-2026-10-15/WORKPLAN.md": "0b6c0aae029ce3e3dd8c18f9217eff0213d49a2a81721080a529280179a45d99",
+    "rna-turnover-tests-2026-10-15/diagnosis/REPORT.md": "60113ea57628608fbba11b9eea7d4777f4f1fd63a615d2f233f7ac8786a01af5",
+    "rna-turnover-tests-2026-10-15/diagnosis/audit.py": "1e7e2a06df39a6c937960ffeb82a3df509cf50dc4a05b8cdfdd732073099ca71",
+    "rna-turnover-tests-2026-10-15/diagnosis/endpoint_inventories.csv": "1f724dc775632224012e0755b99fc066acc7b6db64fa60c318f6ee76fd8221b9",
+    "rna-turnover-tests-2026-10-15/diagnosis/parameter_changes.csv": "23051aa1288bc8b6e5040b2d8b31bc2f644421810c45aa3b0af29e5eb8ef9d2a",
+    "rna-turnover-tests-2026-10-15/diagnosis/replayed_inventories.csv": "f3f1104ec866354ec4e291b2c4b5c20dd401b2afd753911500cf8061d05ae4f5",
+    "rna-turnover-tests-2026-10-15/diagnosis/residuals.csv": "16248dc6bd93505214675f47e3cd14558a1a5976fa3f0e6faa7748170ac96dca",
+    "rna-turnover-tests-2026-10-15/diagnosis/summary.json": "68b4583d4d5fc5227a81717542e1026c804a264625e92f6ef927d3913d05f369",
+    "rna-turnover-tests-2026-10-15/diagnosis/transport_group_residuals.csv": "b69cf96f3cd57e4c1f5a9a7841f0bdf811df53fe611b57181a154d1a8c14af8c",
+    "rna-turnover-tests-2026-10-15/diagnosis/verification.json": "0544f99cbf19b027384974df26738cbd41e9f5fe3005f063852acac861dd01d7",
+    "rna-turnover-tests-2026-10-15/model.py": "2ab263a459d83bcfcd1bdb0892ab0d23cda9719c60311de3254c54de26448221",
+    "rna-turnover-tests-2026-10-15/plot.py": "240e5a8a4ee676d07b1a2f69e09915559d7d68bb31816b9862f9abf847070a64",
+    "rna-turnover-tests-2026-10-15/requirements.txt": "ab3f62d52e0780c58b4f39561a218cd902c046c944875b59247fab69e8f1862e",
+    "rna-turnover-tests-2026-10-15/research/REPORT.md": "ead867c1e652251c2846527945abd782df6ebb5c79c71398be671cb8315a2713",
+    "rna-turnover-tests-2026-10-15/research/raw/retrieval.json": "8ec41f7ecbf7179ee4fd169198851c4cc617e918384b4db4820a8b49709f1baf",
+    "rna-turnover-tests-2026-10-15/research/sources.json": "a7a609691962ad2a72bc5c07644959a6ea0aaabad777ec79d9611080eaf7eed2",
+    "rna-turnover-tests-2026-10-15/research/verification.json": "dcc58aca08f6563cf488101ead76b8922036f6e754f250a85fe3a134ffa8abcc",
+    "rna-turnover-tests-2026-10-15/research/verify.py": "20f21cb94614f3db5e016ca558e526bf9aefe0cc457708a603211f91ba4fe83d",
+    "rna-turnover-tests-2026-10-15/run.py": "9744c8c89e3350b71e92afdc69da4244eba8ae0c5d02dd522625064e72c4284b",
+    "rna-turnover-tests-2026-10-15/test_model.py": "0333046964cd05957dc8569c7f29a2185d1d78cbac525a3259c065339c802a95",
+    "rna-turnover-tests-2026-10-15/test_validation.py": "47c12359ec1433ba9ebd50c473b8f0f9f4dec917b808d696bd4b7fe815f3da9d",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/PROTOCOL.md": "8cf1097efbdb2c70601840fd2ddec4562650b998c2fbeccf49a36178d1b98c6d",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/REPORT.md": "7f69de342c37ac305fedd2b9331007aaf4ad9d59e3bc5c9358e085645e133b8d",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/assumption_ledger.json": "35abe9d8c157127d129bd56ad1b3029456d904ea5e0ce16edb3391c478b68fbc",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/audit.py": "a9b091a8add21e9a8d155f19aa4bba6c640e1e8781dba8c74ba3d24f4b210fb5",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/diagnosis.json": "a166ad642aee00c9face8247c879185c68ec275001d1eae9fdf922b0ec8d7f6d",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/dynamic_residuals_by_seed.csv": "4e388a7714ec154c3d3a4bda2ca49043f94ae80f196130ac02b57e8f5ba98445",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/g7_state.csv": "e1f9e9b123da52d96363b2abac35a328fac38cf05993e50f50b8cf65ee91ac5d",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/input_hashes.json": "58d59e1db4af24a1ad0169abb1009fb8f04822c258fb5da48e8ea1533a5a40fd",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/residuals_by_condition.csv": "df521bfaaa84b9bf157f0a5dfd9be173e237dd9bec5c0dc6a131774d78236e25",
+    "rna-turnover-tests-2026-10-15/transport_diagnosis/verification.json": "e222a39d0433294d0808ee6075650768fea9718b6641ca73df34aa66bdda8fde"
+  },
+  "matplotlib": "3.10.8",
+  "max_nfev": 160,
+  "numpy": "2.4.1",
+  "openpyxl": "3.1.3",
+  "python": "3.12.3",
+  "scipy": "1.16.1",
+  "starts": [
+    {
+      "ka": -1,
+      "kb": 0,
+      "kbind": -2,
+      "kd": -2,
+      "kf": -1,
+      "kh": -5,
+      "krel": -1,
+      "krh": -4
+    },
+    {
+      "ka": -0.5,
+      "kb": 1,
+      "kbind": 0,
+      "kd": -1,
+      "kf": -0.5,
+      "kh": -3,
+      "krel": 0,
+      "krh": -2
+    },
+    {
+      "ka": -1.5,
+      "kb": -1,
+      "kbind": -4,
+      "kd": -3,
+      "kf": -1.5,
+      "kh": -6,
+      "krel": -3,
+      "krh": -6
+    },
+    {
+      "ka": -2,
+      "kb": 1.8,
+      "kbind": 1,
+      "kd": -4,
+      "kf": 0.2,
+      "kh": -4,
+      "krel": 1,
+      "krh": -3
+    },
+    {
+      "ka": 0.5,
+      "kb": -1.8,
+      "kbind": -5,
+      "kd": -0.3,
+      "kf": -2,
+      "kh": -2,
+      "krel": 0.5,
+      "krh": -1
+    },
+    {
+      "ka": -0.2,
+      "kb": 0.5,
+      "kbind": 0.5,
+      "kd": -5,
+      "kf": 0.8,
+      "kh": -7,
+      "krel": -2,
+      "krh": -7
+    }
+  ],
+  "utc_before_fit": "2026-10-15T14:18:39.591994+00:00"
+}

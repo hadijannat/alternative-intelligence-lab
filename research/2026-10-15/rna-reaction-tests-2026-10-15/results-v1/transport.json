@@ -1,0 +1,160 @@
+{
+  "contact": {
+    "Figure2_seed2": {
+      "adequate": false,
+      "bias_pp": -6.41757948842744,
+      "historical_all_rows_rmse_pp": 6.52400266358318,
+      "maximum_absolute_error_pp": 7.881689170953585,
+      "maximum_absolute_group_mean_error_pp": 7.326447416958325,
+      "n_positive": 9,
+      "resolved": true,
+      "rmse_pp": 6.52400266358318,
+      "threshold_screen_pass": false
+    },
+    "Figure3": {
+      "adequate": false,
+      "bias_pp": -2.586663923300631,
+      "historical_all_rows_rmse_pp": 4.712041440376386,
+      "maximum_absolute_error_pp": 11.520311385681755,
+      "maximum_absolute_group_mean_error_pp": 10.147311385681755,
+      "n_positive": 63,
+      "resolved": true,
+      "rmse_pp": 4.712041440376386,
+      "threshold_screen_pass": false
+    },
+    "benchmark": {
+      "adequate": false,
+      "bias_pp": -3.0655283689414827,
+      "historical_all_rows_rmse_pp": 4.974760704109432,
+      "maximum_absolute_error_pp": 11.520311385681755,
+      "maximum_absolute_group_mean_error_pp": 10.147311385681755,
+      "n_positive": 72,
+      "resolved": true,
+      "rmse_pp": 4.974760704109432,
+      "threshold_screen_pass": false
+    },
+    "mixing_fit": {
+      "message": "Solution found.",
+      "n": 18,
+      "nfev": 14,
+      "rmse_pp": 1.1500301532025514,
+      "sse": 23.80624835895151,
+      "training_row_ids": [
+        "observation_009",
+        "observation_010",
+        "observation_011",
+        "observation_012",
+        "observation_013",
+        "observation_014",
+        "observation_018",
+        "observation_019",
+        "observation_020",
+        "observation_021",
+        "observation_022",
+        "observation_023",
+        "observation_027",
+        "observation_028",
+        "observation_029",
+        "observation_030",
+        "observation_031",
+        "observation_032"
+      ]
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "equilibrated": false,
+      "ka": 0.01571930623007664,
+      "kb": 1.3611960521806263,
+      "kd": 0.012946669939214093,
+      "kf": 0.14700615347574808,
+      "kh": 0.0006836756627237203,
+      "koff": 0.0,
+      "kon": 0.0,
+      "krh": 0.0007082651888118348,
+      "mixing": 0.029274628068155093,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "contact"
+    },
+    "resolved": true
+  },
+  "fractional": {
+    "Figure2_seed2": {
+      "adequate": false,
+      "bias_pp": -5.705693666012646,
+      "historical_all_rows_rmse_pp": 5.922085317630712,
+      "maximum_absolute_error_pp": 7.754100241337051,
+      "maximum_absolute_group_mean_error_pp": 7.372433574670384,
+      "n_positive": 9,
+      "resolved": true,
+      "rmse_pp": 5.922085317630712,
+      "threshold_screen_pass": false
+    },
+    "Figure3": {
+      "adequate": false,
+      "bias_pp": -1.6946951832918227,
+      "historical_all_rows_rmse_pp": 4.233437748243014,
+      "maximum_absolute_error_pp": 10.579614778281321,
+      "maximum_absolute_group_mean_error_pp": 9.20661477828132,
+      "n_positive": 63,
+      "resolved": true,
+      "rmse_pp": 4.233437748243014,
+      "threshold_screen_pass": false
+    },
+    "benchmark": {
+      "adequate": false,
+      "bias_pp": -2.1960699936319252,
+      "historical_all_rows_rmse_pp": 4.479467890930788,
+      "maximum_absolute_error_pp": 10.579614778281321,
+      "maximum_absolute_group_mean_error_pp": 9.20661477828132,
+      "n_positive": 72,
+      "resolved": true,
+      "rmse_pp": 4.479467890930788,
+      "threshold_screen_pass": false
+    },
+    "mixing_fit": {
+      "message": "Solution found.",
+      "n": 18,
+      "nfev": 14,
+      "rmse_pp": 1.414081545745888,
+      "sse": 35.99327912434344,
+      "training_row_ids": [
+        "observation_009",
+        "observation_010",
+        "observation_011",
+        "observation_012",
+        "observation_013",
+        "observation_014",
+        "observation_018",
+        "observation_019",
+        "observation_020",
+        "observation_021",
+        "observation_022",
+        "observation_023",
+        "observation_027",
+        "observation_028",
+        "observation_029",
+        "observation_030",
+        "observation_031",
+        "observation_032"
+      ]
+    },
+    "numerical_eligible": true,
+    "parameters": {
+      "equilibrated": false,
+      "ka": 0.01571930623007664,
+      "kb": 1.3611960521806263,
+      "kd": 0.012946669939214093,
+      "kf": 0.14700615347574808,
+      "kh": 0.0006836756627237203,
+      "koff": 0.0,
+      "kon": 0.0,
+      "krh": 0.0007082651888118348,
+      "mixing": 0.03723890598200266,
+      "retention_f": 0.55,
+      "retention_fragments": 0.55,
+      "transport": "fractional"
+    },
+    "resolved": true
+  }
+}

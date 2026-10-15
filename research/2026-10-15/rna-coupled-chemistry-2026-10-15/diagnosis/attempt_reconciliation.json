@@ -1,0 +1,22 @@
+{
+  "rows": 252,
+  "changed_columns": [
+    "outside_A2_s2_exposure_uM2_min",
+    "outside_AR_s2_exposure_uM2_min",
+    "outside_A_max_uM",
+    "outside_A_min_uM",
+    "outside_A_s_exposure_uM_min",
+    "outside_A_warm_start_max_uM",
+    "outside_B_max_uM",
+    "outside_B_min_uM",
+    "outside_B_warm_start_max_uM",
+    "outside_F_max_uM",
+    "outside_F_min_uM",
+    "outside_F_warm_start_max_uM",
+    "outside_R_max_uM",
+    "outside_R_min_uM",
+    "outside_R_warm_start_max_uM"
+  ],
+  "chemical_states_yields_and_extents_unchanged": true,
+  "reason": "Correct inert exterior ranges and exposure summaries; previously zero placeholders."
+}

@@ -1,0 +1,37 @@
+{
+  "salibi_r3c_guv": {
+    "source_doi": "10.1038/s41467-023-36940-z",
+    "source_locations": ["main: FT-dependent activity of R3C ligase", "main: Serial dilution of autocatalytic R3C ligase encapsulated in GUVs", "main: Preparation of GUVs for PAGE assays"],
+    "compartment": "POPC giant unilamellar vesicles, mechanically prepared and centrifuged",
+    "pH": 8.5, "EPPS_mM": 50, "MgCl2_mM": 20,
+    "inside_sucrose_mM": 900, "outside_glucose_mM": 900,
+    "catalysis_C": 42, "catalysis_min": 60,
+    "freeze_C": -80, "freeze_min": 5, "thaw_min": 5, "thaw_temperature": "room temperature, numeric value unspecified",
+    "ft_cycles_per_generation": 3, "serial_retained_volume_fraction": 0.5,
+    "initial_populations": [{"volume_fraction":0.3333333333333333,"F1_uM":[0,1,2]}, {"volume_fraction":0.3333333333333333,"HyperA_uM":10,"Cy5A_uM":2.5}, {"volume_fraction":0.3333333333333333,"B_uM":15}],
+    "feed_populations": [{"feed_volume_fraction":0.5,"HyperA_uM":10,"Cy5A_uM":2.5},{"feed_volume_fraction":0.5,"B_uM":15}],
+    "reported_three_cycle_content_loss_fraction":0.45,
+    "content_loss_status":"Approximate estimate from source gels Fig2; not a direct per-species permeability or vesicle-survival rate",
+    "observer":"Cy5-F1 ligation fraction by recovered fluorescent PAGE; inactive reporter does not catalyse",
+    "same_compartment_inheritance":"not measured; serial transfer combines extant GUVs with freshly prepared GUVs and horizontal RNA exchange"
+  },
+  "salibi_r3c_bulk_sucrose": {
+    "source_doi":"10.1038/s41467-023-36940-z", "source_locations":["SI PDF pages17,18,26: S13/S14 and in vitro activity"],
+    "pH":8.5,"EPPS_mM":50,"MgCl2_mM":20,"sucrose_mM":900,"temperature_C":42,
+    "Cy5A_uM":5,"B_uM":7.5,"F1_uM":[0.1,0.25,0.5,1],"HyperA_uM":[1,1.5,2,2.5],
+    "groups":"F1-only catalyst series has no HyperA; HyperA-only series has no initial F1",
+    "compartment":"none: buffer matched to GUV interior; membrane/crowding/mixing effects not matched"
+  },
+  "ameta_coacervates": {
+    "source_doi":"10.1038/s42004-023-00887-5","source_locations":["main: Formation of PAA-spermine coacervate compartments", "main: Four-fragment self-assembly", "main: Network formation", "SI Notes1-2"],
+    "spermine_mM":5,"PAA_mM":12.5,"PAA_molecular_weight_Da":">4000000","TrisHCl_mM":25,"Tris_stock_pH":8,
+    "AZ_EPPS_mM":30,"AZ_MgCl2_mM":50,"AZ_buffer_pH":7,
+    "final_mixed_pH":"not separately reported; do not silently assign Tris stock pH or AZ stock pH as measured final pH",
+    "temperature_C":48,"four_fragment_each_uM":0.75,"network_WXY_each_uM":0.5,
+    "network_Z":"equivalent total amount to WXY fragments", "network_assembly_min":60,"composition_readout_min":30,
+    "macrophase":"bulk aqueous phase removed before incubation; transport environment differs from dispersed droplets",
+    "robustness":"composition buffered at30min but perturbed at4h; no parent-offspring transfer assay",
+    "raw_numerical_data":"available from corresponding authors upon reasonable request; no public numerical table found",
+    "do_not_import_into_salibi":"different RNA chemistry, phase, Mg,temperature,pH,polymers; FRAP30ntDNA is not full-lengthRNA leakage"
+  }
+}

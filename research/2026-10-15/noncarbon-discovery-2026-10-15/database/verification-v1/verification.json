@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_carbon_free": true,
+    "all_compounds": true,
+    "byte_identical_replay": true,
+    "exactly_1000": true,
+    "life_unmeasured": true,
+    "unique_ids": true
+  },
+  "file_comparisons": {
+    "eligible_inventory.csv": true,
+    "screen_summary.json": true,
+    "screened_1000.csv": true,
+    "selected_1000.csv": true,
+    "selected_source_records.json": true,
+    "selection_manifest.json": true
+  },
+  "status": "PASS"
+}

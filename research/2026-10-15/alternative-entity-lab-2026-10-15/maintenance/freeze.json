@@ -1,0 +1,15 @@
+{
+  "files": {
+    "PROTOCOL.md": "e72348c361566d547749523553121fe98eb74f8f0af4f66444a7f6dcde631325",
+    "__init__.py": "c4576af8440ff126561cee1f6d2cd2ef18b98a38fab6e4e73671bd44aa750803",
+    "config.json": "570a5603cd222bfca68bc2a6d5a346b40eb7e685f48493bb9763785bf552e222",
+    "model.py": "2baf1a7a84c21e6e1a1837e24956cb36ecca34195dd7ecaccdff0e3aaadea77d",
+    "run_lab.py": "0496d8565f2383c36247f228f4433f830956ab1100f8c88a130c8c19f89ca3e7",
+    "test_model.py": "dc12586890069be729dc7d3c2dc8cb997396beba15cda1ef269c711c5a7e1f97"
+  },
+  "frozen_utc": "2026-10-15T08:54:55.249677+00:00",
+  "official_runs_started": false,
+  "test_command": "/USER_HOME/.pyenv/versions/3.12.3/bin/python3 -m unittest maintenance.test_model -v",
+  "test_exit_code": 0,
+  "test_output": "test_decay_matches_analytic_solution (maintenance.test_model.MaintenanceTests.test_decay_matches_analytic_solution) ... ok\ntest_energy_limited_fractional_renewal_stays_nonnegative (maintenance.test_model.MaintenanceTests.test_energy_limited_fractional_renewal_stays_nonnegative) ... ok\ntest_finite_fuel_and_energy_cannot_be_overspent (maintenance.test_model.MaintenanceTests.test_finite_fuel_and_energy_cannot_be_overspent) ... ok\ntest_random_finite_reservoir_accounting (maintenance.test_model.MaintenanceTests.test_random_finite_reservoir_accounting) ... ok\ntest_rejects_invalid_inputs_and_broken_ledgers (maintenance.test_model.MaintenanceTests.test_rejects_invalid_inputs_and_broken_ledgers) ... ok\ntest_renewal_requires_available_work (maintenance.test_model.MaintenanceTests.test_renewal_requires_available_work) ... ok\ntest_work_debit_is_immutable (maintenance.test_model.MaintenanceTests.test_work_debit_is_immutable) ... ok\ntest_zero_fuel_zero_energy_never_renews_or_works (maintenance.test_model.MaintenanceTests.test_zero_fuel_zero_energy_never_renews_or_works) ... ok\ntest_zero_structure_cannot_catalyse (maintenance.test_model.MaintenanceTests.test_zero_structure_cannot_catalyse) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.022s\n\nOK\n"
+}

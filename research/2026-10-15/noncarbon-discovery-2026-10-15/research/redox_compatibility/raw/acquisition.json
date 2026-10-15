@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10988594/fullTextXML",
+    "attempted_utc": "2026-10-15T16:58:22.846424+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10988594/fullTextXML",
+    "content_type": "application/xml",
+    "bytes": 167162,
+    "file": "spencer2024.xml",
+    "sha256": "f899e2903a3d7c418dc94e3e84ebde158d282086959c83399044e4ede73d7ad1",
+    "acquired_article": true
+  },
+  {
+    "url": "https://www.mdpi.com/article/10.3390/inorganics11040138/s1",
+    "attempted_utc": "2026-10-15T16:58:23.134984+00:00",
+    "status": 403,
+    "final_url": "https://www.mdpi.com/article/10.3390/inorganics11040138/s1",
+    "content_type": "text/html",
+    "bytes": 417,
+    "file": "raabe2023_s1_access.html",
+    "sha256": "923801c817c12fffc3b69c826ba52ca6b718b447e49f4b732f61e3efa259a29e",
+    "acquired_article": false
+  },
+  {
+    "url": "https://escholarship.org/content/qt9wx6z830/qt9wx6z830_noSplash_85e8c82a55bb690113f20c078595c6e6.pdf",
+    "attempted_utc": "2026-10-15T16:59:46.795561+00:00",
+    "status": 202,
+    "bytes": 0,
+    "content_type": "text/html; charset=UTF-8",
+    "acquired_article": false
+  }
+]

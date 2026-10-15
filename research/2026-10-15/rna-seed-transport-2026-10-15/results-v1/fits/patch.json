@@ -1,0 +1,189 @@
+{
+  "active_bounds": [
+    0,
+    1
+  ],
+  "agreeing_successful_starts": 6,
+  "complete": true,
+  "family": "patch",
+  "fixed_parameters": {},
+  "free_parameters": [
+    "nu",
+    "diffusion"
+  ],
+  "jacobian_singular_values": [
+    70.92302499992714,
+    0.5630564042860324
+  ],
+  "max_nfev": 120,
+  "parameters": {
+    "diffusion": 9.999999999999998,
+    "nu": 2.2542087001713234
+  },
+  "qualified": true,
+  "residual_evaluations": 282,
+  "resolved": true,
+  "rmse_pp": 2.2967855381844977,
+  "sse": 94.95402855144215,
+  "starts": [
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.3820162919582799,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 8,
+      "njev": 8,
+      "optimizer_parameters": [
+        0.35299400866624914,
+        0.9999999999985957
+      ],
+      "optimizer_start": [
+        0.07385606273598312,
+        0.7999999999999998
+      ],
+      "residual_evaluations": 40,
+      "sse": 94.95402855152615,
+      "start_id": 1,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.41719470906537026,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "optimizer_parameters": [
+        0.35299413063314566,
+        0.9999999999995698
+      ],
+      "optimizer_start": [
+        0.2954242509439325,
+        0.20000000000000018
+      ],
+      "residual_evaluations": 45,
+      "sse": 94.95402855144755,
+      "start_id": 2,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.41361170797608793,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "optimizer_parameters": [
+        0.35299412371241673,
+        0.9999999999999948
+      ],
+      "optimizer_start": [
+        0.590848501887865,
+        -0.6000000000000001
+      ],
+      "residual_evaluations": 45,
+      "sse": 94.95402855144386,
+      "start_id": 3,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.4109856670256704,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "optimizer_parameters": [
+        0.3529941362505425,
+        0.9999999999980006
+      ],
+      "optimizer_start": [
+        0.8862727528317974,
+        -1.4
+      ],
+      "residual_evaluations": 45,
+      "sse": 94.95402855145878,
+      "start_id": 4,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.5090723750181496,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 12,
+      "njev": 11,
+      "optimizer_parameters": [
+        0.3529941216199969,
+        0.9999999999999999
+      ],
+      "optimizer_start": [
+        1.18169700377573,
+        -2.2
+      ],
+      "residual_evaluations": 56,
+      "sse": 94.95402855144215,
+      "start_id": 5,
+      "status": 2,
+      "success": true
+    },
+    {
+      "active_bounds": [
+        0,
+        1
+      ],
+      "elapsed_seconds": 0.46618483401834965,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 11,
+      "njev": 10,
+      "optimizer_parameters": [
+        0.3529941396146789,
+        0.9999999999959195
+      ],
+      "optimizer_start": [
+        1.4032651919836792,
+        -2.8
+      ],
+      "residual_evaluations": 51,
+      "sse": 94.95402855147901,
+      "start_id": 6,
+      "status": 2,
+      "success": true
+    }
+  ],
+  "successful_starts": 6,
+  "training_row_ids": [
+    "observation_009",
+    "observation_010",
+    "observation_011",
+    "observation_012",
+    "observation_013",
+    "observation_014",
+    "observation_018",
+    "observation_019",
+    "observation_020",
+    "observation_021",
+    "observation_022",
+    "observation_023",
+    "observation_027",
+    "observation_028",
+    "observation_029",
+    "observation_030",
+    "observation_031",
+    "observation_032"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "search_client_date": "2026-10-15",
+  "scope": "Five primary candidates; public numeric data prioritized; no author contact; no coefficients transplanted between chemistries",
+  "download_manifest": "retrieval_receipts.json",
+  "candidates": [
+    {
+      "id": "salibi2023",
+      "doi": "10.1038/s41467-023-36940-z",
+      "url": "https://www.nature.com/articles/s41467-023-36940-z",
+      "status": "Existing original laboratory source; not counted as new acquisition",
+      "conditions": "R3C F1 in POPC GUVs; EPPS50mM pH8.5; MgCl2 20mM; sucrose/glucose900mM; freeze-thaw and42C ligation; forced half-volume serial transfer",
+      "constraint": "Original serial-transfer reporter and content-loss observations; must distinguish Cy5-F1 inactive reporter from new active F1",
+      "new_active_lineage_data": false
+    },
+    {
+      "id": "peter2023",
+      "doi": "10.1002/anie.202218507",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202218507",
+      "status": "Primary main text and tables accessible through web reader; direct HTML/SI download blocked403; underlying raw data authors on request",
+      "conditions": "R3C F66nt, A10nt, B14nt; polyU0.5uM/spermine3mM coacervates; partition labelled solutes0.1uM; FRAP37C. GUV FT experimentF0.5uM versus A/B0.5uM populations mixed1:1; exact buffer,pH,Mg not reverified from blockedSI",
+      "constraint": "Published Cy5-F partition286, A104, B44; FRAP95/89/97% with3.0/5.3/3.5s half-times. Product fluorescence increases after FT with coacervates",
+      "exclusions": "Modified ligation product is catalytically inactive. Partial FRAP measures internal mobility, not escape. Equilibrium partition does not identify active-fraction retention per FT or descendant inheritance",
+      "license": "Open-access main text; exact reuse license not reverified",
+      "new_active_lineage_data": false
+    },
+    {
+      "id": "dasgupta2023",
+      "doi": "10.1002/chem.202301376",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/chem.202301376",
+      "status": "Primary main text quantitative endpoints accessible through web reader; direct HTML/SI blocked403; not counted as acquired numeric source file",
+      "conditions": "RS8_trunc70nt (56nt catalyst+6Ulinker+8ntprimer), substrate16nt/template16nt; DA/DOH/GMD4:1:1v/v/v vesicles extruded100nm. Retention:250mMTris pH8,5uMFAMribozyme,2-3mMMg. Ligation:100mMTris pH8,2uMFAMribozyme,3uMtemplate,4uM2AIactivatedsubstrate; temperature not verified from blockedSI; no forcedserialtransfer",
+      "constraint": "At3h/3mMMg:72%ribozyme retention,32%substrate. Ribose0.5%w/v increases to92%/74%;10%lauricacid gives96%ribozyme. Ligation18.6%at3h inDA/DOH/GMD;ribose27%. kobs0.79/h without ribose vs0.39/h withribose. Distinct retention/activity buffers prevent exact jointparameter assertion",
+      "exclusions": "Fluorescence is catalyst-species retention but not retained active fraction. FAMtag reduces activity versus unlabelled(S8). Ligation product is not demonstrated full catalyst regeneration. No descendantlineage assay",
+      "license": "Open-access main text; exact reuse license not reverified",
+      "new_active_lineage_data": false
+    },
+    {
+      "id": "levay2023",
+      "doi": "10.7554/eLife.83543",
+      "url": "https://elifesciences.org/articles/83543",
+      "status": "Acquired fulltextXML and numerical source workbook;16normalized condition/time rows",
+      "conditions": "Engineered R3C EL ladder ligase;31ntsubstrate;10.5uM eachRNA(1mMtotalRNAmonomer);50mMTris pH8.6;10mMMgCl2;30C;polyLlysine19-72 at0.75:1or5-24at3:1charge ratio. Distinct10%FAM/Cy5substrate populations mixed, observed0.5/1/2/24h;noFT/serialtransfer",
+      "constraint": "Activity-dependent substrate/concatemer exchange and dropletfusion. Longlysine24hpopulationPCCactive=-0.456875,inactive=0.566333333; exact workbookvalues",
+      "exclusions": "Label is substrate/concatemer,not catalyst. PCCmixing is not retainedmass fraction orpermeability. Fusion/diffusionconfounded. No functionalprogeny assay. Caption mistakenly names19-72inshortpeptidecondition; workbookandfiguretitle specify5-24",
+      "license": "Creative Commons Attribution; article license in raw/levay2023.xml and publisher metadata",
+      "new_active_lineage_data": false
+    },
+    {
+      "id": "ghosh2025",
+      "doi": "10.1038/s41467-025-63656-z",
+      "dataset_doi": "10.17617/3.G6KSU2",
+      "url": "https://www.nature.com/articles/s41467-025-63656-z",
+      "dataset_url": "https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.G6KSU2",
+      "status": "Acquired primaryXML,SI,repositorymetadata,77representativepelletcleavagepoints,7phasecompositions,additionalrawwhole-dispersiondata; published2025-10-01",
+      "conditions": "HHmin39ntGGGAGCUGAACUGAUGAGUCCGUGAGGACGAAAGGCACA;12ntsubstrateUGCCUCUUCAGC;seven13aapeptides(SIp4). 10mMTris,1mMMgCl2,pH8.1,roomtemperature(noexactC). 250uMHHchargeequiv,500uMpeptidechargeequiv,50uMsubstratechargeequiv;SIp4units. Pellet includesdensephaseANDsome supernatant;30scentrifugation3000-5400g; noFT/serialtransfer",
+      "constraint": "MeasuredHHspeciespartition/composition and substratecleavage; strongestsequestration neednotpreservefunction. Dilutefluorescence measured; densephasecomposition inferredbyQPI+tieline. SourceworkbookunitsuMce preserved",
+      "exclusions": "NotR3C;nocatalystregenerationorinheritance. PartialFRAPnotescape. Partition-coeffxlsx contains substrate/productMODELestimates; productcoefficient=substrate/2assumed. Supernatantfit uses assumedt0andone360minendpoint,notindependentlymeasuredmicroscopicrate. Phaseworkbooktotalcompositionsdifferfromkineticnominalrecipe;donotnaivelysubtractfraction. P2diluteTXTmissingreplicateconvertedtozeroinoneauthoraggregation; normalizedphaseworkbookusesnonmissingaverage",
+      "license": "CC BY4.0(article and dataset)",
+      "new_active_lineage_data": false
+    }
+  ]
+}

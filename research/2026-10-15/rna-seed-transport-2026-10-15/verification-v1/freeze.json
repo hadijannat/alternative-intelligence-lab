@@ -1,0 +1,111 @@
+{
+  "bounds": {
+    "diffusion": [
+      -3.0,
+      1.0
+    ],
+    "mixing": [
+      0.0,
+      1.0
+    ],
+    "nu": [
+      0.0,
+      1.4771212547196624
+    ]
+  },
+  "classification": "retrospective previously inspected data",
+  "files": {
+    "measured-coupling-2026-10-15/rna_sources/conditions.json": "a9d374adbb1974eb40fa0d78ef4dd22396f0537f7a2c951ff59fa40cbe6f7fbf",
+    "measured-coupling-2026-10-15/rna_sources/observations.csv": "6028744c2828be5c2a8ed851fb17103d193d7cbdc239effcfeaba2d59a189182",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-seed-transport-2026-10-15/PROTOCOL.md": "0aa6a08089d71f3b5c5423a2513d68894cf2e8ae57d1f2f4626d1ce0067f2e3f",
+    "rna-seed-transport-2026-10-15/WORKPLAN.md": "286934399a86ef98778c61e87b5efa63617fb71c92cc8fe8e10d71aa647310f6",
+    "rna-seed-transport-2026-10-15/diagnosis/PROTOCOL.md": "54eddae91cb63bc439ec7b1d8d91ef5bb13efdfb9284529041fd2b016a264370",
+    "rna-seed-transport-2026-10-15/diagnosis/REPORT.md": "25600bc241cde69a0a1e4d195669946cc20722132678f014d50cc294a7cb0626",
+    "rna-seed-transport-2026-10-15/diagnosis/audit.py": "2a7882f0935a4fab8b9987adb0bc198f4e8f4defa3f907561d5066b9d610d656",
+    "rna-seed-transport-2026-10-15/diagnosis/generation_production.csv": "379554672d9bb832b01fbc419502378bf85b6712fe2eef56d93c4b531b06f5ce",
+    "rna-seed-transport-2026-10-15/diagnosis/input_hashes.json": "add55c2af9f2b40b54612d0907dc091d52a221754a66ed9bfbd7b3867b3cea2e",
+    "rna-seed-transport-2026-10-15/diagnosis/observed_seed_contrasts.csv": "363bb91accfae282e3770f500fef7833fa2410535eb41afebd728d623af00bf8",
+    "rna-seed-transport-2026-10-15/diagnosis/operators.json": "b2605f1a1f291de4d523c074afb8425443b26d3c51fc619fb232dc15eb982edc",
+    "rna-seed-transport-2026-10-15/diagnosis/previous_seed_contrasts.csv": "734d9b31c687b84fe0c8e93333b5c6664fe38cb2ceb8e4ca150097d2578c997a",
+    "rna-seed-transport-2026-10-15/diagnosis/reaction_contrast_gains.csv": "98de1a958c7db1919f587a01efa78a8ad4ebb1041a53fc05ed1ee304d0388997",
+    "rna-seed-transport-2026-10-15/diagnosis/refined_stage_states.csv": "fd9a9118b28e5ae41c12b2acd8eff3085f0212dda394c5cb3a13c05fb824c852",
+    "rna-seed-transport-2026-10-15/diagnosis/seed_contrasts.csv": "361ebc6df8b539d478603fd04f56de24c072be7b201ff328194750db85d10936",
+    "rna-seed-transport-2026-10-15/diagnosis/source_interpretation.json": "f25fbc5036e890b0f3a0a76573497c9ff156b47d7dc384240c28613665028503",
+    "rna-seed-transport-2026-10-15/diagnosis/stage_states.csv": "a8dd3b82048d6f25ba6ffef0f279c563c4ebaae6f66cb4ba1a0451690f92037c",
+    "rna-seed-transport-2026-10-15/diagnosis/summarize.py": "0d30a20185a5cc57930b0911625df929471a9e3d40782a37a973c21e0e6b8084",
+    "rna-seed-transport-2026-10-15/diagnosis/summary_hashes.json": "c408d41d97346fffbda9cea80962fec90a76c7e579d52529ef6661e5a311c59a",
+    "rna-seed-transport-2026-10-15/diagnosis/verification.json": "44117478b1c6b354bad3686390de44daf1aee5fc12eb868eef8ca578a17acac7",
+    "rna-seed-transport-2026-10-15/independent/PROTOCOL.md": "3d2cbf79662cb35ef190389430048815a1f1098937cd9b4ca9bed53626c4a69e",
+    "rna-seed-transport-2026-10-15/independent/REPORT.md": "68a4e1ea8db9b7ce3a8233387c57c8a26ce5a8c734f454e914372422e16417e3",
+    "rna-seed-transport-2026-10-15/independent/results-v1/inputs.json": "d2f2535e95904ca670d1321160c9b46a30a69c89e751a825f85cb375720a8098",
+    "rna-seed-transport-2026-10-15/independent/results-v1/serial_comparisons.csv": "6d8dfe72bc897182a5314d604db87d4935abecc206d2145a771637c1abb194e6",
+    "rna-seed-transport-2026-10-15/independent/results-v1/source_hashes.json": "601001cd78b77d0d0c6f2767d282e5fdc0d371211e16032f49e67a21a38e7269",
+    "rna-seed-transport-2026-10-15/independent/results-v1/transport_comparisons.csv": "460d72efc2e0423b2965aa92219993b5f08d35e32bc1852b5f1c776b3d5de882",
+    "rna-seed-transport-2026-10-15/independent/results-v1/verification.json": "f61ca7c9454ba8b6b30cc7682d7db8bfd4c19210c52bf63521b9ab426ae6c2dc",
+    "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/PROTOCOL.md": "3d2cbf79662cb35ef190389430048815a1f1098937cd9b4ca9bed53626c4a69e",
+    "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/independent/verify.py": "ed84439016d457cd98852819be2ca54b5ea09993621442b41634cd156fc2288d",
+    "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-seed-transport-2026-10-15/model.py": "bc30ab0150f5ad30f65cdd00a3d548045d9d34048b2c51815709999a461eff27",
+    "rna-seed-transport-2026-10-15/independent/results-v2/frozen/rna-turnover-tests-2026-10-15/results-v1/full_fits.json": "a6e2816915ab497d85eb65a169bfbdf2df817bd62b0a1507ddd6de79df58b5e1",
+    "rna-seed-transport-2026-10-15/independent/results-v2/inputs.json": "d2f2535e95904ca670d1321160c9b46a30a69c89e751a825f85cb375720a8098",
+    "rna-seed-transport-2026-10-15/independent/results-v2/serial_comparisons.csv": "6d8dfe72bc897182a5314d604db87d4935abecc206d2145a771637c1abb194e6",
+    "rna-seed-transport-2026-10-15/independent/results-v2/source_hashes.json": "c1bdc14f1fdff63cab96a60f3849916e9f40b42e30cda03d0ff896d73e0b7832",
+    "rna-seed-transport-2026-10-15/independent/results-v2/transport_comparisons.csv": "460d72efc2e0423b2965aa92219993b5f08d35e32bc1852b5f1c776b3d5de882",
+    "rna-seed-transport-2026-10-15/independent/results-v2/verification.json": "f61ca7c9454ba8b6b30cc7682d7db8bfd4c19210c52bf63521b9ab426ae6c2dc",
+    "rna-seed-transport-2026-10-15/independent/verify.py": "ed84439016d457cd98852819be2ca54b5ea09993621442b41634cd156fc2288d",
+    "rna-seed-transport-2026-10-15/model.py": "bc30ab0150f5ad30f65cdd00a3d548045d9d34048b2c51815709999a461eff27",
+    "rna-seed-transport-2026-10-15/plot.py": "34fe1022a423697e42266049237fc5c6cac48d4c967edfb147b26231266757b6",
+    "rna-seed-transport-2026-10-15/requirements.txt": "ab3f62d52e0780c58b4f39561a218cd902c046c944875b59247fab69e8f1862e",
+    "rna-seed-transport-2026-10-15/research/REPORT.md": "4882f6cf7a5103d218d88e33c74a9d96d32009c88db02ab989b7afed8ed324ca",
+    "rna-seed-transport-2026-10-15/research/dataset_inventory.json": "4ea3d0a7819306698fc92fbeb68b76736477ba663e628815ae66466e10a8d60e",
+    "rna-seed-transport-2026-10-15/research/raw/retrieval.json": "53dc67d9a7ff1c3608bd881d0174f40e029f19332348fe330fafae36637f61f6",
+    "rna-seed-transport-2026-10-15/research/sources.json": "89fda0f4023e5d17b64c06d5728d73af584bed2805fd1ce40f53f8d1ba5a4cf0",
+    "rna-seed-transport-2026-10-15/research/verification.json": "ffc6cf9b476a91f4b56feef96c60f8fc3afffcf232467c4847316fe4a95bbdf4",
+    "rna-seed-transport-2026-10-15/research/verify.py": "762ded498cf09fbbbdc9a2ff2524315594dcffd93d4e9cc8a60fd5990dd5de2a",
+    "rna-seed-transport-2026-10-15/run.py": "aae56b6a5d21ae9adec95222b48fb8d0717bddda90d0f344977aa32c5ff0a72a",
+    "rna-seed-transport-2026-10-15/test_model.py": "a1e7f0ba72fdcf007b91561c7a3861bb340fa00824b78a4df3f90eef7199d504",
+    "rna-seed-transport-2026-10-15/test_validation.py": "91ff0a010d5ffe293cfac086b6e275d497edea71e77a3d35a480923c172290ed",
+    "rna-turnover-tests-2026-10-15/results-v1/fits/baseline__omit-none.json": "aa22679582cd8f4233c038b2b2550c6a716f6a32122ad1a795b7eb6d47d47882"
+  },
+  "max_nfev": 120,
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.1",
+    "openpyxl": "3.1.3",
+    "python": "3.12.3",
+    "scipy": "1.16.1"
+  },
+  "starts": [
+    {
+      "diffusion": 0.95,
+      "mixing": 0.05,
+      "nu": 0.05
+    },
+    {
+      "diffusion": 0.8,
+      "mixing": 0.2,
+      "nu": 0.2
+    },
+    {
+      "diffusion": 0.6,
+      "mixing": 0.4,
+      "nu": 0.4
+    },
+    {
+      "diffusion": 0.4,
+      "mixing": 0.6,
+      "nu": 0.6
+    },
+    {
+      "diffusion": 0.2,
+      "mixing": 0.8,
+      "nu": 0.8
+    },
+    {
+      "diffusion": 0.05,
+      "mixing": 0.95,
+      "nu": 0.95
+    }
+  ],
+  "utc_before_fit": "2026-10-15T16:27:01.702444+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "archive_md5": "fb3e1eb80339a70ff313af1c644c1777",
+  "archive_sha256": "d4c64660e9e1fa45c82bd8868a96ec10162195eed69636445972c05550d8d0d6",
+  "distinct_selected_compositions": 923,
+  "eligible_by_stratum": {
+    "nitrogen_no_oxygen_sulfur": 2459,
+    "other": 45124,
+    "other_oxygen": 17132,
+    "phosphorus_oxygen": 1353,
+    "silicon_oxygen": 1033,
+    "sulfur_no_oxygen": 4638
+  },
+  "eligible_count": 71739,
+  "eligible_sha256": "02c208b9d8d306b36a75360811a0090aafdbdbf645c2864745ce237d1d61854c",
+  "excluded": {
+    "contains_carbon": 3455,
+    "elemental_not_compound": 799
+  },
+  "protocol_sha256": "0fabca6410b7e92d192a9239d1fda9316dbaad4b4d6b717281c3fbdb1e2a20cc",
+  "selected_by_stratum": {
+    "nitrogen_no_oxygen_sulfur": 100,
+    "other": 100,
+    "other_oxygen": 300,
+    "phosphorus_oxygen": 150,
+    "silicon_oxygen": 150,
+    "sulfur_no_oxygen": 200
+  },
+  "selected_count": 1000,
+  "selection_sha256": "a69dcb13159e13d4019f1761c65c0a1d66161eaa12c9aaa24e7aa3c10203a040",
+  "selection_uses_numeric_properties": false,
+  "total_source_rows": 75993
+}

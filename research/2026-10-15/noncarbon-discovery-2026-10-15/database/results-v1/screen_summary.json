@@ -1,0 +1,89 @@
+{
+  "formation_class": {
+    "nonpositive_formation": 912,
+    "positive_formation": 88
+  },
+  "hull_class": {
+    "above_screen_threshold": 320,
+    "within_screen_threshold": 680
+  },
+  "life_related_evidence": "UNMEASURED for all 1000; no validated living or intelligent material",
+  "n": 1000,
+  "numeric_available": {
+    "ehull": 1000,
+    "formation_energy_peratom": 1000,
+    "mbj_bandgap": 249,
+    "optb88vdw_bandgap": 1000
+  },
+  "per_stratum": {
+    "nitrogen_no_oxygen_sulfur": {
+      "count": 100,
+      "formation": {
+        "nonpositive_formation": 65,
+        "positive_formation": 35
+      },
+      "hull": {
+        "above_screen_threshold": 52,
+        "within_screen_threshold": 48
+      }
+    },
+    "other": {
+      "count": 100,
+      "formation": {
+        "nonpositive_formation": 76,
+        "positive_formation": 24
+      },
+      "hull": {
+        "above_screen_threshold": 34,
+        "within_screen_threshold": 66
+      }
+    },
+    "other_oxygen": {
+      "count": 300,
+      "formation": {
+        "nonpositive_formation": 292,
+        "positive_formation": 8
+      },
+      "hull": {
+        "above_screen_threshold": 94,
+        "within_screen_threshold": 206
+      }
+    },
+    "phosphorus_oxygen": {
+      "count": 150,
+      "formation": {
+        "nonpositive_formation": 149,
+        "positive_formation": 1
+      },
+      "hull": {
+        "above_screen_threshold": 21,
+        "within_screen_threshold": 129
+      }
+    },
+    "silicon_oxygen": {
+      "count": 150,
+      "formation": {
+        "nonpositive_formation": 147,
+        "positive_formation": 3
+      },
+      "hull": {
+        "above_screen_threshold": 49,
+        "within_screen_threshold": 101
+      }
+    },
+    "sulfur_no_oxygen": {
+      "count": 200,
+      "formation": {
+        "nonpositive_formation": 183,
+        "positive_formation": 17
+      },
+      "hull": {
+        "above_screen_threshold": 70,
+        "within_screen_threshold": 130
+      }
+    }
+  },
+  "screened_sha256": "410a85eda0bae4c206e93bd4d43b8b5e22704847deaf270d33d1bd367aa55ed8",
+  "with_candidate_ion_elements": 515,
+  "with_redox_relevant_elements": 439
+}

@@ -1,0 +1,53 @@
+# Sulfides, phosphides, nitrides and boron nitride: bounded candidate screen
+
+Date: 2026-10-15. This is a primary-source screen and dataset acquisition, not a discovery of life or a new compound. No candidate examined demonstrates autonomous maintenance plus functional inheritance plus intelligence. An inorganic catalyst that helps make organic molecules is not evidence for noncarbon life.
+
+Two families merit mechanistic follow-up: nickel-bearing mackinawite for aqueous composition retention, and MoS2-based structures for measurable ion transport and externally written states. They solve different component problems. Joining their capabilities into one self-maintaining material remains an untested proposal. hBN is a useful engineered-memory comparator, not a preferred aqueous chemistry.
+
+## Concrete candidates and failure conditions
+
+| Family | What primary evidence establishes | Environment and phase constraint | Most important failure |
+|---|---|---|---|
+| **Fe(1−x)Ni(x)S**, nickel-bearing mackinawite; **Fe3S4**, greigite, as a distinct redox phase | Nickel uptake and structural retention are measured in anoxic water. The 2017 study reports x up to 0.56; this is a measured composition range, not proof that all x are equally stable. | Uptake study: pH 5.2–8.4 and 22–24 °C; low loading largely samples surface adsorption, higher loading includes exchange/substitution. [Wilkin and Beak](https://doi.org/10.1016/j.chemgeo.2017.04.023) | Adsorption can imitate retained composition without copying it. Growth, dissolution and phase replacement can overwrite the state. No lineage transfer of a catalytic phenotype was measured. |
+| **MoS2** with sulfur defects/grain boundaries; **Ag/MoS2/Pd** as a separate fabricated device | MoS2 membranes support selective aqueous ion transport. Operando microscopy in a different device directly identifies Ag conductive filaments. These are separate systems, not a demonstrated single material that both transports and remembers in water. [Transport](https://doi.org/10.1038/s41467-024-52109-8), [filaments](https://doi.org/10.1038/s41467-025-62592-2) | Transport uses aqueous salts; the reported KCl experiment is 1 M. Published primary text inspected here does not specify a transferable pH/temperature operating map. Ag memory uses externally biased solid electrodes. | Pore formation is irreversible etching, not self-repair. Ag migration consumes and replenishes an electrode reservoir under imposed bias; that is not autonomous metabolism or inheritance. |
+| **hBN**, in a fabricated Au/BN/Ti/Au stack | The 2025 report demonstrates multistate electrical memory and large endurance in integrated devices. [Xie et al.](https://doi.org/10.1038/s41565-025-01988-z) | Solid-state, electrically programmed devices. No aqueous pH/redox operating envelope or self-growth mechanism established by this source. | Stability of a manufactured memory element does not supply rebuilding, reproduction, or chemical selection. Data and code are available on request, not verified here as public raw downloads. |
+
+FeS and Fe3S4 must not be treated as interchangeable states of one permanently conserved lattice. A 2026 primary study aged FeS for 47 days at room temperature under anoxia. Initially neutral and alkaline suspensions retained mackinawite, whereas acidification to pH 5.1 produced some greigite and the pH rose to 6.4. The proposed proton-reduction/H2 interpretation is mechanistic inference; the paper does not establish a repeatable reversible repair cycle. [Le Pape et al.](https://doi.org/10.5194/ejm-38-135-2026)
+
+Electrochemical tests at pH 7 found a reversible surface Fe(II)/Fe(III) feature for greigite, but also found several reduced sulfides reactive with water. The organic-quinone experiments in that study are explicitly carbon-dependent. Their electrode behavior cannot be promoted to an autonomous inorganic energy cycle. [Taran](https://doi.org/10.3389/fchem.2017.00049)
+
+## Why related families were not promoted
+
+- **Ni2P / mixed Ni–Fe phosphides:** anodic activity may belong to a reconstructed oxyhydroxide rather than the original phosphide. One primary study reports complete reconstruction of its four phosphide precursors and soluble phosphate production under oxygen-evolution conditions. An activity increase could therefore erase the nominal material identity. [Mondal et al.](https://doi.org/10.1002/aenm.202400809)
+- **Co3Mo3N:** a primary photo-oxidation study identifies a Co-rich oxide outer layer and Mo–N subsurface layer. This supports a dynamic catalyst interface, but does not demonstrate preserved nitride composition or a copied information state. It is not a reason to reject every nitride under every condition. [Liu et al.](https://doi.org/10.1002/anie.202315034)
+- **WS2:** a screened primary device report concerns fabricated photosensing and switching. No stronger evidence for aqueous rebuilding or inheritance was established in this investigation, so it is not advanced over the better documented MoS2 route. This is an evidence limitation, not proof of impossibility. [Device study](https://doi.org/10.1088/1361-6528/ad6006)
+- **BN:** robust electrical memory can be useful as a benchmark. It does not resolve the incompatibility between stable stored structure and sufficiently labile chemistry to rebuild that structure.
+
+## Carbon dependence and false positives
+
+Braun et al.'s polymer control is specifically a **PtSe2** comparison: polymer-residue control stacks fabricated without PtSe2 reproduced similar switching, with carbon-rich interlayers in the material devices. The controls began with PMMA and underwent further lithography and stripping. That establishes a serious attribution confound. It does not prove polymer necessity in all MoS2, WS2 or hBN devices. [Primary manuscript](https://arxiv.org/abs/2309.13900)
+
+The MoS2 operando study directly supports Ag metallization while also documenting carbon-containing photoresist, acetone processing and CF4 etching. Carbon-containing fabrication is not proof that carbon is necessary for switching; direct Ag imaging is not certification of carbon-free operation. The independent read-only subagent checked these distinctions against the downloaded primary texts. The aqueous-pore study additionally uses PMMA-assisted film transfer. Residue-only controls and elemental/interface verification are therefore necessary for a future carbon-free claim.
+
+## Public data acquired and what they can constrain
+
+All downloaded data remain unchanged under `raw/`; byte hashes and rectangular table checks are in `data_audit.json`. The small `audit_sources.py` script reproduces that inventory and extracts Figure 4 uptake coordinates without fitting them. Its passing status means successful parsing only.
+
+| Dataset | Acquired evidence | Constraint it could supply | What it cannot supply |
+|---|---|---|---|
+| [EPA 10.23719/1374560](https://doi.org/10.23719/1374560) | Original 907,624-byte CSV; 8,502 rows including header, 68 columns. XRD/Raman/XAS and aqueous measurements are arranged side by side. Twenty aqueous kinetic coordinates extracted to `nickel_uptake_fig4.csv`. | Separate fast uptake from slower exchange; bound composition-dependent phase retention. | Replication counts and uncertainty cannot be inferred from thousands of spectral rows. No functional inheritance measurements. |
+| [Zenodo 10.5281/zenodo.13117482](https://doi.org/10.5281/zenodo.13117482) | Five original figure CSVs (17,293 bytes total) plus repository metadata acquired. | Voltage/current behavior, ion selectivity and pore-size histories within the paper's fabricated membranes. | Not direct rate constants for an autonomous carbon-free membrane. Device holdout would be preferable to random-row holdout. |
+| [MoS2 operando study](https://doi.org/10.1038/s41467-025-62592-2) | Article HTML/text acquired; supplementary XLSX and videos identified but not downloaded. | Potential future calibration of switching/filament failure dynamics. | A public figure-data link is not proof all raw microscopy is deposited; the article offers full raw data on request. |
+| [FeS 2026 study](https://doi.org/10.5194/ejm-38-135-2026) | Primary article acquired; supplement linked. | Independent phase-drift constraint. | Raw data are on request. Three long-time endpoints do not identify a reversible kinetic network. |
+
+Zenodo's 30,480,716-byte parsed-trajectory ZIP and 7,641,734,834-byte archive were deliberately not downloaded. The five figure CSVs suffice for this source screen; full MD reproduction was not attempted. An initial web request returned HTTP 429, while the official API retrieval succeeded. An initial Europe PMC nickel-paper XML request returned HTTP 500; the primary article remained readable through indexed PMC text and its actual EPA numerical data were downloaded successfully. A saved PMC phosphide HTML response is a browser-challenge page, not source evidence.
+
+## Testable next hypothesis and comparison with the POM lead
+
+The defensible proposal is a **composition-retaining Fe–Ni–S interface**, rather than an invented molecular formula. Nickel occupancy, Fe(II)/Fe(III), sulfur inventory and surface area must be separate state variables; uptake and phase replacement must be competing mechanisms. Any claimed seed advantage must survive fresh feed, transfer and total-mass normalization. A seed enriched in nickel could merely carry finite catalyst or provide more surface area. These explanations must be modeled before invoking inheritance.
+
+No reviewed result establishes that Fe–Ni–S or MoS2 copies a functional state into newly formed material. Consequently these families do not displace a POM lead merely because they possess conductivity or memory. If the POM case has direct measured cluster-assembly kinetics, it remains closer to a solution-phase assembly question; the sulfide data are valuable counterexamples and independent constraints. This comparison is conditional on the parent investigation's POM audit, not an independent verification of POM heredity.
+
+The next decisive result would be new material retaining a seed-dependent catalytic phenotype after the original seed's mass contribution is quantified and depleted, with matched unseeded, composition-matched and surface-area controls. None of the downloaded datasets provides that outcome. No novel compound, life, intelligence or wet-lab success is claimed.
+
+Skipped: wet experiments, new DFT calculations, full microscopy/MD reproduction and author contact. Principal risk: combining component capabilities from incompatible environments can create a fictional life-like system with no jointly feasible chemistry.

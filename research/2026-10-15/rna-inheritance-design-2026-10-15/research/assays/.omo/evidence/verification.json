@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scenario": "exact SI identity and design ledger validation",
+  "invocation": "python3 rna-inheritance-design-2026-10-15/research/assays/verify.py",
+  "checks": [
+    "F1: length/alphabet/exact SI sequence",
+    "Hyper_A: length/alphabet/exact SI sequence",
+    "Cy5_A: length/alphabet/exact SI sequence",
+    "B: length/alphabet/exact SI sequence",
+    "52+14 nt precursor concatenation equals 66 nt F1",
+    "Cy5-A differs from Hyper-A at G38A only",
+    "eight primary source records and six bounded measurements",
+    "10 micron diameter at 1 micromolar contains 0.0005235988 fmol = 0.5235988 amol"
+  ],
+  "check_count": 8,
+  "amount_example_fmol": 0.000523598775598299,
+  "hashes": {
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_si.txt": "50e041fde300e582c3fceb9be674b9b3fb7b9d2fa02b58ab1ee5937da1ccf619",
+    "rna-inheritance-design-2026-10-15/research/assays/REPORT.md": "b67b25bcbd9392d2042de831a8587ef834a45226f72711e2abf5559528f19f5e",
+    "rna-inheritance-design-2026-10-15/research/assays/ledger.json": "b2f9018512b946a8adebccd96102ee13f7aa21d9c1d52a923ca9f6ae60d88eb0",
+    "rna-inheritance-design-2026-10-15/research/assays/verify.py": "196212c3c75312a88a0e1d77241a97b11a41bf1f9f6910cc98abab94763595bd"
+  },
+  "not_tested": "No wet assay, analytical sensitivity, label neutrality, native recovery or experimental inheritance was tested."
+}

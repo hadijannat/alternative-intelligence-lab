@@ -1,0 +1,21 @@
+{
+  "classification": "development cross-validation and historical benchmark; no fresh validation",
+  "files": {
+    "measured-coupling-2026-10-15/rna_model/results-v1/predictions.csv": "e32fa01f3266ee2fe564d74e66c93ef19e446523555fb25f18d4a8422fcd88b9",
+    "measured-coupling-2026-10-15/rna_model/results-v1/summary.json": "7d0574e61e846b69acac87a53c182a31344eb9e4e118da00164bf809fbb28767",
+    "measured-coupling-2026-10-15/rna_sources/conditions.json": "a9d374adbb1974eb40fa0d78ef4dd22396f0537f7a2c951ff59fa40cbe6f7fbf",
+    "measured-coupling-2026-10-15/rna_sources/observations.csv": "6028744c2828be5c2a8ed851fb17103d193d7cbdc239effcfeaba2d59a189182",
+    "measured-coupling-2026-10-15/rna_sources/raw/salibi_data.xlsx": "d39d7b0b9a30091fe848e1bb12737030da043025a5b96ab54b577444f37b7fc7",
+    "rna-mechanism-2026-10-15/model/PROTOCOL.md": "a63b7ef5f25c476946fa4539adeca18512049ecbf9e7a486647755ca196afaac",
+    "rna-mechanism-2026-10-15/model/model.py": "63bb9d583206c571c9019be8ec225bf83d6879ff7c7b25a72df533f277aff3e3",
+    "rna-mechanism-2026-10-15/model/run.py": "f4ef9111a1294ee2fb573c7faff90f6a585602ff424134e4b231f66bd954a601",
+    "rna-mechanism-2026-10-15/model/test_model.py": "0be5d6faeef4cd94a887dc27dc3045e623b2f7e985f7b0c693ff97075577b329",
+    "rna-mechanism-2026-10-15/sources/salibi/conditions.json": "10ad697f383d9ca12837a459a54429a0ace021118cf51ad09a9dc5f058e23cbc",
+    "rna-mechanism-2026-10-15/sources/salibi/observations.csv": "374695213995633810e23f3422dd4726329820f2d4cb070cf8b09151277d9134",
+    "rna-mechanism-2026-10-15/sources/salibi/verification.json": "1e535ffa7f92215ad192c298c81734d9d931b939d28fd56b11063c0e03cc6fe2"
+  },
+  "frozen_before_fit_utc": "2026-10-15T10:40:37.607668+00:00",
+  "numpy": "2.4.1",
+  "python": "3.12.3",
+  "scipy": "1.16.1"
+}

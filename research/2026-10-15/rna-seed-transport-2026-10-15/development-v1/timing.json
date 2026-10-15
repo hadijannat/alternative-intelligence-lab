@@ -1,0 +1,46 @@
+{
+  "classification": "synthetic implementation check only",
+  "fits": {
+    "bath": {
+      "fitted_parameters": {
+        "nu": 4.0000000000000195
+      },
+      "qualified": true,
+      "resolved": true,
+      "rmse_pp": 1.0403370360888875e-14,
+      "seconds": 1.1494838750222698,
+      "synthetic_predictions_recovered": true,
+      "truth": {
+        "nu": 4.0
+      }
+    },
+    "legacy": {
+      "fitted_parameters": {
+        "mixing": 0.3700000000000035
+      },
+      "qualified": true,
+      "resolved": true,
+      "rmse_pp": 1.2730485743751851e-12,
+      "seconds": 0.9574282079702243,
+      "synthetic_predictions_recovered": true,
+      "truth": {
+        "mixing": 0.37
+      }
+    },
+    "patch": {
+      "fitted_parameters": {
+        "diffusion": 0.3000000000486039,
+        "nu": 4.0000000004650795
+      },
+      "qualified": true,
+      "resolved": true,
+      "rmse_pp": 1.4465714074581252e-13,
+      "seconds": 3.052393582998775,
+      "synthetic_predictions_recovered": true,
+      "truth": {
+        "diffusion": 0.3,
+        "nu": 4.0
+      }
+    }
+  }
+}
