@@ -1,0 +1,34 @@
+{
+  "raw_responses_verified": 3,
+  "all_hashes_match": true,
+  "all_byte_counts_match": true,
+  "full_pdfs_acquired": 0,
+  "catalogue_nnt": "2017SACLV078",
+  "catalogue_defense_date": "25/10/2017",
+  "evidence_json_parsed": true,
+  "records": [
+    {
+      "file": "theses-catalog.html",
+      "sha256": "256cf65776291397ca2f932b8d0de54b0c07636b8457ed272f5ffcc185e2b2d2",
+      "hash_matches": true,
+      "byte_count_matches": true,
+      "pdf_magic": false
+    },
+    {
+      "file": "hal-author-metadata.json",
+      "sha256": "e7c79622103066a43aabff760d76c36005003a0fc4439cb5e64ebe3d08a48dd4",
+      "hash_matches": true,
+      "byte_count_matches": true,
+      "pdf_magic": false,
+      "json_parsed": true
+    },
+    {
+      "file": "crossref-author-metadata.json",
+      "sha256": "569d421de3c62aebc648b3b769232cc93fbabfd3548c75bccbb4a3e7ec8d06df",
+      "hash_matches": true,
+      "byte_count_matches": true,
+      "pdf_magic": false,
+      "json_parsed": true
+    }
+  ]
+}

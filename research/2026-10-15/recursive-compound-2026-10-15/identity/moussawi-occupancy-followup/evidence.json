@@ -1,0 +1,164 @@
+{
+  "audit_date": "2026-10-15",
+  "purpose": "Bounded primary-source follow-up for missing W substitution data in ordinary Mo36",
+  "outcome": "NO_OCCUPANCY_OR_CIF_RECOVERED",
+  "parent_abstract_evidence_changed": false,
+  "nominal_target_verified": false,
+  "chemistry_jobs_run": 0,
+  "new_candidates_added": 0,
+  "new_primary_structure_datasets": 0,
+  "exact_missing_fields": {
+    "w_loading": null,
+    "refined_site_occupancy": null,
+    "occupancy_uncertainty": null,
+    "substituted_salt_formula": null,
+    "cif_identifier": null,
+    "counterion_assignment": null,
+    "protonation_assignment": null,
+    "source_to_parent_topology_map": null,
+    "solution_persistence": null,
+    "vanadium_assignment": null
+  },
+  "catalogue": {
+    "url": "https://theses.fr/2017SACLV078",
+    "local_response": "raw/theses-catalog.html",
+    "data_locator": "script#__NUXT_DATA__, thesis metadata object",
+    "full_thesis": false,
+    "author": "Mhamad Aly Moussawi",
+    "nnt": "2017SACLV078",
+    "hal": "tel-01719282v1",
+    "defense_date": "2017-10-25",
+    "thesis_doi": "10.70675/0c7d0a8azeb8bz4b8fzb5c0zc6a013ac8438",
+    "known_deposit_filename": "74668_MOUSSAWI_2017_archivage.pdf",
+    "alternative_fulltext_link_found": false,
+    "accessibility_flag": "oui",
+    "accessibility_flag_is_download_confirmation": false
+  },
+  "metadata_scope": {
+    "hal_query": "authLastName_t:Moussawi",
+    "hal_matching_author_surname_records": 93,
+    "hal_returned_records": 93,
+    "crossref_query": {
+      "author": "Moussawi",
+      "term": "polyoxometalate",
+      "from_date": "2014-01-01",
+      "until_date": "2020-12-31"
+    },
+    "crossref_returned_records": 2,
+    "exhaustive_publication_coverage_claimed": false
+  },
+  "primary_publisher_exclusions": [
+    {
+      "doi": "10.1021/jacs.7b08058",
+      "source_tier": "indexed publisher abstract",
+      "main_system": "[P2W18O62]@2gamma-CD@Mo154",
+      "mo36_occupancy_evidence": false,
+      "reason": "Mo154 host and separate Dawson W component"
+    },
+    {
+      "doi": "10.1021/jacs.7b07317",
+      "source_tier": "indexed publisher abstract",
+      "main_system": "Dawson P2W18O62, Ta6 cluster, gamma-cyclodextrin",
+      "mo36_occupancy_evidence": false,
+      "reason": "Different building blocks"
+    },
+    {
+      "doi": "10.1021/jacs.8b07525",
+      "source_tier": "indexed publisher abstract",
+      "main_system": "Lindqvist M6O19, M=Mo or W",
+      "mo36_occupancy_evidence": false,
+      "reason": "Different topology and nuclearity"
+    },
+    {
+      "doi": "10.1021/acs.inorgchem.7b01644",
+      "source_tier": "indexed publisher abstract",
+      "main_system": "Selenotungstates with Mo2O2S2 linkers",
+      "mo36_occupancy_evidence": false,
+      "reason": "Different heteroatom, sulfur inventory and topology"
+    }
+  ],
+  "collaborator_thesis": {
+    "author": "Maria Dolores Melgar Freire",
+    "title": "Keplerates: From Electronic Structure to Dynamic Properties",
+    "legal_deposit": "T 258-2016",
+    "verified_defense_date": null,
+    "url": "https://repositori.urv.cat/repositori/getDocument/TDX%3A2031?ds=Memoria&mime=application%2Fpdf",
+    "mirror": "https://www.tesisenred.net/bitstream/handle/10803/349212/Tesi%20Maria.pdf?isAllowed=y&sequence=1",
+    "source_tier": "indexed primary-deposit text only",
+    "locator": "Printed page97, Table3.8 and following paragraph, reference201",
+    "system": "W12Mo120 sulfide Keplerate",
+    "source_characterization": "preliminary X-ray results attributed to Moussawi",
+    "reference201_recovered": false,
+    "derivative_doi_verified": null,
+    "full_pdf_acquired": false,
+    "whole_thesis_mo36_search_performed": false,
+    "ordinary_mo36_occupancy_supported": false
+  },
+  "failures": [
+    {
+      "route": "https://theses.fr/2017SACLV078.json",
+      "outcome": "HTTP404; retained in acquisition record"
+    },
+    {
+      "route": "https://www.ilv.uvsq.fr/moussawi-mhamad-aly",
+      "outcome": "Probed institutional profile path inaccessible to web tool; no evidence used"
+    },
+    {
+      "route": "Four primary ACS DOI page opens",
+      "outcome": "Each direct open returned403; indexed primary publisher abstracts subsequently available"
+    },
+    {
+      "route": "URV collaborator thesis PDF",
+      "outcome": "Web timeout"
+    },
+    {
+      "route": "Tesisenred collaborator thesis PDF",
+      "outcome": "Web502"
+    },
+    {
+      "route": "Previously blocked HAL Moussawi PDF endpoints",
+      "outcome": "Not repeatedly retried; old failures remain in sibling mixed-addenda-source-audit"
+    }
+  ],
+  "bounded_web_queries": [
+    "\"Moussawi\" \"tungsten\" \"Mo36\"",
+    "\"Mo36\" \"tungsten\" \"occupancy\"",
+    "\"Mo36\" \"tungstène\"",
+    "\"Moussawi\" \"Regioselectivity\" polyoxometalates",
+    "\"Moussawi\" \"pentagonal\" tungsten -site:researchgate.net",
+    "\"2017SACLV078\" -site:theses.hal.science -site:theses.fr",
+    "\"Moussawi\" \"Mo/W\" \"Cadot\"",
+    "\"Moussawi\" \"Mo36\" -site:researchgate.net -site:uvsq.fr",
+    "site:ilv.uvsq.fr Moussawi",
+    "\"Mo36\" \"W4\"",
+    "\"Mo32W4\"",
+    "\"Mo36\" \"Mo/W\"",
+    "site:documentation.abes.fr theses.fr API JSON thèse",
+    "site:theses.fr \"Moussawi\"",
+    "site:ilv.uvsq.fr \"pentagonal\" \"tungst\"",
+    "\"Mo34\" \"W2\" \"Moussawi\"",
+    "\"10.1021/jacs.7b08058\" Mo154 [domain pubs.acs.org]",
+    "\"10.1021/acs.inorgchem.7b01644\" [domain pubs.acs.org]",
+    "\"10.1021/jacs.8b07525\" [domain pubs.acs.org]",
+    "\"10.1021/jacs.7b07317\" [domain pubs.acs.org]"
+  ],
+  "delegated_checks": [
+    {
+      "role": "explorer",
+      "outcome": "Role policy prohibited web research; no research performed"
+    },
+    {
+      "role": "librarian",
+      "outcome": "Three primary-route cap observed; collaborator thesis bibliographic lead only"
+    }
+  ],
+  "next_required_external_evidence": [
+    "Accessible Moussawi Mo36 chapter and supporting crystallography, or underlying primary publication/deposit",
+    "Exact substituted anion and salt composition, actual W loading",
+    "Atom-labelled coordinates, occupancies, uncertainties and refinement constraints",
+    "Counterion, protonation and water assignments",
+    "Species-resolved solution data",
+    "Separate V-containing identity evidence for simultaneous W/V substitution"
+  ],
+  "interpretation": "Search and access failures do not establish novelty or impossibility."
+}

@@ -1,0 +1,299 @@
+{
+  "case": "new-external",
+  "phase": "operators",
+  "checks": [
+    {
+      "name": "cached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "uncached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "metric_cd": true,
+        "RI_immutable_Fortran": true,
+        "RI_shape": true,
+        "RI_reuse": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "initial/veff",
+      "value": 4.796163466380676e-13,
+      "pass": true
+    },
+    {
+      "name": "initial/PCM_V",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "initial/PCM_energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "initial/ecoul",
+      "value": 1.1368683772161603e-13,
+      "pass": true
+    },
+    {
+      "name": "initial/exc",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "cached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "metric_cd": true,
+        "RI_immutable_Fortran": true,
+        "RI_shape": true,
+        "RI_reuse": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "uncached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "metric_cd": true,
+        "RI_immutable_Fortran": true,
+        "RI_shape": true,
+        "RI_reuse": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "incremental/veff",
+      "value": 4.796163466380676e-13,
+      "pass": true
+    },
+    {
+      "name": "incremental/PCM_V",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental/PCM_energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental/ecoul",
+      "value": 4.547473508864641e-13,
+      "pass": true
+    },
+    {
+      "name": "incremental/exc",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_density",
+      "value": "63546614618e2227db23da5a1323cd39df21d21621119ea64d430b9493e3780e",
+      "pass": true
+    },
+    {
+      "name": "cached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "metric_cd": true,
+        "RI_immutable_Fortran": true,
+        "RI_shape": true,
+        "RI_reuse": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "initial_PCM_before_RI",
+      "value": {
+        "object": "cached",
+        "saved_J_hits": 1,
+        "native_calls": 0,
+        "PCM_present": true,
+        "RI_present": false
+      },
+      "pass": true
+    },
+    {
+      "name": "first_native_with_PCM_no_metric",
+      "value": {
+        "object": "cached",
+        "density_sha256": "63546614618e2227db23da5a1323cd39df21d21621119ea64d430b9493e3780e",
+        "PCM_present": true,
+        "RI_present": false
+      },
+      "pass": true
+    },
+    {
+      "name": "one_saved_hit_native_fallback",
+      "value": {
+        "hits": 1,
+        "native_calls": 2,
+        "pending": false
+      },
+      "pass": true
+    },
+    {
+      "name": "cached/storage",
+      "value": {
+        "no_ERI": true,
+        "no_S": true,
+        "no_3index": true,
+        "metric_cd": true,
+        "RI_immutable_Fortran": true,
+        "RI_shape": true,
+        "RI_reuse": true,
+        "PCM_immutable_Fortran": true,
+        "PCM_shape": true,
+        "PCM_reuse": true
+      },
+      "pass": true
+    },
+    {
+      "name": "initial_density_unchanged",
+      "value": null,
+      "pass": true
+    }
+  ],
+  "SCFs_launched": 0,
+  "parent_run": false,
+  "fresh_holdout": false,
+  "physical_admission": false,
+  "native_requests": [
+    {
+      "object": "uncached",
+      "density_sha256": "3774041f93eb47c1c2bd96dca97e315a87b216c785469e4b4d0b0fe23f04480e",
+      "PCM_present": false,
+      "RI_present": false
+    },
+    {
+      "object": "cached",
+      "density_sha256": "63546614618e2227db23da5a1323cd39df21d21621119ea64d430b9493e3780e",
+      "PCM_present": true,
+      "RI_present": false
+    },
+    {
+      "object": "uncached",
+      "density_sha256": "63546614618e2227db23da5a1323cd39df21d21621119ea64d430b9493e3780e",
+      "PCM_present": true,
+      "RI_present": true
+    },
+    {
+      "object": "cached",
+      "density_sha256": "c321863137f048d1935d469fd9189ff0c40f34ac7066234ecbfc44b03a8d240b",
+      "PCM_present": true,
+      "RI_present": true
+    }
+  ],
+  "veff_stages": [
+    {
+      "object": "cached",
+      "saved_J_hits": 1,
+      "native_calls": 0,
+      "PCM_present": true,
+      "RI_present": false
+    },
+    {
+      "object": "uncached",
+      "saved_J_hits": 0,
+      "native_calls": 1,
+      "PCM_present": true,
+      "RI_present": true
+    },
+    {
+      "object": "cached",
+      "saved_J_hits": 1,
+      "native_calls": 1,
+      "PCM_present": true,
+      "RI_present": true
+    },
+    {
+      "object": "uncached",
+      "saved_J_hits": 0,
+      "native_calls": 2,
+      "PCM_present": true,
+      "RI_present": true
+    },
+    {
+      "object": "cached",
+      "saved_J_hits": 1,
+      "native_calls": 2,
+      "PCM_present": true,
+      "RI_present": true
+    }
+  ],
+  "aliases": [
+    {
+      "shape": [
+        746,
+        746
+      ],
+      "shares_memory": true,
+      "same_pointer": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "shape": [
+        1085,
+        1085
+      ],
+      "shares_memory": true,
+      "same_pointer": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "shape": [
+        746,
+        746
+      ],
+      "shares_memory": true,
+      "same_pointer": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "shape": [
+        1085,
+        1085
+      ],
+      "shares_memory": true,
+      "same_pointer": true,
+      "readonly": true,
+      "Fortran": true
+    }
+  ],
+  "elapsed_seconds": 4.3538953750394285,
+  "status": "PASS_OPERATORS"
+}

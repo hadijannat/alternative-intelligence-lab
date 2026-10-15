@@ -1,0 +1,41 @@
+[
+  {
+    "filename": "theses-catalog.html",
+    "requested_url": "https://theses.fr/2017SACLV078",
+    "accessed_utc": "2026-10-15T21:53:56.193190+00:00",
+    "status": 200,
+    "final_url": "https://theses.fr/2017SACLV078",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 718945,
+    "sha256": "256cf65776291397ca2f932b8d0de54b0c07636b8457ed272f5ffcc185e2b2d2",
+    "pdf_magic": false
+  },
+  {
+    "filename": "theses-catalog-json.response",
+    "requested_url": "https://theses.fr/2017SACLV078.json",
+    "accessed_utc": "2026-10-15T21:53:56.193569+00:00",
+    "error": "HTTP Error 404: Page Not Found"
+  },
+  {
+    "filename": "hal-author-metadata.json",
+    "requested_url": "https://api.archives-ouvertes.fr/search/?q=authLastName_t%3AMoussawi&wt=json&fl=title_s,doiId_s,uri_s,fileMain_s,authFullName_s,producedDateY_i&rows=100",
+    "accessed_utc": "2026-10-15T21:53:56.193621+00:00",
+    "status": 200,
+    "final_url": "https://api.archives-ouvertes.fr/search/?q=authLastName_t%3AMoussawi&wt=json&fl=title_s,doiId_s,uri_s,fileMain_s,authFullName_s,producedDateY_i&rows=100",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 39651,
+    "sha256": "e7c79622103066a43aabff760d76c36005003a0fc4439cb5e64ebe3d08a48dd4",
+    "pdf_magic": false
+  },
+  {
+    "filename": "crossref-author-metadata.json",
+    "requested_url": "https://api.crossref.org/works?query.author=Moussawi&query=polyoxometalate&filter=from-pub-date%3A2014-01-01,until-pub-date%3A2020-12-31&rows=100",
+    "accessed_utc": "2026-10-15T21:53:56.193661+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works?query.author=Moussawi&query=polyoxometalate&filter=from-pub-date%3A2014-01-01,until-pub-date%3A2020-12-31&rows=100",
+    "content_type": "application/json",
+    "bytes": 21818,
+    "sha256": "569d421de3c62aebc648b3b769232cc93fbabfd3548c75bccbb4a3e7ec8d06df",
+    "pdf_magic": false
+  }
+]

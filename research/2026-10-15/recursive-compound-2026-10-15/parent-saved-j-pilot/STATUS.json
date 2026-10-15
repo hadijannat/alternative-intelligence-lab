@@ -1,0 +1,21 @@
+{
+  "status": "DRAFT_INCOMPLETE_NOT_QUALIFIED",
+  "implementation_complete": false,
+  "publication_scope": "Preserved work in progress; not an executable qualified experiment",
+  "syntax_check": "AST parse only; no import or execution",
+  "unit_tests_run": 0,
+  "independent_implementation_review_complete": false,
+  "protocol_frozen": false,
+  "prepared": false,
+  "SCFs_launched": 0,
+  "physical_admission": false,
+  "execution_clearance": false,
+  "missing_prerequisites": [
+    "Complete and inspect the implementation",
+    "Write and freeze the protocol",
+    "Implement and pass synthetic tests",
+    "Complete independent code and memory-lifetime review",
+    "Prepare exact inputs and verify all provenance pins",
+    "Bind independent root approval before any launch"
+  ]
+}

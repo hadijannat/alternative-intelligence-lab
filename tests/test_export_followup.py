@@ -239,7 +239,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'renewal/oxide-isotope-constraints', 'renewal/manganese-regeneration-constraints',
                        'renewal/receiver-function-audit', 'identity/mixed-addenda-source-audit',
                        'parent-openmp-qualification', 'parent-openmp-qualification-v2',
-                       'parent-openmp-first-j', 'parent-openmp-first-j-v2'):
+                       'parent-openmp-first-j', 'parent-openmp-first-j-v2', 'parent-saved-j-qualification',
+                       'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.py', '.md', '.csv'):
@@ -276,6 +277,15 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'gate_unchanged', False),
             ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'parent_SCF_readiness', True),
             ('parent-openmp-first-j-v2/run-v1/launch-result.json', 'J_sha256_observed', '0' * 64),
+            ('parent-saved-j-qualification/run-v1/launch-result.json', 'status', 'PASS_PARENT_SCF'),
+            ('parent-saved-j-qualification/run-v1/launch-result.json', 'physical_admission', True),
+            ('parent-saved-j-qualification/run-v1/launch-result.json', 'fresh_holdout', True),
+            ('parent-saved-j-qualification/run-v1/operator-receipt.json', 'returncode', 1),
+            ('identity/moussawi-occupancy-followup/evidence.json', 'nominal_target_verified', True),
+            ('identity/moussawi-occupancy-followup/evidence.json', ('exact_missing_fields', 'refined_site_occupancy'), 1),
+            ('parent-saved-j-pilot/STATUS.json', 'status', 'QUALIFIED'),
+            ('parent-saved-j-pilot/STATUS.json', 'execution_clearance', True),
+            ('parent-saved-j-pilot/STATUS.json', 'unit_tests_run', 1),
             ('identity/mixed-addenda-source-audit/evidence.json', 'exact_target_established', True),
             ('identity/mixed-addenda-source-audit/evidence.json',
              ('source_findings', 0, 'refined_w_occupancy'), 1),
@@ -313,6 +323,32 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for name in ('result.json', 'J.npy'):
             with self.subTest(name=name):
                 path = self.recursive / 'parent-openmp-first-j/run-v1' / name
+                path.write_text('{}')
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+                path.unlink()
+
+    def test_consistently_promoted_saved_j_result_is_rejected(self):
+        run = self.recursive / 'parent-saved-j-qualification/run-v1'
+        paths = [run / name for name in ('scf/result.json', 'launch-result.json', 'terminal-progress.json')]
+        originals = [path.read_bytes() for path in paths]
+        for key, value in (('parent_run', True), ('fresh_holdout', True), ('physical_admission', True),
+                           ('checks', []), ('SCFs_launched', 2)):
+            with self.subTest(key=key):
+                worker, launch, terminal = [json.loads(data) for data in originals]
+                worker[key] = value
+                launch['results']['scf'] = terminal['results']['scf'] = worker
+                for path, data in zip(paths, (worker, launch, terminal)):
+                    path.write_text(json.dumps(data))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, data in zip(paths, originals):
+            path.write_bytes(data)
+
+    def test_prepared_or_launched_draft_is_rejected(self):
+        for name in ('preparation.json', 'independent-root-review.json', 'run-v1'):
+            with self.subTest(name=name):
+                path = self.recursive / 'parent-saved-j-pilot' / name
                 path.write_text('{}')
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)

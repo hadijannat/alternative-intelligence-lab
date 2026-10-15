@@ -1,0 +1,19 @@
+{
+  "status": "APPROVED_SMALL_SAVED_J_QUALIFICATION",
+  "independent_root_review": true,
+  "reviewer": "root with independent openmp_prelaunch_review code and synthetic-test review",
+  "preparation_sha256": "5ff95c11b51e17a3fae848f3abaa9875fac29d67a901abf412237aa2afc70ee0",
+  "independent_review_path": "../../.omo/evidence/parent-saved-j-prelaunch-review.md",
+  "independent_review_sha256": "2e849d2e7ef5980701689e4c9b196f704b61f4d5b1aa5ee4e0005d3b8585ed88",
+  "root_rehashed_unique_path_pins": 101,
+  "source_hash_mismatches": [],
+  "synthetic_tests_passed": 15,
+  "maximum_children": 2,
+  "maximum_SCFs": 1,
+  "wall_seconds_per_child": 180,
+  "sampled_RSS_guard_bytes_per_child": 2147483648,
+  "parent_run": false,
+  "fresh_holdout": false,
+  "physical_admission": false,
+  "review_scope": "One fixed small-reference operator child followed only on acceptance by one SCF; no parent numerical work. Numerical agreement remains untested."
+}

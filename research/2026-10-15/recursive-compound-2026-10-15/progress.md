@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current research: one parent J completed; new structural and receiver constraints
+## Current publication checkpoint: saved-J handoff qualification and unresolved occupancy
+
+The user requested commit and push of the current changes to main. The saved-J handoff campaign is terminal PASS_RETROSPECTIVE_SAVED_J_HANDOFF: 21 operator checks plus 79 SCF checks, 100 total, with one small-reference SCF converged in 32 cycles. Repeated storage checks are recorded process observations, not independent scientific trials. Independent saved-array review supports the one-use handoff, incremental/zero-increment semantics and PCM-before-RI storage ordering. Parent_run, fresh_holdout and physical_admission remain false.
+
+No parent saved-J preparation or launch belongs to this checkpoint. The archived parent-saved-j-pilot draft is incomplete/unreviewed, with syntax checking only and no protocol, tests or clearance. A successor must finish implementation/tests, independent prelaunch review and explicit parent PCM/metric lifetime accounting before a bounded run. Earlier parent resource failures, the first-J setup failure and its separate one-J success remain preserved.
+
+The bounded Moussawi occupancy follow-up ended NO_OCCUPANCY_OR_CIF_RECOVERED. Three acquired catalogue/metadata responses corroborate bibliographic and author-summary details; no full PDF, refined W occupancy table or crystal dataset was acquired. Exact W occupancy, V identity and target solution persistence remain unresolved. The aggregate remains 22 candidate-role assessments and zero verified integrated complements; all integrated life/intelligence requirements remain unresolved. Publication adds no scientific run.
+
+The entries below describe historical checkpoints.
+
+## Previous research: one parent J completed; new structural and receiver constraints
 
 Previous turn made publication progress at remote-verifiedf34d43e, not chemical-function progress. This continuation launched the reviewed parent first-J once: setup failed in10.324s because a native empty-dictionary PCM state was incorrectly rejected. That failure remains immutable. A separate v2 exact-state correction passed16tests and independent review, froze172pins, and launched once. Authoritative session20337 exited0: PASS_BOUNDED_FIRST_J_ONLY,12checks,oneJ240.320929s,child251.532840s,sampledmaxRSS3432890368bytes,zeroSCF. Jhash88f8f78f3d371295cc5834db043d9c9223819132a35251dc536b56903c2fb007. No parentSCF or targetphysicalresult is established.
 

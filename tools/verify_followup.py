@@ -487,6 +487,61 @@ def verify_openmp_renewal(recursive, case_names):
                 'raw_measurement_arrays_acquired'):
         assert receiver['limits'][key] is False
     assert receiver['limits']['physical_experiments'] == receiver['limits']['fitted_models'] == 0
+    verify_saved_j_followup(recursive)
+
+
+def verify_saved_j_followup(recursive):
+    run = recursive / 'parent-saved-j-qualification/run-v1'
+    launch = json.loads((run / 'launch-result.json').read_text())
+    terminal = json.loads((run / 'terminal-progress.json').read_text())
+    assert launch['status'] == 'PASS_RETROSPECTIVE_SAVED_J_HANDOFF'
+    assert launch['gate_unchanged'] is True and launch['SCF_skipped'] is False
+    assert launch['maximum_children'] == 2 and launch['maximum_SCFs'] == 1
+    assert launch['errors'] == terminal['errors'] == {}
+    assert launch['receipts'] == terminal['receipts']
+    assert launch['results'] == terminal['results']
+    assert set(launch['results']) == set(launch['receipts']) == {'operators', 'scf'}
+    for key in ('parent_run', 'fresh_holdout', 'physical_admission'):
+        assert launch[key] is False
+    for phase, count in (('operators', 21), ('scf', 79)):
+        item = json.loads((run / phase / 'result.json').read_text())
+        receipt = json.loads((run / phase / 'supervisor.json').read_text())
+        assert item == launch['results'][phase] and receipt == launch['receipts'][phase]
+        assert receipt['returncode'] == 0
+        assert receipt['termination_reason'] is None and receipt['monitor_error'] is None
+        assert item['case'] == 'new-external' and item['phase'] == phase
+        assert item['status'] == ('PASS_OPERATORS' if phase == 'operators' else 'PASS_SCF')
+        assert item['SCFs_launched'] == int(phase == 'scf')
+        assert len(item['checks']) == count and all(check['pass'] is True for check in item['checks'])
+        for key in ('parent_run', 'fresh_holdout', 'physical_admission'):
+            assert item[key] is False
+    assert json.loads((run / 'operator-receipt.json').read_text()) == launch['receipts']['operators']
+    assert launch['results']['scf']['SCF']['converged'] is True
+    assert launch['results']['scf']['SCF']['cycles'] == 32
+    source = json.loads((recursive / 'identity/moussawi-occupancy-followup/evidence.json').read_text())
+    assert source['outcome'] == 'NO_OCCUPANCY_OR_CIF_RECOVERED'
+    assert source['parent_abstract_evidence_changed'] is False and source['nominal_target_verified'] is False
+    assert source['chemistry_jobs_run'] == source['new_candidates_added'] == source['new_primary_structure_datasets'] == 0
+    assert set(source['exact_missing_fields']) == {'w_loading', 'refined_site_occupancy', 'occupancy_uncertainty',
+        'substituted_salt_formula', 'cif_identifier', 'counterion_assignment', 'protonation_assignment',
+        'source_to_parent_topology_map', 'solution_persistence', 'vanadium_assignment'}
+    assert all(value is None for value in source['exact_missing_fields'].values())
+    assert source['catalogue']['full_thesis'] is False
+    assert source['catalogue']['accessibility_flag_is_download_confirmation'] is False
+    assert source['metadata_scope']['exhaustive_publication_coverage_claimed'] is False
+    assert source['collaborator_thesis']['full_pdf_acquired'] is False
+    assert source['collaborator_thesis']['ordinary_mo36_occupancy_supported'] is False
+    draft = recursive / 'parent-saved-j-pilot'
+    status = json.loads((draft / 'STATUS.json').read_text())
+    assert status['status'] == 'DRAFT_INCOMPLETE_NOT_QUALIFIED'
+    assert status['syntax_check'] == 'AST parse only; no import or execution'
+    assert status['unit_tests_run'] == status['SCFs_launched'] == 0
+    for key in ('implementation_complete', 'independent_implementation_review_complete', 'protocol_frozen',
+                'prepared', 'physical_admission', 'execution_clearance'):
+        assert status[key] is False
+    assert (draft / 'run.py').is_file()
+    for name in ('PROTOCOL.md', 'test_run.py', 'preparation.json', 'independent-root-review.json', 'run-v1'):
+        assert not (draft / name).exists()
 
 
 if __name__ == '__main__':
