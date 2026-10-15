@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: saved-J handoff qualification and unresolved occupancy
+## Current publication checkpoint: parent pilot prepared and approved, unlaunched
+
+The user requested commit and push of the current changes to main. The parent saved-J pilot implementation now passes 22 synthetic tests and 15 unchanged handoff regression tests. Independent code review is CLEAR/APPROVE; memory review is WATCH/APPROVE. Strict preparation and bound root approval are complete, and gate session 22353 exited 0. Preparation SHA256 is c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed; root-review SHA256 is 56453679ecac728c78363faccd6f7b2a3bec2ea80fdfa546b5299ff9be1223de. No parent scientific run has launched. The proposed pilot retains one child, 1800 seconds, 10 GiB sampled RSS and max_cycle 20; its narrow allocation margin is not a certified peak-memory bound.
+
+The incomplete draft published at f5c945a remains in parent-saved-j-pilot/history/f5c945a-incomplete. Prior scientific failures and the completed 100-check small-reference handoff result remain preserved. Preparation and approval provide no new parent numerical or chemical-function observation.
+
+The reviewed V-incorporation follow-up distinguishes formal V(IV)/V(V) feed labels from measured bound valence, retains sulfate/ammonium confounds, a pH 2.8/approximately 4.2 conflict and a figure-caption reversal, and leaves exact V occupancy and same-molecule W/V identity unresolved. The aggregate remains 22 candidate-role assessments and zero verified integrated complements; all integrated life/intelligence requirements remain unresolved. Publication launches no scientific job.
+
+The entries below describe historical checkpoints.
+
+## Previous publication checkpoint: saved-J handoff qualification and unresolved occupancy
 
 The user requested commit and push of the current changes to main. The saved-J handoff campaign is terminal PASS_RETROSPECTIVE_SAVED_J_HANDOFF: 21 operator checks plus 79 SCF checks, 100 total, with one small-reference SCF converged in 32 cycles. Repeated storage checks are recorded process observations, not independent scientific trials. Independent saved-array review supports the one-use handoff, incremental/zero-increment semantics and PCM-before-RI storage ordering. Parent_run, fresh_holdout and physical_admission remain false.
 

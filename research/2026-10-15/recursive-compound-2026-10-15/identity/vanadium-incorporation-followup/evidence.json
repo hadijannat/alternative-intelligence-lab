@@ -1,0 +1,231 @@
+{
+  "date_local": "2026-10-16",
+  "timezone": "Europe/Berlin",
+  "scope": {
+    "targeted_search_count": 6,
+    "targeted_search_cap": 6,
+    "distinct_new_primary_route_count": 4,
+    "new_primary_route_cap": 4,
+    "structure_computations_run": 0,
+    "new_candidates_added": 0
+  },
+  "outcome": "UNRESOLVED_VV_MO36_IDENTITY_WITH_PRECURSOR_DEPENDENCE_CONSTRAINT",
+  "nominal_target": "[Mo(VI)34 W(VI) V(V) O112(H2O)16]9-",
+  "exact_target_changed": false,
+  "exact_target_verified": false,
+  "thermodynamic_exclusion_established": false,
+  "searches": [
+    "\"Mo36\" \"vanadium\" \"substitution\"",
+    "\"Mo35V\" OR \"Mo34V2\" polyoxometalate",
+    "\"Mo36\" \"51V\"",
+    "\"Mo36\" vanadium EXAFS",
+    "molybdate vanadate \"51V NMR\" speciation",
+    "\"Aqueous molybdovanadates at high\""
+  ],
+  "missing_target_data": {
+    "isolated_salt_formula": null,
+    "refined_v_site": null,
+    "v_site_occupancy": null,
+    "v_occupancy_uncertainty": null,
+    "measured_cluster_bound_v_oxidation_state": null,
+    "w_v_same_molecule_evidence": null,
+    "mo36_specific_51v_shift_ppm": null,
+    "mo36_specific_v_exafs_fit": null,
+    "counterions": null,
+    "protonation": null,
+    "coordinated_water_count": null,
+    "solution_lifetime": null,
+    "formation_constant": null,
+    "measurement_detection_limit": null
+  },
+  "primary_constraint": {
+    "source": "Sabrina Jung, doctoral thesis, TU Berlin, 2018",
+    "title": "Speciation of molybdenum- and vanadium-based polyoxometalate species in aqueous medium and gas-phase and its consequences for M1 structured MoV oxide synthesis",
+    "primary_url": "https://pure.mpg.de/rest/items/item_2622015/component/file_2639730/content",
+    "local_pdf": "raw/jung_sabrina.pdf",
+    "defense_date": "2018-07-19",
+    "evidence_tier": "acquired full primary thesis; reported Raman/UV-visible observations and assignments",
+    "matrix": {
+      "mo_v_ratio": 4,
+      "total_metal_concentration_mM": [
+        250,
+        43.75,
+        8.75
+      ],
+      "precursors": [
+        {
+          "formula": "VOSO4",
+          "formal_feed_v_oxidation_state": 4
+        },
+        {
+          "formula": "NH4VO3",
+          "formal_feed_v_oxidation_state": 5
+        }
+      ],
+      "molybdenum_source": "ammonium heptamolybdate tetrahydrate",
+      "target_mo_v_ratio": 34,
+      "target_w_present_in_dataset": false,
+      "pH": null,
+      "pH_conflicting_reports": [
+        {
+          "pH": 2.8,
+          "locator": "experimental section2.1.3; printedp22/PDFp40"
+        },
+        {
+          "pH": 4.2,
+          "approximate": true,
+          "locator": "section5.1.1; printedp89/PDFp107"
+        }
+      ],
+      "matched_sulfate_ammonium_inputs_demonstrated": false,
+      "independently_measured_mo36_bound_valences": false
+    },
+    "observations": [
+      {
+        "method": "Raman",
+        "source_locator": "Table5.1; printedp91/PDFp109",
+        "feed": "VOSO4",
+        "reported_band_cm_inverse": 870,
+        "source_assignment": "Mo72V30 Keplerate",
+        "band_uncertainty": null,
+        "mo36_identity": false
+      },
+      {
+        "method": "Raman",
+        "source_locator": "Table5.1; printedp91/PDFp109",
+        "feed": "NH4VO3",
+        "reported_bands_cm_inverse": [
+          915,
+          950,
+          968,
+          994
+        ],
+        "source_assignments": [
+          "octamolybdate-related",
+          "alpha-octamolybdate-related",
+          "beta-octamolybdate-related",
+          "V=O vibration"
+        ],
+        "structural_occupancy_determined": false,
+        "band_uncertainties": null
+      },
+      {
+        "method": "UV-visible",
+        "source_locator": "section5.1.2; printedpp91-92/PDFpp109-110; Figure5.2",
+        "feed": "VOSO4",
+        "highest_concentration_mM": 250,
+        "source_observation": "Keplerate-associated broad signal present at highest concentration and disappears on dilution",
+        "quantified_solution_fraction": null
+      },
+      {
+        "method": "UV-visible",
+        "source_locator": "section5.1.2; printedp92/PDFp110",
+        "feed": "NH4VO3",
+        "source_observation": "No signals above350nm reported at examined concentrations",
+        "spectral_detection_limit": null,
+        "absolute_absence_of_all_keplerate_molecules_established": false
+      }
+    ],
+    "exclusions": {
+      "direct_51v_nmr_in_chapter5": false,
+      "refined_mo36_v_structure": false,
+      "solution_mole_fractions_from_esi_accepted": false,
+      "raw_spectra_digitized": false,
+      "fitted_constants_produced": false
+    },
+    "source_quality_flags": [
+      "pH2.8 in experimental methods versus approximately4.2 in chapter5 is unresolved",
+      "Figure5.1 top/bottom caption reverses precursor placement described in surrounding text; Table5.1 is used instead",
+      "VOSO4 versus NH4VO3 changes sulfate/ammonium input as well as formal precursor valence; no isolated-redox causal inference",
+      "Source cautions that ESI gas-phase diversity cannot unambiguously establish solution species; printedp101/PDFp119",
+      "No high-temperature or target-condition thermodynamic conclusion inferred"
+    ]
+  },
+  "existing_evidence_reclassification": {
+    "source_doi": "10.1002/anie.201200746",
+    "local_primary_text": "noncarbon-discovery-2026-10-15/research/novelty/raw/mpg_mo36_nb_rest.txt",
+    "precursor": "VOSO4.5H2O",
+    "formal_feed_v_oxidation_state": 4,
+    "feed_locator": "SI sections 1.1-1.2; retained primary text lines 312-358",
+    "tentative_substitution_locator": "SIsection4.2, printedp12, FigureS5",
+    "reported_framework": "Nb-containing Mo36-type solution anions together with nanocrystalline M5O14",
+    "measured_vv_site": false,
+    "highest_oxidation_state_assumption_locator": "SI TableS1 footnote1; yield calculation",
+    "preserve_original_raman_observation": true,
+    "inference": "Cannot promote V(IV) feed plus tentative Raman shifts to measured isolated V(V)-Mo36 occupancy"
+  },
+  "nmr_reference_lead": {
+    "doi": "10.1039/DT9910001799",
+    "title": "Aqueous molybdovanadates at high Mo:V ratio",
+    "author_institution_url": "https://wrap.warwick.ac.uk/id/eprint/22597/",
+    "evidence_tier": "primary author-institution abstract viewed in search result; full text inaccessible",
+    "full_text_acquired": false,
+    "reported_methods": [
+      "quantitative51V NMR",
+      "potentiometry",
+      "parallel17O NMR",
+      "some95Mo NMR"
+    ],
+    "reported_conditions": {
+      "potentiometry_temperature_C": 25,
+      "medium": "0.6 mol dm-3 Na(Cl)",
+      "nmr_pH_range": [
+        1.4,
+        7
+      ],
+      "full_concentration_range": null
+    },
+    "example_supported_alternative_species": "beta-[Mo7VO26]5-",
+    "ordinary_mo36_assigned_in_inspected_abstract": false,
+    "chemical_shift_table": null,
+    "formation_constants": null,
+    "uncertainties": null,
+    "limitation": "Smaller mixed Mo/V species constrain competing-species hypotheses; abstract does not supply target data or prove absence of Mo36 in every condition"
+  },
+  "excluded_abstract": {
+    "primary_url": "https://ucrisportal.univie.ac.at/en/publications/synthesis-and-speciation-of-mixed-addenda-vanadium-substituted-po/",
+    "date": "2018-11-05",
+    "authors": [
+      "Lukas Krivosudsky",
+      "Annette Rompel"
+    ],
+    "accessible_via_web": true,
+    "raw_http_download": false,
+    "evidence_tier": "institutional conference abstract",
+    "named_products": [
+      "[V12O30F4(H2O)2]4-",
+      "[V2O2(O2)4(H2O)]2-"
+    ],
+    "mo36_occupancy_dataset": false,
+    "numerical_nmr_data": null,
+    "reason": "Different fluoride/peroxide chemistry; no Mo36 formula or species-resolved spectrum supplied"
+  },
+  "next_test": {
+    "hypothesis": "V(V)-bearing Mo36 competes with parentMo36 and separate/smaller vanadium-containing species; incorporation is not forced",
+    "falsifier": "Under declared conditions, quantitatively assigned separateV species and independently identified parentMo36 account for inventory sufficiently to exclude the required substituted fraction at a validated detection limit",
+    "numeric_detection_limit": null,
+    "missing_51v_signal_alone_sufficient": false,
+    "acceptance_requires": [
+      "assignedV-bearing molecular species",
+      "independentordinaryMo36 framework identity",
+      "site and valence evidence",
+      "subsequentpersistence measurement"
+    ],
+    "switch_to_viv_target": false,
+    "apply_4_to_1_data_as_34_to_1_target_calibration": false
+  },
+  "validation": {
+    "raw_file": "raw/jung_sabrina.pdf",
+    "sha256": "1f9b2960feb8866dd2067cb39ac52e23b49cab73196b4d413089e74d105c3eb6",
+    "sha256_matches_record": true,
+    "byte_count_matches_record": true,
+    "pdf_pages": 158,
+    "distinct_acquisition_urls": 4
+  },
+  "provenance_notes": [
+    "Existing source ledgers inspected first",
+    "No Moussawi/HAL access search repeated",
+    "No contacts sent to authors or institutions",
+    "Search failure is not evidence of novelty or impossibility"
+  ]
+}

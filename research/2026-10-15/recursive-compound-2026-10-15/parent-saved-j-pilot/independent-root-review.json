@@ -1,0 +1,42 @@
+{
+  "preparation_sha256": "c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed",
+  "saved_J_qualification_artifacts": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run.py": "1b20a11501fe937eef459c40c72f647a9a60435db76af45faf385a03c1c4f456",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/handoff.py": "35fc1a4f18e4b58bcc891c980de76dc220ce9704482e2e8953dc1cc07a319fc8",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/test_run.py": "b0b32bbbdd35f68c681444060879f7cc91949deac7c3b1f5c19f6d817e88ef62",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/PROTOCOL.md": "9fbfbb25b3c00e9cc43b6b86c71f280c654dc89258f1a53d3b73984386566fd9",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/preparation.json": "5ff95c11b51e17a3fae848f3abaa9875fac29d67a901abf412237aa2afc70ee0",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/independent-root-review.json": "8cb6d9ec534cc9da20fbaf9ab2c61259a001cb9b56b1d666f6c95b149ff19648",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/INDEPENDENT_REVIEW.md": "ba68f641977f27642dfcf784863a04eb31b471632e17b2c53984cdbf502856cd",
+    "PROJECT_ROOT/.omo/evidence/parent-saved-j-result-audit/check_arrays.py": "4e0343a19e6915f3135cc2286bcd0629d4b38740b6c9a52f332c3bc1b7a2bf98",
+    "PROJECT_ROOT/.omo/evidence/parent-saved-j-result-audit/array-audit.json": "c2434f2123305453286008279f5afe46fb708ae368afee76af69fb92ad0bcf14",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/launch-result.json": "4e6186ba8f9c32d40879cc2b30e773d741921c6f1503de714b0446a3ef8ca417",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/launch-gate.json": "f18d15513db15bde796cef06698c229a1069b9f144a78328a1c13a78539c37c4",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operator-receipt.json": "6b265003575b5c2d5324ac38062cc7ab24917978e0faf41b36425a1b18270901",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operators/supervisor.json": "6b265003575b5c2d5324ac38062cc7ab24917978e0faf41b36425a1b18270901",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operators/result.json": "3e5a6b1a56f40bf6d5d00176a3734381f9e494307689a3fb8add3b76b2a3bf13",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operators/arrays.npz": "e875309e0a0f7f829866ca886dcb34c44d80dc935c9e521342098494c014462f",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operators/runtime-observation.json": "e8c418b4ca41c15846c58eb6c6902d049a74eb51a7359b33436d900afb436db8",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/operators/native.log": "f46777b136dfacc91ca0558eeda17de0691055a9dd6fe9992d62258a76fa1dcb",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/scf/supervisor.json": "cb5606e3f6692435a429aa452b2edd07f5d0e0bf540a5a571123187f180df942",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/scf/result.json": "b34e890e94b9889c2638b70dd3e01ea5ddc3654dec1d2727bc2e09652e333d43",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/scf/arrays.npz": "29315e94ee6d4646beaf049b083f2287371ae101aaf0520dda837b8a11ebebf0",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/scf/runtime-observation.json": "e8c418b4ca41c15846c58eb6c6902d049a74eb51a7359b33436d900afb436db8",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-j-qualification/run-v1/scf/native.log": "dffd051dfb14bd3749d2dc3d6b067c5ebb83dcf59c915adfd645ca9634fbc18e"
+  },
+  "review_artifacts": {
+    "PROJECT_ROOT/.omo/evidence/parent-saved-j-pilot-prelaunch-review-v2.md": "7976a97e7d8cf3ef293b373e76c0e772b253501de1b6b9fc101dc6a7bb035b50",
+    "PROJECT_ROOT/.omo/evidence/parent-saved-j-pilot-memory-review.md": "1d9d80283fad8c291b82fe672db292734dc34ec1b670aca7b77017995dceb7e5"
+  },
+  "status": "APPROVED_ONE_PARENT_SAVED_J_PILOT",
+  "independent_root_review": true,
+  "reviewer": "root after independent code and memory reviews",
+  "root_verified_unique_file_pins": 209,
+  "maximum_children": 1,
+  "maximum_SCFs": 1,
+  "wall_cap_seconds": 1800,
+  "sampled_RSS_guard_bytes": 10737418240,
+  "max_cycle": 20,
+  "physical_admission": false,
+  "scope": "One bounded P0_A parent SCF with exact saved cycle-zero density and one saved-J handoff; no restart or resource extension."
+}

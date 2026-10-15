@@ -13,6 +13,7 @@ def verify(root):
     assert manifest['scientific_validation'] is False
     assert manifest['labs'] == list(LABS)
     included = [r for r in manifest['files'] if r['status'] == 'included']
+    verify_parent_pilot_source_bindings(included)
     assert len(included) == manifest['included_files']
     assert len({r['path'] for r in included}) == len(included)
     assert len({r['published_sha256'] for r in included}) == manifest['unique_published_blobs']
@@ -531,7 +532,32 @@ def verify_saved_j_followup(recursive):
     assert source['metadata_scope']['exhaustive_publication_coverage_claimed'] is False
     assert source['collaborator_thesis']['full_pdf_acquired'] is False
     assert source['collaborator_thesis']['ordinary_mo36_occupancy_supported'] is False
-    draft = recursive / 'parent-saved-j-pilot'
+    pilot = recursive / 'parent-saved-j-pilot'
+    status = json.loads((pilot / 'STATUS.json').read_text())
+    assert status['status'] == 'PREPARED_REVIEWED_GATE_PASSED_NOT_LAUNCHED'
+    assert status['unit_tests_run'] == 22 and status['qualified_handoff_regression_tests'] == 15
+    assert status['SCFs_launched'] == 0 and status['physical_admission'] is False
+    assert status['historical_snapshot'] == 'history/f5c945a-incomplete'
+    for key in ('implementation_complete', 'independent_implementation_review_complete', 'protocol_frozen',
+                'prepared', 'execution_clearance', 'gate_check_passed'):
+        assert status[key] is True
+    preparation = json.loads((pilot / 'preparation.json').read_text())
+    approval = json.loads((pilot / 'independent-root-review.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert preparation['parent_molecule_built'] is False and preparation['SCFs_launched'] == 0
+    assert approval['status'] == 'APPROVED_ONE_PARENT_SAVED_J_PILOT'
+    assert approval['independent_root_review'] is True and approval['physical_admission'] is False
+    assert approval['preparation_sha256'] == 'c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed'
+    assert approval['saved_J_qualification_artifacts'] == preparation['pins']['saved_J_qualification']
+    for record in (preparation, approval):
+        assert record['maximum_children'] == record['maximum_SCFs'] == 1
+        assert record['wall_cap_seconds'] == 1800 and record['sampled_RSS_guard_bytes'] == 10 * 1024**3
+    assert preparation['proof']['method']['max_cycle'] == approval['max_cycle'] == 20
+    assert preparation['proof']['density_cycle'] == 0
+    for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
+        assert (pilot / name).is_file()
+    assert not (pilot / 'run-v1').exists()
+    draft = pilot / 'history/f5c945a-incomplete'
     status = json.loads((draft / 'STATUS.json').read_text())
     assert status['status'] == 'DRAFT_INCOMPLETE_NOT_QUALIFIED'
     assert status['syntax_check'] == 'AST parse only; no import or execution'
@@ -542,6 +568,39 @@ def verify_saved_j_followup(recursive):
     assert (draft / 'run.py').is_file()
     for name in ('PROTOCOL.md', 'test_run.py', 'preparation.json', 'independent-root-review.json', 'run-v1'):
         assert not (draft / name).exists()
+    vanadium = json.loads((recursive / 'identity/vanadium-incorporation-followup/evidence.json').read_text())
+    assert vanadium['outcome'] == 'UNRESOLVED_VV_MO36_IDENTITY_WITH_PRECURSOR_DEPENDENCE_CONSTRAINT'
+    for key in ('exact_target_changed', 'exact_target_verified', 'thermodynamic_exclusion_established'):
+        assert vanadium[key] is False
+    assert vanadium['scope']['structure_computations_run'] == vanadium['scope']['new_candidates_added'] == 0
+    assert vanadium['scope']['targeted_search_count'] == vanadium['scope']['targeted_search_cap'] == 6
+    assert vanadium['scope']['distinct_new_primary_route_count'] == vanadium['scope']['new_primary_route_cap'] == 4
+    assert len(vanadium['missing_target_data']) == 14
+    assert all(value is None for value in vanadium['missing_target_data'].values())
+    matrix = vanadium['primary_constraint']['matrix']
+    assert matrix['pH'] is None
+    assert [entry['pH'] for entry in matrix['pH_conflicting_reports']] == [2.8, 4.2]
+    assert matrix['mo_v_ratio'] == 4 and matrix['target_mo_v_ratio'] == 34
+    for key in ('target_w_present_in_dataset', 'matched_sulfate_ammonium_inputs_demonstrated',
+                'independently_measured_mo36_bound_valences'):
+        assert matrix[key] is False
+    assert vanadium['existing_evidence_reclassification']['formal_feed_v_oxidation_state'] == 4
+    assert vanadium['existing_evidence_reclassification']['measured_vv_site'] is False
+    assert vanadium['existing_evidence_reclassification']['preserve_original_raman_observation'] is True
+    assert vanadium['next_test']['missing_51v_signal_alone_sufficient'] is False
+    assert vanadium['next_test']['apply_4_to_1_data_as_34_to_1_target_calibration'] is False
+
+
+def verify_parent_pilot_source_bindings(included):
+    # Published paths are sanitized; immutable launch pins refer to original source bytes.
+    source_hashes = {record['path']: record['source_sha256'] for record in included}
+    expected = {
+        'preparation.json': 'c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed',
+        'independent-root-review.json': '56453679ecac728c78363faccd6f7b2a3bec2ea80fdfa546b5299ff9be1223de',
+        'history/f5c945a-incomplete/run.py': '0cc1e086687a9f50f1b334bb65cdac32aee9977fa72d31121e6b2311f514e7ce',
+        'history/f5c945a-incomplete/STATUS.json': '0f513146f3fa0dc35b7020e96c831f4f95ad6bb7ccc6ae78de2f7043c45bf01e'}
+    for name, digest in expected.items():
+        assert source_hashes['recursive-compound-2026-10-15/parent-saved-j-pilot/' + name] == digest
 
 
 if __name__ == '__main__':

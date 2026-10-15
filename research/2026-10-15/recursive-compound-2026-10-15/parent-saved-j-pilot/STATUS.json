@@ -1,21 +1,18 @@
 {
-  "status": "DRAFT_INCOMPLETE_NOT_QUALIFIED",
-  "implementation_complete": false,
-  "publication_scope": "Preserved work in progress; not an executable qualified experiment",
-  "syntax_check": "AST parse only; no import or execution",
-  "unit_tests_run": 0,
-  "independent_implementation_review_complete": false,
-  "protocol_frozen": false,
-  "prepared": false,
+  "status": "PREPARED_REVIEWED_GATE_PASSED_NOT_LAUNCHED",
+  "implementation_complete": true,
+  "unit_tests_run": 22,
+  "qualified_handoff_regression_tests": 15,
+  "independent_implementation_review_complete": true,
+  "protocol_frozen": true,
+  "prepared": true,
   "SCFs_launched": 0,
   "physical_admission": false,
-  "execution_clearance": false,
-  "missing_prerequisites": [
-    "Complete and inspect the implementation",
-    "Write and freeze the protocol",
-    "Implement and pass synthetic tests",
-    "Complete independent code and memory-lifetime review",
-    "Prepare exact inputs and verify all provenance pins",
-    "Bind independent root approval before any launch"
-  ]
+  "execution_clearance": true,
+  "gate_check_passed": true,
+  "preparation_sha256": "c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed",
+  "root_review_sha256": "56453679ecac728c78363faccd6f7b2a3bec2ea80fdfa546b5299ff9be1223de",
+  "checkpoint_scope": "Prepared and approved for one bounded local pilot; no scientific launch or parent result at this publication checkpoint.",
+  "historical_snapshot": "history/f5c945a-incomplete",
+  "evidence": ".omo/evidence/parent-saved-j-pilot-implementation/report.md"
 }

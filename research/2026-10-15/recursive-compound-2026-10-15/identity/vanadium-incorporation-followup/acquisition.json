@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://pure.mpg.de/pubman/item/item_2622015_3/component/file_2639730/jung_sabrina.pdf",
+    "method": "web.open",
+    "result": "403 Forbidden; no PDF from this transport"
+  },
+  {
+    "url": "https://pure.mpg.de/pubman/item/item_2622015_3/component/file_2639730/jung_sabrina.pdf",
+    "filename": "raw/jung_sabrina.pdf",
+    "accessed_utc": "2026-10-15T22:19:10.850803+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://pure.mpg.de/rest/items/item_2622015/component/file_2639730/content",
+    "filename": "raw/jung_sabrina.pdf",
+    "accessed_utc": "2026-10-15T22:19:22.613858+00:00",
+    "status": 200,
+    "final_url": "https://pure.mpg.de/rest/items/item_2622015/component/file_2639730/content",
+    "content_type": "application/pdf; charset=UTF-8",
+    "bytes": 12235181,
+    "sha256": "1f9b2960feb8866dd2067cb39ac52e23b49cab73196b4d413089e74d105c3eb6",
+    "pdf_magic": true
+  },
+  {
+    "url": "https://ucrisportal.univie.ac.at/en/publications/synthesis-and-speciation-of-mixed-addenda-vanadium-substituted-po/",
+    "filename": "raw/vienna2018.html",
+    "accessed_utc": "2026-10-15T22:21:03.051446+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://pubs.rsc.org/en/content/articlepdf/1991/dt/dt9910001799",
+    "filename": "raw/howarth1991.response",
+    "accessed_utc": "2026-10-15T22:21:03.051748+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ucrisportal.univie.ac.at/en/publications/synthesis-and-speciation-of-mixed-addenda-vanadium-substituted-po/",
+    "method": "web.open",
+    "result": "Primary institutional abstract retrieved; no downloadable spectrum or Mo36 identity data",
+    "raw_file": null
+  },
+  {
+    "url": "https://pubs.rsc.org/en/content/articlepdf/1991/dt/dt9910001799",
+    "method": "web.open",
+    "result": "Not accessible through web tool; full article not retrieved"
+  }
+]

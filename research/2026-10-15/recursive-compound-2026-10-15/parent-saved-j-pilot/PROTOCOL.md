@@ -1,0 +1,43 @@
+# Bounded parent SCF with one saved Coulomb handoff
+
+This is an unprepared implementation for independent review. The published incomplete draft and root status are retained verbatim in `history/f5c945a-incomplete/`. Implementation tests are synthetic; they do not qualify parent convergence or memory feasibility. Preparation and scientific execution remain separate root actions after independent code and memory review.
+
+## Fixed scope and prerequisite evidence
+
+One child may execute one SCF for original P0_A: 196 atoms (Mo36 O128 H32), 3068 AOs, 1568 electrons, charge -8, spin zero, original admitted geometry and site mapping. Settings remain def2-svp/Mo def2-svp ECP, PBE, grid level 2, direct SCF cutoff 1e-13, convergence tolerances 1e-11 energy and 1e-7 gradient, and **max_cycle 20**. CPCM uses eps 78.4, Lebedev order 17, van der Waals scale 1.2, probe zero, unfrozen solvent and AO block 1. MemoryRI retains def2-universal-jkfit and the unchanged qualified implementation. No geometry optimization, alternative guess, tuning, direct parent oracle, or comparison arm is included.
+
+Preparation revalidates and pins the complete successful OpenMP runtime qualification (14 operator children and one gated small SCF), accepted first-J launch/result/supervisor/J digest, original parent pins and failed histories, and the successful small saved-J qualification. The latter requires matching independent child receipts, all numerical checks, launch gate and completed `INDEPENDENT_REVIEW.md` with clear approval. The saved-array independent audit script and JSON receipt are also pinned. Actual child acceptance and byte pins remain separate from prose review claims. The new independent root approval binds the entire preparation digest and exact saved-J qualification artifact map. `run.py`, `test_run.py`, `PROTOCOL.md`, unchanged supervisor, all scientific sources/native runtime files and provenance artifacts are frozen; later reports and STATUS do not alter the executable pin set.
+
+The NPY proof binds the accepted first-J `J_sha256` to `J.npy`, original `partial.npz` file hash, scalar integer cycle zero, exact row-streamed density digest, input geometry hash and full method settings. Preparation may load only that saved density to compute its digest; it builds no molecule and performs no operator. Every worker checks actual imported runtime inventory/interpreter against the qualified manifest, actual OpenMP 4, OMP_DYNAMIC FALSE and all BLAS thread controls 1 before setup. Geometry/dimensions, live method, auxiliary basis and handoff molecule/basis/environment/request guards remain mandatory. Output containment and exclusive run directory/worker claim prevent accidental original writes or retries.
+
+## Single-use lifetime and bounds
+
+The same immutable original cycle-zero ndarray is passed directly as `kernel(dm0=density)`. No second density snapshot or regenerated guess is retained. The unchanged qualified handoff streams the saved-file digest and lazily performs ordinary `np.load(..., allow_pickle=False)` at the first exact-density J-only request. The resulting owned writable J is independent of its source file; no mmap or extra full J copy is introduced. Handoff references clear immediately after consumption. The initial returned J remains owned by native `vhf.vj`; initial PBE effective-potential addition modifies `vxc`, while later incremental logic may mutate newly returned J. Every later J delegates unchanged MemoryRI; the cache hit is counted separately from `_rij_calls`.
+
+The existing supervisor allows **1800 seconds total child wall time**, including setup, initial potential, SCF, checkpoint I/O and final validation, and **10 GiB sampled RSS** at the unchanged sampling interval. There is one attempt, no retry, and no budget extension. OMP 4/BLAS 1 constrain thread concurrency; this is not a separate CPU-time enforcement mechanism. The timeout is a censoring bound, not a runtime prediction. Sampled RSS is not an OS memory reservation or certified peak.
+
+The earlier allocation sum plus one J is **10,698,107,392 bytes**, leaving **39,310,848 bytes** below the guard. This arithmetic is not a memory guarantee: native scratch, allocator behavior, grid data, gradient temporaries and serialization buffers are uncertified. NPZ checkpoint serialization uses the unchanged NumPy sequential array writer; callback references are passed directly without a full density/Fock copy, but serialization is not allocation-free. The original density remains retained by kernel/worker references. The one existing overlap matrix is retained from `pre_kernel` and reused for final validation rather than recomputed.
+
+## Stages and durable states
+
+Entry/return records distinguish initial `get_veff`, PCM build/potential, native J, PCM/RI factor creation, kernel and final residual. `pre_kernel` runs after the initial potential/energy and verifies exactly one saved hit, zero native calls, built PCM and absent RI metric, finite solvent contribution, and a finite recorded initial electron trace. The saved initial MINAO density is not normalized or rejected for lacking the final electron count; the electron-count threshold applies to the final validated SCF density. The first native fallback must encounter PCM already present and RI absent.
+
+Stage-aware storage checks verify no S/ERI/three-index tensors; each present factor is finite, immutable Fortran and aliases its factorization input, with stable identity across reuse. Shapes match actual surface/auxiliary dimensions and the original parent dimensions: 9284-square PCM and 19612-square RI. Both factors must be present for final acceptance.
+
+Every ordinary callback writes `latest-complete-cycle.npz` through a temporary file, flush/fsync and atomic replace. It contains density, MO coefficients/occupations, overlap, existing full solvent-aware Fock, cycle `env['cycle']+1`, energy, electron trace and **full unscaled** orbital-gradient norm computed by `mf.get_grad(coeff, occ, existing_fock)`. Callback recording calls no J, get_veff or get_fock. Old complete output remains valid if writing/replacement fails or the child is killed during the new write. No array history is retained.
+
+PySCF's native extra convergence-check cycle may update final state without an ordinary callback. `post_kernel` separately writes `native-final-state.npz` from final native locals, with the same existing-Fock gradient and a distinct kind. Its cycle denotes ordinary iteration count, not an invented extra iteration. This state is preserved even if the native extra check changes convergence to false. The ordinary callback checkpoint remains separately identifiable.
+
+Only a native converged return permits one fresh full-Fock residual evaluation on final density. It reuses overlap and saves `final-validated-state.npz`. Acceptance requires native convergence, finite total energy, electron-trace error strictly below 1e-6, full unscaled solvent-aware gradient strictly below 1e-5, both-factor storage contracts, exactly one saved hit/native fallback, unchanged initial density and all pins/runtime guards. Timing out during residual, checkpoint writing or gate verification remains incomplete, even if native convergence had been recorded. Nonconvergence skips fresh residual entirely.
+
+Terminal launcher output preserves the supervisor receipt, available evidence digests and errors even when a child result is malformed/unreadable or evidence hashing fails. PASS additionally requires the complete expected check set and all required nonempty artifacts, including ordinary, native-final and fresh-final checkpoints. Missing evidence cannot pass. This driver makes no fresh holdout, whole-SCF speedup, physical admission, geometric minimum, orbital stability or full-parent oracle claim.
+
+## Review workflow and evidence
+
+Synthetic verification command (no real preparation or scientific execution):
+
+```sh
+recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python -B recursive-compound-2026-10-15/parent-saved-j-pilot/test_run.py -v
+```
+
+Tests use temporary directories, small fabricated matrices and fake supervisors. The implementation evidence folder records exact command output and source hashes. Root may prepare with the qualified interpreter only after independent implementation review, then author a separate `independent-root-review.json` with status `APPROVED_ONE_PARENT_SAVED_J_PILOT`, independent reviewer identity, exact preparation SHA256 and qualification artifact map. Only subsequent explicit root launch uses `--launch`. No preparation or launch is included in the implementation task.

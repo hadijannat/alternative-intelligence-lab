@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import build_archive as archive
 from export_followup import LABS, exclusion, export, strip_signed_urls
-from verify_followup import verify_memory_followup, verify_openmp_renewal
+from verify_followup import verify_memory_followup, verify_openmp_renewal, verify_parent_pilot_source_bindings
 
 
 class PublicationSelection(unittest.TestCase):
@@ -240,7 +240,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'renewal/receiver-function-audit', 'identity/mixed-addenda-source-audit',
                        'parent-openmp-qualification', 'parent-openmp-qualification-v2',
                        'parent-openmp-first-j', 'parent-openmp-first-j-v2', 'parent-saved-j-qualification',
-                       'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup'):
+                       'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup',
+                       'identity/vanadium-incorporation-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.py', '.md', '.csv'):
@@ -284,8 +285,21 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('identity/moussawi-occupancy-followup/evidence.json', 'nominal_target_verified', True),
             ('identity/moussawi-occupancy-followup/evidence.json', ('exact_missing_fields', 'refined_site_occupancy'), 1),
             ('parent-saved-j-pilot/STATUS.json', 'status', 'QUALIFIED'),
-            ('parent-saved-j-pilot/STATUS.json', 'execution_clearance', True),
+            ('parent-saved-j-pilot/STATUS.json', 'execution_clearance', False),
             ('parent-saved-j-pilot/STATUS.json', 'unit_tests_run', 1),
+            ('parent-saved-j-pilot/STATUS.json', 'SCFs_launched', 1),
+            ('parent-saved-j-pilot/STATUS.json', 'physical_admission', True),
+            ('parent-saved-j-pilot/preparation.json', 'wall_cap_seconds', 3600),
+            ('parent-saved-j-pilot/preparation.json', 'maximum_SCFs', 2),
+            ('parent-saved-j-pilot/preparation.json', ('proof', 'method', 'max_cycle'), 40),
+            ('parent-saved-j-pilot/independent-root-review.json', 'preparation_sha256', '0' * 64),
+            ('parent-saved-j-pilot/history/f5c945a-incomplete/STATUS.json', 'prepared', True),
+            ('identity/vanadium-incorporation-followup/evidence.json', 'exact_target_verified', True),
+            ('identity/vanadium-incorporation-followup/evidence.json',
+             ('primary_constraint', 'matrix', 'pH_conflicting_reports'), []),
+            ('identity/vanadium-incorporation-followup/evidence.json', ('primary_constraint', 'matrix', 'pH'), 2.8),
+            ('identity/vanadium-incorporation-followup/evidence.json',
+             ('existing_evidence_reclassification', 'measured_vv_site'), True),
             ('identity/mixed-addenda-source-audit/evidence.json', 'exact_target_established', True),
             ('identity/mixed-addenda-source-audit/evidence.json',
              ('source_findings', 0, 'refined_w_occupancy'), 1),
@@ -345,14 +359,29 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for path, data in zip(paths, originals):
             path.write_bytes(data)
 
-    def test_prepared_or_launched_draft_is_rejected(self):
-        for name in ('preparation.json', 'independent-root-review.json', 'run-v1'):
+    def test_launched_pilot_or_rewritten_draft_is_rejected(self):
+        for name in ('run-v1', 'history/f5c945a-incomplete/preparation.json',
+                     'history/f5c945a-incomplete/run-v1'):
             with self.subTest(name=name):
                 path = self.recursive / 'parent-saved-j-pilot' / name
                 path.write_text('{}')
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)
                 path.unlink()
+
+    def test_original_source_pin_bindings_are_required(self):
+        manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
+        records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
+        verify_parent_pilot_source_bindings(records)
+        for suffix in ('parent-saved-j-pilot/preparation.json', 'parent-saved-j-pilot/independent-root-review.json',
+                       'history/f5c945a-incomplete/run.py', 'history/f5c945a-incomplete/STATUS.json'):
+            with self.subTest(suffix=suffix):
+                record = next(record for record in records if record['path'].endswith(suffix))
+                original = record['source_sha256']
+                record['source_sha256'] = '0' * 64
+                with self.assertRaises(AssertionError):
+                    verify_parent_pilot_source_bindings(records)
+                record['source_sha256'] = original
 
     def test_consistently_promoted_first_j_worker_is_rejected(self):
         run = self.recursive / 'parent-openmp-first-j-v2/run-v1'
