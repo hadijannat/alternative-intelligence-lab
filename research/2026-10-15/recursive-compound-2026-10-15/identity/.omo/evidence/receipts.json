@@ -1,0 +1,30 @@
+[
+  {
+    "argv": [
+      "python3",
+      "recursive-compound-2026-10-15/identity/extract.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"source\": \"noncarbon-discovery-2026-10-15/research/structure/raw/cod2107026.cif\",\n  \"sha256\": \"9a2275df1f08e8160b95d7139356e4b790d57ee97caafff321c0c4d7846be799\",\n  \"parser_sha256\": \"60f1f0850201305a6d02aa6b115d4b63474de09df1ba93c918da5b90a736b779\",\n  \"result\": {\n    \"cutoff_A\": 2.6,\n    \"counts\": {\n      \"Mo\": 36,\n      \"O\": 128\n    },\n    \"connected\": true,\n    \"periodic_cycle_consistent\": true,\n    \"partial_occupancy_selected\": [],\n    \"minimum_pair_distance_A\": 1.664453262001066,\n    \"Mo_coordination_histogram\": {\n      \"6\": 32,\n      \"7\": 4\n    },\n    \"source_partial_occupancy_rows\": [\n      \"O78\",\n      \"O76\",\n      \"O91\",\n      \"O84\",\n      \"K10\",\n      \"O86\",\n      \"K9\",\n      \"K8\",\n      \"O77\",\n      \"O81\",\n      \"O75\",\n      \"O83\",\n      \"K4\",\n      \"O95\",\n      \"K3\",\n      \"O80\",\n      \"O93\",\n      \"O94\",\n      \"O74\",\n      \"O92\",\n      \"K2\",\n      \"O90\",\n      \"O88\",\n      \"K5\",\n      \"O85\",\n      \"O87\",\n      \"O73\",\n      \"K6\",\n      \"O82\",\n      \"O89\",\n      \"K7\",\n      \"O79\",\n      \"O72\"\n    ]\n  },\n  \"cutoff_sensitivity\": [\n    {\n      \"cutoff_A\": 2.5,\n      \"counts\": {\n        \"Mo\": 36,\n        \"O\": 128\n      },\n      \"connected\": true,\n      \"periodic_cycle_consistent\": true,\n      \"partial_occupancy_selected\": [],\n      \"minimum_pair_distance_A\": 1.664453262001066,\n      \"Mo_coordination_histogram\": {\n        \"6\": 32,\n        \"7\": 4\n      },\n      \"source_partial_occupancy_rows\": [\n        \"O78\",\n        \"O76\",\n        \"O91\",\n        \"O84\",\n        \"K10\",\n        \"O86\",\n        \"K9\",\n        \"K8\",\n        \"O77\",\n        \"O81\",\n        \"O75\",\n        \"O83\",\n        \"K4\",\n        \"O95\",\n        \"K3\",\n        \"O80\",\n        \"O93\",\n        \"O94\",\n        \"O74\",\n        \"O92\",\n        \"K2\",\n        \"O90\",\n        \"O88\",\n        \"K5\",\n        \"O85\",\n        \"O87\",\n        \"O73\",\n        \"K6\",\n        \"O82\",\n        \"O89\",\n        \"K7\",\n        \"O79\",\n        \"O72\"\n      ]\n    },\n    {\n      \"cutoff_A\": 2.7,\n      \"counts\": {\n        \"Mo\": 36,\n        \"O\": 128\n      },\n      \"connected\": true,\n      \"periodic_cycle_consistent\": true,\n      \"partial_occupancy_selected\": [],\n      \"minimum_pair_distance_A\": 1.664453262001066,\n      \"Mo_coordination_histogram\": {\n        \"6\": 32,\n        \"7\": 4\n      },\n      \"source_partial_occupancy_rows\": [\n        \"O78\",\n        \"O76\",\n        \"O91\",\n        \"O84\",\n        \"K10\",\n        \"O86\",\n        \"K9\",\n        \"K8\",\n        \"O77\",\n        \"O81\",\n        \"O75\",\n        \"O83\",\n        \"K4\",\n        \"O95\",\n        \"K3\",\n        \"O80\",\n        \"O93\",\n        \"O94\",\n        \"O74\",\n        \"O92\",\n        \"K2\",\n        \"O90\",\n        \"O88\",\n        \"K5\",\n        \"O85\",\n        \"O87\",\n        \"O73\",\n        \"K6\",\n        \"O82\",\n        \"O89\",\n        \"K7\",\n        \"O79\",\n        \"O72\"\n      ]\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "recursive-compound-2026-10-15/identity/check.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"checks_pass\": true,\n  \"checks\": [\n    \"source hash\",\n    \"164 counts\",\n    \"full occupancy\",\n    \"unique site map\",\n    \"two copies O1-O64/Mo1-Mo18\",\n    \"XYZ serialization\",\n    \"independent Cartesian connectivity\",\n    \"Mo coordination\",\n    \"no short pair\",\n    \"cutoff invariance\"\n  ],\n  \"negative_control\": {\n    \"cutoff_A\": 2.0,\n    \"counts\": {\n      \"Mo\": 4,\n      \"O\": 11\n    },\n    \"full_parent_rejected\": true\n  },\n  \"aqua_candidates_inferred_only\": [\n    \"O57@0\",\n    \"O57@2\",\n    \"O58@0\",\n    \"O58@2\",\n    \"O59@0\",\n    \"O59@2\",\n    \"O60@0\",\n    \"O60@2\",\n    \"O61@0\",\n    \"O61@2\",\n    \"O62@0\",\n    \"O62@2\",\n    \"O63@0\",\n    \"O63@2\",\n    \"O64@0\",\n    \"O64@2\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "recursive-compound-2026-10-15/identity/runtime_check.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"python\": \"3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]\",\n  \"pyscf\": \"2.14.0\",\n  \"scf_run\": false,\n  \"builds\": {\n    \"Mo\": {\n      \"nao\": 31,\n      \"explicit_electrons\": 14,\n      \"ecp_core_electrons\": 28\n    },\n    \"W\": {\n      \"nao\": 32,\n      \"explicit_electrons\": 14,\n      \"ecp_core_electrons\": 60\n    },\n    \"V\": {\n      \"nao\": 31,\n      \"explicit_electrons\": 23,\n      \"ecp_core_electrons\": 0\n    }\n  }\n}\n",
+    "stderr": ""
+  }
+]

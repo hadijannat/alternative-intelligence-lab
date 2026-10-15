@@ -1,0 +1,43 @@
+{
+  "status": "PASS_BOUNDED_ARITHMETIC",
+  "ceria_nine_cycle_power_sums_pass": true,
+  "ceria_cycle_efficiency_rounding_pass": true,
+  "ceria": [
+    {
+      "test": "1",
+      "output_HHV_J": "53.03",
+      "incident_energy_J": "535005",
+      "aggregate_efficiency_percent": "0.009912056896664517154045289296",
+      "reported_test_percent": "0.025",
+      "reported_equals_sum_of_rounded_cycle_percent": true,
+      "incident_energy_per_HHV_J": "10088.72336413350933433905337"
+    },
+    {
+      "test": "2",
+      "output_HHV_J": "48.17",
+      "incident_energy_J": "419715",
+      "aggregate_efficiency_percent": "0.01147683547168912238066306899",
+      "reported_test_percent": "0.036",
+      "reported_equals_sum_of_rounded_cycle_percent": true,
+      "incident_energy_per_HHV_J": "8713.203238530205522109196595"
+    },
+    {
+      "test": "3",
+      "output_HHV_J": "60.36",
+      "incident_energy_J": "645435",
+      "aggregate_efficiency_percent": "0.009351832485068209811987264403",
+      "reported_test_percent": "0.028",
+      "reported_equals_sum_of_rounded_cycle_percent": true,
+      "incident_energy_per_HHV_J": "10693.09145129224652087475149"
+    }
+  ],
+  "pmo12": {
+    "charge_step_V": "1.71",
+    "discharge_step_V": "1.23",
+    "sum_equivalent_V": "2.94",
+    "direct_V": "2.55",
+    "relative_energy_efficiency": "0.8673469387755102040816326531",
+    "extra_energy_fraction": "0.152941176470588235294117647"
+  },
+  "limits": "Source-table arithmetic only. No raw sensor reanalysis, uncertainty interval, same-medium transfer, reaction rate, or organism prediction."
+}

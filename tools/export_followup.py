@@ -12,10 +12,16 @@ from urllib.parse import parse_qsl
 import build_archive as archive
 import curate_archive as curator
 
+archive.TEXT.add('.xyz')
+
 LABS = tuple(name + '-2026-10-15' for name in (
     'alternative-entity-lab', 'measured-coupling', 'noncarbon-discovery',
     'rna-coupled-chemistry', 'rna-inheritance-design', 'rna-mechanism',
-    'rna-reaction-tests', 'rna-seed-transport', 'rna-turnover-tests'))
+    'rna-reaction-tests', 'rna-seed-transport', 'rna-turnover-tests',
+    'recursive-compound'))
+COORDINATES = {'recursive-compound-2026-10-15/' + name for name in (
+    'identity/parent_heavy.xyz', 'parent-inputs/P0_A.xyz', 'parent-inputs/P0_B.xyz',
+    'parent-inputs/PT57_A.xyz', 'parent-inputs/PT57_B.xyz')}
 DERIVED = {'observations.csv', 'conditions.json', 'normalised.csv', 'normalized.csv'}
 RAW_METADATA = {'acquisition.json', 'download_log.json', 'manifest.json'}
 AUTHORED_SOURCE_NAMES = {
@@ -45,6 +51,8 @@ def strip_signed_urls(text):
 def exclusion(rel, directory=False):
     parts = tuple(part.lower() for part in rel.parts)
     name = rel.name.lower()
+    if rel.suffix.lower() == '.xyz' and rel.as_posix() not in COORDINATES:
+        return 'coordinate file outside the authored parent-input scope'
     if any(part in {'author', 'source-extract', 'source_extract', 'downloads',
                     'screenshots', '.codex'} for part in parts):
         return 'third-party acquisition or private orchestration subtree'

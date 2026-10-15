@@ -1,0 +1,23 @@
+{
+  "status": "UNGENERATED_HYPOTHETICAL_INPUTS_ONLY",
+  "source_assignment_recovered": false,
+  "hydrogens_generated": false,
+  "coordinates_admitted": false,
+  "parent_alternatives": [
+    {"id": "P0", "formula": "Mo36O112(H2O)16", "H": 32, "charge": -8, "assignment": "O57-O64 plus inversion copies treated as water, provisional"},
+    {"id": "PT57", "formula": "Mo36O111(OH)2(H2O)15", "H": 32, "charge": -8, "assignment": "One proton moved from O57@0 to O4@0; no inversion constraint", "donor_acceptor_distance_A": 2.575820285876855},
+    {"id": "PplusH", "formula": "Mo36O111(OH)(H2O)16", "H": 33, "charge": -7, "assignment": "One external proton added to framework O; site unresolved; proton reservoir required"},
+    {"id": "PminusH", "formula": "Mo36O112(OH)(H2O)15", "H": 31, "charge": -9, "assignment": "One water proton removed; site unresolved; proton reservoir required"}
+  ],
+  "nominal_target": {"base_H": 32, "base_charge": -9, "proton_added_H": 33, "proton_added_charge": -8, "proton_removed_H": 31, "proton_removed_charge": -10, "reduced_fixed_H_charge": -10, "warning": "Target H31 charge -10 and target H32 charge -10 are different compositions and electron counts; proton removal is not one-electron reduction."},
+  "next_comparison": {
+    "question": "Does transferring one proton from provisional coordinated water O57@0 to framework O4@0 lower the parent fixed-heavy-atom electronic energy under the same chosen environment?",
+    "arms": ["P0", "PT57"],
+    "matched": ["Mo36O128H32", "charge -8", "same 164 deposited heavy-atom coordinates", "same functional/basis/environment", "no imposed inversion symmetry"],
+    "proposed_method_not_executed": "Parent PBE/def2-SVP with Mo def2 ECP, RKS spin 0 trial, water continuum epsilon 78.4, direct integral evaluation; use two independently specified water-orientation starts per arm and relax H only before comparison.",
+    "interpretation": "Energy difference is conditional on H basins, frozen heavy atoms, functional, finite basis and chosen continuum. It is not a proton-transfer free energy, barrier, pKa, solution speciation or target stability.",
+    "preconditions": ["Explicitly label 32 H as model-built; record geometry construction and reject clashes", "Verify primary water assignment or explicitly retain provisional assignment in every artifact", "Qualify solvent and direct-SCF setup on a small reference before parent use", "Record convergence and orbital stability; retain nonconvergence and geometry failures"],
+    "pilot_limits_proposed": {"parent_calculations_now": 0, "future_initial_SCF_cycle_cap": 20, "future_initial_wall_time_cap_seconds": 900, "future_PySCF_memory_hint_MB": 8000, "OS_memory_cap_enforced": false},
+    "pilot_stop": "A capped unconverged pilot provides only measured performance and failure diagnostics; do not proceed automatically to four H relaxations or compare unconverged energies. Re-budget only from actual pilot throughput and memory."
+  }
+}

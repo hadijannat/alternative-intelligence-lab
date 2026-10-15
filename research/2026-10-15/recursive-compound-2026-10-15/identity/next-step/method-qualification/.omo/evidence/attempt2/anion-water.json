@@ -1,0 +1,84 @@
+{
+  "case": "anion-water",
+  "geometry_kind": "EXPLICITLY_HYPOTHETICAL_FIXED_GEOMETRY_NOT_EXPERIMENT",
+  "atoms_A": [
+    [
+      "Mo",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "O",
+      [
+        1.0103629710818451,
+        1.0103629710818451,
+        1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        1.0103629710818451,
+        -1.0103629710818451,
+        -1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        -1.0103629710818451,
+        1.0103629710818451,
+        -1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        -1.0103629710818451,
+        -1.0103629710818451,
+        1.0103629710818451
+      ]
+    ]
+  ],
+  "charge": -2,
+  "spin_2S": 0,
+  "Mo_formal_oxidation_assumption": 6,
+  "explicit_electrons": 48,
+  "ecp_core": 28,
+  "nao": 87,
+  "pyscf": "2.14.0",
+  "converged": true,
+  "cycles": 16,
+  "energy_Eh": -369.0689189749584,
+  "orbital_gradient_norm": 0.03550068598115339,
+  "electron_trace": 48.0,
+  "wall_seconds": 7.3750571249984205,
+  "direct_JK_bound_to": "pyscf.scf.hf.SCF.get_jk",
+  "cached_four_center_ERI": false,
+  "direct_optimizer_created": true,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "method": "PBE/def2-SVP; Mo def2 ECP",
+  "grid_level": 2,
+  "PCM": {
+    "api": "pyscf.solvent.PCM(mf)",
+    "method": "C-PCM",
+    "eps": 78.4,
+    "lebedev_order": 17,
+    "vdw_scale": 1.2,
+    "r_probe_A": 0.0,
+    "electrostatic_energy_Eh": -0.3461348096257064,
+    "surface_points": 386,
+    "Mo_default_modified_Bondi_bohr": 3.779450359403999,
+    "source_file": "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/solvent/pcm.py",
+    "source_sha256": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed"
+  }
+}

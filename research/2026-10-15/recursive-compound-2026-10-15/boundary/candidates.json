@@ -1,0 +1,106 @@
+[
+  {
+    "id": "B1",
+    "order": 1,
+    "material": "Unmodified porous SiO2",
+    "missing_function": "Selective confinement plus active-cluster preservation plus renewal",
+    "actual_finding": "Acidic supported-molybdena chemistry can produce silicomolybdate; closest Mo36-supported catalyst uses an organic amine and nitrosyl derivative.",
+    "sources": [
+      "S1",
+      "S2",
+      "S8"
+    ],
+    "limits": [
+      "No exact parent Mo36 permeation/seed-activity/renewal measurement found.",
+      "Silica morphology and surface potential in target medium remain unspecified.",
+      "Silicomolybdate formation in catalyst preparation is a hazard lead, not measured destruction of Mo36 at pH 1.7."
+    ],
+    "disposition": "RETAIN_AS_FIRST_MEASUREMENT_BASELINE; NOT_VERIFIED_COMPLEMENT",
+    "next_alternative": "B2: compare unfunctionalized ZrO2 if silica changes cluster identity or leaks active material.",
+    "carbon_status": "SiO2 itself carbon-free; organic-grafted silica evidence excluded",
+    "verified_complement": false
+  },
+  {
+    "id": "B2",
+    "order": 2,
+    "material": "Unfunctionalized monoclinic ZrO2",
+    "missing_function": "Intact-cluster reversible retention and selective flux",
+    "actual_finding": "Quantified Mo uptake in strong nitric acid supplies an inventory check and comparator, not Mo36 retention.",
+    "sources": [
+      "S3",
+      "S8"
+    ],
+    "limits": [
+      "Nitric-acid condition differs from parent chloride medium.",
+      "Langmuir capacity is fitted and cannot be applied to a smaller-feed run.",
+      "Molecular species and seed activity unresolved; porous enclosure and renewal unmeasured."
+    ],
+    "disposition": "UNVERIFIED_OXIDE_ALTERNATIVE",
+    "next_alternative": "B3: unfunctionalized TiO2 if ZrO2 sequesters inactive species or fails flux.",
+    "carbon_status": "Final oxide carbon-free in formula; source preparation includes organic precursor/solvent and does not prove autonomous carbon-free synthesis",
+    "verified_complement": false
+  },
+  {
+    "id": "B3",
+    "order": 3,
+    "material": "Unfunctionalized TiO2 porous support",
+    "missing_function": "Reversible active confinement without surface conversion",
+    "actual_finding": "Primary titania studies show pH-dependent molybdate adsorption followed by structurally different calcined oxide layers.",
+    "sources": [
+      "S4",
+      "S8"
+    ],
+    "limits": [
+      "Mo7 or Mo1 precursors, not verified parent Mo36.",
+      "Thermal catalyst characterization does not prove ambient aqueous destruction or preservation.",
+      "No transport, renewal, or preserved autocatalysis measurements."
+    ],
+    "disposition": "UNVERIFIED_SURFACE_REACTIVITY_COMPARATOR",
+    "next_alternative": "B4: preformed goethite to test whether stronger binding preserves activity.",
+    "carbon_status": "Unmodified TiO2 carbon-free; organic catalytic assay not an inorganic maintenance demonstration",
+    "verified_complement": false
+  },
+  {
+    "id": "B4",
+    "order": 4,
+    "material": "Preformed alpha-FeOOH (goethite)",
+    "missing_function": "Active retention compatible with acidity and wall turnover",
+    "actual_finding": "Quantitative adsorption and surface-speciation evidence supports molybdate capture, with strong pH dependence.",
+    "sources": [
+      "S5",
+      "S6",
+      "S8"
+    ],
+    "limits": [
+      "Published dilute pH 3-10 domain does not qualify concentrated Mo36 near pH 1.7.",
+      "Aged goethite and freshly precipitated mixed hydroxide membranes are distinct phases.",
+      "A fitted adsorption model cannot establish active cluster identity, permeability or renewal."
+    ],
+    "disposition": "UNVERIFIED_BINDING_AND_SINK_COMPARATOR",
+    "next_alternative": "B5: FeS-containing precipitation membrane only if carbon-free-feed boundary renewal warrants its added redox/speciation risks.",
+    "carbon_status": "Preformed phase and tested inorganic electrolytes carbon-free; no self-production demonstrated",
+    "verified_complement": false
+  },
+  {
+    "id": "B5",
+    "order": 5,
+    "material": "Inorganic-feed Fe hydroxide/sulfide precipitation membrane; phase-resolved FeS comparator",
+    "missing_function": "Renewal while preserving acidic Mo36 pool and selective exchange",
+    "actual_finding": "Inorganic feeds form electrical membranes separately; primary Mo-sulfide capture work retains elemental Mo while reducing it.",
+    "sources": [
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "limits": [
+      "Chemical-garden membrane is not proven pure FeS.",
+      "Mo capture study uses MES and tetrathiomolybdate at a different pH.",
+      "No shared-medium joint function; proton and sulfide exchange may alter both phases.",
+      "Neither electrical maxima nor fresh precipitation establishes function-restoring renewal."
+    ],
+    "disposition": "DEPRIORITIZE_DIRECT_CONTACT; KEEP_SEPARATE_BOUNDARY_CONTROL",
+    "next_alternative": "Return to B1/B2 in a measured separated-interface test. No sixth material is promoted without evidence; if all fail, record boundary function unresolved.",
+    "carbon_status": "Specific garden feed row organic-free; MES-buffered Mo capture retained only as failure-mechanism comparator",
+    "verified_complement": false
+  }
+]

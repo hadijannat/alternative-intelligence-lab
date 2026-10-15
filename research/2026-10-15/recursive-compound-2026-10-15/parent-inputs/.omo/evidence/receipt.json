@@ -1,0 +1,39 @@
+{
+  "invocation": "/USER_HOME/.pyenv/versions/3.12.3/bin/python3 recursive-compound-2026-10-15/parent-inputs/build.py",
+  "exit_code": 0,
+  "deterministic_rerun_sha256": {
+    "P0_A.xyz": "78ead701c4b42ff27a834e5121e3780b6456ba15b24693fb207990f0a5e4b536",
+    "P0_B.xyz": "15b9060b70f262c89867a118d98fe6bb61583ab2ea16a59b113ae681ebe20a67",
+    "PT57_A.xyz": "b08b3b4e0322243814b48ff24abdd67075f508d7eb22699abb7a354c169fc302",
+    "PT57_B.xyz": "2b1a489161e3a2e22cb57e834937ae1a3c7f3278ac5a65f3ac248ce7c38156e8",
+    "metadata.json": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
+    "checks.json": "023e7b7d54c9022008b8e9a8d04d44324de61c6934b2580f46e5b28263f7b3af"
+  },
+  "criteria": [
+    {
+      "scenario": "all four hypothetical candidates",
+      "observable": "4 PASS_COMPUTATIONAL_INPUT_ONLY; 32 H, exact heavy mapping, ownership, own geometry and zero diagnostic clashes",
+      "artifact": "checks.json"
+    },
+    {
+      "scenario": "per-water unordered H start comparison",
+      "observable": "every double-protonated owner Hausdorff >0.1 Angstrom",
+      "artifact": "checks.json"
+    },
+    {
+      "scenario": "ten malformed-input controls",
+      "observable": "each rejected for its required failure or clash category",
+      "artifact": "checks.json"
+    },
+    {
+      "scenario": "serialization and source immutability",
+      "observable": "heavy XYZ float roundtrip exact; four source hashes unchanged",
+      "artifact": "checks.json"
+    },
+    {
+      "scenario": "deterministic rebuild",
+      "observable": "six output files SHA256 identical on second full invocation",
+      "artifact": ".omo/evidence/receipt.json"
+    }
+  ]
+}

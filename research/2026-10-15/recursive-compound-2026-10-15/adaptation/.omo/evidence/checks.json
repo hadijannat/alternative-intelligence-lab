@@ -1,0 +1,66 @@
+{
+  "counterion": {
+    "scenario": "Replay existing conditional conservation model without editing it",
+    "invocation": [
+      "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+      "PROJECT_ROOT/discovery-loop/experiments/manganese-mo36-counterion-transport-v1/runner.py"
+    ],
+    "exit_code": 0,
+    "observable": {
+      "case_count": 24,
+      "voltage_decomposition_count": 72,
+      "all_assertions_passed": true,
+      "direct_vs_sum_tolerance_J_per_mol": "1E-25",
+      "maximum_absolute_direct_vs_sum_difference_J_per_mol": "6E-46",
+      "maximum_64H_scaling_difference_J_per_mol_cluster": "0",
+      "ordered_case_pair_signs": [
+        "positive",
+        "zero",
+        "positive",
+        "negative"
+      ]
+    },
+    "artifact": "PROJECT_ROOT/recursive-compound-2026-10-15/adaptation/.omo/evidence/counterion.stdout.json",
+    "code_sha256": "f0ad470a891d461196667691b1f36601067a66bf360745c957865ecfc3e0d8bf",
+    "physical_validation": false
+  },
+  "wo3_capacity": {
+    "scenario": "Replay existing conditional conservation model without editing it",
+    "invocation": [
+      "/USER_HOME/.pyenv/versions/3.12.3/bin/python3",
+      "PROJECT_ROOT/discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/runner.py"
+    ],
+    "exit_code": 0,
+    "observable": {
+      "initial_states": 63,
+      "repair_candidates": 252,
+      "feasible_repairs": 180,
+      "capacity_rejected_repairs": 72,
+      "partial_reverse_cases": 400,
+      "full_reversals_checked": 180,
+      "full_repair_initial_states": 36
+    },
+    "artifact": "PROJECT_ROOT/recursive-compound-2026-10-15/adaptation/.omo/evidence/wo3_capacity.stdout.json",
+    "code_sha256": "c9c03fa98d3e37534cc487a257ad5d38356688d2758a710d05cbf24197775a64",
+    "physical_validation": false
+  },
+  "ag2s_power_law": {
+    "scenario": "Evaluate published Eq.1 at reported conductance endpoints; audit SI-unit conversion",
+    "equation": "tau_fac_s=3.40e12*(G_final_S**4)",
+    "tau_s_by_conductance_S": {
+      "0.001": "3.40",
+      "0.0035": "510.212500"
+    },
+    "ratio": "150.0625",
+    "wrong_mS_as_S_factor": "1000000000000",
+    "observable": "source-model arithmetic and unit negative control passed",
+    "source": "https://doi.org/10.1038/srep39216",
+    "scope": "Published fit evaluation only. Not a retention measurement or held-out model validation; model V1 misses paired-pulse potentiation."
+  },
+  "dryad_replay": {
+    "scenario": "Download and replay public nonlinear analog learning measurements",
+    "observable": "NOT_EXECUTED_DOWNLOAD_BLOCKED",
+    "artifact": "PROJECT_ROOT/recursive-compound-2026-10-15/adaptation/raw/acquisition.json",
+    "success": false
+  }
+}

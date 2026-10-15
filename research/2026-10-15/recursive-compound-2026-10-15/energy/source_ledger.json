@@ -1,0 +1,144 @@
+{
+  "recorded_utc": "2026-10-15T17:33:25.204755+00:00",
+  "sources": [
+    {
+      "id": "Spencer2024",
+      "doi": "https://doi.org/10.1039/D4SC00102H",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10988594/fullTextXML",
+      "path": "noncarbon-discovery-2026-10-15/research/redox_compatibility/raw/spencer2024.xml",
+      "bytes": 167162,
+      "sha256": "f899e2903a3d7c418dc94e3e84ebde158d282086959c83399044e4ede73d7ad1",
+      "scope": "Read primary XML methods, occupancy and HER results; retained local original."
+    },
+    {
+      "id": "Chen2022",
+      "doi": "https://doi.org/10.1021/jacs.1c10584",
+      "url": "https://eprints.gla.ac.uk/268802/1/268802.pdf",
+      "path": "noncarbon-discovery-2026-10-15/research/pom/raw/chen2022.pdf",
+      "bytes": 6262722,
+      "sha256": "1eaf800df7921bbfec475500549f9d1bd47ba1fce80722b60ed5ff086f705e77",
+      "scope": "Read retained primary text and figure captions; no fresh raw-electrochemistry dataset."
+    },
+    {
+      "id": "Miras2020",
+      "doi": "https://doi.org/10.1073/pnas.1921536117",
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Mathis-PNASMay2020.pdf",
+      "path": "noncarbon-discovery-2026-10-15/research/pom/raw/miras2020.pdf",
+      "bytes": 776935,
+      "sha256": "bff5ffb62f6aba2a98ea15032c3dae3f83442a8eff1b891fd8689ace992db8ce",
+      "scope": "Identity/common-medium reference; prior dossier cross-check; not target evidence."
+    },
+    {
+      "id": "Symes2013",
+      "doi": "https://doi.org/10.1038/nchem.1621",
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/251.SymesNatureChem_sDKDy5D.pdf",
+      "path": "recursive-compound-2026-10-15/energy/raw/symes2013.pdf",
+      "bytes": 587625,
+      "sha256": "cba5ee525fdfba67185b30180dae2b3ae201cb89e2bed40e66b42e831dd9d9a6",
+      "scope": "Fresh acquisition; source pp404\u2013405 benchmark arithmetic."
+    },
+    {
+      "id": "Arribas2018",
+      "doi": "https://doi.org/10.3390/en11092451",
+      "url": "https://mdpi-res.com/d_attachment/energies/energies-11-02451/article_deploy/energies-11-02451.pdf",
+      "path": "recursive-compound-2026-10-15/energy/raw/ceria2018.pdf",
+      "bytes": 26945027,
+      "sha256": "0582bbae2ac5ad74245cce46cb4a230930e42a5bdcebf51fe880d7280186aa79",
+      "scope": "Fresh acquisition; primary Tables2\u20133 visually inspected; reported central values, not raw traces."
+    },
+    {
+      "id": "Chueh2010SI",
+      "doi": "https://doi.org/10.1126/science.1197834",
+      "url": "https://authors.library.caltech.edu/records/1b3yx-yz883/files/Chueh.SOM.pdf?download=1",
+      "path": "recursive-compound-2026-10-15/energy/raw/chueh2010_si.pdf",
+      "bytes": 313509,
+      "sha256": "74e73b7eede00cd909139856662694cb7cfda2c2f27e0cdbcdeb3803e2fac3bd",
+      "scope": "Fresh acquisition; preparation carbon audit and efficiency boundary only."
+    },
+    {
+      "id": "E720_runner.py",
+      "url": null,
+      "path": "discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/runner.py",
+      "bytes": 10511,
+      "sha256": "c9c03fa98d3e37534cc487a257ad5d38356688d2758a710d05cbf24197775a64",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "E720_protocol.json",
+      "url": null,
+      "path": "discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/protocol.json",
+      "bytes": 5757,
+      "sha256": "8ec22e593c2bd8cd1359531d2e55c42bac4bd10c73a854a6cb8207fd5d5eaec5",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "E720_report.md",
+      "url": null,
+      "path": "discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/report.md",
+      "bytes": 3759,
+      "sha256": "13a9faf29721b26de944d1395ce1f19a9ad3574161a4535523b2f844217c15c0",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "E658_runner.py",
+      "url": null,
+      "path": "discovery-loop/experiments/manganese-mo36-counterion-transport-v1/runner.py",
+      "bytes": 8321,
+      "sha256": "f0ad470a891d461196667691b1f36601067a66bf360745c957865ecfc3e0d8bf",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "E658_protocol.json",
+      "url": null,
+      "path": "discovery-loop/experiments/manganese-mo36-counterion-transport-v1/protocol.json",
+      "bytes": 4999,
+      "sha256": "5bb53b5573a5f09c8ac8f2ee9679f75c5c8febf47bb7d47f7b31a80d75bf5b40",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "E658_report.md",
+      "url": null,
+      "path": "discovery-loop/experiments/manganese-mo36-counterion-transport-v1/report.md",
+      "bytes": 6446,
+      "sha256": "e20f9913da0ced3dcac1b63c6bdd629c802166c305eb3b6dd7be8306ce0267b0",
+      "scope": "Conditional prior calculation; inspected and runner replayed without edits."
+    },
+    {
+      "id": "prior_pom",
+      "url": null,
+      "path": "noncarbon-discovery-2026-10-15/research/pom/REPORT.md",
+      "bytes": 10105,
+      "sha256": "1eea543b54ae6f7136ddf8b6e8a810d8174104a9244cafb15b150a76c140077b",
+      "scope": "Prior dossier read as context; primary source claims checked separately."
+    },
+    {
+      "id": "prior_memory",
+      "url": null,
+      "path": "noncarbon-discovery-2026-10-15/research/memory/REPORT.md",
+      "bytes": 14690,
+      "sha256": "95f4c1b5afe2fc7122a10d73dd6c07c9f4a531ae41764b9822d89f1f94d09973",
+      "scope": "Prior dossier read as context; primary source claims checked separately."
+    },
+    {
+      "id": "prior_redox_compatibility",
+      "url": null,
+      "path": "noncarbon-discovery-2026-10-15/research/redox_compatibility/REPORT.md",
+      "bytes": 8967,
+      "sha256": "44f1797d5f9dd2f977e124d5dce92cf04e18bb964d812a0007db00be9f161278",
+      "scope": "Prior dossier read as context; primary source claims checked separately."
+    },
+    {
+      "id": "prior_prior_repo_audit",
+      "url": null,
+      "path": "noncarbon-discovery-2026-10-15/research/prior_repo_audit/REPORT.md",
+      "bytes": 9591,
+      "sha256": "823c806c18f674170e81fb5500dd762e90db332a096c73cf17599c8f101c364d",
+      "scope": "Prior dossier read as context; primary source claims checked separately."
+    }
+  ],
+  "failed_web_access": [
+    "MDPI landing page returned429; primary PDF acquired through mdpi-res",
+    "Caltech web redirect failed; direct urllib retrieval succeeded"
+  ],
+  "acquisition_receipt": "raw/acquisition.json"
+}

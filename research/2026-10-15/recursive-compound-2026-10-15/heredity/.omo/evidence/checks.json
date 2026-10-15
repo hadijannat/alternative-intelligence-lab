@@ -1,0 +1,60 @@
+{
+  "status": "PASS_SCOPED_ACCOUNTING_ONLY",
+  "invocation": "python3 recursive-compound-2026-10-15/heredity/check.py",
+  "scenarios": {
+    "cha_primary_table": {
+      "rows": 8,
+      "endpoint_micropore_volume_cm3_g": 0.24
+    },
+    "cha_unchanged_founder_capacity_rival": {
+      "assumptions": [
+        "approximately reported seed specific capacity is used as an exact arithmetic point",
+        "recovered founder mass F <= final mass M",
+        "unchanged original-founder specific capacity",
+        "additive mass-weighted accessible micropore capacity"
+      ],
+      "capacity_ratio": 240.0,
+      "unchanged_founder_max_fraction": 0.004166666666666667,
+      "altered_or_new_capacity_min_fraction": 0.9958333333333333,
+      "exact_min_fraction": "239/240",
+      "empirical_confidence_interval": null,
+      "new_material_inheritance_demonstrated": false,
+      "rival_not_excluded": "Ion exchange can change old founder accessibility; no isotope partition or serial functional assay."
+    },
+    "chlorate_existing_trials": {
+      "n": 13,
+      "positive_opposite_mass_trials": 11,
+      "sum_opposite_mass_g": 11.1737347,
+      "single_pass_not_generation_error_probability": true,
+      "founder_bound_measured": false
+    },
+    "pmo12_recipe_discrepancy": {
+      "main_nominal_HClO4_M": 2.0,
+      "si_nominal_HCl_M": 0.03,
+      "ratio": 66.66666666666667,
+      "exact_ratio": "200/3",
+      "conditions_identical": false
+    },
+    "founder_contribution_controls": {
+      "valid_cases": 6,
+      "invalid_cases_rejected": [
+        "negative founder",
+        "founder exceeds product",
+        "zero total mass",
+        "negative total mass",
+        "negative seed capacity",
+        "zero product capacity",
+        "negative product capacity",
+        "wrong mass unit",
+        "wrong capacity unit",
+        "unparsed capacity",
+        "nonfinite capacity"
+      ],
+      "prior_limitation": "Previous two literal Fraction identities did not exercise a calculation function; replaced with direct function calls and domain/unit rejection tests.",
+      "unit_limit": "Unit labels are validated; incorrectly labelled physical measurements cannot be detected."
+    }
+  },
+  "verified_joint_additions": 0,
+  "functional_inheritance_verified": false,
+  "intelligent_life_verified": false
+}

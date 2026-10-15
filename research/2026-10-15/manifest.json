@@ -11,16 +11,18 @@
     "rna-mechanism-2026-10-15",
     "rna-reaction-tests-2026-10-15",
     "rna-seed-transport-2026-10-15",
-    "rna-turnover-tests-2026-10-15"
+    "rna-turnover-tests-2026-10-15",
+    "recursive-compound-2026-10-15"
   ],
-  "included_files": 2269,
-  "published_bytes": 1063498117,
-  "unique_published_blobs": 1596,
-  "excluded_entries": 270,
+  "included_files": 2390,
+  "published_bytes": 1064653692,
+  "unique_published_blobs": 1716,
+  "excluded_entries": 353,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
+    "recursive-compound-2026-10-15": 121,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4796,6 +4798,1817 @@
       "published_size": 9455,
       "published_sha256": "d32179dcce9ec651fc337f6794363e8f5cd194298fadb9224be1942a5832e2aa",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7085,
+      "source_sha256": "f6a6de3ce8c58faed068b46b7506abccc7708b914183505936b70ba67d550958",
+      "published_size": 7085,
+      "published_sha256": "f6a6de3ce8c58faed068b46b7506abccc7708b914183505936b70ba67d550958",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 15736,
+      "source_sha256": "8ac7ae91cd7ac4f302a8978500855b46f262f15d826cc527ea7cefbfc6cdc5d9",
+      "published_size": 15736,
+      "published_sha256": "8ac7ae91cd7ac4f302a8978500855b46f262f15d826cc527ea7cefbfc6cdc5d9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/WORKPLAN.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4388,
+      "source_sha256": "61a4cafcf205e80872110941815bdce689df7464dc39c9fdf618c0bce5682645",
+      "published_size": 4388,
+      "published_sha256": "61a4cafcf205e80872110941815bdce689df7464dc39c9fdf618c0bce5682645",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2863,
+      "source_sha256": "fb95cf94e0644ca50114f90e1c0874d17a5b3f460df3805db58fb6cfc15d6060",
+      "published_size": 2665,
+      "published_sha256": "498c131da15440b638f6de3f20f7b72202389087d3bbeeaeec00a167b8f6f2d9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 5
+        },
+        {
+          "transformation": "host home path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/counterion.stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 15
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/counterion.stdout.json",
+      "status": "excluded",
+      "reason": "tool log or raw web body",
+      "source_size": 21192
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/manifest.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1071,
+      "source_sha256": "a20f48cc99863e5862039968eca3d8695d6222fd908946680ce484cad5913cb6",
+      "published_size": 1071,
+      "published_sha256": "a20f48cc99863e5862039968eca3d8695d6222fd908946680ce484cad5913cb6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/records.stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 93
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/run.stdout.json",
+      "status": "excluded",
+      "reason": "tool log or raw web body",
+      "source_size": 2862
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/wo3_capacity.stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 15
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/.omo/evidence/wo3_capacity.stdout.json",
+      "status": "excluded",
+      "reason": "tool log or raw web body",
+      "source_size": 24776
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 8915,
+      "source_sha256": "0353d11678c8ccbe9761a8d46d95d951804e4b7c139f7b273ce670f1bf0c2aa3",
+      "published_size": 8915,
+      "published_sha256": "0353d11678c8ccbe9761a8d46d95d951804e4b7c139f7b273ce670f1bf0c2aa3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/build_records.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 8179,
+      "source_sha256": "0c8f49d15995bf2e5548e0f3083580c0684ee892ddb7302533e00060440178cb",
+      "published_size": 8179,
+      "published_sha256": "0c8f49d15995bf2e5548e0f3083580c0684ee892ddb7302533e00060440178cb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/candidates.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6956,
+      "source_sha256": "792c7d30d03300c3a1a3e300aa47a8f1a25d7f6415369dc68347f8da1205f58b",
+      "published_size": 6956,
+      "published_sha256": "792c7d30d03300c3a1a3e300aa47a8f1a25d7f6415369dc68347f8da1205f58b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/checks/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3152,
+      "source_sha256": "9e3078e37710fb9b060594fdc6d83c0aec4de0a7278669d0d7848435fdb90fb9",
+      "published_size": 3152,
+      "published_sha256": "9e3078e37710fb9b060594fdc6d83c0aec4de0a7278669d0d7848435fdb90fb9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1208,
+      "source_sha256": "dbede3336520bfe1f4b6a35c89599f7206b77ebd6cefa3dc8099e65650d57c84",
+      "published_size": 1208,
+      "published_sha256": "dbede3336520bfe1f4b6a35c89599f7206b77ebd6cefa3dc8099e65650d57c84",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/ags-equation1.gif",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 768
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/ags.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 379098
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/ags.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 57779
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/dryad-dataset.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5626
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/dryad-files.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1454
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/raw/dryad.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 42772
+    },
+    {
+      "path": "recursive-compound-2026-10-15/adaptation/sources.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2001,
+      "source_sha256": "d3d1846444956c6cf75688e89ca4f0612115160d1210bae8052a06108b5e0c45",
+      "published_size": 2001,
+      "published_sha256": "d3d1846444956c6cf75688e89ca4f0612115160d1210bae8052a06108b5e0c45",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3246,
+      "source_sha256": "4484f525a39062873bbe7360958527d49bc038b257f1de8e364fa284b0acdf56",
+      "published_size": 3246,
+      "published_sha256": "4484f525a39062873bbe7360958527d49bc038b257f1de8e364fa284b0acdf56",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/.omo/evidence/verification-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1144
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/CHECKS.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2171,
+      "source_sha256": "b6bca4336e33bf2d919ba95fd41fa038fce33821edc896c33039f7a11b0d585f",
+      "published_size": 2171,
+      "published_sha256": "b6bca4336e33bf2d919ba95fd41fa038fce33821edc896c33039f7a11b0d585f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 10827,
+      "source_sha256": "2ac850f11ce2eab56feae0d5e78d0374790cf2bc28006a3e30f3a5953c4db40c",
+      "published_size": 10827,
+      "published_sha256": "2ac850f11ce2eab56feae0d5e78d0374790cf2bc28006a3e30f3a5953c4db40c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/candidates.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5256,
+      "source_sha256": "8cb5ecb6152ce54f5753cc11d451bc166008bcd3464368d536e1a50ab4ccb148",
+      "published_size": 5256,
+      "published_sha256": "8cb5ecb6152ce54f5753cc11d451bc166008bcd3464368d536e1a50ab4ccb148",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/checks.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 4990,
+      "source_sha256": "f901606736ca186dd1a9adee1840ba65af8cb49edef0b61159412a95871b04f7",
+      "published_size": 4990,
+      "published_sha256": "f901606736ca186dd1a9adee1840ba65af8cb49edef0b61159412a95871b04f7",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1983,
+      "source_sha256": "337f1044911e4300d1755b092404b683dfea92d42ffdc0b0bb11df9c0567c281",
+      "published_size": 1983,
+      "published_sha256": "337f1044911e4300d1755b092404b683dfea92d42ffdc0b0bb11df9c0567c281",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/cluster-identity-access.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 27107
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/confirmatory-access.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 30119
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/goethite2024.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1704398
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/goethite2024.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 73541
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/mo36_sba2019.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 63721
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/primary-access.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 30892
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/quantitative-access.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 28567
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/search-exact-and-oxides.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 29513
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/sulfide2020.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 3361892
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/sulfide2020.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 116768
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/titania1990.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1555812
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/titania1990.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 68674
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/raw/zirconia2026.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 499221
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/sources.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4960,
+      "source_sha256": "031995a698e1cc5d6fb48e1eb38047440ddbfac15779a21a53934a241ea0356f",
+      "published_size": 4960,
+      "published_sha256": "031995a698e1cc5d6fb48e1eb38047440ddbfac15779a21a53934a241ea0356f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/checks.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5659,
+      "source_sha256": "6c3d413785dcbfe65d42788fd46e2851d9ca391f47defbde8c5cdc1205c8f13b",
+      "published_size": 5659,
+      "published_sha256": "6c3d413785dcbfe65d42788fd46e2851d9ca391f47defbde8c5cdc1205c8f13b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 781,
+      "source_sha256": "e7448de7b308a06f179c6927ef8c2db0061b10668f6e99ae088f4179fdbc2393",
+      "published_size": 781,
+      "published_sha256": "e7448de7b308a06f179c6927ef8c2db0061b10668f6e99ae088f4179fdbc2393",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/.omo/evidence/verification-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1251
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/CHECKS.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2990,
+      "source_sha256": "f2a4dfd5ed76a9cf8925de63290c41be88437741cfd13d8274b6c6c27b794acd",
+      "published_size": 2990,
+      "published_sha256": "f2a4dfd5ed76a9cf8925de63290c41be88437741cfd13d8274b6c6c27b794acd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 9920,
+      "source_sha256": "448f4344cfa1f20384b5f9e9158c0ae44c4d55a570955cce71a69c7bd1237744",
+      "published_size": 9920,
+      "published_sha256": "448f4344cfa1f20384b5f9e9158c0ae44c4d55a570955cce71a69c7bd1237744",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/atlas_scope.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2162,
+      "source_sha256": "9255ed630e31a6feef8fc58cbb8c0c708173462ff37209751fdd08571bde9b53",
+      "published_size": 2162,
+      "published_sha256": "9255ed630e31a6feef8fc58cbb8c0c708173462ff37209751fdd08571bde9b53",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/build_dossier.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 4212,
+      "source_sha256": "6fd3df80e03c1e965bd882050809e38aaafcda0e5a2357c5a02615485da37416",
+      "published_size": 4212,
+      "published_sha256": "6fd3df80e03c1e965bd882050809e38aaafcda0e5a2357c5a02615485da37416",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/check-output.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 782
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2473,
+      "source_sha256": "70d7225613d74ebcb19566cf41a3234a6b088cce1bbf0c3409fb0a8d3b6bb90d",
+      "published_size": 2473,
+      "published_sha256": "70d7225613d74ebcb19566cf41a3234a6b088cce1bbf0c3409fb0a8d3b6bb90d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/access.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 720
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/article.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 83641
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/article.xml",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 196621
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/supplement.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 16194765
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/supplement.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 286132
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/supplements.zip",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 14764209
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-144.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 180298
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-157.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 166239
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-160.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 183891
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-67.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 107345
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-83.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 89473
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/raw/table-page-87.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 94149
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/selected_rows.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 1678,
+      "source_sha256": "e549d549b8c0dac1cce5534c68390e2d0e7af4469cc0f8fb282f6b5043830939",
+      "published_size": 1667,
+      "published_sha256": "106d9c30ebbae4b17b988d8e7299613c576632fd544b5c2cefc1154804a4ccea",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/compatibility/sources.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2084,
+      "source_sha256": "1a5f1d2af27a9c9ed02139ff62890df4b2e17694e0766cac315856012c172184",
+      "published_size": 2084,
+      "published_sha256": "1a5f1d2af27a9c9ed02139ff62890df4b2e17694e0766cac315856012c172184",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/.omo/evidence/capacity-replay.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 24776,
+      "source_sha256": "4b8450e698c3d794f6700bc059fe81ff57adc12a8d2a961b9fb909ef743462a7",
+      "published_size": 24776,
+      "published_sha256": "4b8450e698c3d794f6700bc059fe81ff57adc12a8d2a961b9fb909ef743462a7",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1591,
+      "source_sha256": "6195d2061d729dbd242080d1696977296a057ae00f9d1b8fa6b7b5c39bf3500b",
+      "published_size": 1591,
+      "published_sha256": "6195d2061d729dbd242080d1696977296a057ae00f9d1b8fa6b7b5c39bf3500b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/.omo/evidence/counterion-replay.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 21192,
+      "source_sha256": "c02bc7c684014ee7a5f93c203d8744fb824b1951b3024456fdfffb86f352cd02",
+      "published_size": 21192,
+      "published_sha256": "c02bc7c684014ee7a5f93c203d8744fb824b1951b3024456fdfffb86f352cd02",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/.omo/evidence/manifest.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2638,
+      "source_sha256": "aced43ecadfd1924f69b94e7367d795d87decc7ce79357a9b587893c13c457fe",
+      "published_size": 2638,
+      "published_sha256": "aced43ecadfd1924f69b94e7367d795d87decc7ce79357a9b587893c13c457fe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/.omo/evidence/verification.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1924,
+      "source_sha256": "e91ac001b56811f0b01ee40f51e64333bead3eab334fe876ca112b2fb37f1afa",
+      "published_size": 1861,
+      "published_sha256": "aab6872cba1869cf2e51ca2441c146f4b94f08c83ee03064b68d08edee273e75",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        },
+        {
+          "transformation": "host home path",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 9927,
+      "source_sha256": "86e8720a72f6a3debc2c3548b3e655a7ac96ce5ef4e39323e11cf885fa56e46d",
+      "published_size": 9927,
+      "published_sha256": "86e8720a72f6a3debc2c3548b3e655a7ac96ce5ef4e39323e11cf885fa56e46d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/candidates.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5530,
+      "source_sha256": "8db212f8a124d8400c2f37d4649d85e6b61cf4d34ebdd97a37700de78d2e5bce",
+      "published_size": 5530,
+      "published_sha256": "8db212f8a124d8400c2f37d4649d85e6b61cf4d34ebdd97a37700de78d2e5bce",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/ceria_cycles.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 724,
+      "source_sha256": "3eed972c50b7f60a54feceb6c07f259fb797f8bfb5000e059373f24fad98fe6e",
+      "published_size": 724,
+      "published_sha256": "3eed972c50b7f60a54feceb6c07f259fb797f8bfb5000e059373f24fad98fe6e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/checks.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3467,
+      "source_sha256": "a343a092be9bf3641fc059d313d25f6361f24be564f59cc30d8e3931ecc6bd84",
+      "published_size": 3467,
+      "published_sha256": "a343a092be9bf3641fc059d313d25f6361f24be564f59cc30d8e3931ecc6bd84",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1150,
+      "source_sha256": "91200f250b363b2de66fe3131a3696d4ea7d00f8bfec11dd34a759400b48ca08",
+      "published_size": 1150,
+      "published_sha256": "91200f250b363b2de66fe3131a3696d4ea7d00f8bfec11dd34a759400b48ca08",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/ceria2018-table2.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 379769
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/ceria2018-table3.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 337047
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/ceria2018.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 26945027
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/ceria2018.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 47699
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/chueh2010_si.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 313509
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/chueh2010_si.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 10807
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/symes2013.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 587625
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/raw/symes2013.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 64083
+    },
+    {
+      "path": "recursive-compound-2026-10-15/energy/source_ledger.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6565,
+      "source_sha256": "a1c4899396122bd898e825508b8e8c783ba9b7ffa5a1682832b9bbe3524d635e",
+      "published_size": 6565,
+      "published_sha256": "a1c4899396122bd898e825508b8e8c783ba9b7ffa5a1682832b9bbe3524d635e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2323,
+      "source_sha256": "1dca09f014240e99ce5cd6456d5dd165def95c12bc67adf30db089e8ec8ec45d",
+      "published_size": 2323,
+      "published_sha256": "1dca09f014240e99ce5cd6456d5dd165def95c12bc67adf30db089e8ec8ec45d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/completion-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 3015
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/ledger-validation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 141,
+      "source_sha256": "648a3eedeb77d753618f45fe8ae8c8d424935e477fc7cd0e8d313c9d9b43d85b",
+      "published_size": 141,
+      "published_sha256": "648a3eedeb77d753618f45fe8ae8c8d424935e477fc7cd0e8d313c9d9b43d85b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/run-controls-revision.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 2435
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/run.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 1577
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 8593,
+      "source_sha256": "d7ca4c61e1c5b7439c531f5dce2992e73bd4e18e9029528cb5f35b44873c06eb",
+      "published_size": 8593,
+      "published_sha256": "d7ca4c61e1c5b7439c531f5dce2992e73bd4e18e9029528cb5f35b44873c06eb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/candidates.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5504,
+      "source_sha256": "37c1f35523feb3bfca1e1c3e1be0cfdd83cb07207f19911922fd2493ceb45982",
+      "published_size": 5504,
+      "published_sha256": "37c1f35523feb3bfca1e1c3e1be0cfdd83cb07207f19911922fd2493ceb45982",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/cha-texture.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 182,
+      "source_sha256": "1be4afd8a2167a7d7aedddb06a6d89faaec07ecece859442a5d03250fb60ead5",
+      "published_size": 173,
+      "published_sha256": "29591505b36b6dacd0a94c9cad5be8070eb2af635dfcc31a571e94bc7d1ea761",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 6813,
+      "source_sha256": "df292cf9d94392514ae66c955adf8755bcdc9c16b281a88f9e204d8d7f6dd323",
+      "published_size": 6813,
+      "published_sha256": "df292cf9d94392514ae66c955adf8755bcdc9c16b281a88f9e204d8d7f6dd323",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/raw/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 444,
+      "source_sha256": "bf519a34a48d7ada06a291e255220cc8811e51eccd7db75d29d725815de29fea",
+      "published_size": 444,
+      "published_sha256": "bf519a34a48d7ada06a291e255220cc8811e51eccd7db75d29d725815de29fea",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/raw/cha-seed-capacity.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1614
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/raw/cha-source.xml",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 119679
+    },
+    {
+      "path": "recursive-compound-2026-10-15/heredity/sources.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1332,
+      "source_sha256": "c6bb064dff8c6d99e0b0ece2139f7b4eff2d9f3e31b7fd6ffec60bb68b260850",
+      "published_size": 1332,
+      "published_sha256": "c6bb064dff8c6d99e0b0ece2139f7b4eff2d9f3e31b7fd6ffec60bb68b260850",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/check.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 680
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 680,
+      "source_sha256": "b62112face5add2cec4e05ee97aeba9ef8a0f17abf05e878303d0491a5ecc497",
+      "published_size": 680,
+      "published_sha256": "b62112face5add2cec4e05ee97aeba9ef8a0f17abf05e878303d0491a5ecc497",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/extraction.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2801,
+      "source_sha256": "809265e22fb41f17a9068d9d9daf0cf5774a04181cbc3f579d310d52d2d4ede8",
+      "published_size": 2801,
+      "published_sha256": "809265e22fb41f17a9068d9d9daf0cf5774a04181cbc3f579d310d52d2d4ede8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5112,
+      "source_sha256": "4f9ebd8fe5d540cc910bc8ea75222e8a68a2c5997855eb49ff4fc38749376469",
+      "published_size": 5112,
+      "published_sha256": "4f9ebd8fe5d540cc910bc8ea75222e8a68a2c5997855eb49ff4fc38749376469",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/run.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 2801
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/runtime.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 443,
+      "source_sha256": "7e38ec2fe2eaf49e84d035a16a881ff038f32b23c375ff096fb396427a9f0843",
+      "published_size": 443,
+      "published_sha256": "7e38ec2fe2eaf49e84d035a16a881ff038f32b23c375ff096fb396427a9f0843",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/.omo/evidence/verification-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 4686
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6218,
+      "source_sha256": "b30ccb94b484791bbd79f5bd88c148b86fab6bb5b966f19aa2eaabad6b5e0512",
+      "published_size": 6218,
+      "published_sha256": "b30ccb94b484791bbd79f5bd88c148b86fab6bb5b966f19aa2eaabad6b5e0512",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2463,
+      "source_sha256": "a1adadd1a4aee519f408e7eb3891bdadc8821837f6c2c9f5d0e767b8fbab5e37",
+      "published_size": 2463,
+      "published_sha256": "a1adadd1a4aee519f408e7eb3891bdadc8821837f6c2c9f5d0e767b8fbab5e37",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/extract.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 6256,
+      "source_sha256": "9912f6b9c3fefcf345c75d14c91d06e5c86084684d4f67d57575839e94e85bc3",
+      "published_size": 6256,
+      "published_sha256": "9912f6b9c3fefcf345c75d14c91d06e5c86084684d4f67d57575839e94e85bc3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/identity_admission.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 346,
+      "source_sha256": "45ce76bf1c969a761e63691fba6426ef4d8998d92ddbea1ee597cc101fb99e35",
+      "published_size": 346,
+      "published_sha256": "45ce76bf1c969a761e63691fba6426ef4d8998d92ddbea1ee597cc101fb99e35",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/.omo/evidence/feasibility.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 4713
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/.omo/evidence/receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 5437
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7214,
+      "source_sha256": "e6d8dbf2664faa6a3182c2d329cde90e97bc667053fc37f1c0872e5003e0c039",
+      "published_size": 7214,
+      "published_sha256": "e6d8dbf2664faa6a3182c2d329cde90e97bc667053fc37f1c0872e5003e0c039",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1359,
+      "source_sha256": "5fb887a23814373f5822bdfff4c91ecb07baa82b3a2332c9ae61b7ee40412551",
+      "published_size": 1359,
+      "published_sha256": "5fb887a23814373f5822bdfff4c91ecb07baa82b3a2332c9ae61b7ee40412551",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 1880,
+      "source_sha256": "d26466978ad9ae096c08d98085bd131f076790dfe3679896384fb1361fdd1a2d",
+      "published_size": 1880,
+      "published_sha256": "d26466978ad9ae096c08d98085bd131f076790dfe3679896384fb1361fdd1a2d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/feasibility.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4713,
+      "source_sha256": "b16605e0069e77b5edd43f32811c44fd9b05f2ea468cbfb3554a0d86bb0dd04e",
+      "published_size": 4713,
+      "published_sha256": "b16605e0069e77b5edd43f32811c44fd9b05f2ea468cbfb3554a0d86bb0dd04e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/feasibility.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3202,
+      "source_sha256": "6affb3a041fc94b69c93fd01346ca3ade8351a4e0933e969049029c02d87ef91",
+      "published_size": 3202,
+      "published_sha256": "6affb3a041fc94b69c93fd01346ca3ade8351a4e0933e969049029c02d87ef91",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/hypotheses.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2969,
+      "source_sha256": "6f593845f45b32cc068a0d3e04a15bf6de3e1568e1310ab08666ee3154f45ee0",
+      "published_size": 2969,
+      "published_sha256": "6f593845f45b32cc068a0d3e04a15bf6de3e1568e1310ab08666ee3154f45ee0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-eps1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2080,
+      "source_sha256": "0bd05127d89edce6123c63a15a5b86c387f11640c19f012eb4e9d40e940849b1",
+      "published_size": 2044,
+      "published_sha256": "f881970df7020d558df856d489db76e19c39b15e2dd33c50725d39ad02253eec",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-eps1.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 12397
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-gas.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1535,
+      "source_sha256": "0efa869b0030e531a94a518f723c8f323b8e99ba25b2ffd7287b5704944d853a",
+      "published_size": 1535,
+      "published_sha256": "0efa869b0030e531a94a518f723c8f323b8e99ba25b2ffd7287b5704944d853a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-gas.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 11446
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-water.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2098,
+      "source_sha256": "d3903e1856bbccdc0371c7a1d4e1c2dd02e83db003b9c945a3205d0a4d65a229",
+      "published_size": 2062,
+      "published_sha256": "b24dff6d59150ab03e7ec293d3eb2d0bdf818ed8e040bc7c1bbcc337c03e75b9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-water.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 12918
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt1/anion-gas.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1425,
+      "source_sha256": "55dc4c21272cb77c4d18b2b794c45ae41ec12168db6100926afd2c2c214c6c1d",
+      "published_size": 1425,
+      "published_sha256": "55dc4c21272cb77c4d18b2b794c45ae41ec12168db6100926afd2c2c214c6c1d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt1/anion-gas.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 10552
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt1/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2823,
+      "source_sha256": "8abfb392f5e7a1ad7984d5f6de2aff69461de15b62a6cb5d6ea46d39799991e7",
+      "published_size": 2643,
+      "published_sha256": "a8e50ddf3834f1cfb3dd2edc3b4a9677f2feb90a587b22910c00fe617941f595",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt1/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5113,
+      "source_sha256": "a2876f4a972494f3a4851fb47a390fd84ea17060148870c30f3c0b6e4e0c0509",
+      "published_size": 5113,
+      "published_sha256": "a2876f4a972494f3a4851fb47a390fd84ea17060148870c30f3c0b6e4e0c0509",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-eps1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1970,
+      "source_sha256": "058e4c74a23ba2d4dd5d72e668d2c194cce6f8591709b657b1a0f9429c74b5da",
+      "published_size": 1934,
+      "published_sha256": "78cdb12e688dc5acc301078ba816537a60d565b5bab3dc7832e49775e3d7c526",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-eps1.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 12105
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-gas.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1426,
+      "source_sha256": "fde38efa8c3421478e9f0c0496760bb180404a48d05f6d806c3e84163f691078",
+      "published_size": 1426,
+      "published_sha256": "fde38efa8c3421478e9f0c0496760bb180404a48d05f6d806c3e84163f691078",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-gas.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 11011
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-water.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1974,
+      "source_sha256": "cfb04c709acbb4a5b66f28fc4abf79ba58ca90cb1360e5b8bad78269f4a834a4",
+      "published_size": 1938,
+      "published_sha256": "d62b072f851f604d78120e1ecdc3465fde1facb7688a77bcf6a8868c5a91e572",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/anion-water.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 12598
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/prior-audit.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 448,
+      "source_sha256": "e787383df65361377cd0a77b530440f7368069c723d791bf59d5d4e04bf92482",
+      "published_size": 448,
+      "published_sha256": "e787383df65361377cd0a77b530440f7368069c723d791bf59d5d4e04bf92482",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 8876,
+      "source_sha256": "fdbb9d068eeec6443d12224ee4edec1661cacb0ae0c2eed4a7ac0ccf778e3777",
+      "published_size": 8408,
+      "published_sha256": "7f8077cb9be1bff355243bfccf17f179beb145e724d0cb8df33ca0aa4f9df4b4",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/attempt2/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5114,
+      "source_sha256": "e23b576732f608999954e28344714f071126a3b82cdfed03ea411c6bc876c9a2",
+      "published_size": 5114,
+      "published_sha256": "e23b576732f608999954e28344714f071126a3b82cdfed03ea411c6bc876c9a2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-analytic.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 713,
+      "source_sha256": "f0f13a0a86382e126fcd8ddfbbe092780035f08c6955b87db6bfe5f6f22ed59b",
+      "published_size": 713,
+      "published_sha256": "f0f13a0a86382e126fcd8ddfbbe092780035f08c6955b87db6bfe5f6f22ed59b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-analytic.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 11351
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 229,
+      "source_sha256": "7f36c0167a9fb7d052365a5ef26a467de01d4cefdceff4edb9116a84a43e05e6",
+      "published_size": 229,
+      "published_sha256": "7f36c0167a9fb7d052365a5ef26a467de01d4cefdceff4edb9116a84a43e05e6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus1.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 10519
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 229,
+      "source_sha256": "0eb4e556f0c5d4c6ea8d5c7e9a03cf57a7d7d5c25e81a51a8b4038f45a2450f4",
+      "published_size": 229,
+      "published_sha256": "0eb4e556f0c5d4c6ea8d5c7e9a03cf57a7d7d5c25e81a51a8b4038f45a2450f4",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus2.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 10514
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 227,
+      "source_sha256": "ff1fb512deef74490745b7b49fde4297e2bd34b3f7f10033794cc40cd6cebdfc",
+      "published_size": 227,
+      "published_sha256": "ff1fb512deef74490745b7b49fde4297e2bd34b3f7f10033794cc40cd6cebdfc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus1.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 10514
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 228,
+      "source_sha256": "378b0434a1f6ed41b340c3cc98c73c208077818f0f68204ef0c5eea0cfe7e70b",
+      "published_size": 228,
+      "published_sha256": "378b0434a1f6ed41b340c3cc98c73c208077818f0f68204ef0c5eea0cfe7e70b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus2.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 10502
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5864,
+      "source_sha256": "166cb0c1d91f304331132cc5695b7ba77aa13bd9bf8c86eb0b3e2c894a2351f9",
+      "published_size": 5324,
+      "published_sha256": "4e4c308cd8f8f9569a4d152aa8ed577f345aff642398b5b41214ae1214552a2f",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/grid-response-analytic.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 718,
+      "source_sha256": "83737e4dad11d908e1787dfe7e80fbb7e01132ed4cca30563e958dbc0bde674c",
+      "published_size": 718,
+      "published_sha256": "83737e4dad11d908e1787dfe7e80fbb7e01132ed4cca30563e958dbc0bde674c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/grid-response-analytic.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 9771
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/grid-response-receipt.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2378,
+      "source_sha256": "dc7a18534f647123a1f3519ce1b37d9ef92d7c72baf8f2d8a0f39ccf72864a24",
+      "published_size": 2342,
+      "published_sha256": "b0b6c8ac9ee99b1398bd8caba19fc72ffdbee9713bf743be745ce305c534f4bf",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/manifest.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4856,
+      "source_sha256": "0ec5160c809f48345a468fd1abd5faca152448854a432fb7f06467e9ee24279b",
+      "published_size": 4856,
+      "published_sha256": "0ec5160c809f48345a468fd1abd5faca152448854a432fb7f06467e9ee24279b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/neutral-water.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1901,
+      "source_sha256": "20e1ae2664323c416615daeee45818dcdbf8b93f8444d563bf16f2e64a79ab2a",
+      "published_size": 1865,
+      "published_sha256": "bbcbfb08ca891c5c78abdd597d327d0740e0b81922e48b040e50470e330df1c5",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/neutral-water.scf.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 12375
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/prior-audit.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 448,
+      "source_sha256": "e787383df65361377cd0a77b530440f7368069c723d791bf59d5d4e04bf92482",
+      "published_size": 448,
+      "published_sha256": "e787383df65361377cd0a77b530440f7368069c723d791bf59d5d4e04bf92482",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 11631,
+      "source_sha256": "07acf8558f71be9ec12deaa9f6e2aca91ac072360038170e2796c943f6b95127",
+      "published_size": 11091,
+      "published_sha256": "9bcebd61bc6d23ab6c37fcaf11cdccbee5cbc5105be8c12235132a06b561af12",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/source-inspection.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 5691
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 9059,
+      "source_sha256": "70b47fdacdceabbc2c188ad159d61f66c7828e270c1cb623cfde6eba6e40d605",
+      "published_size": 9059,
+      "published_sha256": "70b47fdacdceabbc2c188ad159d61f66c7828e270c1cb623cfde6eba6e40d605",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 1885,
+      "source_sha256": "60b54074004913702b1c5d9815851f947935f0252e2773cb3d82b6c66c628ebf",
+      "published_size": 1885,
+      "published_sha256": "60b54074004913702b1c5d9815851f947935f0252e2773cb3d82b6c66c628ebf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 604,
+      "source_sha256": "bc02be151bc6f91b4effa2c35ba83e4506102f60a19aa84dbb9d266a7cc2b76f",
+      "published_size": 604,
+      "published_sha256": "bc02be151bc6f91b4effa2c35ba83e4506102f60a19aa84dbb9d266a7cc2b76f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3474,
+      "source_sha256": "a3662d39e943a1f67a05623ea7de4a3843eaa4ebf59f3cb56df8627b12a1d2cb",
+      "published_size": 3474,
+      "published_sha256": "a3662d39e943a1f67a05623ea7de4a3843eaa4ebf59f3cb56df8627b12a1d2cb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/grid-response-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 819,
+      "source_sha256": "74fae1f6a0ceb43c1765bdcc516ceba75ff7c700046fba3eabfe019f6c8852e0",
+      "published_size": 819,
+      "published_sha256": "74fae1f6a0ceb43c1765bdcc516ceba75ff7c700046fba3eabfe019f6c8852e0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/grid_response.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 1667,
+      "source_sha256": "a33cf659b9e571ed68460f37bee84685bdcb5e069d3ebb44d86a4d85936c4c0e",
+      "published_size": 1667,
+      "published_sha256": "a33cf659b9e571ed68460f37bee84685bdcb5e069d3ebb44d86a4d85936c4c0e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 9291,
+      "source_sha256": "efde0933dd87a58ee974179e362ab7b7e06d775c279ac7729784a6c42df2ae1d",
+      "published_size": 9183,
+      "published_sha256": "b5f85b25a4129c20b074c38337332f6cebf8c5aca52b0caad1dc79069b960949",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/method-qualification/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5402,
+      "source_sha256": "b3e6328524a03d552a9639be82e2e4dfc01cd160c8718d932987c864bfaecc8d",
+      "published_size": 5402,
+      "published_sha256": "b3e6328524a03d552a9639be82e2e4dfc01cd160c8718d932987c864bfaecc8d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/raw/doi.response",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5502
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/raw/issue.response",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5478
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/raw/primary-pdf.response",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5593
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/parent_heavy.xyz",
+      "status": "included",
+      "reason": null,
+      "source_size": 6675,
+      "source_sha256": "90a86c26f4a106d9f8a185ce8cd5cb79b2117ccad4779c3beeb517c1e0601dc8",
+      "published_size": 6675,
+      "published_sha256": "90a86c26f4a106d9f8a185ce8cd5cb79b2117ccad4779c3beeb517c1e0601dc8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/runtime_check.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 519,
+      "source_sha256": "28638656e4b9342b9174b93ece96e933f17a12317a011f2b5765a685ef0b8b0a",
+      "published_size": 519,
+      "published_sha256": "28638656e4b9342b9174b93ece96e933f17a12317a011f2b5765a685ef0b8b0a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/site_mapping.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 72030,
+      "source_sha256": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
+      "published_size": 72030,
+      "published_sha256": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/.omo/evidence/build.stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 351
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/.omo/evidence/receipt.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1688,
+      "source_sha256": "f894015bc6f932d1d95a151288ca2a0ee6221ac3760d411576632763d07b2194",
+      "published_size": 1679,
+      "published_sha256": "b53c31e6544276ed7c0ac676313468f614e8b4d351d09d63e0dc063a26f083f2",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/P0_A.xyz",
+      "status": "included",
+      "reason": null,
+      "source_size": 10979,
+      "source_sha256": "78ead701c4b42ff27a834e5121e3780b6456ba15b24693fb207990f0a5e4b536",
+      "published_size": 10979,
+      "published_sha256": "78ead701c4b42ff27a834e5121e3780b6456ba15b24693fb207990f0a5e4b536",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/P0_B.xyz",
+      "status": "included",
+      "reason": null,
+      "source_size": 10973,
+      "source_sha256": "15b9060b70f262c89867a118d98fe6bb61583ab2ea16a59b113ae681ebe20a67",
+      "published_size": 10973,
+      "published_sha256": "15b9060b70f262c89867a118d98fe6bb61583ab2ea16a59b113ae681ebe20a67",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3128,
+      "source_sha256": "de00ece48842310315951e219ba218ea2f8fbe8f6c05c11a58fc8b40221d508f",
+      "published_size": 3128,
+      "published_sha256": "de00ece48842310315951e219ba218ea2f8fbe8f6c05c11a58fc8b40221d508f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/PT57_A.xyz",
+      "status": "included",
+      "reason": null,
+      "source_size": 10981,
+      "source_sha256": "b08b3b4e0322243814b48ff24abdd67075f508d7eb22699abb7a354c169fc302",
+      "published_size": 10981,
+      "published_sha256": "b08b3b4e0322243814b48ff24abdd67075f508d7eb22699abb7a354c169fc302",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/PT57_B.xyz",
+      "status": "included",
+      "reason": null,
+      "source_size": 10979,
+      "source_sha256": "2b1a489161e3a2e22cb57e834937ae1a3c7f3278ac5a65f3ac248ce7c38156e8",
+      "published_size": 10979,
+      "published_sha256": "2b1a489161e3a2e22cb57e834937ae1a3c7f3278ac5a65f3ac248ce7c38156e8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2221,
+      "source_sha256": "df28257a69792c5c3f1b70fa9dc09381c14bebf9457d2b852a52aafbbb0b0c63",
+      "published_size": 2221,
+      "published_sha256": "df28257a69792c5c3f1b70fa9dc09381c14bebf9457d2b852a52aafbbb0b0c63",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/build.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 10667,
+      "source_sha256": "29dcf66ad96ffc0457f35a639ab616613c85cecb28ecaf69b9234af34c9db8c3",
+      "published_size": 10667,
+      "published_sha256": "29dcf66ad96ffc0457f35a639ab616613c85cecb28ecaf69b9234af34c9db8c3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/checks.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59519,
+      "source_sha256": "023e7b7d54c9022008b8e9a8d04d44324de61c6934b2580f46e5b28263f7b3af",
+      "published_size": 59519,
+      "published_sha256": "023e7b7d54c9022008b8e9a8d04d44324de61c6934b2580f46e5b28263f7b3af",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-inputs/metadata.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 487520,
+      "source_sha256": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
+      "published_size": 487520,
+      "published_sha256": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2802,
+      "source_sha256": "94f67cdd83b77ef8bca97d336c58aa26338ab9d967c9aa856c3fe67e770e3b7e",
+      "published_size": 2802,
+      "published_sha256": "94f67cdd83b77ef8bca97d336c58aa26338ab9d967c9aa856c3fe67e770e3b7e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot/pilot.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 8540,
+      "source_sha256": "6128ba9b0ea73cc4d1986f1326c6dea7931d6f89f3b14376d7b2cfe876cf5578",
+      "published_size": 8540,
+      "published_sha256": "6128ba9b0ea73cc4d1986f1326c6dea7931d6f89f3b14376d7b2cfe876cf5578",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-pilot/test_pilot.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2198,
+      "source_sha256": "cce8ba6404f387a1fc8903bf824bcd70665449934c51b313dfe9f59b13bfa99b",
+      "published_size": 2198,
+      "published_sha256": "cce8ba6404f387a1fc8903bf824bcd70665449934c51b313dfe9f59b13bfa99b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/progress.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4069,
+      "source_sha256": "fe0af5c7d3725c5b7141e23fc5cc672096871a48236101c2116d0061b411a772",
+      "published_size": 4069,
+      "published_sha256": "fe0af5c7d3725c5b7141e23fc5cc672096871a48236101c2116d0061b411a772",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/review/extended-quantitative-review.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7540,
+      "source_sha256": "dc47c938163b06cb202595e85100690274214a4476caf8e610180e0cd86493ad",
+      "published_size": 7540,
+      "published_sha256": "dc47c938163b06cb202595e85100690274214a4476caf8e610180e0cd86493ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/review/recursive-quantitative-review-code-review.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 8231,
+      "source_sha256": "fcb04c5baa7f3dfeccb4a6814430c8bd21da9cdc2c78fbd35451a2752c0c051f",
+      "published_size": 8231,
+      "published_sha256": "fcb04c5baa7f3dfeccb4a6814430c8bd21da9cdc2c78fbd35451a2752c0c051f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/review/root-synthesis-addendum.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2453,
+      "source_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
+      "published_size": 2453,
+      "published_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/author-retrieval.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2622,
+      "source_sha256": "b10a3421835eeebf69c86058d469b027c43974d212b1d90000aa714941e6daed",
+      "published_size": 2622,
+      "published_sha256": "b10a3421835eeebf69c86058d469b027c43974d212b1d90000aa714941e6daed",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/iucr-retrieval.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 366
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/manifest.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1614,
+      "source_sha256": "1502ce35fbfa13980cb7fa52673d979425373ae226f9e332ce5842d3db52b1e8",
+      "published_size": 1614,
+      "published_sha256": "1502ce35fbfa13980cb7fa52673d979425373ae226f9e332ce5842d3db52b1e8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/run.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 2833
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/validation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2833,
+      "source_sha256": "d2f583442346699d11dac911db032d262c59b9a3b3ead335a3e7e1936b0adfdf",
+      "published_size": 2833,
+      "published_sha256": "d2f583442346699d11dac911db032d262c59b9a3b3ead335a3e7e1936b0adfdf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/.omo/evidence/verification-receipt.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 3138
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6820,
+      "source_sha256": "ca03ef48c134e3aa1c609131cd0b73d5d371ad30c5982b175982f79b1b575b4f",
+      "published_size": 6820,
+      "published_sha256": "ca03ef48c134e3aa1c609131cd0b73d5d371ad30c5982b175982f79b1b575b4f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/contacts_through_3_5A.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 10803,
+      "source_sha256": "7e6e7efce0de942b2fa83dfecc091e0eb2e9e37c94ccf8977bfd4b3d04948143",
+      "published_size": 10574,
+      "published_sha256": "5e34c4d5b12216a3d4cb57c5021ad70028d37fe4f5a5e39ec9f0555fa7c84858",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 229
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/cutoff_summary.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 426,
+      "source_sha256": "ab2028e7fada3a253258a3a103ecfd0ecf65ff91aeb8b5d01fb5edf39b093a78",
+      "published_size": 422,
+      "published_sha256": "d46983e1aee43110461f2caa6f0c41aaffe246fe5a4602a84ca70faaf4f13979",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/evaluate.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 6927,
+      "source_sha256": "07006a69d72cf27274db1188992751bce339df85261847888c92ebc56a3431c9",
+      "published_size": 6927,
+      "published_sha256": "07006a69d72cf27274db1188992751bce339df85261847888c92ebc56a3431c9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/parameters.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 454,
+      "source_sha256": "6ad6ac8d65cca92babd0fd617ed3ddfcde5db0e5e8868355ce11ae6f88f0d9ac",
+      "published_size": 454,
+      "published_sha256": "6ad6ac8d65cca92babd0fd617ed3ddfcde5db0e5e8868355ce11ae6f88f0d9ac",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/site_scores.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 28125,
+      "source_sha256": "eb50e02a2e5a61122af863c598ddcd656e6b3523790b636f9206aae71e2a3894",
+      "published_size": 28016,
+      "published_sha256": "53854fa6d436af297c5e18ae6c4edcc69ea4b0cdd5ec0fdd84378afc719ce560",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 109
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/sources/gagne2015.pdf",
+      "status": "excluded",
+      "reason": "acquired source payload; authored reports/code and named derived metadata remain eligible",
+      "source_size": 299554
+    },
+    {
+      "path": "recursive-compound-2026-10-15/site_chemistry/sources/gagne2015.txt",
+      "status": "excluded",
+      "reason": "acquired source payload; authored reports/code and named derived metadata remain eligible",
+      "source_size": 129180
     },
     {
       "path": "rna-coupled-chemistry-2026-10-15/WORKPLAN.md",

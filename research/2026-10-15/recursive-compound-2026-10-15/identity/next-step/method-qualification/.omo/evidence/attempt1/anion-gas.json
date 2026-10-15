@@ -1,0 +1,72 @@
+{
+  "case": "anion-gas",
+  "geometry_kind": "EXPLICITLY_HYPOTHETICAL_FIXED_GEOMETRY_NOT_EXPERIMENT",
+  "atoms_A": [
+    [
+      "Mo",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "O",
+      [
+        1.0103629710818451,
+        1.0103629710818451,
+        1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        1.0103629710818451,
+        -1.0103629710818451,
+        -1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        -1.0103629710818451,
+        1.0103629710818451,
+        -1.0103629710818451
+      ]
+    ],
+    [
+      "O",
+      [
+        -1.0103629710818451,
+        -1.0103629710818451,
+        1.0103629710818451
+      ]
+    ]
+  ],
+  "charge": -2,
+  "spin_2S": 0,
+  "Mo_formal_oxidation_assumption": 6,
+  "explicit_electrons": 48,
+  "ecp_core": 28,
+  "nao": 87,
+  "pyscf": "2.14.0",
+  "converged": true,
+  "cycles": 13,
+  "energy_Eh": -368.72427951316814,
+  "orbital_gradient_norm": 2.87803533372307e-05,
+  "electron_trace": 47.999999999999964,
+  "wall_seconds": 4.192282665986568,
+  "direct_JK_bound_to": "pyscf.scf.hf.SCF.get_jk",
+  "cached_four_center_ERI": false,
+  "direct_optimizer_created": true,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "method": "PBE/def2-SVP; Mo def2 ECP",
+  "grid_level": 2,
+  "PCM": null
+}

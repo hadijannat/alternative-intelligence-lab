@@ -1,0 +1,57 @@
+[
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "analytic"
+    ],
+    "returncode": 0,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-analytic.log\n{\n  \"case\": \"analytic\",\n  \"delta_O1_x_bohr\": 0.0,\n  \"energy_Eh\": -369.0689189749581,\n  \"orbital_gradient_norm\": 3.4530014322466225e-07,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": [\n    [\n      -3.455660357997708e-08,\n      1.8880840275514173e-08,\n      -1.2627104063081377e-08\n    ],\n    [\n      -0.017309067757211354,\n      -0.017309066260565845,\n      -0.01730906739579434\n    ],\n    [\n      -0.01730906457155096,\n      0.017309064199387623,\n      0.017309063146988803\n    ],\n    [\n      0.017309092402563335,\n      -0.0173090928361505,\n      0.01730909290628717\n    ],\n    [\n      0.01730907446676301,\n      0.01730907602511316,\n      -0.017309076035354046\n    ]\n  ],\n  \"wall_seconds\": 9.615986207965761\n}\n",
+    "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758424535181995 == LUMO 0.0758424535182039\n"
+  },
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "plus1"
+    ],
+    "returncode": 0,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus1.log\n{\n  \"case\": \"plus1\",\n  \"delta_O1_x_bohr\": 0.001,\n  \"energy_Eh\": -369.06893664956823,\n  \"orbital_gradient_norm\": 2.0059474717972195e-07,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": null,\n  \"wall_seconds\": 6.498909250018187\n}\n",
+    "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758515191310814 == LUMO 0.0758675381774331\n"
+  },
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "minus1"
+    ],
+    "returncode": 0,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus1.log\n{\n  \"case\": \"minus1\",\n  \"delta_O1_x_bohr\": -0.001,\n  \"energy_Eh\": -369.06890113963254,\n  \"orbital_gradient_norm\": 6.869143978836942e-08,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": null,\n  \"wall_seconds\": 6.3290677920449525\n}\n",
+    "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758333230674755 == LUMO 0.0758823046156923\n"
+  },
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "plus2"
+    ],
+    "returncode": 0,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-plus2.log\n{\n  \"case\": \"plus2\",\n  \"delta_O1_x_bohr\": 0.0005,\n  \"energy_Eh\": -369.06892783234866,\n  \"orbital_gradient_norm\": 2.0275154113087929e-07,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": null,\n  \"wall_seconds\": 6.246581874904223\n}\n",
+    "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758469945278195 == LUMO 0.075855025627192\n"
+  },
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/derivative.py",
+      "minus2"
+    ],
+    "returncode": 0,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/derivative-minus2.log\n{\n  \"case\": \"minus2\",\n  \"delta_O1_x_bohr\": -0.0005,\n  \"energy_Eh\": -369.06891007739137,\n  \"orbital_gradient_norm\": 7.057532699552351e-08,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": null,\n  \"wall_seconds\": 6.248419833020307\n}\n",
+    "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758378962994959 == LUMO 0.0758623786293413\n"
+  }
+]

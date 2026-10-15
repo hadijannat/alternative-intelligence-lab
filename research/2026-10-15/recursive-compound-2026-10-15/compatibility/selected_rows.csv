@@ -1,0 +1,11 @@
+species,medium,nominal_pH,buffer_M,POM_mM,stage,NMR_C,measured_pH_mean,measured_pH_SD,parent_rep1,parent_rep2,parent_rep3,parent_reported_percent,P2Mo18_reported_percent,P2Mo5_or_PMo6_reported_percent,source_tables,denominator
+PMo12,D2O,,0,10,initial,25,1.3,0.06,73,77,77,76,13,0,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+PMo12,D2O,,0,10,after_24h_37C,25,1.2,0.05,71,76,77,74,13,0,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+PMo12,sodium phosphate,3,0.1,10,initial,25,1.97,0.04,0,0,0,0,1,99,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+PMo12,sodium phosphate,3,0.1,10,after_24h_37C,25,1.89,0.06,0,0,0,0,1,99,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+PMo12,sodium phosphate,4,0.1,10,initial,25,2.1,0.06,0,0,0,0,1,99,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+PMo12,sodium phosphate,4,0.1,10,after_24h_37C,25,2.03,0.09,0,0,0,0,1,99,S17;S18;S19,assigned POM phosphorus NMR signals; free phosphate excluded
+alpha-P2W18,sodium phosphate,3,0.1,10,initial,25,2.99,0.08,100,100,100,100,0,0,S8;S10;S11,assigned POM phosphorus NMR signals; free phosphate excluded
+alpha-P2W18,sodium phosphate,3,0.1,10,after_24h_37C,25,2.98,0.06,100,100,100,100,0,0,S8;S10;S11,assigned POM phosphorus NMR signals; free phosphate excluded
+alpha-P2W18,sodium phosphate,4,0.1,10,initial,25,4.0,0.06,100,100,100,100,0,0,S8;S10;S11,assigned POM phosphorus NMR signals; free phosphate excluded
+alpha-P2W18,sodium phosphate,4,0.1,10,after_24h_37C,25,3.97,0.06,100,100,100,100,0,0,S8;S10;S11,assigned POM phosphorus NMR signals; free phosphate excluded

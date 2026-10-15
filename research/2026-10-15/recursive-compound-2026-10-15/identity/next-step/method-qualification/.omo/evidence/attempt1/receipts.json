@@ -1,0 +1,14 @@
+[
+  {
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/run.py",
+      "anion-gas"
+    ],
+    "returncode": 1,
+    "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/anion-gas.scf.log\n{\n  \"case\": \"anion-gas\",\n  \"geometry_kind\": \"EXPLICITLY_HYPOTHETICAL_FIXED_GEOMETRY_NOT_EXPERIMENT\",\n  \"atoms_A\": [\n    [\n      \"Mo\",\n      [\n        0,\n        0,\n        0\n      ]\n    ],\n    [\n      \"O\",\n      [\n        1.0103629710818451,\n        1.0103629710818451,\n        1.0103629710818451\n      ]\n    ],\n    [\n      \"O\",\n      [\n        1.0103629710818451,\n        -1.0103629710818451,\n        -1.0103629710818451\n      ]\n    ],\n    [\n      \"O\",\n      [\n        -1.0103629710818451,\n        1.0103629710818451,\n        -1.0103629710818451\n      ]\n    ],\n    [\n      \"O\",\n      [\n        -1.0103629710818451,\n        -1.0103629710818451,\n        1.0103629710818451\n      ]\n    ]\n  ],\n  \"charge\": -2,\n  \"spin_2S\": 0,\n  \"Mo_formal_oxidation_assumption\": 6,\n  \"explicit_electrons\": 48,\n  \"ecp_core\": 28,\n  \"nao\": 87,\n  \"pyscf\": \"2.14.0\",\n  \"converged\": true,\n  \"cycles\": 13,\n  \"energy_Eh\": -368.72427951316814,\n  \"orbital_gradient_norm\": 2.87803533372307e-05,\n  \"electron_trace\": 47.999999999999964,\n  \"wall_seconds\": 4.192282665986568,\n  \"direct_JK_bound_to\": \"pyscf.scf.hf.SCF.get_jk\",\n  \"cached_four_center_ERI\": false,\n  \"direct_optimizer_created\": true,\n  \"thread_environment\": {\n    \"OMP_NUM_THREADS\": \"1\",\n    \"OPENBLAS_NUM_THREADS\": \"1\",\n    \"MKL_NUM_THREADS\": \"1\",\n    \"VECLIB_MAXIMUM_THREADS\": \"1\",\n    \"NUMEXPR_NUM_THREADS\": \"1\"\n  },\n  \"method\": \"PBE/def2-SVP; Mo def2 ECP\",\n  \"grid_level\": 2,\n  \"PCM\": null\n}\n",
+    "stderr": "Overwritten attributes  get_jk  of <class 'pyscf.dft.rks.RKS'>\nWARN: HOMO 0.392159502238419 == LUMO 0.392159502238437\nTraceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/run.py\", line 67, in <module>\n    worker(sys.argv[1])\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/run.py\", line 58, in worker\n    assert mf.converged and np.isfinite(energy) and grad<1e-5\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+    "wall_seconds": 4.8514704999979585
+  }
+]

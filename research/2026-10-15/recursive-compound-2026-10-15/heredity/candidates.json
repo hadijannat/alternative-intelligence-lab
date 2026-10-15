@@ -1,0 +1,45 @@
+{
+  "goal_status": "UNMET",
+  "base": {"formula":"[MoVI34WVI VVO112(H2O)16]9-", "identity":"UNRESOLVED", "measured_properties_transferable_from_Mo36":false},
+  "sequence_type":"Sequential documentary and quantitative checks; no physical additions",
+  "candidates": [
+    {
+      "id":"H1", "formula":"[MoVI36O112(H2O)16]8-; proposed Mo6 assembly intermediates are not an independently qualified complement",
+      "function":"Renew an active assembly catalyst from inorganic molybdate feed",
+      "actual_check":"Read primary main paper and SI sections 3 and 6. Mo36 seeding is measured; SI p S32 explicitly treats Mo36-templated Mo6 formation as an experimental assumption. No founder-resolved serial transmission of differing activities is reported in these sections.",
+      "sourced_conditions":{"doi":"10.1073/pnas.1921536117", "SI_3_1":"0.25 M Na2MoO4·2H2O and 0.047 M HCl stock solutions mixed equally; 350 nm; 24.3 C in captions", "nominal_after_equal_mixing_M":{"molybdate":0.125,"HCl":0.0235},"reported_pH_failure":"Main p10701: 0.001 M HCl stock instead of 0.047 M gives pH >4.5 and suppressed Mo36 formation","source_ambiguity":"SI captions label stock concentrations as initial; S4 says increased [H+] beside pH>4.5. Main text supports decreased acid; do not silently correct source."},
+      "disposition":"Known assembly reference; no hereditary complement verified",
+      "nextcandidate":"H2", "reason":"Test a second inorganic autocatalytic template with independently reported chemistry",
+      "verifiedjointaddition":false
+    },
+    {
+      "id":"H2", "formula":"[PMoVI12O40]3-; Na2H[PMo12O40] stated in SI",
+      "function":"Alternative molecular template and selectable activity candidate",
+      "actual_check":"Compared main p10703 with SI 4-2/S17: incompatible acid identity and nominal concentration. Phosphate-free controls suppress the Keggin signal; initial-rate saturation followed by decline does not demonstrate transmitted variants.",
+      "sourced_conditions":{"doi":"10.1073/pnas.1921536117", "main":"Equal volumes: 1.4 M Na2MoO4 plus 0.06 M H3PO4; 4 M HClO4 in other container; 440 nm", "SI_4_2":"Equal volumes: 0.7 M Na2MoO4 and 0.06 M HCl; phosphate not specified in this paragraph", "temperature_C":24.3,"nominal_main_after_mix_M":{"molybdate":0.7,"phosphate":0.03,"HClO4":2},"nominal_SI_after_mix_M":{"molybdate":0.35,"HCl":0.03},"nominal_acid_ratio":66.66666666666667,"carbon_exclusion":"PMo12-containing Mo124Ce4 wheel contains cysteine-derived ligands and is excluded"},
+      "disposition":"Exact common-medium claim not supported; source discrepancy unresolved; no variant inheritance",
+      "nextcandidate":"H3", "reason":"Inspect structural transmission under an independently measured inorganic seed-removal experiment",
+      "verifiedjointaddition":false
+    },
+    {
+      "id":"H3", "formula":"NaClO3, left/right chiral crystals",
+      "function":"Transmit structural state into growing crystals",
+      "actual_check":"Reused 13 original trial rows and founder-mass rival. Eleven crops contain positive opposite-handed mass. Founder bound remains unmeasured; neither leakage mass nor matching mass is a reproduction error count or an inherited catalytic phenotype.",
+      "sourced_conditions":{"doi":"10.1016/j.ultsonch.2021.105763","medium":"400 mL aqueous 738 g/L NaClO3; 40 to 29 C over 30 min; mounted seed present 5 min; growth 20-22h after removal","energy":"300 rpm stirring or 98/200 kHz ultrasound; amplifier 20W, calorimetric 5.3/8.1W","excluded":"Ethanol anti-solvent arm","founder_mass_upper_bound_g":null},
+      "disposition":"Structural comparator retained; useful activity renewal and selectable variants unresolved",
+      "nextcandidate":"H4", "reason":"Examine serial inorganic framework growth with a measured material function",
+      "verifiedjointaddition":false
+    },
+    {
+      "id":"H4", "formula":"CHA (Na,K)x[AlxSiyO2(x+y)]·nH2O",
+      "function":"Renew a porous adsorbing framework and potentially preserve functional alternatives",
+      "actual_check":"Fresh primary XML Table 1 extracted: micropore volume 0.001 at 2h, 0.104 at 6h, 0.24 cm3/g at 24h; original K-form seeds approximately 0.001. Unchanged-founder capacity contributes at most 1/240 under stated additive assumptions. Altered old material and feed-driven ion exchange remain rivals. Fig13 reports successive seed reuse with composition drift; no serial N2 functionality comparison is supplied.",
+      "sourced_conditions":{"doi":"10.1039/C9RA10825D","feed_molar":"1SiO2:0.05Al2O3:0.3Na2O:0.1K2O:100H2O","seed_loading":"10 wt% of total silica, not 10% of final product","growth":"170 C, 24h for serial products","assay":"N2 adsorption at 77K after 300C vacuum pretreatment 6h; BET/t-plot","serial":"two seed-assisted growth rounds after initial FAU-to-CHA seeds; 150 particles per image histogram","counterexample":"at Na2O/SiO2=0.4 and K2O/SiO2=0.3 or 0.4, MER is sole product; original CHA topology does not survive every feed"},
+      "disposition":"Measured new or altered material function; no isolated new-material functional inheritance; no verified Mo34WV/Mo36 common medium",
+      "nextcandidate":null, "reason":"Four bounded candidates exhausted; next decisive evidence is common-medium parent-specific functional transfer into quantitatively new material, currently absent. No rate-based simulation justified.",
+      "verifiedjointaddition":false
+    }
+  ],
+  "verified_joint_additions":[],
+  "intelligent_life_verified":false
+}

@@ -1,0 +1,41 @@
+{
+  "checks_pass": true,
+  "checks": [
+    "source hash",
+    "164 counts",
+    "full occupancy",
+    "unique site map",
+    "two copies O1-O64/Mo1-Mo18",
+    "XYZ serialization",
+    "independent Cartesian connectivity",
+    "Mo coordination",
+    "no short pair",
+    "cutoff invariance"
+  ],
+  "negative_control": {
+    "cutoff_A": 2.0,
+    "counts": {
+      "Mo": 4,
+      "O": 11
+    },
+    "full_parent_rejected": true
+  },
+  "aqua_candidates_inferred_only": [
+    "O57@0",
+    "O57@2",
+    "O58@0",
+    "O58@2",
+    "O59@0",
+    "O59@2",
+    "O60@0",
+    "O60@2",
+    "O61@0",
+    "O61@2",
+    "O62@0",
+    "O62@2",
+    "O63@0",
+    "O63@2",
+    "O64@0",
+    "O64@2"
+  ]
+}

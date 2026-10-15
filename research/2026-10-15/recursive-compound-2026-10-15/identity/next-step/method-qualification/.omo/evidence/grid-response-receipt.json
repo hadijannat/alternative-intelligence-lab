@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "recursive-compound-2026-10-15/identity/next-step/method-qualification/grid_response.py"
+  ],
+  "returncode": 0,
+  "stdout": "output file: PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/.omo/evidence/grid-response-analytic.log\n{\n  \"case\": \"analytic\",\n  \"delta_O1_x_bohr\": 0.0,\n  \"energy_Eh\": -369.06891897495797,\n  \"orbital_gradient_norm\": 3.6663259151937066e-08,\n  \"converged\": true,\n  \"gradient_Eh_per_bohr\": [\n    [\n      -3.501252568026424e-09,\n      2.6634914927471848e-09,\n      -4.510685987689628e-10\n    ],\n    [\n      -0.01776291431935606,\n      -0.017762914046008597,\n      -0.017762914136534788\n    ],\n    [\n      -0.017762912972540998,\n      0.017762912920464405,\n      0.01776291280887525\n    ],\n    [\n      0.017762916276151966,\n      -0.017762916318915703,\n      0.017762916429187953\n    ],\n    [\n      0.017762914517073958,\n      0.017762914781042548,\n      -0.017762914650494996\n    ]\n  ],\n  \"wall_seconds\": 9.775004333001561\n}\n{\n  \"change\": \"Only analytic nuclear gradient grid_response=True; original driver settings reused verbatim\",\n  \"source_derivative_sha256\": \"a3662d39e943a1f67a05623ea7de4a3843eaa4ebf59f3cb56df8627b12a1d2cb\",\n  \"threshold_Eh_per_bohr\": 0.0001,\n  \"checks\": [\n    {\n      \"h_bohr\": 0.001,\n      \"analytic_Eh_per_bohr\": -0.01776291431935606,\n      \"central_difference_Eh_per_bohr\": -0.017754967842620317,\n      \"absolute_discrepancy\": 7.946476735742891e-06,\n      \"pass_threshold\": true\n    },\n    {\n      \"h_bohr\": 0.0005,\n      \"analytic_Eh_per_bohr\": -0.01776291431935606,\n      \"central_difference_Eh_per_bohr\": -0.01775495729816612,\n      \"absolute_discrepancy\": 7.957021189941571e-06,\n      \"pass_threshold\": true\n    }\n  ],\n  \"pass_all\": true,\n  \"original_failure_preserved\": true,\n  \"parent_input_admitted\": false\n}\n",
+  "stderr": "WARN: PCM is an experimental feature. It is still in testing.\nFeatures and APIs may be changed in the future.\nOverwritten attributes  get_jk  of <class 'pyscf.solvent._attach_solvent.PCMRKS'>\nWARN: HOMO 0.0758424535181978 == LUMO 0.0758424535182031\n",
+  "wall_seconds": 10.445929458946921
+}

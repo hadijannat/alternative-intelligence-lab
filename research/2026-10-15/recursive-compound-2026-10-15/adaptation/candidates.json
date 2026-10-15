@@ -1,0 +1,113 @@
+{
+  "target": "[MoVI34WVI VVO112(H2O)16]9− (nominal unverified identity)",
+  "evaluation_order": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "candidates": [
+    {
+      "id": "A1",
+      "formula": "WO3·H2O; written state HxWO3·H2O (x measured, not assigned)",
+      "function": "Aqueous proton/electron inventory that could modulate an electron-transfer action.",
+      "architecture": "Immobilized oxide, distinct ionic and electronic paths, sensor-to-write and state-to-resource interfaces. These interfaces remain proposals.",
+      "actual_check": [
+        "Read validated Spencer primary XML and source-condition audit.",
+        "Replayed existing WO3/Mn/Ce finite-capacity model with all 63 initial states and corruption controls; no new chemistry inferred."
+      ],
+      "conditions": {
+        "target": "Nominal Mo34WV identity and pH/redox/temperature window unknown. Mo36 parent pH≈1.7, 24.3 °C is a comparison only.",
+        "published": "0.5 M H2SO4, H2-purged electrochemistry, imposed RHE-referenced drive; electrochemical temperature not explicitly stated.",
+        "redox": "H+ insertion requires electron supply; HER competes for stored reducing equivalents. No target safe potential determined."
+      },
+      "negative_evidence": [
+        "Published electrode includes carbon/Nafion.",
+        "Formal HWO3 endpoint in capacity model is not demonstrated monohydrate occupancy.",
+        "No measured joint target identity, adaptive control, retention through oxide replacement or copied state."
+      ],
+      "who_updates": "Ionic/electronic material state responds to imposed electrochemical drive; no target-specific local learning update demonstrated.",
+      "state_renewal_copying": "Unmeasured",
+      "decision": "unresolved",
+      "verified_complement_added": false,
+      "next_alternative": "A2: VO2 structural memory reduces reliance on storing reactive reducing equivalents."
+    },
+    {
+      "id": "A2",
+      "formula": "VO2",
+      "function": "Structural history read through switching incubation time.",
+      "architecture": "Fabricated contacted film with separate read/write routes; chemical sensor and resource actuator would need transducers.",
+      "actual_check": [
+        "Reopened EPFL primary manuscript: 3 μm device, 2.1 V 10 μs pulses; about 1.4 μs first incubation, tenfold shortening after 10 ms; history persists at 10000 s."
+      ],
+      "conditions": {
+        "target": "No aqueous Mo34WV exposure or joint operating window measured.",
+        "published": "Solid contacted VO2 films; temperature/phase-transition excitations; device voltage is not a solution redox potential.",
+        "redox": "No validated mapping from device voltage to POM oxidation state."
+      },
+      "negative_evidence": [
+        "Stored structural history is not demonstrated local task-error reduction or resource maintenance.",
+        "Repeated probing concerns the same film, not newly renewed state-bearing material."
+      ],
+      "who_updates": "Physical structural history changes following externally imposed transitions.",
+      "state_renewal_copying": "Unmeasured",
+      "decision": "unresolved",
+      "verified_complement_added": false,
+      "next_alternative": "A3: NiO directly responds to chemical stimuli, reducing the missing sensor bridge."
+    },
+    {
+      "id": "A3",
+      "formula": "NiO",
+      "function": "Gas/light-history-dependent response plasticity; candidate direct environmental sensor-state element.",
+      "architecture": "Pt-contacted NiO film, stimulus supply, resource-control output coupling still missing.",
+      "actual_check": [
+        "Fresh primary indexed text: compare 900 s H2 ON/900 s OFF forgetting control with 900 s ON/45 s OFF habituation; 15 s O3 sensitization.",
+        "Fresh full XML retrieval failed HTTP 500; no raw-data replay claimed."
+      ],
+      "conditions": {
+        "target": "200 °C gas protocol does not establish operation in parent-like 24.3 °C acidic water.",
+        "published": "5% H2, 200 °C, 100 mL/min gas flow; separate room-temperature UV behavior exists but is not the gas protocol.",
+        "redox": "Strong reducing/oxidizing gas alternation; no common-medium POM stability result."
+      },
+      "negative_evidence": [
+        "Hot gas architecture cannot be directly inserted into the proposed ambient aqueous assembly.",
+        "Associated clustering is software simulation.",
+        "No causal improvement of cluster resource allocation or renewal."
+      ],
+      "who_updates": "Defect/electronic state evolves in material; gas timing external. Clustering weight updates belong to a separate simulation.",
+      "state_renewal_copying": "Unmeasured",
+      "decision": "reject",
+      "decision_scope": "Reject direct adoption of the published 200 °C gas protocol into the ambient aqueous candidate; not rejection of NiO learning or all possible separated architectures.",
+      "verified_complement_added": false,
+      "next_alternative": "A4: Ag2S local ionic update at room-temperature device conditions."
+    },
+    {
+      "id": "A4",
+      "formula": "Ag2S with Ag metal reservoir and Ti/Pt contacts",
+      "function": "Local pulse-correlated conductance change and state-dependent persistence.",
+      "architecture": "200×200 nm cross-point ionic cell; electrically isolate from aqueous target, add defined sensing/action coupling before claiming integration.",
+      "actual_check": [
+        "Downloaded primary article and inspected equation image.",
+        "Evaluated measured-device fit tau_fac=3.40e12 G^4 in SI units at reported 1 and 3.5 mS: 3.40 and 510.2125 s; ratio 150.0625. Unit-corruption control detects 10^12 error."
+      ],
+      "conditions": {
+        "target": "No pH, redox, sulfide/Ag-ion release or target-cluster compatibility measurements.",
+        "published": "300 K reference versus 420 K comparison; ±400 mV 50 μs pulse pairs; 100 s rest probe.",
+        "redox": "Ag oxidation/reduction at manufactured electrodes, not measured freely suspended particle learning."
+      },
+      "negative_evidence": [
+        "Model V1 misses paired-pulse potentiation; V2 qualitative and device variability remains.",
+        "Motion-learning demonstration is system-level simulation.",
+        "Fit lifetime is not a universal measured constant or independent held-out forecast.",
+        "No state copying or self-renewing active cell."
+      ],
+      "who_updates": "Device ionic filament responds locally to imposed pulses; published task-level simulation computes network behavior.",
+      "state_renewal_copying": "Unmeasured",
+      "decision": "unresolved",
+      "verified_complement_added": false,
+      "next_alternative": "Use a physically local update architecture as a control; first measure A1 joint speciation/state retention, then test memory-to-resource causality."
+    }
+  ],
+  "verified_complements_added": 0,
+  "goal": "UNMET"
+}

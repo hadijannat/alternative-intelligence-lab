@@ -1,0 +1,51 @@
+[
+  {
+    "id": "WO3",
+    "url": "https://doi.org/10.1039/D4SC00102H",
+    "path": "noncarbon-discovery-2026-10-15/research/redox_compatibility/raw/spencer2024.xml",
+    "sha256": "f899e2903a3d7c418dc94e3e84ebde158d282086959c83399044e4ede73d7ad1",
+    "scope": "Validated full XML reused; same-medium function absent"
+  },
+  {
+    "id": "VO2",
+    "url": "https://doi.org/10.1038/s41928-022-00812-z",
+    "path": "noncarbon-discovery-2026-10-15/research/information/raw/vo2-2022.pdf",
+    "sha256": "a575eaa14f4b78c299481286df9b2da578377849d1fe378e3d314f0f61bd7060",
+    "scope": "Author manuscript read through existing extraction"
+  },
+  {
+    "id": "AGS",
+    "url": "https://doi.org/10.1038/srep39216",
+    "path": "recursive-compound-2026-10-15/adaptation/raw/ags.html",
+    "sha256": "250920baf117e68beed61521d55b8d7918686c13ffd460efb4017fced14e65ff",
+    "scope": "New primary full HTML and equation image; fitted-law audit"
+  },
+  {
+    "id": "ANALOG",
+    "url": "https://doi.org/10.1073/pnas.2319718121",
+    "path": "noncarbon-discovery-2026-10-15/research/information/raw/analog-2024.xml",
+    "sha256": "4e2a79e948d3604d2aaf5146d8be85fb927453d827086a630a8b7c5520f3d349",
+    "scope": "Primary local-update circuit boundary checked"
+  },
+  {
+    "id": "DRYAD",
+    "url": "https://doi.org/10.5061/dryad.8w9ghx3vx",
+    "path": "recursive-compound-2026-10-15/adaptation/raw/dryad-dataset.json",
+    "sha256": "09e3b9d7bbf8f5e4d8050b6966ba9de881c409077b96d894a83c5271c6dda9f5",
+    "scope": "Metadata only; data downloads blocked"
+  },
+  {
+    "id": "NIO",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8488684/",
+    "scope": "Fresh indexed primary Results/Methods text read with web search; fullXML retrieval failed HTTP500; no retained full article",
+    "quantitative_extraction": {
+      "H2_percent": 5,
+      "temperature_C": 200,
+      "H2_ON_s": 900,
+      "forgetting_OFF_s": 900,
+      "habituation_OFF_s": 45,
+      "ozone_s": 15,
+      "gas_flow_mL_min": 100
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "status": "PASS_BOUNDED_FIXED_GEOMETRY_ARITHMETIC",
+  "target_admitted": false,
+  "source_publications": 1,
+  "source_parameter_rows": 3,
+  "expanded_metal_sites": 36,
+  "crystallographic_metal_sites": 18,
+  "score_rows": 108,
+  "cutoffs_A": [
+    2.5,
+    2.6,
+    2.7
+  ],
+  "independent_arithmetic_max_error": 2.6645352591003757e-15,
+  "checks": [
+    "CIF-to-mapping exact equality",
+    "XYZ-to-mapping within rounding",
+    "all cutoff extractions preserve 164-site component",
+    "connectivity counts match independent Cartesian distances",
+    "scalar math.fsum vs NumPy vectorized BVS within 1e-12",
+    "symmetry equivalent sums within 1e-10"
+  ],
+  "input_sha256": {
+    "recursive-compound-2026-10-15/identity/site_mapping.json": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
+    "recursive-compound-2026-10-15/identity/parent_heavy.xyz": "90a86c26f4a106d9f8a185ce8cd5cb79b2117ccad4779c3beeb517c1e0601dc8",
+    "recursive-compound-2026-10-15/identity/extract.py": "9912f6b9c3fefcf345c75d14c91d06e5c86084684d4f67d57575839e94e85bc3",
+    "noncarbon-discovery-2026-10-15/research/structure/raw/cod2107026.cif": "9a2275df1f08e8160b95d7139356e4b790d57ee97caafff321c0c4d7846be799",
+    "noncarbon-discovery-2026-10-15/research/structure/check.py": "60f1f0850201305a6d02aa6b115d4b63474de09df1ba93c918da5b90a736b779",
+    "recursive-compound-2026-10-15/site_chemistry/sources/gagne2015.pdf": "38ae854bc1c03999dab20f3b2f6364696387dab2f381c1a9c9baac8e740eb425",
+    "recursive-compound-2026-10-15/site_chemistry/sources/gagne2015.txt": "8916f9189427dc1a42bd97510b0b2a94630a607cb532aafef4238188cbdb859c",
+    "recursive-compound-2026-10-15/site_chemistry/evaluate.py": "07006a69d72cf27274db1188992751bce339df85261847888c92ebc56a3431c9"
+  },
+  "results": [
+    {
+      "cutoff_A": 2.5,
+      "parent_BVS_min": 5.903477487800785,
+      "parent_BVS_max": 6.312166049373919,
+      "parent_RMSD_vu": 0.14467664484877388,
+      "coordination_numbers": [
+        6,
+        7
+      ],
+      "W_best": [
+        "Mo8@0",
+        "Mo8@2"
+      ],
+      "V_best": [
+        "Mo7@0",
+        "Mo7@2"
+      ]
+    },
+    {
+      "cutoff_A": 2.6,
+      "parent_BVS_min": 5.903477487800785,
+      "parent_BVS_max": 6.312166049373919,
+      "parent_RMSD_vu": 0.14467664484877388,
+      "coordination_numbers": [
+        6,
+        7
+      ],
+      "W_best": [
+        "Mo8@0",
+        "Mo8@2"
+      ],
+      "V_best": [
+        "Mo7@0",
+        "Mo7@2"
+      ]
+    },
+    {
+      "cutoff_A": 2.7,
+      "parent_BVS_min": 5.903477487800785,
+      "parent_BVS_max": 6.312166049373919,
+      "parent_RMSD_vu": 0.14467664484877388,
+      "coordination_numbers": [
+        6,
+        7
+      ],
+      "W_best": [
+        "Mo8@0",
+        "Mo8@2"
+      ],
+      "V_best": [
+        "Mo7@0",
+        "Mo7@2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "change": "Only analytic nuclear gradient grid_response=True; original driver settings reused verbatim",
+  "source_derivative_sha256": "a3662d39e943a1f67a05623ea7de4a3843eaa4ebf59f3cb56df8627b12a1d2cb",
+  "threshold_Eh_per_bohr": 0.0001,
+  "checks": [
+    {
+      "h_bohr": 0.001,
+      "analytic_Eh_per_bohr": -0.01776291431935606,
+      "central_difference_Eh_per_bohr": -0.017754967842620317,
+      "absolute_discrepancy": 7.946476735742891e-06,
+      "pass_threshold": true
+    },
+    {
+      "h_bohr": 0.0005,
+      "analytic_Eh_per_bohr": -0.01776291431935606,
+      "central_difference_Eh_per_bohr": -0.01775495729816612,
+      "absolute_discrepancy": 7.957021189941571e-06,
+      "pass_threshold": true
+    }
+  ],
+  "pass_all": true,
+  "original_failure_preserved": true,
+  "parent_input_admitted": false
+}

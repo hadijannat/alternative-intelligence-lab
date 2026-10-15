@@ -1,0 +1,36 @@
+{
+  "status": "PASS_DOSSIER_CHECKS_ONLY",
+  "rows": 10,
+  "buffer_conditions": 27,
+  "nominal_to_initial_pH_change": {
+    "PMo12_3": -1.03,
+    "PMo12_4": -1.9,
+    "alpha-P2W18_3": -0.01,
+    "alpha-P2W18_4": 0.0
+  },
+  "conditional_fraction_example": {
+    "parent_signal": [
+      76,
+      7.6
+    ],
+    "assigned_total_signal": [
+      100,
+      10
+    ],
+    "same_fraction": 0.76,
+    "total_recovery_identified": false
+  },
+  "raw_NMR_reprocessed": false,
+  "integrated_compatibility_verified": false,
+  "target_verified": false,
+  "source_hash_checks": "PASS",
+  "source_mean_discrepancy_preserved": [
+    {
+      "species": "PMo12",
+      "medium": "D2O",
+      "stage": "after_24h_37C",
+      "replicate_mean": 74.66666666666667,
+      "source_mean": 74.0
+    }
+  ]
+}

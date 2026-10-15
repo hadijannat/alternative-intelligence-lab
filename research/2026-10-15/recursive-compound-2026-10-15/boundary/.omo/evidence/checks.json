@@ -1,0 +1,103 @@
+{
+  "status": "PASS_ACCOUNTING_ONLY",
+  "physical_boundary_verified": false,
+  "invocation": "python3 recursive-compound-2026-10-15/boundary/checks.py",
+  "zirconia_100_mg_L_batch_inventory_ceiling_mg_g": 20.0,
+  "zirconia_reported_points_with_derived_inventory": [
+    {
+      "feed_mg_per_L": 50,
+      "reported_q_mg_per_g": 7,
+      "feed_mg": 0.5,
+      "retained_mg": 0.35000000000000003,
+      "removal_fraction_derived": 0.7000000000000001
+    },
+    {
+      "feed_mg_per_L": 700,
+      "reported_q_mg_per_g": 51,
+      "feed_mg": 7.0,
+      "retained_mg": 2.5500000000000003,
+      "removal_fraction_derived": 0.3642857142857143
+    }
+  ],
+  "goethite_tested_feed_inventory_umol_Mo_per_g": [
+    2.0,
+    20.0
+  ],
+  "formal_reaction_checks": [
+    {
+      "formal_reaction": "36 MoO4 + 64 H+ -> Mo36 + 16 H2O",
+      "residuals": {
+        "Mo": 0,
+        "H": 0,
+        "O": 0,
+        "Fe": 0,
+        "S": 0,
+        "Si": 0,
+        "q": 0
+      }
+    },
+    {
+      "formal_reaction": "FeOOH + 3 H+ -> Fe3+ + 2 H2O",
+      "residuals": {
+        "Mo": 0,
+        "H": 0,
+        "O": 0,
+        "Fe": 0,
+        "S": 0,
+        "Si": 0,
+        "q": 0
+      }
+    },
+    {
+      "formal_reaction": "FeS + 2 H+ -> Fe2+ + H2S",
+      "residuals": {
+        "Mo": 0,
+        "H": 0,
+        "O": 0,
+        "Fe": 0,
+        "S": 0,
+        "Si": 0,
+        "q": 0
+      }
+    },
+    {
+      "formal_reaction": "Si(OH)4 -> SiO2 + 2 H2O",
+      "residuals": {
+        "Mo": 0,
+        "H": 0,
+        "O": 0,
+        "Fe": 0,
+        "S": 0,
+        "Si": 0,
+        "q": 0
+      }
+    }
+  ],
+  "elemental_retention_nonidentifiability": {
+    "normalized_Mo_atoms": 36,
+    "possible_intact_Mo36_counts": [
+      0,
+      1
+    ],
+    "meaning": "Both zero intact clusters and one intact cluster satisfy the same total Mo inventory. This is an algebraic counterexample, not measured speciation."
+  },
+  "candidate_count": 5,
+  "verified_complements": 0,
+  "prior_artifacts_read_sha256": {
+    "discovery-loop/experiments/mo36-interface-resume-2026-10-13/REPORT.md": "8617de13861bb6a9c20e764ed907dd799825f2a70cee307339d1755936a92925",
+    "discovery-loop/experiments/mo36-interface-resume-2026-10-13/encounter/model.py": "1964f83e43921ee8099a84c396e2c88beb8e694911097932efe3e52b73cfc992",
+    "discovery-loop/experiments/mo36-feiii-clogging-v1/protocol.json": "a4d0fb7783dfdd107c0d8ebfc8785dfa95f957aa5f4541820e71a0459ac07d79",
+    "discovery-loop/experiments/mo36-feiii-clogging-v1/model.py": "500534d7ba4f67f0d1c2bfce6dada2ec89db63c174fc3c47263e34bfad43ec45",
+    "noncarbon-discovery-2026-10-15/research/compartments/REPORT.md": "1601e3e5df1be0925b9ea952190e784120c47c551fe78a3238174c4a5ba4b14e",
+    "noncarbon-discovery-2026-10-15/research/critical/REPORT.md": "530b0972d6c2c673cac982f1008fd137178800c29c60a552e9d47742d8a3d028",
+    "noncarbon-discovery-2026-10-15/research/redox_compatibility/REPORT.md": "44f1797d5f9dd2f977e124d5dce92cf04e18bb964d812a0007db00be9f161278"
+  },
+  "not_run": [
+    "wet chemistry",
+    "old model reruns",
+    "parameter fitting",
+    "DFT",
+    "permeability prediction"
+  ],
+  "limit": "Inventory and formal charge/atom checks establish no direction, rate, stability, active fraction or life."
+}

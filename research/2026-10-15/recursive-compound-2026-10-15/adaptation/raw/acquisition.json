@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://datadryad.org/api/v2/files/3283458/download",
+    "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+    "url": "https://datadryad.org/api/v2/files/3283475/download",
+    "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+    "url": "https://datadryad.org/downloads/file_stream/3283458",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "url": "https://datadryad.org/downloads/file_stream/3283475",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8488684/fullTextXML",
+    "error": "HTTP 500",
+    "result": "fresh retrieval failed; primary indexed excerpts only"
+  },
+  {
+    "url": "https://www.nature.com/articles/srep39216",
+    "path": "raw/ags.html",
+    "bytes": 379098,
+    "sha256": "250920baf117e68beed61521d55b8d7918686c13ffd460efb4017fced14e65ff",
+    "result": "primary article downloaded; title and experimental passages checked"
+  },
+  {
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep39216/MediaObjects/41598_2016_Article_BFsrep39216_Equ1_HTML.gif",
+    "path": "raw/ags-equation1.gif",
+    "result": "downloaded and visually inspected"
+  }
+]

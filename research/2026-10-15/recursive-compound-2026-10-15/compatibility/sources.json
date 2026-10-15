@@ -1,0 +1,57 @@
+[
+  {
+    "id": "atlas2023",
+    "doi": "10.1126/sciadv.adi0814",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10284552/",
+    "files": [
+      "raw/article.xml",
+      "raw/article.txt",
+      "raw/supplement.pdf",
+      "raw/supplement.txt"
+    ],
+    "license": "CC BY 4.0",
+    "scope": "SI Tables S8,S10,S11,S17,S18,S19; published tabulation, not independently reprocessed NMR",
+    "sha256": {
+      "raw/article.xml": "5b5357ee28a3c675c5958b009cb30c19ee91ae8fe752071a7f7adc24032198af",
+      "raw/article.txt": "b2382865de284640458e4c771857fd2668edc6a83928b435724e35aa07655e24",
+      "raw/supplement.pdf": "b73c461277dd22c0f7ee643fbb72197a8cae96fe93e26a909d56cf9079c9ff69",
+      "raw/supplement.txt": "9ab7a3b14bd2948dea63e319f3071ddcb103a48a90c3da87cede6a8e80451b00"
+    }
+  },
+  {
+    "id": "archive",
+    "doi": "10.25365/phaidra.398",
+    "url": "https://phaidra.univie.ac.at/o:1648343",
+    "files": [
+      "raw/access.json"
+    ],
+    "scope": "access failure only; no spectra imported",
+    "sha256": {
+      "raw/access.json": "ed1aabbaecbb61d7310f7aa2d2e8bcb36a066ed89fab4205c92e0656c804562b"
+    }
+  },
+  {
+    "id": "parent",
+    "doi": "10.1073/pnas.1921536117",
+    "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Mathis-PNASMay2020.pdf",
+    "files": [
+      "../../noncarbon-discovery-2026-10-15/research/pom/raw/miras2020.txt"
+    ],
+    "scope": "parent pH1.7,24.3C read directly",
+    "sha256": {
+      "../../noncarbon-discovery-2026-10-15/research/pom/raw/miras2020.txt": "acf05ef5f0c3a7cecdd1772b485997cab37a85309b25217384d6232c2eabb27f"
+    }
+  },
+  {
+    "id": "WO3",
+    "doi": "10.1039/D4SC00102H",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10988594/",
+    "files": [
+      "../../noncarbon-discovery-2026-10-15/research/redox_compatibility/raw/spencer2024.xml"
+    ],
+    "scope": "0.5M sulfuric acid; separate electrode experiment",
+    "sha256": {
+      "../../noncarbon-discovery-2026-10-15/research/redox_compatibility/raw/spencer2024.xml": "f899e2903a3d7c418dc94e3e84ebde158d282086959c83399044e4ede73d7ad1"
+    }
+  }
+]

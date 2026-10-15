@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "rg",
+    "-l",
+    "ddCOSMO|ddcosmo|\\.PCM\\(|solvent\\.PCM|with_solvent",
+    "discovery-loop/experiments",
+    "--glob",
+    "*.py",
+    "--glob",
+    "*report*",
+    "--glob",
+    "*REPORT*",
+    "--glob",
+    "!**/.venv/**"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "",
+  "interpretation": "No continuum implementation found in scoped prior experiment scripts/reports; no claim of exhaustive hidden-file search."
+}

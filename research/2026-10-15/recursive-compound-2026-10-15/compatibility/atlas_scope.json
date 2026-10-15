@@ -1,0 +1,143 @@
+{
+  "POMs": [
+    "PW12",
+    "alpha-P2W18",
+    "alpha/beta-P2W18",
+    "P5W30",
+    "(ZrPW11)2",
+    "PMo12",
+    "P2Mo18",
+    "TeW6",
+    "SiW12",
+    "V10"
+  ],
+  "target_tested": false,
+  "Mo36_tested": false,
+  "buffers": [
+    {
+      "name": "acetate",
+      "pH": [
+        4,
+        5,
+        5.5
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "citrate",
+      "pH": [
+        3,
+        4,
+        5,
+        6,
+        6.5
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "sodium phosphate",
+      "pH": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "PBS",
+      "pH": [
+        7.4
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "tris-HCl",
+      "pH": [
+        7.5,
+        8,
+        8.5
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "glycine-NaOH",
+      "pH": [
+        8.6
+      ],
+      "concentration_M": [
+        0.1,
+        0.2,
+        0.5
+      ]
+    },
+    {
+      "name": "HEPES",
+      "pH": [
+        7,
+        8
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "MES",
+      "pH": [
+        "Table1:6; SI:5.5"
+      ],
+      "concentration_M": [
+        0.1
+      ]
+    },
+    {
+      "name": "MHB",
+      "pH": [
+        7.4
+      ],
+      "concentration_M": [
+        "complex medium"
+      ]
+    },
+    {
+      "name": "F-12 Ham",
+      "pH": [
+        7.4
+      ],
+      "concentration_M": [
+        "complex medium"
+      ]
+    },
+    {
+      "name": "water/D2O",
+      "pH": [
+        "unbuffered"
+      ],
+      "concentration_M": [
+        0
+      ]
+    }
+  ],
+  "standard_POM_mM": 10,
+  "W183_only_POM_mM": 20,
+  "W183_buffer_M": 0.2,
+  "timepoints": [
+    "immediately after preparation",
+    "after 24 h incubation at37C"
+  ],
+  "NMR_acquisition_C": 25,
+  "W183_acquisition_hours_approx": 60,
+  "scope_warning": "TeW6 and SiW12 selected conditions only; buffer concentration has glycine exceptions; MES main/SI discrepancy preserved"
+}

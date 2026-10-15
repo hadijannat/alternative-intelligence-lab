@@ -1,0 +1,110 @@
+{
+  "target": "nominal [MoVI34WVI VVO112(H2O)16]9−",
+  "target_existence_verified": false,
+  "search_scope": "four sequential energy/regeneration candidates; not exhaustive",
+  "candidates": [
+    {
+      "id": "E1",
+      "formula": "WO3·H2O; HxWO3·H2O",
+      "proposed_role": "Finite proton/electron reservoir and catalytic interface",
+      "source_ids": [
+        "Spencer2024",
+        "E720"
+      ],
+      "conditions": {
+        "electrolyte": "0.5 M H2SO4",
+        "atmosphere": "H2 continuously bubbled",
+        "temperature": "unresolved in reviewed methods",
+        "drive": "externally imposed current/potential",
+        "carbon_boundary": "oxide carbon-free; glassy carbon/Nafion electrode is not"
+      },
+      "observation": "Source monohydrate x≈0.69 in measured window and CA-interpolated HER overpotential 501.0 mV at 10 mA cm−2.",
+      "executed_check": ".omo/evidence/capacity-replay.json",
+      "failure": "No shared-medium target compatibility or autonomous reservoir recharge; stored hydrogen can enter HER.",
+      "standalone_component_evidence": true,
+      "added_to_verified_joint_system": false,
+      "next_candidate": "E2",
+      "reason": "A soluble multi-electron reservoir offers a distinct charge-storage architecture."
+    },
+    {
+      "id": "E2",
+      "formula": "Li6[P2W18O62]",
+      "proposed_role": "Soluble multielectron reservoir",
+      "source_ids": [
+        "Chen2022"
+      ],
+      "conditions": {
+        "medium": "aqueous concentrated lithium salt, concentration-dependent 50–100 mM cases",
+        "drive": "external electrochemical reduction",
+        "temperature": "not resolved for common-medium test",
+        "pH": "low-concentration CV pH 4 and 7 does not define all concentrated experiments"
+      },
+      "observation": "Up to 18 electrons per cluster under studied conditions; concentrated reduced solutions can release H2 on dilution. Separate UV–vis experiment uses 10 mM and up to 12 electrons.",
+      "executed_check": "Source main text and figure captions reread; current hashes in source_ledger.json.",
+      "failure": "Finite externally written state with concentration-dependent discharge; no target coupling or retained activity after renewal.",
+      "standalone_component_evidence": true,
+      "added_to_verified_joint_system": false,
+      "next_candidate": "E3",
+      "reason": "Evaluate a mediator with both stages of a full externally driven cycle quantified."
+    },
+    {
+      "id": "E3",
+      "formula": "H3PMo12O40; [PMo12O40]3−",
+      "proposed_role": "Electron-coupled proton buffer",
+      "source_ids": [
+        "Symes2013"
+      ],
+      "conditions": {
+        "buffer": "0.5 M phosphomolybdic acid, pH 0.3",
+        "comparison_electrolyte": "1 M H3PO4 in source comparator; not asserted to be mixed with buffer",
+        "benchmark_current_density_mA_cm2": 100,
+        "potential_reference": "NHE values already reported by authors",
+        "drive": "both steps externally biased",
+        "carbon_boundary": "active anion carbon-free; demonstrated membranes/electrodes include carbon",
+        "benchmark_scope": "Author estimate combining separate half-cell comparisons at 100 mA cm−2 with platinum electrodes; not integrated full-cell work."
+      },
+      "observation": "Benchmark two-step equivalent voltage 2.94 versus 2.55 V direct; equal two-electron throughput.",
+      "executed_check": ".omo/evidence/checks.json:pmo12",
+      "failure": "No common-medium Mo36 or target-regeneration measurement. External electrical input is permitted; this demonstrated buffer cycle does not establish its useful coupling to target maintenance.",
+      "standalone_component_evidence": true,
+      "added_to_verified_joint_system": false,
+      "next_candidate": "E4",
+      "reason": "Test a distinct energy transduction route using external heat."
+    },
+    {
+      "id": "E4",
+      "formula": "CeO2; CeO2−δ",
+      "proposed_role": "Thermochemical water-splitting energy transducer",
+      "source_ids": [
+        "Arribas2018",
+        "Chueh2010SI",
+        "E720"
+      ],
+      "conditions": {
+        "phase": "externally irradiated solid",
+        "gas": "Ar/steam",
+        "pressure_bar": 1,
+        "thermocouple_max_C_range": [
+          990,
+          1280
+        ],
+        "pyrometer_max_C_range": [
+          1305,
+          1760
+        ],
+        "temperature_note": "both instruments retained; actual temperature unresolved",
+        "carbon_boundary": "CeO2 active phase carbon-free; 2010 separate preparation used carbonaceous poreformers"
+      },
+      "observation": "Nine published cycle central values transcribed; all incident energy sums checked; corrected total-output/total-input efficiencies 0.0099121%, 0.0114768%, 0.0093518%.",
+      "executed_check": ".omo/evidence/checks.json:ceria",
+      "failure": "High-temperature gas-solid cycle has no same aqueous medium or characterized interface with target. Large source uncertainties forbid precise new kinetics.",
+      "standalone_component_evidence": true,
+      "added_to_verified_joint_system": false,
+      "next_candidate": "No fifth chemical addition admitted",
+      "reason": "Next information gain requires joint identity, charge and functional-turnover measurement; arbitrary additions do not resolve it."
+    }
+  ],
+  "joint_additions": 0,
+  "goal_complete": false,
+  "external_energy_policy": "External energy is admissible; missing target coupling and maintained function are the failure criteria."
+}

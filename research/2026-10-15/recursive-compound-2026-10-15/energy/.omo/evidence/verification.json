@@ -1,0 +1,50 @@
+{
+  "status": "PASS_ARTIFACT_AND_BOUNDED_CHECKS",
+  "recorded_utc": "2026-10-15T17:33:45.922594+00:00",
+  "scenarios": [
+    {
+      "scenario": "new_source_arithmetic",
+      "invocation": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python",
+        "PROJECT_ROOT/recursive-compound-2026-10-15/energy/checks.py"
+      ],
+      "exit_code": 0,
+      "binary_observable": true,
+      "artifact": ".omo/evidence/checks.json",
+      "sha256": "6195d2061d729dbd242080d1696977296a057ae00f9d1b8fa6b7b5c39bf3500b",
+      "stderr_empty": true
+    },
+    {
+      "scenario": "prior_finite_occupancy",
+      "invocation": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python",
+        "discovery-loop/experiments/wo3-mn-ce-redox-capacity-v1/runner.py"
+      ],
+      "exit_code": 0,
+      "binary_observable": true,
+      "artifact": ".omo/evidence/capacity-replay.json",
+      "sha256": "4b8450e698c3d794f6700bc059fe81ff57adc12a8d2a961b9fb909ef743462a7",
+      "stderr_empty": true
+    },
+    {
+      "scenario": "prior_neutral_counterion",
+      "invocation": [
+        "/USER_HOME/.pyenv/versions/3.12.3/bin/python",
+        "discovery-loop/experiments/manganese-mo36-counterion-transport-v1/runner.py"
+      ],
+      "exit_code": 0,
+      "binary_observable": true,
+      "artifact": ".omo/evidence/counterion-replay.json",
+      "sha256": "c02bc7c684014ee7a5f93c203d8744fb824b1951b3024456fdfffb86f352cd02",
+      "stderr_empty": true
+    }
+  ],
+  "source_hashes_checked": 16,
+  "candidate_count": 4,
+  "joint_additions": 0,
+  "goal_complete": false,
+  "visual_observation": "Both retained table images inspected; rows match transcription.",
+  "limits": "Passing software checks do not verify chemical target existence, joint compatibility, regeneration, life or intelligence.",
+  "local_report_links_checked": 10,
+  "local_report_links_all_nonempty": true
+}

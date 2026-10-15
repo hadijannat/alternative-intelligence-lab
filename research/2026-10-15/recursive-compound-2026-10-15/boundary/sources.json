@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "doi": "10.1039/F19878302835",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/1987/f1/f19878302835",
+    "access": "Primary publisher abstract through web; direct HTTP 403",
+    "artifact": "raw/primary-access.json",
+    "finding": "Impregnation acidity changes silica-supported molybdena identity; pH 1 yields a silicomolybdate phase.",
+    "limit": "Prepared catalyst study, not intact Mo36 retention in an operating aqueous boundary."
+  },
+  {
+    "id": "S2",
+    "doi": "10.1002/slct.201900756",
+    "url": "https://avesis.metu.edu.tr/yayin/59cdb421-6a72-4e1a-816e-7e8d3efbc621/immobilized-polyoxomolybdate-nanoclusters-on-functionalized-sba-15-green-access-to-efficient-and-recyclable-nanocatalyst-for-the-epoxidation-of-alkenes",
+    "access": "Author institutional abstract archived; indexed author-paper excerpt identifies nitrosyl formula; publisher full text failed",
+    "artifact": "raw/mo36_sba2019.html",
+    "identity_artifact": "raw/cluster-identity-access.json",
+    "finding": "Aminopropyl-functionalized SBA-15 supports a nitrosyl Mo36 derivative for epoxidation.",
+    "limit": "Organic essential linker and different cluster. No boundary renewal or parent assembly assay."
+  },
+  {
+    "id": "S3",
+    "doi": "10.1007/s11270-026-09246-1",
+    "url": "https://link.springer.com/article/10.1007/s11270-026-09246-1",
+    "access": "Full primary publisher HTML archived",
+    "artifact": "raw/zirconia2026.html",
+    "finding": "Monoclinic zirconia adsorption data in 3 M nitric acid.",
+    "limit": "Total solution Mo assay; fitted capacity is not molecular identity, permeability or active-cluster stability. Source switches Mo(VI)/Mo(IV) labels in kinetics prose; no redox inference imported."
+  },
+  {
+    "id": "S4",
+    "doi": "10.1016/0021-9517(89)90273-X",
+    "url": "https://www.sciencedirect.com/science/article/pii/002195178990273X",
+    "access": "Primary abstract in search return; subsequent direct open failed. Authors' related full 1990 paper archived.",
+    "artifact": "raw/search-exact-and-oxides.json",
+    "related_doi": "10.1627/jpi1958.33.347",
+    "related_artifact": "raw/titania1990.pdf",
+    "finding": "Titania uptake depends on pH; characterized calcined Mo oxide differs from parent cluster.",
+    "limit": "Calcined catalyst and organic oxidation assay cannot establish aqueous Mo36 support function."
+  },
+  {
+    "id": "S5",
+    "doi": "10.1016/j.apgeochem.2024.105907",
+    "url": "https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/8f408e79-8c83-46bc-b755-0fb550d46f24/content",
+    "access": "Primary author-repository full PDF archived and text extracted",
+    "artifact": "raw/goethite2024.pdf",
+    "finding": "Goethite adsorption envelopes across pH, temperature and electrolyte; about 700 points reported in SI Figure S4.",
+    "limit": "Mo and V measured separately at dilute concentrations; SI/raw points not acquired, no pH 1.7 Mo36 model extrapolation."
+  },
+  {
+    "id": "S6",
+    "doi": "10.1021/acs.jpcc.1c05497",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.1c05497",
+    "access": "Primary publisher abstract via search archived",
+    "artifact": "raw/search-exact-and-oxides.json",
+    "finding": "Spectroscopy and calculations support altered surface molybdate coordination on goethite.",
+    "limit": "pH 5-8 molybdate data, no intact Mo36 assignment."
+  },
+  {
+    "id": "S7",
+    "doi": "10.1021/acsearthspacechem.0c00176",
+    "url": "https://www.ziqinni.com/uploads/1/1/8/6/118673658/miller_etal_2020__acs.pdf",
+    "access": "Primary author-hosted full PDF archived; publisher direct route 403",
+    "artifact": "raw/sulfide2020.pdf",
+    "finding": "Tetrathiomolybdate retention on iron sulfide accompanies Mo reduction and mineral transformation.",
+    "limit": "Different Mo species, MES organic buffer, initial pH 5.9; neither carbon-free-medium nor acidic Mo36 integration evidence."
+  },
+  {
+    "id": "S8",
+    "doi": "10.1073/pnas.1921536117",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1921536117",
+    "access": "Primary publisher full text through web archived",
+    "artifact": "raw/confirmatory-access.json",
+    "finding": "Parent Mo36 seed-dependent assembly and destructive strongly reduced regime.",
+    "limit": "No mineral-boundary joint assay. Abstract cluster label is inconsistent with Fig.1; use explicit Fig.1 parent formula. Feed/final concentration wording remains ambiguous."
+  },
+  {
+    "id": "S9",
+    "doi": "10.1002/anie.201501663",
+    "url": "https://authors.library.caltech.edu/records/e0cz9-bgc19",
+    "access": "Previously archived primary SI inspected directly in current task",
+    "artifact": "../../discovery-loop/sources/mineral-compartments/iron2015-supplement.pdf",
+    "finding": "An inorganic-feed iron hydroxide/sulfide membrane row reports electrical maxima.",
+    "limit": "Separate voltage/current maxima; no Mo36, selectivity renewal or loaded-power series."
+  }
+]

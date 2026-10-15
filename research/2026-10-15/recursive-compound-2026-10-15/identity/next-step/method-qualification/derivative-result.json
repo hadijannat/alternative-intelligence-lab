@@ -1,0 +1,22 @@
+{
+  "threshold_Eh_per_bohr": 0.0001,
+  "checks": [
+    {
+      "h_bohr": 0.001,
+      "analytic_Eh_per_bohr": -0.017309067757211354,
+      "central_difference_Eh_per_bohr": -0.017754967842620317,
+      "absolute_discrepancy": 0.0004459000854089637,
+      "pass_threshold": false
+    },
+    {
+      "h_bohr": 0.0005,
+      "analytic_Eh_per_bohr": -0.017309067757211354,
+      "central_difference_Eh_per_bohr": -0.01775495729816612,
+      "absolute_discrepancy": 0.000445889540954765,
+      "pass_threshold": false
+    }
+  ],
+  "pass_all": false,
+  "runtime_only": true,
+  "parent_input_admitted": false
+}

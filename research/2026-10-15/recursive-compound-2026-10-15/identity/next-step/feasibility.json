@@ -1,0 +1,199 @@
+{
+  "pyscf": "2.14.0",
+  "basis": "def2-svp",
+  "aux_basis_for_storage_only": "def2-universal-jkfit",
+  "atomic_builds": {
+    "Mo": {
+      "Z": 42,
+      "ecp_core": 28,
+      "spherical_AOs": 31,
+      "jkfit_spherical_AOs": 255
+    },
+    "W": {
+      "Z": 74,
+      "ecp_core": 60,
+      "spherical_AOs": 32,
+      "jkfit_spherical_AOs": 227
+    },
+    "V": {
+      "Z": 23,
+      "ecp_core": 0,
+      "spherical_AOs": 31,
+      "jkfit_spherical_AOs": 264
+    },
+    "O": {
+      "Z": 8,
+      "ecp_core": 0,
+      "spherical_AOs": 14,
+      "jkfit_spherical_AOs": 77
+    },
+    "H": {
+      "Z": 1,
+      "ecp_core": 0,
+      "spherical_AOs": 5,
+      "jkfit_spherical_AOs": 18
+    }
+  },
+  "models": [
+    {
+      "name": "parent",
+      "composition": {
+        "Mo": 36,
+        "O": 128,
+        "H": 32
+      },
+      "charge": -8,
+      "all_electron_count": 2576,
+      "ecp_core_electrons": 1008,
+      "explicit_electrons": 1568,
+      "electron_parity": 0,
+      "spherical_AOs": 3068,
+      "jkfit_AOs": 19612,
+      "storage_GiB": {
+        "one_dense_float64_AO_matrix": 0.07012951374053955,
+        "eightfold_packed_four_center_ERI": 82566.65865913779,
+        "full_three_center_pair_aux_float64": 687.9141610264778
+      },
+      "geometry_generated": false,
+      "scf_run": false
+    },
+    {
+      "name": "target_VV",
+      "composition": {
+        "Mo": 34,
+        "W": 1,
+        "V": 1,
+        "O": 128,
+        "H": 32
+      },
+      "charge": -9,
+      "all_electron_count": 2590,
+      "ecp_core_electrons": 1012,
+      "explicit_electrons": 1578,
+      "electron_parity": 0,
+      "spherical_AOs": 3069,
+      "jkfit_AOs": 19593,
+      "storage_GiB": {
+        "one_dense_float64_AO_matrix": 0.07017523795366287,
+        "eightfold_packed_four_center_ERI": 82674.3425732106,
+        "full_three_center_pair_aux_float64": 687.695723734796
+      },
+      "geometry_generated": false,
+      "scf_run": false
+    },
+    {
+      "name": "target_one_electron_reduced",
+      "composition": {
+        "Mo": 34,
+        "W": 1,
+        "V": 1,
+        "O": 128,
+        "H": 32
+      },
+      "charge": -10,
+      "all_electron_count": 2591,
+      "ecp_core_electrons": 1012,
+      "explicit_electrons": 1579,
+      "electron_parity": 1,
+      "spherical_AOs": 3069,
+      "jkfit_AOs": 19593,
+      "storage_GiB": {
+        "one_dense_float64_AO_matrix": 0.07017523795366287,
+        "eightfold_packed_four_center_ERI": 82674.3425732106,
+        "full_three_center_pair_aux_float64": 687.695723734796
+      },
+      "geometry_generated": false,
+      "scf_run": false
+    }
+  ],
+  "nearest_framework_O_candidates": [
+    {
+      "donor": "O57@2",
+      "acceptor": "O4@2",
+      "distance_A": 2.5758202858768544
+    },
+    {
+      "donor": "O57@0",
+      "acceptor": "O4@0",
+      "distance_A": 2.575820285876855
+    },
+    {
+      "donor": "O64@2",
+      "acceptor": "O53@2",
+      "distance_A": 2.6090943645927447
+    },
+    {
+      "donor": "O64@0",
+      "acceptor": "O53@0",
+      "distance_A": 2.609094364592745
+    },
+    {
+      "donor": "O62@0",
+      "acceptor": "O48@0",
+      "distance_A": 2.668703040693175
+    },
+    {
+      "donor": "O62@2",
+      "acceptor": "O48@2",
+      "distance_A": 2.6687030406931758
+    },
+    {
+      "donor": "O60@2",
+      "acceptor": "O26@2",
+      "distance_A": 2.7026470826785767
+    },
+    {
+      "donor": "O60@0",
+      "acceptor": "O26@0",
+      "distance_A": 2.702647082678577
+    },
+    {
+      "donor": "O59@0",
+      "acceptor": "O13@0",
+      "distance_A": 2.704441640913865
+    },
+    {
+      "donor": "O59@2",
+      "acceptor": "O13@2",
+      "distance_A": 2.70444164091387
+    },
+    {
+      "donor": "O63@0",
+      "acceptor": "O45@2",
+      "distance_A": 2.705747590729521
+    },
+    {
+      "donor": "O63@2",
+      "acceptor": "O45@0",
+      "distance_A": 2.7057475907295228
+    },
+    {
+      "donor": "O58@0",
+      "acceptor": "O10@0",
+      "distance_A": 2.7321693370957325
+    },
+    {
+      "donor": "O58@2",
+      "acceptor": "O10@2",
+      "distance_A": 2.732169337095734
+    },
+    {
+      "donor": "O61@2",
+      "acceptor": "O41@0",
+      "distance_A": 2.765180307120249
+    },
+    {
+      "donor": "O61@0",
+      "acceptor": "O41@2",
+      "distance_A": 2.7651803071202523
+    }
+  ],
+  "physical_memory_GiB": 36.0,
+  "logical_cpu_count": 14,
+  "geometry_sha256": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
+  "notes": [
+    "AO sums use spherical basis functions and atomic builds, not a full cluster build.",
+    "Storage arithmetic is not actual peak memory or runtime; no timing extrapolation.",
+    "No geometry, integrals, SCF, gradients or optimization for any full cluster."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "pyscf": "2.14.0",
+  "scf_run": false,
+  "builds": {
+    "Mo": {
+      "nao": 31,
+      "explicit_electrons": 14,
+      "ecp_core_electrons": 28
+    },
+    "W": {
+      "nao": 32,
+      "explicit_electrons": 14,
+      "ecp_core_electrons": 60
+    },
+    "V": {
+      "nao": 31,
+      "explicit_electrons": 23,
+      "ecp_core_electrons": 0
+    }
+  }
+}
