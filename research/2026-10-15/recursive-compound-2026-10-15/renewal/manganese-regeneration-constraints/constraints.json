@@ -1,0 +1,70 @@
+{
+  "status": "RETROSPECTIVE_SOURCE_CONSTRAINTS_ONLY",
+  "doi": "10.1038/s41893-025-01665-y",
+  "new_candidate_role": false,
+  "admitted_to_assembly": false,
+  "target_renewal_verified": false,
+  "newly_competent_activity_positive_bound_identified": false,
+  "material": "Thermally prepared MnO2 on FTO; polymorph assignment remains qualified",
+  "long_duration_protocol": {
+    "locator": "Main Figure 3 caption and results associated with Figure 4",
+    "voltage_reference": "two-electrode cell voltage",
+    "low_voltage_V": 1.68,
+    "high_voltage_V": 3.0,
+    "low_duration_minutes": 180,
+    "high_duration_minutes": 8,
+    "nominal_high_fraction_exact": "2/47",
+    "source_approximate_high_fraction": 0.045,
+    "continuous_high_current_duration_identified": false
+  },
+  "QCM_protocol": {
+    "locator": "Main Figure 3 caption; Figure 4 uses the same QCM protocol",
+    "low_duration_seconds": 300,
+    "high_duration_seconds": 20,
+    "nominal_high_fraction_exact": "1/16",
+    "high_mass_slope_ng_per_s": -36.6,
+    "high_reported_uncertainty_ng_per_s": 1.5,
+    "low_mass_slope_ng_per_s": 1.0,
+    "low_reported_uncertainty_ng_per_s": 0.2,
+    "uncertainty_confidence_level": null,
+    "long_duration_cycle_integrated_mass_balance": null,
+    "slopes_transfer_to_long_protocol": false
+  },
+  "phosphate_free_control": {
+    "locator": "SI Figure S4, PDF page 6",
+    "pH": 2,
+    "K2SO4_M": 1,
+    "MnII_microM": 100,
+    "MnVII_microM": 25,
+    "duration_hours": 1,
+    "endpoint": "No MnIII spectroscopic signature observed",
+    "detection_limit": null,
+    "reaction_rate_inferred_zero": false,
+    "catalytic_renewal_measured": false
+  },
+  "phase_reference_ambiguity": {
+    "locator": "SI Figure S7, PDF page 9",
+    "reference_CIF": "1514239.cif",
+    "printed_phase_labels": ["gamma-MnO2", "100% pyrolusite phase"],
+    "resolved": false
+  },
+  "raw_numerical_data_acquired": false,
+  "data_availability": "Corresponding authors upon request; no request sent",
+  "new_fitted_models": 0,
+  "new_physical_experiments": 0,
+  "experimental_holdout": false,
+  "sources": [
+    {
+      "url": "https://www.nature.com/articles/s41893-025-01665-y",
+      "file": "raw/article.html",
+      "sha256": "3948bc22fd08f96f1b2c89a3ab493ff1273c454a0ce88e784652fd7b6ea49776"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41893-025-01665-y/MediaObjects/41893_2025_1665_MOESM1_ESM.pdf",
+      "file": "raw/SI.pdf",
+      "bytes": 1220642,
+      "pages": 15,
+      "sha256": "04aa44749429175290e67a39962258ff580bd282b09ca65c11ef7ad33db99be7"
+    }
+  ]
+}

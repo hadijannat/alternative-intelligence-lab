@@ -1,0 +1,118 @@
+{
+  "case": "new-external",
+  "phase": "scf",
+  "checks": [
+    {
+      "name": "metric_before_PCM",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "energy_error",
+      "value": 2.2737367544323206e-13,
+      "pass": true
+    },
+    {
+      "name": "density_error",
+      "value": 2.3101520696400257e-12,
+      "pass": true
+    },
+    {
+      "name": "full_memory_Fock_gradient",
+      "value": 1.4843925820938568e-07,
+      "pass": true
+    },
+    {
+      "name": "direct_Fock_gradient",
+      "value": 0.00018679534503652842,
+      "pass": true
+    },
+    {
+      "name": "electron_trace_error",
+      "value": 1.4210854715202004e-14,
+      "pass": true
+    },
+    {
+      "name": "factor_storage",
+      "value": {
+        "metric_Fortran": true,
+        "metric_readonly": true,
+        "surface_Fortran": true,
+        "surface_readonly": true,
+        "no_S": true,
+        "no_ERI": true,
+        "no_3index": true,
+        "factor_type_cd": true,
+        "AO_block1": true,
+        "actual_aliases": true
+      },
+      "pass": true
+    },
+    {
+      "name": "direct_no_ERI",
+      "value": true,
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "fresh_holdout": false,
+  "SCFs_launched": 1,
+  "factor_aliases": [
+    {
+      "stage": "RI_metric",
+      "shape": [
+        1085,
+        1085
+      ],
+      "input_pointer": 5268160512,
+      "factor_pointer": 5268160512,
+      "factor_id": 4988837232,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "stage": "PCM_surface",
+      "shape": [
+        746,
+        746
+      ],
+      "input_pointer": 6309347328,
+      "factor_pointer": 6309347328,
+      "factor_id": 4989068240,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    },
+    {
+      "stage": "PCM_surface",
+      "shape": [
+        746,
+        746
+      ],
+      "input_pointer": 6313803776,
+      "factor_pointer": 6313803776,
+      "factor_id": 4989059600,
+      "shares_memory": true,
+      "readonly": true,
+      "Fortran": true
+    }
+  ],
+  "elapsed_seconds": 25.900488624931313,
+  "SCF": {
+    "energy_Eh": -663.7140752270328,
+    "saved_energy_Eh": -663.7140752270326,
+    "cycles": 32,
+    "converged": true,
+    "trace": 85.99999999999999,
+    "electrons": 86
+  },
+  "status": "PASS_SCF",
+  "threads": 4,
+  "runtime_guard_pass": true
+}

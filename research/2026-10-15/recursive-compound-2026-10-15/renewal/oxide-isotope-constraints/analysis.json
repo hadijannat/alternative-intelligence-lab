@@ -1,0 +1,113 @@
+{
+  "status": "MEASUREMENT_CONSTRAINT_ONLY",
+  "source": "10.1021/ja905166c.s001, Table S-1-2, PDF page S3",
+  "source_sha256": "17f478c53e89545ccd211e828e1cad87856b4ea39d90fea62161811f19f5c5a0",
+  "csv_sha256": "e18d1342987db045916ab42fe7536dafb6f5d908c5a25b280f404769bc9f20c7",
+  "log_base": {
+    "source_explicitly_defines_base": false,
+    "arithmetic_assumption": 10,
+    "primary_quantity": "difference of reported log rates",
+    "fold_ratios": "conditional on conventional base-10 interpretation"
+  },
+  "row_count": 17,
+  "site_cell_count": 119,
+  "reported_rate_count": 74,
+  "reported_rate_count_by_site": {
+    "A": 3,
+    "B": 3,
+    "C": 12,
+    "D": 13,
+    "E": 9,
+    "F": 17,
+    "G": 17
+  },
+  "too_fast_without_numeric_bound_count": 3,
+  "not_reported_count": 42,
+  "site_endpoints": {
+    "A": "molecular_transformation",
+    "B": "oxygen_isotope_signal_exchange",
+    "C": "oxygen_isotope_signal_exchange",
+    "D": "oxygen_isotope_signal_exchange",
+    "E": "oxygen_isotope_signal_exchange",
+    "F": "oxygen_isotope_signal_exchange",
+    "G": "oxygen_isotope_signal_exchange"
+  },
+  "endpoint_caveat": "Acidic experiments also transform the molecule; other site signals do not independently prove intact-molecule exchange.",
+  "F_over_A": [
+    {
+      "row_id": "S3-01",
+      "temperature_C": 35.5,
+      "pH": 6.61,
+      "concentration_mM": 2.76,
+      "ratio": "F/A",
+      "reported_log_difference": 2.98,
+      "conditional_point_ratio_if_base10": 954.992586021436,
+      "denominator_endpoint": "molecular_transformation",
+      "confidence_interval": null
+    },
+    {
+      "row_id": "S3-02",
+      "temperature_C": 35.5,
+      "pH": 7.15,
+      "concentration_mM": 4.22,
+      "ratio": "F/A",
+      "reported_log_difference": 3.18,
+      "conditional_point_ratio_if_base10": 1513.5612484362086,
+      "denominator_endpoint": "molecular_transformation",
+      "confidence_interval": null
+    },
+    {
+      "row_id": "S3-03",
+      "temperature_C": 35.5,
+      "pH": 7.49,
+      "concentration_mM": 2.84,
+      "ratio": "F/A",
+      "reported_log_difference": 3.33,
+      "conditional_point_ratio_if_base10": 2137.9620895022326,
+      "denominator_endpoint": "molecular_transformation",
+      "confidence_interval": null
+    }
+  ],
+  "D_over_E": [
+    {
+      "row_id": "S3-05",
+      "temperature_C": 35.5,
+      "pH": 8.03,
+      "concentration_mM": 2.81,
+      "ratio": "D/E",
+      "reported_log_difference": 3.97,
+      "conditional_point_ratio_if_base10": 9332.543007969914,
+      "denominator_endpoint": "oxygen_isotope_signal_exchange",
+      "confidence_interval": null
+    },
+    {
+      "row_id": "S3-06",
+      "temperature_C": 35.5,
+      "pH": 8.52,
+      "concentration_mM": 2.81,
+      "ratio": "D/E",
+      "reported_log_difference": 4.03,
+      "conditional_point_ratio_if_base10": 10715.193052376071,
+      "denominator_endpoint": "oxygen_isotope_signal_exchange",
+      "confidence_interval": null
+    }
+  ],
+  "uncertainty": {
+    "temperature_C": 0.2,
+    "concentration_relative_percent": 1,
+    "log_rate_uncertainty": "regression error or repeated-trial standard deviation, whichever is larger",
+    "confidence_level": null,
+    "propagated_ratio_intervals": null
+  },
+  "inference_limits": {
+    "new_target_observations": 0,
+    "new_candidate_assessments": 0,
+    "verified_target_complements_added": 0,
+    "target_rate_transfer": false,
+    "target_core_renewal_demonstrated": false,
+    "newly_competent_activity_demonstrated": false,
+    "life_demonstrated": false,
+    "fit_performed": false,
+    "holdout_validation_performed": false
+  }
+}

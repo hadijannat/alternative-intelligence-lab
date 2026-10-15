@@ -1,0 +1,110 @@
+{
+  "argv": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-qualification-v2/../parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-qualification-v2/run.py",
+    "--worker",
+    "1",
+    "operators",
+    "anion-water"
+  ],
+  "pid": 49831,
+  "returncode": 0,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 4.616089791990817,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 298696704,
+  "samples": [
+    {
+      "elapsed_seconds": 0.004371709073893726,
+      "rss_bytes": 7127040
+    },
+    {
+      "elapsed_seconds": 0.21426025009714067,
+      "rss_bytes": 88129536
+    },
+    {
+      "elapsed_seconds": 0.42547154205385596,
+      "rss_bytes": 134512640
+    },
+    {
+      "elapsed_seconds": 0.6357862500008196,
+      "rss_bytes": 255262720
+    },
+    {
+      "elapsed_seconds": 0.8470162090379745,
+      "rss_bytes": 274186240
+    },
+    {
+      "elapsed_seconds": 1.0575964170275256,
+      "rss_bytes": 287113216
+    },
+    {
+      "elapsed_seconds": 1.2682331670075655,
+      "rss_bytes": 294502400
+    },
+    {
+      "elapsed_seconds": 1.4742081250296906,
+      "rss_bytes": 297402368
+    },
+    {
+      "elapsed_seconds": 1.684593875077553,
+      "rss_bytes": 297353216
+    },
+    {
+      "elapsed_seconds": 1.8923575840890408,
+      "rss_bytes": 297369600
+    },
+    {
+      "elapsed_seconds": 2.1015720840077847,
+      "rss_bytes": 297369600
+    },
+    {
+      "elapsed_seconds": 2.3115040420088917,
+      "rss_bytes": 297369600
+    },
+    {
+      "elapsed_seconds": 2.5225099590606987,
+      "rss_bytes": 297369600
+    },
+    {
+      "elapsed_seconds": 2.7291887090541422,
+      "rss_bytes": 297369600
+    },
+    {
+      "elapsed_seconds": 2.9401841250946745,
+      "rss_bytes": 297467904
+    },
+    {
+      "elapsed_seconds": 3.150709875044413,
+      "rss_bytes": 297500672
+    },
+    {
+      "elapsed_seconds": 3.3589395420858636,
+      "rss_bytes": 297549824
+    },
+    {
+      "elapsed_seconds": 3.566971000051126,
+      "rss_bytes": 297549824
+    },
+    {
+      "elapsed_seconds": 3.777492875000462,
+      "rss_bytes": 297549824
+    },
+    {
+      "elapsed_seconds": 3.988488750066608,
+      "rss_bytes": 297582592
+    },
+    {
+      "elapsed_seconds": 4.199437500094064,
+      "rss_bytes": 298696704
+    },
+    {
+      "elapsed_seconds": 4.407556666992605,
+      "rss_bytes": 0
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

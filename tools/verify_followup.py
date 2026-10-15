@@ -1,4 +1,5 @@
 """Verify publication bytes and declared scope, without executing research models."""
+import csv
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
@@ -334,11 +335,98 @@ def verify_openmp_renewal(recursive, case_names):
         checks.extend(result['checks'])
     assert len(checks) == 520 and all(check['pass'] is True for check in checks)
     assert not list(run.rglob('scf-*')) and not list(run.rglob('SCF-result.json'))
-    pending = recursive / 'parent-openmp-qualification-v2'
+    qualified = recursive / 'parent-openmp-qualification-v2'
     for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
-        assert (pending / name).is_file() and (pending / name).stat().st_size > 0
-    for name in ('preparation.json', 'run-v1', 'pins.json'):
+        assert (qualified / name).is_file() and (qualified / name).stat().st_size > 0
+    run = qualified / 'run-v1'
+    result = json.loads((run / 'result.json').read_text())
+    assert result['status'] == 'PASS_RETROSPECTIVE_RUNTIME_EQUIVALENCE'
+    assert result['phase1_pass'] is True and result['phase2_skipped'] is False
+    assert result['pins_unchanged'] is True and result['maximum_SCFs'] == 1
+    for key in ('parent_run', 'fresh_holdout', 'physical_admission'):
+        assert result[key] is False
+    assert json.loads((run / 'phase1-gate.json').read_text()) == {'pass': True, 'SCFs_launched': 0}
+    assert json.loads((run / 'scf-claimed.json').read_text()) == {
+        'maximum_SCFs': 1, 'case': 'new-external', 'threads': 4}
+    receipts = json.loads((run / 'operator-receipts.json').read_text())
+    assert len(receipts) == 14 and {(r['threads'], r['case']) for r in receipts} == expected
+    checks = []
+    for index, receipt in enumerate(receipts + [dict(result['phase2'], threads=4, case='new-external')]):
+        scf = index == 14
+        phase = 'scf' if scf else 'operators'
+        child = run / ('threads-' + str(receipt['threads'])) / 'run-v1' / (phase + '-' + receipt['case'])
+        supervisor = json.loads((child / 'supervisor.json').read_text())
+        assert {k: v for k, v in receipt.items() if k not in {'threads', 'case'}} == supervisor
+        assert supervisor['returncode'] == 0
+        assert supervisor['termination_reason'] is None and supervisor['monitor_error'] is None
+        item = json.loads((child / 'result.json').read_text())
+        assert item['case'] == receipt['case'] and item['threads'] == receipt['threads']
+        assert item['phase'] == phase and item['SCFs_launched'] == int(scf)
+        assert item['runtime_guard_pass'] is True
+        assert item['status'] == ('PASS_SCF' if scf else 'PASS_OPERATORS')
+        assert item['physical_admission'] is False and item['fresh_holdout'] is False
+        expected_checks = 46 if receipt['case'] == 'anion-eps1' else (42 if receipt['case'] in case_names else 23)
+        assert len(item['checks']) == (9 if scf else expected_checks)
+        if scf:
+            assert item['SCF']['converged'] is True
+        checks.extend(item['checks'])
+    assert len(checks) == 529 and all(check['pass'] is True for check in checks)
+    assert len([path for path in run.rglob('scf-*') if path.is_dir()]) == 1
+    pending = recursive / 'parent-openmp-first-j'
+    preparation = json.loads((pending / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert preparation['parent_molecule_built'] is False
+    assert preparation['J_calls'] == preparation['SCFs_launched'] == 0
+    assert preparation['density']['shape'] == [3068, 3068]
+    assert preparation['density']['cycle'] == 0
+    for name in ('independent-root-review.json', 'run-v1'):
         assert not (pending / name).exists()
+
+    oxide = recursive / 'renewal/oxide-isotope-constraints'
+    analysis = json.loads((oxide / 'analysis.json').read_text())
+    assert analysis['status'] == 'MEASUREMENT_CONSTRAINT_ONLY'
+    assert analysis['row_count'] == 17 and analysis['site_cell_count'] == 119
+    assert analysis['reported_rate_count'] == 74
+    assert analysis['too_fast_without_numeric_bound_count'] == 3
+    assert analysis['not_reported_count'] == 42
+    assert analysis['site_endpoints']['A'] == 'molecular_transformation'
+    assert analysis['log_base']['source_explicitly_defines_base'] is False
+    assert analysis['log_base']['arithmetic_assumption'] == 10
+    for key in ('new_target_observations', 'new_candidate_assessments', 'verified_target_complements_added'):
+        assert analysis['inference_limits'][key] == 0
+    for key in ('target_rate_transfer', 'target_core_renewal_demonstrated', 'newly_competent_activity_demonstrated',
+                'life_demonstrated', 'fit_performed', 'holdout_validation_performed'):
+        assert analysis['inference_limits'][key] is False
+    with (oxide / 'rates.csv').open(newline='') as handle:
+        rows = list(csv.DictReader(handle))
+    assert len(rows) == 17 and len({row['row_id'] for row in rows}) == 17
+    statuses = [row[site + '_status'] for row in rows for site in 'ABCDEFG']
+    assert {status: statuses.count(status) for status in set(statuses)} == {
+        'reported': 74, 'too_fast_no_numeric_bound': 3, 'not_reported': 42}
+    for row in rows:
+        for site in 'ABCDEFG':
+            if row[site + '_status'] != 'reported':
+                assert row[site + '_log_k'] == row[site + '_uncertainty'] == ''
+    manganese = json.loads((recursive / 'renewal/manganese-regeneration-constraints/constraints.json').read_text())
+    assert manganese['status'] == 'RETROSPECTIVE_SOURCE_CONSTRAINTS_ONLY'
+    for key in ('new_candidate_role', 'admitted_to_assembly', 'target_renewal_verified',
+                'newly_competent_activity_positive_bound_identified', 'experimental_holdout',
+                'raw_numerical_data_acquired'):
+        assert manganese[key] is False
+    assert manganese['new_fitted_models'] == manganese['new_physical_experiments'] == 0
+    assert manganese['long_duration_protocol']['nominal_high_fraction_exact'] == '2/47'
+    assert manganese['long_duration_protocol']['voltage_reference'] == 'two-electrode cell voltage'
+    assert manganese['long_duration_protocol']['low_duration_minutes'] == 180
+    assert manganese['long_duration_protocol']['high_duration_minutes'] == 8
+    assert manganese['long_duration_protocol']['continuous_high_current_duration_identified'] is False
+    assert manganese['QCM_protocol']['nominal_high_fraction_exact'] == '1/16'
+    assert manganese['QCM_protocol']['low_duration_seconds'] == 300
+    assert manganese['QCM_protocol']['high_duration_seconds'] == 20
+    assert manganese['QCM_protocol']['slopes_transfer_to_long_protocol'] is False
+    assert manganese['QCM_protocol']['long_duration_cycle_integrated_mass_balance'] is None
+    control = manganese['phosphate_free_control']
+    assert control['detection_limit'] is None
+    assert control['reaction_rate_inferred_zero'] is False and control['catalytic_renewal_measured'] is False
 
 
 if __name__ == '__main__':

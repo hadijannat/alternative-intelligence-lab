@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: isotope renewal audit and OpenMP qualification failure
+## Current publication checkpoint: completed runtime qualification and prepared first-J diagnostic
+
+The user requested commit and push of the current changes to main. OpenMP v2 is now terminal PASS_RETROSPECTIVE_RUNTIME_EQUIVALENCE: 529 checks across fourteen operator children and one small-reference SCF, with 2524 pins unchanged. Independent saved-array review supports the available comparisons while retaining the missing W/V oracle-q/V and delta/zero-J arrays as a reconstruction limitation. This is retrospective numerical evidence, with no fresh held-out target validation, parent feasibility or physical admission established. The original runtime FAIL remains preserved.
+
+The separate parent first-J preparation completed with PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW, freezing 156 entries and validating the saved cycle-zero density. Preparation built no molecule and executed zero J calls or SCFs. No bound root-review file, launch gate or run directory exists at this checkpoint. The proposed 300-second/10-GiB sampled-RSS diagnostic remains unlaunched; this publication request starts no scientific job.
+
+The oxide-isotope SI extraction preserves all 17 rows, including 74 reported rate/uncertainty pairs, three unquantified-fast cells and 42 unreported cells. Oxygen-label retention does not establish unchanged molecular identity or newly competent material. The manganese source audit retains phosphate dependence, different long-cycle/QCM protocols and the distinction between intermediate nondetection and a functional assay. Neither source audit adds a candidate role. The aggregate remains 22 candidate-role assessments and zero verified integrated complements; all integrated life/intelligence requirements remain unresolved.
+
+The entries below are historical checkpoints; their counts and prepared/live/unrun labels describe the state at those earlier observations.
+
+## Previous publication checkpoint: isotope renewal audit and OpenMP qualification failure
 
 The user requested commit and push to main. This checkpoint has22candidate-role assessments and zero verified integrated complements. Candidate22 Co-Pi has source-qualified isotope recycling under electrode conditions, without an identified positive lower bound on newly competent catalyst activity. Aliquot-removal percentages are not catalyst-leaching fractions. The separate Mo-blue SI audit retains species-specific Raman normalization, an unresolved printed concentration discrepancy, and sampling/analysis limitations; it adds no candidate role or target-renewal measurement.
 

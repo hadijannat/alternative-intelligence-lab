@@ -1,0 +1,41 @@
+{
+  "source_type": "original publisher supporting information",
+  "title": "Isotope-Exchange Dynamics in Isostructural Decametalates with Profound Differences in Reactivity",
+  "authors": ["Eric M. Villa", "C. Andre Ohlin", "James R. Rustad", "William H. Casey"],
+  "article_doi": "10.1021/ja905166c",
+  "supporting_information_doi": "10.1021/ja905166c.s001",
+  "publisher_page": "https://acs.figshare.com/articles/journal_contribution/2812483",
+  "download_url": "https://ndownloader.figshare.com/files/4507060",
+  "figshare_article_id": 2812483,
+  "figshare_file_id": 4507060,
+  "license_as_declared_in_metadata": "CC BY-NC 4.0",
+  "metadata_path": "raw/figshare-2812483.json",
+  "pdf_path": "raw/ja905166c_si_001.pdf",
+  "pdf_bytes": 513814,
+  "pdf_sha256": "17f478c53e89545ccd211e828e1cad87856b4ea39d90fea62161811f19f5c5a0",
+  "pdf_md5_as_declared_in_metadata": "f0f1154caf6b6d9b8bddc3081e220255",
+  "main_article_acquired": false,
+  "main_article_access_note": "No main-article bytes are included or used. Parent acquisition reported publisher 403 and OSTI retrieval timeout; these are access limitations, not scientific evidence.",
+  "selection_reason": "Site-resolved isotope measurements explicitly separate oxygen signal exchange from molecular transformation; directly relevant to the limits of using oxygen labels to infer oxide-core renewal.",
+  "extracted_table": {
+    "location": "PDF page 3 / S3, Table S-1-2",
+    "rows": 17,
+    "sites": 7,
+    "reported_rate_uncertainty_pairs": 74,
+    "csv_path": "rates.csv",
+    "csv_sha256": "e18d1342987db045916ab42fe7536dafb6f5d908c5a25b280f404769bc9f20c7",
+    "log_convention": "Table labels log(k) s^-1 without explicitly defining its base. Reported log differences are primary; CSV log_base=10 is a declared conventional arithmetic assumption, and fold ratios are conditional on it.",
+    "site_chemistry": {"A": "mu6-oxo", "B": "mu3-oxo", "C": "mu2-oxo", "D": "mu2-oxo", "E": "mu2-oxo", "F": "terminal oxo", "G": "terminal oxo"},
+    "site_A_endpoint": "rate of transformation of dititanoniobate into a new molecule",
+    "other_sites_endpoint": "oxygen isotope signal exchange; acidic transformation can also affect signals",
+    "missing_values": "Blank numeric cells preserve source --. Three acidic Site D entries are too fast to estimate with no numeric bound; all other -- entries remain not_reported.",
+    "rate_uncertainty": "error of regression or standard deviation of repeated trials, whichever is larger; no confidence level supplied"
+  },
+  "qualitative_source_locations": {
+    "S2_Table_S-1-1": "Buffers and 0.1 M tetramethylammonium chloride background electrolyte",
+    "S4_Figure_S-1-1": "pH 8.49, 35.5 C: D/F/G oxygen signals essentially gone after 3 hours",
+    "S5_Figure_S-1-2": "pH 8.03, 35.5 C: C/E decline over several weeks while A/B remain constant; authors interpret no molecular transformation",
+    "S8_Figure_S-1-5": "D too fast below pH 8.0 at 35.5 C; lowering to 6.0 C permits estimates",
+    "S9_Figure_S-1-6": "pH 6.61, 35.5 C: slow signals split; original mu6-oxo converts to new stable mu6-oxo signal, nearly conserving intensity"
+  }
+}

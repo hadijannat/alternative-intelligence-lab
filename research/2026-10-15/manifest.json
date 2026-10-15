@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 2755,
-  "published_bytes": 1202503459,
-  "unique_published_blobs": 2044,
-  "excluded_entries": 584,
+  "included_files": 2853,
+  "published_bytes": 1230769194,
+  "unique_published_blobs": 2107,
+  "excluded_entries": 636,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 486,
+    "recursive-compound-2026-10-15": 584,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 28923,
-      "source_sha256": "7dd57e8ac33cddf83dd4517106ef77c0a728d9176a8de6d2cb12147099984ba2",
-      "published_size": 28923,
-      "published_sha256": "7dd57e8ac33cddf83dd4517106ef77c0a728d9176a8de6d2cb12147099984ba2",
+      "source_size": 31003,
+      "source_sha256": "4f5ba9ccf2f06eee3f9990a6d1cfe996ec06bba30133321364e2f12114d85e0c",
+      "published_size": 31003,
+      "published_sha256": "4f5ba9ccf2f06eee3f9990a6d1cfe996ec06bba30133321364e2f12114d85e0c",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 8688,
-      "source_sha256": "ba4470fc2da01a8159bd4859314b833801e430a77e1df21434a27c3e84b15bd2",
-      "published_size": 8688,
-      "published_sha256": "ba4470fc2da01a8159bd4859314b833801e430a77e1df21434a27c3e84b15bd2",
+      "source_size": 9547,
+      "source_sha256": "16da68ec3192323c4e62df811d3117020a8d12a893b88e64c4e5c16dda61c41a",
+      "published_size": 9547,
+      "published_sha256": "16da68ec3192323c4e62df811d3117020a8d12a893b88e64c4e5c16dda61c41a",
       "transformations": []
     },
     {
@@ -5178,10 +5178,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 12564,
-      "source_sha256": "cbcfdf5d9379008a3d5eff2a52898f017f2a0b9f4b1dccd1664df9a61fe43414",
-      "published_size": 12564,
-      "published_sha256": "cbcfdf5d9379008a3d5eff2a52898f017f2a0b9f4b1dccd1664df9a61fe43414",
+      "source_size": 13693,
+      "source_sha256": "1baa83df6d82b70812d6561654b9f879812ad130fe1604689da4d8f67aee6c8b",
+      "published_size": 13693,
+      "published_sha256": "1baa83df6d82b70812d6561654b9f879812ad130fe1604689da4d8f67aee6c8b",
       "transformations": []
     },
     {
@@ -7482,13 +7482,78 @@
       "transformations": []
     },
     {
-      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/PROTOCOL.md",
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/PROTOCOL-design.md",
       "status": "included",
       "reason": null,
       "source_size": 4165,
       "source_sha256": "1f81b49e818272b49824abe91f6b34364422d2199130137aacfa9945ec3222a8",
       "published_size": 4165,
       "published_sha256": "1f81b49e818272b49824abe91f6b34364422d2199130137aacfa9945ec3222a8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5283,
+      "source_sha256": "46bd8afff4a0f3adf7295c67cf1a42b03eeceff9bc5d057341d1f8e60205d9fc",
+      "published_size": 5283,
+      "published_sha256": "46bd8afff4a0f3adf7295c67cf1a42b03eeceff9bc5d057341d1f8e60205d9fc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1455,
+      "source_sha256": "5763b30fa4bd887e69665306ac0a6ee8bb057821bd811e2fac8ecdafe813d62b",
+      "published_size": 1455,
+      "published_sha256": "5763b30fa4bd887e69665306ac0a6ee8bb057821bd811e2fac8ecdafe813d62b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 35251,
+      "source_sha256": "7cf62ef812fab3a3dadb0d74a19d3a311dc3a5aa9b419e6ea05fac638dd0cfae",
+      "published_size": 29635,
+      "published_sha256": "2942618ce6587b41de742bd73359e03a70b799b65bcc1ea405da52b737c1bd37",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 15263,
+      "source_sha256": "0c78b604e6276135a359ec31bc6004cecacfae2244696e958e973aa3f387ab0c",
+      "published_size": 15263,
+      "published_sha256": "0c78b604e6276135a359ec31bc6004cecacfae2244696e958e973aa3f387ab0c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 12675,
+      "source_sha256": "ef4afed7bcf38f01901a39e2b95fdd7a6e2cd9d84f8f782ac94b26c18df82ade",
+      "published_size": 12675,
+      "published_sha256": "ef4afed7bcf38f01901a39e2b95fdd7a6e2cd9d84f8f782ac94b26c18df82ade",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6029,
+      "source_sha256": "9e760cddaf26e4fa9d2f6a7e305eab1aca0bb975cc7f22cd6e0d4e352e6bbcf8",
+      "published_size": 6029,
+      "published_sha256": "9e760cddaf26e4fa9d2f6a7e305eab1aca0bb975cc7f22cd6e0d4e352e6bbcf8",
       "transformations": []
     },
     {
@@ -7502,7 +7567,7 @@
       "transformations": []
     },
     {
-      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/REPORT.md",
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/REPORT-prelaunch.md",
       "status": "included",
       "reason": null,
       "source_size": 1400,
@@ -7510,6 +7575,1266 @@
       "published_size": 1400,
       "published_sha256": "8fea4ac953114845b4db1cf61e83b4b8ece5a15e7808cce83634d052bbe9c87d",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2688,
+      "source_sha256": "6bae919e72f945e6b1483d9dd2b9c873de6671f061cc671805a665ff3f804f75",
+      "published_size": 2688,
+      "published_sha256": "6bae919e72f945e6b1483d9dd2b9c873de6671f061cc671805a665ff3f804f75",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 612946,
+      "source_sha256": "3b5ef9f68821100443c728b5a91cc4cb23f78f484116d5cd253bee8f2dbec962",
+      "published_size": 521758,
+      "published_sha256": "277c16723112f4b3e76dfc4478ca287d8f919e8e665ec9cafd27075d48eb0149",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2533
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/operator-receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 49409,
+      "source_sha256": "03f6f5c43c38f535e489ca367d9649d47e924c1999e3385c9a08658d915b91da",
+      "published_size": 48401,
+      "published_sha256": "c00079c88378e042e7f77a281e68f294dadc497c4aeb86a21322f1409fe9280c",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/phase1-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 41,
+      "source_sha256": "a02e961a188599d9732b875387b7b5ff1d947191532415ff9b66815c1b900caf",
+      "published_size": 41,
+      "published_sha256": "a02e961a188599d9732b875387b7b5ff1d947191532415ff9b66815c1b900caf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 13407,
+      "source_sha256": "cba9185f4fbb3ee8d1b3221017ca1604dca7b483ce1186c9b050596126b45f55",
+      "published_size": 13335,
+      "published_sha256": "fe51fc6b5191091180c487514625bf5545d8cff16cbfbc48f7a5f921cbc1a0d9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/scf-claimed.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 57,
+      "source_sha256": "82722a6dc625d4c5569eea4224cbe2df7ce658b032bd749002fff7fb299cca26",
+      "published_size": 57,
+      "published_sha256": "82722a6dc625d4c5569eea4224cbe2df7ce658b032bd749002fff7fb299cca26",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 503583,
+      "source_sha256": "8bd112afbd240cf35999a7d723453053532ea9c1e1eec56f0e5eecb8051376ad",
+      "published_size": 503583,
+      "published_sha256": "8bd112afbd240cf35999a7d723453053532ea9c1e1eec56f0e5eecb8051376ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17644
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3180,
+      "source_sha256": "92c600841032189f774b0edc603415cf29932f6ca1d0edc840c15d7f49666b8b",
+      "published_size": 3180,
+      "published_sha256": "92c600841032189f774b0edc603415cf29932f6ca1d0edc840c15d7f49666b8b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 172
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-VO4/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1853,
+      "source_sha256": "e504aed5b354cfbc200474ab4414a3e38766367ded5e0c4987dd3021131abeee",
+      "published_size": 1781,
+      "published_sha256": "ea3a5843cc90a7abd88ebf97336cdd04a75795a10e9251d89e87e9af06f5c7cd",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 555188,
+      "source_sha256": "f4d1c7ca0afabeca041b09c583932037f22507bf59be102b4e36db699fd0c607",
+      "published_size": 555188,
+      "published_sha256": "f4d1c7ca0afabeca041b09c583932037f22507bf59be102b4e36db699fd0c607",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17659
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3162,
+      "source_sha256": "1fe3e6947af28d3c0c61e0db2e669c09177a0179822d62ea09baf175e2db3487",
+      "published_size": 3162,
+      "published_sha256": "1fe3e6947af28d3c0c61e0db2e669c09177a0179822d62ea09baf175e2db3487",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 172
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-WO4/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1854,
+      "source_sha256": "bc5770b8ca793ed208fdac45719cdcc08ed7a965650595f07cd9c613500567b3",
+      "published_size": 1782,
+      "published_sha256": "d1ab4b6b1536961c935b34d3e1f4256dfb799177f53cdb31f3cc7acd0f32388d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 510702,
+      "source_sha256": "192a74053b908fe491b43850df9b7e9e4b3f351b8a0ef36e73c2febc99785ddd",
+      "published_size": 510702,
+      "published_sha256": "192a74053b908fe491b43850df9b7e9e4b3f351b8a0ef36e73c2febc99785ddd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17660
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6852,
+      "source_sha256": "28d3a23afb11bf5be8a4a6474916c11b40013cface94486a621f5ebcc9c2f0b9",
+      "published_size": 6852,
+      "published_sha256": "28d3a23afb11bf5be8a4a6474916c11b40013cface94486a621f5ebcc9c2f0b9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 252
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2382,
+      "source_sha256": "841bbe62208d52dc7ac3a46603cea376b6794ffba945157d1bb9eca1b345dbad",
+      "published_size": 2310,
+      "published_sha256": "325490e7a28823a645cfc686adf43a6baf5d3f8b77ea0bca120213b891843104",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 887840,
+      "source_sha256": "a9cd16652808e40983ee1585eeeed5e430abbfa52efe0309d718081185c9ab19",
+      "published_size": 887840,
+      "published_sha256": "a9cd16652808e40983ee1585eeeed5e430abbfa52efe0309d718081185c9ab19",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17660
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6729,
+      "source_sha256": "8d1bcc568f5de482b378468e7fd81ce8cc8ada248660d18c986f0039f0f0c997",
+      "published_size": 6729,
+      "published_sha256": "8d1bcc568f5de482b378468e7fd81ce8cc8ada248660d18c986f0039f0f0c997",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 254
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2548,
+      "source_sha256": "6a584ea55f0f7429da9c1256f21dae4741e8c93efcf5e3e602a00fd659ecadb6",
+      "published_size": 2476,
+      "published_sha256": "e9ea60df77a5e82c7e67d823a44fa0f4109420351b305465de177bb624043551",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4288401,
+      "source_sha256": "65e941cf2768fb03d64782b4a8d1c9dfe38d581655f718e3729bcab51f9a2304",
+      "published_size": 4288401,
+      "published_sha256": "65e941cf2768fb03d64782b4a8d1c9dfe38d581655f718e3729bcab51f9a2304",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18193
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6715,
+      "source_sha256": "78d6cfc2702436cd62c6293efcbca3b920641fe1eb762ea21490588fc700620d",
+      "published_size": 6715,
+      "published_sha256": "78d6cfc2702436cd62c6293efcbca3b920641fe1eb762ea21490588fc700620d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 258
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6521,
+      "source_sha256": "4ed6dda3b0788af7e9ecea43ba81032f2b9759a1d1d7f06d5ba4c2ac2aa2136b",
+      "published_size": 6449,
+      "published_sha256": "7c626d6031db8cd69bf768eb80d129e432f38a5f4414b49460a6a58bec722235",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 653723,
+      "source_sha256": "b32cf719cdbd03eebcf14818594225767b55a5283ab3f0fb700067a85b91fcd6",
+      "published_size": 653723,
+      "published_sha256": "b32cf719cdbd03eebcf14818594225767b55a5283ab3f0fb700067a85b91fcd6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17526
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6697,
+      "source_sha256": "7d5c55c1b48d657724259a5db781da53b24f8cffdd26b0ab9758e4efea85e735",
+      "published_size": 6697,
+      "published_sha256": "7d5c55c1b48d657724259a5db781da53b24f8cffdd26b0ab9758e4efea85e735",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 258
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2125,
+      "source_sha256": "2ac8a3c7335215ab6d85f7b2d78e3402e33df4fde4b1f4feac5e8266042d0c50",
+      "published_size": 2053,
+      "published_sha256": "fce12ef36326b35d2d14c18a79ffb933e1efb7407ccb50e6c56ed4222f656d1b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4846265,
+      "source_sha256": "c9f289ecc9dcb80d240e43d9745280f0758bd343fc9f539d3da8cb338b1d7ad0",
+      "published_size": 4846265,
+      "published_sha256": "c9f289ecc9dcb80d240e43d9745280f0758bd343fc9f539d3da8cb338b1d7ad0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18459
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6678,
+      "source_sha256": "84b2afb23f618b7316169e29e8eeacc3603ad685e10485af677c12fcb53a9f03",
+      "published_size": 6678,
+      "published_sha256": "84b2afb23f618b7316169e29e8eeacc3603ad685e10485af677c12fcb53a9f03",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "92064fbc3b9eebd52e90bd70c2ce084c6cbc656378f80b076b18c6555ad33d5b",
+      "published_size": 31772,
+      "published_sha256": "aae0ca287bfcd937f86163f582faa870966da08155154e6c8e1ff143f835b0e2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 256
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/operators-new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 7833,
+      "source_sha256": "aa6e844e0387d083057455a372af16cf700a7405b0b8d5ff541702cbf80b3d2e",
+      "published_size": 7761,
+      "published_sha256": "690d556f6d858214046d20050d5bfc06f35a41608dce6df73422c743f1c03d1c",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-1/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 607701,
+      "source_sha256": "9fe2f24e57b8ff800f6d97bec3e9f62c5e2525ea1463480772e46d34a2e0f0aa",
+      "published_size": 516513,
+      "published_sha256": "16ce41a15663eac8ca1f3527e26d0e61619d93ff3a23a42d29e5d2b30bc92ad7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2533
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operator-receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 16172,
+      "source_sha256": "19cc9c67438ae78df3b219e864c436aca03d67512aa546966f0586cec5f23750",
+      "published_size": 15812,
+      "published_sha256": "b85d61495e6ddd3c59da2666721588efc4a0ad420c07b4bbcdf05c6fbeac924a",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 501733,
+      "source_sha256": "2bdd06e741d213b683e965eed75e6e7b044ce7f2d60d225a4d7c2c1b0f9cce16",
+      "published_size": 501733,
+      "published_sha256": "2bdd06e741d213b683e965eed75e6e7b044ce7f2d60d225a4d7c2c1b0f9cce16",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17644
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3162,
+      "source_sha256": "58508aff3700d7b2e346d236d13c86be9cf52cde090a2b45b56490b5751a0747",
+      "published_size": 3162,
+      "published_sha256": "58508aff3700d7b2e346d236d13c86be9cf52cde090a2b45b56490b5751a0747",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 172
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-VO4/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3402,
+      "source_sha256": "341b58fce6b982f04909e8282410429433ad5df4ec7441959f1bd918ee5590d4",
+      "published_size": 3330,
+      "published_sha256": "e3d2643291f6a9ce2296d74ce8d532ac6130a87e9d9c9b927add8b95099ad469",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 555105,
+      "source_sha256": "39b295e8fca4c79acd74e95f889bd5758f5a6a250ea58a5ad59a3eb0c46e8e1a",
+      "published_size": 555105,
+      "published_sha256": "39b295e8fca4c79acd74e95f889bd5758f5a6a250ea58a5ad59a3eb0c46e8e1a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17659
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3182,
+      "source_sha256": "8a351bc3db46f48266c560e7d6e2ee4a811f04fba6b64196bb6bca040804c42e",
+      "published_size": 3182,
+      "published_sha256": "8a351bc3db46f48266c560e7d6e2ee4a811f04fba6b64196bb6bca040804c42e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 172
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-WO4/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1681,
+      "source_sha256": "130286607cb7a16abcd56914d99eb97ad16a853b3e2c68295178ceaa2908271c",
+      "published_size": 1609,
+      "published_sha256": "a7adc779d492bc3df6e257d484497daa1aad2da335abaa2c22e6c93a84242cbe",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 506726,
+      "source_sha256": "0c4f7459bdf083a8afe9945ed4ef658fb20267bc4674f8c689f834f9b690ca37",
+      "published_size": 506726,
+      "published_sha256": "0c4f7459bdf083a8afe9945ed4ef658fb20267bc4674f8c689f834f9b690ca37",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17660
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6852,
+      "source_sha256": "bce1306ff257f526ba3091840c4a6d3e1ab159d66650c354598a4a7c2a4c04b9",
+      "published_size": 6852,
+      "published_sha256": "bce1306ff257f526ba3091840c4a6d3e1ab159d66650c354598a4a7c2a4c04b9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 252
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2037,
+      "source_sha256": "a2be84938ad6fcf6e07395b21ce1aefa18bc9f349d5ab6f39ae7e409560b4209",
+      "published_size": 1965,
+      "published_sha256": "6b391c4f8beaafc2d49347ab133977fd26cc82ec02eaabcff0965b516e9fde2e",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 883730,
+      "source_sha256": "77321cff6f0f2bc38b5531ffa0b4cbf3f076c8abe66f2c997fa1dafb547d1bbe",
+      "published_size": 883730,
+      "published_sha256": "77321cff6f0f2bc38b5531ffa0b4cbf3f076c8abe66f2c997fa1dafb547d1bbe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17660
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6747,
+      "source_sha256": "4e0c7b41e7fc4c4ac419904259ed64be9abea9f07ef3a71eb5f14971fe198987",
+      "published_size": 6747,
+      "published_sha256": "4e0c7b41e7fc4c4ac419904259ed64be9abea9f07ef3a71eb5f14971fe198987",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 254
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2124,
+      "source_sha256": "45bfd5d909b244fd870a3d41295c4bb40e4c61caca48707a8ef2974c74a6503e",
+      "published_size": 2052,
+      "published_sha256": "c5addbc1e2c6b490f6e6704f93ff25b9a064cb788aa1bc44226fdf6da936a81e",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4288033,
+      "source_sha256": "c720de783c4895ee677bb53dba8905600a22f57d32887a9209f065cd2cafee5c",
+      "published_size": 4288033,
+      "published_sha256": "c720de783c4895ee677bb53dba8905600a22f57d32887a9209f065cd2cafee5c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18193
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6715,
+      "source_sha256": "dfbf0186499316cba6414a2be028972697751e27c8894cf517e167f689236ec6",
+      "published_size": 6715,
+      "published_sha256": "dfbf0186499316cba6414a2be028972697751e27c8894cf517e167f689236ec6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 258
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3931,
+      "source_sha256": "b3ff03ed97d568e40040f0e0801c9526b3099b4cb8fb8dba065f0e66e78144b4",
+      "published_size": 3859,
+      "published_sha256": "16357873f73c776873b713e0aba4c77b2822bee3f19c9e72d436b44a51c3540b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 652338,
+      "source_sha256": "a9bdfb38c7c6b78de0ef1550507a20c69e9f139104d8d20bb1d58f3500efcd04",
+      "published_size": 652338,
+      "published_sha256": "a9bdfb38c7c6b78de0ef1550507a20c69e9f139104d8d20bb1d58f3500efcd04",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17526
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6681,
+      "source_sha256": "a7c46b7275217e7c9f7d8dbc88c60f6b9d9bbd94fc83e0097110d7188c199ae8",
+      "published_size": 6681,
+      "published_sha256": "a7c46b7275217e7c9f7d8dbc88c60f6b9d9bbd94fc83e0097110d7188c199ae8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 258
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1867,
+      "source_sha256": "8e2ccde60706b026feb996ab49d643477679d9071c41c6157df08607f7c3d44c",
+      "published_size": 1795,
+      "published_sha256": "3cffd1eb01ae022c7f99e17db39e3ed561e0324d9ccbc39a32c7a2f23df8c926",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 4845945,
+      "source_sha256": "67da8eaee2601989f4f8ea223ebe8e40c33476a1e5fdc52c7ad976849a2fea53",
+      "published_size": 4845945,
+      "published_sha256": "67da8eaee2601989f4f8ea223ebe8e40c33476a1e5fdc52c7ad976849a2fea53",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 693,
+      "source_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "published_size": 693,
+      "published_sha256": "824cd7b9558f5aa5ed13130ed0c64346fccae1f7d778255635bad5d7b2082b79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 18459
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6717,
+      "source_sha256": "c283f35ddd84a7883665fe2a447ccdd621ba12ec1a6ae2be5d6b90f23d857969",
+      "published_size": 6717,
+      "published_sha256": "c283f35ddd84a7883665fe2a447ccdd621ba12ec1a6ae2be5d6b90f23d857969",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 256
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/operators-new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4700,
+      "source_sha256": "b04717efeb7d29b790e77a2b4995f7824426735410adab9fd9539b606f53a4b6",
+      "published_size": 4628,
+      "published_sha256": "e8867515e8cbfb05544c86dd99b169aa8d6832f3b60fe15c65acdda1ad3de4b7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 607701,
+      "source_sha256": "9fe2f24e57b8ff800f6d97bec3e9f62c5e2525ea1463480772e46d34a2e0f0aa",
+      "published_size": 516513,
+      "published_sha256": "16ce41a15663eac8ca1f3527e26d0e61619d93ff3a23a42d29e5d2b30bc92ad7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2533
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 1411356,
+      "source_sha256": "1c0fdc60582ca73d1123de89337950b3c7e6be65d4933b80b9422bb2f56a73b8",
+      "published_size": 1411356,
+      "published_sha256": "1c0fdc60582ca73d1123de89337950b3c7e6be65d4933b80b9422bb2f56a73b8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/iterations.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2625,
+      "source_sha256": "386e54d6da8783d0c04685219727ec7f674939f27f0f2db4e03ec7b35a1b6595",
+      "published_size": 2625,
+      "published_sha256": "386e54d6da8783d0c04685219727ec7f674939f27f0f2db4e03ec7b35a1b6595",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 3591,
+      "source_sha256": "205622c4fd2a72f2905acce7e326035136deb1a392f316c3ae3f7b6f8f4cc625",
+      "published_size": 3591,
+      "published_sha256": "205622c4fd2a72f2905acce7e326035136deb1a392f316c3ae3f7b6f8f4cc625",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 27833
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2455,
+      "source_sha256": "d8181dd5d7a608339fe8063e458520e0444de67639b122a6dce1e62d2ce78bf3",
+      "published_size": 2455,
+      "published_sha256": "d8181dd5d7a608339fe8063e458520e0444de67639b122a6dce1e62d2ce78bf3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37388,
+      "source_sha256": "0bddafcf4cd9455a536991c36ba3c3bae245cb557dcf67e29ea31bea0cf8e091",
+      "published_size": 31772,
+      "published_sha256": "807207b00be1793620405d190e421b75fcbec488effaaecbaa50996edfa838c6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 272
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 238
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run-v1/threads-4/run-v1/scf-new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 12062,
+      "source_sha256": "ef728e7d07ef4ee2e4ea80ca67db9244154fff3bc3ba0f7515e28714b7bc5be7",
+      "published_size": 11990,
+      "published_sha256": "6f5674dee012d67d6cafa87ac5f1bb2fb9895bd8492b694bacacda7f0f302975",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
     },
     {
       "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/run.py",
@@ -9720,10 +11045,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 19999,
-      "source_sha256": "40207dc5b592aca4a560d438211c71164c8abaf5efaf9f8afef3910150754bac",
-      "published_size": 19999,
-      "published_sha256": "40207dc5b592aca4a560d438211c71164c8abaf5efaf9f8afef3910150754bac",
+      "source_size": 21890,
+      "source_sha256": "10b53d095a084bbecf6bdd4b90e7c3b596b9d3f465404a90be57c4fb228d8210",
+      "published_size": 21890,
+      "published_sha256": "10b53d095a084bbecf6bdd4b90e7c3b596b9d3f465404a90be57c4fb228d8210",
       "transformations": []
     },
     {
@@ -10267,6 +11592,48 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/renewal/manganese-regeneration-constraints/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 934,
+      "source_sha256": "d9601ddde4527c0c33dd7fb4b74147a4c4f12585a3ff7727363735191cdd6112",
+      "published_size": 934,
+      "published_sha256": "d9601ddde4527c0c33dd7fb4b74147a4c4f12585a3ff7727363735191cdd6112",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/manganese-regeneration-constraints/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2970,
+      "source_sha256": "d452bf4f1e2e4a734c5727dc366e252a3392450cf148034e13e5c4aae32b438b",
+      "published_size": 2970,
+      "published_sha256": "d452bf4f1e2e4a734c5727dc366e252a3392450cf148034e13e5c4aae32b438b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/manganese-regeneration-constraints/constraints.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2615,
+      "source_sha256": "58a41dc65b5acee8a71167c65d7a57ab609d1192c1e1e8318128ab8a7b1d194b",
+      "published_size": 2615,
+      "published_sha256": "58a41dc65b5acee8a71167c65d7a57ab609d1192c1e1e8318128ab8a7b1d194b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/manganese-regeneration-constraints/raw/SI.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1220642
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/manganese-regeneration-constraints/raw/article.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 464534
+    },
+    {
       "path": "recursive-compound-2026-10-15/renewal/mo-blue-route/INDEPENDENT_REVIEW.md",
       "status": "included",
       "reason": null,
@@ -10352,6 +11719,121 @@
       "source_sha256": "b52df3cab2ffa499e69512df0580817fbdd66fd0021e781c5d2a87832b0d3571",
       "published_size": 653,
       "published_sha256": "b52df3cab2ffa499e69512df0580817fbdd66fd0021e781c5d2a87832b0d3571",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1164,
+      "source_sha256": "76a8af083420f78577cbf706e197316f3dc7d04858d688d50a59a6630312d70f",
+      "published_size": 1164,
+      "published_sha256": "76a8af083420f78577cbf706e197316f3dc7d04858d688d50a59a6630312d70f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2533,
+      "source_sha256": "82d1b7031a361b7bd00e9aac142340c13b5601a7e44b52f3717ba2f2a0a7c3bc",
+      "published_size": 2533,
+      "published_sha256": "82d1b7031a361b7bd00e9aac142340c13b5601a7e44b52f3717ba2f2a0a7c3bc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5423,
+      "source_sha256": "e5fc686da90414ee612031af9930ee66424fe7241ae26b32099f08bfda63111e",
+      "published_size": 5423,
+      "published_sha256": "e5fc686da90414ee612031af9930ee66424fe7241ae26b32099f08bfda63111e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/SOURCES.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3139,
+      "source_sha256": "32b0d79b1fa8362ad5a1797ba7c4e7809efb70355657ea876136d7704c6a0f8e",
+      "published_size": 3139,
+      "published_sha256": "32b0d79b1fa8362ad5a1797ba7c4e7809efb70355657ea876136d7704c6a0f8e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/analysis.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3610,
+      "source_sha256": "37a8cf257727ffdf571d1b3943fd7e6a72750b3f9e27c18759e1403090b0288d",
+      "published_size": 3610,
+      "published_sha256": "37a8cf257727ffdf571d1b3943fd7e6a72750b3f9e27c18759e1403090b0288d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/analysis.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5782,
+      "source_sha256": "52470faaeb86a54e271d03a61058ccfe77f98adf328b6158864249ebb7639a8d",
+      "published_size": 5782,
+      "published_sha256": "52470faaeb86a54e271d03a61058ccfe77f98adf328b6158864249ebb7639a8d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/rates.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 2981,
+      "source_sha256": "e18d1342987db045916ab42fe7536dafb6f5d908c5a25b280f404769bc9f20c7",
+      "published_size": 2963,
+      "published_sha256": "e759ad43fc84473786099a4d94cb71901931efcda21c4a482af2c86919fd8d6a",
+      "transformations": [
+        {
+          "transformation": "LF line endings for Git text attributes",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/raw/figshare-2812483.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 6118
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/raw/figshare-search.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 2
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/raw/figshare-title-search.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1163
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/raw/ja905166c_si_001.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 513814
+    },
+    {
+      "path": "recursive-compound-2026-10-15/renewal/oxide-isotope-constraints/test_analysis.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 4427,
+      "source_sha256": "a32a8a43c61c6d2be07d1a6400f5ea410c4df2d79a4df017e2644f4443432c60",
+      "published_size": 4427,
+      "published_sha256": "a32a8a43c61c6d2be07d1a6400f5ea410c4df2d79a4df017e2644f4443432c60",
       "transformations": []
     },
     {
