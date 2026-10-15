@@ -1,6 +1,22 @@
 # Progress checkpoint
 
-## Current publication checkpoint: parent pilot prepared and approved, unlaunched
+## Current publication checkpoint: terminal parent failure
+
+The user requested commit and push. The parent saved-J pilot is terminal FAIL_OR_INCOMPLETE: one child returned -5(SIGTRAP) after1346.632638seconds with no supervisor wall/RSS termination reason or monitor error. Sampled maximumRSS7584022528bytes is not a certified peak. Initial PCM potential and one saved-J handoff completed; the last stage is native_metric_return at1343.858264seconds with finite_J true, without an enclosing native_J_return. No completed cycle, native convergence or final validation is recorded. The worker's stale RUNNING result remains unchanged as a crash artifact. The signal's underlying cause remains unresolved; independent terminal audit approves preserving/publishing the failure only.
+
+The competing-Mo/V audit retains four reproduced formation constants and six NMR/protonation leads with zero admitted primary calibration rows. The prospective HMo2O7 geometry is acquired but untested; source spin is unspecified and universal unseen status is not claimed. Publication launches no new calculation or retry. Earlier failures and frozen evidence remain preserved;22candidate-role assessments and zero verified integrated complements remain, with all integrated life/intelligence requirements unmet.
+
+The entries below describe historical checkpoints.
+
+## Previous research checkpoint: one parent pilot running; competing-species leads recovered
+
+The previous publication turn completed commit787c4a1; its exact-commit CI now passes. That was publication progress rather than a newly fulfilled chemical function. The full scientific goal remains active, with22 candidate-role assessments and zero verified integrated complements.
+
+The prepared parent saved-J pilot launched once in session52678, launcher PID94526 and worker PID94528. Actual process inspection confirms the worker live. The SCF kernel has been entered, and the PCM factor/build completed with observed storage checks; the initial potential is still incomplete, with no complete SCF cycle or convergence result. The unchanged supervisor retains1800seconds/10GiB/max_cycle20. Continue observing this same session; do not restart or extend it. Terminal audit will inspect saved evidence after completion. See parent-saved-j-pilot/REPORT.md and ../.omo/evidence/parent-saved-j-pilot-execution.md.
+
+The new identity/competing-mov-speciation report recovers four printed formation constants and six NMR/protonation leads reproduced in a primary W-containing-solution thesis. Original Mo/V component conventions, conditions, uncertainty and complete species matrix remain unavailable. Independent review admits zero calibration rows. Footnote ambiguity, temperature disagreement and reference inconsistency remain recorded; no target fraction, stability ratio or parameter fit was calculated.
+
+## Previous publication checkpoint: parent pilot prepared and approved, unlaunched
 
 The user requested commit and push of the current changes to main. The parent saved-J pilot implementation now passes 22 synthetic tests and 15 unchanged handoff regression tests. Independent code review is CLEAR/APPROVE; memory review is WATCH/APPROVE. Strict preparation and bound root approval are complete, and gate session 22353 exited 0. Preparation SHA256 is c36e153c2cbf102764e8381685a4fda3691eed8a4701eeb2e6aca4f75602beed; root-review SHA256 is 56453679ecac728c78363faccd6f7b2a3bec2ea80fdfa546b5299ff9be1223de. No parent scientific run has launched. The proposed pilot retains one child, 1800 seconds, 10 GiB sampled RSS and max_cycle 20; its narrow allocation margin is not a certified peak-memory bound.
 

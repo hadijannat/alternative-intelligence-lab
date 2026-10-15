@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 2935,
-  "published_bytes": 1311471069,
-  "unique_published_blobs": 2185,
-  "excluded_entries": 665,
+  "included_files": 2955,
+  "published_bytes": 1313163641,
+  "unique_published_blobs": 2202,
+  "excluded_entries": 680,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 666,
+    "recursive-compound-2026-10-15": 686,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 34943,
-      "source_sha256": "410c83c3152b633f0c29723de72f7883838a8de7190698d92283307d040c34e5",
-      "published_size": 34943,
-      "published_sha256": "410c83c3152b633f0c29723de72f7883838a8de7190698d92283307d040c34e5",
+      "source_size": 35447,
+      "source_sha256": "37af011983d2fbe0ba4a654179968379e8dd6a94047bfd91d435cde32b0bc4a4",
+      "published_size": 35447,
+      "published_sha256": "37af011983d2fbe0ba4a654179968379e8dd6a94047bfd91d435cde32b0bc4a4",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 11206,
-      "source_sha256": "855aed4ccc3a9f995434155a16c0f2dbe255a1a3d22d18e4573cb077a2e9db20",
-      "published_size": 11206,
-      "published_sha256": "855aed4ccc3a9f995434155a16c0f2dbe255a1a3d22d18e4573cb077a2e9db20",
+      "source_size": 11310,
+      "source_sha256": "7025f06033147a0d4ac67bf1d3a028ab2408b50e6d31878a36b839d49fbcdcbc",
+      "published_size": 11310,
+      "published_sha256": "7025f06033147a0d4ac67bf1d3a028ab2408b50e6d31878a36b839d49fbcdcbc",
       "transformations": []
     },
     {
@@ -5178,10 +5178,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 16094,
-      "source_sha256": "9904fbd6a27cf5563b6929f76455c70bfdabb41a003dd319d9d6bafcdafd58b4",
-      "published_size": 16094,
-      "published_sha256": "9904fbd6a27cf5563b6929f76455c70bfdabb41a003dd319d9d6bafcdafd58b4",
+      "source_size": 16458,
+      "source_sha256": "ba6983b7e968c12a9056162de6914398e35cb3e7d339e1cff625308c6c43a9ff",
+      "published_size": 16458,
+      "published_sha256": "ba6983b7e968c12a9056162de6914398e35cb3e7d339e1cff625308c6c43a9ff",
       "transformations": []
     },
     {
@@ -6720,6 +6720,76 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1441,
+      "source_sha256": "5f28bc4b38b5e6e7eb880245e71d7723d9d91b1e0ed8577fbdba5734b415296f",
+      "published_size": 1441,
+      "published_sha256": "5f28bc4b38b5e6e7eb880245e71d7723d9d91b1e0ed8577fbdba5734b415296f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2574,
+      "source_sha256": "5dd926a0cc4364825e98ee18b603be03abed467b17f712f5c4ec0a02e91df565",
+      "published_size": 2574,
+      "published_sha256": "5dd926a0cc4364825e98ee18b603be03abed467b17f712f5c4ec0a02e91df565",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1551,
+      "source_sha256": "2d72020a29129a1dd9870db4d7758851b97081d59f5b636023ecdcc3b7d668ec",
+      "published_size": 1551,
+      "published_sha256": "2d72020a29129a1dd9870db4d7758851b97081d59f5b636023ecdcc3b7d668ec",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 13244,
+      "source_sha256": "ac71ae6670aefd419f3cb14b99172e7a1b3b5b1d74cdfe617130f13fa7b24eff",
+      "published_size": 13244,
+      "published_sha256": "ac71ae6670aefd419f3cb14b99172e7a1b3b5b1d74cdfe617130f13fa7b24eff",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/raw/download-record.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 469
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/raw/hastings1993-page-179.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 303034
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/raw/hastings1993-page-184.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 324738
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/raw/hastings1993.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 7880668
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/competing-mov-speciation/raw/hastings1993.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 287393
+    },
+    {
       "path": "recursive-compound-2026-10-15/identity/extract.py",
       "status": "included",
       "reason": null,
@@ -7468,6 +7538,64 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2131,
+      "source_sha256": "e50b51e189bccd20adfc6c7fd73bbe6e5537ff86ea11e067ccb0cdd89c6dc435",
+      "published_size": 2131,
+      "published_sha256": "e50b51e189bccd20adfc6c7fd73bbe6e5537ff86ea11e067ccb0cdd89c6dc435",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/acquire.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2067,
+      "source_sha256": "8f0d3432c31456eeb3ec860a33386ba1fe1d2b2de92e79ad73d4ca91fec812b2",
+      "published_size": 2067,
+      "published_sha256": "8f0d3432c31456eeb3ec860a33386ba1fe1d2b2de92e79ad73d4ca91fec812b2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1236,
+      "source_sha256": "b683c6885b8dd5bdb696dc8ed3ecfbc797c0d655ba0256757838053c1780c75a",
+      "published_size": 1236,
+      "published_sha256": "b683c6885b8dd5bdb696dc8ed3ecfbc797c0d655ba0256757838053c1780c75a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/raw/HMo2O7.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1546
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/raw/HMo2O7.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 334
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/raw/item.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 32971
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/pcm-heldout-selection/selection.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2517,
+      "source_sha256": "db2ca8235187d3679a3acbe758946e2f02ba4c51ca15dc34ebaeb91f7e92537f",
+      "published_size": 2517,
+      "published_sha256": "db2ca8235187d3679a3acbe758946e2f02ba4c51ca15dc34ebaeb91f7e92537f",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/identity/next-step/raw/doi.response",
       "status": "excluded",
       "reason": "third-party raw payload; source URL/hash retained in ledgers",
@@ -7757,6 +7885,12 @@
       "published_size": 2669,
       "published_sha256": "301828983491872e54bccad5bd0e4130b96032e1b5a39c7d7e9d5a8595bb327a",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-first-j-v2/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/parent-openmp-first-j-v2/independent-root-review.json",
@@ -8218,6 +8352,12 @@
       "published_size": 2688,
       "published_sha256": "6bae919e72f945e6b1483d9dd2b9c873de6671f061cc671805a665ff3f804f75",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/parent-openmp-qualification-v2/preparation.json",
@@ -11685,14 +11825,30 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2427,
+      "source_sha256": "2d68a8552d11fcdc477611aff4b09a0423e3e3463ecb283016c647344e1e2ef6",
+      "published_size": 2427,
+      "published_sha256": "2d68a8552d11fcdc477611aff4b09a0423e3e3463ecb283016c647344e1e2ef6",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/STATUS.json",
       "status": "included",
       "reason": null,
-      "source_size": 840,
-      "source_sha256": "deb2498961f79619dff19e42a71fa864a954ea3a3c29a098779a54098f527641",
-      "published_size": 840,
-      "published_sha256": "deb2498961f79619dff19e42a71fa864a954ea3a3c29a098779a54098f527641",
+      "source_size": 1282,
+      "source_sha256": "05b7dfdc2c735d501fa67069e590c0e9f5edbbf8147a0d5ae015cc0ee5091a91",
+      "published_size": 1282,
+      "published_sha256": "05b7dfdc2c735d501fa67069e590c0e9f5edbbf8147a0d5ae015cc0ee5091a91",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/history/f5c945a-incomplete/STATUS.json",
@@ -11745,6 +11901,149 @@
       ]
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/density-validation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 118,
+      "source_sha256": "13f71c6760097b3fb75192d642e71260da3d471bfee4087dab1aab66caa5a042",
+      "published_size": 118,
+      "published_sha256": "13f71c6760097b3fb75192d642e71260da3d471bfee4087dab1aab66caa5a042",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/factor-aliases.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 355,
+      "source_sha256": "58664c02f13123e60e4c7abfc14260b0441608aae239fa3385abfd34ee19491f",
+      "published_size": 355,
+      "published_sha256": "58664c02f13123e60e4c7abfc14260b0441608aae239fa3385abfd34ee19491f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/initial-potential.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 319,
+      "source_sha256": "e7dad1e177f05407fb2d0dc19e73d44dc9dfe48dca012bcc04f95411ced19e42",
+      "published_size": 319,
+      "published_sha256": "e7dad1e177f05407fb2d0dc19e73d44dc9dfe48dca012bcc04f95411ced19e42",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 182,
+      "source_sha256": "f1d60bcbd71914546dcc8dd74f33bb9d8961635c4178be3a4555336e8c7995a5",
+      "published_size": 182,
+      "published_sha256": "f1d60bcbd71914546dcc8dd74f33bb9d8961635c4178be3a4555336e8c7995a5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 604850,
+      "source_sha256": "b30d6f03c389e170386bef6fbc3e1baaf564a1b67e135cb7947b33678bb213ad",
+      "published_size": 604778,
+      "published_sha256": "7eea2c91aa4033b40009d38f7caf9e65e61400b11ab158f71d62031bfe92024f",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 99,
+      "source_sha256": "cb5ebdae378c02ef70b78e5c9741f9700a0fa38bfdb0d7a87dea2f4ff516abaa",
+      "published_size": 99,
+      "published_sha256": "cb5ebdae378c02ef70b78e5c9741f9700a0fa38bfdb0d7a87dea2f4ff516abaa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 51013
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 301,
+      "source_sha256": "38cdccc5f16e18944932ce16da119441c6e1fd072d614ed573cfd51f5858eb79",
+      "published_size": 301,
+      "published_sha256": "38cdccc5f16e18944932ce16da119441c6e1fd072d614ed573cfd51f5858eb79",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 586041,
+      "source_sha256": "e8c418b4ca41c15846c58eb6c6902d049a74eb51a7359b33436d900afb436db8",
+      "published_size": 498597,
+      "published_sha256": "e646653746c69590398851a6216f93172e36b74b2aba30aa2152a9ccc811fe48",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2429
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/stages.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 1972,
+      "source_sha256": "7ee5d32dcfc4458b1d7cabda38ba8858004af877c8f4a29ba876908ba78eb45d",
+      "published_size": 1972,
+      "published_sha256": "7ee5d32dcfc4458b1d7cabda38ba8858004af877c8f4a29ba876908ba78eb45d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 487
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 2103
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 552418,
+      "source_sha256": "34cba7f6e1d2348d23a6156e73c0d0fddbdf5de7c74d20621d54d6de9ccea64f",
+      "published_size": 552346,
+      "published_sha256": "cab74d91774ae857cf9ef83d3e837899f2311ba81ff5eb63c9537dcdb9de266b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 56,
+      "source_sha256": "cd200640a5fbb4b31b9fce53084eefc641cf16205569aecc32d2bfd20d235afd",
+      "published_size": 56,
+      "published_sha256": "cd200640a5fbb4b31b9fce53084eefc641cf16205569aecc32d2bfd20d235afd",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-saved-j-pilot/run.py",
       "status": "included",
       "reason": null,
@@ -11793,6 +12092,12 @@
       "published_size": 2431,
       "published_sha256": "740e0d4064a2261cd4f7eeb6cfc066392ca8980111c5ccb3b56bdda02462802c",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-j-qualification/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/parent-saved-j-qualification/handoff.py",
@@ -12094,10 +12399,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 26833,
-      "source_sha256": "4a2ad4eeaf97ed7f5f319d7538a63dab0c531042a3dccae38d0527e36dac2e39",
-      "published_size": 26833,
-      "published_sha256": "4a2ad4eeaf97ed7f5f319d7538a63dab0c531042a3dccae38d0527e36dac2e39",
+      "source_size": 29680,
+      "source_sha256": "73f780aa0b83fb3ba93b4c0e13a22b3ebf8adad51d486ed12cb5ff1290208254",
+      "published_size": 29680,
+      "published_sha256": "73f780aa0b83fb3ba93b4c0e13a22b3ebf8adad51d486ed12cb5ff1290208254",
       "transformations": []
     },
     {

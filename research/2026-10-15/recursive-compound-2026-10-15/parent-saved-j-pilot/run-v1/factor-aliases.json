@@ -1,0 +1,24 @@
+[
+  {
+    "role": "PCM_surface",
+    "shape": [
+      9284,
+      9284
+    ],
+    "shares_memory": true,
+    "same_pointer": true,
+    "readonly": true,
+    "Fortran": true
+  },
+  {
+    "role": "RI_metric",
+    "shape": [
+      19612,
+      19612
+    ],
+    "shares_memory": true,
+    "same_pointer": true,
+    "readonly": true,
+    "Fortran": true
+  }
+]

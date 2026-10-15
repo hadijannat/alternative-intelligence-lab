@@ -1,0 +1,44 @@
+{
+  "date_local": "2026-10-16",
+  "distinct_primary_routes": 4,
+  "targeted_searches": 6,
+  "routes": [
+    {
+      "url": "https://wrap.warwick.ac.uk/id/eprint/22597/",
+      "method": "web.open",
+      "result": "Institutional record retrieved; explicitly no output available; abstract only",
+      "full_text_acquired": false
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/articlelanding/1991/dt/dt9910001799",
+      "method": "web.open",
+      "result": "403 Forbidden",
+      "full_text_acquired": false
+    },
+    {
+      "url": "https://wrap.warwick.ac.uk/id/eprint/135670/",
+      "method": "web.open",
+      "result": "Primary doctoral thesis metadata and public download link retrieved",
+      "full_text_acquired": false
+    },
+    {
+      "url": "https://wrap.warwick.ac.uk/id/eprint/135670/1/WRAP_Theses_Hastings_1993.pdf",
+      "methods": [
+        "web.click",
+        "urllib.request.urlopen"
+      ],
+      "result": "Full thesis acquired",
+      "status": 200,
+      "raw_file": "raw/hastings1993.pdf",
+      "bytes": 7880668,
+      "sha256": "b5df81fc9e5668f794864b47258a6fdeacc671e0f0915f9cf5953e03339b259a",
+      "transport_details": "raw/download-record.json"
+    }
+  ],
+  "prior_failed_route_not_retried": "https://pubs.rsc.org/en/content/articlepdf/1991/dt/dt9910001799",
+  "exclusions": [
+    "Non-primary search-result numerical snippets were not admitted",
+    "Phosphate-templated Keggin and pure-vanadate sources were not substituted for binary Mo/V data",
+    "No author or institution was contacted"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "observed_at_UTC": "2026-10-15T22:52:16.205190+00:00",
+  "outputs_or_energies_requested": false,
+  "scientific_operators": 0,
+  "assets": [
+    {
+      "path": "raw/HMo2O7.xyz",
+      "url": "https://iochem-bd.iciq.es/browse/cml2xyz?id=28991&mode=single_xyz",
+      "http_status": 200,
+      "final_url": "https://iochem-bd.iciq.es/browse/cml2xyz?id=28991&mode=single_xyz",
+      "bytes": 334,
+      "sha256": "3133155e610321f92d1fe9735baa0f6192243aece1db91f90a8ab90f62b6f2f2",
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "raw/HMo2O7.in",
+      "url": "https://iochem-bd.iciq.es/browse/bitstream/100/28778/3/Mo2O7-1H.in",
+      "http_status": 200,
+      "final_url": "https://iochem-bd.iciq.es/browse/bitstream/100/28778/3/Mo2O7-1H.in",
+      "bytes": 1546,
+      "sha256": "68d8fc04c461636ca17441d89bef1a9618a079244af5d7677e13193cdd0ff922",
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "raw/item.html",
+      "url": "https://iochem-bd.iciq.es/browse/handle/100/28778",
+      "http_status": 200,
+      "final_url": "https://iochem-bd.iciq.es/browse/handle/100/28778",
+      "bytes": 32971,
+      "sha256": "d3e2b521d08459dd271b64edc3a381160671fc0d56c67de2fd1ffb3635c7cb58",
+      "status": "ACQUIRED"
+    }
+  ]
+}

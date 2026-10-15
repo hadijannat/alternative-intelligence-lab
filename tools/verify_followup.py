@@ -534,12 +534,14 @@ def verify_saved_j_followup(recursive):
     assert source['collaborator_thesis']['ordinary_mo36_occupancy_supported'] is False
     pilot = recursive / 'parent-saved-j-pilot'
     status = json.loads((pilot / 'STATUS.json').read_text())
-    assert status['status'] == 'PREPARED_REVIEWED_GATE_PASSED_NOT_LAUNCHED'
+    assert status['status'] == 'FAIL_OR_INCOMPLETE'
     assert status['unit_tests_run'] == 22 and status['qualified_handoff_regression_tests'] == 15
-    assert status['SCFs_launched'] == 0 and status['physical_admission'] is False
+    assert status['SCFs_launched'] == 1 and status['physical_admission'] is False
+    assert status['execution_clearance'] is False and status['completed_cycles'] == 0
+    assert status['native_converged'] is False and status['worker_result_status'] == 'RUNNING'
     assert status['historical_snapshot'] == 'history/f5c945a-incomplete'
     for key in ('implementation_complete', 'independent_implementation_review_complete', 'protocol_frozen',
-                'prepared', 'execution_clearance', 'gate_check_passed'):
+                'prepared', 'gate_check_passed'):
         assert status[key] is True
     preparation = json.loads((pilot / 'preparation.json').read_text())
     approval = json.loads((pilot / 'independent-root-review.json').read_text())
@@ -556,7 +558,30 @@ def verify_saved_j_followup(recursive):
     assert preparation['proof']['density_cycle'] == 0
     for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
         assert (pilot / name).is_file()
-    assert not (pilot / 'run-v1').exists()
+    run = pilot / 'run-v1'
+    launch = json.loads((run / 'launch-result.json').read_text())
+    worker = json.loads((run / 'result.json').read_text())
+    receipt = json.loads((run / 'supervisor.json').read_text())
+    assert launch['status'] == 'FAIL_OR_INCOMPLETE' and launch['required_evidence_present'] is False
+    assert launch['receipt'] == receipt and launch['result'] == worker
+    assert launch['gate_unchanged'] is True and launch['errors'] == {}
+    assert receipt['returncode'] == -5
+    assert receipt['termination_reason'] is None and receipt['monitor_error'] is None
+    assert receipt['wall_seconds'] == 1346.6326383340638
+    assert receipt['sampled_max_rss_bytes'] == 7584022528 and receipt['hard_OS_memory_limit'] is False
+    assert worker['status'] == 'RUNNING' and worker['SCFs_launched'] == 1
+    assert worker['initial_potential_complete'] is True
+    for key in ('native_converged', 'final_validation_complete', 'physical_admission', 'fresh_holdout', 'geometry_optimization'):
+        assert worker[key] is False
+    for key in ('physical_admission', 'geometry_optimization', 'full_parent_oracle'):
+        assert launch[key] is False
+    assert 'latest_complete_cycle' not in worker and 'native_final_state' not in worker
+    stages = [json.loads(line) for line in (run / 'stages.jsonl').read_text().splitlines()]
+    assert stages[-1]['stage'] == 'native_metric_return' and stages[-1]['finite_J'] is True
+    assert not any(row['stage'] in {'completed_cycle', 'kernel_return', 'native_post_kernel_entry',
+        'native_post_kernel_return', 'final_validation_entry', 'final_validation_return'} for row in stages)
+    for name in ('latest-complete-cycle.npz', 'native-final-state.npz', 'final-validated-state.npz'):
+        assert not (run / name).exists()
     draft = pilot / 'history/f5c945a-incomplete'
     status = json.loads((draft / 'STATUS.json').read_text())
     assert status['status'] == 'DRAFT_INCOMPLETE_NOT_QUALIFIED'
@@ -589,6 +614,28 @@ def verify_saved_j_followup(recursive):
     assert vanadium['existing_evidence_reclassification']['preserve_original_raman_observation'] is True
     assert vanadium['next_test']['missing_51v_signal_alone_sufficient'] is False
     assert vanadium['next_test']['apply_4_to_1_data_as_34_to_1_target_calibration'] is False
+    competing = json.loads((recursive / 'identity/competing-mov-speciation/evidence.json').read_text())
+    assert competing['outcome'] == 'NUMERICAL_LEADS_RECOVERED_BUT_ZERO_PRIMARY_MOV_CALIBRATION_ROWS'
+    assert competing['accepted_primary_mov_calibration_rows'] == []
+    assert competing['scope']['scientific_simulations'] == competing['scope']['source_fits'] == competing['scope']['new_candidates'] == 0
+    for key in ('changed', 'identity_established', 'thermodynamic_exclusion_established'):
+        assert competing['target'][key] is False
+    assert len(competing['reproduced_numeric_leads']) == 10
+    for row in competing['reproduced_numeric_leads']:
+        for key in ('original_source_acquired', 'calibration_eligible', 'original_row_conditions_verified'):
+            assert row[key] is False
+        assert row['uncertainty'] is None and row['original_component_denominator'] is None
+    assert all(value is False for value in competing['application_boundary'].values())
+    assert competing['denominator_audit']['automatic_conversion_to_vo4_basis'] is False
+    assert competing['denominator_audit']['cross_system_w_mo_constant_comparison_admitted'] is False
+    holdout = json.loads((recursive / 'identity/next-step/pcm-heldout-selection/selection.json').read_text())
+    assert holdout['status'] == 'CANDIDATE_NUMERICAL_HOLDOUT_ACQUIRED_NOT_TESTED'
+    assert holdout['formula'] == 'HMo2O7' and holdout['source_input_charge'] == -1
+    assert holdout['scientific_operators_evaluated'] == holdout['SCFs_launched'] == 0
+    assert holdout['planned_numerical_spin'] is None and holdout['numerical_qualification_pass'] is None
+    for key in ('source_output_spin_verified', 'source_outputs_or_energies_inspected', 'successor_protocol_frozen',
+                'chemical_validation', 'target_identity_verified', 'new_candidate_role', 'independent_source_family'):
+        assert holdout[key] is False
 
 
 def verify_parent_pilot_source_bindings(included):

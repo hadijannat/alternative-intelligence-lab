@@ -241,10 +241,11 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-openmp-qualification', 'parent-openmp-qualification-v2',
                        'parent-openmp-first-j', 'parent-openmp-first-j-v2', 'parent-saved-j-qualification',
                        'parent-saved-j-pilot', 'identity/moussawi-occupancy-followup',
-                       'identity/vanadium-incorporation-followup'):
+                       'identity/vanadium-incorporation-followup', 'identity/competing-mov-speciation',
+                       'identity/next-step/pcm-heldout-selection'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
-                if path.is_file() and path.suffix in ('.json', '.py', '.md', '.csv'):
+                if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
                     target = self.recursive / path.relative_to(source)
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_bytes(path.read_bytes())
@@ -285,10 +286,17 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('identity/moussawi-occupancy-followup/evidence.json', 'nominal_target_verified', True),
             ('identity/moussawi-occupancy-followup/evidence.json', ('exact_missing_fields', 'refined_site_occupancy'), 1),
             ('parent-saved-j-pilot/STATUS.json', 'status', 'QUALIFIED'),
-            ('parent-saved-j-pilot/STATUS.json', 'execution_clearance', False),
+            ('parent-saved-j-pilot/STATUS.json', 'execution_clearance', True),
             ('parent-saved-j-pilot/STATUS.json', 'unit_tests_run', 1),
-            ('parent-saved-j-pilot/STATUS.json', 'SCFs_launched', 1),
+            ('parent-saved-j-pilot/STATUS.json', 'SCFs_launched', 0),
             ('parent-saved-j-pilot/STATUS.json', 'physical_admission', True),
+            ('parent-saved-j-pilot/run-v1/launch-result.json', 'status', 'PASS'),
+            ('parent-saved-j-pilot/run-v1/launch-result.json', 'required_evidence_present', True),
+            ('parent-saved-j-pilot/run-v1/supervisor.json', 'returncode', 0),
+            ('identity/competing-mov-speciation/evidence.json', 'accepted_primary_mov_calibration_rows', [{'value': 60.37}]),
+            ('identity/competing-mov-speciation/evidence.json', ('reproduced_numeric_leads', 0, 'calibration_eligible'), True),
+            ('identity/next-step/pcm-heldout-selection/selection.json', 'numerical_qualification_pass', True),
+            ('identity/next-step/pcm-heldout-selection/selection.json', 'scientific_operators_evaluated', 1),
             ('parent-saved-j-pilot/preparation.json', 'wall_cap_seconds', 3600),
             ('parent-saved-j-pilot/preparation.json', 'maximum_SCFs', 2),
             ('parent-saved-j-pilot/preparation.json', ('proof', 'method', 'max_cycle'), 40),
@@ -359,8 +367,9 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for path, data in zip(paths, originals):
             path.write_bytes(data)
 
-    def test_launched_pilot_or_rewritten_draft_is_rejected(self):
-        for name in ('run-v1', 'history/f5c945a-incomplete/preparation.json',
+    def test_fabricated_parent_completion_or_rewritten_draft_is_rejected(self):
+        for name in ('run-v1/latest-complete-cycle.npz', 'run-v1/native-final-state.npz', 'run-v1/final-validated-state.npz',
+                     'history/f5c945a-incomplete/preparation.json',
                      'history/f5c945a-incomplete/run-v1'):
             with self.subTest(name=name):
                 path = self.recursive / 'parent-saved-j-pilot' / name
@@ -368,6 +377,32 @@ class OpenMPRenewalVerification(unittest.TestCase):
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)
                 path.unlink()
+
+    def test_consistently_promoted_terminal_parent_is_rejected(self):
+        run = self.recursive / 'parent-saved-j-pilot/run-v1'
+        paths = [run / name for name in ('result.json', 'launch-result.json')]
+        originals = [path.read_bytes() for path in paths]
+        for key, value in (('native_converged', True), ('final_validation_complete', True),
+                           ('physical_admission', True), ('fresh_holdout', True)):
+            with self.subTest(key=key):
+                worker, launch = [json.loads(data) for data in originals]
+                worker[key] = value
+                launch['result'] = worker
+                for path, data in zip(paths, (worker, launch)):
+                    path.write_text(json.dumps(data))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, data in zip(paths, originals):
+            path.write_bytes(data)
+        stages_path = run / 'stages.jsonl'
+        original_stages = stages_path.read_text()
+        for stage in ('completed_cycle', 'native_post_kernel_entry', 'native_post_kernel_return',
+                      'kernel_return', 'final_validation_entry', 'final_validation_return'):
+            with self.subTest(stage=stage):
+                stages_path.write_text(json.dumps({'stage': stage}) + '\n' + original_stages)
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        stages_path.write_text(original_stages)
 
     def test_original_source_pin_bindings_are_required(self):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'

@@ -1,0 +1,363 @@
+{
+  "date_local": "2026-10-16",
+  "timezone": "Europe/Berlin",
+  "scope": {
+    "targeted_search_count": 6,
+    "targeted_search_cap": 6,
+    "distinct_primary_route_count": 4,
+    "primary_route_cap": 4,
+    "scientific_simulations": 0,
+    "source_fits": 0,
+    "new_candidates": 0
+  },
+  "outcome": "NUMERICAL_LEADS_RECOVERED_BUT_ZERO_PRIMARY_MOV_CALIBRATION_ROWS",
+  "target": {
+    "formula": "[Mo(VI)34 W(VI) V(V) O112(H2O)16]9-",
+    "mo_v_ratio": 34,
+    "changed": false,
+    "identity_established": false,
+    "thermodynamic_exclusion_established": false
+  },
+  "accepted_primary_mov_calibration_rows": [],
+  "sources": [
+    {
+      "source_id": "howarth1991",
+      "doi": "10.1039/DT9910001799",
+      "title": "Aqueous molybdovanadates at high Mo:V ratio",
+      "institutional_url": "https://wrap.warwick.ac.uk/id/eprint/22597/",
+      "full_text_acquired": false,
+      "repository_explicitly_has_no_output": true,
+      "repository_locator": "Research output not available from this repository; web lines22-24",
+      "abstract_conditions": {
+        "potentiometry_temperature_C": 25,
+        "medium": "0.6 mol dm-3 Na(Cl)",
+        "nmr_pH_range": [
+          1.4,
+          7
+        ],
+        "concentration_range": null
+      },
+      "abstract_reports_formation_constants_without_values": true
+    },
+    {
+      "source_id": "hastings1993",
+      "author": "Jeremy Joseph Hastings",
+      "title": "An NMR study of aqueous isopolytungstate, molybdotungstate and tungstovanadate solutions",
+      "institution": "University of Warwick",
+      "date": "1993-10",
+      "primary_url": "https://wrap.warwick.ac.uk/id/eprint/135670/1/WRAP_Theses_Hastings_1993.pdf",
+      "local_pdf": "raw/hastings1993.pdf",
+      "pdf_pages": 197,
+      "bytes": 7880668,
+      "sha256": "b5df81fc9e5668f794864b47258a6fdeacc671e0f0915f9cf5953e03339b259a",
+      "primary_scope": "Own W-containing solution measurements; Mo/V quantities reproduced from earlier publications",
+      "reference26": {
+        "authors": "O. W. Howarth, L. Pettersson and I. Andersson",
+        "journal": "J. Chem. Soc. Dalton Trans.",
+        "year": 1991,
+        "page": 1799,
+        "locator": "References, printed p167 / PDF191"
+      },
+      "own_wv_measurements_excluded_from_mov_calibration": true
+    }
+  ],
+  "reproduced_numeric_leads": [
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L01",
+      "species": "cis-[Mo4V2O19]4-",
+      "observable": "log10_beta",
+      "value": 60.37,
+      "printed_pqr": [
+        8,
+        4,
+        2
+      ],
+      "printed_page": 155,
+      "pdf_page": 179,
+      "locator": "Table 46, right-hand block; footnote a explicitly attached",
+      "explicit_original_doi": "10.1039/DT9910001799"
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L02",
+      "species": "cis-[HMo4V2O19]3-",
+      "observable": "log10_beta",
+      "value": 64.11,
+      "printed_pqr": [
+        9,
+        4,
+        2
+      ],
+      "printed_page": 155,
+      "pdf_page": 179,
+      "locator": "Table 46, right-hand block; individual row has no footnote marker",
+      "explicit_original_doi": null
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L03",
+      "species": "[MoV9O28]5-",
+      "observable": "log10_beta",
+      "value": 134.56,
+      "printed_pqr": [
+        15,
+        1,
+        9
+      ],
+      "printed_page": 155,
+      "pdf_page": 179,
+      "locator": "Table 46, right-hand block; individual row has no footnote marker",
+      "explicit_original_doi": null
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L04",
+      "species": "[HMoV9O28]4-",
+      "observable": "log10_beta",
+      "value": 137.33,
+      "printed_pqr": [
+        16,
+        1,
+        9
+      ],
+      "printed_page": 155,
+      "pdf_page": 179,
+      "locator": "Table 46, right-hand block; individual row has no footnote marker",
+      "explicit_original_doi": null
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L05",
+      "species": "cis-[Mo4V2O19]4-",
+      "observable": "51V_chemical_shift",
+      "value": -498,
+      "unit": "ppm",
+      "printed_page": 53,
+      "pdf_page": 76,
+      "locator": "Section 1.10.2.1, explicit ref26",
+      "explicit_original_doi": "10.1039/DT9910001799",
+      "row_temperature_K": null
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L06",
+      "species": "cis-[HMo4V2O19]3-",
+      "observable": "51V_chemical_shift",
+      "value": -512.5,
+      "unit": "ppm",
+      "printed_page": 53,
+      "pdf_page": 76,
+      "locator": "Section 1.10.2.1, explicit ref26",
+      "explicit_original_doi": "10.1039/DT9910001799",
+      "row_temperature_K": null
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L07",
+      "species": "[Mo5VO19]3-",
+      "observable": "51V_chemical_shift",
+      "value": -506.4,
+      "unit": "ppm",
+      "printed_page": 54,
+      "pdf_page": 77,
+      "locator": "Section 1.10.2.1 continuation of ref26 literature discussion",
+      "explicit_original_doi": null,
+      "row_temperature_K": null,
+      "reported_pH_dependence": "shift independent of pH; peak intensity maximum pH1.5-4.0"
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L08",
+      "species": "beta-[Mo7VO26]5-",
+      "observable": "51V_chemical_shift",
+      "value": -537.2,
+      "unit": "ppm",
+      "printed_page": 56,
+      "pdf_page": 79,
+      "locator": "Section 1.10.2.3, explicit Howarth et al ref26",
+      "explicit_original_doi": "10.1039/DT9910001799",
+      "row_temperature_K": null,
+      "reported_pH_dependence": "shift independent of pH"
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L09",
+      "species": "cis-[HMo4V2O19]3- / cis-[Mo4V2O19]4-",
+      "observable": "pKa",
+      "value": 3.8,
+      "unit": "pKa",
+      "printed_page": 53,
+      "pdf_page": 76,
+      "locator": "Section 1.10.2.1, explicit ref26",
+      "explicit_original_doi": "10.1039/DT9910001799",
+      "row_temperature_K": 297
+    },
+    {
+      "source_id": "hastings1993",
+      "evidence_class": "secondary numerical reproduction inside primary thesis",
+      "original_source_acquired": false,
+      "calibration_eligible": false,
+      "uncertainty": null,
+      "original_component_denominator": null,
+      "original_reference_calibration": null,
+      "original_row_conditions_verified": false,
+      "row_id": "L10",
+      "species": "[HMo4V5O27]4- / [Mo4V5O27]5-",
+      "observable": "pKa",
+      "value": 2.5,
+      "approximate": true,
+      "unit": "pKa",
+      "printed_page": 55,
+      "pdf_page": 78,
+      "locator": "Section 1.10.2.2, explicit Howarth et al ref26",
+      "explicit_original_doi": "10.1039/DT9910001799",
+      "row_temperature_K": null
+    }
+  ],
+  "denominator_audit": {
+    "table30_wv_definition": {
+      "components": [
+        "H+",
+        "WO4^2-",
+        "HVO4^2-"
+      ],
+      "locator": "Table30 footnote a, printed p126 / PDF150",
+      "explicit_for_wv": true
+    },
+    "table46_mo_original_definition_verified": false,
+    "reported_mo_pqr_consistent_with_hydrogenvanadate_basis": true,
+    "consistency_is_inference_not_original_definition": true,
+    "automatic_conversion_to_vo4_basis": false,
+    "cross_system_w_mo_constant_comparison_admitted": false,
+    "wv_figure81_observable": {
+      "name": "Vanadium Fraction",
+      "denominator": "total vanadium atoms; element-weighted fraction, not cluster-number fraction",
+      "W_total_mM": 20,
+      "V_total_mM": 80,
+      "temperature_C": 20,
+      "locator": "Figure81, printed p155 / PDF179",
+      "valid_mov_calibration": false
+    },
+    "wv_fit_window": {
+      "pH": [
+        3,
+        5.4
+      ],
+      "major_species_minimum_fraction_of_v": 0.96,
+      "locator": "printed p154 / PDF178",
+      "outside_window_limitation": "Ignored minor species cause overestimation of decavanadate outside the fitted pH window",
+      "valid_mov_calibration": false
+    }
+  },
+  "source_quality_flags": [
+    {
+      "flag": "Table48 cites ref154 for the Mo shifts",
+      "locator": "printed p160 / PDF184",
+      "detail": "Ref154 is Holmstrom's1988 thesis used for LAKE; the same Mo shifts appear in the Howarth1991 literature discussion on pp53-54. Apparent reference inconsistency preserved without correction."
+    },
+    {
+      "flag": "Thesis abstract and W/V fit body differ in stated temperature",
+      "locator": "abstract:25 C; printed pp154-155/PDF178-179:20 C",
+      "detail": "No choice silently imposed; W/V fit conditions are not assigned to original Mo/V rows."
+    },
+    {
+      "flag": "Four printed Mo constants lack uncertainty and verified original denominator",
+      "locator": "Table46, printed p155 / PDF179",
+      "detail": "Footnote marker appears only beside60.37; preceding p154 prose identifies the block as molybdo analogues but does not individually cite the other three rows. No repair or normalization performed."
+    }
+  ],
+  "missing_original_data": {
+    "full_1991_table": null,
+    "original_component_reaction_and_denominator": null,
+    "activity_convention": null,
+    "full_species_matrix": null,
+    "total_concentration_ranges": null,
+    "temperature_per_dataset": null,
+    "nmr_reference_calibration": null,
+    "relaxation_and_integral_response_corrections": null,
+    "measurement_uncertainties_or_covariance": null,
+    "raw_emf_nmr_data": null,
+    "held_out_measurements": null
+  },
+  "application_boundary": {
+    "ordinary_krebs_mo36_data": false,
+    "beta_mo7v_is_mo36": false,
+    "precursor_formal_valence_is_bound_target_valence": false,
+    "transfer_jung_4_to_1_to_target_34_to_1": false,
+    "transfer_wv_fit_to_mov": false,
+    "target_fraction_from_nmr_missing_peak": false
+  },
+  "decision": "Use reproduced values as retrieval/assignment leads only. A calibrated Mo/V model requires verified original component conventions, conditions, uncertainty and observational normalization or independent measurements.",
+  "search_queries": [
+    "\"10.1039/DT9910001799\" formation constants",
+    "\"Aqueous molybdovanadates at high Mo:V ratio\" pdf",
+    "molybdovanadate \"formation constants\" 51V",
+    "\"Mo7VO26\" \"NMR\" chemical shift",
+    "\"Mo7VO26\" \"ppm\"",
+    "\"molybdovanadates\" \"log\" \"Howarth\""
+  ]
+}

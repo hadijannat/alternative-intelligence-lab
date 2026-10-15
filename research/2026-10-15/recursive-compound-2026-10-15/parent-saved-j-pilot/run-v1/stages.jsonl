@@ -1,0 +1,19 @@
+{"stage": "worker_entry", "elapsed_seconds": 8.837506175041199e-05}
+{"stage": "molecule_entry", "elapsed_seconds": 0.3733425000682473}
+{"stage": "molecule_return", "elapsed_seconds": 0.38056991703342646}
+{"stage": "kernel_entry", "elapsed_seconds": 9.299646208062768}
+{"stage": "get_veff_entry", "elapsed_seconds": 18.037334416992962, "saved_J_hits": 0, "native_calls": 0}
+{"stage": "PCM_potential_entry", "elapsed_seconds": 82.47233758307993}
+{"stage": "PCM_build_entry", "elapsed_seconds": 82.56772945798002}
+{"stage": "PCM_surface_factor_entry", "elapsed_seconds": 83.33418962499127, "shape": [9284, 9284]}
+{"stage": "PCM_surface_factor_return", "elapsed_seconds": 84.6416412080871, "role": "PCM_surface", "shape": [9284, 9284], "shares_memory": true, "same_pointer": true, "readonly": true, "Fortran": true}
+{"stage": "PCM_build_return", "elapsed_seconds": 84.66883241699543}
+{"stage": "PCM_potential_return", "elapsed_seconds": 1034.791733207996}
+{"stage": "get_veff_return", "elapsed_seconds": 1034.8427400420187, "saved_J_hits": 1, "native_calls": 0}
+{"stage": "initial_potential_pre_kernel_entry", "elapsed_seconds": 1036.383435582975}
+{"stage": "initial_potential_pre_kernel_return", "elapsed_seconds": 1036.399866666994, "electron_trace": 1528.408011409988}
+{"stage": "get_veff_entry", "elapsed_seconds": 1039.195065042004, "saved_J_hits": 1, "native_calls": 0}
+{"stage": "native_J_entry", "elapsed_seconds": 1092.5028843750479, "native_calls": 0, "PCM_present": true, "RI_present": false}
+{"stage": "RI_metric_factor_entry", "elapsed_seconds": 1093.555578792002, "shape": [19612, 19612]}
+{"stage": "RI_metric_factor_return", "elapsed_seconds": 1105.3739203750156, "role": "RI_metric", "shape": [19612, 19612], "shares_memory": true, "same_pointer": true, "readonly": true, "Fortran": true}
+{"stage": "native_metric_return", "elapsed_seconds": 1343.8582638329826, "call": 1, "factor_type": "cd", "cached_3index": false, "tensor_output": false, "finite_J": true}
