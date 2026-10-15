@@ -1,5 +1,15 @@
 # Progress checkpoint
 
+## Current publication checkpoint: W/V result, renewal source audit and runtime diagnostic
+
+The user requested commit and push of the current changes to main. The W/V comparison is now terminal PASS_NUMERICAL_SCREEN_ONLY:40/40 checks across four converged direct/MemoryRI SCFs, with all30pins unchanged. Independent saved-array review confirms the selected WO4/VO4 comparisons. This is small-reference numerical evidence; target incorporation, experimental accuracy and parent feasibility remain unverified. The original prepared/unrun reports and all earlier failed runs are retained.
+
+Candidate-role21 is Fe(II) feed with Co-assisted NiCoFe hydroxide. Its retrospective source audit records12deposition-rate points and Ni/Co/Fe potential changes of+20.25/-31.47/-88.13mV. The saved seven-test receipt and independent cell review support the extraction. Figure2e is potential-versus-time data, not the missing matched Co-assisted EQCM comparison. Figure2d C1 says50mM while the article/graphic say50µM; the conflict remains unresolved. No-feed film loss does not identify founder replacement under feed. Target renewal, new-atom function and a compatible coupled medium are unmeasured. The count is21candidate-role assessments and zero verified integrated complements.
+
+The parent MemoryRI result remains WALL_LIMIT at900.273005792seconds under its original900second/10GiB guards, with initial density only and no completed J or SCF. The separate non-chemical runtime probe requested four threads but observed one; the installed PySCF reports OpenMP unavailable. It ran no scientific operators or SCFs. A new environment would need separate small-case qualification and a bounded first-J diagnostic before reconsidering parent execution; none has launched. Publication adds no research run, and the full scientific goal remains active and unmet.
+
+The entries below are historical checkpoints; their counts and prepared/live/unrun labels describe the state at those earlier observations.
+
 ## Publication checkpoint: memory results and parent terminal outcome
 
 The user requested commit and push to main. The already-running parent MemoryRI pilot reached its original900second wall limit at900.273005792seconds: child-15, launcher exit1, no monitor error. Both processes are absent. Sampled maximum RSS3,527,327,744bytes is not a certified peak. Only the initial cycle0 density exists; no completed J or SCF result. All66original pins match. A single earlier runtime sample places it in the second three-center Coulomb contraction. REPORT.md and terminal-review.json preserve this resource failure; no retry or new scientific campaign was launched for publication.

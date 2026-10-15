@@ -204,7 +204,76 @@ def verify_memory_followup(recursive, case_names):
     assert preparation['status'] == 'PREPARED_NOT_EXECUTED' and len(preparation['pins']) == 30
     assert len(preparation['cases']) == 2 and {c['case'] for c in preparation['cases']} == {'WO4', 'VO4'}
     assert preparation['SCFs_launched'] == 0 and preparation['operators_evaluated'] == 0
-    assert not (wv / 'run-v1').exists()
+    run = wv / 'run-v1'
+    assert json.loads((run / 'pins.json').read_text()) == preparation['pins']
+    completed = json.loads((run / 'result.json').read_text())
+    assert completed['status'] == 'PASS_NUMERICAL_SCREEN_ONLY'
+    assert completed['pins_unchanged'] is True and completed['physical_admission'] is False
+    assert completed['maximum_SCFs'] == completed['actual_SCFs_launched'] == 4
+    assert completed['case_SCFs_launched'] == {'WO4': 2, 'VO4': 2}
+    receipts = json.loads((run / 'receipts.json').read_text())
+    assert len(receipts) == 2 and {r['case'] for r in receipts} == {'WO4', 'VO4'}
+    checks, scfs = [], []
+    for receipt in receipts:
+        child = run / receipt['case']
+        supervisor = json.loads((child / 'supervisor.json').read_text())
+        assert {k: v for k, v in receipt.items() if k != 'case'} == supervisor
+        assert supervisor['returncode'] == 0 and supervisor['termination_reason'] is None
+        assert supervisor['monitor_error'] is None
+        result = json.loads((child / 'result.json').read_text())
+        assert result['case'] == receipt['case'] and result['status'] == 'PASS_NUMERICAL_SCREEN_ONLY'
+        assert result['physical_admission'] is False and result['experimental_validation'] is False
+        assert result['fresh_fixed_geometry_numerical_challenge'] is True
+        assert result['SCFs_launched'] == 2 and len(result['checks']) == 20
+        checks.extend(result['checks'])
+        scfs.extend((result['direct_SCF'], result['RI_SCF']))
+    assert len(checks) == 40 and all(check['pass'] is True for check in checks)
+    assert len(scfs) == 4 and all(scf['converged'] is True for scf in scfs)
+    diagnostic = (parent / 'THREAD_DIAGNOSTIC.md').read_text()
+    probe = json.loads(diagnostic.split('```json\n', 1)[1].split('```', 1)[0])
+    assert probe == {'before': 1, 'request_4_return': 0, 'after': 1,
+                     'scientific_operators': 0, 'SCFs': 0}
+    assert 'OpenMP is not available.' in diagnostic
+    assert 'Full parent convergence, solution identity and target integration remain unverified.' in diagnostic
+    renewal = recursive / 'renewal/fe-feed-21'
+    assessment = json.loads((renewal / 'assessment.json').read_text())
+    assert assessment['candidate_role'] == 21
+    assert assessment['status'] == 'COMPONENT_SUPPORTED_TARGET_RENEWAL_UNRESOLVED'
+    assert assessment['source_data_reanalyzed'] is True
+    for claim in ('admitted_to_assembly', 'experimental_holdout', 'target_existence_verified',
+                  'target_renewal_verified', 'functional_inheritance_verified',
+                  'matched_Co_assisted_EQCM_comparison_available', 'fig2d_feed_unit_conflict_resolved'):
+        assert assessment[claim] is False
+    assert assessment['new_physical_experiments'] == assessment['new_fitted_models'] == 0
+    for unknown in ('solid_fixed_molecular_formula', 'founder_replacement_fraction',
+                    'fig2e_current_density_mA_cm2'):
+        assert assessment[unknown] is None
+    analysis = json.loads((renewal / 'analysis.json').read_text())
+    inventory = json.loads((renewal / 'source-data-inventory.json').read_text())
+    assert analysis['status'] == 'SOURCE_DATA_RECOVERED_MATCHED_EQCM_COMPARATOR_UNAVAILABLE'
+    assert analysis['target_renewal_demonstrated'] is False
+    assert analysis['source'] == inventory['source']
+    assert analysis['source']['doi'] == '10.1038/s41467-021-26281-0'
+    assert len(inventory['workbooks']) == 5
+    sheets = {sheet['name']: sheet for book in inventory['workbooks'] for sheet in book['sheets']}
+    conflict = analysis['source_label_conflict']
+    assert conflict['workbook_label_verbatim'] == 'with 50 mM Fe(II)'
+    assert sheets['Figure 2d']['text_cells_in_first_three_rows']['C1'] == conflict['workbook_label_verbatim']
+    assert conflict['article_nominal_feed_uM'] == 50
+    assert 'Unresolved mM versus microM discrepancy retained' in conflict['disposition']
+    comparator = analysis['matched_Co_assisted_vs_unassisted_EQCM']
+    assert comparator['common_potential_comparisons'] is None and comparator['Co_assisted_rate_data'] is None
+    assert analysis['fig2e']['current_density_mA_cm-2'] is None
+    assert analysis['fig2e']['deposition_rate'] is None
+    assert len(analysis['fig1c']['observations']) == 12
+    for observation in analysis['fig1c']['observations']:
+        assert observation['mean'] is None
+        assert observation['uncertainty'] is None and observation['replicate_count'] is None
+    responses = analysis['fig2e']['descriptive_potential_response']['responses']
+    assert len(responses) == 3 and {r['ion'] for r in responses} == {'Ni(II)', 'Co(II)', 'Fe(II)'}
+    for response in responses:
+        assert response['uncertainty'] is None and response['replicate_count'] is None
+    assert 'Retrospective descriptive source audit; no physical experiment or held-out test.' in analysis['limitations']
 
 
 if __name__ == '__main__':

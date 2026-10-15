@@ -28,10 +28,12 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 | Larger-basis numerical challenge | rij-jkfit-qualification/ | Four retrospective direct references plus preselected external neutral H2Mo2O7; unchanged accuracy limits; five bounded children, at most six SCFs |
 | Parent memory specialization | cpcm-rij-memory/ | Separately prepared exact-equation storage changes; bounded finite checks, failure-abort and alias tests; no parent launch without qualification |
 | Memory operator and SCF qualification | cpcm-rij-memory-qualification/ | All223checks pass; five retrospective operator cases and one converged SCF;57pins unchanged; independent array audit |
-| Bounded parent MemoryRI pilot | parent-pilot-memory/ | Separate reviewed900second/10GiB attempt, fixed hypotheticalP0_A; partial checkpoints and failures retained; no target or optimization claim |
+| Bounded parent MemoryRI pilot | parent-pilot-memory/ | Separate reviewed900second/10GiB attempt reached WALL_LIMIT at900.273s; initial density only, no completed J or SCF;66pins unchanged; no retry |
+| Parent runtime diagnostic | parent-pilot-memory/THREAD_DIAGNOSTIC.md | Installed PySCF has no OpenMP; four-thread request leaves one thread; no scientific operators/SCFs; any separate environment needs small-case qualification before parent execution |
 | Acidic reservoir candidate20 | energy/silicotungstate-20/ | H4SiW12O40 source assessment; no shared-medium target energy-function measurement; no verified addition |
-| W/V comparator acquisition | identity/next-step/wv-reference-selection/ | First available WO4/VO4 source files with URLs/hashes; future charge parser requires scoped CML fields; no W/V calculation |
-| W/V numerical method gap | wv-method-qualification/ | Scoped source validation and four test methods pass;30pins frozen; two direct/RI children prepared but unrun; execute only after parent terminal |
+| W/V comparator acquisition | identity/next-step/wv-reference-selection/ | First available WO4/VO4 source files with URLs/hashes; scoped CML charge/spin and final-geometry checks; numerical comparison completed separately |
+| W/V numerical method gap | wv-method-qualification/ | All40fixed checks pass after four converged direct/MemoryRI SCFs;30pins unchanged; independent saved-array audit; small-reference numerical scope only |
+| Active renewal candidate21 | renewal/fe-feed-21/ | Fe(II)/Co-assisted NiCoFe source audit; saved seven-test receipt; unresolved50mM/50µM conflict and missing matched EQCM comparator; no target renewal or verified addition |
 | Cross-function requirements and decisions | root REPORT.md, PROTOCOL.md, checks.md, progress.md | Explicit unmet requirements, no unsupported verified additions, next discriminating test |
 | Independent arithmetic/claim review | review/ and workspace .omo/evidence/ | Source-to-number checks, limitations and required repairs |
 
@@ -48,3 +50,5 @@ PROTOCOL.md specifies the necessary evidence for identity, energy, feed/waste tr
 ## Validation status of this cycle
 
 The literature tables are retrospective evidence; previously inspected data are not new holdouts. No proposed-target observations exist for training or held-out validation. The bond-valence calculation is a fixed-geometry hypothesis test, not a fitted or independently validated target model. Future decisive fitting must freeze alternatives, train/test preparations, thresholds, uncertainty and budgets before seeing test outcomes. Paper, supplement and repository copies from one experiment count as one evidence family.
+
+Current aggregate:21candidate-role assessments and zero verified integrated complements. The completed W/V screen qualifies only the selected numerical comparisons; it does not change the parent900second timeout or establish target identity. The Fe source audit remains retrospective and leaves new-atom function, founder replacement and target-medium coupling unresolved. Publication starts no new research or numerical campaign.

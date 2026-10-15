@@ -1,0 +1,372 @@
+{
+  "source": {
+    "doi": "10.1038/s41467-021-26281-0",
+    "pins_sha256": {
+      "article.xml": "4c1460c430775bd3f44d80689aec4baa15fb0496464f1bacc59fe6706a79b265",
+      "supplementary.zip": "15a142cb70b4fe9a8a1e8d00fb974cfedad178d3f46b67dae1879cf413181c78",
+      "41467_2021_26281_MOESM3_ESM.zip": "231ddfd7f50be46e7ab4b62b9197270f7c4a72fc1293e8aca8f68397ec858d84"
+    },
+    "nested_archive_member": "41467_2021_26281_MOESM3_ESM.zip",
+    "openpyxl_version": "3.1.3"
+  },
+  "outer_members": [
+    "41467_2021_26281_Fig2_HTML.jpg",
+    "41467_2021_26281_Article_Equ1.gif",
+    "41467_2021_26281_Fig1_HTML.jpg",
+    "41467_2021_26281_Fig4_HTML.jpg",
+    "41467_2021_26281_Fig5_HTML.jpg",
+    "41467_2021_26281_Fig3_HTML.gif",
+    "41467_2021_26281_Fig2_HTML.gif",
+    "41467_2021_26281_Fig5_HTML.gif",
+    "41467_2021_26281_Fig4_HTML.gif",
+    "41467_2021_26281_MOESM3_ESM.zip",
+    "41467_2021_26281_Article_Equ2.gif",
+    "41467_2021_26281_MOESM2_ESM.pdf",
+    "41467_2021_26281_Fig3_HTML.jpg",
+    "41467_2021_26281_Fig1_HTML.gif",
+    "41467_2021_26281_MOESM1_ESM.pdf"
+  ],
+  "source_archive_members": [
+    "Soruce_Data/",
+    "Soruce_Data/Soruce_Data_Figure_1.xlsx",
+    "Soruce_Data/Soruce_Data_Figure_2.xlsx",
+    "Soruce_Data/Soruce_Data_Figure_3.xlsx",
+    "Soruce_Data/Soruce_Data_Figure_4.xlsx",
+    "Soruce_Data/Soruce_Data_Figure_5.xlsx"
+  ],
+  "workbooks": [
+    {
+      "member": "Soruce_Data/Soruce_Data_Figure_1.xlsx",
+      "bytes": 2546914,
+      "sha256": "f00e30c75cf1bfe1b1d93396bbdefe0efe132805b215804fb84bf6a323b2dc24",
+      "sheets": [
+        {
+          "name": "Figure 1a",
+          "declared_rows_including_headers": 136799,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Time (h)",
+            "B1": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 1b",
+          "declared_rows_including_headers": 8002,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "Before",
+            "C1": "After 100 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 1c",
+          "declared_rows_including_headers": 13,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Potential (V vs. RHE)",
+            "B1": "Deposition rate (ng cm-2 min-1)"
+          }
+        }
+      ]
+    },
+    {
+      "member": "Soruce_Data/Soruce_Data_Figure_2.xlsx",
+      "bytes": 6787737,
+      "sha256": "c2ea6558d13ee7a6c7e21ad0ca6c4c711ee52d4d1562b0eda660a7b68cbe81d2",
+      "sheets": [
+        {
+          "name": "Figure 2b",
+          "declared_rows_including_headers": 40870,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "Ni",
+            "C1": "Ni-Fe",
+            "E1": "Ni-Fe-Co",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)",
+            "E2": "Potential (V vs. RHE)",
+            "F2": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 2c",
+          "declared_rows_including_headers": 86447,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "1st",
+            "C1": "2nd",
+            "E1": "3rd",
+            "A2": "Time (h)",
+            "B2": "Potential (V vs. RHE)",
+            "C2": "Time (h)",
+            "D2": "Potential (V vs. RHE)",
+            "E2": "Time (h)",
+            "F2": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 2d",
+          "declared_rows_including_headers": 120000,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "without Fe(II)",
+            "C1": "with 50 mM Fe(II)",
+            "A2": "Time (h)",
+            "B2": "Potential (V vs. RHE)",
+            "C2": "Time (h)",
+            "D2": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 2e",
+          "declared_rows_including_headers": 7202,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "Ni(II)",
+            "C1": "Co(II)",
+            "E1": "Fe(II)",
+            "A2": "Time (h)",
+            "B2": "Potential (V vs. RHE)",
+            "C2": "Time (h)",
+            "D2": "Potential (V vs. RHE)",
+            "E2": "Time (h)",
+            "F2": "Potential (V vs. RHE)"
+          }
+        }
+      ]
+    },
+    {
+      "member": "Soruce_Data/Soruce_Data_Figure_3.xlsx",
+      "bytes": 5682990,
+      "sha256": "b54a06d99fa9c17ce497cd520d74597e4c6a3a2549cdf040ce870a94ea263308",
+      "sheets": [
+        {
+          "name": "Figure 3a",
+          "declared_rows_including_headers": 8003,
+          "declared_columns": 12,
+          "text_cells_in_first_three_rows": {
+            "A1": "in 1 M KOH",
+            "E1": "in 1 M KOH, 50 mM Fe(II)",
+            "I1": "in KBi, pH 14, 50 mM Fe(II)",
+            "A2": "Before",
+            "C2": "After 100 h",
+            "E2": "Before",
+            "G2": "After 100 h",
+            "I2": "Before",
+            "K2": "After 100 h",
+            "A3": "Potential (V vs. RHE)",
+            "B3": "Current density (mA cm-2)",
+            "C3": "Potential (V vs. RHE)",
+            "D3": "Current density (mA cm-2)",
+            "E3": "Potential (V vs. RHE)",
+            "F3": "Current density (mA cm-2)",
+            "G3": "Potential (V vs. RHE)",
+            "H3": "Current density (mA cm-2)",
+            "I3": "Potential (V vs. RHE)",
+            "J3": "Current density (mA cm-2)",
+            "K3": "Potential (V vs. RHE)",
+            "L3": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 3b",
+          "declared_rows_including_headers": 120001,
+          "declared_columns": 8,
+          "text_cells_in_first_three_rows": {
+            "A1": "in 1 M KOH",
+            "C1": "in 1 M KOH, 50 mM Fe(II)",
+            "E1": "in KBi, pH 14, 50 mM Fe(II)",
+            "A2": "Time (h)",
+            "B2": "Potential (V vs. RHE)",
+            "C2": "Time (h)",
+            "D2": "Potential (V vs. RHE)",
+            "E2": "Time (h)",
+            "F2": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 3c",
+          "declared_rows_including_headers": 6,
+          "declared_columns": 5,
+          "text_cells_in_first_three_rows": {
+            "C1": "Molar area density (nmol cm-2)",
+            "C2": "Ni",
+            "D2": "Co",
+            "E2": "Fe",
+            "A3": "Electrolyte",
+            "B3": "As-deposited"
+          }
+        },
+        {
+          "name": "Figure 3d",
+          "declared_rows_including_headers": 8,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "B1": "TOF (s-1)",
+            "A2": "Overpotential (mV)",
+            "B2": "KOH",
+            "C2": "KOH + Fe(II)",
+            "D2": "KBi +Fe(II)"
+          }
+        },
+        {
+          "name": "Figure 3e",
+          "declared_rows_including_headers": 9,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "KOH",
+            "C1": "KOH + Fe(II)",
+            "E1": "KBi + Fe(II)",
+            "A2": "Log J (mA cm-2)",
+            "B2": "Overpotential (mV)",
+            "C2": "Log J (mA cm-2)",
+            "D2": "Overpotential (mV)",
+            "E2": "Log J (mA cm-2)",
+            "F2": "Overpotential (mV)"
+          }
+        },
+        {
+          "name": "Figure 3f",
+          "declared_rows_including_headers": 259,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "Non-precious",
+            "C1": "Precious",
+            "E1": "NiCoFe-Bi",
+            "A2": "Overpotential (mV) for 10 mA-2geo",
+            "B2": "Mass activity (A mg-1) at 10 mA-2geo",
+            "C2": "Overpotential (mV) for 10 mA-2geo",
+            "D2": "Mass activity (A mg-1) at 10 mA-2geo",
+            "E2": "Overpotential (mV) for 10 mA-2geo",
+            "F2": "Mass activity (A mg-1) at 10 mA-2geo"
+          }
+        }
+      ]
+    },
+    {
+      "member": "Soruce_Data/Soruce_Data_Figure_4.xlsx",
+      "bytes": 18221180,
+      "sha256": "74749cdd9f2407aad242b731b53a27856787c18d06209090cbc3a9ecf572c4db",
+      "sheets": [
+        {
+          "name": "Figure 4a",
+          "declared_rows_including_headers": 359998,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Time (h)",
+            "B1": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 4b",
+          "declared_rows_including_headers": 240052,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Time (h)",
+            "B1": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 4c",
+          "declared_rows_including_headers": 360002,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Time (h)",
+            "B1": "Potential (V vs. RHE)"
+          }
+        },
+        {
+          "name": "Figure 4d",
+          "declared_rows_including_headers": 7997,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "Before",
+            "C1": "After 1000 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 4e",
+          "declared_rows_including_headers": 8003,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "Before",
+            "C1": "After 200 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 4f",
+          "declared_rows_including_headers": 6679,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "Before",
+            "C1": "After 100 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)"
+          }
+        }
+      ]
+    },
+    {
+      "member": "Soruce_Data/Soruce_Data_Figure_5.xlsx",
+      "bytes": 2446707,
+      "sha256": "831a732572daba091b8753c64901d994f609b2f6da40c1a400092fbc85ca37f8",
+      "sheets": [
+        {
+          "name": "Figure 5b",
+          "declared_rows_including_headers": 120000,
+          "declared_columns": 2,
+          "text_cells_in_first_three_rows": {
+            "A1": "Time (h)",
+            "B1": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 5c",
+          "declared_rows_including_headers": 952,
+          "declared_columns": 6,
+          "text_cells_in_first_three_rows": {
+            "A1": "Dark",
+            "C1": "As-deposited",
+            "E1": "After 100 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "Current density (mA cm-2)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "Current density (mA cm-2)",
+            "E2": "Potential (V vs. RHE)",
+            "F2": "Current density (mA cm-2)"
+          }
+        },
+        {
+          "name": "Figure 5d",
+          "declared_rows_including_headers": 502,
+          "declared_columns": 4,
+          "text_cells_in_first_three_rows": {
+            "A1": "As-deposited",
+            "C1": "After 100 h",
+            "A2": "Potential (V vs. RHE)",
+            "B2": "ABPE (%)",
+            "C2": "Potential (V vs. RHE)",
+            "D2": "ABPE (%)"
+          }
+        }
+      ]
+    }
+  ],
+  "inspection_scope": "All workbook sheet names, dimensions and text cells in first three rows; all Figure 1c rows extracted; all Figure 2e rows validated and exact intervention-time/shared-endpoint samples extracted."
+}

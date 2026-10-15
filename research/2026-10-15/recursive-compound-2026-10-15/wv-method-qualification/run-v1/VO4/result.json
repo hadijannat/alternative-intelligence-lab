@@ -1,0 +1,142 @@
+{
+  "case": "VO4",
+  "checks": [
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 1.1101501712573736e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_metal",
+      "value": 6.170984699076125e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "initial/J_asymmetry",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 1.110121758074456e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_metal",
+      "value": 6.170485499505084e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "perturbed/J_asymmetry",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "direct/not_converged",
+      "value": 0.0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 3.7644444237372454e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_metal",
+      "value": 6.000928811605592e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/J_asymmetry",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "RI/not_converged",
+      "value": 0.0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/max_J_error_Eh",
+      "value": 3.766002608784902e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/Coulomb_energy_error_Eh_per_metal",
+      "value": 6.00116085757146e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/J_asymmetry",
+      "value": 0.0,
+      "limit": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "total_energy_error_Eh_per_metal",
+      "value": 6.001044926051691e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "direct_full_Fock_residual",
+      "value": 7.774269394402139e-05,
+      "limit": 0.001,
+      "pass": true
+    },
+    {
+      "name": "RI_full_Fock_gradient",
+      "value": 5.8932305905470587e-08,
+      "limit": 1e-05,
+      "pass": true
+    },
+    {
+      "name": "direct/electron_trace_error",
+      "value": 2.842170943040401e-14,
+      "limit": 1e-08,
+      "pass": true
+    },
+    {
+      "name": "RI/electron_trace_error",
+      "value": 1.7053025658242404e-13,
+      "limit": 1e-08,
+      "pass": true
+    },
+    {
+      "name": "storage_contract_violated",
+      "value": 0.0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "SCFs_launched": 2,
+  "physical_admission": false,
+  "experimental_validation": false,
+  "fresh_fixed_geometry_numerical_challenge": true,
+  "direct_SCF": {
+    "energy_Eh": -1244.4973230912572,
+    "cycles": 17,
+    "converged": true,
+    "PCM_energy_Eh": -0.7987335762506065
+  },
+  "RI_SCF": {
+    "energy_Eh": -1244.4973831017064,
+    "cycles": 16,
+    "converged": true,
+    "PCM_energy_Eh": -0.7987318978923277
+  },
+  "status": "PASS_NUMERICAL_SCREEN_ONLY"
+}

@@ -96,7 +96,14 @@ class PublicationSelection(unittest.TestCase):
             'parent-pilot-memory/preparation.json',
             'parent-pilot-memory/run-v1/launch-result.json',
             'parent-pilot-memory/run-v1/stages.jsonl',
-            'wv-method-qualification/preparation.json')
+            'wv-method-qualification/preparation.json',
+            'wv-method-qualification/run-v1/result.json',
+            'wv-method-qualification/run-v1/WO4/result.json',
+            'wv-method-qualification/run-v1/VO4/supervisor.json',
+            'parent-pilot-memory/THREAD_DIAGNOSTIC.md',
+            'renewal/fe-feed-21/assessment.json',
+            'renewal/fe-feed-21/analysis.json',
+            'renewal/fe-feed-21/source-data-inventory.json')
         for name in retained:
             with self.subTest(name=name):
                 self.assertIsNone(exclusion(base / name))
@@ -186,10 +193,11 @@ class MemoryFollowupVerification(unittest.TestCase):
         source = (Path(__file__).resolve().parents[1] / 'research/2026-10-15'
                   / 'recursive-compound-2026-10-15')
         for folder in ('cpcm-rij-memory-qualification', 'energy/silicotungstate-20',
-                       'parent-pilot-memory', 'wv-method-qualification'):
+                       'parent-pilot-memory', 'wv-method-qualification', 'renewal/fe-feed-21'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
-                if path.is_file() and path.suffix in ('.json', '.jsonl'):
+                if path.is_file() and (path.suffix in ('.json', '.jsonl')
+                                       or path.name == 'THREAD_DIAGNOSTIC.md'):
                     target = self.recursive / path.relative_to(source)
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_bytes(path.read_bytes())
@@ -208,13 +216,37 @@ class MemoryFollowupVerification(unittest.TestCase):
             ('energy/silicotungstate-20/assessment.json', 'admitted_to_assembly', True),
             ('energy/silicotungstate-20/assessment.json', 'useful_target_energy_transfer_verified', True),
             ('parent-pilot-memory/run-v1/supervisor.json', 'termination_reason', None),
-            ('wv-method-qualification/preparation.json', 'SCFs_launched', 1))
+            ('wv-method-qualification/preparation.json', 'SCFs_launched', 1),
+            ('wv-method-qualification/run-v1/result.json', 'physical_admission', True),
+            ('wv-method-qualification/run-v1/result.json', 'actual_SCFs_launched', 3),
+            ('wv-method-qualification/run-v1/receipts.json', (1, 'case'), 'WO4'),
+            ('wv-method-qualification/run-v1/WO4/result.json', ('checks', 0, 'pass'), False),
+            ('wv-method-qualification/run-v1/VO4/result.json', ('direct_SCF', 'converged'), False),
+            ('wv-method-qualification/run-v1/VO4/result.json', 'experimental_validation', True),
+            ('wv-method-qualification/run-v1/WO4/supervisor.json', 'returncode', 1),
+            ('renewal/fe-feed-21/assessment.json', 'admitted_to_assembly', True),
+            ('renewal/fe-feed-21/assessment.json', 'experimental_holdout', True),
+            ('renewal/fe-feed-21/assessment.json', 'founder_replacement_fraction', 0),
+            ('renewal/fe-feed-21/assessment.json', 'fig2d_feed_unit_conflict_resolved', True),
+            ('renewal/fe-feed-21/analysis.json', 'target_renewal_demonstrated', True),
+            ('renewal/fe-feed-21/analysis.json', ('source_label_conflict', 'workbook_label_verbatim'),
+             'with 50 uM Fe(II)'),
+            ('renewal/fe-feed-21/analysis.json', ('fig2e', 'current_density_mA_cm-2'), 10),
+            ('renewal/fe-feed-21/analysis.json',
+             ('matched_Co_assisted_vs_unassisted_EQCM', 'Co_assisted_rate_data'), []),
+            ('renewal/fe-feed-21/analysis.json', ('fig1c', 'observations', 0, 'uncertainty'), 0),
+            ('renewal/fe-feed-21/source-data-inventory.json',
+             ('workbooks', 1, 'sheets', 2, 'text_cells_in_first_three_rows', 'C1'), 'with 50 uM Fe(II)'))
         for name, key, value in mutations:
             with self.subTest(name=name, key=key):
                 path = self.recursive / name
                 original = path.read_bytes()
                 changed = json.loads(original)
-                changed[key] = value
+                keys = (key,) if isinstance(key, str) else key
+                target = changed
+                for field in keys[:-1]:
+                    target = target[field]
+                target[keys[-1]] = value
                 path.write_text(json.dumps(changed))
                 try:
                     with self.assertRaises(AssertionError):
@@ -222,9 +254,10 @@ class MemoryFollowupVerification(unittest.TestCase):
                 finally:
                     path.write_bytes(original)
 
-    def test_unreported_parent_result_or_wv_run_is_rejected(self):
+    def test_unreported_parent_results_are_rejected(self):
         for name in ('parent-pilot-memory/run-v1/SCF-result.json',
-                     'wv-method-qualification/run-v1'):
+                     'parent-pilot-memory/run-v1/iterations.jsonl',
+                     'parent-pilot-memory/run-v1/storage.json'):
             with self.subTest(name=name):
                 path = self.recursive / name
                 path.touch()
@@ -233,3 +266,11 @@ class MemoryFollowupVerification(unittest.TestCase):
                         verify_memory_followup(self.recursive, self.case_names)
                 finally:
                     path.unlink()
+
+    def test_runtime_probe_cannot_be_promoted_to_scientific_execution(self):
+        path = self.recursive / 'parent-pilot-memory/THREAD_DIAGNOSTIC.md'
+        original = path.read_text()
+        self.assertIn('"SCFs": 0', original)
+        path.write_text(original.replace('"SCFs": 0', '"SCFs": 1'))
+        with self.assertRaises(AssertionError):
+            verify_memory_followup(self.recursive, self.case_names)

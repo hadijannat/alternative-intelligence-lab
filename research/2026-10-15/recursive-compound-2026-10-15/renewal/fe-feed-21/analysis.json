@@ -1,0 +1,318 @@
+{
+  "status": "SOURCE_DATA_RECOVERED_MATCHED_EQCM_COMPARATOR_UNAVAILABLE",
+  "source": {
+    "doi": "10.1038/s41467-021-26281-0",
+    "pins_sha256": {
+      "article.xml": "4c1460c430775bd3f44d80689aec4baa15fb0496464f1bacc59fe6706a79b265",
+      "supplementary.zip": "15a142cb70b4fe9a8a1e8d00fb974cfedad178d3f46b67dae1879cf413181c78",
+      "41467_2021_26281_MOESM3_ESM.zip": "231ddfd7f50be46e7ab4b62b9197270f7c4a72fc1293e8aca8f68397ec858d84"
+    },
+    "nested_archive_member": "41467_2021_26281_MOESM3_ESM.zip",
+    "openpyxl_version": "3.1.3"
+  },
+  "panel_mapping": {
+    "Fig1": {
+      "article_locator": "//*[@id='Fig1']",
+      "caption": "Fig. 1Possible reason for the failure of self-healing in NiFe-LDH catalyst.a Stability test of the NiFe-Bi catalyst measured at constant current density of 10 mA cm−2 for 100 h in KBi electrolyte at pH 14 with 50 μM Fe(II) ions. b The OER polarization curve of the NiFe-Bi catalyst before and after the stability test. The curves were measured at 1 mV s−1 scan rate, without iR correction. c Deposition rates of Fe hydroxides on EQCM sensors at different potentials in Fe-containing KBi electrolyte. The gap between the blue and green regions illustrates the mismatch between the OER operational potentials and the potentials required for efficient Fe redeposition. d Proposed mechanism for the failure of self-healing in Fe-based catalysts. The OER catalysis is simplified by considering FeO42− as a representative active intermediate that is not thermodynamically stable and could leach out of the catalyst."
+    },
+    "Fig2": {
+      "article_locator": "//*[@id='Fig2']",
+      "caption": "Fig. 2The demonstration of a NiCoFe-Bi catalyst with self-healing ability.a Schematic structure of the NiCoFe-Bi catalyst. The basal layers are composed of mixed [FeO6], [CoO6], and [NiO6] octahedral sites and are intercalated with [B4O5(OH)4]2− ions. b In situ sequential deposition of metal oxyhydroxides on FTO substrate. 50 μM of Ni(II), Fe(II), and Co(II) ions were sequentially added to the KBi electrolyte at pH 14. After the addition of each ion, 20 cyclic voltammetry (CV) scans were performed between 1.01 and 1.71 V vs. RHE with a scan rate of 50 mV s−1. c Chronopotentiometric curves of three NiCoFe-Bi catalyst films measured sequentially in the same KBi electrolyte at pH 14 under constant current density of 10 mA cm−2. d Comparison of the stability of NiCoFe-Bi catalyst in KBi electrolyte with and without adding Fe(II) ions. e Chronopotentiometric curves of NiCoFe-Bi catalyst films measured in KBi electrolyte at pH 14 with 30 μM Ni(II), Co(II), or Fe(II) ions added after 0.5 h, respectively. f The proposed Co-catalyzed self-healing mechanism of the NiCoFe-Bi catalyst."
+    }
+  },
+  "fig1c": {
+    "workbook": "Soruce_Data/Soruce_Data_Figure_1.xlsx",
+    "sheet": "Figure 1c",
+    "units_source_cells": {
+      "A1": "Potential (V vs. RHE)",
+      "B1": "Deposition rate (ng cm-2 min-1)"
+    },
+    "observations": [
+      {
+        "potential_V_vs_RHE": 1.54,
+        "deposition_rate_ng_cm-2_min-1": 0,
+        "source_cells": [
+          "A2",
+          "B2"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.56,
+        "deposition_rate_ng_cm-2_min-1": 0,
+        "source_cells": [
+          "A3",
+          "B3"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.58,
+        "deposition_rate_ng_cm-2_min-1": 0,
+        "source_cells": [
+          "A4",
+          "B4"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.6,
+        "deposition_rate_ng_cm-2_min-1": 0,
+        "source_cells": [
+          "A5",
+          "B5"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.62,
+        "deposition_rate_ng_cm-2_min-1": 0,
+        "source_cells": [
+          "A6",
+          "B6"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.64,
+        "deposition_rate_ng_cm-2_min-1": 1.4,
+        "source_cells": [
+          "A7",
+          "B7"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.66,
+        "deposition_rate_ng_cm-2_min-1": 4,
+        "source_cells": [
+          "A8",
+          "B8"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.68,
+        "deposition_rate_ng_cm-2_min-1": 6.4,
+        "source_cells": [
+          "A9",
+          "B9"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.7,
+        "deposition_rate_ng_cm-2_min-1": 9.6,
+        "source_cells": [
+          "A10",
+          "B10"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.72,
+        "deposition_rate_ng_cm-2_min-1": 11.6,
+        "source_cells": [
+          "A11",
+          "B11"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.74,
+        "deposition_rate_ng_cm-2_min-1": 15.6,
+        "source_cells": [
+          "A12",
+          "B12"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      },
+      {
+        "potential_V_vs_RHE": 1.76,
+        "deposition_rate_ng_cm-2_min-1": 16,
+        "source_cells": [
+          "A13",
+          "B13"
+        ],
+        "mean": null,
+        "uncertainty": null,
+        "replicate_count": null
+      }
+    ],
+    "interpretation": "Published numerical deposition-rate points. Source sheet does not label means, replicates or uncertainty; null is not zero. Exact zero entries are reported values, not a detection-limit claim.",
+    "conditions": {
+      "article_locator": "//*[@id='Par6']",
+      "medium": "Fe-containing KBi electrolyte",
+      "aging_h_approximate": 100,
+      "nominal_Fe_II_added_uM": 50,
+      "soluble_Fe_fresh_uM": 22.7,
+      "soluble_Fe_aged_uM": 7.5,
+      "uncertainty": null
+    }
+  },
+  "fig2e": {
+    "workbook": "Soruce_Data/Soruce_Data_Figure_2.xlsx",
+    "sheet": "Figure 2e",
+    "source_header_cells": {
+      "A1": "Ni(II)",
+      "C1": "Co(II)",
+      "E1": "Fe(II)",
+      "A2": "Time (h)",
+      "B2": "Potential (V vs. RHE)",
+      "C2": "Time (h)",
+      "D2": "Potential (V vs. RHE)",
+      "E2": "Time (h)",
+      "F2": "Potential (V vs. RHE)"
+    },
+    "article_locator": "//*[@id='Fig2']/caption",
+    "measured_quantity": "Potential versus time; ion-addition chronopotentiometry",
+    "caption_conditions": {
+      "pH": 14,
+      "ion_addition_time_h": 0.5,
+      "ion_addition_uM": 30
+    },
+    "current_density_mA_cm-2": null,
+    "current_density_note": "Chronopotentiometric protocol; this panel's caption does not independently specify current density.",
+    "deposition_rate": null,
+    "descriptive_potential_response": {
+      "selection_rule": "Exact recorded 0.5 h intervention-time point and latest exactly shared recorded time; no interpolation. The intervention-time sample is not known to precede addition.",
+      "common_reference_time_h": 0.5,
+      "common_endpoint_time_h": 2,
+      "responses": [
+        {
+          "ion": "Ni(II)",
+          "reference": {
+            "time_h": 0.5,
+            "potential_V_vs_RHE": 1.70779,
+            "source_cells": [
+              "A1802",
+              "B1802"
+            ]
+          },
+          "endpoint": {
+            "time_h": 2,
+            "potential_V_vs_RHE": 1.72804,
+            "source_cells": [
+              "A7202",
+              "B7202"
+            ]
+          },
+          "endpoint_minus_reference_mV": 20.25,
+          "uncertainty": null,
+          "replicate_count": null
+        },
+        {
+          "ion": "Co(II)",
+          "reference": {
+            "time_h": 0.5,
+            "potential_V_vs_RHE": 1.69771,
+            "source_cells": [
+              "C1802",
+              "D1802"
+            ]
+          },
+          "endpoint": {
+            "time_h": 2,
+            "potential_V_vs_RHE": 1.66624,
+            "source_cells": [
+              "C7202",
+              "D7202"
+            ]
+          },
+          "endpoint_minus_reference_mV": -31.47,
+          "uncertainty": null,
+          "replicate_count": null
+        },
+        {
+          "ion": "Fe(II)",
+          "reference": {
+            "time_h": 0.5,
+            "potential_V_vs_RHE": 1.71003,
+            "source_cells": [
+              "E1802",
+              "F1802"
+            ]
+          },
+          "endpoint": {
+            "time_h": 2,
+            "potential_V_vs_RHE": 1.6219,
+            "source_cells": [
+              "E7202",
+              "F7202"
+            ]
+          },
+          "endpoint_minus_reference_mV": -88.13,
+          "uncertainty": null,
+          "replicate_count": null
+        }
+      ],
+      "interpretation": "Descriptive within-curve potential changes. Different baselines and no supplied replicate uncertainty prevent a statistical treatment-effect claim; this is not deposition rate, atom replacement or target renewal."
+    }
+  },
+  "matched_Co_assisted_vs_unassisted_EQCM": {
+    "common_potential_comparisons": null,
+    "Co_assisted_rate_data": null,
+    "reason": "Figure 2e has time and potential axes, not deposition rate. The five-workbook inventory contains no second deposition-rate sheet. Article Par9 instead discusses sequential electrodeposition Figure 2b and Supplementary Figure S5. No interpolation, fitting or substituted current-to-deposition conversion was performed."
+  },
+  "source_label_conflict": {
+    "workbook": "Soruce_Data/Soruce_Data_Figure_2.xlsx",
+    "sheet": "Figure 2d",
+    "cell": "C1",
+    "workbook_label_verbatim": "with 50 mM Fe(II)",
+    "article_locator": "//*[@id='Par10']",
+    "article_nominal_feed_uM": 50,
+    "disposition": "Unresolved mM versus microM discrepancy retained; no quantitative feed-response comparison uses this label."
+  },
+  "separate_text_observations": {
+    "no_added_Fe_film_loss": {
+      "article_locator": "//*[@id='Par10']",
+      "method": "ICP-MS",
+      "initial_Fe_nmol_cm-2": 10.4,
+      "final_Fe_nmol_cm-2": 5.4,
+      "elapsed_h": 10,
+      "current_mA_cm-2": 10,
+      "medium": "0.25 M KBi, pH 14, no added Fe(II)",
+      "net_loss_nmol_cm-2": 5.0,
+      "uncertainty": null,
+      "inference_limit": "Net film inventory loss in this no-added-feed experiment; neither gross dissolution nor founder replacement in a fed experiment."
+    },
+    "KBi_soluble_inventory": {
+      "article_locator": "//*[@id='Par6']",
+      "nominal_Fe_II_added_uM": 50,
+      "fresh_soluble_Fe_uM": 22.7,
+      "aged_soluble_Fe_uM": 7.5,
+      "aging_h_approximate": 100,
+      "uncertainty": null,
+      "inference_limit": "Nominal addition differs from soluble Fe inventory. These totals do not measure atom replacement, turnover flux or founder survival."
+    }
+  },
+  "target_renewal_demonstrated": false,
+  "limitations": [
+    "Retrospective descriptive source audit; no physical experiment or held-out test.",
+    "No isotope-resolved founder accounting or quantitative replacement fraction.",
+    "No transfer of alkaline driven-electrode behavior to the acidic Mo36-derived target hypothesis; actual target operating medium remains unverified.",
+    "Source-supported electrode function and proposed mechanism do not establish integrated target renewal."
+  ]
+}
