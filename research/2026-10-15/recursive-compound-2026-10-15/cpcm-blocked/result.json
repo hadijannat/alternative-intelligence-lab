@@ -1,0 +1,62 @@
+{
+  "status": "PASS_IMPLEMENTATION_EQUIVALENCE_ONLY",
+  "receipts": [
+    {
+      "case": "anion-water",
+      "argv": [
+        "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+        "-B",
+        "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+        "anion-water"
+      ],
+      "returncode": 0,
+      "wall_seconds": 13.404539959039539
+    },
+    {
+      "case": "neutral-water",
+      "argv": [
+        "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+        "-B",
+        "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+        "neutral-water"
+      ],
+      "returncode": 0,
+      "wall_seconds": 7.566776333958842
+    },
+    {
+      "case": "anion-eps1",
+      "argv": [
+        "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+        "-B",
+        "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+        "anion-eps1"
+      ],
+      "returncode": 0,
+      "wall_seconds": 12.792817209032364
+    }
+  ],
+  "sha256": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/blocked_pcm.py": "3458ab92f2e48847d7d88dde3a1c20e35343e66743b75d7d01ca5d21f8b80d12",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py": "85042bb838d2cbc28139f22a294c7900b5b81c7820fd9154107bbd2d41ddb4e9",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/PROTOCOL.md": "a3b35297727a1d143aa608966fb06650fb78ed5f6d24a25d0bf49b99af49219a",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/result.json": "efde0933dd87a58ee974179e362ab7b7e06d775c279ac7729784a6c42df2ae1d",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-water.json": "2d8f594b4e410e2a67423192db7658ff36e69314ef40cf381ad91309268e0953",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/neutral-water.json": "370cfd918bf6aa84dcafa8c577921d899d557971cf23f745de0a82b29dda72b3",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-water.stderr.txt": "c3915a0bf8fc52a02b4eab183d30ff46c440b91a592b1fbc3c6ce7dbcc5f48e9",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/neutral-water.stdout.txt": "9ecc10a4971c8fab7fe472406a4fb05193f4b7614d16d98a4b2b8334441dd774",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-eps1.stdout.txt": "43829890914a99caa5097bde239b9eb08c3f26aa17e6d2594ab3bdea0791d38d",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/neutral-water.scf.log": "49319b6fdf5fe939486f947554e9918b931b52df839e6a587fcb6deb07d99f08",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-water.npz": "d24e0eb2088530622dac93190abc339a9efe17d04722caf42fe6fe73fd8376fb",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-water.scf.log": "b3fb7dc6ef1fed723c981c86cab07f71be7c7b5f45dd398e34f1559c98c85453",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/receipts.json": "c55a1fc0ced09941447611e299b18389f12ca4f6921b87db7d3024c70ff19571",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-eps1.json": "217b2454c15201a0bde728f77489e093176cfd4f8a8c4904be46ce89444bdc5f",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-eps1.npz": "69ac5a723b3bc179a50ed8c8663169e2c268185e1f9c0d0f4a157b90f7596f8f",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-eps1.stderr.txt": "51bf0eaf7638de1463bec0c983c82afeec1900b451360dc15bd866a4341034da",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-water.stdout.txt": "e1c1d05b228e573c8e01704abdb1b5d1ed904e386cf728dd64480623826805b9",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/neutral-water.stderr.txt": "9560f3d154573a58dca7c275efa6cba6ce073ee660667f64bc372b153d50e26f",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/anion-eps1.scf.log": "589f3a9e35672f8c3bc56e56e7183fe8311b9a8770ccd97428a33232430732fc",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/evidence/neutral-water.npz": "22476e813c9d11497c4da0c2d8049c4db0c134b61506e968fd25676370971583"
+  },
+  "parent_SCF_run": false,
+  "physical_admission": false
+}

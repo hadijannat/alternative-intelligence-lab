@@ -19,6 +19,10 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 | Memory and adaptive action alternatives | adaptation/ | Four candidates; local updates distinguished from external computation and task simulations |
 | Same-medium speciation recursion | compatibility/ | Primary NMR rows, denominators, measured pH and replacement candidate after retention failure |
 | Target substitution plausibility | site_chemistry/ | Fixed-parent bond-valence analysis with primary parameters and fixed cutoff sensitivity |
+| Parent numerical feasibility | parent-pilot/, cpcm-blocked/, parent-pilot-blocked/ | Retained resource rejection, qualified equivalent operator, one separately capped parent attempt |
+| Solution constraints and new comparator | solution-constraints/ | Four primary records, Nb persistence comparator not admitted, concentration discrepancy retained |
+| Nd linkage and counterion sensitivity | boundary/nd-linker-proposition.*; solution-constraints/ | Two structural references, untested target derivative, no functional admission |
+| Published parent proton-topology comparison | published-parent/ | Retrieved primary computational source;4/24 versus16/0 H-contact sites; single-point/frequency limits retained |
 | Cross-function requirements and decisions | root REPORT.md, PROTOCOL.md, checks.md, progress.md | Explicit unmet requirements, no unsupported verified additions, next discriminating test |
 | Independent arithmetic/claim review | review/ and workspace .omo/evidence/ | Source-to-number checks, limitations and required repairs |
 

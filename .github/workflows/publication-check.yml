@@ -15,3 +15,5 @@ jobs:
         run: python3 -m unittest discover -s tests -p 'test_export_followup.py'
       - name: Check parent-pilot supervisor with harmless children
         run: python3 -m unittest discover -s research/2026-10-15/recursive-compound-2026-10-15/parent-pilot -p test_pilot.py
+      - name: Check published-parent parser with synthetic inputs
+        run: python3 -m unittest discover -s research/2026-10-15/recursive-compound-2026-10-15/published-parent -p test_analysis.py

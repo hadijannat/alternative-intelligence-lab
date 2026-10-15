@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "scenario": "RHF attach rejected",
+      "pass": true,
+      "exception": "NotImplementedError",
+      "message": "Blocked C-PCM supports only unfrozen ground-state RKS"
+    },
+    {
+      "scenario": "UKS attach rejected",
+      "pass": true,
+      "exception": "NotImplementedError",
+      "message": "Blocked C-PCM supports only unfrozen ground-state RKS"
+    },
+    {
+      "scenario": "complex density rejected",
+      "pass": true,
+      "exception": "ValueError",
+      "message": "Expected finite real symmetric restricted density"
+    },
+    {
+      "scenario": "batch density rejected",
+      "pass": true,
+      "exception": "ValueError",
+      "message": "Expected finite real symmetric restricted density"
+    },
+    {
+      "scenario": "nonfinite density rejected",
+      "pass": true,
+      "exception": "ValueError",
+      "message": "Expected finite real symmetric restricted density"
+    },
+    {
+      "scenario": "non-positive-definite S fails without fallback",
+      "pass": true,
+      "exception": "LinAlgError",
+      "message": "Internal potrf return info = [1] for slices [0]."
+    },
+    {
+      "scenario": "failed build leaves no factor",
+      "pass": true
+    },
+    {
+      "scenario": "attached RKS reset invalidates all solvent caches",
+      "pass": true
+    }
+  ],
+  "status": "PASS",
+  "SCFs_launched": 0
+}

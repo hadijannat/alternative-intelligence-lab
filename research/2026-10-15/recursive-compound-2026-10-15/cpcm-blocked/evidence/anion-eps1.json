@@ -1,0 +1,468 @@
+{
+  "case": "anion-eps1",
+  "checks": [
+    {
+      "scenario": "surface S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "nuclear surface potential",
+      "value": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "density derivative h=0.0001",
+      "value": {
+        "analytic": 0.0,
+        "centered": 0.0,
+        "error": 0.0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "density derivative h=5e-05",
+      "value": {
+        "analytic": 0.0,
+        "centered": 0.0,
+        "error": 0.0
+      },
+      "pass": true
+    },
+    {
+      "scenario": "factor reused",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "repeat build S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "reset invalidates caches",
+      "value": null,
+      "pass": true
+    },
+    {
+      "scenario": "geometry reset S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "geometry reset nuclear",
+      "value": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=COSMO",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=IEF-PCM",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=SS(V)PE",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard frozen=True",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard state_id=1",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard surface_discretization_method=ISWIG",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard equilibrium_solvation=True",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.grad",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.hess",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.nuc_grad_method",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.Hessian",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM._B_dot_x",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.to_gpu",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.nuc_grad_method",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.Gradients",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.Hessian",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.gen_response",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.stability",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDA",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDHF",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDDFT",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.MP2",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CISD",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CCSD",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CASCI",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CASSCF",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.to_gpu",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.newton",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "total energy vs recorded reference",
+      "value": 4.547473508864641e-13,
+      "pass": true
+    },
+    {
+      "scenario": "solvent aware residual",
+      "value": 3.47005322600628e-08,
+      "pass": true
+    },
+    {
+      "scenario": "electron trace error",
+      "value": 2.1316282072803006e-14,
+      "pass": true
+    },
+    {
+      "scenario": "no cached four center ERI",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/q",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/AO potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/normalized backward error",
+      "value": 0.0,
+      "pass": true
+    }
+  ],
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "pyscf": "2.14.0",
+  "source_sha256": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed",
+  "SCF": {
+    "energy_Eh": -368.72427951334106,
+    "original_energy_Eh": -368.7242795133406,
+    "cycles": 17,
+    "orbital_residual": 3.47005322600628e-08,
+    "electron_trace": 48.00000000000002,
+    "cached_ERI": false,
+    "surface_points": 386,
+    "nao": 87
+  },
+  "status": "PASS_IMPLEMENTATION_EQUIVALENCE_ONLY"
+}

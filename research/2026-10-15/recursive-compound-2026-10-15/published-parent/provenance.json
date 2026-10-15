@@ -1,0 +1,25 @@
+{
+  "paper_doi": "10.1021/acs.jpca.1c03292",
+  "collection_doi": "10.19061/iochem-bd-1-201",
+  "institutional_collection": "https://iochem-bd.iciq.es/browse/handle/100/28661",
+  "parent_item": "https://iochem-bd.iciq.es/browse/handle/100/28719",
+  "retrieval_date": "2026-10-15",
+  "dataset_license_reported_by_item": "CC BY 4.0",
+  "central_aggregator_access": "anti-bot page observed by source investigator; public institutional node accessible",
+  "files": [
+    {"path": "Mo36O128-32H.in", "url": "https://iochem-bd.iciq.es/browse/bitstream/100/28719/3/Mo36O128-32H.in", "bytes": 21439, "sha256": "8c5317198c04cfa27db39d6e3c6ade16e0642b8d70cd6c36259f5c616eb6bff6"},
+    {"path": "geometry.cml", "url": "https://iochem-bd.iciq.es/browse/bitstream/100/28719/6/geometry.cml", "bytes": 40886, "sha256": "ec312aec753284d36028fdef8481455a97371368fe86fe9f70e0180b8b6e3c66"},
+    {"path": "output.cml", "url": "https://iochem-bd.iciq.es/browse/bitstream/100/28719/4/output.cml", "bytes": 3777968, "sha256": "301d26a4af00a799d696007fe3ce42ce828c8d11e10388b23d7627e3589a0816"},
+    {"path": "parent32.xyz", "url": "https://iochem-bd.iciq.es/browse/cml2xyz?id=28932&mode=single_xyz", "bytes": 5442, "sha256": "d54908595ada93be5ec1d07c2a11b445ba137f0c14954758c73ba87386a2cce1"},
+    {"path": "petrus2021-si.pdf", "url": "https://ndownloader.figshare.com/files/28302145", "bytes": 3077539, "sha256": "ab0fb848ae6ba6ba31fa5862af2cd93f0e1e7c674e031250b357b243446b33b1", "license_reported": "CC BY-NC 4.0"}
+  ],
+  "other_parent_protonation_items_not_yet_locally_acquired": [
+    {"H": 33, "charge": -7, "item": "https://iochem-bd.iciq.es/browse/handle/100/28718"},
+    {"H": 34, "charge": -6, "item": "https://iochem-bd.iciq.es/browse/handle/100/28776"}
+  ],
+  "code_reference_only": {"repository": "https://github.com/petrusen/pomsimulator", "inspected_commit": "cbe3598733888144ce261849cec5fe2077def8e3", "license": "AGPL-3.0", "current_and_v1_trees_contain_Mo36_inputs": false},
+  "method_difference": "Published PBE/TZP scalar-ZORA COSMO is not the current PBE/def2-SVP ECP C-PCM method",
+  "energy_comparison": "ADF bonding/decomposition energy is not directly comparable to PySCF total energy",
+  "reference_scope": "Computational parent data only; Mo36 participates in calibration; not held-out target validation",
+  "physical_admission": false
+}

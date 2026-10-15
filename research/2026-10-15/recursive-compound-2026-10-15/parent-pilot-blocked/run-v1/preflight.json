@@ -1,0 +1,41 @@
+{
+  "input_id": "P0_A",
+  "atoms": 196,
+  "AOs": 3068,
+  "explicit_electrons": 1568,
+  "charge": -8,
+  "spin_2S_trial": 0,
+  "surface_points": 9284,
+  "pyscf": "2.14.0",
+  "pins": {
+    "recursive-compound-2026-10-15/parent-pilot-blocked/pilot.py": "47d6beb68cb3cbcb437e8550b6f78c5c6d84f50a8853f9d0da843d7c204044b8",
+    "recursive-compound-2026-10-15/parent-pilot-blocked/selfcheck.py": "07293301c8ca05f713709a771bcce7cc18db922c4e52885c64221ff7d675379f",
+    "recursive-compound-2026-10-15/parent-pilot-blocked/PROTOCOL.md": "f1d1fb72c1df17182cbd09fbe38a06c15ad3012bbd36460caccbd6968b4c2f7b",
+    "recursive-compound-2026-10-15/parent-pilot/pilot.py": "6128ba9b0ea73cc4d1986f1326c6dea7931d6f89f3b14376d7b2cfe876cf5578",
+    "recursive-compound-2026-10-15/parent-inputs/P0_A.xyz": "78ead701c4b42ff27a834e5121e3780b6456ba15b24693fb207990f0a5e4b536",
+    "recursive-compound-2026-10-15/parent-inputs/metadata.json": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
+    "recursive-compound-2026-10-15/identity/site_mapping.json": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
+    "recursive-compound-2026-10-15/cpcm-blocked/blocked_pcm.py": "3458ab92f2e48847d7d88dde3a1c20e35343e66743b75d7d01ca5d21f8b80d12",
+    "recursive-compound-2026-10-15/cpcm-blocked/result.json": "a9964b033b375e29566d4f2ba4b2f767510083ba9b95b2ab41a3074a3f1b9549",
+    "recursive-compound-2026-10-15/cpcm-blocked/SHA256SUMS.json": "99b49df122ba6692f1da5f27541743f7496a00ce5717f0a717a0dd904dc79bd9",
+    "discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/solvent/pcm.py": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed"
+  },
+  "terms_bytes": {
+    "S": 689541248,
+    "Cholesky_factor": 689541248,
+    "possible_factor_copy": 689541248,
+    "row_temporaries_eight_arrays": 76054528,
+    "factor_finite_check": 86192656,
+    "AO_surface_tensor8": 602407936,
+    "SCF_DIIS_output_AO_buffers_32": 2409631744,
+    "nuclear_integral_block128": 200704,
+    "scratch_headroom": 4294967296
+  },
+  "screening_estimate_bytes": 9538078608,
+  "screening_limit_bytes": 10737418240,
+  "screening_is_measured_peak": false,
+  "description": "Conservative screening allowance, not certified peak RSS; includes 32 AO buffers (including output and contraction temporary) and 4 GiB scratch allowance. Integral/DFT/direct-JK library scratch and allocator retention are not analytically bounded.",
+  "physical_admission": false,
+  "SCF_requested": true,
+  "parent_input_hypothetical": true
+}

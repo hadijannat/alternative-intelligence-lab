@@ -1,0 +1,468 @@
+{
+  "case": "neutral-water",
+  "checks": [
+    {
+      "scenario": "surface S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "nuclear surface potential",
+      "value": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/q",
+      "value": 5.880712583561376e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/energy",
+      "value": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/AO potential",
+      "value": 4.996003610813204e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block1/normalized backward error",
+      "value": 5.2871908289914193e-17,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/q",
+      "value": 5.880712583561376e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/energy",
+      "value": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/AO potential",
+      "value": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block7/normalized backward error",
+      "value": 5.2871908289914193e-17,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/q",
+      "value": 5.880712583561376e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/energy",
+      "value": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/AO potential",
+      "value": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "scenario": "initial/block8/normalized backward error",
+      "value": 5.2871908289914193e-17,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/q",
+      "value": 6.331740687315346e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/AO potential",
+      "value": 4.163336342344337e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block1/normalized backward error",
+      "value": 5.296801865360301e-17,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/q",
+      "value": 6.331740687315346e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/AO potential",
+      "value": 4.163336342344337e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block7/normalized backward error",
+      "value": 5.296801865360301e-17,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/q",
+      "value": 6.331740687315346e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/energy",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/AO potential",
+      "value": 3.885780586188048e-16,
+      "pass": true
+    },
+    {
+      "scenario": "perturbed/block8/normalized backward error",
+      "value": 5.296801865360301e-17,
+      "pass": true
+    },
+    {
+      "scenario": "density derivative h=0.0001",
+      "value": {
+        "analytic": 0.00035601263574207813,
+        "centered": 0.0003560126352053494,
+        "error": 5.367287018477607e-13
+      },
+      "pass": true
+    },
+    {
+      "scenario": "density derivative h=5e-05",
+      "value": {
+        "analytic": 0.00035601263574207813,
+        "centered": 0.000356012637980907,
+        "error": 2.2388288597151307e-12
+      },
+      "pass": true
+    },
+    {
+      "scenario": "factor reused",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "repeat build S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "reset invalidates caches",
+      "value": null,
+      "pass": true
+    },
+    {
+      "scenario": "geometry reset S",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "geometry reset nuclear",
+      "value": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=COSMO",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=IEF-PCM",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard method=SS(V)PE",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard frozen=True",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard state_id=1",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard surface_discretization_method=ISWIG",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "guard equilibrium_solvation=True",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.grad",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.hess",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.nuc_grad_method",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.Hessian",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM._B_dot_x",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard BlockedPCM.to_gpu",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.nuc_grad_method",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.Gradients",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.Hessian",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.gen_response",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.stability",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDA",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDHF",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.TDDFT",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.MP2",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CISD",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CCSD",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CASCI",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.CASSCF",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.to_gpu",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "API guard GroundStateOnlyBlockedPCMRKS.newton",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "total energy vs recorded reference",
+      "value": 1.1368683772161603e-13,
+      "pass": true
+    },
+    {
+      "scenario": "solvent aware residual",
+      "value": 7.244470698239414e-08,
+      "pass": true
+    },
+    {
+      "scenario": "electron trace error",
+      "value": 4.263256414560601e-14,
+      "pass": true
+    },
+    {
+      "scenario": "no cached four center ERI",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/q",
+      "value": 5.915407053080912e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/energy",
+      "value": 1.0408340855860843e-17,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/AO potential",
+      "value": 2.255140518769849e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block1/normalized backward error",
+      "value": 1.8893639889554307e-17,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/q",
+      "value": 5.915407053080912e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/energy",
+      "value": 1.0408340855860843e-17,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/AO potential",
+      "value": 2.2638141361497333e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block7/normalized backward error",
+      "value": 1.8893639889554307e-17,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/electronic potential",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/q",
+      "value": 5.915407053080912e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/energy",
+      "value": 1.0408340855860843e-17,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/AO potential",
+      "value": 2.185751579730777e-16,
+      "pass": true
+    },
+    {
+      "scenario": "converged/block8/normalized backward error",
+      "value": 1.8893639889554307e-17,
+      "pass": true
+    }
+  ],
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "pyscf": "2.14.0",
+  "source_sha256": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed",
+  "SCF": {
+    "energy_Eh": -293.59073026086776,
+    "original_energy_Eh": -293.5907302608679,
+    "cycles": 14,
+    "orbital_residual": 7.244470698239414e-08,
+    "electron_trace": 38.00000000000004,
+    "cached_ERI": false,
+    "surface_points": 298,
+    "nao": 73
+  },
+  "status": "PASS_IMPLEMENTATION_EQUIVALENCE_ONLY"
+}

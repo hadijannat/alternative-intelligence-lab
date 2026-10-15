@@ -49,6 +49,27 @@ class PublicationSelection(unittest.TestCase):
         self.assertIsNone(exclusion(Path('recursive-compound-2026-10-15/identity/parent_heavy.xyz')))
         self.assertTrue(exclusion(Path('recursive-compound-2026-10-15/raw/source.xyz')))
 
+    def test_published_parent_acquisitions_excluded_and_analysis_retained(self):
+        base = Path('recursive-compound-2026-10-15/published-parent')
+        for name in ('item.html', 'parent32.xyz', 'geometry.cml', 'output.cml',
+                     'Mo36O128-32H.in', 'petrus2021-si.pdf', 'petrus2021-si.txt'):
+            with self.subTest(name=name):
+                self.assertTrue(exclusion(base / name))
+        for name in ('analysis.py', 'analysis.json', 'provenance.json', 'comparison.md'):
+            with self.subTest(name=name):
+                self.assertIsNone(exclusion(base / name))
+
+    def test_parent_failures_and_solution_assessments_retained(self):
+        base = Path('recursive-compound-2026-10-15')
+        for name in ('parent-pilot/run-v1/preflight.json',
+                     'parent-pilot-blocked/run-v1/supervisor.json',
+                     'parent-pilot-blocked/run-v1/stages.jsonl',
+                     'solution-constraints/sources.json',
+                     'boundary/nd-linker-proposition.json'):
+            with self.subTest(name=name):
+                self.assertIsNone(exclusion(base / name))
+        self.assertTrue(exclusion(base / 'solution-constraints/raw/izarova2005-crossref.json'))
+
     def test_signed_query_removed_without_touching_stable_query(self):
         text = '"https://example.org/file?Expires=1&Signature=private&Key-Pair-Id=key" https://example.org/?id=2'
         cleaned, count = strip_signed_urls(text)

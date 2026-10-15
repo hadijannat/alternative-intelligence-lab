@@ -16,7 +16,7 @@ This repository publishes the final record of an exploratory research campaign: 
 
 This is a research archive with computational results and literature analysis. It is not a report of new laboratory measurements or a peer-reviewed demonstration of alternative life.
 
-**15 October continuation:** [Ten laboratories](research/2026-10-15/README.md) add measured-chemistry models, RNA failure diagnostics, retention/inheritance assay simulations, a 1,000-record inorganic materials screen and the recursive compound investigation. The latest checkpoint includes source-qualified complement assessments, small-reference electronic checks and four hypothetical parent inputs; no full-parent calculation has run. Negative results remain preserved. The proposed Mo/W/V composition remains unverified; no living or intelligent entity was demonstrated. The earlier tagged release remains unchanged.
+**15 October continuation:** [Ten laboratories](research/2026-10-15/README.md) add measured-chemistry models, RNA failure diagnostics, retention/inheritance assay simulations, a 1,000-record inorganic materials screen and the recursive compound investigation. The latest checkpoint preserves 19 candidate-role assessments, small-reference numerical qualification, an initial parent resource rejection and a second parent attempt that reached its 900-second wall limit before reporting an SCF cycle or energy. A published parent comparison exposes different hydrogen arrangements and unresolved frequency corrections. Negative results remain preserved. The proposed Mo/W/V composition remains unverified; no living or intelligent entity was demonstrated. The earlier tagged release remains unchanged.
 
 <p align="center">
   <a href="#the-results-at-a-glance">Results</a> ·

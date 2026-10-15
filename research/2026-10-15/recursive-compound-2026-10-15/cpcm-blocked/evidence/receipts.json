@@ -1,0 +1,35 @@
+[
+  {
+    "case": "anion-water",
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+      "anion-water"
+    ],
+    "returncode": 0,
+    "wall_seconds": 13.404539959039539
+  },
+  {
+    "case": "neutral-water",
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+      "neutral-water"
+    ],
+    "returncode": 0,
+    "wall_seconds": 7.566776333958842
+  },
+  {
+    "case": "anion-eps1",
+    "argv": [
+      "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-blocked/qualify.py",
+      "anion-eps1"
+    ],
+    "returncode": 0,
+    "wall_seconds": 12.792817209032364
+  }
+]

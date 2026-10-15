@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-pilot/pilot.py",
+    "--worker"
+  ],
+  "pid": 78875,
+  "returncode": 2,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 0.8359883750090376,
+  "wall_cap_seconds": 900,
+  "rss_guard_bytes": 10737418240,
+  "sampled_max_rss_bytes": 102957056,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0016763750463724136,
+      "rss_bytes": 2179072
+    },
+    {
+      "elapsed_seconds": 0.20994554203934968,
+      "rss_bytes": 48463872
+    },
+    {
+      "elapsed_seconds": 0.4187473750207573,
+      "rss_bytes": 72450048
+    },
+    {
+      "elapsed_seconds": 0.6272395420819521,
+      "rss_bytes": 102957056
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

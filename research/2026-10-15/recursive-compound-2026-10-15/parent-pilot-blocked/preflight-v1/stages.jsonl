@@ -1,0 +1,5 @@
+{"stage": "basis_build_start", "elapsed_seconds": 0.0023986659944057465}
+{"stage": "basis_build_complete", "elapsed_seconds": 0.007952415966428816, "atoms": 196, "AOs": 3068, "electrons": 1568}
+{"stage": "surface_preflight_start", "elapsed_seconds": 0.008048415998928249}
+{"stage": "surface_preflight_complete", "elapsed_seconds": 0.05347625003196299, "terms_bytes": {"S": 689541248, "Cholesky_factor": 689541248, "possible_factor_copy": 689541248, "row_temporaries_eight_arrays": 76054528, "factor_finite_check": 86192656, "AO_surface_tensor8": 602407936, "SCF_DIIS_output_AO_buffers_32": 2409631744, "nuclear_integral_block128": 200704, "scratch_headroom": 4294967296}, "screening_estimate_bytes": 9538078608, "screening_limit_bytes": 10737418240, "screening_is_measured_peak": false, "description": "Conservative screening allowance, not certified peak RSS; includes 32 AO buffers (including output and contraction temporary) and 4 GiB scratch allowance. Integral/DFT/direct-JK library scratch and allocator retention are not analytically bounded.", "surface_points": 9284}
+{"stage": "PREFLIGHT_ONLY_COMPLETE", "elapsed_seconds": 0.053576249978505075, "SCF_launched": false}

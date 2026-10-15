@@ -51,6 +51,8 @@ def strip_signed_urls(text):
 def exclusion(rel, directory=False):
     parts = tuple(part.lower() for part in rel.parts)
     name = rel.name.lower()
+    if rel.as_posix() == 'recursive-compound-2026-10-15/published-parent/item.html':
+        return 'acquired repository landing page; provenance URL and hash retained'
     if rel.suffix.lower() == '.xyz' and rel.as_posix() not in COORDINATES:
         return 'coordinate file outside the authored parent-input scope'
     if any(part in {'author', 'source-extract', 'source_extract', 'downloads',

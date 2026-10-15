@@ -1,0 +1,62 @@
+{
+  "parent_estimate_only": {
+    "surface_points": 9284,
+    "AO_count": 3068,
+    "S_bytes": 689541248,
+    "Cholesky_storage_bytes": 689541248,
+    "retained_S_plus_factor_bytes": 1379082496,
+    "S_row_temporary_conservative_eight_block_arrays_bytes": 76054528,
+    "factor_finite_check_boolean_array_bytes": 86192656,
+    "AO_integral_result_block8_bytes": 602407936,
+    "old_AO_integral_floor400_bytes": 30120396800,
+    "AO_potential_bytes": 75300992,
+    "AO_contraction_result_temporary_bytes": 75300992,
+    "nuclear_integral_block128_bytes": null,
+    "note": "Array allocation estimates only. Row estimate allows eight concurrent block arrays for NumPy expressions. Factorization library workspace, allocator retention, integral-engine scratch, SCF/grid/direct-JK storage and surface generation storage are not certified by this estimate. Parent nuclear-integral allocation is unestimated here; no parent was loaded or run."
+  },
+  "anion-water": {
+    "surface_points": 386,
+    "AO_count": 87,
+    "S_bytes": 1191968,
+    "Cholesky_storage_bytes": 1191968,
+    "retained_S_plus_factor_bytes": 2383936,
+    "S_row_temporary_conservative_eight_block_arrays_bytes": 3162112,
+    "factor_finite_check_boolean_array_bytes": 148996,
+    "AO_integral_result_block8_bytes": 484416,
+    "old_AO_integral_floor400_bytes": 24220800,
+    "AO_potential_bytes": 60552,
+    "AO_contraction_result_temporary_bytes": 60552,
+    "nuclear_integral_block128_bytes": 5120,
+    "note": "Array allocation estimates only. Row estimate allows eight concurrent block arrays for NumPy expressions. Factorization library workspace, allocator retention, integral-engine scratch, SCF/grid/direct-JK storage and surface generation storage are not certified by this estimate. Parent nuclear-integral allocation is unestimated here; no parent was loaded or run."
+  },
+  "neutral-water": {
+    "surface_points": 298,
+    "AO_count": 73,
+    "S_bytes": 710432,
+    "Cholesky_storage_bytes": 710432,
+    "retained_S_plus_factor_bytes": 1420864,
+    "S_row_temporary_conservative_eight_block_arrays_bytes": 2441216,
+    "factor_finite_check_boolean_array_bytes": 88804,
+    "AO_integral_result_block8_bytes": 341056,
+    "old_AO_integral_floor400_bytes": 17052800,
+    "AO_potential_bytes": 42632,
+    "AO_contraction_result_temporary_bytes": 42632,
+    "nuclear_integral_block128_bytes": 4096,
+    "note": "Array allocation estimates only. Row estimate allows eight concurrent block arrays for NumPy expressions. Factorization library workspace, allocator retention, integral-engine scratch, SCF/grid/direct-JK storage and surface generation storage are not certified by this estimate. Parent nuclear-integral allocation is unestimated here; no parent was loaded or run."
+  },
+  "anion-eps1": {
+    "surface_points": 386,
+    "AO_count": 87,
+    "S_bytes": 1191968,
+    "Cholesky_storage_bytes": 1191968,
+    "retained_S_plus_factor_bytes": 2383936,
+    "S_row_temporary_conservative_eight_block_arrays_bytes": 3162112,
+    "factor_finite_check_boolean_array_bytes": 148996,
+    "AO_integral_result_block8_bytes": 484416,
+    "old_AO_integral_floor400_bytes": 24220800,
+    "AO_potential_bytes": 60552,
+    "AO_contraction_result_temporary_bytes": 60552,
+    "nuclear_integral_block128_bytes": 5120,
+    "note": "Array allocation estimates only. Row estimate allows eight concurrent block arrays for NumPy expressions. Factorization library workspace, allocator retention, integral-engine scratch, SCF/grid/direct-JK storage and surface generation storage are not certified by this estimate. Parent nuclear-integral allocation is unestimated here; no parent was loaded or run."
+  }
+}
