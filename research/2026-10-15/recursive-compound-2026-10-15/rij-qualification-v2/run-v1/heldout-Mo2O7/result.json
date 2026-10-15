@@ -1,0 +1,174 @@
+{
+  "case": "heldout-Mo2O7",
+  "checks": [
+    {
+      "name": "direct SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 0.000526127388443598,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.0001770115180126602,
+      "pass": true
+    },
+    {
+      "name": "initial/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 0.0005261176028596992,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.0001769609316649557,
+      "pass": true
+    },
+    {
+      "name": "perturbed/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 0.00014265804857771514,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00011216223901083155,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_additivity",
+      "value": 1.1723955140041653e-12,
+      "pass": true
+    },
+    {
+      "name": "zero_density",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/max_J_error_Eh",
+      "value": 0.0001430422722492608,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00011238746675760717,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "total_energy_error_Eh_per_Mo",
+      "value": 0.00011227421907733515,
+      "pass": true
+    },
+    {
+      "name": "direct_Fock_residual",
+      "value": 0.0010963622641762477,
+      "pass": false
+    },
+    {
+      "name": "RI_Fock_residual",
+      "value": 2.4848605139686754e-07,
+      "pass": true
+    },
+    {
+      "name": "electron_trace_error",
+      "value": 9.947598300641403e-14,
+      "pass": true
+    },
+    {
+      "name": "no_ERI_or_three_index_cache",
+      "value": {
+        "nao": 160,
+        "naux": 521,
+        "metric_factor_shape": [
+          521,
+          521
+        ],
+        "factor_type": "cd",
+        "J_calls": 33,
+        "cached_ERI": false,
+        "cached_3index": false,
+        "tensor_output": false
+      },
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": true,
+  "direct_SCF": {
+    "energy_Eh": -662.834329575359,
+    "cycles": 24,
+    "seconds": 53.47894066700246,
+    "converged": true
+  },
+  "J_timings": {
+    "initial": {
+      "direct_seconds": 1.5447999170282856,
+      "RI_seconds": 0.21648316702339798
+    },
+    "perturbed": {
+      "direct_seconds": 1.5420217079808936,
+      "RI_seconds": 0.20540145796258003
+    },
+    "direct_converged": {
+      "direct_seconds": 1.5923675000667572,
+      "RI_seconds": 0.2091770829865709
+    },
+    "RI_converged": {
+      "direct_seconds": 1.6087517919950187,
+      "RI_seconds": 0.21053562499582767
+    }
+  },
+  "RI_SCF": {
+    "energy_Eh": -662.8345541237971,
+    "reference_energy_Eh": -662.834329575359,
+    "cycles": 24,
+    "seconds": 26.077968416037038,
+    "converged": true,
+    "direct_residual": 0.0010963622641762477,
+    "RI_residual": 2.4848605139686754e-07,
+    "electron_trace": 86.0000000000001,
+    "explicit_electrons": 86
+  },
+  "storage": {
+    "nao": 160,
+    "naux": 521,
+    "metric_factor_shape": [
+      521,
+      521
+    ],
+    "factor_type": "cd",
+    "J_calls": 33,
+    "cached_ERI": false,
+    "cached_3index": false,
+    "tensor_output": false
+  },
+  "status": "FAIL_NUMERICAL_SCREEN"
+}

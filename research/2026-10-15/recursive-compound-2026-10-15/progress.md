@@ -1,5 +1,19 @@
 # Progress checkpoint
 
+## Latest continuation: proton topology and RI-J failure
+
+The preceding user-requested publication turn completed commit 8e2afc3 and push; CI38789563347 now reports success. It was publication progress, with no new chemical-function evidence. This continuation made substantive goal progress by testing assumptions needed for a target calculation; no repeated impasse is established.
+
+proton-topology/ contains a frozen geometry audit and additive GUIBonds audit, preserved v1 snapshots, full local contacts and 12 passing synthetic/parser tests. Independent recomputation confirms 4 two-H/24 one-H declared oxygen sites versus P0_A's 16 two-H sites; different heavy cutoff graphs; four P0_A aqua-like sites with two Mo contacts. No cross-source mapping, physical protonation or framework identity is established. Formula/charge equivalence does not justify silently changing the user's sixteen-water structural hypothesis.
+
+rij-qualification/run-v1 is terminal FAIL, with original code/pins preserved. Three cases completed their operator checks, then hit a false changed-molecule guard when native get_hcore initialized ECP metadata18/19. External Mo2O7 direct SCF converged, but its first RI call hit the same guard. No RI SCF completed. The exact diagnostic and separate initialization repair are recorded.
+
+rij-qualification-v2/run-v1 is terminal FAIL_NUMERICAL_SCREEN; session73059 exited1, with no timeouts or monitor errors. All five SCFs converged, but neutral MoO3 residual0.001151565935 and external Mo2O7 residual0.001096362264 exceed the unchanged0.001Eh screen. Two MoO4 cases pass; 79/81 checks meet their thresholds. Eleven unit tests pass. All pins match, and independent array recomputation confirms the failures. The former external holdout is accurately labelled a post-fix continuation of a predeclared test, not newly unseen data. No parent calculation was launched.
+
+Next concrete scientific action: separately freeze an accuracy comparison using the installed larger def2-universal-jkfit basis, beginning with the failing known case; reserve a new uninspected geometry if claiming fresh held-out numerical evidence. First budget its parent matrix cost:19,612 auxiliary functions,3.077GB per metric,6.154GB for metric plus factor, so it cannot inherit the old10GiB screen. Keep the current negative qualification and original parent failures immutable. No new candidate role or verified complement was added:19 role evaluations,0 verified integrated complements. The full intelligent-life goal remains ACTIVE and unmet. This new work is local; the earlier publication commit remains unchanged.
+
+## Earlier checkpoints
+
 Goal: preserve the complete user objective of a functioning living, intelligent system around nominal Mo34WV, with recursively tested complements. Status: ACTIVE, not achieved.
 
 The immediately preceding publication-verification turn made no substantive progress toward chemical life. It did verify the earlier publication commit. This turn resumed the available scientific actions and produced new authoritative constraints; it is a progress turn, not a repeated-blocker turn.

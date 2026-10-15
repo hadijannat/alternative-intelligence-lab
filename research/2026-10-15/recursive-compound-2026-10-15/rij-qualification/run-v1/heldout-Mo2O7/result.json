@@ -1,0 +1,21 @@
+{
+  "case": "heldout-Mo2O7",
+  "checks": [
+    {
+      "name": "direct SCF converged",
+      "value": true,
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": true,
+  "direct_SCF": {
+    "energy_Eh": -662.8343295753588,
+    "cycles": 24,
+    "seconds": 52.90699787507765,
+    "converged": true
+  },
+  "status": "ERROR",
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/run.py\", line 119, in worker\n    j0=compare('initial',initial)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/run.py\", line 108, in compare\n    start=time.monotonic(); jr=ri.get_j(dm=density); tr=time.monotonic()-start\n                               ^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/scf/hf.py\", line 2164, in get_j\n    return self.get_jk(mol, dm, hermi, with_k=False, omega=omega)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/rij.py\", line 27, in get_jk\n    raise ValueError('Molecule changed; a fresh qualification object is required')\nValueError: Molecule changed; a fresh qualification object is required\n"
+}

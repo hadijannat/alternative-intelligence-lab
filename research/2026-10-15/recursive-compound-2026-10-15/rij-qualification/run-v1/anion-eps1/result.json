@@ -1,0 +1,79 @@
+{
+  "case": "anion-eps1",
+  "checks": [
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 0.0005167504501351061,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00018254813699467324,
+      "pass": true
+    },
+    {
+      "name": "initial/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 0.0005166089714023769,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00018264892845616933,
+      "pass": true
+    },
+    {
+      "name": "perturbed/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 0.00027763726886931295,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.0001335773103050033,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_additivity",
+      "value": 4.760636329592671e-13,
+      "pass": true
+    },
+    {
+      "name": "zero_density",
+      "value": 0.0,
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": false,
+  "J_timings": {
+    "initial": {
+      "direct_seconds": 0.2032749579520896,
+      "RI_seconds": 0.04342533298768103
+    },
+    "perturbed": {
+      "direct_seconds": 0.19306479196529835,
+      "RI_seconds": 0.03912166692316532
+    },
+    "direct_converged": {
+      "direct_seconds": 0.1983515419997275,
+      "RI_seconds": 0.039214666932821274
+    }
+  },
+  "status": "ERROR",
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/run.py\", line 130, in worker\n    start=time.monotonic(); energy=float(ri.kernel(dm0=initial)); elapsed=time.monotonic()-start\n                                         ^^^^^^^^^^^^^^^^^^^^^^\n  File \"<string>\", line 2, in kernel\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/scf/hf.py\", line 2099, in scf\n    kernel(self, self.conv_tol, self.conv_tol_grad,\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/scf/hf.py\", line 132, in kernel\n    vhf = mf.get_veff(mol, dm)\n          ^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/solvent/_attach_solvent.py\", line 85, in get_veff\n    vhf = super().get_veff(mol, dm, *args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/dft/rks.py\", line 105, in get_veff\n    vj = ks.get_j(mol, _dm, hermi)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/scf/hf.py\", line 2164, in get_j\n    return self.get_jk(mol, dm, hermi, with_k=False, omega=omega)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/rij.py\", line 27, in get_jk\n    raise ValueError('Molecule changed; a fresh qualification object is required')\nValueError: Molecule changed; a fresh qualification object is required\n"
+}

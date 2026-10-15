@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 2439,
-  "published_bytes": 1068589127,
-  "unique_published_blobs": 1765,
-  "excluded_entries": 398,
+  "included_files": 2506,
+  "published_bytes": 1075658638,
+  "unique_published_blobs": 1828,
+  "excluded_entries": 435,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 170,
+    "recursive-compound-2026-10-15": 237,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 20595,
-      "source_sha256": "7aa54fcc1f254685ec91c644e81a720caef0fe0d1adbdbcfeff3af7adcf975e7",
-      "published_size": 20595,
-      "published_sha256": "7aa54fcc1f254685ec91c644e81a720caef0fe0d1adbdbcfeff3af7adcf975e7",
+      "source_size": 22609,
+      "source_sha256": "54afee5fb9c95e3913d1914e5873234ba695d5aa082119af186cb64283a3196d",
+      "published_size": 22609,
+      "published_sha256": "54afee5fb9c95e3913d1914e5873234ba695d5aa082119af186cb64283a3196d",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 5103,
-      "source_sha256": "06906769b74c2b3f3c97152f040dc87a95ca32d18064132fa44fce0105eff363",
-      "published_size": 5103,
-      "published_sha256": "06906769b74c2b3f3c97152f040dc87a95ca32d18064132fa44fce0105eff363",
+      "source_size": 5491,
+      "source_sha256": "65a7bd88b7b51adb66481cb1ed7dc89f9dfc2c656ad94c04353b3bfdcae3d546",
+      "published_size": 5491,
+      "published_sha256": "65a7bd88b7b51adb66481cb1ed7dc89f9dfc2c656ad94c04353b3bfdcae3d546",
       "transformations": []
     },
     {
@@ -5178,10 +5178,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 6971,
-      "source_sha256": "3e15f09c05c36b82ee439556968365d6ea12a9f299f12f9e05545d9f52efb6c6",
-      "published_size": 6971,
-      "published_sha256": "3e15f09c05c36b82ee439556968365d6ea12a9f299f12f9e05545d9f52efb6c6",
+      "source_size": 8047,
+      "source_sha256": "87a7a17a86df39902f266425566862081dedbbdceb06b027500e9b2b4b36511d",
+      "published_size": 8047,
+      "published_sha256": "87a7a17a86df39902f266425566862081dedbbdceb06b027500e9b2b4b36511d",
       "transformations": []
     },
     {
@@ -7013,10 +7013,201 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 6838,
-      "source_sha256": "eab4912477046cce76e48e3f43620500628f91bbe494b65ac83906f6b3fa95dc",
-      "published_size": 6838,
-      "published_sha256": "eab4912477046cce76e48e3f43620500628f91bbe494b65ac83906f6b3fa95dc",
+      "source_size": 9480,
+      "source_sha256": "a9a65238693809708d30b7ffc3b12dec6379dda087a68ee22a519c3ccf793976",
+      "published_size": 9480,
+      "published_sha256": "a9a65238693809708d30b7ffc3b12dec6379dda087a68ee22a519c3ccf793976",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/PROTOCOL-v1.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2594,
+      "source_sha256": "eedae9ed615370d56ab2226e9a24a379f2e258ae9aae4939b2e363b81547b91c",
+      "published_size": 2594,
+      "published_sha256": "eedae9ed615370d56ab2226e9a24a379f2e258ae9aae4939b2e363b81547b91c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3840,
+      "source_sha256": "712a9971d4b59b0d030ab1b5a10d61b444822d2748650ec8f26c2eadf12477a2",
+      "published_size": 3840,
+      "published_sha256": "712a9971d4b59b0d030ab1b5a10d61b444822d2748650ec8f26c2eadf12477a2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/REPORT-v1.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5365,
+      "source_sha256": "03005d30426f4bf0508b9514c53024a55216aac1f71096dc36cbcacc5897ecf3",
+      "published_size": 5365,
+      "published_sha256": "03005d30426f4bf0508b9514c53024a55216aac1f71096dc36cbcacc5897ecf3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7924,
+      "source_sha256": "e8338f7226b1f5ad86e4a2e7ee9aa38684e26f87b0cded58a6d5a22ef904e680",
+      "published_size": 7924,
+      "published_sha256": "e8338f7226b1f5ad86e4a2e7ee9aa38684e26f87b0cded58a6d5a22ef904e680",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/analysis.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 7423,
+      "source_sha256": "037aad6bf20b863f5093dddce287fc9698320f1ffc3eacfbde348880c83da63f",
+      "published_size": 7423,
+      "published_sha256": "037aad6bf20b863f5093dddce287fc9698320f1ffc3eacfbde348880c83da63f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/GUIBONDS-SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 905,
+      "source_sha256": "a97aeb27e5d68e839433976c130dde5f49ba76606efbb287601b15c198065e57",
+      "published_size": 905,
+      "published_sha256": "a97aeb27e5d68e839433976c130dde5f49ba76606efbb287601b15c198065e57",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/SHA256SUMS-v1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 625,
+      "source_sha256": "afaa8731d6efc16244a9c43cfb31be9bc804cb6b01788cb4d4f9d6c3178eb3af",
+      "published_size": 625,
+      "published_sha256": "afaa8731d6efc16244a9c43cfb31be9bc804cb6b01788cb4d4f9d6c3178eb3af",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1774,
+      "source_sha256": "b4c559a6158320b6372eb63a4ca0a1c67cbe5275b0c7d73e74620f4d277840aa",
+      "published_size": 1774,
+      "published_sha256": "b4c559a6158320b6372eb63a4ca0a1c67cbe5275b0c7d73e74620f4d277840aa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/analysis.stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 2582
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/guibonds-tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 402
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/guibonds-verification.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1092
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/guibonds.stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 529
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 850
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/evidence/verification.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 2350
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/guibonds-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 49428,
+      "source_sha256": "c3c3ad51ccf5a67de86ab42852d1e490e202d0648f06cffb57f6aa38fe7f28fb",
+      "published_size": 49248,
+      "published_sha256": "1f9ae6942cc7f50cf8fa890cafbfdb0baf9134fae96e3dec0a5d7c1a17648f7f",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/guibonds.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5243,
+      "source_sha256": "b71427d4d0ea6e83210cf201d3d667d2757bbcf55cdfdfae76ee73145c26e399",
+      "published_size": 5243,
+      "published_sha256": "b71427d4d0ea6e83210cf201d3d667d2757bbcf55cdfdfae76ee73145c26e399",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/result-v1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 375827,
+      "source_sha256": "81c3718eec953525f32ba26dd5377e085905735df1ea7af17d737984cb90340a",
+      "published_size": 375539,
+      "published_sha256": "1a275542382eaf1be3f05399f8f6a8647454c62ea8cbe1d40839eaaf9b971ea6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 375827,
+      "source_sha256": "81c3718eec953525f32ba26dd5377e085905735df1ea7af17d737984cb90340a",
+      "published_size": 375539,
+      "published_sha256": "1a275542382eaf1be3f05399f8f6a8647454c62ea8cbe1d40839eaaf9b971ea6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/test_analysis.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2529,
+      "source_sha256": "20ae3e8f4d166897a6820b2b62bbb7ac28142eff464196fc596028f13726bc86",
+      "published_size": 2529,
+      "published_sha256": "20ae3e8f4d166897a6820b2b62bbb7ac28142eff464196fc596028f13726bc86",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/proton-topology/test_guibonds.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 912,
+      "source_sha256": "7439c69a7c748d3e640328c211cb901cd69bd3bb1a79ebaa1b04dc3dadb0f3c4",
+      "published_size": 912,
+      "published_sha256": "7439c69a7c748d3e640328c211cb901cd69bd3bb1a79ebaa1b04dc3dadb0f3c4",
       "transformations": []
     },
     {
@@ -7198,6 +7389,807 @@
       "source_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
       "published_size": 2453,
       "published_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3237,
+      "source_sha256": "d426091bc46c9efc2e301cebb227ef742c014b022642980baee2519b5a90908c",
+      "published_size": 3237,
+      "published_sha256": "d426091bc46c9efc2e301cebb227ef742c014b022642980baee2519b5a90908c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/evidence/adapter.diff",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 1140
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/evidence/preparation-pending.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5360,
+      "source_sha256": "418ada73ed8d37938fff0ff62173fdf50bb5db8e5d7cc391f37de32f42fe184f",
+      "published_size": 4640,
+      "published_sha256": "0287509ab0b3c138270088f2d029e7d52dff191c18a644817360e5d194e496f4",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/evidence/preparation-pending.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 5548
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/evidence/tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 112
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2729,
+      "source_sha256": "498d190e20cf48f793617abd3cb0404e13a3b8f39314e486289f70cc6502a4b8",
+      "published_size": 2729,
+      "published_sha256": "498d190e20cf48f793617abd3cb0404e13a3b8f39314e486289f70cc6502a4b8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 14865,
+      "source_sha256": "c8c432b21715878f663d7ae14909c250a997bd9b86efa2b154e2dc44cd9a98e6",
+      "published_size": 14865,
+      "published_sha256": "c8c432b21715878f663d7ae14909c250a997bd9b86efa2b154e2dc44cd9a98e6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/test_rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5892,
+      "source_sha256": "373644e492b8653ca41fb40e516b3274ba9e74746c017593e6bf11cf4816b543",
+      "published_size": 5892,
+      "published_sha256": "373644e492b8653ca41fb40e516b3274ba9e74746c017593e6bf11cf4816b543",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2075,
+      "source_sha256": "e18688711d6288e38c51c0178847f8df4075827d9a7c399fd9a97053cf2d2b93",
+      "published_size": 2075,
+      "published_sha256": "e18688711d6288e38c51c0178847f8df4075827d9a7c399fd9a97053cf2d2b93",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5320,
+      "source_sha256": "d9e59893c4cb8fb4c219fccc06552a6d047e6b2f8ee26d17ad6e0817d60f90fe",
+      "published_size": 5320,
+      "published_sha256": "d9e59893c4cb8fb4c219fccc06552a6d047e6b2f8ee26d17ad6e0817d60f90fe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4972,
+      "source_sha256": "c3073e53f2b3e438c8ff3e5ec67de5182a4018adc489e22b9af068a490d6a670",
+      "published_size": 4972,
+      "published_sha256": "c3073e53f2b3e438c8ff3e5ec67de5182a4018adc489e22b9af068a490d6a670",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/raw/Mo2O7.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1444
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/raw/Mo2O7.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 304
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2727,
+      "source_sha256": "75758db6cf1c6ec82831a5df18c90078b6314506a12e4225dc644fc96082b536",
+      "published_size": 2727,
+      "published_sha256": "75758db6cf1c6ec82831a5df18c90078b6314506a12e4225dc644fc96082b536",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 641221,
+      "source_sha256": "c02a5c4a25d71151f5b7c9329c9a51cacd6c672260a4ebfa422140c3a7af137c",
+      "published_size": 641221,
+      "published_sha256": "c02a5c4a25d71151f5b7c9329c9a51cacd6c672260a4ebfa422140c3a7af137c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2591,
+      "source_sha256": "7856beedfad2ef6278c1d85779af7fd96933734a3fcab713639a0aa315aafbb8",
+      "published_size": 2591,
+      "published_sha256": "7856beedfad2ef6278c1d85779af7fd96933734a3fcab713639a0aa315aafbb8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17177
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3653,
+      "source_sha256": "69a9e9aa4ef0ba6a71543fe70bf7d9ee14cc6c61e886c948adc375a1cc820cd5",
+      "published_size": 3653,
+      "published_sha256": "69a9e9aa4ef0ba6a71543fe70bf7d9ee14cc6c61e886c948adc375a1cc820cd5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 269
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 226
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3185,
+      "source_sha256": "87cd6c69e205aca9d3198833816fd27cb3ba4a5f7e17218f1c395af9e70b36ef",
+      "published_size": 3113,
+      "published_sha256": "a4a6a7526986a25383d6c66210848e6b1ea34d41107cd0bea0c00d34f8083216",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 644043,
+      "source_sha256": "d380464d264efefe77978f28bbf549af8272502ce9d0ac5314aac6bc57d0a32b",
+      "published_size": 644043,
+      "published_sha256": "d380464d264efefe77978f28bbf549af8272502ce9d0ac5314aac6bc57d0a32b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2491,
+      "source_sha256": "82483ee70fb00c367524aced341a902aebfd29722205c9569e94709ce76d9094",
+      "published_size": 2491,
+      "published_sha256": "82483ee70fb00c367524aced341a902aebfd29722205c9569e94709ce76d9094",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17674
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3689,
+      "source_sha256": "3aae4f6e86cb2236d713c4a9748d7170c0c3c120c3a9ad52cf4b89f98dc8f36e",
+      "published_size": 3689,
+      "published_sha256": "3aae4f6e86cb2236d713c4a9748d7170c0c3c120c3a9ad52cf4b89f98dc8f36e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 270
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 228
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3273,
+      "source_sha256": "bda9e576170923b4a5bfe37baf912935d1f98c1bb5b506010b34783b3c96e256",
+      "published_size": 3201,
+      "published_sha256": "32d0e915aa36732698784df9ed2a65253bb91e1de12da0acd8a40d9f1c9f41e6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 3117386,
+      "source_sha256": "9ffded34a96492fa6d49d729db63714551ae85e8e95047f82a5a2ebe0149ffa6",
+      "published_size": 3117386,
+      "published_sha256": "9ffded34a96492fa6d49d729db63714551ae85e8e95047f82a5a2ebe0149ffa6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 3291,
+      "source_sha256": "0c8bd33a158bec9e743ce1f2957a9e2f25e67bb59c84a1f393f859e8894fd67f",
+      "published_size": 3291,
+      "published_sha256": "0c8bd33a158bec9e743ce1f2957a9e2f25e67bb59c84a1f393f859e8894fd67f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 27380
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3902,
+      "source_sha256": "dee6790b65cb12ad174a679b6949a4eb115869282e71ba2dea10c2f746d47862",
+      "published_size": 3902,
+      "published_sha256": "dee6790b65cb12ad174a679b6949a4eb115869282e71ba2dea10c2f746d47862",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 438
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 306
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 38543,
+      "source_sha256": "80bfc49c45af02b98b48cda61736d1103eee30758fa374e0a418c42c22917bfd",
+      "published_size": 38471,
+      "published_sha256": "652d05ac5555be63211bfd8c81df775b3265fe45f4440efe674b75949eb0c6e7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 468532,
+      "source_sha256": "b3bad9f0a821796813dd38d4a9d06479b1d80869e7b7265c43b5e37e0c691801",
+      "published_size": 468532,
+      "published_sha256": "b3bad9f0a821796813dd38d4a9d06479b1d80869e7b7265c43b5e37e0c691801",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2291,
+      "source_sha256": "acd463191707fbf40958a50d01002efaf2c97ae1af87047a2e1461ab8f888843",
+      "published_size": 2291,
+      "published_sha256": "acd463191707fbf40958a50d01002efaf2c97ae1af87047a2e1461ab8f888843",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 17116
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3686,
+      "source_sha256": "ec1399efaeb8b680d4f510dc1c8a2441daf388b35053511279b6f43e61c792c3",
+      "published_size": 3686,
+      "published_sha256": "ec1399efaeb8b680d4f510dc1c8a2441daf388b35053511279b6f43e61c792c3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 214
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 306
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2070,
+      "source_sha256": "66f76072c5a9a71c9e335f8d22ee5f58c149aae84009c873f06dbfaf2c898250",
+      "published_size": 1998,
+      "published_sha256": "47abc006b0e42cd395a6e31bdc6cb232eac4c7e47080c38c9f7ca4d2c11e5fa9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2980,
+      "source_sha256": "1dca0e1bafb37ac3b4b56be9370b89832d9e69ea8d17066292996cab306fd4f4",
+      "published_size": 2440,
+      "published_sha256": "33f8ea70aa616c94f0fb097e329e4bf7e6cf0bb5c3bf6b44ddb538c73a66df0f",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 51493,
+      "source_sha256": "c38d4df313de00576622c0d6a3ca2fcf24276c36ae357b16032edaf4c80d383e",
+      "published_size": 51205,
+      "published_sha256": "a2b869f86c6853ba415a0e8cfc47f6b554594348ba24dabe6123640836264292",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 905,
+      "source_sha256": "742eeb5ac13bc16c775eb93fa39aca55fbf61725bf4271dd2ab4407b018a76f8",
+      "published_size": 905,
+      "published_sha256": "742eeb5ac13bc16c775eb93fa39aca55fbf61725bf4271dd2ab4407b018a76f8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 9986,
+      "source_sha256": "f8cb83153295a8e989835d7105d9b8f1a7b8e8fa459ba0d1ed67709214dd8bd2",
+      "published_size": 9986,
+      "published_sha256": "f8cb83153295a8e989835d7105d9b8f1a7b8e8fa459ba0d1ed67709214dd8bd2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification-v2/test_rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5215,
+      "source_sha256": "db80dc11beb5bda6f8bbddfd98f46479f59a01d4096189f062d1021086a85349",
+      "published_size": 5215,
+      "published_sha256": "db80dc11beb5bda6f8bbddfd98f46479f59a01d4096189f062d1021086a85349",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4281,
+      "source_sha256": "0f61b73c46f47233a5bb2353587f935711f8aef55be1fbd2736d6dab47a457c6",
+      "published_size": 4281,
+      "published_sha256": "0f61b73c46f47233a5bb2353587f935711f8aef55be1fbd2736d6dab47a457c6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2072,
+      "source_sha256": "5908f6e8189d7982931bad64c198068c17da6871e52a911757846ffd365fdd59",
+      "published_size": 2072,
+      "published_sha256": "5908f6e8189d7982931bad64c198068c17da6871e52a911757846ffd365fdd59",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/raw/Mo2O7.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1444
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/raw/Mo2O7.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 304
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2727,
+      "source_sha256": "75758db6cf1c6ec82831a5df18c90078b6314506a12e4225dc644fc96082b536",
+      "published_size": 2727,
+      "published_sha256": "75758db6cf1c6ec82831a5df18c90078b6314506a12e4225dc644fc96082b536",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 398787,
+      "source_sha256": "a3d236794d8ab9c10eb6034849c90a4c78f7d32d4e67d3ba4157c790bb864577",
+      "published_size": 398787,
+      "published_sha256": "a3d236794d8ab9c10eb6034849c90a4c78f7d32d4e67d3ba4157c790bb864577",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 495,
+      "source_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "published_size": 495,
+      "published_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 13575
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3877,
+      "source_sha256": "77f142e7e2671883f66e80dcb385671d0c5ec511b060e9d30ab5fdd7c3da95bd",
+      "published_size": 3625,
+      "published_sha256": "238b40b0eda7a9f991cce79b5b35fae6a7849fe442809a30e92f5933d0d1125d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 214
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 202
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1197,
+      "source_sha256": "aa64d671f724ca8acb73ff7aabc556d02a12d0c443ba636c52705853512d4e89",
+      "published_size": 1125,
+      "published_sha256": "21e7780720f3d3271473c1ae2ca6dface747df5ed42cd2f0bee4b5d54f3dcbbb",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 400914,
+      "source_sha256": "7963126e10dfb497f6022364434abbea51eaa63113dff892360678c771361261",
+      "published_size": 400914,
+      "published_sha256": "7963126e10dfb497f6022364434abbea51eaa63113dff892360678c771361261",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 495,
+      "source_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "published_size": 495,
+      "published_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 13576
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3880,
+      "source_sha256": "db8148f30a28e90d354dca64e858072fbeba8f34b1fcb5d7189f844d666fe8f9",
+      "published_size": 3628,
+      "published_sha256": "9dff7f90a4997679f9830b2c4cbcb2651303f638744e771eb75ca80e56b7c4ac",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 214
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 204
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1198,
+      "source_sha256": "20f71ef54be6b9888b4f0ed79968ab907c0f835511319c5d5b99885fcdbd9661",
+      "published_size": 1126,
+      "published_sha256": "544519143aeea4488a65d53ef91630715741e765a0ad349b8d6eb8a2c8ece6fc",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 22,
+      "source_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "published_size": 22,
+      "published_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 19923
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1555,
+      "source_sha256": "49693856c4fe9cc48794b484acd96fbbde2c48482249221dcfbe98c638ddcb61",
+      "published_size": 1411,
+      "published_sha256": "91c580b20175eba993cbff68a9eebf5d4a35d24968d598922e5def33c3b54170",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 271
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 208
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 23059,
+      "source_sha256": "9f21d59a59429fa9440b4a6305110264f408b9a9ab1f9101e219da99d175798e",
+      "published_size": 22987,
+      "published_sha256": "5fd45b679c2395411da9472dcd1790b2a3514bf938e50aabfb41f7f13cc0b604",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 269043,
+      "source_sha256": "57465d0ea65348afe6ace471d1ebcec9567943e3c58285c55df88abd8b6d58ab",
+      "published_size": 269043,
+      "published_sha256": "57465d0ea65348afe6ace471d1ebcec9567943e3c58285c55df88abd8b6d58ab",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 495,
+      "source_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "published_size": 495,
+      "published_sha256": "b5a1f4fabd698ddada11f7efe92382add06a6ec4e502d2337ae7ccf77aa79f84",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 13442
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3882,
+      "source_sha256": "92ff494aa681d68246602666e5941fb9c83aa13daf235f58b36321467300fc3c",
+      "published_size": 3630,
+      "published_sha256": "ff2b4117c5fd54f1822c0fda701040f5660d72da870fb42ebe377ea8b7191765",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 214
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 208
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1027,
+      "source_sha256": "596dfc276c3b7e5bdbd51c00b83d8d4f9babb6675cf6c9eb322bf0c51478b5f3",
+      "published_size": 955,
+      "published_sha256": "1029195b56770a76c870ef5fe95c79ec47dc047abd29320b6aeba09641ca2f2c",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2962,
+      "source_sha256": "a86c3abf78148b860873445204468c398220f70026f7540267f726f382ad31b0",
+      "published_size": 2422,
+      "published_sha256": "4e8d07b3d6388b24b4b2b1dbe04b0eeda83fd877c83870dafc03c2de32f96e64",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 28991,
+      "source_sha256": "374c1b9e1353a9f82095442bd6a1df2ede3c3347a7069b46b8afa2b3b36546c7",
+      "published_size": 28703,
+      "published_sha256": "7509ae5b5c29e47794da004e1008c77d151ec7df698618a99043de80ed3873e7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 907,
+      "source_sha256": "20f436183036a6d929dbe522581f82cb5b8be5721e3e912d864c1c2e361d545e",
+      "published_size": 907,
+      "published_sha256": "20f436183036a6d929dbe522581f82cb5b8be5721e3e912d864c1c2e361d545e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 9960,
+      "source_sha256": "95494c991fc15e1dce4a4ae7c858709cfcc5e577aacbba117b004d3b0a88f0f9",
+      "published_size": 9960,
+      "published_sha256": "95494c991fc15e1dce4a4ae7c858709cfcc5e577aacbba117b004d3b0a88f0f9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-qualification/test_rij.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 4354,
+      "source_sha256": "d9dd0c2b17f401dc4e264f1ca4aefdd199ae544bbecbebd035ac8b830ee5e820",
+      "published_size": 4354,
+      "published_sha256": "d9dd0c2b17f401dc4e264f1ca4aefdd199ae544bbecbebd035ac8b830ee5e820",
       "transformations": []
     },
     {

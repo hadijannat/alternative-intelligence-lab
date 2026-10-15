@@ -61,6 +61,30 @@ def verify(root):
     assert linkage['candidate_role'] == 19 and linkage['admitted_to_assembly'] is False
     assert linkage['proposed_formula_observed'] is False
     assert not (recursive / 'published-parent/item.html').exists()
+    topology = recursive / 'proton-topology'
+    assert (topology / 'result.json').read_bytes() == (topology / 'result-v1.json').read_bytes()
+    geometry = json.loads((topology / 'result.json').read_text())
+    assert geometry['status'] == 'GEOMETRY_AUDIT_ONLY'
+    assert geometry['physical_admission'] is False and geometry['SCFs_launched'] == 0
+    connectivity = json.loads((topology / 'guibonds-result.json').read_text())
+    assert connectivity['status'] == 'AUTHORED_CONNECTIVITY_AUDIT_ONLY'
+    assert connectivity['O_count_by_declared_H_count'] == {'0': 100, '1': 24, '2': 4}
+    for campaign in ('rij-qualification', 'rij-qualification-v2'):
+        result = json.loads((recursive / campaign / 'run-v1/result.json').read_text())
+        assert result['status'] == 'FAIL_NUMERICAL_SCREEN' and result['pins_unchanged'] is True
+        assert result['physical_admission'] is False and result['parent_SCF_run'] is False
+        assert result['experimental_validation'] is False and len(result['cases']) == 4
+    failures = []
+    for path in sorted((recursive / 'rij-qualification-v2/run-v1').glob('*/result.json')):
+        case = json.loads(path.read_text())
+        failures.extend((case['case'], check['name']) for check in case['checks'] if not check['pass'])
+    assert failures == [('heldout-Mo2O7', 'direct_Fock_residual'),
+                        ('neutral-water', 'direct_Fock_residual')]
+    jkfit = recursive / 'rij-jkfit-qualification'
+    pending = json.loads((jkfit / 'evidence/preparation-pending.json').read_text())
+    assert pending['status'] == 'PREPARED_DRIVER_PENDING_NEW_PRIMARY_INPUT'
+    assert pending['SCFs_launched'] == 0 and len(pending['missing_primary_files']) == 3
+    assert not (jkfit / 'run-v1').exists()
     return dict(status='PASS_FOLLOWUP_PUBLICATION_ONLY', laboratories=len(LABS),
                 verified_files=len(included), published_bytes=manifest['published_bytes'], scientific_reruns=0)
 

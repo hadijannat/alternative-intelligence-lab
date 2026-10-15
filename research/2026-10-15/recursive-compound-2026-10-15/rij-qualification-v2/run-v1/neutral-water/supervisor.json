@@ -1,0 +1,88 @@
+{
+  "argv": [
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run.py",
+    "--worker",
+    "neutral-water"
+  ],
+  "pid": 7611,
+  "returncode": 1,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 3.5526220001047477,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 294453248,
+  "samples": [
+    {
+      "elapsed_seconds": 0.00451454205904156,
+      "rss_bytes": 5357568
+    },
+    {
+      "elapsed_seconds": 0.21374537504743785,
+      "rss_bytes": 67305472
+    },
+    {
+      "elapsed_seconds": 0.42281416710466146,
+      "rss_bytes": 101662720
+    },
+    {
+      "elapsed_seconds": 0.6323651249986142,
+      "rss_bytes": 107151360
+    },
+    {
+      "elapsed_seconds": 0.8413829170167446,
+      "rss_bytes": 107200512
+    },
+    {
+      "elapsed_seconds": 1.050252375076525,
+      "rss_bytes": 262946816
+    },
+    {
+      "elapsed_seconds": 1.2577213341137394,
+      "rss_bytes": 290455552
+    },
+    {
+      "elapsed_seconds": 1.4672479170840234,
+      "rss_bytes": 290471936
+    },
+    {
+      "elapsed_seconds": 1.6743998751044273,
+      "rss_bytes": 291028992
+    },
+    {
+      "elapsed_seconds": 1.8827224590349942,
+      "rss_bytes": 291045376
+    },
+    {
+      "elapsed_seconds": 2.092238709097728,
+      "rss_bytes": 291094528
+    },
+    {
+      "elapsed_seconds": 2.2992204590700567,
+      "rss_bytes": 291094528
+    },
+    {
+      "elapsed_seconds": 2.507710500038229,
+      "rss_bytes": 291094528
+    },
+    {
+      "elapsed_seconds": 2.7169405421009287,
+      "rss_bytes": 291110912
+    },
+    {
+      "elapsed_seconds": 2.9243809171020985,
+      "rss_bytes": 291110912
+    },
+    {
+      "elapsed_seconds": 3.133882167050615,
+      "rss_bytes": 291110912
+    },
+    {
+      "elapsed_seconds": 3.3434383750427514,
+      "rss_bytes": 294453248
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

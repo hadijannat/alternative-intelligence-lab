@@ -23,6 +23,8 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 | Solution constraints and new comparator | solution-constraints/ | Four primary records, Nb persistence comparator not admitted, concentration discrepancy retained |
 | Nd linkage and counterion sensitivity | boundary/nd-linker-proposition.*; solution-constraints/ | Two structural references, untested target derivative, no functional admission |
 | Published parent proton-topology comparison | published-parent/ | Retrieved primary computational source;4/24 versus16/0 H-contact sites; single-point/frequency limits retained |
+| Proton topology and heavy-contact reconciliation | proton-topology/ | Explicit GUI H connectivity agrees; fixed-cutoff heavy graphs differ; no unique map or physical bond proof |
+| Tractable Coulomb qualification | rij-qualification/, rij-qualification-v2/ | Preserved ECP initialization failure; repaired run fails neutralMoO3 and externalMo2O7 residual screens; no parent admission |
 | Cross-function requirements and decisions | root REPORT.md, PROTOCOL.md, checks.md, progress.md | Explicit unmet requirements, no unsupported verified additions, next discriminating test |
 | Independent arithmetic/claim review | review/ and workspace .omo/evidence/ | Source-to-number checks, limitations and required repairs |
 

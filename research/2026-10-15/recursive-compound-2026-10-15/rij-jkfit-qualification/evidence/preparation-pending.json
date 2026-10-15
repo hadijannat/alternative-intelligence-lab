@@ -1,0 +1,58 @@
+{
+  "status": "PREPARED_DRIVER_PENDING_NEW_PRIMARY_INPUT",
+  "SCFs_launched": 0,
+  "retrospective": [
+    {
+      "case": "anion-water",
+      "reference_energy_Eh": -369.06891897496035,
+      "previous_numerical_status": "PASS_NUMERICAL_SCREEN_ONLY",
+      "arrays_sha256": "d380464d264efefe77978f28bbf549af8272502ce9d0ac5314aac6bc57d0a32b",
+      "result_sha256": "3aae4f6e86cb2236d713c4a9748d7170c0c3c120c3a9ad52cf4b89f98dc8f36e"
+    },
+    {
+      "case": "neutral-water",
+      "reference_energy_Eh": -293.5907302608679,
+      "previous_numerical_status": "FAIL_NUMERICAL_SCREEN",
+      "arrays_sha256": "b3bad9f0a821796813dd38d4a9d06479b1d80869e7b7265c43b5e37e0c691801",
+      "result_sha256": "ec1399efaeb8b680d4f510dc1c8a2441daf388b35053511279b6f43e61c792c3"
+    },
+    {
+      "case": "anion-eps1",
+      "reference_energy_Eh": -368.7242795133406,
+      "previous_numerical_status": "PASS_NUMERICAL_SCREEN_ONLY",
+      "arrays_sha256": "c02a5c4a25d71151f5b7c9329c9a51cacd6c672260a4ebfa422140c3a7af137c",
+      "result_sha256": "69a9e9aa4ef0ba6a71543fe70bf7d9ee14cc6c61e886c948adc375a1cc820cd5"
+    },
+    {
+      "case": "heldout-Mo2O7",
+      "reference_energy_Eh": -662.834329575359,
+      "previous_numerical_status": "FAIL_NUMERICAL_SCREEN",
+      "arrays_sha256": "9ffded34a96492fa6d49d729db63714551ae85e8e95047f82a5a2ebe0149ffa6",
+      "result_sha256": "dee6790b65cb12ad174a679b6949a4eb115869282e71ba2dea10c2f746d47862"
+    }
+  ],
+  "hashes": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/PROTOCOL.md": "d426091bc46c9efc2e301cebb227ef742c014b022642980baee2519b5a90908c",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/run.py": "c8c432b21715878f663d7ae14909c250a997bd9b86efa2b154e2dc44cd9a98e6",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/rij.py": "498d190e20cf48f793617abd3cb0404e13a3b8f39314e486289f70cc6502a4b8",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/test_rij.py": "373644e492b8653ca41fb40e516b3274ba9e74746c017593e6bf11cf4816b543",
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/gto/basis/def2-universal-jkfit.dat": "8970edf068a6010954535eb2b1ee978900dbea989b20e305c730dabb0298de5a",
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/lib/python3.12/site-packages/pyscf/df/df_jk.py": "7f4e8c3a930b8f55d1656b0bd6d24dcca7fe365ba5de00cfcebcebf813347cee",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/arrays.npz": "d380464d264efefe77978f28bbf549af8272502ce9d0ac5314aac6bc57d0a32b",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-water/result.json": "3aae4f6e86cb2236d713c4a9748d7170c0c3c120c3a9ad52cf4b89f98dc8f36e",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/arrays.npz": "b3bad9f0a821796813dd38d4a9d06479b1d80869e7b7265c43b5e37e0c691801",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/neutral-water/result.json": "ec1399efaeb8b680d4f510dc1c8a2441daf388b35053511279b6f43e61c792c3",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/arrays.npz": "c02a5c4a25d71151f5b7c9329c9a51cacd6c672260a4ebfa422140c3a7af137c",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/anion-eps1/result.json": "69a9e9aa4ef0ba6a71543fe70bf7d9ee14cc6c61e886c948adc375a1cc820cd5",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/arrays.npz": "9ffded34a96492fa6d49d729db63714551ae85e8e95047f82a5a2ebe0149ffa6",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/run-v1/heldout-Mo2O7/result.json": "dee6790b65cb12ad174a679b6949a4eb115869282e71ba2dea10c2f746d47862",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/raw/Mo2O7.xyz": "d3ede09e3ed012e74e45613b061bf4e2d73ddc946621869e5e481b91ea2d1cc3",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification-v2/raw/Mo2O7.in": "d926dfc00b879e6f70787bdf9d3ea2135af0205a2a1d026f1073e58be0687c28",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/identity/next-step/method-qualification/result.json": "efde0933dd87a58ee974179e362ab7b7e06d775c279ac7729784a6c42df2ae1d"
+  },
+  "missing_primary_files": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new.xyz",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new.in",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new-case.json"
+  ]
+}

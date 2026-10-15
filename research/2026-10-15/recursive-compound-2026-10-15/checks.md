@@ -4,6 +4,10 @@ All paths below are relative to this directory. Numerical PASS means only the st
 
 | Requirement | Verdict | Evidence | Correction or remaining work |
 |---|---|---|---|
+| Reconcile explicit H and heavy-contact topology | PASS, bounded source/geometry audit | proton-topology/REPORT.md; proton-topology/result.json; proton-topology/guibonds-result.json | 12 synthetic/parser tests; declared H topology agrees with distance assignment; physical framework and site map unresolved |
+| Preserve RI-J software failure | PASS, failure retention | rij-qualification/run-v1/result.json; rij-qualification/REPORT.md | ECP bookkeeping initialization falsely triggered strict molecular fingerprint; all original pins retained |
+| Qualify repaired RI-J accuracy | FAIL | rij-qualification-v2/run-v1/result.json; rij-qualification-v2/REPORT.md; rij-qualification-v2/INDEPENDENT_REVIEW.md | Neutral MoO3 and external Mo2O7 exceed direct-Fock residual screen; no parent admission despite five converged SCFs |
+| Repair initialization without altering chemistry/limits | PASS, software scope | rij-qualification-v2/test_rij.py; PROTOCOL.md | 11 tests pass; same numerical screens, auxiliary basis and caps; post-fix continuation is not newly unseen validation |
 | Recover complete parent heavy component | PASS, parent reference only | identity/parent_heavy.xyz; identity/site_mapping.json; identity/check.py | Hydrogen/protonation and target identity unresolved |
 | Preserve incomplete extraction | PASS | identity/.omo/evidence/checks.json | 2.0 Å control remains Mo4O11 and rejected |
 | Count full-model electrons/basis honestly | PASS, arithmetic/build only | identity/next-step/feasibility.json; parent-pilot-blocked/run-v1/preflight.json | Actual parent build confirmed196atoms/3068AOs/1568electrons; converged SCF/gradients/optimization unresolved |

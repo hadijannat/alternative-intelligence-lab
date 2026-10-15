@@ -1,0 +1,48 @@
+{
+  "argv": [
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-qualification/run.py",
+    "--worker",
+    "anion-water"
+  ],
+  "pid": 6659,
+  "returncode": 1,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 1.4779821248957887,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 329236480,
+  "samples": [
+    {
+      "elapsed_seconds": 0.002346874913200736,
+      "rss_bytes": 2277376
+    },
+    {
+      "elapsed_seconds": 0.21203287492971867,
+      "rss_bytes": 70500352
+    },
+    {
+      "elapsed_seconds": 0.4242978749098256,
+      "rss_bytes": 102891520
+    },
+    {
+      "elapsed_seconds": 0.6287194999167696,
+      "rss_bytes": 106692608
+    },
+    {
+      "elapsed_seconds": 0.8391172089613974,
+      "rss_bytes": 106725376
+    },
+    {
+      "elapsed_seconds": 1.053450416889973,
+      "rss_bytes": 107495424
+    },
+    {
+      "elapsed_seconds": 1.2657568749273196,
+      "rss_bytes": 329236480
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

@@ -1,0 +1,2689 @@
+{
+  "status": "AUTHORED_CONNECTIVITY_AUDIT_ONLY",
+  "source_sha256": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/published-parent/Mo36O128-32H.in": "8c5317198c04cfa27db39d6e3c6ade16e0642b8d70cd6c36259f5c616eb6bff6",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-inputs/P0_A.xyz": "78ead701c4b42ff27a834e5121e3780b6456ba15b24693fb207990f0a5e4b536",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/proton-topology/PROTOCOL.md": "712a9971d4b59b0d030ab1b5a10d61b444822d2748650ec8f26c2eadf12477a2",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/proton-topology/PROTOCOL-v1.md": "eedae9ed615370d56ab2226e9a24a379f2e258ae9aae4939b2e363b81547b91c",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/proton-topology/result-v1.json": "81c3718eec953525f32ba26dd5377e085905735df1ea7af17d737984cb90340a"
+  },
+  "atom_count": 196,
+  "bond_count": 200,
+  "bond_type_counts": {
+    "Mo-O": 162,
+    "H-O": 32,
+    "Mo-Mo": 6
+  },
+  "declared_bonds": [
+    {
+      "id": "1",
+      "left": "a3",
+      "right": "a43",
+      "declared_order": 2.0
+    },
+    {
+      "id": "2",
+      "left": "a6",
+      "right": "a32",
+      "declared_order": 1.0
+    },
+    {
+      "id": "3",
+      "left": "a6",
+      "right": "a44",
+      "declared_order": 1.0
+    },
+    {
+      "id": "4",
+      "left": "a7",
+      "right": "a50",
+      "declared_order": 1.0
+    },
+    {
+      "id": "5",
+      "left": "a8",
+      "right": "a44",
+      "declared_order": 2.0
+    },
+    {
+      "id": "6",
+      "left": "a12",
+      "right": "a28",
+      "declared_order": 2.0
+    },
+    {
+      "id": "7",
+      "left": "a13",
+      "right": "a55",
+      "declared_order": 1.0
+    },
+    {
+      "id": "8",
+      "left": "a15",
+      "right": "a57",
+      "declared_order": 1.0
+    },
+    {
+      "id": "9",
+      "left": "a16",
+      "right": "a22",
+      "declared_order": 2.0
+    },
+    {
+      "id": "10",
+      "left": "a17",
+      "right": "a41",
+      "declared_order": 1.0
+    },
+    {
+      "id": "11",
+      "left": "a17",
+      "right": "a95",
+      "declared_order": 1.0
+    },
+    {
+      "id": "12",
+      "left": "a18",
+      "right": "a49",
+      "declared_order": 2.0
+    },
+    {
+      "id": "13",
+      "left": "a20",
+      "right": "a54",
+      "declared_order": 1.0
+    },
+    {
+      "id": "14",
+      "left": "a22",
+      "right": "a29",
+      "declared_order": 1.0
+    },
+    {
+      "id": "15",
+      "left": "a22",
+      "right": "a56",
+      "declared_order": 1.0
+    },
+    {
+      "id": "16",
+      "left": "a27",
+      "right": "a45",
+      "declared_order": 1.0
+    },
+    {
+      "id": "17",
+      "left": "a27",
+      "right": "a48",
+      "declared_order": 1.0
+    },
+    {
+      "id": "18",
+      "left": "a28",
+      "right": "a80",
+      "declared_order": 2.0
+    },
+    {
+      "id": "19",
+      "left": "a29",
+      "right": "a98",
+      "declared_order": 1.0
+    },
+    {
+      "id": "20",
+      "left": "a34",
+      "right": "a46",
+      "declared_order": 1.0
+    },
+    {
+      "id": "21",
+      "left": "a35",
+      "right": "a139",
+      "declared_order": 1.0
+    },
+    {
+      "id": "22",
+      "left": "a37",
+      "right": "a51",
+      "declared_order": 1.0
+    },
+    {
+      "id": "23",
+      "left": "a39",
+      "right": "a176",
+      "declared_order": 2.0
+    },
+    {
+      "id": "24",
+      "left": "a40",
+      "right": "a58",
+      "declared_order": 2.0
+    },
+    {
+      "id": "25",
+      "left": "a42",
+      "right": "a53",
+      "declared_order": 2.0
+    },
+    {
+      "id": "26",
+      "left": "a42",
+      "right": "a52",
+      "declared_order": 2.0
+    },
+    {
+      "id": "27",
+      "left": "a54",
+      "right": "a99",
+      "declared_order": 1.0
+    },
+    {
+      "id": "28",
+      "left": "a56",
+      "right": "a98",
+      "declared_order": 1.0
+    },
+    {
+      "id": "29",
+      "left": "a59",
+      "right": "a67",
+      "declared_order": 1.0
+    },
+    {
+      "id": "30",
+      "left": "a60",
+      "right": "a86",
+      "declared_order": 1.0
+    },
+    {
+      "id": "31",
+      "left": "a61",
+      "right": "a96",
+      "declared_order": 2.0
+    },
+    {
+      "id": "32",
+      "left": "a62",
+      "right": "a94",
+      "declared_order": 2.0
+    },
+    {
+      "id": "33",
+      "left": "a63",
+      "right": "a94",
+      "declared_order": 2.0
+    },
+    {
+      "id": "34",
+      "left": "a64",
+      "right": "a106",
+      "declared_order": 1.0
+    },
+    {
+      "id": "35",
+      "left": "a65",
+      "right": "a100",
+      "declared_order": 2.0
+    },
+    {
+      "id": "36",
+      "left": "a68",
+      "right": "a171",
+      "declared_order": 2.0
+    },
+    {
+      "id": "37",
+      "left": "a71",
+      "right": "a105",
+      "declared_order": 1.0
+    },
+    {
+      "id": "38",
+      "left": "a71",
+      "right": "a104",
+      "declared_order": 1.0
+    },
+    {
+      "id": "39",
+      "left": "a76",
+      "right": "a98",
+      "declared_order": 2.0
+    },
+    {
+      "id": "40",
+      "left": "a77",
+      "right": "a101",
+      "declared_order": 1.0
+    },
+    {
+      "id": "41",
+      "left": "a79",
+      "right": "a102",
+      "declared_order": 1.0
+    },
+    {
+      "id": "42",
+      "left": "a84",
+      "right": "a92",
+      "declared_order": 2.0
+    },
+    {
+      "id": "43",
+      "left": "a85",
+      "right": "a103",
+      "declared_order": 1.0
+    },
+    {
+      "id": "44",
+      "left": "a86",
+      "right": "a92",
+      "declared_order": 1.0
+    },
+    {
+      "id": "45",
+      "left": "a89",
+      "right": "a93",
+      "declared_order": 2.0
+    },
+    {
+      "id": "46",
+      "left": "a107",
+      "right": "a128",
+      "declared_order": 1.0
+    },
+    {
+      "id": "47",
+      "left": "a110",
+      "right": "a172",
+      "declared_order": 2.0
+    },
+    {
+      "id": "48",
+      "left": "a112",
+      "right": "a189",
+      "declared_order": 1.0
+    },
+    {
+      "id": "49",
+      "left": "a112",
+      "right": "a173",
+      "declared_order": 1.0
+    },
+    {
+      "id": "50",
+      "left": "a113",
+      "right": "a186",
+      "declared_order": 1.0
+    },
+    {
+      "id": "51",
+      "left": "a114",
+      "right": "a173",
+      "declared_order": 2.0
+    },
+    {
+      "id": "52",
+      "left": "a118",
+      "right": "a179",
+      "declared_order": 2.0
+    },
+    {
+      "id": "53",
+      "left": "a119",
+      "right": "a187",
+      "declared_order": 1.0
+    },
+    {
+      "id": "54",
+      "left": "a121",
+      "right": "a188",
+      "declared_order": 1.0
+    },
+    {
+      "id": "55",
+      "left": "a122",
+      "right": "a168",
+      "declared_order": 2.0
+    },
+    {
+      "id": "56",
+      "left": "a125",
+      "right": "a184",
+      "declared_order": 1.0
+    },
+    {
+      "id": "57",
+      "left": "a125",
+      "right": "a185",
+      "declared_order": 1.0
+    },
+    {
+      "id": "58",
+      "left": "a129",
+      "right": "a166",
+      "declared_order": 2.0
+    },
+    {
+      "id": "59",
+      "left": "a130",
+      "right": "a183",
+      "declared_order": 1.0
+    },
+    {
+      "id": "60",
+      "left": "a131",
+      "right": "a171",
+      "declared_order": 2.0
+    },
+    {
+      "id": "61",
+      "left": "a132",
+      "right": "a169",
+      "declared_order": 2.0
+    },
+    {
+      "id": "62",
+      "left": "a133",
+      "right": "a178",
+      "declared_order": 2.0
+    },
+    {
+      "id": "63",
+      "left": "a134",
+      "right": "a180",
+      "declared_order": 1.0
+    },
+    {
+      "id": "64",
+      "left": "a134",
+      "right": "a168",
+      "declared_order": 1.0
+    },
+    {
+      "id": "65",
+      "left": "a135",
+      "right": "a181",
+      "declared_order": 1.0
+    },
+    {
+      "id": "66",
+      "left": "a135",
+      "right": "a167",
+      "declared_order": 1.0
+    },
+    {
+      "id": "67",
+      "left": "a136",
+      "right": "a176",
+      "declared_order": 2.0
+    },
+    {
+      "id": "68",
+      "left": "a137",
+      "right": "a195",
+      "declared_order": 1.0
+    },
+    {
+      "id": "69",
+      "left": "a138",
+      "right": "a182",
+      "declared_order": 2.0
+    },
+    {
+      "id": "70",
+      "left": "a144",
+      "right": "a180",
+      "declared_order": 1.0
+    },
+    {
+      "id": "71",
+      "left": "a144",
+      "right": "a168",
+      "declared_order": 1.0
+    },
+    {
+      "id": "72",
+      "left": "a145",
+      "right": "a194",
+      "declared_order": 1.0
+    },
+    {
+      "id": "73",
+      "left": "a145",
+      "right": "a193",
+      "declared_order": 1.0
+    },
+    {
+      "id": "74",
+      "left": "a150",
+      "right": "a177",
+      "declared_order": 1.0
+    },
+    {
+      "id": "75",
+      "left": "a150",
+      "right": "a170",
+      "declared_order": 1.0
+    },
+    {
+      "id": "76",
+      "left": "a151",
+      "right": "a180",
+      "declared_order": 2.0
+    },
+    {
+      "id": "77",
+      "left": "a152",
+      "right": "a190",
+      "declared_order": 1.0
+    },
+    {
+      "id": "78",
+      "left": "a154",
+      "right": "a191",
+      "declared_order": 1.0
+    },
+    {
+      "id": "79",
+      "left": "a155",
+      "right": "a179",
+      "declared_order": 2.0
+    },
+    {
+      "id": "80",
+      "left": "a159",
+      "right": "a174",
+      "declared_order": 2.0
+    },
+    {
+      "id": "81",
+      "left": "a160",
+      "right": "a192",
+      "declared_order": 1.0
+    },
+    {
+      "id": "82",
+      "left": "a161",
+      "right": "a196",
+      "declared_order": 1.0
+    },
+    {
+      "id": "83",
+      "left": "a161",
+      "right": "a174",
+      "declared_order": 1.0
+    },
+    {
+      "id": "84",
+      "left": "a163",
+      "right": "a175",
+      "declared_order": 2.0
+    },
+    {
+      "id": "85",
+      "left": "a1",
+      "right": "a42",
+      "declared_order": 1.0
+    },
+    {
+      "id": "86",
+      "left": "a1",
+      "right": "a18",
+      "declared_order": 1.0
+    },
+    {
+      "id": "87",
+      "left": "a2",
+      "right": "a43",
+      "declared_order": 2.0
+    },
+    {
+      "id": "88",
+      "left": "a4",
+      "right": "a43",
+      "declared_order": 1.0
+    },
+    {
+      "id": "89",
+      "left": "a4",
+      "right": "a30",
+      "declared_order": 1.0
+    },
+    {
+      "id": "90",
+      "left": "a5",
+      "right": "a44",
+      "declared_order": 1.0
+    },
+    {
+      "id": "91",
+      "left": "a5",
+      "right": "a18",
+      "declared_order": 1.0
+    },
+    {
+      "id": "92",
+      "left": "a7",
+      "right": "a44",
+      "declared_order": 1.0
+    },
+    {
+      "id": "93",
+      "left": "a9",
+      "right": "a20",
+      "declared_order": 1.0
+    },
+    {
+      "id": "94",
+      "left": "a9",
+      "right": "a44",
+      "declared_order": 1.0
+    },
+    {
+      "id": "95",
+      "left": "a10",
+      "right": "a40",
+      "declared_order": 1.0
+    },
+    {
+      "id": "96",
+      "left": "a10",
+      "right": "a18",
+      "declared_order": 1.0
+    },
+    {
+      "id": "97",
+      "left": "a11",
+      "right": "a18",
+      "declared_order": 2.0
+    },
+    {
+      "id": "98",
+      "left": "a13",
+      "right": "a20",
+      "declared_order": 1.0
+    },
+    {
+      "id": "99",
+      "left": "a14",
+      "right": "a20",
+      "declared_order": 2.0
+    },
+    {
+      "id": "100",
+      "left": "a15",
+      "right": "a22",
+      "declared_order": 1.0
+    },
+    {
+      "id": "101",
+      "left": "a18",
+      "right": "a23",
+      "declared_order": 1.0
+    },
+    {
+      "id": "102",
+      "left": "a19",
+      "right": "a40",
+      "declared_order": 1.0
+    },
+    {
+      "id": "103",
+      "left": "a19",
+      "right": "a96",
+      "declared_order": 1.0
+    },
+    {
+      "id": "104",
+      "left": "a20",
+      "right": "a21",
+      "declared_order": 1.0
+    },
+    {
+      "id": "105",
+      "left": "a20",
+      "right": "a99",
+      "declared_order": 3.0
+    },
+    {
+      "id": "106",
+      "left": "a21",
+      "right": "a99",
+      "declared_order": 1.0
+    },
+    {
+      "id": "107",
+      "left": "a22",
+      "right": "a98",
+      "declared_order": 3.0
+    },
+    {
+      "id": "108",
+      "left": "a23",
+      "right": "a41",
+      "declared_order": 1.0
+    },
+    {
+      "id": "109",
+      "left": "a24",
+      "right": "a30",
+      "declared_order": 2.0
+    },
+    {
+      "id": "110",
+      "left": "a25",
+      "right": "a175",
+      "declared_order": 1.0
+    },
+    {
+      "id": "111",
+      "left": "a25",
+      "right": "a30",
+      "declared_order": 1.0
+    },
+    {
+      "id": "112",
+      "left": "a26",
+      "right": "a41",
+      "declared_order": 2.0
+    },
+    {
+      "id": "113",
+      "left": "a28",
+      "right": "a38",
+      "declared_order": 2.0
+    },
+    {
+      "id": "114",
+      "left": "a28",
+      "right": "a36",
+      "declared_order": 1.0
+    },
+    {
+      "id": "115",
+      "left": "a30",
+      "right": "a47",
+      "declared_order": 2.0
+    },
+    {
+      "id": "116",
+      "left": "a31",
+      "right": "a40",
+      "declared_order": 2.0
+    },
+    {
+      "id": "117",
+      "left": "a33",
+      "right": "a42",
+      "declared_order": 2.0
+    },
+    {
+      "id": "118",
+      "left": "a36",
+      "right": "a41",
+      "declared_order": 1.0
+    },
+    {
+      "id": "119",
+      "left": "a41",
+      "right": "a51",
+      "declared_order": 1.0
+    },
+    {
+      "id": "120",
+      "left": "a41",
+      "right": "a95",
+      "declared_order": 3.0
+    },
+    {
+      "id": "121",
+      "left": "a43",
+      "right": "a46",
+      "declared_order": 1.0
+    },
+    {
+      "id": "122",
+      "left": "a64",
+      "right": "a95",
+      "declared_order": 1.0
+    },
+    {
+      "id": "123",
+      "left": "a66",
+      "right": "a97",
+      "declared_order": 2.0
+    },
+    {
+      "id": "124",
+      "left": "a67",
+      "right": "a93",
+      "declared_order": 1.0
+    },
+    {
+      "id": "125",
+      "left": "a69",
+      "right": "a94",
+      "declared_order": 2.0
+    },
+    {
+      "id": "126",
+      "left": "a70",
+      "right": "a96",
+      "declared_order": 2.0
+    },
+    {
+      "id": "127",
+      "left": "a72",
+      "right": "a95",
+      "declared_order": 2.0
+    },
+    {
+      "id": "128",
+      "left": "a73",
+      "right": "a172",
+      "declared_order": 1.0
+    },
+    {
+      "id": "129",
+      "left": "a73",
+      "right": "a97",
+      "declared_order": 1.0
+    },
+    {
+      "id": "130",
+      "left": "a74",
+      "right": "a97",
+      "declared_order": 2.0
+    },
+    {
+      "id": "131",
+      "left": "a75",
+      "right": "a95",
+      "declared_order": 1.0
+    },
+    {
+      "id": "132",
+      "left": "a75",
+      "right": "a100",
+      "declared_order": 1.0
+    },
+    {
+      "id": "133",
+      "left": "a77",
+      "right": "a98",
+      "declared_order": 1.0
+    },
+    {
+      "id": "134",
+      "left": "a78",
+      "right": "a99",
+      "declared_order": 2.0
+    },
+    {
+      "id": "135",
+      "left": "a79",
+      "right": "a99",
+      "declared_order": 1.0
+    },
+    {
+      "id": "136",
+      "left": "a81",
+      "right": "a100",
+      "declared_order": 2.0
+    },
+    {
+      "id": "137",
+      "left": "a82",
+      "right": "a96",
+      "declared_order": 1.0
+    },
+    {
+      "id": "138",
+      "left": "a82",
+      "right": "a100",
+      "declared_order": 1.0
+    },
+    {
+      "id": "139",
+      "left": "a83",
+      "right": "a99",
+      "declared_order": 1.0
+    },
+    {
+      "id": "140",
+      "left": "a83",
+      "right": "a92",
+      "declared_order": 1.0
+    },
+    {
+      "id": "141",
+      "left": "a85",
+      "right": "a92",
+      "declared_order": 1.0
+    },
+    {
+      "id": "142",
+      "left": "a87",
+      "right": "a92",
+      "declared_order": 1.0
+    },
+    {
+      "id": "143",
+      "left": "a87",
+      "right": "a100",
+      "declared_order": 1.0
+    },
+    {
+      "id": "144",
+      "left": "a88",
+      "right": "a93",
+      "declared_order": 1.0
+    },
+    {
+      "id": "145",
+      "left": "a88",
+      "right": "a97",
+      "declared_order": 1.0
+    },
+    {
+      "id": "146",
+      "left": "a90",
+      "right": "a93",
+      "declared_order": 2.0
+    },
+    {
+      "id": "147",
+      "left": "a91",
+      "right": "a94",
+      "declared_order": 1.0
+    },
+    {
+      "id": "148",
+      "left": "a91",
+      "right": "a100",
+      "declared_order": 1.0
+    },
+    {
+      "id": "149",
+      "left": "a108",
+      "right": "a171",
+      "declared_order": 1.0
+    },
+    {
+      "id": "150",
+      "left": "a108",
+      "right": "a166",
+      "declared_order": 1.0
+    },
+    {
+      "id": "151",
+      "left": "a109",
+      "right": "a172",
+      "declared_order": 2.0
+    },
+    {
+      "id": "152",
+      "left": "a111",
+      "right": "a173",
+      "declared_order": 1.0
+    },
+    {
+      "id": "153",
+      "left": "a111",
+      "right": "a166",
+      "declared_order": 1.0
+    },
+    {
+      "id": "154",
+      "left": "a113",
+      "right": "a173",
+      "declared_order": 1.0
+    },
+    {
+      "id": "155",
+      "left": "a115",
+      "right": "a167",
+      "declared_order": 1.0
+    },
+    {
+      "id": "156",
+      "left": "a115",
+      "right": "a173",
+      "declared_order": 1.0
+    },
+    {
+      "id": "157",
+      "left": "a116",
+      "right": "a169",
+      "declared_order": 1.0
+    },
+    {
+      "id": "158",
+      "left": "a116",
+      "right": "a166",
+      "declared_order": 1.0
+    },
+    {
+      "id": "159",
+      "left": "a117",
+      "right": "a166",
+      "declared_order": 2.0
+    },
+    {
+      "id": "160",
+      "left": "a119",
+      "right": "a167",
+      "declared_order": 1.0
+    },
+    {
+      "id": "161",
+      "left": "a120",
+      "right": "a167",
+      "declared_order": 2.0
+    },
+    {
+      "id": "162",
+      "left": "a121",
+      "right": "a168",
+      "declared_order": 1.0
+    },
+    {
+      "id": "163",
+      "left": "a123",
+      "right": "a170",
+      "declared_order": 1.0
+    },
+    {
+      "id": "164",
+      "left": "a123",
+      "right": "a166",
+      "declared_order": 1.0
+    },
+    {
+      "id": "165",
+      "left": "a124",
+      "right": "a170",
+      "declared_order": 2.0
+    },
+    {
+      "id": "166",
+      "left": "a126",
+      "right": "a169",
+      "declared_order": 2.0
+    },
+    {
+      "id": "167",
+      "left": "a127",
+      "right": "a171",
+      "declared_order": 2.0
+    },
+    {
+      "id": "168",
+      "left": "a128",
+      "right": "a172",
+      "declared_order": 1.0
+    },
+    {
+      "id": "169",
+      "left": "a130",
+      "right": "a170",
+      "declared_order": 1.0
+    },
+    {
+      "id": "170",
+      "left": "a137",
+      "right": "a177",
+      "declared_order": 1.0
+    },
+    {
+      "id": "171",
+      "left": "a139",
+      "right": "a175",
+      "declared_order": 1.0
+    },
+    {
+      "id": "172",
+      "left": "a140",
+      "right": "a179",
+      "declared_order": 2.0
+    },
+    {
+      "id": "173",
+      "left": "a141",
+      "right": "a179",
+      "declared_order": 1.0
+    },
+    {
+      "id": "174",
+      "left": "a141",
+      "right": "a170",
+      "declared_order": 1.0
+    },
+    {
+      "id": "175",
+      "left": "a142",
+      "right": "a176",
+      "declared_order": 2.0
+    },
+    {
+      "id": "176",
+      "left": "a143",
+      "right": "a178",
+      "declared_order": 2.0
+    },
+    {
+      "id": "177",
+      "left": "a146",
+      "right": "a177",
+      "declared_order": 2.0
+    },
+    {
+      "id": "178",
+      "left": "a147",
+      "right": "a177",
+      "declared_order": 1.0
+    },
+    {
+      "id": "179",
+      "left": "a147",
+      "right": "a182",
+      "declared_order": 1.0
+    },
+    {
+      "id": "180",
+      "left": "a148",
+      "right": "a167",
+      "declared_order": 1.0
+    },
+    {
+      "id": "181",
+      "left": "a148",
+      "right": "a181",
+      "declared_order": 1.0
+    },
+    {
+      "id": "182",
+      "left": "a149",
+      "right": "a169",
+      "declared_order": 1.0
+    },
+    {
+      "id": "183",
+      "left": "a149",
+      "right": "a178",
+      "declared_order": 1.0
+    },
+    {
+      "id": "184",
+      "left": "a152",
+      "right": "a180",
+      "declared_order": 1.0
+    },
+    {
+      "id": "185",
+      "left": "a153",
+      "right": "a181",
+      "declared_order": 2.0
+    },
+    {
+      "id": "186",
+      "left": "a154",
+      "right": "a181",
+      "declared_order": 1.0
+    },
+    {
+      "id": "187",
+      "left": "a156",
+      "right": "a182",
+      "declared_order": 2.0
+    },
+    {
+      "id": "188",
+      "left": "a157",
+      "right": "a178",
+      "declared_order": 1.0
+    },
+    {
+      "id": "189",
+      "left": "a157",
+      "right": "a182",
+      "declared_order": 1.0
+    },
+    {
+      "id": "190",
+      "left": "a158",
+      "right": "a181",
+      "declared_order": 1.0
+    },
+    {
+      "id": "191",
+      "left": "a158",
+      "right": "a174",
+      "declared_order": 1.0
+    },
+    {
+      "id": "192",
+      "left": "a160",
+      "right": "a174",
+      "declared_order": 1.0
+    },
+    {
+      "id": "193",
+      "left": "a162",
+      "right": "a174",
+      "declared_order": 1.0
+    },
+    {
+      "id": "194",
+      "left": "a162",
+      "right": "a182",
+      "declared_order": 1.0
+    },
+    {
+      "id": "195",
+      "left": "a164",
+      "right": "a175",
+      "declared_order": 2.0
+    },
+    {
+      "id": "196",
+      "left": "a165",
+      "right": "a176",
+      "declared_order": 1.0
+    },
+    {
+      "id": "197",
+      "left": "a165",
+      "right": "a182",
+      "declared_order": 1.0
+    },
+    {
+      "id": "198",
+      "left": "a167",
+      "right": "a181",
+      "declared_order": 3.0
+    },
+    {
+      "id": "199",
+      "left": "a168",
+      "right": "a180",
+      "declared_order": 3.0
+    },
+    {
+      "id": "200",
+      "left": "a170",
+      "right": "a177",
+      "declared_order": 3.0
+    }
+  ],
+  "declared_H_neighbors": {
+    "a32": [
+      "a6"
+    ],
+    "a34": [
+      "a46"
+    ],
+    "a35": [
+      "a139"
+    ],
+    "a37": [
+      "a51"
+    ],
+    "a45": [
+      "a27"
+    ],
+    "a48": [
+      "a27"
+    ],
+    "a50": [
+      "a7"
+    ],
+    "a55": [
+      "a13"
+    ],
+    "a57": [
+      "a15"
+    ],
+    "a59": [
+      "a67"
+    ],
+    "a60": [
+      "a86"
+    ],
+    "a101": [
+      "a77"
+    ],
+    "a102": [
+      "a79"
+    ],
+    "a103": [
+      "a85"
+    ],
+    "a104": [
+      "a71"
+    ],
+    "a105": [
+      "a71"
+    ],
+    "a106": [
+      "a64"
+    ],
+    "a107": [
+      "a128"
+    ],
+    "a183": [
+      "a130"
+    ],
+    "a184": [
+      "a125"
+    ],
+    "a185": [
+      "a125"
+    ],
+    "a186": [
+      "a113"
+    ],
+    "a187": [
+      "a119"
+    ],
+    "a188": [
+      "a121"
+    ],
+    "a189": [
+      "a112"
+    ],
+    "a190": [
+      "a152"
+    ],
+    "a191": [
+      "a154"
+    ],
+    "a192": [
+      "a160"
+    ],
+    "a193": [
+      "a145"
+    ],
+    "a194": [
+      "a145"
+    ],
+    "a195": [
+      "a137"
+    ],
+    "a196": [
+      "a161"
+    ]
+  },
+  "O_declared_H_counts": {
+    "a1": 0,
+    "a2": 0,
+    "a3": 0,
+    "a4": 0,
+    "a5": 0,
+    "a6": 1,
+    "a7": 1,
+    "a8": 0,
+    "a9": 0,
+    "a10": 0,
+    "a11": 0,
+    "a12": 0,
+    "a13": 1,
+    "a14": 0,
+    "a15": 1,
+    "a16": 0,
+    "a17": 0,
+    "a19": 0,
+    "a21": 0,
+    "a23": 0,
+    "a24": 0,
+    "a25": 0,
+    "a26": 0,
+    "a27": 2,
+    "a29": 0,
+    "a31": 0,
+    "a33": 0,
+    "a36": 0,
+    "a38": 0,
+    "a39": 0,
+    "a46": 1,
+    "a47": 0,
+    "a49": 0,
+    "a51": 1,
+    "a52": 0,
+    "a53": 0,
+    "a54": 0,
+    "a56": 0,
+    "a58": 0,
+    "a61": 0,
+    "a62": 0,
+    "a63": 0,
+    "a64": 1,
+    "a65": 0,
+    "a66": 0,
+    "a67": 1,
+    "a68": 0,
+    "a69": 0,
+    "a70": 0,
+    "a71": 2,
+    "a72": 0,
+    "a73": 0,
+    "a74": 0,
+    "a75": 0,
+    "a76": 0,
+    "a77": 1,
+    "a78": 0,
+    "a79": 1,
+    "a80": 0,
+    "a81": 0,
+    "a82": 0,
+    "a83": 0,
+    "a84": 0,
+    "a85": 1,
+    "a86": 1,
+    "a87": 0,
+    "a88": 0,
+    "a89": 0,
+    "a90": 0,
+    "a91": 0,
+    "a108": 0,
+    "a109": 0,
+    "a110": 0,
+    "a111": 0,
+    "a112": 1,
+    "a113": 1,
+    "a114": 0,
+    "a115": 0,
+    "a116": 0,
+    "a117": 0,
+    "a118": 0,
+    "a119": 1,
+    "a120": 0,
+    "a121": 1,
+    "a122": 0,
+    "a123": 0,
+    "a124": 0,
+    "a125": 2,
+    "a126": 0,
+    "a127": 0,
+    "a128": 1,
+    "a129": 0,
+    "a130": 1,
+    "a131": 0,
+    "a132": 0,
+    "a133": 0,
+    "a134": 0,
+    "a135": 0,
+    "a136": 0,
+    "a137": 1,
+    "a138": 0,
+    "a139": 1,
+    "a140": 0,
+    "a141": 0,
+    "a142": 0,
+    "a143": 0,
+    "a144": 0,
+    "a145": 2,
+    "a146": 0,
+    "a147": 0,
+    "a148": 0,
+    "a149": 0,
+    "a150": 0,
+    "a151": 0,
+    "a152": 1,
+    "a153": 0,
+    "a154": 1,
+    "a155": 0,
+    "a156": 0,
+    "a157": 0,
+    "a158": 0,
+    "a159": 0,
+    "a160": 1,
+    "a161": 1,
+    "a162": 0,
+    "a163": 0,
+    "a164": 0,
+    "a165": 0
+  },
+  "O_count_by_declared_H_count": {
+    "0": 100,
+    "1": 24,
+    "2": 4
+  },
+  "declared_HO_vs_nearest_O_differences": [],
+  "other_declared_bond_types": [
+    {
+      "id": "105",
+      "left": "a20",
+      "right": "a99",
+      "declared_order": 3.0
+    },
+    {
+      "id": "107",
+      "left": "a22",
+      "right": "a98",
+      "declared_order": 3.0
+    },
+    {
+      "id": "120",
+      "left": "a41",
+      "right": "a95",
+      "declared_order": 3.0
+    },
+    {
+      "id": "198",
+      "left": "a167",
+      "right": "a181",
+      "declared_order": 3.0
+    },
+    {
+      "id": "199",
+      "left": "a168",
+      "right": "a180",
+      "declared_order": 3.0
+    },
+    {
+      "id": "200",
+      "left": "a170",
+      "right": "a177",
+      "declared_order": 3.0
+    }
+  ],
+  "comparisons": [
+    {
+      "cutoff_A": 2.5,
+      "declared_MoO_edge_count": 162,
+      "geometric_MoO_edge_count": 212,
+      "intersection": 162,
+      "declared_not_geometric": [],
+      "geometric_not_declared": [
+        {
+          "atoms": [
+            "a1",
+            "a43"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a10",
+            "a44"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a100",
+            "a80"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a108",
+            "a172"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a111",
+            "a172"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a116",
+            "a173"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a118",
+            "a166"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a12",
+            "a18"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a123",
+            "a171"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a125",
+            "a171"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a129",
+            "a169"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a129",
+            "a170"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a129",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a131",
+            "a168"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a136",
+            "a180"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a138",
+            "a177"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a138",
+            "a178"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a138",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a140",
+            "a169"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a140",
+            "a178"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a141",
+            "a177"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a145",
+            "a176"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a147",
+            "a176"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a155",
+            "a182"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a157",
+            "a174"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a162",
+            "a175"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a165",
+            "a175"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a22",
+            "a52"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a23",
+            "a42"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a27",
+            "a42"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a28",
+            "a49"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a28",
+            "a65"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a30",
+            "a39"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a30",
+            "a53"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a36",
+            "a95"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a38",
+            "a40"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a38",
+            "a96"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a40",
+            "a49"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a41",
+            "a49"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a43",
+            "a5"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a62",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a63",
+            "a98"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a65",
+            "a95"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a65",
+            "a96"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a68",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a71",
+            "a94"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a75",
+            "a94"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a82",
+            "a92"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a87",
+            "a93"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a91",
+            "a93"
+          ],
+          "distance_A": 2.421388655842763
+        }
+      ],
+      "declared_vs_P0_heavy_comparison": {
+        "status": "DISTINCT_CUTOFF_GRAPHS",
+        "proof": "Element-colored refinement histograms differ",
+        "rounds": [
+          {
+            "round": 1,
+            "colors": 9,
+            "histogram1": {
+              "6": 38,
+              "5": 86,
+              "2": 4,
+              "1": 10,
+              "0": 22,
+              "4": 4
+            },
+            "histogram2": {
+              "2": 32,
+              "3": 4,
+              "5": 64,
+              "6": 40,
+              "7": 20,
+              "8": 4
+            },
+            "equal": false
+          }
+        ],
+        "mapping": null
+      }
+    },
+    {
+      "cutoff_A": 2.6,
+      "declared_MoO_edge_count": 162,
+      "geometric_MoO_edge_count": 212,
+      "intersection": 162,
+      "declared_not_geometric": [],
+      "geometric_not_declared": [
+        {
+          "atoms": [
+            "a1",
+            "a43"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a10",
+            "a44"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a100",
+            "a80"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a108",
+            "a172"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a111",
+            "a172"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a116",
+            "a173"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a118",
+            "a166"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a12",
+            "a18"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a123",
+            "a171"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a125",
+            "a171"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a129",
+            "a169"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a129",
+            "a170"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a129",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a131",
+            "a168"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a136",
+            "a180"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a138",
+            "a177"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a138",
+            "a178"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a138",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a140",
+            "a169"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a140",
+            "a178"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a141",
+            "a177"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a145",
+            "a176"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a147",
+            "a176"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a155",
+            "a182"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a157",
+            "a174"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a162",
+            "a175"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a165",
+            "a175"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a22",
+            "a52"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a23",
+            "a42"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a27",
+            "a42"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a28",
+            "a49"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a28",
+            "a65"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a30",
+            "a39"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a30",
+            "a53"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a36",
+            "a95"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a38",
+            "a40"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a38",
+            "a96"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a40",
+            "a49"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a41",
+            "a49"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a43",
+            "a5"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a62",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a63",
+            "a98"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a65",
+            "a95"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a65",
+            "a96"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a68",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a71",
+            "a94"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a75",
+            "a94"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a82",
+            "a92"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a87",
+            "a93"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a91",
+            "a93"
+          ],
+          "distance_A": 2.421388655842763
+        }
+      ],
+      "declared_vs_P0_heavy_comparison": {
+        "status": "DISTINCT_CUTOFF_GRAPHS",
+        "proof": "Element-colored refinement histograms differ",
+        "rounds": [
+          {
+            "round": 1,
+            "colors": 9,
+            "histogram1": {
+              "6": 38,
+              "5": 86,
+              "2": 4,
+              "1": 10,
+              "0": 22,
+              "4": 4
+            },
+            "histogram2": {
+              "2": 32,
+              "3": 4,
+              "5": 64,
+              "6": 40,
+              "7": 20,
+              "8": 4
+            },
+            "equal": false
+          }
+        ],
+        "mapping": null
+      }
+    },
+    {
+      "cutoff_A": 2.7,
+      "declared_MoO_edge_count": 162,
+      "geometric_MoO_edge_count": 216,
+      "intersection": 162,
+      "declared_not_geometric": [],
+      "geometric_not_declared": [
+        {
+          "atoms": [
+            "a1",
+            "a43"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a10",
+            "a44"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a100",
+            "a80"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a108",
+            "a172"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a111",
+            "a172"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a116",
+            "a173"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a118",
+            "a166"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a12",
+            "a18"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a123",
+            "a171"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a125",
+            "a171"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a126",
+            "a167"
+          ],
+          "distance_A": 2.683889958801455
+        },
+        {
+          "atoms": [
+            "a129",
+            "a169"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a129",
+            "a170"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a129",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a131",
+            "a168"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a136",
+            "a180"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a138",
+            "a177"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a138",
+            "a178"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a138",
+            "a179"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a140",
+            "a169"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a140",
+            "a178"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a141",
+            "a177"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a143",
+            "a181"
+          ],
+          "distance_A": 2.683889958801455
+        },
+        {
+          "atoms": [
+            "a145",
+            "a176"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a147",
+            "a176"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a155",
+            "a182"
+          ],
+          "distance_A": 2.3615000185246307
+        },
+        {
+          "atoms": [
+            "a157",
+            "a174"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a162",
+            "a175"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a165",
+            "a175"
+          ],
+          "distance_A": 2.421388655842763
+        },
+        {
+          "atoms": [
+            "a20",
+            "a31"
+          ],
+          "distance_A": 2.683889958801455
+        },
+        {
+          "atoms": [
+            "a22",
+            "a52"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a23",
+            "a42"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a27",
+            "a42"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a28",
+            "a49"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a28",
+            "a65"
+          ],
+          "distance_A": 2.328921277231437
+        },
+        {
+          "atoms": [
+            "a30",
+            "a39"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a30",
+            "a53"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a36",
+            "a95"
+          ],
+          "distance_A": 2.1325872141174433
+        },
+        {
+          "atoms": [
+            "a38",
+            "a40"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a38",
+            "a96"
+          ],
+          "distance_A": 2.4750156695069854
+        },
+        {
+          "atoms": [
+            "a40",
+            "a49"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a41",
+            "a49"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a43",
+            "a5"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a62",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a63",
+            "a98"
+          ],
+          "distance_A": 1.9067560048398706
+        },
+        {
+          "atoms": [
+            "a65",
+            "a95"
+          ],
+          "distance_A": 2.220923316473372
+        },
+        {
+          "atoms": [
+            "a65",
+            "a96"
+          ],
+          "distance_A": 2.199799422280488
+        },
+        {
+          "atoms": [
+            "a68",
+            "a97"
+          ],
+          "distance_A": 2.499036666715562
+        },
+        {
+          "atoms": [
+            "a70",
+            "a99"
+          ],
+          "distance_A": 2.683889958801455
+        },
+        {
+          "atoms": [
+            "a71",
+            "a94"
+          ],
+          "distance_A": 2.4072529561359635
+        },
+        {
+          "atoms": [
+            "a75",
+            "a94"
+          ],
+          "distance_A": 2.323674985195749
+        },
+        {
+          "atoms": [
+            "a82",
+            "a92"
+          ],
+          "distance_A": 2.3454354058487987
+        },
+        {
+          "atoms": [
+            "a87",
+            "a93"
+          ],
+          "distance_A": 2.462568533198956
+        },
+        {
+          "atoms": [
+            "a91",
+            "a93"
+          ],
+          "distance_A": 2.421388655842763
+        }
+      ],
+      "declared_vs_P0_heavy_comparison": {
+        "status": "DISTINCT_CUTOFF_GRAPHS",
+        "proof": "Element-colored refinement histograms differ",
+        "rounds": [
+          {
+            "round": 1,
+            "colors": 9,
+            "histogram1": {
+              "6": 38,
+              "5": 86,
+              "2": 4,
+              "1": 10,
+              "0": 22,
+              "4": 4
+            },
+            "histogram2": {
+              "2": 32,
+              "3": 4,
+              "5": 64,
+              "6": 40,
+              "7": 20,
+              "8": 4
+            },
+            "equal": false
+          }
+        ],
+        "mapping": null
+      }
+    }
+  ],
+  "SCFs_launched": 0,
+  "limits": [
+    "GUIBonds is authored computational connectivity metadata, not experimental bond proof",
+    "Incomplete geometric/declaration agreement must not be silently repaired",
+    "Matching local graph invariants would not prove isomorphism",
+    "No electronic-state or reaction-pathway inference"
+  ]
+}
