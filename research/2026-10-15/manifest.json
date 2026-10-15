@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 2506,
-  "published_bytes": 1075658638,
-  "unique_published_blobs": 1828,
-  "excluded_entries": 435,
+  "included_files": 2552,
+  "published_bytes": 1084391926,
+  "unique_published_blobs": 1870,
+  "excluded_entries": 472,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 237,
+    "recursive-compound-2026-10-15": 283,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 22609,
-      "source_sha256": "54afee5fb9c95e3913d1914e5873234ba695d5aa082119af186cb64283a3196d",
-      "published_size": 22609,
-      "published_sha256": "54afee5fb9c95e3913d1914e5873234ba695d5aa082119af186cb64283a3196d",
+      "source_size": 24150,
+      "source_sha256": "035041c6fd63187329a6aec38d3e5582d9a264c76eb54d9ca15da20f7a77fd5b",
+      "published_size": 24150,
+      "published_sha256": "035041c6fd63187329a6aec38d3e5582d9a264c76eb54d9ca15da20f7a77fd5b",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 5491,
-      "source_sha256": "65a7bd88b7b51adb66481cb1ed7dc89f9dfc2c656ad94c04353b3bfdcae3d546",
-      "published_size": 5491,
-      "published_sha256": "65a7bd88b7b51adb66481cb1ed7dc89f9dfc2c656ad94c04353b3bfdcae3d546",
+      "source_size": 6294,
+      "source_sha256": "ad36318a29c354d6c66672e3304513d3db7cccfdd111c7f3e4e3c1a45202b911",
+      "published_size": 6294,
+      "published_sha256": "ad36318a29c354d6c66672e3304513d3db7cccfdd111c7f3e4e3c1a45202b911",
       "transformations": []
     },
     {
@@ -5178,10 +5178,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 8047,
-      "source_sha256": "87a7a17a86df39902f266425566862081dedbbdceb06b027500e9b2b4b36511d",
-      "published_size": 8047,
-      "published_sha256": "87a7a17a86df39902f266425566862081dedbbdceb06b027500e9b2b4b36511d",
+      "source_size": 9461,
+      "source_sha256": "7221e73c432b01f416b28da43d9c5ffa12ed3832523c2610ff844dbea6eaa613",
+      "published_size": 9461,
+      "published_sha256": "7221e73c432b01f416b28da43d9c5ffa12ed3832523c2610ff844dbea6eaa613",
       "transformations": []
     },
     {
@@ -5392,6 +5392,12 @@
       "published_size": 2624,
       "published_sha256": "99b49df122ba6692f1da5f27541743f7496a00ce5717f0a717a0dd904dc79bd9",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-blocked/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/cpcm-blocked/allocation.json",
@@ -5607,6 +5613,251 @@
       "source_sha256": "8bf3669587faa572b478f595ef74a06ddc210be42f841bf58c1ac6d779bd41ad",
       "published_size": 7265,
       "published_sha256": "8bf3669587faa572b478f595ef74a06ddc210be42f841bf58c1ac6d779bd41ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4112,
+      "source_sha256": "00127e4869579446f332bfdaa7b4b212b30c36580d84edea04a8bb4b811a45b5",
+      "published_size": 4112,
+      "published_sha256": "00127e4869579446f332bfdaa7b4b212b30c36580d84edea04a8bb4b811a45b5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1549,
+      "source_sha256": "88c43ba748097350bf1a63cd645c1a318ea7c2e5ce9ce43d3932e7b49fd6ccec",
+      "published_size": 1549,
+      "published_sha256": "88c43ba748097350bf1a63cd645c1a318ea7c2e5ce9ce43d3932e7b49fd6ccec",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/evidence/SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 646,
+      "source_sha256": "a8e87b9cd194116746272843e47d99912e65251abf51bbb0badb9f4a3ed0c007",
+      "published_size": 646,
+      "published_sha256": "a8e87b9cd194116746272843e47d99912e65251abf51bbb0badb9f4a3ed0c007",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/evidence/pre-review-preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 11771,
+      "source_sha256": "c158f3ca30c40a04f33515fd24f954913d8e4e02382672e308cf9cbfa14b55fc",
+      "published_size": 9719,
+      "published_sha256": "e9439dabe36ed4d985db025fe7638fdb34beabc16e250a7df8e7b2812af79f6d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/evidence/preparation-verification.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1130
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/evidence/prepare.stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 90
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/evidence/tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 837
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 11771,
+      "source_sha256": "8f544e0cc6e5895674e6f7875c3a39150cc7821ad0bf7fc5362518cebc5de2ac",
+      "published_size": 9719,
+      "published_sha256": "6c701db3ef1f1e9c17a857f361f866d84b1a2e11f533ea1f17255c66ef2c0dc2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 16123,
+      "source_sha256": "736a2e8d1bf96080b144e4cfda04c2c53b916258e99d27bc79d17c4a0c08c717",
+      "published_size": 16123,
+      "published_sha256": "736a2e8d1bf96080b144e4cfda04c2c53b916258e99d27bc79d17c4a0c08c717",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory-qualification/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3260,
+      "source_sha256": "62ae5b43474ffd182689cfc56fd1f8f319bfa0d083826e356cd65fffaf19d345",
+      "published_size": 3260,
+      "published_sha256": "62ae5b43474ffd182689cfc56fd1f8f319bfa0d083826e356cd65fffaf19d345",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2839,
+      "source_sha256": "e99500d714a3f5d6f6ade7fde4ff5c77ce023fa0b12e168de0228d5b4a7d60b1",
+      "published_size": 2839,
+      "published_sha256": "e99500d714a3f5d6f6ade7fde4ff5c77ce023fa0b12e168de0228d5b4a7d60b1",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5161,
+      "source_sha256": "f98897a6087338865422064333942cf2f5c75e6b487715bd1b270421a66882fe",
+      "published_size": 5161,
+      "published_sha256": "f98897a6087338865422064333942cf2f5c75e6b487715bd1b270421a66882fe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/allocation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 940,
+      "source_sha256": "31460a5ad7f1f41a305af97b7c26ccaf3046a89c72249920991b07d80fdd6ed2",
+      "published_size": 940,
+      "published_sha256": "31460a5ad7f1f41a305af97b7c26ccaf3046a89c72249920991b07d80fdd6ed2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1451,
+      "source_sha256": "bb3e4802ff38014005dcd6af932f28b81b3d12a7f12bc541ad74d9b226e990f2",
+      "published_size": 1451,
+      "published_sha256": "bb3e4802ff38014005dcd6af932f28b81b3d12a7f12bc541ad74d9b226e990f2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/allocation.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 940
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/chunk-mutation-control.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 837
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/observations.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1761,
+      "source_sha256": "ddb7ab1fd62df0ec18dfcf6df5c4da170d399f231ffe941ece7593ff7069de51",
+      "published_size": 1761,
+      "published_sha256": "ddb7ab1fd62df0ec18dfcf6df5c4da170d399f231ffe941ece7593ff7069de51",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/pre-review-SHA256SUMS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 909,
+      "source_sha256": "2f11509a1db623fff4a8e372b3bc75978f8e0c06cfdfaeab0534462ed38fb0b5",
+      "published_size": 909,
+      "published_sha256": "2f11509a1db623fff4a8e372b3bc75978f8e0c06cfdfaeab0534462ed38fb0b5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/pre-review-observations.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1608,
+      "source_sha256": "05571e0b76b6834aa766e545bcc409f74c4db2d028cc7deee0f479787d04a14f",
+      "published_size": 1608,
+      "published_sha256": "05571e0b76b6834aa766e545bcc409f74c4db2d028cc7deee0f479787d04a14f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/pre-review-tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 934
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/pre-review-verification.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 3324
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/tests.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 934
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/evidence/verification.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 3181
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/memory.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5369,
+      "source_sha256": "6e1db7f1eac20e8a6ae3c8c752a4bba46bdab3ede45323ae5c410327d1a8435c",
+      "published_size": 5369,
+      "published_sha256": "6e1db7f1eac20e8a6ae3c8c752a4bba46bdab3ede45323ae5c410327d1a8435c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/source_pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1367,
+      "source_sha256": "6c8b0e756760a682771470bb8b3d7c2ced9ca90316ab1ecc2bef79dcf513d395",
+      "published_size": 1151,
+      "published_sha256": "5775945b807e55d5f059941272f45cb461eb957a9f57aec6358b8c43ba53cc2a",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/cpcm-rij-memory/test_memory.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 7472,
+      "source_sha256": "ff3d1bea02ef73e27bdeadb8dba9de46fc8479ac60d1bc49663bb1b7dbc53798",
+      "published_size": 7472,
+      "published_sha256": "ff3d1bea02ef73e27bdeadb8dba9de46fc8479ac60d1bc49663bb1b7dbc53798",
       "transformations": []
     },
     {
@@ -6551,6 +6802,52 @@
       "source_size": 5593
     },
     {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/SOURCES.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2680,
+      "source_sha256": "002740a7da5bcd3f2e894c253c59e251b7515d49c287354edd9fdb3e6234e516",
+      "published_size": 2680,
+      "published_sha256": "002740a7da5bcd3f2e894c253c59e251b7515d49c287354edd9fdb3e6234e516",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/VO4-output.cml",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 43954
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/VO4.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 725
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/VO4.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 169
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/WO4-output.cml",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 31270
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/WO4.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 688
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/next-step/wv-reference-selection/raw/WO4.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 167
+    },
+    {
       "path": "recursive-compound-2026-10-15/identity/parent_heavy.xyz",
       "status": "included",
       "reason": null,
@@ -7013,10 +7310,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 9480,
-      "source_sha256": "a9a65238693809708d30b7ffc3b12dec6379dda087a68ee22a519c3ccf793976",
-      "published_size": 9480,
-      "published_sha256": "a9a65238693809708d30b7ffc3b12dec6379dda087a68ee22a519c3ccf793976",
+      "source_size": 12722,
+      "source_sha256": "025cd1ebd082ef04a84002ed29cb64d778c3c18003ea4e6e977480bb71bc1a66",
+      "published_size": 12722,
+      "published_sha256": "025cd1ebd082ef04a84002ed29cb64d778c3c18003ea4e6e977480bb71bc1a66",
       "transformations": []
     },
     {
@@ -7392,14 +7689,60 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1572,
+      "source_sha256": "8940615a1ec428194df2b7a1fdfa17f3aed6142bd05d9f8725f0cef4630d85e7",
+      "published_size": 1572,
+      "published_sha256": "8940615a1ec428194df2b7a1fdfa17f3aed6142bd05d9f8725f0cef4630d85e7",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1062,
+      "source_sha256": "ee3b8526b5a8438cbc32aeec9a44d4ea65bedc682dae990d56f2362313153795",
+      "published_size": 1062,
+      "published_sha256": "ee3b8526b5a8438cbc32aeec9a44d4ea65bedc682dae990d56f2362313153795",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/PROTOCOL.md",
       "status": "included",
       "reason": null,
-      "source_size": 3237,
-      "source_sha256": "d426091bc46c9efc2e301cebb227ef742c014b022642980baee2519b5a90908c",
-      "published_size": 3237,
-      "published_sha256": "d426091bc46c9efc2e301cebb227ef742c014b022642980baee2519b5a90908c",
+      "source_size": 3903,
+      "source_sha256": "a5f1f4d30f38fc7d747b9d67e3eedc8586ecbb280c2df77a2e6e5ee8a509de40",
+      "published_size": 3903,
+      "published_sha256": "a5f1f4d30f38fc7d747b9d67e3eedc8586ecbb280c2df77a2e6e5ee8a509de40",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5387,
+      "source_sha256": "ecdcad96a459c20d70b94f9b5a83a05596afca69f5d0308d085125772675676e",
+      "published_size": 5387,
+      "published_sha256": "ecdcad96a459c20d70b94f9b5a83a05596afca69f5d0308d085125772675676e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/SOURCE.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1881,
+      "source_sha256": "4ac8f1f4b8f0617bc021a81156aff8d479f503d78a451b5e7f70dd6689b8a995",
+      "published_size": 1881,
+      "published_sha256": "4ac8f1f4b8f0617bc021a81156aff8d479f503d78a451b5e7f70dd6689b8a995",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/__pycache__",
+      "status": "excluded",
+      "reason": "dependency, acquired-source, cache, session, tooling, or publication subtree",
+      "scope": "subtree"
     },
     {
       "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/evidence/adapter.diff",
@@ -7435,6 +7778,45 @@
       "source_size": 112
     },
     {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 9004,
+      "source_sha256": "5604cfdb09399b7a5c3a1e47d6a7e8dd43d73ef71f03fb41ca7dc38476737f9a",
+      "published_size": 7924,
+      "published_sha256": "078ec88c49b4e58ac45fb6f55c14edffb743ee5c397098efb09cee9838b66c37",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new-case.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1485
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new-output.cml",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 416911
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new.in",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1633
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/raw/new.xyz",
+      "status": "excluded",
+      "reason": "coordinate file outside the authored parent-input scope",
+      "source_size": 365
+    },
+    {
       "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/rij.py",
       "status": "included",
       "reason": null,
@@ -7445,23 +7827,378 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 639712,
+      "source_sha256": "23b3d2a65df6d9c4b2a82f8fc154e5b5b9cc9a0f0644b6f905ea53f231581a1d",
+      "published_size": 639712,
+      "published_sha256": "23b3d2a65df6d9c4b2a82f8fc154e5b5b9cc9a0f0644b6f905ea53f231581a1d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2591,
+      "source_sha256": "7856beedfad2ef6278c1d85779af7fd96933734a3fcab713639a0aa315aafbb8",
+      "published_size": 2591,
+      "published_sha256": "7856beedfad2ef6278c1d85779af7fd96933734a3fcab713639a0aa315aafbb8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 23071
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3985,
+      "source_sha256": "13003b25cda93283b8cfe84d459caaa73a83f24c6fc5322c1aeb7b47dee113aa",
+      "published_size": 3985,
+      "published_sha256": "13003b25cda93283b8cfe84d459caaa73a83f24c6fc5322c1aeb7b47dee113aa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 269
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 229
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-eps1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3625,
+      "source_sha256": "697767aaf1bd6dd6fa4525421c9a2e65fdd4e32fb7f222aa92b397eaace83af6",
+      "published_size": 3553,
+      "published_sha256": "1a8d5ac8c5043f851683a7debee4a35493990657f48a962ca61351e1456df1b4",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 646662,
+      "source_sha256": "380c848d186bf86fbd2f9af0c518cd0715a5c81e50f28c38a471ceb1bac1a428",
+      "published_size": 646662,
+      "published_sha256": "380c848d186bf86fbd2f9af0c518cd0715a5c81e50f28c38a471ceb1bac1a428",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2491,
+      "source_sha256": "82483ee70fb00c367524aced341a902aebfd29722205c9569e94709ce76d9094",
+      "published_size": 2491,
+      "published_sha256": "82483ee70fb00c367524aced341a902aebfd29722205c9569e94709ce76d9094",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 23580
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3993,
+      "source_sha256": "2a64c1ea4254ade495bbfffd58190ff5eb4e11fc6a0d55aaadc93d3a69bc70bb",
+      "published_size": 3993,
+      "published_sha256": "2a64c1ea4254ade495bbfffd58190ff5eb4e11fc6a0d55aaadc93d3a69bc70bb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 271
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 231
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/anion-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3453,
+      "source_sha256": "ad68ed859e8cf731c1868bbc8b0cefa0fc76cd5b2f643fbf5043d8356f07738f",
+      "published_size": 3381,
+      "published_sha256": "a0ac63a0f9fe21bc85130c889d7cbb496b41423b83316e9b0604bf4dc8069824",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 3117433,
+      "source_sha256": "b9c3ef7d051146528d4c8e0fe42d9b840059feac1547a5e0273f0a28fb623f5e",
+      "published_size": 3117433,
+      "published_sha256": "b9c3ef7d051146528d4c8e0fe42d9b840059feac1547a5e0273f0a28fb623f5e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 3291,
+      "source_sha256": "0c8bd33a158bec9e743ce1f2957a9e2f25e67bb59c84a1f393f859e8894fd67f",
+      "published_size": 3291,
+      "published_sha256": "0c8bd33a158bec9e743ce1f2957a9e2f25e67bb59c84a1f393f859e8894fd67f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 25929
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3989,
+      "source_sha256": "771b66defb444388c50056d659f2a4be27f857fc572bec63149c6cd8f6e2c333",
+      "published_size": 3989,
+      "published_sha256": "771b66defb444388c50056d659f2a4be27f857fc572bec63149c6cd8f6e2c333",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 271
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 235
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/heldout-Mo2O7/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 18663,
+      "source_sha256": "d30edc0eb147dbe9b875719f346bedfb98bddb364db4e6906f4c0daab290db93",
+      "published_size": 18591,
+      "published_sha256": "ddfe4abe4ae0e7de4e6a5fa24fb35d6891e42f08e45a2a0a6836e846d74242f9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 467778,
+      "source_sha256": "919ddf5ac6f529a355ba4993c53e7f4800a6e473eca77ffa67ea397d5920f2be",
+      "published_size": 467778,
+      "published_sha256": "919ddf5ac6f529a355ba4993c53e7f4800a6e473eca77ffa67ea397d5920f2be",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2291,
+      "source_sha256": "acd463191707fbf40958a50d01002efaf2c97ae1af87047a2e1461ab8f888843",
+      "published_size": 2291,
+      "published_sha256": "acd463191707fbf40958a50d01002efaf2c97ae1af87047a2e1461ab8f888843",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 23020
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3998,
+      "source_sha256": "cc95d6bce63ad3c14a35edbc7c45112de017618c90824461c0c2967f8fa1fd69",
+      "published_size": 3998,
+      "published_sha256": "cc95d6bce63ad3c14a35edbc7c45112de017618c90824461c0c2967f8fa1fd69",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 214
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 235
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/neutral-water/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2334,
+      "source_sha256": "ab651a82795f3db2aad9e0d082f5326fb8201386f6c0b619bf7ff88bbfa9c4fb",
+      "published_size": 2262,
+      "published_sha256": "31df032221a891b38d37b4f8c5a37b8a71a83d7acbc2eadbca9ed3274f4ef847",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/arrays.npz",
+      "status": "included",
+      "reason": null,
+      "source_size": 3527515,
+      "source_sha256": "915511422972928f894a5d978073df18e6599592bf6ed8d03287774149788de7",
+      "published_size": 3527515,
+      "published_sha256": "915511422972928f894a5d978073df18e6599592bf6ed8d03287774149788de7",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 4091,
+      "source_sha256": "fafddfc90448bc1f27e950df3167609822ddb913130ef9ba62a5bd1e88f5e3ad",
+      "published_size": 4091,
+      "published_sha256": "fafddfc90448bc1f27e950df3167609822ddb913130ef9ba62a5bd1e88f5e3ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 37299
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5467,
+      "source_sha256": "f78002977c2d40da77ccd318093ae8347576b8a56cb8f0aae3e9a809a21d2b00",
+      "published_size": 5467,
+      "published_sha256": "f78002977c2d40da77ccd318093ae8347576b8a56cb8f0aae3e9a809a21d2b00",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 441
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 233
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/new-external/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 62171,
+      "source_sha256": "76a3855c149185e0f429ac1872663da3e2b7d40a493edc6fd7dca84e696459f1",
+      "published_size": 62099,
+      "published_sha256": "d4e8fdcaa39d4da6e66ff1b330f407f59bc1578e1185a255ecc18b8a28fb2256",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/pins.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 5959,
+      "source_sha256": "bcff9b78022c89c70ffc387bae8ae0c663e46f9882bdebe793ec10e510a29013",
+      "published_size": 4879,
+      "published_sha256": "f4c15cb6ccea5a5f24211fb476d5853847230e5fed6269c851bb1807b94760c2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/receipts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 98673,
+      "source_sha256": "9a12ee140e47b7d852dc5a4a30ab410e02b54493937f83fa76d55d80c8a0caeb",
+      "published_size": 98313,
+      "published_sha256": "4d0f1d8deca063209cd3c1db724c4f040edc13922f96da7b0b1f54ba7d4de6d4",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1093,
+      "source_sha256": "4fb2c8f09b3531acb7702aba0188ab8722059127dd08434eec711fea448d7277",
+      "published_size": 1093,
+      "published_sha256": "4fb2c8f09b3531acb7702aba0188ab8722059127dd08434eec711fea448d7277",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/run.py",
       "status": "included",
       "reason": null,
-      "source_size": 14865,
-      "source_sha256": "c8c432b21715878f663d7ae14909c250a997bd9b86efa2b154e2dc44cd9a98e6",
-      "published_size": 14865,
-      "published_sha256": "c8c432b21715878f663d7ae14909c250a997bd9b86efa2b154e2dc44cd9a98e6",
+      "source_size": 15878,
+      "source_sha256": "b8d1124a625871c97b9a49291f034fc88651a99abb168acb4e44509913b99f4e",
+      "published_size": 15878,
+      "published_sha256": "b8d1124a625871c97b9a49291f034fc88651a99abb168acb4e44509913b99f4e",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/rij-jkfit-qualification/test_rij.py",
       "status": "included",
       "reason": null,
-      "source_size": 5892,
-      "source_sha256": "373644e492b8653ca41fb40e516b3274ba9e74746c017593e6bf11cf4816b543",
-      "published_size": 5892,
-      "published_sha256": "373644e492b8653ca41fb40e516b3274ba9e74746c017593e6bf11cf4816b543",
+      "source_size": 6748,
+      "source_sha256": "151a77c322227c1aba646218bb2a2254da123f1312d2b98b515a5279bc5ceb29",
+      "published_size": 6748,
+      "published_sha256": "151a77c322227c1aba646218bb2a2254da123f1312d2b98b515a5279bc5ceb29",
       "transformations": []
     },
     {

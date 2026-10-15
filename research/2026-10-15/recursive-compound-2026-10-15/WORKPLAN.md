@@ -25,6 +25,10 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 | Published parent proton-topology comparison | published-parent/ | Retrieved primary computational source;4/24 versus16/0 H-contact sites; single-point/frequency limits retained |
 | Proton topology and heavy-contact reconciliation | proton-topology/ | Explicit GUI H connectivity agrees; fixed-cutoff heavy graphs differ; no unique map or physical bond proof |
 | Tractable Coulomb qualification | rij-qualification/, rij-qualification-v2/ | Preserved ECP initialization failure; repaired run fails neutralMoO3 and externalMo2O7 residual screens; no parent admission |
+| Larger-basis numerical challenge | rij-jkfit-qualification/ | Four retrospective direct references plus preselected external neutral H2Mo2O7; unchanged accuracy limits; five bounded children, at most six SCFs |
+| Parent memory specialization | cpcm-rij-memory/ | Separately prepared exact-equation storage changes; bounded finite checks, failure-abort and alias tests; no parent launch without qualification |
+| Memory operator and SCF qualification | cpcm-rij-memory-qualification/ | Frozen57pins, seven gate tests; five retrospective operator cases then at most one gated SCF; prepared and unrun |
+| W/V comparator acquisition | identity/next-step/wv-reference-selection/ | First available WO4/VO4 source files with URLs/hashes; future charge parser requires scoped CML fields; no W/V calculation |
 | Cross-function requirements and decisions | root REPORT.md, PROTOCOL.md, checks.md, progress.md | Explicit unmet requirements, no unsupported verified additions, next discriminating test |
 | Independent arithmetic/claim review | review/ and workspace .omo/evidence/ | Source-to-number checks, limitations and required repairs |
 

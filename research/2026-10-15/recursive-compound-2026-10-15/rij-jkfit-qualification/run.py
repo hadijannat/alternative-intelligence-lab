@@ -36,6 +36,7 @@ def pinned_files():
     paths = [BASE/'PROTOCOL.md', BASE/'run.py', BASE/'rij.py', BASE/'test_rij.py',
              PREVIOUS/'raw/Mo2O7.xyz', PREVIOUS/'raw/Mo2O7.in', OLD,
              BASE/'raw/new-case.json', BASE/'raw/new.xyz', BASE/'raw/new.in',
+             BASE/'raw/new-output.cml', BASE/'SOURCE.md',
              PREVIOUS/'run-v1/pins.json', PREVIOUS/'run-v1/result.json',
              LAB/'cpcm-blocked/blocked_pcm.py', LAB/'parent-pilot/pilot.py',
              Path(inspect.getsourcefile(df_jk)), Path(inspect.getsourcefile(pcm)),
@@ -45,15 +46,33 @@ def pinned_files():
     return {str(p): sha(p) for p in paths}
 
 
+def validate_charge(input_text, output_text, charge):
+    import re
+    import xml.etree.ElementTree as ET
+    lines = [line.strip() for line in input_text.splitlines() if re.match(r'^\s*Charge\b', line, re.I)]
+    if lines:
+        if len(lines) != 1 or re.fullmatch(r'Charge\s+-?\d+', lines[0], re.I) is None or int(lines[0].split()[1]) != charge:
+            raise ValueError('Primary input charge mismatch')
+    elif charge != 0:
+        raise ValueError('Missing explicit nonzero input charge')
+    root = ET.fromstring(output_text)
+    values = [node.text.strip() for node in root.iter() if node.get('dictRef') == 'a:charge']
+    spins = [node.text.strip() for node in root.iter() if node.get('dictRef') == 'cc:spinMolecule']
+    if values != [str(charge)] or spins != ['Restricted']:
+        raise ValueError('Primary output charge or restricted-spin evidence mismatch')
+
+
 def validate_new_case():
     import math
-    import re
     from collections import Counter
     meta=json.loads((BASE/'raw/new-case.json').read_text())
     xyz,source=BASE/'raw/new.xyz',BASE/'raw/new.in'
     if sha(xyz)!=meta['xyz_sha256'] or sha(source)!=meta['input_sha256']:
         raise ValueError('New primary input/geometry hash mismatch')
-    if not all(meta.get(k) for k in ('item_url','xyz_url','input_url')):
+    output=BASE/'raw/new-output.cml'
+    if sha(output)!=meta['output_sha256']:
+        raise ValueError('New primary output hash mismatch')
+    if not all(meta.get(k) for k in ('item_url','xyz_url','input_url','output_url')):
         raise ValueError('Primary-source provenance required')
     lines=xyz.read_text().splitlines()
     atoms=[line.split() for line in lines[2:] if line.strip()]
@@ -63,9 +82,9 @@ def validate_new_case():
     if int(lines[0])!=len(atoms) or any(len(a)!=4 or not all(math.isfinite(float(v)) for v in a[1:]) for a in atoms):
         raise ValueError('Invalid external geometry')
     charge=counts['H']-2
-    match=re.search(r'^\s*Charge\s+(-?\d+)\s*$',source.read_text(),re.M|re.I)
-    if match is None or int(match.group(1))!=charge or meta['charge']!=charge:
-        raise ValueError('Primary input charge mismatch')
+    if meta['charge']!=charge:
+        raise ValueError('Metadata charge mismatch')
+    validate_charge(source.read_text(),output.read_text(),charge)
     return meta
 
 

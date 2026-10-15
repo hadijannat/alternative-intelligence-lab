@@ -1,0 +1,44 @@
+{
+  "status": "PASS_NUMERICAL_SCREEN_ONLY",
+  "pins_unchanged": true,
+  "parent_SCF_run": false,
+  "physical_admission": false,
+  "experimental_validation": false,
+  "cases": [
+    {
+      "case": "anion-water",
+      "returncode": 0,
+      "termination_reason": null,
+      "wall_seconds": 6.8885637919884175,
+      "sampled_max_rss_bytes": 405913600
+    },
+    {
+      "case": "neutral-water",
+      "returncode": 0,
+      "termination_reason": null,
+      "wall_seconds": 4.176310624927282,
+      "sampled_max_rss_bytes": 298221568
+    },
+    {
+      "case": "anion-eps1",
+      "returncode": 0,
+      "termination_reason": null,
+      "wall_seconds": 7.304398750071414,
+      "sampled_max_rss_bytes": 394461184
+    },
+    {
+      "case": "heldout-Mo2O7",
+      "returncode": 0,
+      "termination_reason": null,
+      "wall_seconds": 44.059626792091876,
+      "sampled_max_rss_bytes": 613285888
+    },
+    {
+      "case": "new-external",
+      "returncode": 0,
+      "termination_reason": null,
+      "wall_seconds": 150.6173275000183,
+      "sampled_max_rss_bytes": 624345088
+    }
+  ]
+}

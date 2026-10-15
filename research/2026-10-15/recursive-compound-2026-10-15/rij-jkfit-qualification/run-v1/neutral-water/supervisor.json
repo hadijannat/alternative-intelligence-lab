@@ -1,0 +1,100 @@
+{
+  "argv": [
+    "PROJECT_ROOT/discovery-loop/experiments/borazine-water-endpoint-electronic-v1/.venv/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/rij-jkfit-qualification/run.py",
+    "--worker",
+    "neutral-water"
+  ],
+  "pid": 15716,
+  "returncode": 0,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 4.176310624927282,
+  "wall_cap_seconds": 180,
+  "rss_guard_bytes": 2147483648,
+  "sampled_max_rss_bytes": 298221568,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0025141669902950525,
+      "rss_bytes": 2867200
+    },
+    {
+      "elapsed_seconds": 0.21063841693103313,
+      "rss_bytes": 69926912
+    },
+    {
+      "elapsed_seconds": 0.42017954192124307,
+      "rss_bytes": 107036672
+    },
+    {
+      "elapsed_seconds": 0.6298937079263851,
+      "rss_bytes": 114966528
+    },
+    {
+      "elapsed_seconds": 0.8392020829487592,
+      "rss_bytes": 115081216
+    },
+    {
+      "elapsed_seconds": 1.047473374987021,
+      "rss_bytes": 176357376
+    },
+    {
+      "elapsed_seconds": 1.256798499962315,
+      "rss_bytes": 288653312
+    },
+    {
+      "elapsed_seconds": 1.4660021669697016,
+      "rss_bytes": 292978688
+    },
+    {
+      "elapsed_seconds": 1.6753771249204874,
+      "rss_bytes": 293437440
+    },
+    {
+      "elapsed_seconds": 1.8809022499481216,
+      "rss_bytes": 293453824
+    },
+    {
+      "elapsed_seconds": 2.0891654579900205,
+      "rss_bytes": 293453824
+    },
+    {
+      "elapsed_seconds": 2.2982643749564886,
+      "rss_bytes": 293453824
+    },
+    {
+      "elapsed_seconds": 2.507157582906075,
+      "rss_bytes": 294387712
+    },
+    {
+      "elapsed_seconds": 2.7141261670039967,
+      "rss_bytes": 294404096
+    },
+    {
+      "elapsed_seconds": 2.9232527499552816,
+      "rss_bytes": 295059456
+    },
+    {
+      "elapsed_seconds": 3.130791832925752,
+      "rss_bytes": 295059456
+    },
+    {
+      "elapsed_seconds": 3.339125750004314,
+      "rss_bytes": 295075840
+    },
+    {
+      "elapsed_seconds": 3.5481813329970464,
+      "rss_bytes": 295075840
+    },
+    {
+      "elapsed_seconds": 3.7573469169437885,
+      "rss_bytes": 298188800
+    },
+    {
+      "elapsed_seconds": 3.966904499917291,
+      "rss_bytes": 298221568
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

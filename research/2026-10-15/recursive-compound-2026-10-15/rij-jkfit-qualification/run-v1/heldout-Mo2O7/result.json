@@ -1,0 +1,170 @@
+{
+  "case": "heldout-Mo2O7",
+  "checks": [
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 0.0002780120105256856,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00016793276643438452,
+      "pass": true
+    },
+    {
+      "name": "initial/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 0.00027799590149868436,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.000167941549259177,
+      "pass": true
+    },
+    {
+      "name": "perturbed/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 0.00011166119404038,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -6.77091735762234e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_additivity",
+      "value": 1.652011860642233e-12,
+      "pass": true
+    },
+    {
+      "name": "zero_density",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/max_J_error_Eh",
+      "value": 0.00011166204879842212,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -6.771065250969501e-05,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "total_energy_error_Eh_per_Mo",
+      "value": 6.770991274152038e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_Fock_residual",
+      "value": 0.00014578170596031567,
+      "pass": true
+    },
+    {
+      "name": "RI_Fock_residual",
+      "value": 2.6573959689100953e-07,
+      "pass": true
+    },
+    {
+      "name": "electron_trace_error",
+      "value": 2.842170943040401e-14,
+      "pass": true
+    },
+    {
+      "name": "no_ERI_or_three_index_cache",
+      "value": {
+        "nao": 160,
+        "naux": 1049,
+        "metric_factor_shape": [
+          1049,
+          1049
+        ],
+        "factor_type": "cd",
+        "J_calls": 33,
+        "cached_ERI": false,
+        "cached_3index": false,
+        "tensor_output": false
+      },
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": false,
+  "reused_direct_reference": {
+    "case": "heldout-Mo2O7",
+    "energy_Eh": -662.834329575359,
+    "arrays_sha256": "9ffded34a96492fa6d49d729db63714551ae85e8e95047f82a5a2ebe0149ffa6",
+    "result_sha256": "dee6790b65cb12ad174a679b6949a4eb115869282e71ba2dea10c2f746d47862",
+    "new_direct_SCF": false
+  },
+  "J_timings": {
+    "initial": {
+      "direct_seconds": 1.5425252909772098,
+      "RI_seconds": 0.4351229160092771
+    },
+    "perturbed": {
+      "direct_seconds": 1.541857457952574,
+      "RI_seconds": 0.41720716597046703
+    },
+    "direct_converged": {
+      "direct_seconds": 1.574737083981745,
+      "RI_seconds": 0.4189586670836434
+    },
+    "RI_converged": {
+      "direct_seconds": 1.577112082974054,
+      "RI_seconds": 0.4138231249526143
+    }
+  },
+  "RI_SCF": {
+    "energy_Eh": -662.8344649951845,
+    "reference_energy_Eh": -662.834329575359,
+    "cycles": 24,
+    "seconds": 30.691454290994443,
+    "converged": true,
+    "direct_residual": 0.00014578170596031567,
+    "RI_residual": 2.6573959689100953e-07,
+    "electron_trace": 86.00000000000003,
+    "explicit_electrons": 86
+  },
+  "storage": {
+    "nao": 160,
+    "naux": 1049,
+    "metric_factor_shape": [
+      1049,
+      1049
+    ],
+    "factor_type": "cd",
+    "J_calls": 33,
+    "cached_ERI": false,
+    "cached_3index": false,
+    "tensor_output": false
+  },
+  "status": "PASS_NUMERICAL_SCREEN_ONLY"
+}

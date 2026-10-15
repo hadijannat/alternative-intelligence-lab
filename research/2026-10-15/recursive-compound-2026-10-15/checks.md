@@ -4,6 +4,12 @@ All paths below are relative to this directory. Numerical PASS means only the st
 
 | Requirement | Verdict | Evidence | Correction or remaining work |
 |---|---|---|---|
+| Larger JKFIT numerical qualification | PASS, fixed small-case screen only | rij-jkfit-qualification/REPORT.md; run-v1/result.json; INDEPENDENT_REVIEW.md | 101/101 checks, six new SCFs, four retrospective cases plus one new external geometry; no target or parent validation |
+| Neutral source charge guard | PASS, preparation scope | rij-jkfit-qualification/SOURCE.md; test_rij.py; preparation.json | Pinned output confirms omitted neutral input charge; 14 tests including eight negative charge subcases; 30 pins unchanged |
+| In-place factor memory mechanics | PASS, tiny tests only | cpcm-rij-memory/REPORT.md; test_memory.py; evidence/observations.json | Eight tests; factor alias/no global mutation/failure abort; oversized-chunk mutation rejected; Mo equivalence and SCF qualification outstanding |
+| Memory qualification preparation | PREPARED, unrun | cpcm-rij-memory-qualification/REPORT.md; preparation.json | 57pins, seven gate tests; independent prelaunch review clear; no operator comparisons or SCF |
+| W/V reference selection | ACQUIRED, untested | identity/next-step/wv-reference-selection/SOURCES.md | Six pinned source files; no W/V SCF or target incorporation evidence |
+| Parent memory screen after specialization | UNRESOLVED for execution | cpcm-rij-memory/allocation.json | Arithmetic9.89326GiB leaves114.6MB with old allowances; actual peak/native transients unverified; no parent launch |
 | Reconcile explicit H and heavy-contact topology | PASS, bounded source/geometry audit | proton-topology/REPORT.md; proton-topology/result.json; proton-topology/guibonds-result.json | 12 synthetic/parser tests; declared H topology agrees with distance assignment; physical framework and site map unresolved |
 | Preserve RI-J software failure | PASS, failure retention | rij-qualification/run-v1/result.json; rij-qualification/REPORT.md | ECP bookkeeping initialization falsely triggered strict molecular fingerprint; all original pins retained |
 | Qualify repaired RI-J accuracy | FAIL | rij-qualification-v2/run-v1/result.json; rij-qualification-v2/REPORT.md; rij-qualification-v2/INDEPENDENT_REVIEW.md | Neutral MoO3 and external Mo2O7 exceed direct-Fock residual screen; no parent admission despite five converged SCFs |

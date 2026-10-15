@@ -1,5 +1,19 @@
 # Progress checkpoint
 
+## Publication checkpoint: memory qualification prepared
+
+The user requested commit and push before the memory qualification campaign launched. Its preparation freezes57source/data hashes and five retrospective cases; seven gate/provenance tests passed, and independent prelaunch review cleared the declared campaign. No operator comparisons or SCFs have run. The active preparation and earlier pre-review preparation are both retained. WO4(2-) and VO4(3-) computational sources were acquired in the prescribed availability order; the new source ledger preserves all six URLs/hashes and the CML charge-scoping limitation. No W/V calculation exists. This publication packages the completed JKFIT screen, tiny memory tests and unrun preparation without adding chemical-function evidence. The count remains19candidate-role evaluations and zero verified integrated complements.
+
+## Latest continuation: larger-basis accuracy and memory mechanics
+
+The preceding publication turn completed09cd0e5 and push; CI38793495925 is now verified successful. It changed the public artifact state but produced no chemical-function evidence. This continuation made numerical prerequisite progress; no repeated impasse is established.
+
+rij-jkfit-qualification/run-v1 is terminal PASS_NUMERICAL_SCREEN_ONLY, session2782 exit0. Exactly five RI SCFs plus one new direct SCF ran. All101 checks pass on four retrospective cases and new neutralH2Mo2O7 selected before calculation. The two previously failed residuals now pass; worst direct-Fock residual1.86795344e-4 and energy error/Mo7.54434965e-5Eh. All30pins match and148metric receipts are Cholesky/finite/no3index. No child limit or monitor error; maximum wall150.6173s and sampledRSS624345088bytes. Independent saved-array audit agrees. Original failure folders remain immutable. The new input omits Charge, so before freeze the tested guard was corrected to require pinned output charge0/restricted evidence. Source note,14-test receipt,preparation,protocol and independent report are saved.
+
+cpcm-rij-memory/ implements a separate private-function specialization: in-place Fortran Cholesky, bounded finite validation, abort before corrupted-matrix fallback, factor-only PCM and AO block1. Eight tiny tests pass without SCF/parent allocations. Independent code review found a ceiling test that mirrored the implementation constant; it now uses literal65536 and rejects a65537 mutation, with the prior review evidence retained. Memory arithmetic is9.893259406GiB with4GiBscratch/32AO allowances unchanged, leaving114611840bytes. This is not a certified peak or parent launch clearance.
+
+Next concrete step: freeze retained-density J/PCM equivalence checks for the memory implementation against the saved Mo-reference arrays, followed by a bounded small-reference SCF comparison. Preserve the original/native numerical results. Only then reconsider a separately bounded parent attempt and competing proton topologies. W/V accuracy, species identity, all integrated life functions and empirical target validation remain open. No compound has been added as verified:19candidate-role evaluations,0verified integrated complements. Goal remains ACTIVE and unmet. This new work is local; publication remains09cd0e5.
+
 ## Latest continuation: proton topology and RI-J failure
 
 The preceding user-requested publication turn completed commit 8e2afc3 and push; CI38789563347 now reports success. It was publication progress, with no new chemical-function evidence. This continuation made substantive goal progress by testing assumptions needed for a target calculation; no repeated impasse is established.

@@ -1,0 +1,27 @@
+{
+  "status": "ARITHMETIC_ONLY_NO_PARENT_ALLOCATION",
+  "auxiliary_basis": "def2-universal-jkfit",
+  "atomic_spherical_aux_counts": {
+    "Mo": 255,
+    "O": 77,
+    "H": 18
+  },
+  "hypothetical_parent_aux_count": 19612,
+  "terms_bytes": {
+    "surface_factor": 689541248,
+    "RI_metric_factor": 3077044352,
+    "AO_block1": 75300992,
+    "row_temporary_eight_arrays": 76054528,
+    "finite_validation_chunk_boolean": 65536,
+    "SCF_DIIS_output_AO_buffers_32": 2409631744,
+    "nuclear_integral_block128": 200704,
+    "scratch_headroom_4GiB": 4294967296
+  },
+  "sum_bytes": 10622806400,
+  "sum_GiB": 9.893259406089783,
+  "screen_limit_bytes": 10737418240,
+  "passes_arithmetic_screen": true,
+  "certified_peak_RSS": false,
+  "parent_array_allocated": false,
+  "limits": "4GiB scratch and32AO allowances unchanged. Native integral/Q_cond/DFT/BLAS/allocator transients not independently bounded. Real parent aliasing and SCF not tested."
+}

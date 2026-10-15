@@ -76,6 +76,57 @@ class PublicationSelection(unittest.TestCase):
         self.assertEqual(cleaned, '"https://example.org/file" https://example.org/?id=2')
         self.assertEqual(count, 1)
 
+    def test_jkfit_and_memory_evidence_retained_without_raw_acquisitions(self):
+        base = Path('recursive-compound-2026-10-15')
+        retained = (
+            'rij-qualification/run-v1/result.json',
+            'rij-qualification-v2/run-v1/neutral-water/result.json',
+            'rij-jkfit-qualification/evidence/preparation-pending.json',
+            'rij-jkfit-qualification/preparation.json',
+            'rij-jkfit-qualification/SOURCE.md',
+            'rij-jkfit-qualification/run-v1/new-external/result.json',
+            'rij-jkfit-qualification/run-v1/new-external/arrays.npz',
+            'cpcm-rij-memory/allocation.json',
+            'cpcm-rij-memory/evidence/observations.json',
+            'cpcm-rij-memory-qualification/preparation.json')
+        for name in retained:
+            with self.subTest(name=name):
+                self.assertIsNone(exclusion(base / name))
+        for name in ('new-case.json', 'new.xyz', 'new.in', 'new-output.cml'):
+            with self.subTest(name=name):
+                self.assertTrue(exclusion(base / 'rij-jkfit-qualification/raw' / name))
+        self.assertTrue(exclusion(base / 'cpcm-rij-memory/evidence/chunk-mutation-control.txt'))
+
+    def test_export_retains_embedded_provenance_and_original_failure(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source, output = Path(temporary) / 'source', Path(temporary) / 'published'
+            for lab in LABS:
+                (source / lab).mkdir(parents=True)
+            base = Path('recursive-compound-2026-10-15')
+            failure = base / 'rij-qualification-v2/run-v1/result.json'
+            result = base / 'rij-jkfit-qualification/run-v1/new-external/result.json'
+            raw = base / 'rij-jkfit-qualification/raw/new-case.json'
+            provenance = {'item_url': 'https://example.org/source',
+                          'validation_scope': 'computational geometry only'}
+            payloads = {
+                failure: {'status': 'FAIL_NUMERICAL_SCREEN', 'physical_admission': False},
+                result: {'status': 'PASS_NUMERICAL_SCREEN_ONLY', 'physical_admission': False,
+                         'new_external_source': provenance},
+                raw: provenance}
+            for rel, data in payloads.items():
+                (source / rel).parent.mkdir(parents=True, exist_ok=True)
+                (source / rel).write_text(json.dumps(data))
+            with contextlib.redirect_stdout(io.StringIO()):
+                export(source, output)
+            for rel in (failure, result):
+                self.assertEqual(json.loads((output / rel).read_text()), payloads[rel])
+            self.assertFalse((output / raw).exists())
+            self.assertEqual(json.loads((source / raw).read_text()), provenance)
+            manifest = json.loads((output / 'manifest.json').read_text())
+            records = {record['path']: record for record in manifest['files']}
+            self.assertEqual(manifest['included_files'], 2)
+            self.assertEqual(records[str(raw)]['status'], 'excluded')
+
     def test_url_pattern_in_source_code_is_not_parsed_as_address(self):
         text = 'https://[example-pattern]'
         self.assertEqual(strip_signed_urls(text), (text, 0))

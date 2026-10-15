@@ -1,0 +1,170 @@
+{
+  "case": "anion-water",
+  "checks": [
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 0.00027883923725013915,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.0001742510526255895,
+      "pass": true
+    },
+    {
+      "name": "initial/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 0.00027882107388776944,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00017423485631839895,
+      "pass": true
+    },
+    {
+      "name": "perturbed/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 0.00011347795364358149,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -7.419816799997156e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_additivity",
+      "value": 5.151434834260726e-13,
+      "pass": true
+    },
+    {
+      "name": "zero_density",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/max_J_error_Eh",
+      "value": 0.00011347895726387947,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -7.420021913804816e-05,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "total_energy_error_Eh_per_Mo",
+      "value": 7.419918756568222e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_Fock_residual",
+      "value": 0.00011103760713066325,
+      "pass": true
+    },
+    {
+      "name": "RI_Fock_residual",
+      "value": 5.939384772197559e-08,
+      "pass": true
+    },
+    {
+      "name": "electron_trace_error",
+      "value": 6.394884621840902e-14,
+      "pass": true
+    },
+    {
+      "name": "no_ERI_or_three_index_cache",
+      "value": {
+        "nao": 87,
+        "naux": 563,
+        "metric_factor_shape": [
+          563,
+          563
+        ],
+        "factor_type": "cd",
+        "J_calls": 25,
+        "cached_ERI": false,
+        "cached_3index": false,
+        "tensor_output": false
+      },
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": false,
+  "reused_direct_reference": {
+    "case": "anion-water",
+    "energy_Eh": -369.06891897496035,
+    "arrays_sha256": "d380464d264efefe77978f28bbf549af8272502ce9d0ac5314aac6bc57d0a32b",
+    "result_sha256": "3aae4f6e86cb2236d713c4a9748d7170c0c3c120c3a9ad52cf4b89f98dc8f36e",
+    "new_direct_SCF": false
+  },
+  "J_timings": {
+    "initial": {
+      "direct_seconds": 0.2059213339816779,
+      "RI_seconds": 0.08003829198423773
+    },
+    "perturbed": {
+      "direct_seconds": 0.20084154210053384,
+      "RI_seconds": 0.07495937508065253
+    },
+    "direct_converged": {
+      "direct_seconds": 0.20626466604880989,
+      "RI_seconds": 0.07575750001706183
+    },
+    "RI_converged": {
+      "direct_seconds": 0.2061590829398483,
+      "RI_seconds": 0.07488891703542322
+    }
+  },
+  "RI_SCF": {
+    "energy_Eh": -369.0689931741479,
+    "reference_energy_Eh": -369.06891897496035,
+    "cycles": 16,
+    "seconds": 4.403672500047833,
+    "converged": true,
+    "direct_residual": 0.00011103760713066325,
+    "RI_residual": 5.939384772197559e-08,
+    "electron_trace": 47.999999999999936,
+    "explicit_electrons": 48
+  },
+  "storage": {
+    "nao": 87,
+    "naux": 563,
+    "metric_factor_shape": [
+      563,
+      563
+    ],
+    "factor_type": "cd",
+    "J_calls": 25,
+    "cached_ERI": false,
+    "cached_3index": false,
+    "tensor_output": false
+  },
+  "status": "PASS_NUMERICAL_SCREEN_ONLY"
+}

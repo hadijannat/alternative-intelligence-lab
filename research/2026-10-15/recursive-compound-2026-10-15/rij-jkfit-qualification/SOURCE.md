@@ -1,0 +1,9 @@
+# Fixed external numerical challenge
+
+The first available case in the prescribed H2Mo2O7-before-HMo2O7 order is neutral H2Mo2O7, eleven atoms, [ICIQ item 100/28777](https://iochem-bd.iciq.es/browse/handle/100/28777). It was selected before inspection of direct or RI numerical results for this geometry. The four earlier cases, including Mo2O7(2-), are retrospective comparisons.
+
+The [XYZ](https://iochem-bd.iciq.es/browse/cml2xyz?id=28990&mode=single_xyz) has 365 bytes and SHA256 `5db0f73af655c0bdecf3dd7ed2763f411c6c41bed548a4b4e8052c6c6858b57b`; the [primary ADF input](https://iochem-bd.iciq.es/browse/bitstream/100/28777/3/Mo2O7-2H.in) has 1,633 bytes and SHA256 `33bedc1690f41430fa84774ac1410df158daa1e658057d98db36920c3e6e69f7`. The item declares CC BY 4.0. Attribution: Petrus and Bo, 2021, DOI 10.1021/acs.jpca.1c03292; computational deposit DOI 10.19061/iochem-bd-1-201.
+
+Source settings are ADF 2019 PBE/TZP, large frozen core, scalar ZORA and COSMO water/Delley surface. The qualification instead uses its separately fixed PySCF method. Source energies are not interchangeable with the new reference energies. Source optimization/frequency metadata is not independent verification of a physical species or minimum. The deposited XYZ is used without geometry repair. `raw/new-case.json` records the acquisition and is included among the frozen launch pins. No result is implied by source selection.
+
+The input omits a Charge line. The [deposited output](https://iochem-bd.iciq.es/browse/bitstream/100/28777/4/output.cml), 416,911 bytes, SHA256 `89383cd3172210c9287c416a157e78315e785bfa7f90b45654706d6086185cc5`, explicitly reports `a:charge=0` and `cc:spinMolecule=Restricted`. The prelaunch guard requires those values and rejects contradictory explicit input charges. This avoids inferring charge solely from the filename or accepting an unspecified nonzero charge.

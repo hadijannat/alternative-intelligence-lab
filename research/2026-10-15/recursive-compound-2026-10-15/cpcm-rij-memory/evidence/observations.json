@@ -1,0 +1,77 @@
+{
+  "observations": [
+    {
+      "scenario": "bounded finite validation",
+      "literal_ceiling": 65536,
+      "observed_chunk_sizes": [
+        65536,
+        65536,
+        3
+      ],
+      "last_nonfinite_rejected": true,
+      "nonfinite_chunk_sizes": [
+        65536,
+        65536,
+        3
+      ]
+    },
+    {
+      "scenario": "guarded private RI adapter",
+      "metric_calls": [
+        {
+          "call": 1,
+          "factor_type": "cd",
+          "cached_3index": false,
+          "tensor_output": false,
+          "finite_J": true
+        }
+      ],
+      "changed_method_rejected": true
+    },
+    {
+      "scenario": "injected destructive native factor failure",
+      "matrix_mutated": true,
+      "regular_fallback_calls": 0,
+      "optimizer_published": false,
+      "exception": "FactorizationAborted"
+    },
+    {
+      "scenario": "16x16 SPD alias/solve",
+      "same_pointer": true,
+      "immutable": true,
+      "residual": 2.842170943040401e-14
+    },
+    {
+      "scenario": "He six-surface-point factor-only PCM",
+      "factor_shape": [
+        6,
+        6
+      ],
+      "S_reconstruction_error": 1.1102230246251565e-16,
+      "energy_error": 0.0,
+      "AO_potential_error": 5.551115123125783e-17,
+      "retained_S": false,
+      "reset_cleared_factor": true
+    },
+    {
+      "scenario": "He sto3g native two-pass JKFIT operator",
+      "max_error": 2.220446049250313e-16,
+      "metric": [
+        {
+          "shape": [
+            23,
+            23
+          ],
+          "Fortran": true,
+          "same_pointer": true
+        }
+      ],
+      "reuse": true,
+      "original_global_callables_unchanged": true
+    }
+  ],
+  "tests_run": 8,
+  "success": true,
+  "SCFs_launched": 0,
+  "parent_arrays_allocated": false
+}

@@ -98,6 +98,19 @@ class AdapterGuards(unittest.TestCase):
         self.assertEqual(CASES[:-1],RETROSPECTIVE)
         self.assertEqual(CASES[-1],'new-external')
 
+    def test_primary_neutral_charge_requires_output_confirmation(self):
+        from run import validate_charge
+        output='<cml><scalar dictRef="a:charge">0</scalar><scalar dictRef="cc:spinMolecule">Restricted</scalar></cml>'
+        validate_charge('Atoms\nEnd',output,0)
+        validate_charge('Charge 0',output,0)
+        for source,xml,charge in (
+                ('Charge -1',output,0),('Charge 0\nCharge 0',output,0),
+                ('Charge invalid',output,0),('',output,-1),
+                ('',output.replace('>0<','>-1<'),0),('',output.replace('Restricted','Unrestricted'),0),
+                ('','<cml/>',0),('',output.replace('</cml>','<scalar dictRef="a:charge">0</scalar></cml>'),0)):
+            with self.subTest(source=source,xml=xml,charge=charge),self.assertRaises(ValueError):
+                validate_charge(source,xml,charge)
+
     def test_retrospective_reference_provenance_without_scf(self):
         from run import validate_retrospective
         with patch('pyscf.scf.hf.SCF.kernel',side_effect=AssertionError('No SCF authorized')):

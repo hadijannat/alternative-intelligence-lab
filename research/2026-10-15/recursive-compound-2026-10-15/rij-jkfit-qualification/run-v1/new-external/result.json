@@ -1,0 +1,197 @@
+{
+  "case": "new-external",
+  "checks": [
+    {
+      "name": "direct SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "initial/max_J_error_Eh",
+      "value": 0.00027805602097075166,
+      "pass": true
+    },
+    {
+      "name": "initial/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.0001727924495433421,
+      "pass": true
+    },
+    {
+      "name": "initial/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "perturbed/max_J_error_Eh",
+      "value": 0.0002780120172047873,
+      "pass": true
+    },
+    {
+      "name": "perturbed/Coulomb_energy_error_Eh_per_Mo",
+      "value": -0.00017277000556314311,
+      "pass": true
+    },
+    {
+      "name": "perturbed/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/max_J_error_Eh",
+      "value": 0.00011182072244508845,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -7.544104740480754e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "incremental_additivity",
+      "value": 1.4832579608992091e-12,
+      "pass": true
+    },
+    {
+      "name": "zero_density",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/max_J_error_Eh",
+      "value": 0.00011182165753353956,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/Coulomb_energy_error_Eh_per_Mo",
+      "value": -7.544594560297611e-05,
+      "pass": true
+    },
+    {
+      "name": "RI_converged/symmetric_finite",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "name": "RI SCF converged",
+      "value": true,
+      "pass": true
+    },
+    {
+      "name": "total_energy_error_Eh_per_Mo",
+      "value": 7.544349648469506e-05,
+      "pass": true
+    },
+    {
+      "name": "direct_Fock_residual",
+      "value": 0.0001867953441636101,
+      "pass": true
+    },
+    {
+      "name": "RI_Fock_residual",
+      "value": 1.4843945734300333e-07,
+      "pass": true
+    },
+    {
+      "name": "electron_trace_error",
+      "value": 1.4210854715202004e-14,
+      "pass": true
+    },
+    {
+      "name": "no_ERI_or_three_index_cache",
+      "value": {
+        "nao": 170,
+        "naux": 1085,
+        "metric_factor_shape": [
+          1085,
+          1085
+        ],
+        "factor_type": "cd",
+        "J_calls": 41,
+        "cached_ERI": false,
+        "cached_3index": false,
+        "tensor_output": false
+      },
+      "pass": true
+    }
+  ],
+  "physical_admission": false,
+  "experimental_validation": false,
+  "heldout_numerical_case": true,
+  "new_external_source": {
+    "formula": "H2Mo2O7",
+    "charge": 0,
+    "item_url": "https://iochem-bd.iciq.es/browse/handle/100/28777",
+    "xyz_url": "https://iochem-bd.iciq.es/browse/cml2xyz?id=28990&mode=single_xyz",
+    "input_url": "https://iochem-bd.iciq.es/browse/bitstream/100/28777/3/Mo2O7-2H.in",
+    "output_url": "https://iochem-bd.iciq.es/browse/bitstream/100/28777/4/output.cml",
+    "output_sha256": "89383cd3172210c9287c416a157e78315e785bfa7f90b45654706d6086185cc5",
+    "output_bytes": 416911,
+    "charge_evidence": "Input omits Charge; output a:charge is explicitly 0 and cc:spinMolecule is Restricted",
+    "xyz_sha256": "5db0f73af655c0bdecf3dd7ed2763f411c6c41bed548a4b4e8052c6c6858b57b",
+    "input_sha256": "33bedc1690f41430fa84774ac1410df158daa1e658057d98db36920c3e6e69f7",
+    "xyz_bytes": 365,
+    "input_bytes": 1633,
+    "license": "CC BY 4.0, declared in the source item metadata",
+    "collection_doi": "10.19061/iochem-bd-1-201",
+    "publication_doi": "10.1021/acs.jpca.1c03292",
+    "selection_rule": "First available H2Mo2O7 neutral before HMo2O7 anion; selection made before any RI or direct numerical test of this geometry",
+    "selection_result": "First choice exists; fallback not inspected",
+    "source_method": "ADF 2019 PBE/TZP, large frozen core, scalar ZORA, COSMO water with Delley surface",
+    "validation_scope": "External fixed computational geometry for numerical qualification; no experimental species, target geometry or independent stationary-point proof",
+    "acquired_before_campaign": true
+  },
+  "direct_SCF": {
+    "energy_Eh": -663.7139243400396,
+    "cycles": 32,
+    "seconds": 84.59043587499764,
+    "converged": true
+  },
+  "J_timings": {
+    "initial": {
+      "direct_seconds": 1.839575916994363,
+      "RI_seconds": 0.501714332960546
+    },
+    "perturbed": {
+      "direct_seconds": 1.8471361249685287,
+      "RI_seconds": 0.4757970829959959
+    },
+    "direct_converged": {
+      "direct_seconds": 1.9016500000143424,
+      "RI_seconds": 0.48020091699436307
+    },
+    "RI_converged": {
+      "direct_seconds": 1.9124588330741972,
+      "RI_seconds": 0.48105458298232406
+    }
+  },
+  "RI_SCF": {
+    "energy_Eh": -663.7140752270326,
+    "reference_energy_Eh": -663.7139243400396,
+    "cycles": 32,
+    "seconds": 50.01765258295927,
+    "converged": true,
+    "direct_residual": 0.0001867953441636101,
+    "RI_residual": 1.4843945734300333e-07,
+    "electron_trace": 86.00000000000001,
+    "explicit_electrons": 86
+  },
+  "storage": {
+    "nao": 170,
+    "naux": 1085,
+    "metric_factor_shape": [
+      1085,
+      1085
+    ],
+    "factor_type": "cd",
+    "J_calls": 41,
+    "cached_ERI": false,
+    "cached_3index": false,
+    "tensor_output": false
+  },
+  "status": "PASS_NUMERICAL_SCREEN_ONLY"
+}

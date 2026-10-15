@@ -84,7 +84,61 @@ def verify(root):
     pending = json.loads((jkfit / 'evidence/preparation-pending.json').read_text())
     assert pending['status'] == 'PREPARED_DRIVER_PENDING_NEW_PRIMARY_INPUT'
     assert pending['SCFs_launched'] == 0 and len(pending['missing_primary_files']) == 3
-    assert not (jkfit / 'run-v1').exists()
+    completed = json.loads((jkfit / 'run-v1/result.json').read_text())
+    assert completed['status'] == 'PASS_NUMERICAL_SCREEN_ONLY'
+    assert completed['pins_unchanged'] is True
+    assert completed['physical_admission'] is False and completed['parent_SCF_run'] is False
+    assert completed['experimental_validation'] is False
+    case_names = {'anion-water', 'neutral-water', 'anion-eps1', 'heldout-Mo2O7', 'new-external'}
+    assert len(completed['cases']) == 5 and {c['case'] for c in completed['cases']} == case_names
+    checks, scfs = [], []
+    for receipt in completed['cases']:
+        assert receipt['returncode'] == 0 and receipt['termination_reason'] is None
+        case = json.loads((jkfit / 'run-v1' / receipt['case'] / 'result.json').read_text())
+        assert case['case'] == receipt['case'] and case['status'] == 'PASS_NUMERICAL_SCREEN_ONLY'
+        assert case['physical_admission'] is False and case['experimental_validation'] is False
+        checks.extend(case['checks'])
+        scfs.append(case['RI_SCF'])
+        if case['case'] == 'new-external':
+            assert case['heldout_numerical_case'] is True
+            scfs.append(case['direct_SCF'])
+            provenance = case['new_external_source']
+            assert provenance['formula'] == 'H2Mo2O7' and provenance['charge'] == 0
+            assert provenance['acquired_before_campaign'] is True
+            assert provenance['validation_scope'] == (
+                'External fixed computational geometry for numerical qualification; '
+                'no experimental species, target geometry or independent stationary-point proof')
+            assert provenance['publication_doi'] == '10.1021/acs.jpca.1c03292'
+            assert provenance['collection_doi'] == '10.19061/iochem-bd-1-201'
+        else:
+            assert case['heldout_numerical_case'] is False
+            assert 'direct_SCF' not in case and 'reused_direct_reference' in case
+    assert len(checks) == 101 and all(check['pass'] is True for check in checks)
+    assert len(scfs) == 6 and all(scf['converged'] is True for scf in scfs)
+    for name in ('new-case.json', 'new.xyz', 'new.in', 'new-output.cml'):
+        assert not (jkfit / 'raw' / name).exists()
+    memory = recursive / 'cpcm-rij-memory'
+    observations = json.loads((memory / 'evidence/observations.json').read_text())
+    assert observations['success'] is True and observations['tests_run'] == 8
+    assert observations['SCFs_launched'] == 0 and observations['parent_arrays_allocated'] is False
+    scenarios = {o['scenario']: o for o in observations['observations']}
+    assert len(scenarios) == 6
+    assert scenarios['injected destructive native factor failure']['regular_fallback_calls'] == 0
+    assert scenarios['injected destructive native factor failure']['optimizer_published'] is False
+    assert scenarios['He six-surface-point factor-only PCM']['factor_shape'] == [6, 6]
+    assert scenarios['He sto3g native two-pass JKFIT operator']['reuse'] is True
+    allocation = json.loads((memory / 'allocation.json').read_text())
+    assert allocation['status'] == 'ARITHMETIC_ONLY_NO_PARENT_ALLOCATION'
+    assert allocation['passes_arithmetic_screen'] is True
+    assert allocation['certified_peak_RSS'] is False and allocation['parent_array_allocated'] is False
+    assert sum(allocation['terms_bytes'].values()) == allocation['sum_bytes']
+    assert allocation['sum_bytes'] < allocation['screen_limit_bytes']
+    memory_qualification = recursive / 'cpcm-rij-memory-qualification'
+    preparation = json.loads((memory_qualification / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_NOT_EXECUTED' and len(preparation['pins']) == 57
+    assert len(preparation['cases']) == 5 and set(preparation['cases']) == case_names
+    assert preparation['densities_per_case'] == 4 and preparation['SCFs_launched'] == 0
+    assert not (memory_qualification / 'run-v1').exists()
     return dict(status='PASS_FOLLOWUP_PUBLICATION_ONLY', laboratories=len(LABS),
                 verified_files=len(included), published_bytes=manifest['published_bytes'], scientific_reruns=0)
 
