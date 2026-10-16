@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "tests_run": 8,
+  "tiny_child": {
+    "argv": [
+      "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-metric-solve/test_run.py",
+      "--thread-worker"
+    ],
+    "pid": 76550,
+    "returncode": 0,
+    "termination_reason": null,
+    "monitor_error": null,
+    "wall_seconds": 0.6340587909799069,
+    "wall_cap_seconds": 30,
+    "rss_guard_bytes": 1073741824,
+    "sampled_max_rss_bytes": 108298240,
+    "samples": [
+      {
+        "elapsed_seconds": 0.0019283749861642718,
+        "rss_bytes": 4636672
+      },
+      {
+        "elapsed_seconds": 0.2068133329739794,
+        "rss_bytes": 65388544
+      },
+      {
+        "elapsed_seconds": 0.4206019159173593,
+        "rss_bytes": 108298240
+      }
+    ],
+    "hard_OS_memory_limit": false
+  },
+  "test_names": [
+    "test_bad_layout (__main__.Tests.test_bad_layout)",
+    "test_changed_pins (__main__.Tests.test_changed_pins)",
+    "test_exclusive_output_and_stream_hash (__main__.Tests.test_exclusive_output_and_stream_hash)",
+    "test_missing_approval (__main__.Tests.test_missing_approval)",
+    "test_nonfinite (__main__.Tests.test_nonfinite)",
+    "test_wrong_answer (__main__.Tests.test_wrong_answer)",
+    "test_wrong_approval_binding (__main__.Tests.test_wrong_approval_binding)",
+    "test_zero_rhs (__main__.Tests.test_zero_rhs)"
+  ],
+  "tiny_artifact_hashes": {
+    "qualification-thread/rho_B.npy": "0fa7d404727c190179b384a3ba3536f706aa46971fcaf3cc0d3ba12c02b95de6",
+    "qualification-thread/threads-before_solve_A1.json": "caedbb44a9f28855daeb9c3ffe1957ec2b90e662fec0d10ea1166c29604e5d74",
+    "qualification-thread/threads-after_solve_A1.json": "fa385d0b0f131c8352058a585576a30fd7ececc46d5cef6907b8d152c965dc4e",
+    "qualification-thread/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qualification-thread/errors-A2.json": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+    "qualification-thread/rho_C.npy": "de7c2b38a64f4f5044e8d2c5234df6263faa7ef415c4524c370b5b7aceb1e04c",
+    "qualification-thread/matrix-factor.json": "bc046eed16c7d80e37432bce8951da1ef7da935553eabe4517c452aee57285e2",
+    "qualification-thread/threads-identity.json": "e88d81e7cb9da1f2db102a6bda4904804aa80cc2e139a2de727ac11f285578a5",
+    "qualification-thread/supervisor.json": "7be550000ec3da3b6b21e3d8fd7cd5cf3696ab6aaf64f2bde0b8a9450739f372",
+    "qualification-thread/threads-before_factor.json": "00cc2fbdcb4a412455442e64de66cf23b1c565491674b2470c0cda350046540a",
+    "qualification-thread/errors-C.json": "b878122159780120759e397fd6d27cf9ef90fd665f851a7bd864fcfe46d905f2",
+    "qualification-thread/threads-initial.json": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+    "qualification-thread/residual_A1.npy": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+    "qualification-thread/tiny-result.json": "16c435a486240f3a76fa847d08190a1fa19f8ebd83b3e7b89aa2b963e3180d28",
+    "qualification-thread/residual_A2.npy": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+    "qualification-thread/threads-before_solve_B.json": "de5b6cc0aa082e8a1bdeff7f22a2faf19550b409f938c409fe1bdb0a3dcca320",
+    "qualification-thread/threads-after_condition_estimate.json": "e551c0d2386f281ed651c4f3f95268ad01cc633ce363136473621b9a0a9fa89a",
+    "qualification-thread/threads-restored_getter_counts.json": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+    "qualification-thread/threads-before_solve_C.json": "4016540e6f7d7d6df44826deca63def8a2cce15bc8062415c847a7344f5b7469",
+    "qualification-thread/errors-B.json": "cdabc87254c2e5000ca5bbe96075ab583a744af231648cdbffb9e8c23e849ddf",
+    "qualification-thread/rho_A1.npy": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+    "qualification-thread/rho_A2.npy": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+    "qualification-thread/threads-after_solve_B.json": "0aff547b7ca8a388b3cdf5a45a0b9a9624a8ebf2c9a457206081a771d088933a",
+    "qualification-thread/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qualification-thread/threads-after_solve_C.json": "a8f35c4654432aa025b0ea7fc7b8e0413aa831e4a380e24d8f548051cea25085",
+    "qualification-thread/threads-after_factor.json": "4474011a8eda98b221e1093ddb937b8d5c003e80af5923cdb1d0735a0660dd0b",
+    "qualification-thread/threads-before_condition_estimate.json": "e26ca3089c11a99dff48a7bc4ccbdd76e38738531f4b28f3e09c928944e29411",
+    "qualification-thread/residual_B.npy": "cdbca3dc4f0e63f5fc8be177716c245569347d1f9331a4c5d4f84c7cc2e8099b",
+    "qualification-thread/residual_C.npy": "04370b1d14d843646c7882f2032621c3cc6b3fc9184837db1171deb2b3446ebe",
+    "qualification-thread/threads-before_solve_A2.json": "f300bcdf8e71c5b0363b4811347535739f72f258e49d3c8d78d8ed824f7dff03",
+    "qualification-thread/threads-explicit_setter.json": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+    "qualification-thread/threads-after_solve_A2.json": "af5304bd496847d3250846b5a4c140435022eef6ada49dd724fb2c3ff7d90883",
+    "qualification-thread/errors-A1.json": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+    "qualification-thread/fixture/rho_ordinary_A.npy": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+    "qualification-thread/fixture/rho_ordinary_C.npy": "940fd02d5133f3e90c1b7da5888a812a510c73a7a0d1d846dc957dd1a7fc311d",
+    "qualification-thread/fixture/rho_ordinary_B.npy": "9c5355fec9300bb7f8ab4c41e0993844d8059fe3799246437b87613b6ffc2277",
+    "qualification-thread/fixture/factor-states.json": "5d48411db79d5ae8cd6ea33f48cde3d2f36b5b5bb911e9e33e562526115251fc",
+    "qualification-thread/fixture/metric.npy": "38251ab2571be92db1b9752d2e08fbc1cf74f7ad0b8cb23ddfa6c1d23fa090b5",
+    "qualification-thread/fixture/b_A.npy": "1e55556a3a50266d29336b7b94691e55c51f36ebe6624a0c246076f8b796f77e",
+    "qualification-thread/fixture/b_C.npy": "730c41385686ccb04bbc0293ac7286d9a6f28703a3e3c470e421a5fb48d5d437",
+    "qualification-thread/fixture/b_B.npy": "37e2c61b86ecb31cc2a0fdbaccc10ff7e463349167f1fd1350005dbfe03a23fb"
+  },
+  "parent_native_execution": false,
+  "J_calls": 0,
+  "SCFs": 0
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_TINY_CONTROL_PROBE_ONLY",
+  "native_solves_verified": 5,
+  "failed_setup_attempts_preserved": 2,
+  "verification": "exact Fraction arithmetic and frozen file hashes",
+  "sha256": {
+    "REPORT.md": "8116a264eb0e66fa11aee5c8a20be7d2b2c1b6264dd77d017017ee85fbce0ba7",
+    "failed-v1/probe.py": "95984788b96c44792816aa3229ebec7e1013f5decd093ae43c0517139fce9823",
+    "failed-v1/stderr.txt": "44e0ab0b485640d6823a972fea4455f280e731fe140bc0247fdc31c828fb883b",
+    "failed-v1/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "failed-v1/supervisor.json": "29b9b3103d46cef594ae5ea2a6ce6d5d89299ae9c1819480a5b3b8be8d5e7b28",
+    "failed-v2/probe.py": "d18c42b307783572c7970d51626b27af65f31d3826fff9dee4c3b73c0416e8c6",
+    "failed-v2/stderr.txt": "04dd5415055885b71d3d38d308f219c0c7015c28f0509d3c1ef4871022c6338e",
+    "failed-v2/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "failed-v2/supervisor.json": "b96d492608b1da0a3613931cd7e4734effe95a719b1d5f89dbff7637f0b1be55",
+    "observed.json": "8223338fc24bc797b5e7871ccf2c73ce0573360ed0d64bd03afd9b95c7baf8c5",
+    "probe.py": "ca98bec5a512e7a9ea7c9e786f3a39941daf1c3e314faf29d559ee9a401aeac5",
+    "sources/README.md": "54ac8c2069cb15710e8b86121d854fe9b94c02c62270c8b056ba43a6b08b906f",
+    "sources/blas_server_omp.c": "7dfdb9da594fdd6d46441440fd51df127bd3b242959f52741537b56794d22591",
+    "sources/cblas.h": "e489fb980fbfe5fa1251f903f84296a95cfd8f1ccb7d7785399493053a8c79d5",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supervisor.json": "b0f61b708a4f5c335c630f081832c84b9848b4e5c01f36899a32cebe1599c866",
+    "verify.py": "cbfdf250372dc0928dd7cfa97b2a7a256da3e01e5b7f35885a470f5df31dda87"
+  }
+}

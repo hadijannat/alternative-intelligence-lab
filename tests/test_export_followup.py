@@ -15,6 +15,20 @@ from verify_followup import (verify_memory_followup, verify_openmp_renewal,
 
 
 class PublicationSelection(unittest.TestCase):
+    def test_blas_upstream_readme_is_acquired_source(self):
+        base = Path('recursive-compound-2026-10-15/parent-blas-control-audit')
+        self.assertTrue(exclusion(base / 'sources', directory=True))
+        for name in ('README.md', 'blas_server_omp.c', 'cblas.h'):
+            self.assertTrue(exclusion(base / 'sources' / name))
+        for name in ('REPORT.md', 'verification.json', 'observed.json'):
+            self.assertIsNone(exclusion(base / name))
+
+    def test_oversize_metric_exception_is_exact_and_keeps_receipts(self):
+        base = Path('recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2')
+        self.assertIn('3077044480-byte', exclusion(base / 'run-v1/original_metric.npy'))
+        for name in ('run-v1/launch-result.json', 'postmortem/result.json', 'run-v2/original_metric.npy', 'run-v1/other.npy'):
+            self.assertIsNone(exclusion(base / name))
+
     @classmethod
     def setUpClass(cls):
         archive.GROUPS.update(LABS)
@@ -282,7 +296,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-j-error-impact', 'parent-j-stage-localization', 'boundary/copper-phosphate-transport',
                        'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
                        'parent-metric-solve-diagnostic', 'parent-metric-solve-diagnostic-v2',
-                       'boundary/aqueous-pom-nanofiltration-followup'):
+                       'boundary/aqueous-pom-nanofiltration-followup', 'parent-blas-control-audit',
+                       'parent-saved-metric-solve', 'identity/concentration-speciation-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -297,6 +312,15 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('parent-metric-solve-diagnostic-v2/run-v1/launch-result.json', 'completed', True),
+            ('parent-metric-solve-diagnostic-v2/postmortem/result.json', 'root_cause_established', True),
+            ('parent-metric-solve-diagnostic-v2/postmortem/result.json', ('terminal_artifacts_verified', 'original_metric.npy'), '0' * 64),
+            ('parent-metric-solve-diagnostic-v2/postmortem/result.json', ('saved_metric', 'positive_definiteness_established'), True),
+            ('parent-blas-control-audit/observed.json', ('states', 0, 'blas'), 1),
+            ('parent-blas-control-audit/verification.json', 'failed_setup_attempts_preserved', 0),
+            ('parent-saved-metric-solve/qualification.json', 'parent_native_execution', True),
+            ('identity/concentration-speciation-followup/evidence.json', 'target_tested', True),
+            ('boundary/hollow-silicalite-followup/wetting-constraint/ROOT_REVIEW.json', 'physical_target_tested', True),
             ('parent-metric-solve-diagnostic/run-v1/launch-result.json', 'completed', True),
             ('parent-metric-solve-diagnostic-v2/preparation.json', 'physical_admission', True),
             ('parent-metric-solve-diagnostic-v2/qualification.json', 'native_parent_integrals', 1),
@@ -609,7 +633,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
-                       'parent-metric-solve-diagnostic-v2/independent-root-review.json',
+                       'parent-saved-metric-solve/independent-root-review.json',
+                       'parent-saved-metric-solve/run-v1/result.json',
                        'parent-metric-solve-diagnostic-v2/run-v1/result.json'):
             with self.subTest(suffix=suffix):
                 path = self.recursive / suffix
@@ -651,7 +676,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/copper-phosphate-transport/evidence.json',
                        'boundary/hollow-silicalite-followup/evidence.json',
                        'identity/beta-vmo7-discriminator/elemental-counterexample.md',
-                       'parent-metric-solve-diagnostic/run-v1/failure.json'):
+                       'parent-metric-solve-diagnostic/run-v1/failure.json',
+                       'parent-metric-solve-diagnostic-v2/run-v1/supervisor.json',
+                       'parent-blas-control-audit/observed.json',
+                       'parent-blas-control-audit/failed-v1/probe.py',
+                       'parent-saved-metric-solve/qualification-thread/errors-A1.json',
+                       'identity/concentration-speciation-followup/evidence.json',
+                       'boundary/hollow-silicalite-followup/wetting-constraint/validation.json'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']

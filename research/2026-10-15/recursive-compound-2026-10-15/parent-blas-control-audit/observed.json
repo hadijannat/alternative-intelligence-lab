@@ -1,0 +1,383 @@
+{
+  "requested_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OMP_DYNAMIC": "FALSE",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "config": "OpenBLAS 0.3.34 NO_AFFINITY USE_OPENMP VORTEX MAX_THREADS=128",
+  "parallel": 2,
+  "loaded_images": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/libopenblas.0.dylib",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/libomp.dylib",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_fblas.cpython-312-darwin.so",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_flapack.cpython-312-darwin.so",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/cython_blas.cpython-312-darwin.so",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/cython_lapack.cpython-312-darwin.so",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/lib/libnp_helper.dylib"
+  ],
+  "binary_sha256": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/libopenblas.0.dylib": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/libomp.dylib": "3266682cf1065e18e2dce6b6e4d2a9a17cb0b42e9f93d9f9b52fd17a450afa86",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_fblas.cpython-312-darwin.so": "eaa0745b1b5c1e7117976604c9b28fa1937af4e40457b778d9b5099d2c482e17",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_flapack.cpython-312-darwin.so": "f01dd1633a1ff628503b6be038c01d61f1b7b53f0eef97179d3fc4d3fd83441b",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/cython_blas.cpython-312-darwin.so": "d689a63fe6b3a3d8e4797242f505e5dff558b3648fe9ef74d1d33d8dd5bc306a",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/cython_lapack.cpython-312-darwin.so": "ecbe3bb5e84adc5015392e6f9dc494f95cff7c4c14c29ae6c638d51146311862",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/lib/libnp_helper.dylib": "5fa45eb2c69c2a2e85c8c434ce75ee163e2caa15129d16607b1446b63e67d1db"
+  },
+  "loaded_images_without_disk_file": [
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib"
+  ],
+  "same_dpotrf_symbol": true,
+  "dpotrf_address": 4337010568,
+  "flapack_binary": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/scipy/linalg/_flapack.cpython-312-darwin.so",
+  "flapack_sha256": "f01dd1633a1ff628503b6be038c01d61f1b7b53f0eef97179d3fc4d3fd83441b",
+  "flapack_dpotrf_symbol_matches_blas": true,
+  "source_sha256": "ca98bec5a512e7a9ea7c9e786f3a39941daf1c3e314faf29d559ee9a401aeac5",
+  "states": [
+    {
+      "label": "initial",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "baseline_before",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "baseline_after",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "pyscf_context_before_explicit_setter_before",
+      "blas": 4,
+      "pyscf": 1
+    },
+    {
+      "label": "pyscf_context_before_explicit_setter_after",
+      "blas": 4,
+      "pyscf": 1
+    },
+    {
+      "label": "pyscf_context_restored",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "explicit_blas_one_before",
+      "blas": 1,
+      "pyscf": 4
+    },
+    {
+      "label": "explicit_blas_one_after",
+      "blas": 1,
+      "pyscf": 4
+    },
+    {
+      "label": "pyscf_context_after_explicit_setter_before",
+      "blas": 1,
+      "pyscf": 1
+    },
+    {
+      "label": "pyscf_context_after_explicit_setter_after",
+      "blas": 1,
+      "pyscf": 1
+    },
+    {
+      "label": "pyscf_context_restored_after_setter",
+      "blas": 1,
+      "pyscf": 4
+    },
+    {
+      "label": "restored_after_exception",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "restored_before",
+      "blas": 4,
+      "pyscf": 4
+    },
+    {
+      "label": "restored_after",
+      "blas": 4,
+      "pyscf": 4
+    }
+  ],
+  "solves": [
+    {
+      "label": "baseline",
+      "matrix": [
+        [
+          4.0,
+          2.0,
+          -2.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0,
+          0.0,
+          -0.5
+        ],
+        [
+          -2.0,
+          0.0,
+          5.25,
+          1.25
+        ],
+        [
+          1.0,
+          -0.5,
+          1.25,
+          5.5
+        ]
+      ],
+      "rhs": [
+        -6.5,
+        -7.75,
+        13.125,
+        3.0
+      ],
+      "expected": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "answer": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "residual_max_abs": 0.0,
+      "error_max_abs": 0.0,
+      "tolerance": 2.914335439641036e-13,
+      "pass": true
+    },
+    {
+      "label": "pyscf_context_before_explicit_setter",
+      "matrix": [
+        [
+          4.0,
+          2.0,
+          -2.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0,
+          0.0,
+          -0.5
+        ],
+        [
+          -2.0,
+          0.0,
+          5.25,
+          1.25
+        ],
+        [
+          1.0,
+          -0.5,
+          1.25,
+          5.5
+        ]
+      ],
+      "rhs": [
+        -6.5,
+        -7.75,
+        13.125,
+        3.0
+      ],
+      "expected": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "answer": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "residual_max_abs": 0.0,
+      "error_max_abs": 0.0,
+      "tolerance": 2.914335439641036e-13,
+      "pass": true
+    },
+    {
+      "label": "explicit_blas_one",
+      "matrix": [
+        [
+          4.0,
+          2.0,
+          -2.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0,
+          0.0,
+          -0.5
+        ],
+        [
+          -2.0,
+          0.0,
+          5.25,
+          1.25
+        ],
+        [
+          1.0,
+          -0.5,
+          1.25,
+          5.5
+        ]
+      ],
+      "rhs": [
+        -6.5,
+        -7.75,
+        13.125,
+        3.0
+      ],
+      "expected": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "answer": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "residual_max_abs": 0.0,
+      "error_max_abs": 0.0,
+      "tolerance": 2.914335439641036e-13,
+      "pass": true
+    },
+    {
+      "label": "pyscf_context_after_explicit_setter",
+      "matrix": [
+        [
+          4.0,
+          2.0,
+          -2.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0,
+          0.0,
+          -0.5
+        ],
+        [
+          -2.0,
+          0.0,
+          5.25,
+          1.25
+        ],
+        [
+          1.0,
+          -0.5,
+          1.25,
+          5.5
+        ]
+      ],
+      "rhs": [
+        -6.5,
+        -7.75,
+        13.125,
+        3.0
+      ],
+      "expected": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "answer": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "residual_max_abs": 0.0,
+      "error_max_abs": 0.0,
+      "tolerance": 2.914335439641036e-13,
+      "pass": true
+    },
+    {
+      "label": "restored",
+      "matrix": [
+        [
+          4.0,
+          2.0,
+          -2.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0,
+          0.0,
+          -0.5
+        ],
+        [
+          -2.0,
+          0.0,
+          5.25,
+          1.25
+        ],
+        [
+          1.0,
+          -0.5,
+          1.25,
+          5.5
+        ]
+      ],
+      "rhs": [
+        -6.5,
+        -7.75,
+        13.125,
+        3.0
+      ],
+      "expected": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "answer": [
+        1.0,
+        -2.0,
+        3.0,
+        -0.5
+      ],
+      "residual_max_abs": 0.0,
+      "error_max_abs": 0.0,
+      "tolerance": 2.914335439641036e-13,
+      "pass": true
+    }
+  ],
+  "threadpoolctl_probe": {
+    "available": false,
+    "exception": "ModuleNotFoundError",
+    "message": "No module named 'threadpoolctl'"
+  },
+  "intentional_exception_observed": true,
+  "max_answer_difference": 0.0,
+  "bitwise_equal_answers": true,
+  "environment_unchanged": true,
+  "completed": true
+}

@@ -1,0 +1,182 @@
+{
+  "status": "POSTMORTEM_OBSERVATIONS_ONLY",
+  "tiny_checks_passed": 3,
+  "terminal_artifacts_verified": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "original_metric.npy": "00a6c22b1bbf0d90ae9d4905b4dd4fa9edc864bb27c2af9a93ca2ce1b40aa3af",
+    "launch-gate.json": "4f63494cdc5ebdb9551e03bd8e680709efcceeec34a966c836825fa0ca475bce",
+    "supervisor.json": "c8695a21a3a078a63dc8f12567e901814223c78d6d283aad40b0f5f339167518",
+    "worker-started.json": "015d6ac6df070d1251ece8a811d740bfcfc3a7269fe93a120ad3c8548de51b07",
+    "native.log": "0085a91fe4e9ed61c27b26d36ca54a5118d842e834ee91fe38786bdd9a7607d9",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "saved_metric": {
+    "all_finite": true,
+    "symmetry_max": 0.0,
+    "infinity_norm": 40024.485520835566,
+    "diagonal_min": 0.2101484812890207,
+    "diagonal_max": 214.0643709742175,
+    "positive_definiteness_established": false,
+    "shape": [
+      19612,
+      19612
+    ],
+    "dtype": "float64",
+    "fortran_contiguous": true,
+    "file_bytes": 3077044480
+  },
+  "crash_original_sha256": "12cb3ad364faf3eb656ebed8de97c4fc73374b13bdc52d57a3b04e96000a2647",
+  "crash_preserved_path": "raw/python3.12-2026-10-16-065749.ips",
+  "exception": {
+    "codes": "0x0000000000000002, 0x0000000105e30000",
+    "rawCodes": [
+      2,
+      4393730048
+    ],
+    "type": "EXC_BAD_ACCESS",
+    "signal": "SIGBUS",
+    "subtype": "KERN_PROTECTION_FAILURE at 0x0000000105e30000"
+  },
+  "termination": {
+    "flags": 0,
+    "code": 10,
+    "namespace": "SIGNAL",
+    "indicator": "Bus error: 10",
+    "byProc": "exc handler",
+    "byPid": 73957
+  },
+  "faulting_thread_frames": [
+    {
+      "symbol": ".Ldgemm_tcopy_L4_M4_20",
+      "symbolLocation": 8,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "inner_thread",
+      "symbolLocation": 1048,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "exec_threads",
+      "symbolLocation": 304,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "exec_blas.omp_outlined.1",
+      "symbolLocation": 192,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "__kmp_invoke_microtask",
+      "symbolLocation": 156,
+      "imageIndex": 29
+    },
+    {
+      "symbol": "__kmp_invoke_task_func",
+      "symbolLocation": 336,
+      "imageIndex": 29
+    },
+    {
+      "symbol": "__kmp_fork_call",
+      "symbolLocation": 7384,
+      "imageIndex": 29
+    },
+    {
+      "symbol": "__kmpc_fork_call",
+      "symbolLocation": 188,
+      "imageIndex": 29
+    },
+    {
+      "symbol": "exec_blas",
+      "symbolLocation": 392,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "dsyrk_thread_LN",
+      "symbolLocation": 520,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "dpotrf_L_parallel",
+      "symbolLocation": 564,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "dpotrf_",
+      "symbolLocation": 416,
+      "imageIndex": 26
+    },
+    {
+      "symbol": "int sp_linalg::_cholesky<double>(tagPyArrayObject*, tagPyArrayObject*, int, int, int, std::__1::vector<sp_linalg::SliceStatus, std::__1::allocator<sp_linalg::SliceStatus>>&)",
+      "symbolLocation": 580,
+      "imageIndex": 48
+    },
+    {
+      "symbol": "_linalg_cholesky(_object*, _object*)",
+      "symbolLocation": 480,
+      "imageIndex": 48
+    },
+    {
+      "symbol": "cfunction_call",
+      "symbolLocation": 308,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "_PyObject_MakeTpCall",
+      "symbolLocation": 316,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "_PyEval_EvalFrameDefault",
+      "symbolLocation": 52392,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "PyEval_EvalCode",
+      "symbolLocation": 300,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "run_mod",
+      "symbolLocation": 228,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "_PyRun_SimpleFileObject",
+      "symbolLocation": 1516,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "_PyRun_AnyFileObject",
+      "symbolLocation": 268,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "Py_RunMain",
+      "symbolLocation": 3144,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "pymain_main",
+      "symbolLocation": 628,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "main",
+      "symbolLocation": 56,
+      "imageIndex": 0
+    },
+    {
+      "symbol": "start",
+      "symbolLocation": 6688,
+      "imageIndex": 158
+    }
+  ],
+  "parent_metric_recomputed": false,
+  "factorizations": 0,
+  "solves": 0,
+  "J_calls": 0,
+  "SCFs": 0,
+  "root_cause_established": false,
+  "physical_admission": false
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "result": {
+    "comparisons": {
+      "A2": {
+        "exact_equal": true,
+        "max_absolute_difference": 0.0,
+        "RMS_difference": 0.0,
+        "acceptance_threshold": null
+      },
+      "B": {
+        "exact_equal": false,
+        "max_absolute_difference": 1.0000000161269895e-08,
+        "RMS_difference": 9.999999828202991e-09,
+        "acceptance_threshold": null
+      },
+      "C": {
+        "exact_equal": false,
+        "max_absolute_difference": 1.0000000161269895e-08,
+        "RMS_difference": 9.999999828202991e-09,
+        "acceptance_threshold": null
+      }
+    },
+    "condition": {
+      "reciprocal_one_norm_condition_estimate": 0.09489389305903068,
+      "one_norm_condition_estimate": 10.5380859375,
+      "info": 0,
+      "certified_bound": false
+    },
+    "factor_matches_prior": false
+  },
+  "max_answer_error": 0.0,
+  "intentional_exception_observed": true,
+  "parent_native_execution": false
+}

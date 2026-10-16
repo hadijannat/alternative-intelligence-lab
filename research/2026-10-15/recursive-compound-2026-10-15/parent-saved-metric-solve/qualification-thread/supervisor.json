@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-saved-metric-solve/test_run.py",
+    "--thread-worker"
+  ],
+  "pid": 76550,
+  "returncode": 0,
+  "termination_reason": null,
+  "monitor_error": null,
+  "wall_seconds": 0.6340587909799069,
+  "wall_cap_seconds": 30,
+  "rss_guard_bytes": 1073741824,
+  "sampled_max_rss_bytes": 108298240,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0019283749861642718,
+      "rss_bytes": 4636672
+    },
+    {
+      "elapsed_seconds": 0.2068133329739794,
+      "rss_bytes": 65388544
+    },
+    {
+      "elapsed_seconds": 0.4206019159173593,
+      "rss_bytes": 108298240
+    }
+  ],
+  "hard_OS_memory_limit": false
+}

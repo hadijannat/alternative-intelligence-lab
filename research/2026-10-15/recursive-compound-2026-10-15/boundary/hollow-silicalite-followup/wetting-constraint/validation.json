@@ -1,0 +1,17 @@
+{
+  "status": "PASS_ARTIFACT_INTEGRITY_ONLY",
+  "observed_utc": "2026-10-16T04:56:41Z or later in same tool session",
+  "command_exit_code": 0,
+  "query_count": 7,
+  "new_roles": 0,
+  "new_admissions": 0,
+  "scientific_target_validation": false,
+  "checks": [
+    {"path": "raw/article-response.html", "bytes": 5494, "sha256": "d4f436fca0a5fac02a4adae7b4afad1c4aebdaa5140dd89abb748103613805df"},
+    {"path": "raw/article.headers", "bytes": 2115, "sha256": "8778e10559d1a84c46e4ed8d41ee42919ef0fb234f1b8acc19cc8737013d21be"}
+  ],
+  "report_sha256": "e4e40a9b75e078a739fdd01b22bc57f191dd7ea576335ddb594933e07b25a7d8",
+  "ledger_sha256": "1e729823e4b386ad2c42793e67d814685bfaadd10959ebc4c38ddc021892e1ad",
+  "assertions_observed": ["JSON parses", "query_count equals list length and seven", "new roles and admissions both zero", "held-out target validation false", "raw artifacts nonempty and hashes match", "raw response contains Just a moment", "headers contain 403", "report explicitly states no target experiment and no visual figure review"],
+  "not_verified_by_this_check": ["scientific target function", "microscopic transport mechanism", "source figures", "raw experimental measurements", "independent reviewer acceptance"]
+}

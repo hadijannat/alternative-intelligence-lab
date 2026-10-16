@@ -1,0 +1,160 @@
+{
+  "completed": false,
+  "receipt": {
+    "argv": [
+      "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python3.12",
+      "-B",
+      "PROJECT_ROOT/recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run.py",
+      "--worker"
+    ],
+    "pid": 73957,
+    "returncode": -10,
+    "termination_reason": null,
+    "monitor_error": null,
+    "wall_seconds": 6.843436292023398,
+    "wall_cap_seconds": 1000,
+    "rss_guard_bytes": 10737418240,
+    "sampled_max_rss_bytes": 6213337088,
+    "samples": [
+      {
+        "elapsed_seconds": 0.005667292047291994,
+        "rss_bytes": 7356416
+      },
+      {
+        "elapsed_seconds": 0.21862800000235438,
+        "rss_bytes": 72122368
+      },
+      {
+        "elapsed_seconds": 0.4322773750172928,
+        "rss_bytes": 123387904
+      },
+      {
+        "elapsed_seconds": 0.6423898750217631,
+        "rss_bytes": 204521472
+      },
+      {
+        "elapsed_seconds": 0.8549887920962647,
+        "rss_bytes": 312999936
+      },
+      {
+        "elapsed_seconds": 1.0674192920560017,
+        "rss_bytes": 319881216
+      },
+      {
+        "elapsed_seconds": 1.2800365830771625,
+        "rss_bytes": 324059136
+      },
+      {
+        "elapsed_seconds": 1.4963973329868168,
+        "rss_bytes": 1653309440
+      },
+      {
+        "elapsed_seconds": 1.7099002080503851,
+        "rss_bytes": 2137833472
+      },
+      {
+        "elapsed_seconds": 1.9187672500265762,
+        "rss_bytes": 2329952256
+      },
+      {
+        "elapsed_seconds": 2.1347394580952823,
+        "rss_bytes": 3193028608
+      },
+      {
+        "elapsed_seconds": 2.3504311670549214,
+        "rss_bytes": 3276865536
+      },
+      {
+        "elapsed_seconds": 2.56657858309336,
+        "rss_bytes": 3276865536
+      },
+      {
+        "elapsed_seconds": 2.775728417094797,
+        "rss_bytes": 3059613696
+      },
+      {
+        "elapsed_seconds": 2.9832754170056432,
+        "rss_bytes": 3067019264
+      },
+      {
+        "elapsed_seconds": 3.190233708010055,
+        "rss_bytes": 3062104064
+      },
+      {
+        "elapsed_seconds": 3.4017181250965223,
+        "rss_bytes": 3113779200
+      },
+      {
+        "elapsed_seconds": 3.6085447079967707,
+        "rss_bytes": 3137765376
+      },
+      {
+        "elapsed_seconds": 3.850728042074479,
+        "rss_bytes": 3133652992
+      },
+      {
+        "elapsed_seconds": 4.062127333017997,
+        "rss_bytes": 3133652992
+      },
+      {
+        "elapsed_seconds": 4.27872429206036,
+        "rss_bytes": 3133652992
+      },
+      {
+        "elapsed_seconds": 4.484159416984767,
+        "rss_bytes": 3133652992
+      },
+      {
+        "elapsed_seconds": 4.691789000062272,
+        "rss_bytes": 4236541952
+      },
+      {
+        "elapsed_seconds": 4.908351833000779,
+        "rss_bytes": 5610536960
+      },
+      {
+        "elapsed_seconds": 5.128635458066128,
+        "rss_bytes": 5229969408
+      },
+      {
+        "elapsed_seconds": 5.343975625000894,
+        "rss_bytes": 5495914496
+      },
+      {
+        "elapsed_seconds": 5.560095667024143,
+        "rss_bytes": 6012239872
+      },
+      {
+        "elapsed_seconds": 5.767403000034392,
+        "rss_bytes": 5935333376
+      },
+      {
+        "elapsed_seconds": 5.982997125014663,
+        "rss_bytes": 5109972992
+      },
+      {
+        "elapsed_seconds": 6.202030749991536,
+        "rss_bytes": 4950556672
+      },
+      {
+        "elapsed_seconds": 6.417104792082682,
+        "rss_bytes": 3082289152
+      },
+      {
+        "elapsed_seconds": 6.634080916992389,
+        "rss_bytes": 6213337088
+      }
+    ],
+    "hard_OS_memory_limit": false
+  },
+  "artifact_hashes": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "original_metric.npy": "00a6c22b1bbf0d90ae9d4905b4dd4fa9edc864bb27c2af9a93ca2ce1b40aa3af",
+    "launch-gate.json": "4f63494cdc5ebdb9551e03bd8e680709efcceeec34a966c836825fa0ca475bce",
+    "supervisor.json": "c8695a21a3a078a63dc8f12567e901814223c78d6d283aad40b0f5f339167518",
+    "worker-started.json": "015d6ac6df070d1251ece8a811d740bfcfc3a7269fe93a120ad3c8548de51b07",
+    "native.log": "0085a91fe4e9ed61c27b26d36ca54a5118d842e834ee91fe38786bdd9a7607d9",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "physical_admission": false
+}

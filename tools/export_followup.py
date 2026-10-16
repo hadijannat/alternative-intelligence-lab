@@ -49,6 +49,10 @@ def strip_signed_urls(text):
 
 
 def exclusion(rel, directory=False):
+    if rel.parts[:3] == ('recursive-compound-2026-10-15', 'parent-blas-control-audit', 'sources'):
+        return 'acquired third-party OpenBLAS source snapshots; hashes and URLs retained in authored receipts'
+    if rel.as_posix() == 'recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/original_metric.npy' and not directory:
+        return '3077044480-byte saved metric exceeds GitHub 100 MiB limit; local original retained, hash and inspection published'
     parts = tuple(part.lower() for part in rel.parts)
     name = rel.name.lower()
     if parts[:2] == ('recursive-compound-2026-10-15', 'parent-openmp'):

@@ -1,0 +1,40 @@
+{
+  "schema": "wetting-constraint-acquisition-v1",
+  "review_state": "READY_FOR_INDEPENDENT_REVIEW",
+  "source_doi": "10.1039/C9NJ01891C",
+  "primary_url": "https://pubs.rsc.org/en/content/articlehtml/2020/nj/c9nj01891c",
+  "source_kind": "primary publisher article text returned by search index; direct full-text payload not acquired",
+  "query_count": 7,
+  "queries": [
+    "\"C9NJ01891C\" \"96\"",
+    "\"C9NJ01891C\" supporting information",
+    "\"C9NJ01891C\" \"cracks\" \"nm\"",
+    "\"C9NJ01891C\" \"supplementary\" OR \"supporting\" OR \"ESI\" OR \"dataset\"",
+    "\"C9NJ01891C\" \"nanoboxes were\"",
+    "\"The effect of nanostructures\" \"Huve\" \"hal\"",
+    "\"c9nj01891c\" \"suppdata\""
+  ],
+  "access_events": [
+    {"method": "web.open", "url": "https://pubs.rsc.org/en/content/articlehtml/2020/nj/c9nj01891c", "outcome": "Internal Error; no article obtained"},
+    {"method": "web.search", "query_indices_1_based": [1, 2, 3, 4, 5], "outcome": "Primary publisher indexed article and landing text obtained; article sections and Table 1 independently read"},
+    {"method": "curl --location --max-time 30 --max-filesize 2000000 --dump-header raw/article.headers --output raw/article-response.html --write-out '%{http_code} %{size_download}\\n' https://pubs.rsc.org/en/content/articlehtml/2020/nj/c9nj01891c", "exit_code": 0, "http_code": 403, "bytes": 5494, "outcome": "Cloudflare challenge; preserved failed acquisition, not scientific source payload"},
+    {"method": "web.open", "url": "https://pubs.rsc.org/en/content/articlelanding/2020/nj/c9nj01891c", "outcome": "Internal Error; no landing-page payload obtained"},
+    {"method": "web.search", "query_indices_1_based": [6, 7], "outcome": "No usable target supplement or institutional full-text lead; unrelated results discarded"}
+  ],
+  "raw_artifacts": [
+    {"path": "raw/article-response.html", "bytes": 5494, "sha256": "d4f436fca0a5fac02a4adae7b4afad1c4aebdaa5140dd89abb748103613805df", "classification": "HTTP_403_CHALLENGE_NOT_ARTICLE"},
+    {"path": "raw/article.headers", "sha256": "8778e10559d1a84c46e4ed8d41ee42919ef0fb234f1b8acc19cc8737013d21be", "classification": "HTTP_RESPONSE_HEADERS"}
+  ],
+  "supporting_information_acquired": false,
+  "raw_experimental_dataset_acquired": false,
+  "figures_visually_reviewed": false,
+  "target_parameters_inferred": false,
+  "held_out_target_validation_performed": false,
+  "new_roles": 0,
+  "new_verified_integrated_complements": 0,
+  "decision": "B1_REFINEMENT_ONLY",
+  "observation_interpretation_map": "REPORT.md: Independently reopened primary evidence",
+  "proposal_status": "Original prospective measurement design; not an executed experiment or validated model",
+  "prior_dossier_policy": "No existing hollow-silicalite dossier file modified",
+  "attempt_directory_status": "omo-agent-toolkit ulw-loop status --json returned ULW_LOOP_PLAN_MISSING; receipt belongs under .omo/evidence/"
+}

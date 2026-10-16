@@ -1,0 +1,18 @@
+{
+  "status": "REVIEWED_SAMPLING_IDENTITY_CONSTRAINT_ONLY",
+  "date_UTC": "2026-10-16",
+  "artifact_sha256": {
+    "evidence.json": "ce14371da898613af0e1851bf8913f2a95760a26edd15c09fa696348e25c1a95",
+    "REPORT.md": "e8b334cd16c9dc95e57e4f26dc0c8c31257ad48a08e04fb1b5198e4a1fd5fc3a"
+  },
+  "independent_review": "identity_next_primary read-only source comparison; scoped PASS",
+  "source_uncertainties": {
+    "NMR_assignments": null,
+    "full_paper_acquired": false,
+    "target_identity": false
+  },
+  "new_candidate_roles": 0,
+  "verified_integrated_complement_admissions": 0,
+  "heldout_target_validation": false,
+  "physical_target_tested": false
+}

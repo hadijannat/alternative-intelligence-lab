@@ -1,5 +1,9 @@
 # Research archive policy
 
+The exact `recursive-compound-2026-10-15/parent-blas-control-audit/sources` subtree contains acquired upstream OpenBLAS source snapshots, including its upstream README. It is excluded as third-party source material; authored report and verification receipts retain URLs and hashes.
+
+One exact-path size exception excludes `recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/original_metric.npy` (3,077,044,480 bytes), which exceeds GitHub's 100 MiB file limit. The local original remains untouched. Its SHA256, dimensions, finite/symmetry inspection and failed-launch linkage remain in the published launch and postmortem receipts. This does not establish positive definiteness or a successful solve. Other binary arrays retain the existing policy.
+
 Three mixed acquisition records also held authored scientific findings. Saved constants, source URLs, inspection extent and original/published hashes are preserved in [qualified-source-constants.json](../data/qualified-source-constants.json). Two negative admission reviews are preserved in [source-admission-findings.json](../data/source-admission-findings.json), including missing inputs and decisions. Raw provider responses are excluded. These projections perform no new scientific calculation; historical execution status is superseded by the current final report.
 
 ## Final publication curation

@@ -1,0 +1,19 @@
+{
+  "status": "REVIEWED_B1_WETTING_CONSTRAINT_ONLY",
+  "date_UTC": "2026-10-16",
+  "artifact_sha256": {
+    "acquisition.json": "1e729823e4b386ad2c42793e67d814685bfaadd10959ebc4c38ddc021892e1ad",
+    "REPORT.md": "e4e40a9b75e078a739fdd01b22bc57f191dd7ea576335ddb594933e07b25a7d8",
+    "validation.json": "cdc5e990e88f8884d415d3b82b059052ee085c4277dc3df85b46ed4093b108fb"
+  },
+  "independent_review": ".omo/evidence/wetting-constraint-review.md",
+  "source_uncertainties": {
+    "lithium_ICP_uncertainty": null,
+    "defect_population_measured": false,
+    "target_medium_transfer_validated": false
+  },
+  "new_candidate_roles": 0,
+  "verified_integrated_complement_admissions": 0,
+  "heldout_target_validation": false,
+  "physical_target_tested": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "SOURCE_SUPPORTED_SAMPLING_CONSTRAINT_ONLY",
+  "doi": "10.1002/ejic.200800500",
+  "primary_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/ejic.200800500",
+  "access_level": "Publisher-indexed abstract and graphical-abstract text, not full paper",
+  "date_checked_UTC": "2026-10-16",
+  "source_observations": {
+    "solution_complex_proposed_formula": "[TeMo3V5O27]5-",
+    "initial_crystallizing_species": "[TeMo6O24]6-",
+    "remaining_solution_shifted_toward": "[V9TeO28]5-",
+    "solution_complex_regenerated_on_redissolving_precipitate": true,
+    "distribution_diagram_Mo_V_Te_ratio": [1, 0.3, 0.23],
+    "counterion": "NH4+",
+    "acid": "HClO4",
+    "distribution_diagram_pH_range": [1, 7.25],
+    "full_paper_acquired": false,
+    "numerical_51V_assignments_recovered": false,
+    "temperature_K": null,
+    "total_concentration_M": null,
+    "NMR_reference_and_acquisition_settings": null,
+    "uncertainty": null,
+    "graphical_abstract_formula_conflict_preserved": true
+  },
+  "query_access_ledger": {
+    "researcher_queries": [
+      "\"NMR Spectroscopic Studies of Interactions in Solution\" MoVTeNb",
+      "\"ejic.200800500\" \"ppm\"",
+      "\"ejic.200800500\" pdf",
+      "\"Maksimovskaya\" \"TeMo3V5\" NMR",
+      "site:chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/ejic.200800500 \"chemical\" \"shift\"",
+      "\"Maksimovskaya\" \"4906\" \"51\" \"ppm\""
+    ],
+    "researcher_access_outcomes": [
+      "Publisher HTML and PDF direct opens returned internal errors; indexed abstract accessible.",
+      "Adjacent PMC9088750 returned CAPTCHA; not substituted for the requested dataset."
+    ],
+    "root_queries": [
+      {"query": "site:chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/ejic.200800500 \"TeMo3V5\" \"redissolution\"", "outcome": "No results"},
+      {"query": "\"NMR Spectroscopic Studies of Interactions in Solution during the Synthesis\"", "outcome": "Primary publisher abstract independently inspected; irrelevant secondary results not used"}
+    ],
+    "root_downloads": 0,
+    "primary_payload_hash": null
+  },
+  "original_inference": "Measure operating mother liquor before processing and compare concentration, isolation and reconstitution controls; processing-induced speciation is a rival to continuity or inherited state.",
+  "reaction_shorthand_used_as_balanced_kinetics": false,
+  "target_tested": false,
+  "fitted_target_parameters": [],
+  "heldout_target_validation": false,
+  "new_candidate_roles": 0,
+  "verified_integrated_complement_admissions": 0,
+  "negative_results_preserved": true
+}

@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication scope
+## Current publication scope: terminal v2 and unlaunched replay
+
+Publish the continuation after `77c7c2e031073aa415283a671f853edc1d91c7bb`, retaining all failures and source-access limits. Metric v2 is terminal SIGBUS during Cholesky, after saving the original metric. The read-only postmortem establishes finite/symmetric saved entries only; there is no completed factor or solve. The tiny BLAS probe corrects the requested `OMP4/BLAS1` shorthand to observed configured counts 4/4 for this binary; the explicit setter gives 1/4 but changes persistent process control state. Preserve the earlier results and do not attribute the crash to threading without further evidence.
+
+The separate saved-metric replay is prepared, with eight tests and a tiny child, but has no independent root launch approval or large run. Its proposed fresh-child protocol retains 1000 seconds/10 GiB sampled RSS, saved inputs, explicit BLAS control and all previous numerical criteria. Publication performs no native replay. A later numerical continuation first needs independent review and bound approval of that exact preparation.
+
+The reviewed B1 wetting refinement requires matched-shell water/solute exchange, adsorption controls and intact identity plus competence. The concentration/speciation refinement requires operating-solution identity before and after sample processing. Their access limits and source disagreements remain explicit. Prospective holdouts must use independent batches and retain background, late-time and failed-recovery outcomes; no such target validation has run. Aggregate: 24 assessed roles, zero verified integrated complements, all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. The full scientific objective remains active.
+
+## Historical publication scope
 
 Publish the changes following `95c7b86b943bbef9ab2ce7faa5dff3a8cb5faccf` while retaining all failed attempts and source discrepancies. The metric diagnostic v1 failed its metadata fingerprint before metric construction. V2 is a separate, unrun preparation with nine passing qualification tests and its initial failed qualification retained. Publication does not authorize or substitute for its independent launch review.
 

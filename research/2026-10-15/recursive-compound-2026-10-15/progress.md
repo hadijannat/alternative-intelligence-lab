@@ -1,6 +1,18 @@
 # Progress checkpoint
 
-## Current publication: failed metric setup, unrun v2 and acquired retention data
+## Current publication: native failure, BLAS correction and source constraints
+
+The user requests committing the continuation after `77c7c2e031073aa415283a671f853edc1d91c7bb` and pushing main. This section supersedes publication-state statements below. The full scientific objective remains active and unmet: 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unresolved.
+
+Metric v2 launched once after bound review and failed with SIGBUS, worker 73957 returning -10 after 6.843436292023398 seconds. Sampled maximum RSS was 6213337088 bytes; no supervisor limit or monitor error was recorded. It saved original_metric.npy before the invalid write in OpenBLAS Cholesky. The read-only postmortem records all-finite entries, symmetry discrepancy 0 and infinity norm 40024.485520835566; it performs no new factorization. No completed factor, answer, residual or condition result exists. The exact native cause remains unknown. Earlier v1 and J failures remain intact. See parent-metric-solve-diagnostic-v2/REPORT.md.
+
+The fresh tiny BLAS-control audit reports configured BLAS/PySCF counts 4/4 under the previous environment request and 1/4 after the explicit BLAS setter. Five tiny known-answer solves pass exact checks; two setup failures remain preserved. Getter restoration to 4/4 does not restore the original implicit mode, and configured counts do not measure large executing teams. THREAD_CONTROL_CORRECTION.md scopes this correction to the pinned binary and retains every historical numerical outcome. No crash-cause or chemical-function claim follows.
+
+The separate parent-saved-metric-solve preparation contains eight passing tests and a tiny child. It is unlaunched and has no independent root launch approval. The proposed fresh-child replay reuses saved inputs under explicit BLAS control within 1000 seconds/10 GiB sampled RSS. No large factorization, J, SCF or PCM is launched for this publication request.
+
+Reviewed wetting and concentration/speciation dossiers add matched-shell water/solute exchange and pre/post-processing identity controls. Primary-text access failures, uncertain defect/localization interpretations and unavailable full spectra remain explicit. Neither dossier supplies target transport parameters, active inheritance or held-out target validation, and neither adds an assessed role or admitted complement. Source update receipt: workspace .omo/evidence/publication-blas-checkpoint/source.md. Commit, push and hosted checks are recorded separately by the publication workflow.
+
+## Historical publication: failed metric setup, unrun v2 and acquired retention data
 
 The user requests committing the current changes and pushing main, following published baseline `95c7b86b943bbef9ab2ce7faa5dff3a8cb5faccf`. This section supersedes the publication-state statements in historical sections below. The full scientific goal remains active and unmet, with 24 assessed roles and zero verified integrated complements.
 

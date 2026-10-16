@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 3154,
-  "published_bytes": 1768610031,
-  "unique_published_blobs": 2395,
-  "excluded_entries": 743,
+  "included_files": 3224,
+  "published_bytes": 1768830544,
+  "unique_published_blobs": 2461,
+  "excluded_entries": 759,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 885,
+    "recursive-compound-2026-10-15": 955,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,30 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 47902,
-      "source_sha256": "646ba98b17960d90c55aa9f25dadb7226fd8d8de2ed5ec1ec310b5dee73fed8e",
-      "published_size": 47902,
-      "published_sha256": "646ba98b17960d90c55aa9f25dadb7226fd8d8de2ed5ec1ec310b5dee73fed8e",
+      "source_size": 51368,
+      "source_sha256": "111612e15e7b9a119e7f8967f5a460bec1f1570deb63b6a7f0741d971d9166ee",
+      "published_size": 51368,
+      "published_sha256": "111612e15e7b9a119e7f8967f5a460bec1f1570deb63b6a7f0741d971d9166ee",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/THREAD_CONTROL_CORRECTION.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1984,
+      "source_sha256": "49468d04134d94947cc94aa0f444328f5618547ea21c4b47a84ffa8cdf4edfe1",
+      "published_size": 1984,
+      "published_sha256": "49468d04134d94947cc94aa0f444328f5618547ea21c4b47a84ffa8cdf4edfe1",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 16804,
-      "source_sha256": "23a39590c3e682581427d4069665e52c270cace06795e626d5d84ee9bc428887",
-      "published_size": 16804,
-      "published_sha256": "23a39590c3e682581427d4069665e52c270cace06795e626d5d84ee9bc428887",
+      "source_size": 18548,
+      "source_sha256": "99b1e0be9f6c7f12b63de338d74ae28f06aad1b268c34ae75c24fac36c02c3cc",
+      "published_size": 18548,
+      "published_sha256": "99b1e0be9f6c7f12b63de338d74ae28f06aad1b268c34ae75c24fac36c02c3cc",
       "transformations": []
     },
     {
@@ -5475,6 +5485,58 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 8339,
+      "source_sha256": "e4e40a9b75e078a739fdd01b22bc57f191dd7ea576335ddb594933e07b25a7d8",
+      "published_size": 8339,
+      "published_sha256": "e4e40a9b75e078a739fdd01b22bc57f191dd7ea576335ddb594933e07b25a7d8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/ROOT_REVIEW.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 755,
+      "source_sha256": "ab7e331bab39501211b41b62da80dbaae36309c012287da49b4e275948c28f88",
+      "published_size": 755,
+      "published_sha256": "ab7e331bab39501211b41b62da80dbaae36309c012287da49b4e275948c28f88",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2918,
+      "source_sha256": "1e729823e4b386ad2c42793e67d814685bfaadd10959ebc4c38ddc021892e1ad",
+      "published_size": 2918,
+      "published_sha256": "1e729823e4b386ad2c42793e67d814685bfaadd10959ebc4c38ddc021892e1ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/raw/article-response.html",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5494
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/raw/article.headers",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 2115
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/hollow-silicalite-followup/wetting-constraint/validation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1232,
+      "source_sha256": "cdc5e990e88f8884d415d3b82b059052ee085c4277dc3df85b46ed4093b108fb",
+      "published_size": 1232,
+      "published_sha256": "cdc5e990e88f8884d415d3b82b059052ee085c4277dc3df85b46ed4093b108fb",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/boundary/nd-linker-proposition.json",
       "status": "included",
       "reason": null,
@@ -5812,10 +5874,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 23644,
-      "source_sha256": "7e34098a070617d6f1e8297ba168695366ee3f7bc0ab8ed97da2fa4f4581c8b5",
-      "published_size": 23644,
-      "published_sha256": "7e34098a070617d6f1e8297ba168695366ee3f7bc0ab8ed97da2fa4f4581c8b5",
+      "source_size": 25613,
+      "source_sha256": "08d4575efc82648dc3f1d7c94bdf9c3d61cec8ecd88c662d29c5fbd810cc5615",
+      "published_size": 25613,
+      "published_sha256": "08d4575efc82648dc3f1d7c94bdf9c3d61cec8ecd88c662d29c5fbd810cc5615",
       "transformations": []
     },
     {
@@ -7630,6 +7692,36 @@
       "source_size": 287393
     },
     {
+      "path": "recursive-compound-2026-10-15/identity/concentration-speciation-followup/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2525,
+      "source_sha256": "e8b334cd16c9dc95e57e4f26dc0c8c31257ad48a08e04fb1b5198e4a1fd5fc3a",
+      "published_size": 2525,
+      "published_sha256": "e8b334cd16c9dc95e57e4f26dc0c8c31257ad48a08e04fb1b5198e4a1fd5fc3a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/concentration-speciation-followup/ROOT_REVIEW.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 656,
+      "source_sha256": "353cc3ce4a006086b85ed47b93c191a2e54e69f1bc5cb2d77a0e722071133711",
+      "published_size": 656,
+      "published_sha256": "353cc3ce4a006086b85ed47b93c191a2e54e69f1bc5cb2d77a0e722071133711",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/concentration-speciation-followup/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2589,
+      "source_sha256": "ce14371da898613af0e1851bf8913f2a95760a26edd15c09fa696348e25c1a95",
+      "published_size": 2589,
+      "published_sha256": "ce14371da898613af0e1851bf8913f2a95760a26edd15c09fa696348e25c1a95",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/identity/extract.py",
       "status": "included",
       "reason": null,
@@ -8654,6 +8746,168 @@
       "status": "excluded",
       "reason": "third-party raw payload; source URL/hash retained in ledgers",
       "source_size": 12235181
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6551,
+      "source_sha256": "8116a264eb0e66fa11aee5c8a20be7d2b2c1b6264dd77d017017ee85fbce0ba7",
+      "published_size": 6551,
+      "published_sha256": "8116a264eb0e66fa11aee5c8a20be7d2b2c1b6264dd77d017017ee85fbce0ba7",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v1/probe.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 7741,
+      "source_sha256": "95984788b96c44792816aa3229ebec7e1013f5decd093ae43c0517139fce9823",
+      "published_size": 7741,
+      "published_sha256": "95984788b96c44792816aa3229ebec7e1013f5decd093ae43c0517139fce9823",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1111
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 858,
+      "source_sha256": "29b9b3103d46cef594ae5ea2a6ce6d5d89299ae9c1819480a5b3b8be8d5e7b28",
+      "published_size": 786,
+      "published_sha256": "39d23d4091224c4369f9438b1693e157b6507761490c0a8924e284c19b7b8dfb",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v2/probe.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 7859,
+      "source_sha256": "d18c42b307783572c7970d51626b27af65f31d3826fff9dee4c3b73c0416e8c6",
+      "published_size": 7859,
+      "published_sha256": "d18c42b307783572c7970d51626b27af65f31d3826fff9dee4c3b73c0416e8c6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v2/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 1505
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v2/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/failed-v2/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 858,
+      "source_sha256": "b96d492608b1da0a3613931cd7e4734effe95a719b1d5f89dbff7637f0b1be55",
+      "published_size": 786,
+      "published_sha256": "59a70e8e79b9b43d13f2dd0a59c6f645fb8af3b61236c67e8c51047d67235401",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/observed.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 9930,
+      "source_sha256": "8223338fc24bc797b5e7871ccf2c73ce0573360ed0d64bd03afd9b95c7baf8c5",
+      "published_size": 9390,
+      "published_sha256": "c4131157eda6a7da94298d4fc045cb6b2330fc9bab6db958d29530f1e3c51f38",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/probe.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 8017,
+      "source_sha256": "ca98bec5a512e7a9ea7c9e786f3a39941daf1c3e314faf29d559ee9a401aeac5",
+      "published_size": 8017,
+      "published_sha256": "ca98bec5a512e7a9ea7c9e786f3a39941daf1c3e314faf29d559ee9a401aeac5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/sources",
+      "status": "excluded",
+      "reason": "acquired third-party OpenBLAS source snapshots; hashes and URLs retained in authored receipts",
+      "scope": "subtree"
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 946,
+      "source_sha256": "b0f61b708a4f5c335c630f081832c84b9848b4e5c01f36899a32cebe1599c866",
+      "published_size": 874,
+      "published_sha256": "1a118f61b0feb5e5775cd2813aa43f9743a14d81042d3bf36c42976eb537020c",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/verification.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1871,
+      "source_sha256": "19867b0620af103a0508da6497b935ba1ecb0e4f533ef341866c18b87c4cc9cb",
+      "published_size": 1871,
+      "published_sha256": "19867b0620af103a0508da6497b935ba1ecb0e4f533ef341866c18b87c4cc9cb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-blas-control-audit/verify.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 2756,
+      "source_sha256": "cbfdf250372dc0928dd7cfa97b2a7a256da3e01e5b7f35885a470f5df31dda87",
+      "published_size": 2756,
+      "published_sha256": "cbfdf250372dc0928dd7cfa97b2a7a256da3e01e5b7f35885a470f5df31dda87",
+      "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/parent-inputs/.omo/evidence/build.stdout.txt",
@@ -9706,6 +9960,31 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3640,
+      "source_sha256": "ce29bfccc88672237b17961ad5645b5663050ea0ced26da6d6522f7597aa40ea",
+      "published_size": 3640,
+      "published_sha256": "ce29bfccc88672237b17961ad5645b5663050ea0ced26da6d6522f7597aa40ea",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/independent-root-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 20438,
+      "source_sha256": "d86da87a208cc8b76e5fb71c7193921242dcfc984eb612f86122c264603e3b62",
+      "published_size": 17558,
+      "published_sha256": "a942316c7531785d1af0595d4cab87d213a771a8e272d6fc801969e3b951f81a",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 80
+        }
+      ]
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/metadata-probe.json",
       "status": "included",
       "reason": null,
@@ -9733,6 +10012,32 @@
       "source_sha256": "00509989dec1e7245edb34ac0e1ad614b6cb61b086d0a8379f6f26b81e324e92",
       "published_size": 991,
       "published_sha256": "00509989dec1e7245edb34ac0e1ad614b6cb61b086d0a8379f6f26b81e324e92",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/postmortem/inspect_saved_metric.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3642,
+      "source_sha256": "98c7fbd28ca00bc02c8fb249327955ed521990f27d8864e52446e95858608eda",
+      "published_size": 3642,
+      "published_sha256": "98c7fbd28ca00bc02c8fb249327955ed521990f27d8864e52446e95858608eda",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/postmortem/raw/python3.12-2026-10-16-065749.ips",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 55917
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/postmortem/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4568,
+      "source_sha256": "daa3a11b0fdeaa6cd226255d3ec05acd87ecc83ce42e9c5fe0330effe4d312c3",
+      "published_size": 4568,
+      "published_sha256": "daa3a11b0fdeaa6cd226255d3ec05acd87ecc83ce42e9c5fe0330effe4d312c3",
       "transformations": []
     },
     {
@@ -9764,10 +10069,10 @@
       "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 632,
-      "source_sha256": "f4a707702f1861fcabb84854beeeac99521331b0f2242e59a029b984a2f773bd",
-      "published_size": 632,
-      "published_sha256": "f4a707702f1861fcabb84854beeeac99521331b0f2242e59a029b984a2f773bd",
+      "source_size": 1115,
+      "source_sha256": "e5f1f976f8c2bbbd03fe429076a488dbfbbdd00a198ffec0b485aa817f47921d",
+      "published_size": 1115,
+      "published_sha256": "e5f1f976f8c2bbbd03fe429076a488dbfbbdd00a198ffec0b485aa817f47921d",
       "transformations": []
     },
     {
@@ -9788,6 +10093,80 @@
       "source_sha256": "fccd60bc3b721720a8121c893d914381f581b25222586d056d1148d66e1e54b3",
       "published_size": 1408,
       "published_sha256": "fccd60bc3b721720a8121c893d914381f581b25222586d056d1148d66e1e54b3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 182,
+      "source_sha256": "4f63494cdc5ebdb9551e03bd8e680709efcceeec34a966c836825fa0ca475bce",
+      "published_size": 182,
+      "published_sha256": "4f63494cdc5ebdb9551e03bd8e680709efcceeec34a966c836825fa0ca475bce",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 4391,
+      "source_sha256": "99a6d164abd220703824deb93662a7cc0415966be52a26b5536a54d79f0c8810",
+      "published_size": 4319,
+      "published_sha256": "4e1e2f96b483f2e6c0470b30d9eea7cdab392301bd365334a2b4c4887ca895c8",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 30155
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/original_metric.npy",
+      "status": "excluded",
+      "reason": "3077044480-byte saved metric exceeds GitHub 100 MiB limit; local original retained, hash and inspection published",
+      "source_size": 3077044480
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3371,
+      "source_sha256": "c8695a21a3a078a63dc8f12567e901814223c78d6d283aad40b0f5f339167518",
+      "published_size": 3299,
+      "published_sha256": "732d5a4285e6254aaa2d6bf591f00565d9c218420382418ebc3f9409b172290b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 67,
+      "source_sha256": "015d6ac6df070d1251ece8a811d740bfcfc3a7269fe93a120ad3c8548de51b07",
+      "published_size": 67,
+      "published_sha256": "015d6ac6df070d1251ece8a811d740bfcfc3a7269fe93a120ad3c8548de51b07",
       "transformations": []
     },
     {
@@ -14639,6 +15018,478 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3474,
+      "source_sha256": "aa3219258bc0fd923fc70708858bb7ec1665c125d9c8a4a390135078a527c797",
+      "published_size": 3474,
+      "published_sha256": "aa3219258bc0fd923fc70708858bb7ec1665c125d9c8a4a390135078a527c797",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 82835,
+      "source_sha256": "75aae4c3937ccfd774246a10be98661ad848df2edc349a0b54df17267361c99f",
+      "published_size": 69011,
+      "published_sha256": "a83493be8dcc7720854fb49744359ba9e971a0906833488aafc80cc5230ca99b",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 384
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/errors-A1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 354,
+      "source_sha256": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+      "published_size": 354,
+      "published_sha256": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/errors-A2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 354,
+      "source_sha256": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+      "published_size": 354,
+      "published_sha256": "8bfbd98a288a0d2d8ee4d18afd20230182f9bf9411d8af5e5fb1548095d5e0c9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/errors-B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 445,
+      "source_sha256": "cdabc87254c2e5000ca5bbe96075ab583a744af231648cdbffb9e8c23e849ddf",
+      "published_size": 445,
+      "published_sha256": "cdabc87254c2e5000ca5bbe96075ab583a744af231648cdbffb9e8c23e849ddf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/errors-C.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 446,
+      "source_sha256": "b878122159780120759e397fd6d27cf9ef90fd665f851a7bd864fcfe46d905f2",
+      "published_size": 446,
+      "published_sha256": "b878122159780120759e397fd6d27cf9ef90fd665f851a7bd864fcfe46d905f2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/b_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "1e55556a3a50266d29336b7b94691e55c51f36ebe6624a0c246076f8b796f77e",
+      "published_size": 160,
+      "published_sha256": "1e55556a3a50266d29336b7b94691e55c51f36ebe6624a0c246076f8b796f77e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/b_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "37e2c61b86ecb31cc2a0fdbaccc10ff7e463349167f1fd1350005dbfe03a23fb",
+      "published_size": 160,
+      "published_sha256": "37e2c61b86ecb31cc2a0fdbaccc10ff7e463349167f1fd1350005dbfe03a23fb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/b_C.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "730c41385686ccb04bbc0293ac7286d9a6f28703a3e3c470e421a5fb48d5d437",
+      "published_size": 160,
+      "published_sha256": "730c41385686ccb04bbc0293ac7286d9a6f28703a3e3c470e421a5fb48d5d437",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/factor-states.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 72,
+      "source_sha256": "5d48411db79d5ae8cd6ea33f48cde3d2f36b5b5bb911e9e33e562526115251fc",
+      "published_size": 72,
+      "published_sha256": "5d48411db79d5ae8cd6ea33f48cde3d2f36b5b5bb911e9e33e562526115251fc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/metric.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 256,
+      "source_sha256": "38251ab2571be92db1b9752d2e08fbc1cf74f7ad0b8cb23ddfa6c1d23fa090b5",
+      "published_size": 256,
+      "published_sha256": "38251ab2571be92db1b9752d2e08fbc1cf74f7ad0b8cb23ddfa6c1d23fa090b5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/rho_ordinary_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "published_size": 160,
+      "published_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/rho_ordinary_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "9c5355fec9300bb7f8ab4c41e0993844d8059fe3799246437b87613b6ffc2277",
+      "published_size": 160,
+      "published_sha256": "9c5355fec9300bb7f8ab4c41e0993844d8059fe3799246437b87613b6ffc2277",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/fixture/rho_ordinary_C.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "940fd02d5133f3e90c1b7da5888a812a510c73a7a0d1d846dc957dd1a7fc311d",
+      "published_size": 160,
+      "published_sha256": "940fd02d5133f3e90c1b7da5888a812a510c73a7a0d1d846dc957dd1a7fc311d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/matrix-factor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 442,
+      "source_sha256": "bc046eed16c7d80e37432bce8951da1ef7da935553eabe4517c452aee57285e2",
+      "published_size": 442,
+      "published_sha256": "bc046eed16c7d80e37432bce8951da1ef7da935553eabe4517c452aee57285e2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/residual_A1.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+      "published_size": 160,
+      "published_sha256": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/residual_A2.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+      "published_size": 160,
+      "published_sha256": "6d5e3abe20116a8920dbbec7ef69313e52241e1db35b590d207f8323d825cba1",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/residual_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "cdbca3dc4f0e63f5fc8be177716c245569347d1f9331a4c5d4f84c7cc2e8099b",
+      "published_size": 160,
+      "published_sha256": "cdbca3dc4f0e63f5fc8be177716c245569347d1f9331a4c5d4f84c7cc2e8099b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/residual_C.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "04370b1d14d843646c7882f2032621c3cc6b3fc9184837db1171deb2b3446ebe",
+      "published_size": 160,
+      "published_sha256": "04370b1d14d843646c7882f2032621c3cc6b3fc9184837db1171deb2b3446ebe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/rho_A1.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "published_size": 160,
+      "published_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/rho_A2.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "published_size": 160,
+      "published_sha256": "d9ebd922ffb93b496a43e821b973b0fc29abd1be0de54f23fca23a8f23d1e483",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/rho_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "0fa7d404727c190179b384a3ba3536f706aa46971fcaf3cc0d3ba12c02b95de6",
+      "published_size": 160,
+      "published_sha256": "0fa7d404727c190179b384a3ba3536f706aa46971fcaf3cc0d3ba12c02b95de6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/rho_C.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 160,
+      "source_sha256": "de7c2b38a64f4f5044e8d2c5234df6263faa7ef415c4524c370b5b7aceb1e04c",
+      "published_size": 160,
+      "published_sha256": "de7c2b38a64f4f5044e8d2c5234df6263faa7ef415c4524c370b5b7aceb1e04c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 837,
+      "source_sha256": "7be550000ec3da3b6b21e3d8fd7cd5cf3696ab6aaf64f2bde0b8a9450739f372",
+      "published_size": 765,
+      "published_sha256": "a09fa6979ab02daa8595cba81397af01c9ed42520352e932aaf2fcbc069aa7cb",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_condition_estimate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 69,
+      "source_sha256": "e551c0d2386f281ed651c4f3f95268ad01cc633ce363136473621b9a0a9fa89a",
+      "published_size": 69,
+      "published_sha256": "e551c0d2386f281ed651c4f3f95268ad01cc633ce363136473621b9a0a9fa89a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_factor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 57,
+      "source_sha256": "4474011a8eda98b221e1093ddb937b8d5c003e80af5923cdb1d0735a0660dd0b",
+      "published_size": 57,
+      "published_sha256": "4474011a8eda98b221e1093ddb937b8d5c003e80af5923cdb1d0735a0660dd0b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_solve_A1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "fa385d0b0f131c8352058a585576a30fd7ececc46d5cef6907b8d152c965dc4e",
+      "published_size": 59,
+      "published_sha256": "fa385d0b0f131c8352058a585576a30fd7ececc46d5cef6907b8d152c965dc4e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_solve_A2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "af5304bd496847d3250846b5a4c140435022eef6ada49dd724fb2c3ff7d90883",
+      "published_size": 59,
+      "published_sha256": "af5304bd496847d3250846b5a4c140435022eef6ada49dd724fb2c3ff7d90883",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_solve_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 58,
+      "source_sha256": "0aff547b7ca8a388b3cdf5a45a0b9a9624a8ebf2c9a457206081a771d088933a",
+      "published_size": 58,
+      "published_sha256": "0aff547b7ca8a388b3cdf5a45a0b9a9624a8ebf2c9a457206081a771d088933a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-after_solve_C.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 58,
+      "source_sha256": "a8f35c4654432aa025b0ea7fc7b8e0413aa831e4a380e24d8f548051cea25085",
+      "published_size": 58,
+      "published_sha256": "a8f35c4654432aa025b0ea7fc7b8e0413aa831e4a380e24d8f548051cea25085",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_condition_estimate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 70,
+      "source_sha256": "e26ca3089c11a99dff48a7bc4ccbdd76e38738531f4b28f3e09c928944e29411",
+      "published_size": 70,
+      "published_sha256": "e26ca3089c11a99dff48a7bc4ccbdd76e38738531f4b28f3e09c928944e29411",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_factor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 58,
+      "source_sha256": "00cc2fbdcb4a412455442e64de66cf23b1c565491674b2470c0cda350046540a",
+      "published_size": 58,
+      "published_sha256": "00cc2fbdcb4a412455442e64de66cf23b1c565491674b2470c0cda350046540a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_solve_A1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "caedbb44a9f28855daeb9c3ffe1957ec2b90e662fec0d10ea1166c29604e5d74",
+      "published_size": 60,
+      "published_sha256": "caedbb44a9f28855daeb9c3ffe1957ec2b90e662fec0d10ea1166c29604e5d74",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_solve_A2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "f300bcdf8e71c5b0363b4811347535739f72f258e49d3c8d78d8ed824f7dff03",
+      "published_size": 60,
+      "published_sha256": "f300bcdf8e71c5b0363b4811347535739f72f258e49d3c8d78d8ed824f7dff03",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_solve_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "de5b6cc0aa082e8a1bdeff7f22a2faf19550b409f938c409fe1bdb0a3dcca320",
+      "published_size": 59,
+      "published_sha256": "de5b6cc0aa082e8a1bdeff7f22a2faf19550b409f938c409fe1bdb0a3dcca320",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-before_solve_C.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "4016540e6f7d7d6df44826deca63def8a2cce15bc8062415c847a7344f5b7469",
+      "published_size": 59,
+      "published_sha256": "4016540e6f7d7d6df44826deca63def8a2cce15bc8062415c847a7344f5b7469",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-explicit_setter.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "published_size": 60,
+      "published_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-identity.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2194,
+      "source_sha256": "e88d81e7cb9da1f2db102a6bda4904804aa80cc2e139a2de727ac11f285578a5",
+      "published_size": 1906,
+      "published_sha256": "77a528526a7473a9f91d34fec5ab6bd3e1eae1cf6e9eee5b02cd4c292a62033f",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-initial.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 30,
+      "source_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "published_size": 30,
+      "published_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/threads-restored_getter_counts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 73,
+      "source_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "published_size": 73,
+      "published_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification-thread/tiny-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 955,
+      "source_sha256": "16c435a486240f3a76fa847d08190a1fa19f8ebd83b3e7b89aa2b963e3180d28",
+      "published_size": 955,
+      "published_sha256": "16c435a486240f3a76fa847d08190a1fa19f8ebd83b3e7b89aa2b963e3180d28",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/qualification.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 6411,
+      "source_sha256": "7bf4f765d428a445399aa71f637d87e7dde6231374d963e9e209a0be5340896a",
+      "published_size": 6339,
+      "published_sha256": "12c2fe7cfdf97b2d6ab0b815c14009347cb4ad6ad0a7eede810acf4283c7bd53",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 11468,
+      "source_sha256": "3d95774ea1b1e18ea155284b632dee58d07b31a0eb62e8c0dbac3ab6e4b61a8b",
+      "published_size": 11468,
+      "published_sha256": "3d95774ea1b1e18ea155284b632dee58d07b31a0eb62e8c0dbac3ab6e4b61a8b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-saved-metric-solve/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 5958,
+      "source_sha256": "b6e422c15251b681a8aea141ef9eff60fda88078a4f5dad60be19234d719835a",
+      "published_size": 5958,
+      "published_sha256": "b6e422c15251b681a8aea141ef9eff60fda88078a4f5dad60be19234d719835a",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-signed-j-diagnostic/INDEPENDENT_REVIEW.md",
       "status": "included",
       "reason": null,
@@ -14907,10 +15758,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 45255,
-      "source_sha256": "695cfe42309aa993a85ab3aaf0c713a7c6e17853f23ee77fa19fbbd1d4e4fa8e",
-      "published_size": 45255,
-      "published_sha256": "695cfe42309aa993a85ab3aaf0c713a7c6e17853f23ee77fa19fbbd1d4e4fa8e",
+      "source_size": 47828,
+      "source_sha256": "da1d794748df345a6ce7ee6d042692b41bc9666cbc3ed8c3a0add1b6c98955a1",
+      "published_size": 47828,
+      "published_sha256": "da1d794748df345a6ce7ee6d042692b41bc9666cbc3ed8c3a0add1b6c98955a1",
       "transformations": []
     },
     {

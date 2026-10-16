@@ -4,7 +4,7 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 
-from export_followup import COORDINATES, LABS
+from export_followup import COORDINATES, LABS, exclusion
 
 
 def verify(root):
@@ -13,6 +13,10 @@ def verify(root):
     assert manifest['scientific_validation'] is False
     assert manifest['labs'] == list(LABS)
     included = [r for r in manifest['files'] if r['status'] == 'included']
+    matrix_path = 'recursive-compound-2026-10-15/parent-metric-solve-diagnostic-v2/run-v1/original_metric.npy'
+    matrix_record, = [r for r in manifest['files'] if r['path'] == matrix_path]
+    assert matrix_record['status'] == 'excluded' and matrix_record['source_size'] == 3077044480
+    assert matrix_record['reason'] == exclusion(Path(matrix_path))
     verify_parent_pilot_source_bindings(included)
     assert len(included) == manifest['included_files']
     assert len({r['path'] for r in included}) == len(included)
@@ -1029,8 +1033,26 @@ def verify_metric_checkpoint(recursive):
     assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
     assert preparation['J_calls'] == preparation['SCFs'] == preparation['PCM_builds'] == 0
     assert preparation['physical_admission'] is False
-    assert not (prepared / 'independent-root-review.json').exists()
-    assert not (prepared / 'run-v1').exists()
+    approval = json.loads((prepared / 'independent-root-review.json').read_text())
+    assert approval['status'] == 'APPROVED_ONE_PARENT_METRIC_SOLVE_DIAGNOSTIC'
+    terminal = json.loads((prepared / 'run-v1/launch-result.json').read_text())
+    supervisor = json.loads((prepared / 'run-v1/supervisor.json').read_text())
+    assert terminal['completed'] is terminal['physical_admission'] is False
+    assert terminal['receipt'] == supervisor and supervisor['returncode'] == -10
+    assert supervisor['termination_reason'] is supervisor['monitor_error'] is None
+    for name in ('result.json', 'matrix-factor.json', 'SCF-result.json', 'original_metric.npy'):
+        assert not (prepared / 'run-v1' / name).exists()
+    postmortem = json.loads((prepared / 'postmortem/result.json').read_text())
+    assert postmortem['terminal_artifacts_verified'] == terminal['artifact_hashes']
+    assert postmortem['terminal_artifacts_verified']['original_metric.npy'] == '00a6c22b1bbf0d90ae9d4905b4dd4fa9edc864bb27c2af9a93ca2ce1b40aa3af'
+    metric = postmortem['saved_metric']
+    assert metric['shape'] == [19612, 19612] and metric['file_bytes'] == 3077044480
+    assert metric['all_finite'] is True and metric['symmetry_max'] == 0
+    assert metric['positive_definiteness_established'] is False
+    assert postmortem['exception']['signal'] == 'SIGBUS'
+    assert postmortem['root_cause_established'] is postmortem['physical_admission'] is False
+    assert postmortem['factorizations'] == postmortem['solves'] == postmortem['J_calls'] == postmortem['SCFs'] == 0
+    verify_blas_checkpoint(recursive)
     for name, passed in (('qualification.json', True), ('qualification-failed-v1.json', False)):
         qualification = json.loads((prepared / name).read_text())
         assert qualification['passed'] is passed and qualification['tests_run'] == 9
@@ -1177,6 +1199,42 @@ def verify_source_constraints(recursive):
             assert hashlib.sha256((base / 'elemental-counterexample.md').read_bytes()).hexdigest() == '0a9852d6c4efced9fbe21db2c8a9e461ab1dbc8cfc5e32e3dfbf257220ee8b4e'
 
 
+def verify_blas_checkpoint(recursive):
+    audit = recursive / 'parent-blas-control-audit'
+    verification = json.loads((audit / 'verification.json').read_text())
+    observed = json.loads((audit / 'observed.json').read_text())
+    assert verification['status'] == 'PASS_TINY_CONTROL_PROBE_ONLY'
+    assert verification['native_solves_verified'] == 5 and verification['failed_setup_attempts_preserved'] == 2
+    assert observed['parallel'] == 2 and observed['requested_environment']['OPENBLAS_NUM_THREADS'] == '1'
+    states = {row['label']: (row['blas'], row['pyscf']) for row in observed['states']}
+    assert states['initial'] == states['restored_after_exception'] == (4, 4)
+    assert states['pyscf_context_before_explicit_setter_before'] == (4, 1)
+    assert states['explicit_blas_one_before'] == (1, 4)
+    assert observed['completed'] is observed['bitwise_equal_answers'] is True
+    assert len(observed['solves']) == 5
+    for row in observed['solves']:
+        assert row['pass'] is True and row['residual_max_abs'] == row['error_max_abs'] == 0
+        assert row['answer'] == [1, -2, 3, -0.5]
+    for folder, code in (('', 0), ('failed-v1', 1), ('failed-v2', 1)):
+        assert json.loads((audit / folder / 'supervisor.json').read_text())['returncode'] == code
+    replay = recursive / 'parent-saved-metric-solve'
+    prep = json.loads((replay / 'preparation.json').read_text())
+    assert prep['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert prep['parent_metric_builds'] == prep['J_calls'] == prep['SCFs'] == prep['PCM_builds'] == 0
+    assert prep['physical_admission'] is False
+    assert not (replay / 'independent-root-review.json').exists() and not (replay / 'run-v1').exists()
+    qualification = json.loads((replay / 'qualification.json').read_text())
+    assert qualification['passed'] is True and qualification['tests_run'] == 8
+    assert qualification['parent_native_execution'] is False
+    for folder in ('boundary/hollow-silicalite-followup/wetting-constraint', 'identity/concentration-speciation-followup'):
+        review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
+        assert review['new_candidate_roles'] == review['verified_integrated_complement_admissions'] == 0
+        assert review['heldout_target_validation'] is review['physical_target_tested'] is False
+    evidence = json.loads((recursive / 'identity/concentration-speciation-followup/evidence.json').read_text())
+    assert evidence['target_tested'] is evidence['heldout_target_validation'] is False
+    assert evidence['fitted_target_parameters'] == [] and evidence['negative_results_preserved'] is True
+
+
 def verify_stage_artifact_bindings(recursive, included):
     source_hashes = {record['path']: record['source_sha256'] for record in included}
     stage = 'parent-j-stage-localization/run-v1'
@@ -1190,7 +1248,18 @@ def verify_stage_artifact_bindings(recursive, included):
     failure = json.loads((recursive / metric / 'launch-result.json').read_text())
     bindings.update({metric + '/' + name: digest for name, digest in failure['artifact_hashes'].items()
                      if name not in omitted_logs})
-    for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator'):
+    metric_v2 = 'parent-metric-solve-diagnostic-v2/run-v1'
+    terminal = json.loads((recursive / metric_v2 / 'launch-result.json').read_text())
+    bindings.update({metric_v2 + '/' + name: digest for name, digest in terminal['artifact_hashes'].items()
+                     if name not in omitted_logs | {'original_metric.npy'}})
+    assert 'recursive-compound-2026-10-15/' + metric_v2 + '/original_metric.npy' not in source_hashes
+    for folder, receipt, key in (('parent-blas-control-audit', 'verification.json', 'sha256'),
+                                 ('parent-saved-metric-solve', 'qualification.json', 'tiny_artifact_hashes')):
+        hashes = json.loads((recursive / folder / receipt).read_text())[key]
+        bindings.update({folder + '/' + name: digest for name, digest in hashes.items()
+                         if name.split('/')[-1] not in omitted_logs and not name.startswith('sources/')})
+    for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
+                   'boundary/hollow-silicalite-followup/wetting-constraint', 'identity/concentration-speciation-followup'):
         review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
         bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
     copper = 'boundary/copper-phosphate-transport'
@@ -1233,6 +1302,15 @@ def verify_parent_pilot_source_bindings(included):
         assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
     for name, digest in {
             'parent-metric-solve-diagnostic/run.py': 'e4cb38e887346231bb159d99279c1bb4d951ca0e769ea6565d50408849489212',
+            'parent-metric-solve-diagnostic-v2/independent-root-review.json': 'd86da87a208cc8b76e5fb71c7193921242dcfc984eb612f86122c264603e3b62',
+            'parent-metric-solve-diagnostic-v2/run-v1/launch-result.json': '99a6d164abd220703824deb93662a7cc0415966be52a26b5536a54d79f0c8810',
+            'parent-metric-solve-diagnostic-v2/postmortem/result.json': 'daa3a11b0fdeaa6cd226255d3ec05acd87ecc83ce42e9c5fe0330effe4d312c3',
+            'parent-blas-control-audit/verification.json': '19867b0620af103a0508da6497b935ba1ecb0e4f533ef341866c18b87c4cc9cb',
+            'parent-saved-metric-solve/run.py': '3d95774ea1b1e18ea155284b632dee58d07b31a0eb62e8c0dbac3ab6e4b61a8b',
+            'parent-saved-metric-solve/preparation.json': '75aae4c3937ccfd774246a10be98661ad848df2edc349a0b54df17267361c99f',
+            'parent-saved-metric-solve/qualification.json': '7bf4f765d428a445399aa71f637d87e7dde6231374d963e9e209a0be5340896a',
+            'boundary/hollow-silicalite-followup/wetting-constraint/ROOT_REVIEW.json': 'ab7e331bab39501211b41b62da80dbaae36309c012287da49b4e275948c28f88',
+            'identity/concentration-speciation-followup/ROOT_REVIEW.json': '353cc3ce4a006086b85ed47b93c191a2e54e69f1bc5cb2d77a0e722071133711',
             'parent-metric-solve-diagnostic/preparation.json': 'd39a9309180d2406eba32c91be45292eb8e789c68070de4062f900aaf3b6e7a4',
             'parent-metric-solve-diagnostic/independent-root-review.json': '284b9b707fbcb799efe2d0deb071205ae4cf8e6408ecd6def4c0dfd806d6b9a0',
             'parent-metric-solve-diagnostic/run-v1/launch-result.json': '6da6d27fb1752be0db3ed6e7ac8ee955d3184146758bc16157069f2779787c5f',

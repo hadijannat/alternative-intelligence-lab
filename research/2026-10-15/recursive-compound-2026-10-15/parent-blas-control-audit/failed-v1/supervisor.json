@@ -1,0 +1,22 @@
+{
+  "command": [
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "-B",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-blas-control-audit/probe.py",
+    "--worker"
+  ],
+  "pid": 75721,
+  "returncode": 1,
+  "wall_seconds": 0.36795737501233816,
+  "sampled_peak_rss_bytes": 90750976,
+  "rss_samples": 6,
+  "wall_limit_seconds": 30,
+  "rss_limit_bytes": 1073741824,
+  "limit_hit": null,
+  "scope": "one fresh child; five 4x4 SPD solves; no molecular integrals",
+  "artifacts": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.txt": "44e0ab0b485640d6823a972fea4455f280e731fe140bc0247fdc31c828fb883b",
+    "probe.py": "95984788b96c44792816aa3229ebec7e1013f5decd093ae43c0517139fce9823"
+  }
+}
