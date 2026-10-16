@@ -1,0 +1,47 @@
+{
+  "status": "ORGANIC_WALL_ROUTES_EXCLUDED_PHOSPHATE_LEAD_UNRESOLVED",
+  "new_candidate_roles": 0,
+  "verified_integrated_complements_added": 0,
+  "physical_experiments": 0,
+  "target_fits": 0,
+  "source_researcher": "/root/acidic_boundary_next",
+  "researcher_search_queries": 4,
+  "researcher_access_operations": 8,
+  "primary_sources": [
+    {
+      "doi": "10.1038/nchem.113",
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/140.nchem.113.pdf",
+      "root_inspected": true,
+      "locator": "Abstract; pp47-48; Fig6",
+      "carbon_free_active_wall_supported": false,
+      "reason": "DIP/IP organic cations are wall constituents.",
+      "active_target_retention": null,
+      "calibrated_target_permeability": null
+    },
+    {
+      "doi": "10.1021/ja111011j",
+      "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/Cooper2011JACS.pdf",
+      "root_inspected": true,
+      "locator": "Table2 p5951; pp5948-5949; pp5951-5952",
+      "carbon_free_active_wall_supported": false,
+      "reason": "All eight listed cations are organic or organically ligated.",
+      "finite_feed_and_flow_dependence_retained": true,
+      "active_target_retention": null,
+      "functional_target_boundary_renewal": null
+    }
+  ],
+  "unresolved_lead": {
+    "title": "Magnetic-Field-Manipulated Growth of Flow-Driven Precipitate Membrane Tubes",
+    "doi": "10.1002/chem.201902830",
+    "pmcid": "PMC6899770",
+    "pmid": "31400030",
+    "identifier_provenance": "Researcher reported successful NCBI identifier conversion; root did not independently retrieve the conversion response.",
+    "methods_acquired": false,
+    "cited_phosphate_transport_study_identified": false,
+    "wall_composition": null,
+    "pH": null,
+    "permeability": null,
+    "target_compatibility": null,
+    "claim_scope": "Indexed discussion only; do not attribute cited copper-phosphate measurements to this article without its methods and references."
+  }
+}

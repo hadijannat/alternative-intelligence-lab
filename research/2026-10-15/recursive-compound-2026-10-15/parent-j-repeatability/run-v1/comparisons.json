@@ -1,0 +1,139 @@
+{
+  "comparisons": {
+    "J2-J1": {
+      "category": "same_sign",
+      "pass": false,
+      "max_absolute_error": 4.844054046770907e-10,
+      "argmax": [
+        2972,
+        2972
+      ],
+      "values_at_argmax": {
+        "actual": 94.73410152448793,
+        "reference": 94.73410152497233,
+        "expected": 94.73410152497233
+      },
+      "entries_above_tolerance": 284,
+      "matrix_max_abs": 144.84252168571786,
+      "reference_max_abs": 144.84252168571868,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "J3+J1": {
+      "category": "sign_reversal",
+      "pass": false,
+      "max_absolute_error": 4.420286359163583e-10,
+      "argmax": [
+        2972,
+        2972
+      ],
+      "values_at_argmax": {
+        "actual": -94.7341015245303,
+        "reference": 94.73410152497233,
+        "expected": -94.73410152497233
+      },
+      "entries_above_tolerance": 231,
+      "matrix_max_abs": 144.8425216857176,
+      "reference_max_abs": 144.84252168571868,
+      "reference_multiplier": -1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "J3+J2": {
+      "category": "sign_reversal",
+      "pass": false,
+      "max_absolute_error": 4.142748366575688e-10,
+      "argmax": [
+        3022,
+        3022
+      ],
+      "values_at_argmax": {
+        "actual": -102.68194145726572,
+        "reference": 102.68194145768,
+        "expected": -102.68194145768
+      },
+      "entries_above_tolerance": 31,
+      "matrix_max_abs": 144.8425216857176,
+      "reference_max_abs": 144.84252168571786,
+      "reference_multiplier": -1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "J1-Jold": {
+      "category": "external_run",
+      "pass": false,
+      "max_absolute_error": 4.718572199635673e-10,
+      "argmax": [
+        1882,
+        1882
+      ],
+      "values_at_argmax": {
+        "actual": 133.90056976409585,
+        "reference": 133.900569763624,
+        "expected": 133.900569763624
+      },
+      "entries_above_tolerance": 304,
+      "matrix_max_abs": 144.84252168571868,
+      "reference_max_abs": 144.84252168571857,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "J2-Jold": {
+      "category": "external_run",
+      "pass": true,
+      "max_absolute_error": 9.484324436925817e-11,
+      "argmax": [
+        3007,
+        3007
+      ],
+      "values_at_argmax": {
+        "actual": 95.67985145471982,
+        "reference": 95.67985145462498,
+        "expected": 95.67985145462498
+      },
+      "entries_above_tolerance": 0,
+      "matrix_max_abs": 144.84252168571786,
+      "reference_max_abs": 144.84252168571857,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "J3+Jold": {
+      "category": "external_run",
+      "pass": false,
+      "max_absolute_error": 3.2159164220502134e-10,
+      "argmax": [
+        3022,
+        3022
+      ],
+      "values_at_argmax": {
+        "actual": -102.68194145726572,
+        "reference": 102.68194145758731,
+        "expected": -102.68194145758731
+      },
+      "entries_above_tolerance": 14,
+      "matrix_max_abs": 144.8425216857176,
+      "reference_max_abs": 144.84252168571857,
+      "reference_multiplier": -1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    }
+  },
+  "categories": {
+    "same_sign": "NONPASS",
+    "sign_reversal": "NONPASS",
+    "external_run": "NONPASS"
+  },
+  "missing": {},
+  "errors": {},
+  "external_reference_is_independent_algorithm": false,
+  "sign_and_call_order_confounded": true
+}

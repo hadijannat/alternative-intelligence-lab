@@ -1,0 +1,62 @@
+{
+  "status": "CITED_TRANSPORT_SOURCE_IDENTIFIED_METHODS_UNRESOLVED",
+  "new_candidate_roles": 0,
+  "verified_integrated_complements_added": 0,
+  "aggregate_candidate_roles_unchanged": 23,
+  "aggregate_verified_complements_unchanged": 0,
+  "researcher_phase": {
+    "search_queries": 1,
+    "access_attempts": 5,
+    "within_document_reference_lookups": 1,
+    "local_downloads": 0,
+    "physical_experiments": 0,
+    "target_fits": 0,
+    "access_outcomes": [
+      {"route": "https://doi.org/10.1002/chem.201902830", "outcome": "Browser-service internal error", "http_status": null},
+      {"route": "https://publicatio.bibl.u-szeged.hu/18439/1/chemeurj25201914826.pdf", "outcome": "Primary PDF text recovered"},
+      {"route": "https://pubs.rsc.org/en/content/articlehtml/2018/cp/c7cp08282g", "outcome": "Browser-service internal error", "http_status": null},
+      {"route": "https://www.staff.u-szeged.hu/~schuszti/tudomanyos_en.html", "outcome": "Author bibliography recovered"},
+      {"route": "Author bibliography publisher link 69", "outcome": "Browser-service internal error", "http_status": null}
+    ]
+  },
+  "primary_source": {
+    "doi": "10.1002/chem.201902830",
+    "url": "https://publicatio.bibl.u-szeged.hu/18439/1/chemeurj25201914826.pdf",
+    "local_bytes_acquired": false,
+    "primary_observation_record": "REPORT.md",
+    "root_verified_pages": [14827, 14828],
+    "root_verified_text_lines": [93, 163],
+    "root_independent_visual_page_inspection": false
+  },
+  "cited_transport_source": {
+    "doi": "10.1039/C7CP08282G",
+    "citation_locator": "Takacs page 14832 reference 9, researcher observation",
+    "doi_title_provenance": "https://www.staff.u-szeged.hu/~schuszti/tudomanyos_en.html",
+    "methods_recovered": false,
+    "permeability_definition": null,
+    "numeric_permeability": null,
+    "uncertainty": null,
+    "pH": null
+  },
+  "target_evidence": {
+    "active_retention": null,
+    "acidic_compatibility": null,
+    "functional_renewal": null,
+    "growth_pH": null,
+    "phase_purity": null,
+    "heldout_validation": false,
+    "integrated_admission": false
+  },
+  "root_publication_review": {
+    "separate_from_researcher_phase": true,
+    "search_queries": 0,
+    "open_operations": 3,
+    "find_operations": 4,
+    "successful_initial_opens": 2,
+    "successful_bibliography_find": true,
+    "PDF_find_no_matching_text_responses": 3,
+    "later_PDF_open": "Browser-service timeout; no further source content verified",
+    "repeated_failed_researcher_routes": 0,
+    "additional_science": false
+  }
+}

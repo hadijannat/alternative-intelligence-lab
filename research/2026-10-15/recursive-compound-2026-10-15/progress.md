@@ -1,6 +1,18 @@
 # Progress checkpoint
 
-## Current scientific continuation: signed failure and candidate23 boundary
+## Current continuation: original species evidence and matched numerical controls
+
+Previous goal turn classification: publication progress. Commit ecbe473801f349476fbfede84433d1e06965b749 reached remote main; hosted run38827465199 passed. This resumes science locally, with the full objective unchanged and all integrated requirements unresolved.
+
+The candidate23 original-source follow-up verifies the alpha/epsilon title distinction, 31P-NMR aqueous-instability statement and three deposit identifiers. Full original formulas and CIFs were not recovered. A database HTTP200 response was access guidance rather than records or a no-match result. Conditional oxidation/proton accounting remains unmeasured; root independently checked its arithmetic and eight unchanged frozen source hashes. See boundary/pom-polyoxocation-23/CHARGE_FOLLOWUP.md and CHARGE_REVIEW.md.
+
+The tube-alternative follow-up excludes two organic-dependent wall routes from positive carbon-free support. The separately bounded phosphate follow-up identifies the Gd open-conduit growth observable and a distinct copper transport reference whose methods remain unavailable. No target permeability, retention or new role is inferred. Aggregate remains23 assessed candidate roles and zero verified integrated complements.
+
+The separate parent-j-repeatability protocol completed one child, +P0,+P0,-P0, within the frozen 1000seconds/10GiB sampledRSS bounds, with no SCF/PCM. Session57609 exited0 and worker37763 is absent. Status is COMPLETED_WITH_NUMERICAL_NONPASS: five of six comparisons failed at1e-10 absolute/zero relative tolerance, including J2-J1=4.844054046770907e-10. All three matrices were saved before decisions. Root independently replayed every recorded comparison field and verified24 artifact hashes plus frozen pins. Wall696.6868703749496seconds and sampledRSS3655090176bytes are observations, not a peak-memory guarantee. Prelaunch fingerprint-order repair and both exact prior preparations remain preserved; final preparation5746a8e8 had11 passing synthetic tests. See parent-j-repeatability/REPORT.md.
+
+The user requests committing this checkpoint and pushing to main. The existing attempt is terminal; no additional native calculation or retry is part of publication. Independent terminal review and curated export checks precede commit/push. The completed phosphate source phase is retained without a new candidate. The missing scientific endpoint remains the same integrated living/intelligent target; current publication preparation starts from ecbe473. Exact new commit and remote-check evidence will be recorded in the workspace publication receipt.
+
+## Previous scientific continuation: signed failure and candidate23 boundary
 
 Previous-turn classification: publication-state progress. Commit ba01440 was pushed; fresh GitHub run38825295570 is SUCCESS for that exact commit. It added no chemical-function evidence. This continuation produced new numerical and source constraints, so it is progress toward resolving the full goal rather than a repeated impasse.
 

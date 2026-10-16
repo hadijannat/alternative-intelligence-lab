@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "audit_id": "pom23-mialane2002-charge-followup",
+  "date": "2026-10-16",
+  "status": "CHARGE_GAP_UNRESOLVED_SOURCE_METADATA_REVERIFIED",
+  "candidate_role_id": 23,
+  "scientific_scope": "Source clarification of the existing candidate23 assessment only.",
+  "source": {
+    "authors": [
+      "Pierre Mialane",
+      "Anne Dolbecq",
+      "Laurent Lisnard",
+      "Alain Mallard",
+      "Jérôme Marrot",
+      "Francis Sécheresse"
+    ],
+    "year": 2002,
+    "journal": "Angewandte Chemie International Edition",
+    "volume": 41,
+    "issue": 13,
+    "pages": "2398-2401",
+    "doi": "10.1002/1521-3773(20020703)41:13<2398::AID-ANIE2398>3.0.CO;2-A",
+    "publisher_landing_url": "https://onlinelibrary.wiley.com/doi/10.1002/1521-3773(20020703)41:13%3C2398::AID-ANIE2398%3E3.0.CO;2-A",
+    "title_transcribed_with_subscripts_flattened": "[ε-PMo12O36(OH)4{La(H2O)4}4]5+: The First ε-PMo12O40 Keggin Ion and Its Association with the Two-Electron-Reduced α-PMo12O40 Isomer",
+    "receipt": "raw/mialane2002/R1-publisher-landing.tool.txt",
+    "accessible_content": "Publisher title, graphical abstract, references and crystallographic note11.",
+    "full_article_body_acquired": false,
+    "supporting_information_acquired": false,
+    "CIF_acquired": false
+  },
+  "original_source_observations": [
+    {
+      "id": "S1",
+      "locator": "Publisher title, source line18; citation line320",
+      "observation": "The cation is labeled epsilon, with four hydroxides and four La(H2O)4 caps; the associated two-electron-reduced isomer in the title is alpha-PMo12O40.",
+      "initial_cation_formula": "[epsilon-PMo12O36(OH)4{La(H2O)4}4]5+",
+      "associated_isomer_nomenclature_as_printed": "two-electron-reduced alpha-PMo12O40 isomer",
+      "complete_associated_anion_formula": null,
+      "associated_anion_protonation_measured": null,
+      "associated_anion_charge_explicitly_verified": null,
+      "same_species_as_Points_printed_endpoint_verified": null
+    },
+    {
+      "id": "S2",
+      "locator": "Publisher graphical abstract, source line144",
+      "observation": "31P NMR is reported to show aqueous instability; a resulting polyanion/polycation salt is reported as crystallographically characterized.",
+      "three_La_intermediate_verified_from_original": false,
+      "NMR_shifts_ppm": null,
+      "NMR_times": null,
+      "pH": null,
+      "temperature": null,
+      "concentration": null,
+      "quantitative_species_fractions": null
+    },
+    {
+      "id": "S3",
+      "locator": "Original crystallographic note11, source lines225-230",
+      "observation": "The note identifies three crystallographic deposit numbers.",
+      "deposit_labels": [
+        {
+          "source_structure_label": "1",
+          "deposit_id": "CSD-412375"
+        },
+        {
+          "source_structure_label": "2",
+          "deposit_id": "CSD-412376"
+        },
+        {
+          "source_structure_label": "3",
+          "deposit_id": "CSD-412377"
+        }
+      ],
+      "CIF_records_obtained": 0,
+      "formula_mapping_of_deposits_verified": false
+    }
+  ],
+  "relation_to_frozen_Points_assessment": {
+    "reference_number": 19,
+    "Points_locator": "PDF page3 / journal page1913, La-loss paragraph; reference19 on page1914",
+    "Points_sequence_as_printed": {
+      "La_counts": [
+        4,
+        3,
+        0
+      ],
+      "charges": [
+        5,
+        2,
+        -5
+      ]
+    },
+    "notation_preserved": [
+      "Points page2 uses La(H2O)2.5 while the original title uses La(H2O)4; both aqua ligand formulations are electrically neutral under the stated assumptions.",
+      "Points page3 prints (OH4) and an epsilon endpoint; the original title names an alpha associated isomer. These are not silently reconciled."
+    ],
+    "frozen_assessment_rewritten": false
+  },
+  "conditional_arithmetic": {
+    "classification": "Formal endpoint comparison only; not observed mechanism, complete source formula, measured oxidation states or kinetic data.",
+    "assumptions": {
+      "P": 5,
+      "La": 3,
+      "oxide_O": -2,
+      "OH_group": -1,
+      "aqua_ligand": 0
+    },
+    "initial_cation": {
+      "core_oxygen_count": 40,
+      "core_hydroxide_count": 4,
+      "La_count": 4,
+      "charge": 5,
+      "sum_Mo_oxidation_states": 64,
+      "Mo_count": 12,
+      "mean_Mo_state": "16/3",
+      "formal_MoV_count_if_only_V_and_VI": 8,
+      "formal_MoVI_count_if_only_V_and_VI": 4
+    },
+    "fixed_core_La_loss": {
+      "predicted_final_charge": -7,
+      "Points_printed_final_charge": -5,
+      "charge_difference": 2
+    },
+    "hypothetical_unprotonated_alpha_endpoint": {
+      "assumption": "If the associated isomer were the unprotonated, two-electron-reduced [alpha-PMo12O40]5- anion; this complete formula and protonation are not verified by acquired original body/CIF.",
+      "formula_assumed": "[alpha-PMo12O40]5-",
+      "sum_Mo_oxidation_states": 70,
+      "formal_MoV_count_if_only_V_and_VI": 2,
+      "formal_MoVI_count_if_only_V_and_VI": 10,
+      "oxidation_sum_change": 6,
+      "hydroxide_proton_count_change": -4,
+      "net_charge_change": 2
+    },
+    "observed_six_electron_oxidation": false,
+    "observed_four_proton_loss": false,
+    "accepted_conversion_reaction": null,
+    "redox_partner": null,
+    "rate_constants": null
+  },
+  "access_budget": {
+    "search_engine_query_limit": 4,
+    "search_engine_queries_used": 4,
+    "authorized_public_database_form_lookups": 1,
+    "public_database_form_lookups_used": 1,
+    "access_operation_limit": 8,
+    "access_operations_used": 8,
+    "counter_definition": "Each deliberate web open/click or bounded HTTP request counted; ordinary redirect chains are recorded as part of that request. The one DOI form lookup was separately authorized after the search-engine query cap was reached.",
+    "per_HTTP_request_limit_seconds": 30,
+    "per_HTTP_response_limit_bytes": 10485760
+  },
+  "search_engine_queries": [
+    "\"412377\" Mialane",
+    "\"ANIE2398\" pdf",
+    "\"PMo12O36\" \"Supporting Information\"",
+    "\"Mialane\" \"2398-2401\" pdf 2002"
+  ],
+  "access_operations": [
+    {
+      "id": "R1",
+      "purpose": "Reverify original publisher landing page",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/1521-3773(20020703)41:13%3C2398::AID-ANIE2398%3E3.0.CO;2-A",
+      "http_status": null,
+      "outcome": "TITLE_ABSTRACT_REFERENCES_NOTE11_ACQUIRED",
+      "receipt": "raw/mialane2002/R1-publisher-landing.tool.txt"
+    },
+    {
+      "id": "R2",
+      "purpose": "Official PDF link107 from fresh publisher page",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/1521-3773%2820020703%2941%3A13%3C2398%3A%3AAID-ANIE2398%3E3.0.CO%3B2-A",
+      "resolved_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/1521-3773(20020703)41:13%3C2398::AID-ANIE2398%3E3.0.CO;2-A",
+      "http_status": null,
+      "outcome": "REDIRECT_TO_ABSTRACT_NO_PDF",
+      "receipt": "raw/mialane2002/R2-R3-pdf-and-accessstructures.tool.txt"
+    },
+    {
+      "id": "R3",
+      "purpose": "Public CCDC/FIZ Access Structures entry point",
+      "url": "https://www.ccdc.cam.ac.uk/structures/",
+      "http_status": null,
+      "outcome": "PUBLIC_SEARCH_FORM_RETRIEVED",
+      "receipt": "raw/mialane2002/R2-R3-pdf-and-accessstructures.tool.txt"
+    },
+    {
+      "id": "R4",
+      "purpose": "Inspect actual form action and fields through bounded HTTP",
+      "http_status": 200,
+      "outcome": "OBSERVED_FORM_SCHEMA",
+      "receipt": "raw/mialane2002/R4-accessstructures-form-schema.json"
+    },
+    {
+      "id": "R5",
+      "purpose": "Establish normal public form session",
+      "http_status": 200,
+      "outcome": "FORM_SESSION_ESTABLISHED",
+      "receipt": "raw/mialane2002/R5-R6-accessstructures-doi-lookup.json"
+    },
+    {
+      "id": "R6",
+      "purpose": "Single authorized DOI form submission using observed fields",
+      "http_status": 200,
+      "outcome": "SEARCH_SHELL_RETURNED_NO_RECORDS_YET",
+      "receipt": "raw/mialane2002/R5-R6-accessstructures-doi-lookup.json"
+    },
+    {
+      "id": "R7",
+      "purpose": "Inspect returned search page for actual data URL",
+      "http_status": 200,
+      "outcome": "LOADSEARCH_DATA_URL_OBSERVED",
+      "receipt": "raw/mialane2002/R7-result-url-provenance.json"
+    },
+    {
+      "id": "R8",
+      "purpose": "Read actual public LoadSearch URL",
+      "http_status": 200,
+      "outcome": "GENERAL_ENQUIRY_ACCESS_NOTICE_NOT_SEARCH_RESULTS",
+      "receipt": "raw/mialane2002/R8-accessstructures-response.json",
+      "body_sha256": "4c4314a25fee268a1da64f0535be0c094233b2227563862520f1e0316fe6d460",
+      "body_bytes": 2843
+    }
+  ],
+  "access_limit_interpretation": "R8 offers licensing/sign-in/manual-enquiry guidance. It supplies neither crystal records nor a no-match statement. HTTP200 is not successful chemical-data acquisition. No authentication, alternate identity, manual contact or bypass attempted.",
+  "receipt_semantics": "Web receipts preserve tool-rendered text; bounded HTTP receipts preserve observed metadata/selected parsed fields. R8 additionally preserves exact response text as a JSON string with original CRLF, reproducible to the recorded UTF-8 body hash. Other HTTP response bodies were not retained. No PDF or CIF source hash is claimed.",
+  "prior_failures_not_retried": [
+    "Earlier full-text publisher route: tool-inaccessible, HTTP status unspecified.",
+    "Earlier HAL hal-02326189 route: tool-inaccessible, HTTP status unspecified."
+  ],
+  "decision": {
+    "charge_gap_resolved": false,
+    "original_species_mechanism_verified": false,
+    "new_calibrated_speciation_rows": 0,
+    "new_transport_or_retention_rows": 0,
+    "new_candidate_role_count": 0,
+    "new_integrated_complement_admissions": 0,
+    "target_function_claim": false,
+    "scientific_fits": 0,
+    "simulations": 0,
+    "chemical_experiments": 0,
+    "publication_actions": 0
+  },
+  "next_missing_evidence": [
+    "Original body/formula table identifying protonation, redox state and the complete associated alpha-anion formula.",
+    "Original 31P-NMR assignments and conditions linking any three-La intermediate to a terminal species.",
+    "CSD-412375/412376/412377 contents with composition, charge/protonation constraints and a verified source-label mapping.",
+    "Species-resolved solution measurements relevant to the precipitation system; crystal association alone would not determine transport or active retention."
+  ],
+  "frozen_artifact_sha256": {
+    "REPORT.md": "66e547c2d7a061ea0880809d9111542e232862bf4733ba3eee7ab821dceface9",
+    "assessment.json": "fcc538cce9796b2fb9f564bf02401cd077a318f261c861584996ea14a81e842c",
+    "acquisition.json": "c1a367aa14c1fed4761e8613fa4dc3be6a0c74257200bae81fe6721ce70ccfd7",
+    "DECISION.json": "da641323eafa64f74289792ab2edffa8ed24c40c94d26afacedb895dc73e7b37",
+    "PROTOCOL.md": "e793cdf4d8d0ec33c74332cc1bb642bc3ed2e10e06d8aa1610b37ba635281305",
+    "INDEPENDENT_REVIEW.md": "c9f436844a6dc531d0fcaf1510f41d12f359e9d37e20cd81397a5a3fce15b3cb",
+    "raw/points2016.pdf": "6c73dbd40f5fe111993fa59113872ed8d3d6b47b3f5b2a2857338aa2ccf4f1f5",
+    "raw/points2016.txt": "8cf5451a105fd50a65457881c38321b931d500763786e17c24a83f535efe8a58"
+  }
+}

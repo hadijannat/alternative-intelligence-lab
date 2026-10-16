@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED_WITH_NUMERICAL_NONPASS",
+  "J_calls": 3,
+  "metric_calls": 3,
+  "factor_count": 1,
+  "SCFs_launched": 0,
+  "gate_unchanged": true,
+  "invariants_passed": true,
+  "numerical_pass": false,
+  "categories": {
+    "same_sign": "NONPASS",
+    "sign_reversal": "NONPASS",
+    "external_run": "NONPASS"
+  },
+  "J_sha256": {
+    "J1.npy": "8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6",
+    "J2.npy": "de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831",
+    "J3.npy": "a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee"
+  },
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "sign_and_call_order_confounded": true
+}

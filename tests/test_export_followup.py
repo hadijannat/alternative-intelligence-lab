@@ -83,9 +83,11 @@ class PublicationSelection(unittest.TestCase):
                 (source / lab).mkdir(parents=True)
             base = Path('recursive-compound-2026-10-15')
             kept = (base / 'parent-signed-j-diagnostic/preparation.json',
+                    base / 'parent-j-repeatability/run-v1/J1.npy',
                     base / 'boundary/acidic-nanofiltration/evidence.json',
                     base / 'identity/mov9-independent-assay-followup/acquisition.json')
             excluded = (base / 'boundary/acidic-nanofiltration/raw/article.pdf',
+                        base / 'parent-j-repeatability/run-v1/post-call-1.bin',
                         base / 'boundary/acidic-nanofiltration/raw/page.png',
                         base / 'identity/mov9-independent-assay-followup/raw/route03-si-tool-response.txt',
                         base / 'parent-openmp/env-aligned/lib/runtime.bin')
@@ -268,7 +270,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'identity/next-step/pcm-heldout-selection', 'parent-saved-j-crash-diagnostic',
                        'identity/competing-mov-primary-followup', 'parent-signed-j-diagnostic',
                        'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup',
-                       'boundary/pom-polyoxocation-23'):
+                       'boundary/pom-polyoxocation-23', 'boundary/tube-alternative-followup',
+                       'boundary/phosphate-transport-lead', 'parent-j-repeatability'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -340,6 +343,20 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('boundary/pom-polyoxocation-23/DECISION.json', 'aggregate_verified_integrated_complements', 1),
             ('boundary/pom-polyoxocation-23/DECISION.json', 'heldout_target_validations', 1),
             ('boundary/pom-polyoxocation-23/assessment.json', ('joint_target_requirements', 'recovery_denominator'), 'feed amount'),
+            ('parent-j-repeatability/preparation.json', 'sequence', [1, -1, 1]),
+            ('parent-j-repeatability/preparation.json', 'absolute_tolerance', 1e-9),
+            ('parent-j-repeatability/independent-root-review.json', 'sign_and_call_order_confounded', False),
+            ('parent-j-repeatability/preparation-history/pre-setup-order.json', 'SCFs_launched', 1),
+            ('parent-j-repeatability/run-v1/comparisons.json', ('comparisons', 'J2-J1', 'pass'), True),
+            ('parent-j-repeatability/run-v1/comparisons.json', ('comparisons', 'J2-J1', 'absolute_tolerance'), 1e-9),
+            ('parent-j-repeatability/run-v1/comparisons.json', 'external_reference_is_independent_algorithm', True),
+            ('parent-j-repeatability/run-v1/launch-result.json', ('artifacts', 'sha256', 'J1.npy'), '0' * 64),
+            ('boundary/pom-polyoxocation-23/charge-followup.json', ('decision', 'charge_gap_resolved'), True),
+            ('boundary/pom-polyoxocation-23/charge-followup.json', ('conditional_arithmetic', 'observed_six_electron_oxidation'), True),
+            ('boundary/tube-alternative-followup/evidence.json', ('primary_sources', 0, 'carbon_free_active_wall_supported'), True),
+            ('boundary/tube-alternative-followup/evidence.json', ('unresolved_lead', 'permeability'), 0.1),
+            ('boundary/phosphate-transport-lead/evidence.json', ('target_evidence', 'heldout_validation'), True),
+            ('boundary/phosphate-transport-lead/evidence.json', ('cited_transport_source', 'numeric_permeability'), 0.1),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'heldout_validation'), True),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'admission'), True),
             ('boundary/acidic-nanofiltration/evidence.json',
@@ -474,7 +491,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
         verify_parent_pilot_source_bindings(records)
         for suffix in ('parent-saved-j-pilot/preparation.json', 'parent-saved-j-pilot/independent-root-review.json',
-                       'history/f5c945a-incomplete/run.py', 'history/f5c945a-incomplete/STATUS.json'):
+                       'history/f5c945a-incomplete/run.py', 'history/f5c945a-incomplete/STATUS.json',
+                       'parent-j-repeatability/preparation.json', 'parent-j-repeatability/run-v1/J1.npy'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']
@@ -482,6 +500,33 @@ class OpenMPRenewalVerification(unittest.TestCase):
                 with self.assertRaises(AssertionError):
                     verify_parent_pilot_source_bindings(records)
                 record['source_sha256'] = original
+
+    def test_repeatability_completion_cannot_be_promoted_or_lose_closed_checkpoint(self):
+        run = self.recursive / 'parent-j-repeatability/run-v1'
+        worker_path, launch_path = run / 'result.json', run / 'launch-result.json'
+        originals = [path.read_bytes() for path in (worker_path, launch_path)]
+        for key, value in (('numerical_pass', True), ('parent_SCF_readiness', True),
+                           ('physical_admission', True), ('SCFs_launched', 1),
+                           ('sign_and_call_order_confounded', False)):
+            with self.subTest(key=key):
+                worker, launch = [json.loads(data) for data in originals]
+                worker[key] = value
+                launch['worker_result'] = worker
+                for path, data in zip((worker_path, launch_path), (worker, launch)):
+                    path.write_text(json.dumps(data))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, data in zip((worker_path, launch_path), originals):
+            path.write_bytes(data)
+        stages_path = run / 'stages.jsonl'
+        original_stages = stages_path.read_text()
+        for name in ('returned_J_saved_closed', 'post_call_file_closed'):
+            with self.subTest(stage=name):
+                stages_path.write_text('\n'.join(line for line in original_stages.splitlines()
+                                                if json.loads(line)['stage'] != name) + '\n')
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        stages_path.write_text(original_stages)
 
     def test_consistently_promoted_first_j_worker_is_rejected(self):
         run = self.recursive / 'parent-openmp-first-j-v2/run-v1'

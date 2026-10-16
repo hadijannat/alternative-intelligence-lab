@@ -797,6 +797,119 @@ def verify_signed_boundary_followup(recursive):
     assert observations['O3']['maximum_tested_above_30_mM'] is None
     assert observations['O4']['remaining_seed_at_termination'] is True
     assert (recursive / 'boundary/active-retention-identifiability.md').is_file()
+    verify_repeatability_followup(recursive)
+
+
+def verify_repeatability_followup(recursive):
+    repeatability = recursive / 'parent-j-repeatability'
+    preparation = json.loads((repeatability / 'preparation.json').read_text())
+    review = json.loads((repeatability / 'independent-root-review.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert preparation['operators_executed'] == preparation['SCFs_launched'] == 0
+    assert preparation['molecule_built'] is False and preparation['physical_admission'] is False
+    assert preparation['sequence'] == [1, 1, -1]
+    assert review['status'] == 'APPROVED_ONE_PARENT_J_REPEATABILITY_DIAGNOSTIC'
+    assert review['independent_root_review'] is True and review['no_retry'] is True
+    assert review['preparation_sha256'] == '5746a8e8fbecfb9084070dad998f3edb03d0135e19c5e6a07171d59379d52dde'
+    assert review['parent_SCF_readiness'] is False and review['sign_and_call_order_confounded'] is True
+    for record in (preparation, review):
+        assert record['maximum_children'] == 1 and record['maximum_J_calls'] == 3
+        assert record['wall_cap_seconds'] == 1000 and record['sampled_RSS_guard_bytes'] == 10 * 1024**3
+        assert record['absolute_tolerance'] == 1e-10 and record['relative_tolerance'] == 0
+        assert record['physical_admission'] is False
+    history = repeatability / 'preparation-history'
+    for prefix in ('pre-setup-order', 'pre-claim-guards'):
+        snapshot = json.loads((history / (prefix + '.json')).read_text())
+        assert snapshot['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+        assert snapshot['operators_executed'] == snapshot['SCFs_launched'] == 0
+        for suffix in ('-PROTOCOL.md', '-run.py', '-test_run.py'):
+            assert (history / (prefix + suffix)).is_file()
+    run = repeatability / 'run-v1'
+    launch = json.loads((run / 'launch-result.json').read_text())
+    worker = json.loads((run / 'result.json').read_text())
+    assert launch['status'] == worker['status'] == 'COMPLETED_WITH_NUMERICAL_NONPASS'
+    assert launch['worker_result'] == worker and launch['errors'] == {}
+    assert launch['gate_unchanged'] is True and worker['gate_unchanged'] is True
+    assert launch['maximum_children'] == 1 and launch['maximum_J_calls'] == 3 and launch['maximum_SCFs'] == 0
+    for record in (launch, worker):
+        assert record['physical_admission'] is False and record['parent_SCF_readiness'] is False
+    assert worker['J_calls'] == worker['metric_calls'] == 3 and worker['factor_count'] == 1
+    assert worker['SCFs_launched'] == 0 and worker['invariants_passed'] is True
+    assert worker['numerical_pass'] is False and worker['sign_and_call_order_confounded'] is True
+    receipt = launch['receipt']
+    assert receipt == json.loads((run / 'supervisor.json').read_text())
+    assert receipt['returncode'] == 0 and receipt['termination_reason'] is None and receipt['monitor_error'] is None
+    assert receipt['wall_seconds'] == 696.6868703749496 < receipt['wall_cap_seconds'] == 1000
+    assert receipt['sampled_max_rss_bytes'] == 3655090176 < receipt['rss_guard_bytes'] == 10 * 1024**3
+    assert receipt['hard_OS_memory_limit'] is False
+    artifacts = launch['artifacts']
+    assert artifacts['missing'] == [] and artifacts['errors'] == {}
+    assert len(artifacts['sha256']) == 24
+    assert worker['J_sha256'] == {name: artifacts['sha256'][name] for name in ('J1.npy', 'J2.npy', 'J3.npy')}
+    calls = json.loads((run / 'call-records.json').read_text())
+    assert [(record['call'], record['multiplier']) for record in calls] == [(1, 1), (2, 1), (3, -1)]
+    stages = [json.loads(line) for line in (run / 'stages.jsonl').read_text().splitlines() if line.strip()]
+    for record in calls:
+        number = record['call']
+        assert record['J_sha256'] == worker['J_sha256'][f'J{number}.npy']
+        assert record['matrix_checks']['finite'] is True and record['matrix_checks']['symmetric'] is True
+        call_stages = [stage for stage in stages if stage.get('call') == number]
+        assert [stage['stage'] for stage in call_stages] == [
+            'native_J_start', 'native_J_returned', 'returned_J_save_start', 'returned_J_saved_closed',
+            'post_call_file_start', 'post_call_file_closed', 'full_arrays_released']
+        assert call_stages[3]['sha256'] == record['J_sha256']
+    comparisons = json.loads((run / 'comparisons.json').read_text())
+    assert comparisons['missing'] == comparisons['errors'] == {}
+    assert comparisons['external_reference_is_independent_algorithm'] is False
+    assert comparisons['sign_and_call_order_confounded'] is True
+    assert comparisons['categories'] == worker['categories'] == {
+        'same_sign': 'NONPASS', 'sign_reversal': 'NONPASS', 'external_run': 'NONPASS'}
+    expected = {
+        'J2-J1': (4.844054046770907e-10, 284), 'J3+J1': (4.420286359163583e-10, 231),
+        'J3+J2': (4.142748366575688e-10, 31), 'J1-Jold': (4.718572199635673e-10, 304),
+        'J2-Jold': (9.484324436925817e-11, 0), 'J3+Jold': (3.2159164220502134e-10, 14)}
+    assert set(comparisons['comparisons']) == set(expected)
+    for name, (error, count) in expected.items():
+        comparison = comparisons['comparisons'][name]
+        assert comparison['absolute_tolerance'] == 1e-10 and comparison['relative_tolerance'] == 0
+        assert comparison['max_absolute_error'] == error and comparison['entries_above_tolerance'] == count
+        assert comparison['pass'] is (count == 0)
+    charge = json.loads((recursive / 'boundary/pom-polyoxocation-23/charge-followup.json').read_text())
+    assert charge['status'] == 'CHARGE_GAP_UNRESOLVED_SOURCE_METADATA_REVERIFIED'
+    assert charge['candidate_role_id'] == 23
+    for key in ('charge_gap_resolved', 'original_species_mechanism_verified', 'target_function_claim'):
+        assert charge['decision'][key] is False
+    for key in ('new_calibrated_speciation_rows', 'new_transport_or_retention_rows', 'new_candidate_role_count',
+                'new_integrated_complement_admissions', 'scientific_fits', 'simulations', 'chemical_experiments'):
+        assert charge['decision'][key] == 0
+    for key in ('full_article_body_acquired', 'supporting_information_acquired', 'CIF_acquired'):
+        assert charge['source'][key] is False
+    arithmetic = charge['conditional_arithmetic']
+    assert arithmetic['fixed_core_La_loss']['charge_difference'] == 2
+    assert arithmetic['observed_six_electron_oxidation'] is False and arithmetic['observed_four_proton_loss'] is False
+    assert arithmetic['accepted_conversion_reaction'] is None and arithmetic['rate_constants'] is None
+    assert charge['relation_to_frozen_Points_assessment']['frozen_assessment_rewritten'] is False
+    tubes = json.loads((recursive / 'boundary/tube-alternative-followup/evidence.json').read_text())
+    assert tubes['status'] == 'ORGANIC_WALL_ROUTES_EXCLUDED_PHOSPHATE_LEAD_UNRESOLVED'
+    for key in ('new_candidate_roles', 'verified_integrated_complements_added', 'physical_experiments', 'target_fits'):
+        assert tubes[key] == 0
+    assert len(tubes['primary_sources']) == 2
+    for source in tubes['primary_sources']:
+        assert source['carbon_free_active_wall_supported'] is False and source['active_target_retention'] is None
+    lead = tubes['unresolved_lead']
+    assert lead['methods_acquired'] is False and lead['cited_phosphate_transport_study_identified'] is False
+    for key in ('wall_composition', 'pH', 'permeability', 'target_compatibility'):
+        assert lead[key] is None
+    phosphate = json.loads((recursive / 'boundary/phosphate-transport-lead/evidence.json').read_text())
+    assert phosphate['status'] == 'CITED_TRANSPORT_SOURCE_IDENTIFIED_METHODS_UNRESOLVED'
+    assert phosphate['new_candidate_roles'] == phosphate['verified_integrated_complements_added'] == 0
+    assert phosphate['cited_transport_source']['methods_recovered'] is False
+    for key in ('permeability_definition', 'numeric_permeability', 'uncertainty', 'pH'):
+        assert phosphate['cited_transport_source'][key] is None
+    for key in ('active_retention', 'acidic_compatibility', 'functional_renewal', 'growth_pH', 'phase_purity'):
+        assert phosphate['target_evidence'][key] is None
+    assert phosphate['target_evidence']['heldout_validation'] is False
+    assert phosphate['target_evidence']['integrated_admission'] is False
 
 
 def verify_parent_pilot_source_bindings(included):
@@ -809,6 +922,12 @@ def verify_parent_pilot_source_bindings(included):
         'history/f5c945a-incomplete/STATUS.json': '0f513146f3fa0dc35b7020e96c831f4f95ad6bb7ccc6ae78de2f7043c45bf01e'}
     for name, digest in expected.items():
         assert source_hashes['recursive-compound-2026-10-15/parent-saved-j-pilot/' + name] == digest
+    assert source_hashes['recursive-compound-2026-10-15/parent-j-repeatability/preparation.json'] == '5746a8e8fbecfb9084070dad998f3edb03d0135e19c5e6a07171d59379d52dde'
+    for name, digest in {
+            'J1.npy': '8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6',
+            'J2.npy': 'de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831',
+            'J3.npy': 'a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee'}.items():
+        assert source_hashes['recursive-compound-2026-10-15/parent-j-repeatability/run-v1/' + name] == digest
 
 
 if __name__ == '__main__':

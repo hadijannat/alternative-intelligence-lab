@@ -1,0 +1,26 @@
+{"stage": "worker_started", "elapsed_seconds": 5.419133231043816e-07, "J_calls": 0, "SCFs_launched": 0}
+{"stage": "basis_build_start", "elapsed_seconds": 0.3959270839113742}
+{"stage": "setup_complete", "elapsed_seconds": 9.02303287491668}
+{"stage": "native_J_start", "elapsed_seconds": 9.44251079193782, "call": 1, "multiplier": 1}
+{"stage": "RI_factor_start", "elapsed_seconds": 10.677279166993685, "shape": [19612, 19612]}
+{"stage": "RI_factor_complete", "elapsed_seconds": 23.38551125000231}
+{"stage": "native_J_returned", "elapsed_seconds": 242.53827154194005, "call": 1}
+{"stage": "returned_J_save_start", "elapsed_seconds": 242.54031441698316, "call": 1}
+{"stage": "returned_J_saved_closed", "elapsed_seconds": 242.642530708923, "call": 1, "sha256": "8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6"}
+{"stage": "post_call_file_start", "elapsed_seconds": 244.77056545892265, "call": 1}
+{"stage": "post_call_file_closed", "elapsed_seconds": 244.77089466701727, "call": 1}
+{"stage": "full_arrays_released", "elapsed_seconds": 244.77095629193354, "call": 1}
+{"stage": "native_J_start", "elapsed_seconds": 245.2292043339694, "call": 2, "multiplier": 1}
+{"stage": "native_J_returned", "elapsed_seconds": 468.56429704197217, "call": 2}
+{"stage": "returned_J_save_start", "elapsed_seconds": 468.56505954195745, "call": 2}
+{"stage": "returned_J_saved_closed", "elapsed_seconds": 468.6132949999301, "call": 2, "sha256": "de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831"}
+{"stage": "post_call_file_start", "elapsed_seconds": 471.2550119999796, "call": 2}
+{"stage": "post_call_file_closed", "elapsed_seconds": 471.25538379198406, "call": 2}
+{"stage": "full_arrays_released", "elapsed_seconds": 471.25544862495735, "call": 2}
+{"stage": "native_J_start", "elapsed_seconds": 471.7189932919573, "call": 3, "multiplier": -1}
+{"stage": "native_J_returned", "elapsed_seconds": 692.2052932089427, "call": 3}
+{"stage": "returned_J_save_start", "elapsed_seconds": 692.2057660839055, "call": 3}
+{"stage": "returned_J_saved_closed", "elapsed_seconds": 692.3257284589345, "call": 3, "sha256": "a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee"}
+{"stage": "post_call_file_start", "elapsed_seconds": 695.1276055419585, "call": 3}
+{"stage": "post_call_file_closed", "elapsed_seconds": 695.1279184169834, "call": 3}
+{"stage": "full_arrays_released", "elapsed_seconds": 695.1279751249822, "call": 3}

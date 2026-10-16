@@ -1,0 +1,74 @@
+[
+  {
+    "call": 1,
+    "multiplier": 1,
+    "J_sha256": "8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6",
+    "matrix_checks": {
+      "finite": true,
+      "symmetric": true,
+      "max_asymmetry": 0.0,
+      "sign_pass": false,
+      "max_sign_error": null,
+      "chunk_rows": 16
+    },
+    "storage": {
+      "identity": 4628294384,
+      "pointer": 481304772608,
+      "shape": [
+        19612,
+        19612
+      ],
+      "readonly": true,
+      "Fortran": true,
+      "content_sha256": "15f8e083a4b323de758bf30b03438e1c0da0d80604b577208cc708b6c2f1a31c"
+    }
+  },
+  {
+    "call": 2,
+    "multiplier": 1,
+    "J_sha256": "de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831",
+    "matrix_checks": {
+      "finite": true,
+      "symmetric": true,
+      "max_asymmetry": 0.0,
+      "sign_pass": false,
+      "max_sign_error": null,
+      "chunk_rows": 16
+    },
+    "storage": {
+      "identity": 4628294384,
+      "pointer": 481304772608,
+      "shape": [
+        19612,
+        19612
+      ],
+      "readonly": true,
+      "Fortran": true,
+      "content_sha256": "15f8e083a4b323de758bf30b03438e1c0da0d80604b577208cc708b6c2f1a31c"
+    }
+  },
+  {
+    "call": 3,
+    "multiplier": -1,
+    "J_sha256": "a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee",
+    "matrix_checks": {
+      "finite": true,
+      "symmetric": true,
+      "max_asymmetry": 0.0,
+      "sign_pass": false,
+      "max_sign_error": null,
+      "chunk_rows": 16
+    },
+    "storage": {
+      "identity": 4628294384,
+      "pointer": 481304772608,
+      "shape": [
+        19612,
+        19612
+      ],
+      "readonly": true,
+      "Fortran": true,
+      "content_sha256": "15f8e083a4b323de758bf30b03438e1c0da0d80604b577208cc708b6c2f1a31c"
+    }
+  }
+]

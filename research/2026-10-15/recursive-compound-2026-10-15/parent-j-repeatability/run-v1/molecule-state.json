@@ -1,0 +1,33 @@
+{
+  "arrays": {
+    "_atm": {
+      "shape": [
+        196,
+        6
+      ],
+      "dtype": "int32",
+      "sha256": "9d8b8812d53b30bf4c92254d6e2015964b3bb23ecc759c1289db2ceff7361fab"
+    },
+    "_bas": {
+      "shape": [
+        1260,
+        8
+      ],
+      "dtype": "int32",
+      "sha256": "b853141c5f5e6bff781a0a15724aa0d548f64357d73932c2ab6964c418e48a55"
+    },
+    "_env": {
+      "shape": [
+        904
+      ],
+      "dtype": "float64",
+      "sha256": "0c3612438de83b1c6bc8ee4dc476576c135efc6ba7c3b2506c98d5ec1094b4a6"
+    }
+  },
+  "natm": 196,
+  "nao": 3068,
+  "nelectron": 1568,
+  "charge": -8,
+  "spin": 0,
+  "cart": false
+}

@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 3007,
-  "published_bytes": 1313740266,
-  "unique_published_blobs": 2252,
-  "excluded_entries": 707,
+  "included_files": 3049,
+  "published_bytes": 1540633862,
+  "unique_published_blobs": 2292,
+  "excluded_entries": 720,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 738,
+    "recursive-compound-2026-10-15": 780,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 42012,
-      "source_sha256": "e91744cd014b58700756afcdd4c34cf61874931c1c81a023fcd20079de8980c4",
-      "published_size": 42012,
-      "published_sha256": "e91744cd014b58700756afcdd4c34cf61874931c1c81a023fcd20079de8980c4",
+      "source_size": 43451,
+      "source_sha256": "ca3191b7b32c287ef86f4ea859058f87208ccc260869471529cc702097276189",
+      "published_size": 43451,
+      "published_sha256": "ca3191b7b32c287ef86f4ea859058f87208ccc260869471529cc702097276189",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 13750,
-      "source_sha256": "3c737244cf30184ac92ca46dbfebfc3709769f2129ff2251758780235c6bf1ad",
-      "published_size": 13750,
-      "published_sha256": "3c737244cf30184ac92ca46dbfebfc3709769f2129ff2251758780235c6bf1ad",
+      "source_size": 14458,
+      "source_sha256": "fbce720fa409f46a1527a680304a42b8c3d77991a993e635be3325534a7283cc",
+      "published_size": 14458,
+      "published_sha256": "fbce720fa409f46a1527a680304a42b8c3d77991a993e635be3325534a7283cc",
       "transformations": []
     },
     {
@@ -5195,6 +5195,56 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/boundary/phosphate-transport-lead/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1487,
+      "source_sha256": "4341126672e271f9125eb1449ffa117fca27c373c023a224039454cb24931672",
+      "published_size": 1487,
+      "published_sha256": "4341126672e271f9125eb1449ffa117fca27c373c023a224039454cb24931672",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/phosphate-transport-lead/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2041,
+      "source_sha256": "25d76cf8e874678f777d7bda42eab47e1d8dfe20b15c348042bf59f36fa871ef",
+      "published_size": 2041,
+      "published_sha256": "25d76cf8e874678f777d7bda42eab47e1d8dfe20b15c348042bf59f36fa871ef",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/phosphate-transport-lead/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2552,
+      "source_sha256": "17b2fc30dc28c5c4239aa15a0cdafadf3aa5cff5114ca8c0d2343703cb44f66d",
+      "published_size": 2552,
+      "published_sha256": "17b2fc30dc28c5c4239aa15a0cdafadf3aa5cff5114ca8c0d2343703cb44f66d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/CHARGE_FOLLOWUP.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4529,
+      "source_sha256": "420538d6e18e97881a2633a8085539359763ca2e5521531f94e0684b38fa1523",
+      "published_size": 4529,
+      "published_sha256": "420538d6e18e97881a2633a8085539359763ca2e5521531f94e0684b38fa1523",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/CHARGE_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1555,
+      "source_sha256": "f674c5d4a154c71edf71d81d48b162a5d3e5b3d7112a923f7e5ca493b20296bd",
+      "published_size": 1555,
+      "published_sha256": "f674c5d4a154c71edf71d81d48b162a5d3e5b3d7112a923f7e5ca493b20296bd",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/DECISION.json",
       "status": "included",
       "reason": null,
@@ -5253,6 +5303,58 @@
       "published_size": 10135,
       "published_sha256": "fcc538cce9796b2fb9f564bf02401cd077a318f261c861584996ea14a81e842c",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/charge-followup.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 11223,
+      "source_sha256": "5eedffe4c8effe0a92e99d76e89e44a71f132c08156c9963f7de2ffab0621f38",
+      "published_size": 11223,
+      "published_sha256": "5eedffe4c8effe0a92e99d76e89e44a71f132c08156c9963f7de2ffab0621f38",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/Q1-Q4-search.tool.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 24830
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R1-publisher-landing.tool.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 18874
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R2-R3-pdf-and-accessstructures.tool.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 21054
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R4-accessstructures-form-schema.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 4524
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R5-R6-accessstructures-doi-lookup.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 5476
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R7-result-url-provenance.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 1264
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/mialane2002/R8-accessstructures-response.json",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 6239
     },
     {
       "path": "recursive-compound-2026-10-15/boundary/pom-polyoxocation-23/raw/page2.png",
@@ -5377,13 +5479,33 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/boundary/tube-alternative-followup/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3545,
+      "source_sha256": "e2131bcf90cb2c457edf88bdc9b7814b45729d4bb58d77df2ea829d3562d4858",
+      "published_size": 3545,
+      "published_sha256": "e2131bcf90cb2c457edf88bdc9b7814b45729d4bb58d77df2ea829d3562d4858",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tube-alternative-followup/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1943,
+      "source_sha256": "e7f308a0744eab2ec0989db76ceea4fc49be0bd4a24f0f0e9d9d3029d9c6146d",
+      "published_size": 1943,
+      "published_sha256": "e7f308a0744eab2ec0989db76ceea4fc49be0bd4a24f0f0e9d9d3029d9c6146d",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 19543,
-      "source_sha256": "c54657a30a476067492d3072d3c0055430052ea46b55c9598276f63d661de234",
-      "published_size": 19543,
-      "published_sha256": "c54657a30a476067492d3072d3c0055430052ea46b55c9598276f63d661de234",
+      "source_size": 20742,
+      "source_sha256": "6dcb44c032be7986787b630832a600c264eab6b714eaafa4a2766841869b6851",
+      "published_size": 20742,
+      "published_sha256": "6dcb44c032be7986787b630832a600c264eab6b714eaafa4a2766841869b6851",
       "transformations": []
     },
     {
@@ -8190,6 +8312,422 @@
       "source_sha256": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
       "published_size": 487520,
       "published_sha256": "323a612cf93205d696e60e16cd08cba233a83fe21bbcdcdbc1f18482de53e1bd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4431,
+      "source_sha256": "7150e3c919ea2799fcd26902c8ac957d1fa05d66dc34dbd2a9be32d5b5ec31b9",
+      "published_size": 4431,
+      "published_sha256": "7150e3c919ea2799fcd26902c8ac957d1fa05d66dc34dbd2a9be32d5b5ec31b9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7737,
+      "source_sha256": "b9ca0cedc08169418895daa47474b1bee36d7836c4c61ae3494d640b3a7996bf",
+      "published_size": 7737,
+      "published_sha256": "b9ca0cedc08169418895daa47474b1bee36d7836c4c61ae3494d640b3a7996bf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4073,
+      "source_sha256": "8dfc46bcbe1699ce2bb265ff2e63960998941393ec7c75dc89112b173b79106f",
+      "published_size": 4073,
+      "published_sha256": "8dfc46bcbe1699ce2bb265ff2e63960998941393ec7c75dc89112b173b79106f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/independent-root-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 20246,
+      "source_sha256": "e3e6e8e5a31d01b0b563e5af04b686ad2a167496c31d156ca1ca3f9b5ff3de25",
+      "published_size": 17366,
+      "published_sha256": "2708073976029cec3c56d66a36830576ffb7f19c197b55be7bd84c74deae2a26",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-claim-guards-PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6980,
+      "source_sha256": "1480b0bf36754b67d654410875b6ad6abbab51848ea1a35feb6dd6a8a0a91da6",
+      "published_size": 6980,
+      "published_sha256": "1480b0bf36754b67d654410875b6ad6abbab51848ea1a35feb6dd6a8a0a91da6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-claim-guards-run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 20046,
+      "source_sha256": "044343af4593c88c20f53046aee5611b2fbdb057afd2a12b82f4039b55ce36cd",
+      "published_size": 20046,
+      "published_sha256": "044343af4593c88c20f53046aee5611b2fbdb057afd2a12b82f4039b55ce36cd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-claim-guards-test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 11071,
+      "source_sha256": "aff321b6de89fd3396051fdbab18ff415491df57d3ae17ddb2c816daf1a8c5d4",
+      "published_size": 11071,
+      "published_sha256": "aff321b6de89fd3396051fdbab18ff415491df57d3ae17ddb2c816daf1a8c5d4",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-claim-guards.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 54706,
+      "source_sha256": "d8884e74f89f4c9e90427a90ecac13798bce3111e31777623619561f2643e6eb",
+      "published_size": 45778,
+      "published_sha256": "5e12a240185d36b4eeb6fa7834fb73d9de39eab193a45bf8612a78fb4b184e32",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 248
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-setup-order-PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7530,
+      "source_sha256": "b146bd593762bc36681a30ec1332b2611ef0b4412b85d93d0ce64dbd7b3daf9f",
+      "published_size": 7530,
+      "published_sha256": "b146bd593762bc36681a30ec1332b2611ef0b4412b85d93d0ce64dbd7b3daf9f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-setup-order-run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 21213,
+      "source_sha256": "79c637c422d51261496553d1782f50d28e96986c2080551c0338f3f93dfa901a",
+      "published_size": 21213,
+      "published_sha256": "79c637c422d51261496553d1782f50d28e96986c2080551c0338f3f93dfa901a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-setup-order-test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 12447,
+      "source_sha256": "20392f34f93dd7b141b1d82f43f610fba9c126cffe4a4632b9df8e3681cf79e1",
+      "published_size": 12447,
+      "published_sha256": "20392f34f93dd7b141b1d82f43f610fba9c126cffe4a4632b9df8e3681cf79e1",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation-history/pre-setup-order.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 55641,
+      "source_sha256": "ede5b9aa040f883fccf8341b626f85be03e8c8b7498f7a117e316454e7144416",
+      "published_size": 46569,
+      "published_sha256": "de9670385a7403a299570e5e6ac56fe39a32f4517f3ca1cddc51a52e971d00f2",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 252
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 56537,
+      "source_sha256": "5746a8e8fbecfb9084070dad998f3edb03d0135e19c5e6a07171d59379d52dde",
+      "published_size": 47321,
+      "published_sha256": "fd5d0db4afaff72e55b9bf41c1c3ca9193a0c9de5ac50af2d0aa32bbd2389f80",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 256
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/J1.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301120,
+      "source_sha256": "8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6",
+      "published_size": 75301120,
+      "published_sha256": "8bacd08c2f8e852b9dd164bd33aa6518d872dd87b65cce2ffeabab7d6f861bb6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/J2.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301120,
+      "source_sha256": "de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831",
+      "published_size": 75301120,
+      "published_sha256": "de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/J3.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301120,
+      "source_sha256": "a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee",
+      "published_size": 75301120,
+      "published_sha256": "a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/call-records.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1774,
+      "source_sha256": "586075fe8e93c6297faf1a5051b6d3e48185805b2b623c49e48eb695fd7a438d",
+      "published_size": 1774,
+      "published_sha256": "586075fe8e93c6297faf1a5051b6d3e48185805b2b623c49e48eb695fd7a438d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/comparisons.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3785,
+      "source_sha256": "4925433b9d8594a71d7460fb6be46914acdef36fff4ddc0128d1a6155009b38b",
+      "published_size": 3785,
+      "published_sha256": "4925433b9d8594a71d7460fb6be46914acdef36fff4ddc0128d1a6155009b38b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/factor-aliases.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 289,
+      "source_sha256": "da0d76f6ae0d1d4dc54da4eb54c4d390e48a7d91fb7df71647a1f42977b51f54",
+      "published_size": 289,
+      "published_sha256": "da0d76f6ae0d1d4dc54da4eb54c4d390e48a7d91fb7df71647a1f42977b51f54",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/factor-states.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 738,
+      "source_sha256": "31d52d89ca3af96a01f5a8c29ffb79565d453dc39a39aac8056a16ec0a73f2c0",
+      "published_size": 738,
+      "published_sha256": "31d52d89ca3af96a01f5a8c29ffb79565d453dc39a39aac8056a16ec0a73f2c0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/input-1.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 348,
+      "source_sha256": "5566857324d07cf2382dcf8639295183a23900195da56987442aaf82ff42b7f5",
+      "published_size": 348,
+      "published_sha256": "5566857324d07cf2382dcf8639295183a23900195da56987442aaf82ff42b7f5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/input-2.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 348,
+      "source_sha256": "5566857324d07cf2382dcf8639295183a23900195da56987442aaf82ff42b7f5",
+      "published_size": 348,
+      "published_sha256": "5566857324d07cf2382dcf8639295183a23900195da56987442aaf82ff42b7f5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/input-3.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 349,
+      "source_sha256": "b93094aee6d6ebcde1b57202046b359441a10d0862015e651ad65e1f2ed01545",
+      "published_size": 349,
+      "published_sha256": "b93094aee6d6ebcde1b57202046b359441a10d0862015e651ad65e1f2ed01545",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 19561,
+      "source_sha256": "65b81ebca075120a19d85e1e82202f6e76d0874f0063911e49903aa93e703a93",
+      "published_size": 16681,
+      "published_sha256": "7b77ca57a3370732f56e2f49ad4775e6c3985ac1c3ade1fb8cc319b67b11eeba",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 318280,
+      "source_sha256": "86caecf4eafd9ab8d3d6212466f4e79d87dbaa5ea64ed69e6c063b6735982fce",
+      "published_size": 318208,
+      "published_sha256": "d7d428dfa425900c847c7ce11e2909607b7d4a543298a1c29c340dc613cd511a",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 297,
+      "source_sha256": "5ff3ed660c1adc47b3fb412c4c8a2fcdd347d77c919efe872e200cfac2e6e54d",
+      "published_size": 297,
+      "published_sha256": "5ff3ed660c1adc47b3fb412c4c8a2fcdd347d77c919efe872e200cfac2e6e54d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/molecule-state.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 641,
+      "source_sha256": "b5950962a7ae7065348feb50889c0d4db8e21252e1a088d023523eb8ab2260be",
+      "published_size": 641,
+      "published_sha256": "b5950962a7ae7065348feb50889c0d4db8e21252e1a088d023523eb8ab2260be",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 48589
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/post-call-1.bin",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 44
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/post-call-2.bin",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 44
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/post-call-3.bin",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 44
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 698,
+      "source_sha256": "e59df070ba77c1a7606a6b47c424675c87ff4bdc39c68d3bc59dad0c39004363",
+      "published_size": 698,
+      "published_sha256": "e59df070ba77c1a7606a6b47c424675c87ff4bdc39c68d3bc59dad0c39004363",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37392,
+      "source_sha256": "176a3222c9f2ac7605bad6c605437d80358dfa38a0d536ac8efddd54e8017078",
+      "published_size": 31776,
+      "published_sha256": "b685d3dff53c880189f2408da1b7dc5bc47430cb790c4fbe57da92c59143a98d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/stages.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 2426,
+      "source_sha256": "f3c5655a80fa9e55393cb4ef3cb6f0fe46fbf1bd40f3e40739eedf1b16f02d41",
+      "published_size": 2426,
+      "published_sha256": "f3c5655a80fa9e55393cb4ef3cb6f0fe46fbf1bd40f3e40739eedf1b16f02d41",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 2559
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 288556,
+      "source_sha256": "3784fb3ef60ded98f2110896f2fc2b78eeb7bdfb5eb45593048d4dcff7c30152",
+      "published_size": 288484,
+      "published_sha256": "312fb617272fd2cbef8c30726cce1b195d6b42a6c2f1661cef8c890851dd77f0",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 64,
+      "source_sha256": "b20a2d37bf6ceab83d8ca33288b0d86a155bee52769c05854623a3e89667bdd3",
+      "published_size": 64,
+      "published_sha256": "b20a2d37bf6ceab83d8ca33288b0d86a155bee52769c05854623a3e89667bdd3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 21213,
+      "source_sha256": "4d4b53db2a415299357a30ae4573815e1f7de8a0991d5742c344c616f9db6674",
+      "published_size": 21213,
+      "published_sha256": "4d4b53db2a415299357a30ae4573815e1f7de8a0991d5742c344c616f9db6674",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-repeatability/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 14687,
+      "source_sha256": "3b0e8cb5dc34d66ce5a73feea4005f190e7080ce245afbbfbd9ddb8248254286",
+      "published_size": 14687,
+      "published_sha256": "3b0e8cb5dc34d66ce5a73feea4005f190e7080ce245afbbfbd9ddb8248254286",
       "transformations": []
     },
     {
@@ -13116,10 +13654,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 35872,
-      "source_sha256": "36cfdcbd0b5ef8f90f92bad85edc29839a90277b4e8176dd6925956960c61924",
-      "published_size": 35872,
-      "published_sha256": "36cfdcbd0b5ef8f90f92bad85edc29839a90277b4e8176dd6925956960c61924",
+      "source_size": 38519,
+      "source_sha256": "20c09faf411614b3e498e7dbd2695b6876d0c991b1e79318282075491e469429",
+      "published_size": 38519,
+      "published_sha256": "20c09faf411614b3e498e7dbd2695b6876d0c991b1e79318282075491e469429",
       "transformations": []
     },
     {
