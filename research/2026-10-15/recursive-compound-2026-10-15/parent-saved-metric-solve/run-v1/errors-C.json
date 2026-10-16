@@ -1,0 +1,14 @@
+{
+  "matrix_infinity_norm": 40024.485520835566,
+  "matrix_symmetry_max": 0.0,
+  "residual_infinity_norm": 2.7284841053187847e-11,
+  "normwise_backward_error": 6.5889697920437e-17,
+  "componentwise_backward_error": 1.2035344324743561e-14,
+  "certified_error_bound": false,
+  "versus_prior_rho": {
+    "exact_equal": false,
+    "max_absolute_difference": 0.00012481133237063347,
+    "RMS_difference": 2.1532170520742806e-06,
+    "acceptance_threshold": null
+  }
+}

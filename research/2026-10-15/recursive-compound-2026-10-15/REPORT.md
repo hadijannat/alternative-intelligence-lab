@@ -1,6 +1,12 @@
 # Recursive compound investigation: first integrated assessment
 
-## Current publication checkpoint: failed factorization and measured thread controls
+## Current publication checkpoint: controlled solve completed, full-J diagnostic prepared
+
+The [saved-metric replay](parent-saved-metric-solve/REPORT.md) completed one factorization and four explicit solves in66.0381505seconds under observed configured BLAS1/PySCF4. The identical-RHS pair is bitwise repeatable. Small saved RHS differences still amplify into coefficient differences; DPOCON estimates condition number2.49724e13. The new factor differs from the historical factor, so no exclusive prior-cause inference follows. Independent selected-row exact arithmetic exposes rounding in the ordinary residual calculation. No J, SCF, target experiment or held-out target validation ran.
+
+The next numerical question is the effect on the full ordinary Coulomb operator under these explicit controls, while retaining its1e-10 absolute criterion. Large coefficient differences alone do not select a physical error or justify a new approximation. The separate [two-call preparation](parent-explicit-blas-j/PROTOCOL.md) is frozen as `PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW`: six mock tests pass and 429 grouped pin entries bind one proposed 600-second/10-GiB sampled-RSS child. No independent root approval, run directory or native J call exists for this preparation. [Alternate Howarth1991 access](identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md) recovered metadata but no original speciation tables; no chemistry parameters were added. Aggregate remains24 assessed roles/0 verified integrated complements, all twelve requirements unmet. The user requests committing and pushing this continuation to main after published `ce36500`. This publication checkpoint introduces no new scientific run; commit, push and hosted verification are recorded separately. It supersedes the current-state wording in all historical sections below.
+
+## Historical publication checkpoint: failed factorization and measured thread controls
 
 The user requested committing and pushing the continuation after `77c7c2e031073aa415283a671f853edc1d91c7bb`. The aggregate remains **24 assessed candidate roles and zero verified integrated complements**. All twelve integrated requirements (I/E/T/B/R/H/V/S/M/A/J/C) remain unmet. This section supersedes the current-state wording in the historical checkpoints below.
 

@@ -1222,7 +1222,40 @@ def verify_blas_checkpoint(recursive):
     assert prep['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
     assert prep['parent_metric_builds'] == prep['J_calls'] == prep['SCFs'] == prep['PCM_builds'] == 0
     assert prep['physical_admission'] is False
-    assert not (replay / 'independent-root-review.json').exists() and not (replay / 'run-v1').exists()
+    approval = json.loads((replay / 'independent-root-review.json').read_text())
+    assert approval['status'] == 'APPROVED_ONE_SAVED_METRIC_SOLVE_DIAGNOSTIC'
+    assert approval['independent_root_review'] is True
+    assert approval['preparation_sha256'] == '75aae4c3937ccfd774246a10be98661ad848df2edc349a0b54df17267361c99f'
+    launch = json.loads((replay / 'run-v1/launch-result.json').read_text())
+    result = json.loads((replay / 'run-v1/result.json').read_text())
+    assert launch['completed'] is True and launch['receipt']['returncode'] == 0
+    assert len(launch['artifact_hashes']) == 37 and launch['physical_admission'] is False
+    assert launch['artifact_hashes']['rho_A1.npy'] == launch['artifact_hashes']['rho_A2.npy']
+    assert result['status'] == 'COMPLETED_SAVED_METRIC_SOLVE_DIAGNOSTIC_ONLY'
+    assert result['comparisons']['A2']['exact_equal'] is True
+    assert result['comparisons']['A2']['max_absolute_difference'] == result['comparisons']['A2']['RMS_difference'] == 0
+    for arm in ('B', 'C'):
+        assert result['comparisons'][arm]['exact_equal'] is False
+        assert result['comparisons'][arm]['max_absolute_difference'] > 0
+    assert all(row['acceptance_threshold'] is None for row in result['comparisons'].values())
+    assert result['condition']['certified_bound'] is False and result['condition']['info'] == 0
+    assert result['condition']['one_norm_condition_estimate'] == 24972383299521.492
+    assert result['condition']['reciprocal_one_norm_condition_estimate'] == 4.004423558640322e-14
+    for key in ('factor_matches_prior', 'physical_admission', 'parent_SCF_readiness', 'prior_call_causality_established'):
+        assert result[key] is False
+    assert result['J_calls'] == result['SCFs'] == result['PCM_builds'] == 0
+    assert result['prior_J_tolerance_unchanged'] == 1e-10
+    assert result['thread_counts_are_configured_getters_not_measured_team_sizes'] is True
+    explicit = recursive / 'parent-explicit-blas-j'
+    pending = json.loads((explicit / 'preparation.json').read_text())
+    mocks = json.loads((explicit / 'qualification.json').read_text())
+    assert pending['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert sum(len(group) for group in pending['pins'].values()) == 429
+    assert pending['SCFs'] == pending['PCM_builds'] == pending['operators_executed'] == 0
+    assert pending['physical_admission'] is pending['parent_SCF_readiness'] is False
+    assert mocks['passed'] is mocks['mock_only'] is True
+    assert mocks['tests_run'] == 6 and mocks['failures'] == mocks['errors'] == mocks['native_parent_calls'] == 0
+    assert not (explicit / 'independent-root-review.json').exists() and not (explicit / 'run-v1').exists()
     qualification = json.loads((replay / 'qualification.json').read_text())
     assert qualification['passed'] is True and qualification['tests_run'] == 8
     assert qualification['parent_native_execution'] is False
@@ -1253,6 +1286,13 @@ def verify_stage_artifact_bindings(recursive, included):
     bindings.update({metric_v2 + '/' + name: digest for name, digest in terminal['artifact_hashes'].items()
                      if name not in omitted_logs | {'original_metric.npy'}})
     assert 'recursive-compound-2026-10-15/' + metric_v2 + '/original_metric.npy' not in source_hashes
+    replay = 'parent-saved-metric-solve/run-v1'
+    completed = json.loads((recursive / replay / 'launch-result.json').read_text())
+    assert len(completed['artifact_hashes']) == 37
+    assert all('recursive-compound-2026-10-15/' + replay + '/' + name not in source_hashes
+               for name in omitted_logs)
+    bindings.update({replay + '/' + name: digest for name, digest in completed['artifact_hashes'].items()
+                     if name not in omitted_logs})
     for folder, receipt, key in (('parent-blas-control-audit', 'verification.json', 'sha256'),
                                  ('parent-saved-metric-solve', 'qualification.json', 'tiny_artifact_hashes')):
         hashes = json.loads((recursive / folder / receipt).read_text())[key]
@@ -1324,6 +1364,18 @@ def verify_parent_pilot_source_bindings(included):
             'boundary/aqueous-pom-nanofiltration-followup/extracted-results.json': 'd87aff4510136de06830951259de5a322a6ffdc78da5c69ebe6ad36cc749aaf1',
             'boundary/aqueous-pom-nanofiltration-followup/main-table-results.json': 'f678db15da8fa2246e887a3fd755c99a2fadd9a0f5b3ac611dc84c7604f3d776',
             'boundary/aqueous-pom-nanofiltration-followup/extract_and_check.py': '15d72134896cb39ea0978ae57f97e237ce12ff51021e961bfc84c4212c3f071d'}.items():
+        assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
+
+    for name, digest in {
+            'parent-saved-metric-solve/independent-root-review.json': '03769aabaf813daa6cd66219c208e6525a32a86bfb0a99b069b0766d88489aed',
+            'parent-saved-metric-solve/run-v1/launch-result.json': '1b12b619c3491182c6eb0e8dfb557905e1c73c2afda12c5c3e477ae20e88a730',
+            'parent-saved-metric-solve/run-v1/result.json': '6f4f2b4e2755d9dbba32242dc8cef5420d77a94280a7e15c0b37254b205cb22a',
+            'parent-explicit-blas-j/preparation.json': '13cf6df31ebf08fd49d873e96d77843dd1df4cbe8e4039488a0376bf0d90d51e',
+            'parent-explicit-blas-j/qualification.json': '1e1a757e739a5605b925605285477173db475018035eeb3977a52b4fd22cd85a',
+            'parent-explicit-blas-j/test_run.py': '9de6d3b5767dd37416bca777d2eb5037896bc36db21e4f25185b0d6b6ffefb4c',
+            'parent-explicit-blas-j/run.py': 'b7f2ee113dab465dcf8528b6a80020f098ee17fa6f9b09efb4c81fef4e085beb',
+            'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
+    }.items():
         assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
 
 

@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication: native failure, BLAS correction and source constraints
+## Current publication: completed saved-metric replay and prepared full-J diagnostic
+
+The user requests committing the continuation after published `ce36500` and pushing main. This section supersedes current-state wording in every historical section below. The full scientific objective remains active and unmet: 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unresolved.
+
+The single approved saved-metric replay completed one factorization and four explicit solves in 66.0381505 seconds, with configured BLAS1/PySCF4. A1/A2 are bitwise identical; small saved RHS changes still produce large coefficient changes, with estimated condition number 2.49724e13. Independent terminal review is CLEAR for recording this diagnostic only; all 37 output hashes matched. The factor differs from the historical factor, and selected-row exact arithmetic exposes rounding in floating residuals. Neither the crash cause, full residual norm, forward error nor physical accuracy is established. These previously examined inputs are not a holdout; no J, SCF or PCM ran in the replay. Original SIGBUS and every earlier numerical nonpass remain preserved.
+
+The separate parent-explicit-blas-j preparation is frozen as `PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW`: six mock tests pass and 429 grouped pin entries bind the proposed two ordinary +P0 calls. Its bounds remain one fresh 600-second/10-GiB sampled-RSS child, unchanged 1e-10 absolute/zero relative full-matrix criteria, saved full J/RHS/coefficient arrays, no SCF/PCM/retry. No independent root approval, run-v1 directory or native launch exists. A successful repetition would still require small-reference/direct/solvent-aware accuracy qualification and an untouched numerical case before parent SCF.
+
+Alternate Howarth1991 access recovered metadata but no original speciation tables or new chemistry parameters. Wetting and processing/speciation constraints, access failures and all prior negative results remain retained. No target experiment, held-out target validation or integrated admission is added. Source checkpoint receipt: workspace `.omo/evidence/publication-replay-checkpoint/source.md`. Export, commit, push and hosted checks are recorded separately by the publication workflow; this task launches no new scientific calculation.
+
+## Historical publication: native failure, BLAS correction and source constraints
 
 The user requests committing the continuation after `77c7c2e031073aa415283a671f853edc1d91c7bb` and pushing main. This section supersedes publication-state statements below. The full scientific objective remains active and unmet: 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unresolved.
 

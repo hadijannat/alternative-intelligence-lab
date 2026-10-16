@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_both_ordinary_and_no_C (__main__.Tests.test_both_ordinary_and_no_C) ... ok\ntest_failure_retains_first_arrays (__main__.Tests.test_failure_retains_first_arrays) ... ok\ntest_gate_rejects_missing_approval_and_changed_pin (__main__.Tests.test_gate_rejects_missing_approval_and_changed_pin) ... ok\ntest_launcher_exact_limits_and_exclusive_output (__main__.Tests.test_launcher_exact_limits_and_exclusive_output) ... ok\ntest_one_factor_metric_before_destructive_call (__main__.Tests.test_one_factor_metric_before_destructive_call) ... ok\ntest_two_calls_save_before_nonpass (__main__.Tests.test_two_calls_save_before_nonpass) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.006s\n\nOK\n",
+  "native_parent_calls": 0,
+  "mock_only": true
+}

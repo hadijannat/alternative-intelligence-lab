@@ -1,0 +1,15 @@
+# Explicit BLAS control: two ordinary parent J calls
+
+Status: preparation only. No native parent work is authorized by this document.
+
+One new child, 600 seconds, 10 GiB sampled RSS guard; sampling does not bound unsampled peaks. Exclusive run-v1 directory, no retry, no SCF, no PCM build. Reuse the frozen positive P0 density, original parent model, screening, auxiliary basis and memory specialization from stage localization. This is a parent numerical diagnostic, not the exact Mo34WV target.
+
+Use the unchanged saved-metric replay explicit BLAS controller in a fresh child: configured OpenBLAS 1 / PySCF 4, verified binary and dpotrf symbol identity, snapshots before/after setup and each J. Getters are configured counts, not measured team sizes. Restoring counts does not restore implicit control mode; the child terminates.
+
+Exactly two ordinary +P0 calls A and B on one object and factor. The capture hook returns the original solve object unchanged for both arms and rejects C. At most one destructive factorization. Record original metric storage-content SHA256 before factorization and compare descriptively with the saved replay metric content hash. Unequal metrics prevent a matched causal comparison; equality alone also does not prove causation. The original matrix is not retained in this attempt. Existing factor storage, alias, immutability and content-hash checks apply after both calls. The metric digest is written before destruction so a native crash retains it.
+
+Save and close each full J and each b/rho vector before post-return checks; complete both arms before numerical classification. Failed invariants abort and retain completed arrays. Preserve ordinary numerical failures as completed diagnostic outcomes. Compare full J B versus A with absolute tolerance 1e-10 and relative tolerance zero, and symmetry with the unchanged frozen matrix check. Separately compare each full J with the historical first-J output, using the same strict threshold. That reference uses the same implementation and is not an independent accuracy oracle. Report vector differences descriptively without a new acceptance threshold. Never substitute rho, relax tolerances, or let a scalar energy comparison replace the full-matrix check.
+
+Preparation pins all ancestor manifests, the explicit-control source/report and qualified runtime through the replay manifest, prior replay outputs and independent result review, and this driver/tests/protocol/qualification. Launch requires a separate root approval bound to preparation SHA256 and qualification pins; output creation is exclusive. Tiny tests exercise mock-only call/capture/resource/gate behavior. No parent integrals, J, factor, SCF or PCM may run during preparation.
+
+Even passing parent repetition does not qualify scientific chemistry. The explicit-control runtime must subsequently pass newly frozen small-reference/direct/solvent-aware qualification and an untouched case before SCF. These already examined parent inputs are not held-out validation. Numerical accuracy, exact-target identity, retention, inheritance and all life/intelligence functions remain unverified; zero admissions.

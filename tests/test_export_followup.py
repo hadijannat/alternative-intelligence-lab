@@ -297,7 +297,7 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
                        'parent-metric-solve-diagnostic', 'parent-metric-solve-diagnostic-v2',
                        'boundary/aqueous-pom-nanofiltration-followup', 'parent-blas-control-audit',
-                       'parent-saved-metric-solve', 'identity/concentration-speciation-followup'):
+                       'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -319,6 +319,19 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-blas-control-audit/observed.json', ('states', 0, 'blas'), 1),
             ('parent-blas-control-audit/verification.json', 'failed_setup_attempts_preserved', 0),
             ('parent-saved-metric-solve/qualification.json', 'parent_native_execution', True),
+            ('parent-saved-metric-solve/run-v1/result.json', 'status', 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'),
+            ('parent-saved-metric-solve/run-v1/result.json', ('comparisons', 'A2', 'exact_equal'), False),
+            ('parent-saved-metric-solve/run-v1/result.json', ('condition', 'certified_bound'), True),
+            ('parent-saved-metric-solve/run-v1/result.json', 'factor_matches_prior', True),
+            ('parent-saved-metric-solve/run-v1/result.json', 'physical_admission', True),
+            ('parent-saved-metric-solve/run-v1/result.json', 'parent_SCF_readiness', True),
+            ('parent-saved-metric-solve/run-v1/launch-result.json', 'completed', False),
+            ('parent-saved-metric-solve/run-v1/launch-result.json', ('artifact_hashes', 'rho_A2.npy'), '0' * 64),
+            ('parent-saved-metric-solve/run-v1/launch-result.json', 'artifact_hashes', {}),
+            ('parent-explicit-blas-j/preparation.json', 'pins', {}),
+            ('parent-explicit-blas-j/qualification.json', 'native_parent_calls', 1),
+            ('parent-explicit-blas-j/qualification.json', 'tests_run', 7),
+            ('parent-explicit-blas-j/preparation.json', 'physical_admission', True),
             ('identity/concentration-speciation-followup/evidence.json', 'target_tested', True),
             ('boundary/hollow-silicalite-followup/wetting-constraint/ROOT_REVIEW.json', 'physical_target_tested', True),
             ('parent-metric-solve-diagnostic/run-v1/launch-result.json', 'completed', True),
@@ -577,7 +590,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-metric-solve-diagnostic-v2/preparation.json',
                        'parent-metric-solve-diagnostic-v2/qualification-failed-v1.json',
                        'boundary/aqueous-pom-nanofiltration-followup/evidence.json',
-                       'boundary/aqueous-pom-nanofiltration-followup/extracted-results.json'):
+                       'boundary/aqueous-pom-nanofiltration-followup/extracted-results.json',
+                       'parent-saved-metric-solve/run-v1/launch-result.json',
+                       'parent-saved-metric-solve/run-v1/result.json',
+                       'parent-explicit-blas-j/preparation.json',
+                       'parent-explicit-blas-j/qualification.json',
+                       'parent-explicit-blas-j/test_run.py',
+                       'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']
@@ -633,8 +652,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
-                       'parent-saved-metric-solve/independent-root-review.json',
-                       'parent-saved-metric-solve/run-v1/result.json',
+                       'parent-explicit-blas-j/independent-root-review.json',
+                       'parent-explicit-blas-j/run-v1/result.json',
                        'parent-metric-solve-diagnostic-v2/run-v1/result.json'):
             with self.subTest(suffix=suffix):
                 path = self.recursive / suffix
@@ -671,6 +690,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
         verify_stage_artifact_bindings(self.recursive, records)
+        for name in ('native.log', 'stdout.txt', 'stderr.txt'):
+            with self.subTest(excluded_log=name):
+                records.append({'path': 'recursive-compound-2026-10-15/parent-saved-metric-solve/run-v1/' + name,
+                                'source_sha256': '0' * 64})
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                records.pop()
         for suffix in ('parent-j-stage-localization/run-v1/J_A.npy',
                        'parent-j-stage-localization/run-v1/supervisor.json',
                        'boundary/copper-phosphate-transport/evidence.json',
@@ -681,6 +707,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-blas-control-audit/observed.json',
                        'parent-blas-control-audit/failed-v1/probe.py',
                        'parent-saved-metric-solve/qualification-thread/errors-A1.json',
+                       'parent-saved-metric-solve/run-v1/rho_A1.npy',
+                       'parent-saved-metric-solve/run-v1/result.json',
                        'identity/concentration-speciation-followup/evidence.json',
                        'boundary/hollow-silicalite-followup/wetting-constraint/validation.json'):
             with self.subTest(suffix=suffix):

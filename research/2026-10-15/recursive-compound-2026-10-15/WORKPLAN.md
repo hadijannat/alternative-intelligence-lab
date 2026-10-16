@@ -1,6 +1,12 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication scope: terminal v2 and unlaunched replay
+## Current publication work: completed replay and prepared explicit-control diagnostic
+
+The single saved-metric replay is complete and independently reviewed:66.0381505seconds, one factorization/four solves, identical A1/A2, high estimated conditioning and retained RHS sensitivity. It reused examined inputs and is not a holdout. Preserve the SIGBUS, all earlier J nonpasses, and the residual-rounding findings; do not replace coefficient sensitivity with a claim of physical error or crash causality.
+
+The two ordinary +P0 J calls under the explicit BLAS1/PySCF4 controller are prepared as `PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW`, with six passing mock tests and 429 grouped pin entries. The frozen proposal retains one fresh 600-second/10-GiB sampled-RSS child, unchanged 1e-10/rtol0 criteria, saved full matrices and RHS/coefficients, and no SCF/PCM/retry. No independent root approval, run directory or native launch exists. Next scientific prerequisite: independently review and separately approve that exact preparation before any launch. A passing repeatability diagnostic would still require small-case/direct/solvent-aware accuracy qualification and an untouched numerical case before a parent SCF. No basis/ridge/screening change is selected by the current evidence. The alternate primary-source route supplies no new Mo/V calibration rows. All twelve integrated requirements remain unmet;24assessments/0admissions. Current task: publish this checkpoint after `ce36500` without launching the diagnostic. Record export, commit, push and hosted checks separately; prior publication sections below preserve historical states.
+
+## Historical publication scope: terminal v2 and unlaunched replay
 
 Publish the continuation after `77c7c2e031073aa415283a671f853edc1d91c7bb`, retaining all failures and source-access limits. Metric v2 is terminal SIGBUS during Cholesky, after saving the original metric. The read-only postmortem establishes finite/symmetric saved entries only; there is no completed factor or solve. The tiny BLAS probe corrects the requested `OMP4/BLAS1` shorthand to observed configured counts 4/4 for this binary; the explicit setter gives 1/4 but changes persistent process control state. Preserve the earlier results and do not attribute the crash to threading without further evidence.
 
