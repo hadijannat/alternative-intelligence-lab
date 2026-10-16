@@ -1389,8 +1389,8 @@ def verify_serial_rhs_preparation(recursive):
     assert qualification['passed'] is qualification['mock_only'] is True
     assert qualification['tests_run'] == 7
     assert qualification['failures'] == qualification['errors'] == qualification['native_parent_calls'] == 0
-    assert not (base / 'independent-root-review.json').exists()
-    assert not list(base.glob('run-v*'))
+    verify_serial_rhs_result(recursive)
+    verify_serial_source_dossiers(recursive)
     acquisition = json.loads((recursive / 'renewal/ir-ta-reservoir-reacquisition/acquisition.json').read_text())
     assert acquisition['status'] == 'DUPLICATE_PRIMARY_SUPPLEMENT_REACQUIRED_NO_NEW_ROLE'
     assert acquisition['doi'] == '10.1007/s40820-025-01680-w'
@@ -1401,6 +1401,110 @@ def verify_serial_rhs_preparation(recursive):
     assert supplement['exit_code'] == 0 and supplement['http_status'] == 200
     assert supplement['bytes'] == 44480742 and supplement['matches_prior_archived_supplement'] is True
     assert supplement['sha256'] == 'a21b86081a77cd9516e03f45af3cc42a820576ea3078da64dd50ed2b0d73bd1a'
+
+
+def verify_serial_rhs_result(recursive):
+    base = recursive / 'parent-serial-rhs-diagnostic'
+    approval = json.loads((base / 'independent-root-review.json').read_text())
+    assert approval['status'] == 'APPROVED_ONE_SERIAL_RHS_PREFIX_DIAGNOSTIC'
+    assert approval['independent_root_review'] is True and approval['root_grouped_pins_verified'] == 474
+    assert approval['preparation_sha256'] == '0da90217f8074035deb9902173fb9bd3aa53d7679be4e56c0ec4736eded2f92b'
+    run = base / 'run-v1'
+    gate = json.loads((run / 'launch-gate.json').read_text())
+    assert gate['preparation_sha256'] == approval['preparation_sha256']
+    assert gate['review_sha256'] == '363d3533814b94a3624657d576b85ef77663c6d5083466ae48b27f9f2d5bf569'
+    result = json.loads((run / 'result.json').read_text())
+    launch = json.loads((run / 'launch-result.json').read_text())
+    receipt = json.loads((run / 'supervisor.json').read_text())
+    assert result['status'] == 'COMPLETED_SERIAL_RHS_PREFIX_DIAGNOSTIC_ONLY'
+    assert result['prefix_attempts'] == result['pass1_calls'] == result['sentinel_count'] == 2
+    assert result['factor_count'] == 1
+    for record in (approval, result):
+        for key in ('solves', 'complete_J_calls', 'SCFs', 'PCM_builds'):
+            assert record[key] == 0
+        assert record['held_out_validation'] is False
+    for record in (approval, result, launch):
+        assert record['physical_admission'] is record['parent_SCF_readiness'] is False
+    assert approval['J_criterion_tested'] is False
+    assert launch['completed'] is launch['gate_unchanged'] is True
+    assert launch['gate_error'] is None and launch['receipt'] == receipt
+    assert receipt['returncode'] == 0 and receipt['termination_reason'] is receipt['monitor_error'] is None
+    assert receipt['wall_seconds'] == 893.8663067501038 < receipt['wall_cap_seconds'] == 1800
+    assert receipt['sampled_max_rss_bytes'] == 3627646976 < receipt['rss_guard_bytes'] == 10737418240
+    assert receipt['hard_OS_memory_limit'] is False
+    comparisons = json.loads((run / 'comparisons.json').read_text())
+    assert result['comparisons'] == comparisons
+    assert comparisons['serial_RHS_repeat_pass'] is True
+    assert comparisons['exclusive_causality_established'] is comparisons['J_criterion_tested'] is False
+    assert comparisons['J_absolute_tolerance'] == 1e-10 and comparisons['J_relative_tolerance'] == 0
+    repeat = comparisons['repeat']
+    assert repeat['exact_equal'] is repeat['bitwise_equal'] is True
+    assert repeat['max_absolute_difference'] == repeat['RMS_difference'] == repeat['unequal_entries'] == 0
+    assert repeat['acceptance_threshold'] is None
+    assert set(comparisons['historical_OMP4']) == {'A-old-A', 'A-old-B', 'B-old-A', 'B-old-B'}
+    for comparison in comparisons['historical_OMP4'].values():
+        assert comparison['exact_equal'] is comparison['bitwise_equal'] is False
+        assert comparison['max_absolute_difference'] > 0 and comparison['unequal_entries'] > 0
+        assert comparison['acceptance_threshold'] is None
+    digest = 'aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260'
+    assert result['output_hashes'] == {'b_A': digest, 'b_B': digest}
+    assert len(launch['artifact_hashes']) == 30
+    states = json.loads((run / 'factor-states.json').read_text())
+    assert len(states) == 2 and states[0] == states[1]
+    assert states[0]['readonly'] is True and states[0]['shape'] == [19612, 19612]
+    for count, arm in enumerate(('A', 'B'), 1):
+        call = json.loads((run / f'call-{arm}.json').read_text())
+        assert call['arm'] == arm and call['prefix_attempts'] == call['pass1_calls'] == call['sentinel_count'] == count
+        assert call['complete_J_calls'] == call['solves'] == 0
+        assert call['hashes'] == {f'b_{arm}': digest} and call['storage'] == states[0]
+        assert launch['artifact_hashes'][f'b_{arm}.npy'] == digest
+    stages = [json.loads(line) for line in (run / 'stages.jsonl').read_text().splitlines()]
+    assert [stage['stage'] for stage in stages] == [
+        'basis_build_start', 'setup_complete', 'prefix_attempt', 'pass1_enter', 'pass1_return',
+        'RI_factor_start', 'RI_factor_complete', 'prefix_attempt', 'pass1_enter', 'pass1_return']
+    assert all(stage['threads'] == 1 for stage in stages if stage['stage'] in ('pass1_enter', 'pass1_return'))
+    for name in ('J_A.npy', 'J_B.npy', 'rho_A.npy', 'rho_B.npy', 'SCF-result.json', 'iterations.jsonl'):
+        assert not (run / name).exists()
+
+
+def verify_serial_source_dossiers(recursive):
+    for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
+        base = recursive / folder
+        review = json.loads((base / 'ROOT_REVIEW.json').read_text())
+        assert review['status'] == 'ACCEPTED_SOURCE_CONSTRAINT_ONLY'
+        assert review['root_bindings_verified'] is review['source_reproduction_only'] is True
+        assert review['new_candidate_roles'] == review['verified_integrated_complements'] == 0
+        for key in ('target_tested', 'held_out_validation', 'physical_admission'):
+            assert review[key] is False
+        assert review['independent_review'] == '../../review/serial-continuation-chemistry.md'
+        assert hashlib.sha256((recursive / 'review/serial-continuation-chemistry.md').read_bytes()).hexdigest() == review['independent_review_sha256']
+    boundary = recursive / 'boundary/tantalum-coated-alumina-followup'
+    evidence = json.loads((boundary / 'evidence.json').read_text())
+    assert evidence['source']['raw_measurement_dataset_acquired'] is False
+    assert evidence['source']['published_table_rows'] == 3
+    assert evidence['observed']['mass_loss_percent'] == [30.4, 14.6, 7.2]
+    assert evidence['observed']['air_flow_L_min'] == [0.95, 0.95, 0.85]
+    assert all(value is None for value in evidence['target_parameters'].values())
+    assert all(value is None for value in evidence['unverified'].values())
+    assert evidence['new_complement_roles'] == evidence['verified_integrated_complements'] == 0
+    for key in ('target_joint_function_demonstrated', 'heldout_target_validation', 'rate_fitting_performed',
+                'size_exclusion_admitted', 'registration_performed'):
+        assert evidence[key] is False
+    assert json.loads((boundary / 'acquisition.json').read_text())['new_raw_measurement_dataset'] is False
+    nmr = recursive / 'identity/vanadate-nmr-control'
+    analysis = json.loads((nmr / 'analysis.json').read_text())
+    acquisition = json.loads((nmr / 'acquisition.json').read_text())
+    assert analysis['source_table_rows'] == acquisition['quantitative_source_rows'] == 8
+    assert analysis['source_table_sha256'] == hashlib.sha256((nmr / 'observations.csv').read_bytes()).hexdigest()
+    for record in (analysis, acquisition):
+        assert record['parameters_fitted'] == record['new_roles'] == 0
+        assert record['retrospective_only'] is True
+        for key in ('held_out_validation', 'target_tested', 'physical_admission'):
+            assert record[key] is False
+    assert analysis['uncertainty_is_formal_confidence_interval'] is False
+    assert acquisition['source_contains_raw_instrument_data'] is False
+    assert acquisition['models_are_original_source_predictions'] is True
+    assert acquisition['uncertainty_confidence_level'] is None
 
 
 def verify_stage_artifact_bindings(recursive, included):
@@ -1435,6 +1539,12 @@ def verify_stage_artifact_bindings(recursive, included):
                for name in omitted_logs)
     bindings.update({explicit + '/' + name: digest for name, digest in terminal['artifact_hashes'].items()
                      if name not in omitted_logs})
+    serial = 'parent-serial-rhs-diagnostic/run-v1'
+    terminal = json.loads((recursive / serial / 'launch-result.json').read_text())
+    bindings.update({serial + '/' + name: digest for name, digest in terminal['artifact_hashes'].items()
+                     if name not in omitted_logs})
+    assert all('recursive-compound-2026-10-15/' + serial + '/' + name not in source_hashes
+               for name in omitted_logs)
     for folder, receipt, key in (('parent-blas-control-audit', 'verification.json', 'sha256'),
                                  ('parent-saved-metric-solve', 'qualification.json', 'tiny_artifact_hashes')):
         hashes = json.loads((recursive / folder / receipt).read_text())[key]
@@ -1442,9 +1552,14 @@ def verify_stage_artifact_bindings(recursive, included):
                          if name.split('/')[-1] not in omitted_logs and not name.startswith('sources/')})
     for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
                    'boundary/hollow-silicalite-followup/wetting-constraint', 'identity/concentration-speciation-followup',
-                   'identity/measurement-integrity-followup'):
+                   'identity/measurement-integrity-followup', 'boundary/tantalum-coated-alumina-followup',
+                   'identity/vanadate-nmr-control'):
         review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
         bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
+        if 'independent_review_sha256' in review:
+            bindings['review/serial-continuation-chemistry.md'] = review['independent_review_sha256']
+        assert not any(path.startswith('recursive-compound-2026-10-15/' + folder + '/raw/')
+                       for path in source_hashes)
     assert not any(path.startswith('recursive-compound-2026-10-15/identity/measurement-integrity-followup/raw/')
                    for path in source_hashes)
     assert not any(path.startswith('recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition/raw/')
@@ -1534,6 +1649,14 @@ def verify_parent_pilot_source_bindings(included):
             'parent-serial-rhs-diagnostic/PROTOCOL.md': '1f3e925d89c9426a9a820f4eb3570fa6ddf5729c2f985b31dd28ae66b74af17c',
             'parent-serial-rhs-diagnostic/preparation.json': '0da90217f8074035deb9902173fb9bd3aa53d7679be4e56c0ec4736eded2f92b',
             'parent-serial-rhs-diagnostic/qualification.json': 'afa05513c55b70714e415a50603541f9c2d80c98c18bfc9261bc67be67ae1e47',
+            'parent-serial-rhs-diagnostic/independent-root-review.json': '363d3533814b94a3624657d576b85ef77663c6d5083466ae48b27f9f2d5bf569',
+            'parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md': '2a43764a0b0884efd61671eb713c5e1fb6cb7c3b7b4f50851f0eb7b14a9666fd',
+            'parent-serial-rhs-diagnostic/PRELAUNCH_REVIEW.md': 'd564f396f71cbe6d5a19a77b57d27000a0e3a921114a19d9d2f2bc109ac3c026',
+            'parent-serial-rhs-diagnostic/run-v1/result.json': '6f81389778cc31a7ab7908353cdfce8034541ed554935dcb97bd33bf8d2a0afb',
+            'parent-serial-rhs-diagnostic/run-v1/launch-result.json': '3fa2f87cccef225fb1eaf227d8ae83c7da914c2a21c6f409dce39fb707cdf510',
+            'boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json': 'c4456a81132ad15cf23b9d01aaef7389e182c46220308dbe437c935bc98e1319',
+            'identity/vanadate-nmr-control/ROOT_REVIEW.json': 'b24e6736224cd5db6eaed6519fec982d67417129427246b2321fb395aa262bf5',
+            'review/serial-continuation-chemistry.md': '1657921c4a17f3fb7cad6511db1c80dee66cf99041c09b7cf435b40bb5ffcfab',
             'renewal/ir-ta-reservoir-reacquisition/acquisition.json': '7aeacbe90a8a5a6088851e03ebe4c115c5dd5a12b7c8c4d7a76fa65c704979c2',
             'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
     }.items():

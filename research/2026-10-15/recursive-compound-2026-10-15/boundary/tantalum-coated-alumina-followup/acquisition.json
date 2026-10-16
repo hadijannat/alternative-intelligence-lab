@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "researcher_text_audit": {
+    "role": "initial source-text audit supplied by parent",
+    "query_count": null,
+    "web_access_count": null,
+    "screenshots_visibly_returned": false,
+    "initial_printed_page_claim": 6,
+    "page_claim_correction": "Root visual inspection establishes printed page 7 / PDF page 7 (1-based).",
+    "missing_access_details_invented": false
+  },
+  "root_acquisition_as_reported_by_parent": {
+    "primary_pdf_url": "https://patentimages.storage.googleapis.com/53/e2/f5/4d6e938c088ad0/EP0363138A1.pdf",
+    "web_pdf_open": "successful parsed text",
+    "curl_command": "curl --fail --location --max-time 90 --dump-header recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/patent.headers --output recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/EP0363138A1.pdf --write-out 'http=%{http_code} bytes=%{size_download}\\n' 'https://patentimages.storage.googleapis.com/53/e2/f5/4d6e938c088ad0/EP0363138A1.pdf'",
+    "curl_exit_code": 0,
+    "http_status": 200,
+    "download_bytes": 875925,
+    "text_extraction": "pdftotext -layout",
+    "render_options": "pdftoppm -f 7 -singlefile -scale-to 1800 -png",
+    "visual_review": "root view_image inspected raw/page-7.png and confirmed Table 3 on printed page 7"
+  },
+  "writer_validation": {
+    "new_web_accesses": 0,
+    "new_downloads": 0,
+    "read_local_text": "Example 5, Table 3, general experimental dimensions and static/flow warning",
+    "read_local_headers": "HTTP/2 200 and content-length 875925",
+    "visual_review": "view_image of existing raw/page-7.png independently confirms the three Table 3 rows and printed page 7",
+    "hash_command": "shasum -a 256 recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/*",
+    "raw_files_modified": false
+  },
+  "raw_artifacts": [
+    {"path": "raw/EP0363138A1.pdf", "bytes": 875925, "sha256": "4fd91007354a41e4a5a5e5061849ccb582495f3502c74848d023ce2959b506cd"},
+    {"path": "raw/page-7.png", "bytes": 155217, "sha256": "4bdb50fcf3cfde207607f8ec1598f73f2898f0ad1c89906ec842dd23c737356b"},
+    {"path": "raw/patent.headers", "bytes": 724, "sha256": "92d8b0b1228b8b4c28175d05114cf69c68fb9be0586ff2901d669dc687d29403"},
+    {"path": "raw/patent.txt", "bytes": 56037, "sha256": "a35f724a956130d24da7e6897d8c12ae2c5844bbe9194bf749261f2747001aa9"}
+  ],
+  "new_raw_measurement_dataset": false,
+  "transcription_scope": "Three published Table 3 observations only; no rate fitting or derived selectivity."
+}

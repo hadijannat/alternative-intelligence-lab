@@ -1,6 +1,16 @@
 # Recursive compound investigation: first integrated assessment
 
-## Current publication checkpoint: serial RHS preparation and duplicate source recovery
+## Current publication checkpoint: serial RHS repeat completed; two source constraints accepted
+
+The approved [serial RHS diagnostic](parent-serial-rhs-diagnostic/REPORT.md) completed two native pass-1 contractions and two stop sentinels with one factorization, zero solves, zero completed J calls, zero SCFs and zero PCM builds. The two finite float64 arrays of shape (19612, 1) are bitwise identical. The child returned zero after 893.8663067501038 seconds; sampled maximum RSS was 3,627,646,976 bytes. This passes only the frozen serial RHS repeat criterion. [Independent terminal review](parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md) is CLEAR for publication of this scoped result; the prelaunch approval is a separate record.
+
+The earlier full-J repeatability failure remains 6.702407517877873e-10, with 630 entries above the unchanged absolute 1e-10/relative-zero threshold. The serial prefix does not test that criterion or establish its exclusive cause, parent SCF readiness or chemical accuracy. The accuracy qualification remains gated off and the reserved holdout unused. The registered [parent H-only relaxation and stability comparison](identity/next-step/REPORT.md) also depends on derivative and response support that the current [ground-state wrapper](cpcm-blocked/blocked_pcm.py) explicitly rejects. Numerical repeatability alone cannot execute that chemical comparison.
+
+The [tantalum-coated alumina dossier](boundary/tantalum-coated-alumina-followup/REPORT.md) adds a heat-only comparator to existing B2. Its three patent observations retain acid-induced mass loss and unmeasured aqueous active-target retention. The [vanadate NMR control](identity/vanadate-nmr-control/REPORT.md) preserves eight measured summary rows and all three printed model predictions; it supports a separate-vanadium control without establishing V incorporation into Mo34WV. Independent review verified the source images, hashes and retrospective arithmetic. No target parameters were fitted and no held-out experiment was performed.
+
+Neither dossier adds a role or admits a compound. All twelve integrated requirements I/E/T/B/R/H/V/S/M/A/J/C remain unmet: 24 assessed roles and zero verified integrated complements. The source reviews and their bindings are retained in [the shared review](review/serial-continuation-chemistry.md) and each dossier's ROOT_REVIEW.json. Source review and computation remain distinct from the same-system observations required by PROTOCOL.md. The user requests publication after baseline `5e5e9e2`; export, commit, push and hosted checks are recorded separately. This checkpoint launches no further science. Earlier published checkpoints below are historical.
+
+## Historical publication checkpoint: serial RHS preparation and duplicate source recovery
 
 The [serial native RHS prefix diagnostic](parent-serial-rhs-diagnostic/PROTOCOL.md) is **PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW**. Seven mock tests pass; native execution is **UNRUN**, with no root approval or run directory. Its proposed single child serializes only the first native contraction, captures two RHS vectors before any solve, and tests their bitwise equality. No completed J, SCF or PCM build is proposed. Preparation is not launch authorization or evidence of numerical improvement.
 

@@ -1,0 +1,31 @@
+{
+  "arm": "A",
+  "prefix_attempts": 1,
+  "pass1_calls": 1,
+  "sentinel_count": 1,
+  "complete_J_calls": 0,
+  "solves": 0,
+  "hashes": {
+    "b_A": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260"
+  },
+  "storage": {
+    "identity": 4906247888,
+    "pointer": 481203814400,
+    "shape": [
+      19612,
+      19612
+    ],
+    "readonly": true,
+    "Fortran": true,
+    "content_sha256": "261d6cbcbe2d0ee2b42f3dfb064570df01ca831676e968591518f6083c242c0e"
+  },
+  "source": {
+    "shape": [
+      3068,
+      3068
+    ],
+    "dtype": "float64",
+    "cycle": 0,
+    "max_asymmetry": 2.220446049250313e-16
+  }
+}

@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication work: prepared serial prefix and duplicate source record
+## Current publication work: completed serial prefix and reviewed source constraints
+
+Publish the completed [serial-prefix result](parent-serial-rhs-diagnostic/REPORT.md) and reviewed source constraints after `5e5e9e2`, recording export, commit, push and hosted verification separately. The single child completed two pass-1 contractions/two sentinels and one factorization with zero solves, completed J calls, SCFs or PCM builds. The two finite float64 (19612, 1) RHS arrays are bitwise identical. Wall time was 893.8663067501038 seconds and sampled maximum RSS 3,627,646,976 bytes. [Independent terminal review](parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md) is CLEAR for publication of this scoped result. This publication task launches no new scientific run or physics implementation.
+
+Preserve the full-J failure of 6.702407517877873e-10 at 630 entries above the original absolute 1e-10/relative-zero criterion, all earlier failures and the unused holdout. A future ordinary full-J test needs its own frozen proposal and independent review; serial RHS repeatability establishes neither full-J acceptance nor accuracy. The registered H-only relaxation and orbital-stability comparison additionally requires qualified derivative and response support: the current ground-state wrapper rejects these operations. Repeating numerical prefixes cannot discharge that chemical dependency.
+
+Accept the independently reviewed tantalum-coated-alumina and vanadate-NMR dossiers as source constraints only. The former supplies a heat-only boundary comparator, the latter a separate-vanadium identity control; neither supports target rates or an integrated complement. Future target assays must distinguish intact identity, recoverable activity and elemental inventory and reserve independent preparations before fitting. The full twelve-function objective remains active,24assessments/0admissions.
+
+## Historical publication work: prepared serial prefix and duplicate source record
 
 Publish the [serial RHS preparation](parent-serial-rhs-diagnostic/PROTOCOL.md) and [Ir/Ta duplicate-source recovery](renewal/ir-ta-reservoir-reacquisition/REPORT.md) after `018a374d1b3f28453240b6f1ee18d89e1be96dd0`. Record export, commit, push and hosted checks separately. No native or scientific launch is included in this publication task.
 

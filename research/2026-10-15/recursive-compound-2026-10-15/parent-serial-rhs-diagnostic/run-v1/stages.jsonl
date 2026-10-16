@@ -1,0 +1,10 @@
+{"stage": "basis_build_start", "elapsed_seconds": 0.3976893340004608}
+{"stage": "setup_complete", "elapsed_seconds": 8.959113416960463}
+{"stage": "prefix_attempt", "elapsed_seconds": 9.347493416978978, "arm": "A"}
+{"stage": "pass1_enter", "elapsed_seconds": 56.9590779999271, "arm": "A", "threads": 1}
+{"stage": "pass1_return", "elapsed_seconds": 470.0771568339551, "arm": "A", "threads": 1}
+{"stage": "RI_factor_start", "elapsed_seconds": 470.0822408749955, "shape": [19612, 19612]}
+{"stage": "RI_factor_complete", "elapsed_seconds": 470.0823738339823}
+{"stage": "prefix_attempt", "elapsed_seconds": 472.29330649995245, "arm": "B"}
+{"stage": "pass1_enter", "elapsed_seconds": 472.403426749981, "arm": "B", "threads": 1}
+{"stage": "pass1_return", "elapsed_seconds": 887.508089916897, "arm": "B", "threads": 1}

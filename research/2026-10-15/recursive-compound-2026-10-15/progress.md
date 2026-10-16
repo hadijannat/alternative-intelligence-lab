@@ -1,6 +1,14 @@
 # Progress checkpoint
 
-## Current publication: prepared serial RHS diagnostic, native unrun
+## Current publication: completed serial RHS diagnostic and source constraints
+
+The user requests publication after baseline `5e5e9e2`. The approved serial-prefix diagnostic is terminal: one child returned zero after 893.8663067501038 seconds, with 3,627,646,976 bytes sampled maximum RSS and no limit termination or monitor error. Two native pass-1 contractions and two stop sentinels used one factorization, with zero solves, completed J calls, SCFs or PCM builds. Both saved RHS arrays are finite float64 (19612, 1) and bitwise identical. This is a serial-prefix repeat result for the parent-Mo36 numerical setup; [Independent terminal review](parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md) is CLEAR for publication of this scoped result. See [the result report](parent-serial-rhs-diagnostic/REPORT.md).
+
+The reviewed [tantalum-coated alumina comparator](boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json) retains three published observations and residual acid loss, unknown gas-flow chronology and no aqueous target selectivity. It refines existing B2. The reviewed [vanadate NMR control](identity/vanadate-nmr-control/ROOT_REVIEW.json) adds eight visually checked source-table rows and all three printed models. Descriptive residual maxima3/24/5percentage points preserve unfavorable comparisons; no fitting, raw spectra, target measurement or held-out validation occurred. Both source reviews are [archived here](review/serial-continuation-chemistry.md).
+
+Record export, commit, push and hosted checks separately; this publication launches no further science. Preserve the full-J maximum discrepancy 6.702407517877873e-10 and 630 entries above the unchanged absolute 1e-10/relative-zero threshold, and leave the prospective holdout unused. The registered H-only relaxation and stability comparison remains blocked by the current ground-state wrapper's unsupported derivatives and response; numerical repeatability does not execute it. All twelve integrated functions remain unmet: 24 assessed roles and zero verified complements. Earlier sections retain historical states.
+
+## Historical publication: prepared serial RHS diagnostic, native unrun
 
 The requested checkpoint after `018a374d1b3f28453240b6f1ee18d89e1be96dd0` adds the frozen serial native RHS prefix preparation and a duplicate Ir/Ta source recovery. Seven mock tests pass. The serial diagnostic remains PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW, with native execution UNRUN and no root approval or run directory. The proposed first-contraction capture stops before solving and supplies no completed J, SCF or PCM result.
 

@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETED_SERIAL_RHS_PREFIX_DIAGNOSTIC_ONLY",
+  "prefix_attempts": 2,
+  "pass1_calls": 2,
+  "sentinel_count": 2,
+  "complete_J_calls": 0,
+  "solves": 0,
+  "factor_count": 1,
+  "SCFs": 0,
+  "PCM_builds": 0,
+  "comparisons": {
+    "repeat": {
+      "exact_equal": true,
+      "max_absolute_difference": 0.0,
+      "RMS_difference": 0.0,
+      "acceptance_threshold": null,
+      "bitwise_equal": true,
+      "unequal_entries": 0
+    },
+    "historical_OMP4": {
+      "A-old-A": {
+        "exact_equal": false,
+        "max_absolute_difference": 8.958522812463343e-11,
+        "RMS_difference": 3.1375430334531377e-12,
+        "acceptance_threshold": null,
+        "bitwise_equal": false,
+        "unequal_entries": 19534
+      },
+      "A-old-B": {
+        "exact_equal": false,
+        "max_absolute_difference": 8.913048077374697e-11,
+        "RMS_difference": 3.1443040370662372e-12,
+        "acceptance_threshold": null,
+        "bitwise_equal": false,
+        "unequal_entries": 19519
+      },
+      "B-old-A": {
+        "exact_equal": false,
+        "max_absolute_difference": 8.958522812463343e-11,
+        "RMS_difference": 3.1375430334531377e-12,
+        "acceptance_threshold": null,
+        "bitwise_equal": false,
+        "unequal_entries": 19534
+      },
+      "B-old-B": {
+        "exact_equal": false,
+        "max_absolute_difference": 8.913048077374697e-11,
+        "RMS_difference": 3.1443040370662372e-12,
+        "acceptance_threshold": null,
+        "bitwise_equal": false,
+        "unequal_entries": 19519
+      }
+    },
+    "serial_RHS_repeat_pass": true,
+    "exclusive_causality_established": false,
+    "J_criterion_tested": false,
+    "J_absolute_tolerance": 1e-10,
+    "J_relative_tolerance": 0
+  },
+  "output_hashes": {
+    "b_A": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260",
+    "b_B": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260"
+  },
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "held_out_validation": false
+}

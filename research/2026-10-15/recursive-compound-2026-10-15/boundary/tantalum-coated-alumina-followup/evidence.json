@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_SOURCE_DOSSIER_PENDING_INDEPENDENT_REVIEW",
+  "source": {
+    "id": "EP0363138A1",
+    "type": "patent",
+    "locator": "Example 5 and Table 3, printed page 7 / PDF page 7 (1-based)",
+    "source_file": "raw/EP0363138A1.pdf",
+    "source_sha256": "4fd91007354a41e4a5a5e5061849ccb582495f3502c74848d023ce2959b506cd",
+    "visual_artifact": "raw/page-7.png",
+    "transcription_file": "observations.csv",
+    "published_table_rows": 3,
+    "raw_measurement_dataset_acquired": false
+  },
+  "observed": {
+    "static_exposure": {"duration_h": 16, "pH": 1, "buffer": "KCl/HCl", "reported_buffer_concentration_M": 0.1},
+    "sample_labels": ["Untreated", "650 C Heat Treated", "Ta2O5/650 C Heat Treated"],
+    "mass_loss_percent": [30.4, 14.6, 7.2],
+    "air_flow_L_min": [0.95, 0.95, 0.85],
+    "air_pressure_psi": 5,
+    "airflow_timing_relative_to_exposure": null,
+    "replicate_counts": null,
+    "uncertainties": null,
+    "coated_sample_fabrication": {"precursor": "tantalum ethoxide", "solvent": "ethanol", "heat_temperature_C": 650, "hold_h": 1},
+    "coverage_measurement": "electron-probe elemental analysis reports even tantalum distribution through membrane thickness",
+    "source_static_flow_warning": "Static tests do not necessarily reliably predict flow-through performance."
+  },
+  "inferred_from_general_experimental_context": {
+    "starting_membrane_thickness_um": 60,
+    "starting_small_pore_minimum_diameter_nm": 20,
+    "qualification": "General experimental context unless otherwise indicated; not final coated dimensions measured in Table 3."
+  },
+  "unverified": {"final_coated_pore_diameter_nm": null, "oxide_phase_purity": null, "residual_carbon": null, "aqueous_size_selectivity": null},
+  "target_parameters": {"active_retention_fraction": null, "intact_retention_fraction": null, "target_permeability": null, "precursor_permeability": null, "inactivation_rate": null, "boundary_renewal_rate": null},
+  "interpretation": "Coating comparator for existing B2; acid mass-loss reduction is not target retention or joint functional evidence.",
+  "existing_role_refinement": "B2",
+  "new_complement_roles": 0,
+  "verified_integrated_complements": 0,
+  "target_joint_function_demonstrated": false,
+  "heldout_target_validation": false,
+  "rate_fitting_performed": false,
+  "size_exclusion_admitted": false,
+  "registration_performed": false
+}

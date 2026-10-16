@@ -1,0 +1,11 @@
+# Tantalum-coated alumina: B2 refinement
+
+Status: frozen source dossier for independent review. Zero new complement roles or admissions.
+
+[EP0363138A1](https://patents.google.com/patent/EP0363138A1/en), Example 5 and Table 3, printed/PDF page 7, reports three anodic-alumina membrane treatments after 16 h static exposure to pH 1, 0.1 M KCl/HCl. Untreated, 650 °C heated, and tantalum-coated/650 °C heated samples lose 30.4%, 14.6%, and 7.2% mass, respectively. Associated air flows at 5 psi are 0.95, 0.95, and 0.85 L/min; their timing relative to acid exposure is unspecified. Replication and uncertainties are unreported. Fabrication uses tantalum ethoxide/ethanol and a 1 h hold at 650 °C. Elemental tantalum distribution supports coverage, not phase purity or absence of carbon. General experimental context supplies 60 µm thickness and 20 nm minimum small-pore diameter unless otherwise indicated; these are not measured final coated dimensions. The patent warns that static tests need not predict flow-through behavior. Residual 7.2% mass loss, gas flow and nominal pore dimensions establish neither target survival nor aqueous selectivity.
+
+`observations.csv` transcribes three published table rows, not raw experimental measurements. The existing B2 proposition gains a coating comparator; active-target retention and every target transport parameter remain unmeasured.
+
+## Original paired assay and falsifiers
+
+Compare untreated, heated and coated membranes from matched starting material under the same target medium and aqueous flow history. Track intact target identity and recoverable activity separately in feed, permeate, retentate and membrane extract, with elemental balance and Al/Ta leachate measurements. Measure aqueous precursor flux directly. Include empty-membrane/background and no-seed/carryover controls, followed by washed-material transfer into fresh medium. Reduced mass loss with complete active-target passage, adsorption without recoverable activity, precursor exclusion, or leachate-driven reporter activity falsifies the proposed joint boundary function. A retained elemental signal alone is insufficient. Reserve independent membrane preparations and later transfer observations before any fitting; no held-out target validation has occurred.

@@ -1,0 +1,58 @@
+{
+  "source_table_rows": 8,
+  "source_table_sha256": "8ae1571132f3300897c2aef4a10aa2c52c4a09c2c02d7a1137a1b4c8160d8837",
+  "models": {
+    "model_no_neutral_monomer_percent_V": {
+      "model_minus_observed_percentage_points": [
+        1,
+        3,
+        3,
+        2,
+        2,
+        2,
+        0,
+        1
+      ],
+      "max_absolute_percentage_points": 3,
+      "RMS_percentage_points": 2,
+      "within_authors_three_unit_estimate": 8
+    },
+    "model_log_beta_11_72_percent_V": {
+      "model_minus_observed_percentage_points": [
+        11,
+        14,
+        16,
+        16,
+        17,
+        20,
+        21,
+        24
+      ],
+      "max_absolute_percentage_points": 24,
+      "RMS_percentage_points": 17.800983118917898,
+      "within_authors_three_unit_estimate": 0
+    },
+    "model_log_beta_11_00_percent_V": {
+      "model_minus_observed_percentage_points": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5
+      ],
+      "max_absolute_percentage_points": 5,
+      "RMS_percentage_points": 4.677071733467427,
+      "within_authors_three_unit_estimate": 1
+    }
+  },
+  "uncertainty_is_formal_confidence_interval": false,
+  "parameters_fitted": 0,
+  "retrospective_only": true,
+  "held_out_validation": false,
+  "target_tested": false,
+  "new_roles": 0,
+  "physical_admission": false
+}

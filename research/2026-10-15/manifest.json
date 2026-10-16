@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 3323,
-  "published_bytes": 1922231056,
-  "unique_published_blobs": 2538,
-  "excluded_entries": 770,
+  "included_files": 3367,
+  "published_bytes": 1923429118,
+  "unique_published_blobs": 2574,
+  "excluded_entries": 783,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 1054,
+    "recursive-compound-2026-10-15": 1098,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,10 +4813,10 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 56932,
-      "source_sha256": "2a47e86d56d71205b2d22cd2ec372e41aa3d45aefd800fcdc04579f8d7922729",
-      "published_size": 56932,
-      "published_sha256": "2a47e86d56d71205b2d22cd2ec372e41aa3d45aefd800fcdc04579f8d7922729",
+      "source_size": 59628,
+      "source_sha256": "a5c3e181b65a59d36cc98ef16e512862df5b6a28b2b41cd3e6c1487bc9bbf832",
+      "published_size": 59628,
+      "published_sha256": "a5c3e181b65a59d36cc98ef16e512862df5b6a28b2b41cd3e6c1487bc9bbf832",
       "transformations": []
     },
     {
@@ -4833,10 +4833,10 @@
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 23296,
-      "source_sha256": "f78edb56e9af911d8cc65fa0766292dabc1f6ab053e0874fc01d1453a86b0783",
-      "published_size": 23296,
-      "published_sha256": "f78edb56e9af911d8cc65fa0766292dabc1f6ab053e0874fc01d1453a86b0783",
+      "source_size": 25194,
+      "source_sha256": "673002b409c74c4effa414d896967af583219b48643d3a5eace26cdea28010e6",
+      "published_size": 25194,
+      "published_sha256": "673002b409c74c4effa414d896967af583219b48643d3a5eace26cdea28010e6",
       "transformations": []
     },
     {
@@ -5851,6 +5851,80 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2284,
+      "source_sha256": "5db3478a868861beb8b2875ec08fced042cc2e4b8624a55a266b61f3390f45e8",
+      "published_size": 2284,
+      "published_sha256": "5db3478a868861beb8b2875ec08fced042cc2e4b8624a55a266b61f3390f45e8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 858,
+      "source_sha256": "c4456a81132ad15cf23b9d01aaef7389e182c46220308dbe437c935bc98e1319",
+      "published_size": 858,
+      "published_sha256": "c4456a81132ad15cf23b9d01aaef7389e182c46220308dbe437c935bc98e1319",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2534,
+      "source_sha256": "a21714a132b4c58265ac00aef5787cf8fc3c71aec6d92881b96fdd55f66631b0",
+      "published_size": 2534,
+      "published_sha256": "a21714a132b4c58265ac00aef5787cf8fc3c71aec6d92881b96fdd55f66631b0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2384,
+      "source_sha256": "c97580fa466cc54cdd18a2387cf149037b3c980aaa3e40ccb18011e22f867d6c",
+      "published_size": 2384,
+      "published_sha256": "c97580fa466cc54cdd18a2387cf149037b3c980aaa3e40ccb18011e22f867d6c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/observations.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 493,
+      "source_sha256": "0ec36fa78ff9d1440a5b253432100c840f323d1156bfcb4bdc7e2dc207e5865d",
+      "published_size": 493,
+      "published_sha256": "0ec36fa78ff9d1440a5b253432100c840f323d1156bfcb4bdc7e2dc207e5865d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/EP0363138A1.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 875925
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/page-7.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 155217
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/patent.headers",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 724
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/tantalum-coated-alumina-followup/raw/patent.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 56037
+    },
+    {
       "path": "recursive-compound-2026-10-15/boundary/tube-alternative-followup/REPORT.md",
       "status": "included",
       "reason": null,
@@ -5874,10 +5948,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 30137,
-      "source_sha256": "598f7c322535397f4ad3825419130621fec3d34eec0cc3d28da7a998fd58403d",
-      "published_size": 30137,
-      "published_sha256": "598f7c322535397f4ad3825419130621fec3d34eec0cc3d28da7a998fd58403d",
+      "source_size": 32762,
+      "source_sha256": "ad116d6df6b6d7b81044f0679f92f7ca4f1473577566caf1dae87d02bc8b2c62",
+      "published_size": 32762,
+      "published_sha256": "ad116d6df6b6d7b81044f0679f92f7ca4f1473577566caf1dae87d02bc8b2c62",
       "transformations": []
     },
     {
@@ -8812,6 +8886,102 @@
       "published_size": 72030,
       "published_sha256": "8ee8d7188f7803f8322e7b9947237e2ac4b7e1a078e06a9f4f4640a004546c05",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2332,
+      "source_sha256": "617b2744a615f14f874807136f885f6dbe0db6418b21bd2893cf385aa963fafe",
+      "published_size": 2332,
+      "published_sha256": "617b2744a615f14f874807136f885f6dbe0db6418b21bd2893cf385aa963fafe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/ROOT_REVIEW.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 945,
+      "source_sha256": "b24e6736224cd5db6eaed6519fec982d67417129427246b2321fb395aa262bf5",
+      "published_size": 945,
+      "published_sha256": "b24e6736224cd5db6eaed6519fec982d67417129427246b2321fb395aa262bf5",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3080,
+      "source_sha256": "0f1ec037e59de1667fcc9b820ed381e75e880b9806e171b5989e1385fb948067",
+      "published_size": 3080,
+      "published_sha256": "0f1ec037e59de1667fcc9b820ed381e75e880b9806e171b5989e1385fb948067",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/analysis.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1351,
+      "source_sha256": "c1be5389f8a2f3668b70f58511aa7c8630969191f01aedbffef6c53a7f22cacf",
+      "published_size": 1351,
+      "published_sha256": "c1be5389f8a2f3668b70f58511aa7c8630969191f01aedbffef6c53a7f22cacf",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/analysis.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 1935,
+      "source_sha256": "47fac0ff0d03de4a35482b8e16e5a0397a513c9d384cd8955808d7dae4399578",
+      "published_size": 1935,
+      "published_sha256": "47fac0ff0d03de4a35482b8e16e5a0397a513c9d384cd8955808d7dae4399578",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/observations.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 290,
+      "source_sha256": "8ae1571132f3300897c2aef4a10aa2c52c4a09c2c02d7a1137a1b4c8160d8837",
+      "published_size": 290,
+      "published_sha256": "8ae1571132f3300897c2aef4a10aa2c52c4a09c2c02d7a1137a1b4c8160d8837",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/article.headers",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 281
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/page-1.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 266067
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/page-2.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 158125
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/page-3.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 274647
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/page-4.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 215497
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/vanadate-nmr-control/raw/pettersson-1985.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 693134
     },
     {
       "path": "recursive-compound-2026-10-15/identity/vanadium-incorporation-followup/INDEPENDENT_REVIEW.md",
@@ -16502,6 +16672,26 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 6502,
+      "source_sha256": "2a43764a0b0884efd61671eb713c5e1fb6cb7c3b7b4f50851f0eb7b14a9666fd",
+      "published_size": 6502,
+      "published_sha256": "2a43764a0b0884efd61671eb713c5e1fb6cb7c3b7b4f50851f0eb7b14a9666fd",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 8351,
+      "source_sha256": "d564f396f71cbe6d5a19a77b57d27000a0e3a921114a19d9d2f2bc109ac3c026",
+      "published_size": 8351,
+      "published_sha256": "d564f396f71cbe6d5a19a77b57d27000a0e3a921114a19d9d2f2bc109ac3c026",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/PROTOCOL.md",
       "status": "included",
       "reason": null,
@@ -16510,6 +16700,31 @@
       "published_size": 3112,
       "published_sha256": "1f3e925d89c9426a9a820f4eb3570fa6ddf5729c2f985b31dd28ae66b74af17c",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3839,
+      "source_sha256": "da3afcc7eb462421df6f6c327f31b8cb2c16afeb640032ec286d8344257c1ad8",
+      "published_size": 3839,
+      "published_sha256": "da3afcc7eb462421df6f6c327f31b8cb2c16afeb640032ec286d8344257c1ad8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/independent-root-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 20424,
+      "source_sha256": "363d3533814b94a3624657d576b85ef77663c6d5083466ae48b27f9f2d5bf569",
+      "published_size": 17544,
+      "published_sha256": "7cf8a4083cdb7020bc42d5d8990eb98d963bdf3b86174f18a2b50251f1abfeb9",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 80
+        }
+      ]
     },
     {
       "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/preparation.json",
@@ -16534,6 +16749,324 @@
       "source_sha256": "afa05513c55b70714e415a50603541f9c2d80c98c18bfc9261bc67be67ae1e47",
       "published_size": 1106,
       "published_sha256": "afa05513c55b70714e415a50603541f9c2d80c98c18bfc9261bc67be67ae1e47",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/b_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260",
+      "published_size": 157024,
+      "published_sha256": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/b_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260",
+      "published_size": 157024,
+      "published_sha256": "aa5ed22825b38ee7f5dcd9c5b30b966b530117df5901cc356315a7e71b3e4260",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/call-A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 624,
+      "source_sha256": "6f8d29ac54fd6f2ba7d18bcaf03cd32af3af20f504e7b6ee6f785accc882c1be",
+      "published_size": 624,
+      "published_sha256": "6f8d29ac54fd6f2ba7d18bcaf03cd32af3af20f504e7b6ee6f785accc882c1be",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/call-B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 624,
+      "source_sha256": "c9e55731d5739a9b15858b3578cf6997df1e65f996e4770d64eb04229330e701",
+      "published_size": 624,
+      "published_sha256": "c9e55731d5739a9b15858b3578cf6997df1e65f996e4770d64eb04229330e701",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/closed-output-hashes-A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 80,
+      "source_sha256": "2507f16f6c005868146d47cea187f759587528cb18d14cbafeb6241287fa5370",
+      "published_size": 80,
+      "published_sha256": "2507f16f6c005868146d47cea187f759587528cb18d14cbafeb6241287fa5370",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/closed-output-hashes-B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 80,
+      "source_sha256": "fb4b8e1e2c6d13300c55bda02f9babf62592d5f4383b27fe634d5627be01d25e",
+      "published_size": 80,
+      "published_sha256": "fb4b8e1e2c6d13300c55bda02f9babf62592d5f4383b27fe634d5627be01d25e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/comparisons.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1406,
+      "source_sha256": "853556965c35994e43b3b8d175d615afeeae9824c4bafc89b7cf3f81e9503382",
+      "published_size": 1406,
+      "published_sha256": "853556965c35994e43b3b8d175d615afeeae9824c4bafc89b7cf3f81e9503382",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/factor-aliases.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 289,
+      "source_sha256": "195389bd44c041fa6f772c09e3f7694cec2131c2bfe202ae88255e9b0775318a",
+      "published_size": 289,
+      "published_sha256": "195389bd44c041fa6f772c09e3f7694cec2131c2bfe202ae88255e9b0775318a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/factor-states.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 493,
+      "source_sha256": "38bf96239ffce57c474782dfc2215b33a4ec7d7cf4a5a7b57f767f38c43fa3ac",
+      "published_size": 493,
+      "published_sha256": "38bf96239ffce57c474782dfc2215b33a4ec7d7cf4a5a7b57f767f38c43fa3ac",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 182,
+      "source_sha256": "51c79fa3d7514bd38d1881ceb38510c2ff539f56c5fdf99a52a33e1bffb31ede",
+      "published_size": 182,
+      "published_sha256": "51c79fa3d7514bd38d1881ceb38510c2ff539f56c5fdf99a52a33e1bffb31ede",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 404751,
+      "source_sha256": "3fa2f87cccef225fb1eaf227d8ae83c7da914c2a21c6f409dce39fb707cdf510",
+      "published_size": 404679,
+      "published_sha256": "6f56d7dcd16b038531d7f340fe1ab0ea0a97b0668777ac1c7e82ff8c6a74980d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/metric-before-factor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 269,
+      "source_sha256": "de5dc02671c688b817d2c7642634a1c99507499acf32c01de91c0dbed4aa11e2",
+      "published_size": 269,
+      "published_sha256": "de5dc02671c688b817d2c7642634a1c99507499acf32c01de91c0dbed4aa11e2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/molecule-state.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 641,
+      "source_sha256": "bd02d8e272b4891248cfe1a0acc905f86f2cf2fe3d82478cc8edcca370921e8e",
+      "published_size": 641,
+      "published_sha256": "bd02d8e272b4891248cfe1a0acc905f86f2cf2fe3d82478cc8edcca370921e8e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 39374
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2021,
+      "source_sha256": "6f81389778cc31a7ab7908353cdfce8034541ed554935dcb97bd33bf8d2a0afb",
+      "published_size": 2021,
+      "published_sha256": "6f81389778cc31a7ab7908353cdfce8034541ed554935dcb97bd33bf8d2a0afb",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37392,
+      "source_sha256": "176a3222c9f2ac7605bad6c605437d80358dfa38a0d536ac8efddd54e8017078",
+      "published_size": 31776,
+      "published_sha256": "b685d3dff53c880189f2408da1b7dc5bc47430cb790c4fbe57da92c59143a98d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/stages.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 810,
+      "source_sha256": "3f18eb6130ce8803dd3d7b862486f31efc2f9dd09d5ef79c2da9180ea0adb491",
+      "published_size": 810,
+      "published_sha256": "3f18eb6130ce8803dd3d7b862486f31efc2f9dd09d5ef79c2da9180ea0adb491",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 139
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 367969,
+      "source_sha256": "7162f57e5d6f2de57fd995d05f162e462f0f359c4b1d3c1b4838554cbc0397cf",
+      "published_size": 367897,
+      "published_sha256": "ba56c8d063753e91e6a40d038b04ea7439a87b1758eee26a960bedd8a9a3d8c7",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-after_prefix_A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "a76d3860f72498464a3b63af8f179e974ab86876f1947c13bb20a9391f095fa1",
+      "published_size": 59,
+      "published_sha256": "a76d3860f72498464a3b63af8f179e974ab86876f1947c13bb20a9391f095fa1",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-after_prefix_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 59,
+      "source_sha256": "5a07624510153dde9c41dc783d8aed80b171cff641911520101c60ce4713372d",
+      "published_size": 59,
+      "published_sha256": "5a07624510153dde9c41dc783d8aed80b171cff641911520101c60ce4713372d",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-after_setup.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 56,
+      "source_sha256": "af2b53590f9fd81aac3229a40b9f4ad45ac59155cbf22ed80501c8c64d1abbd0",
+      "published_size": 56,
+      "published_sha256": "af2b53590f9fd81aac3229a40b9f4ad45ac59155cbf22ed80501c8c64d1abbd0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-before_prefix_A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "749e1457ab9cbef20eb2b934ad1f2b5ed9d651b9d143ab9255665a93298ae84f",
+      "published_size": 60,
+      "published_sha256": "749e1457ab9cbef20eb2b934ad1f2b5ed9d651b9d143ab9255665a93298ae84f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-before_prefix_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "b45269ce72b00d58cece18124e603de14fdda40f642c333a05815400ed0a1ebe",
+      "published_size": 60,
+      "published_sha256": "b45269ce72b00d58cece18124e603de14fdda40f642c333a05815400ed0a1ebe",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-before_setup.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 57,
+      "source_sha256": "ec6e29984437d4d4120158c25ca574b8ca5ea6aed40a392c147ca4ee558dc044",
+      "published_size": 57,
+      "published_sha256": "ec6e29984437d4d4120158c25ca574b8ca5ea6aed40a392c147ca4ee558dc044",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-explicit_setter.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "published_size": 60,
+      "published_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-identity.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2194,
+      "source_sha256": "1cf1ad0d71701222f50026c16960e6b17c7facd535dc0f7d9731fdb12a9cac40",
+      "published_size": 1906,
+      "published_sha256": "3476d7e4479895aa1db8b85cc80c6d61f56757dd5ff6ac6f4c8741aea594ec36",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-initial.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 30,
+      "source_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "published_size": 30,
+      "published_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/threads-restored_getter_counts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 73,
+      "source_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "published_size": 73,
+      "published_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 66,
+      "source_sha256": "8c44110d8ff3b0cd07b14033f8416c6b2fe4af273a759cca42c48eb4d0bf373a",
+      "published_size": 66,
+      "published_sha256": "8c44110d8ff3b0cd07b14033f8416c6b2fe4af273a759cca42c48eb4d0bf373a",
       "transformations": []
     },
     {
@@ -16825,10 +17358,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 53447,
-      "source_sha256": "b2fb7a9bcb981a008ad9981d4fe6fa0aeafea546d37348bc2dc3b8a6fed1445a",
-      "published_size": 53447,
-      "published_sha256": "b2fb7a9bcb981a008ad9981d4fe6fa0aeafea546d37348bc2dc3b8a6fed1445a",
+      "source_size": 55544,
+      "source_sha256": "a2d348c6932819503f518fffc2ec197880ae77afaaea077aa60c789ad1faaa67",
+      "published_size": 55544,
+      "published_sha256": "a2d348c6932819503f518fffc2ec197880ae77afaaea077aa60c789ad1faaa67",
       "transformations": []
     },
     {
@@ -17758,6 +18291,16 @@
       "source_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
       "published_size": 2453,
       "published_sha256": "ba1cdeda3c857968609c74f6d7c3ab40a6f6da83a466dc3d485192f7d5daeb92",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/review/serial-continuation-chemistry.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5619,
+      "source_sha256": "1657921c4a17f3fb7cad6511db1c80dee66cf99041c09b7cf435b40bb5ffcfab",
+      "published_size": 5619,
+      "published_sha256": "1657921c4a17f3fb7cad6511db1c80dee66cf99041c09b7cf435b40bb5ffcfab",
       "transformations": []
     },
     {

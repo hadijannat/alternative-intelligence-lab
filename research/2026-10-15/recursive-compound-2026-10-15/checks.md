@@ -2,7 +2,22 @@
 
 All paths below are relative to this directory. Numerical PASS means only the stated check passed. No required target function is fulfilled by a source-table or software check.
 
-## Current checkpoint: serial preparation only; duplicate source retained
+## Current publication checkpoint: completed prefix and reviewed source constraints
+
+| Requirement/check | Verdict | Evidence | Observable and limit |
+|---|---|---|---|
+| Serial prefix launch prerequisites | PASS, bounded launch only | parent-serial-rhs-diagnostic/independent-root-review.json; ../.omo/evidence/serial-rhs-prelaunch-review.md | Root verified474pins; independent review and gate-check passed; no scientific acceptance follows |
+| Native RHS repeatability | PASS, SERIAL PREFIX ONLY | parent-serial-rhs-diagnostic/run-v1/result.json; comparisons.json; REPORT.md | Two finite float64 (19612, 1) arrays bitwise equal; two pass-1 contractions/two sentinels/one factor; zero solves, completed J, SCF or PCM |
+| Serial terminal review | CLEAR, SCOPED PUBLICATION ONLY | parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md | All 30 output hashes and RHS comparisons verified; 473/474 preparation pins rechecked, large saved-metric rehash assigned to root; full-J criterion untested |
+| Bounded serial execution | COMPLETED | parent-serial-rhs-diagnostic/run-v1/launch-result.json | Exit 0; 893.8663067501038 seconds; 3,627,646,976 bytes sampled maximum RSS; no limit termination or monitor error; sampling is not a peak guarantee |
+| Full-J repeatability | STILL FAILED | parent-explicit-blas-j/run-v1/result.json | Maximum 6.702407517877873e-10; 630 entries exceed unchanged absolute 1e-10/relative-zero criterion; serial prefix does not test J; holdout unused |
+| H-only relaxation and stability | UNSUPPORTED BY CURRENT WRAPPER | identity/next-step/REPORT.md; cpcm-blocked/blocked_pcm.py | Ground-state wrapper rejects gradients and stability/response; prefix repeatability cannot execute the registered chemical comparison |
+| Tantalum boundary constraint | ACCEPTED SOURCE CONSTRAINT; TARGET UNRESOLVED | boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json | Three visually checked patent rows; heat-only comparator retained; aqueous selectivity and active-target retention unmeasured |
+| Vanadate identity control | ACCEPTED SOURCE CONSTRAINT; TARGET UNRESOLVED | identity/vanadate-nmr-control/ROOT_REVIEW.json; analysis.json | Eight visually checked table rows/all three models; six self-checks and independent residual reproduction; no target fit or holdout |
+| Review integrity | PASS, artifact scope | review/serial-continuation-chemistry.md | Nine authored-file hashes and the copied review verified; no target experiment |
+| Full integrated objective | UNMET | PROTOCOL.md; REPORT.md | All twelve functions remain unfulfilled;24assessed roles/0verified complements; prior J failure unchanged |
+
+## Historical checkpoint: serial preparation only; duplicate source retained
 
 Aggregate remains 24 assessed roles, zero verified integrated complements and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. The following checks supersede preparation-state wording only; every previous numerical failure remains.
 

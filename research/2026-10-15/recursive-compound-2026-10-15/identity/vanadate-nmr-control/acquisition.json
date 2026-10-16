@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-16",
+  "doi": "10.3891/acta.chem.scand.39a-0499",
+  "source_url": "https://actachemscand.ki.ku.dk/pdf/acta_vol_39a_p0499-0506.pdf",
+  "primary_source_type": "published scanned article",
+  "source_contains_raw_instrument_data": false,
+  "agent_access_ledger": {
+    "queries": [
+      "NMR Spectroscopic Studies of Interactions in Solution during the Synthesis of MoVTeNb Oxide Catalysts",
+      "\"ejic.200800500\" pdf",
+      "Pettersson 1985 499 506 Hydrolysis redox HVO4 NMR"
+    ],
+    "duplicate_source": "10.1002/ejic.200800500 already assessed in identity/concentration-speciation-followup",
+    "failed_accesses": [
+      "Wiley DOI landing",
+      "Wiley DOI PDF",
+      "web screenshot returned no readable pixels; later TimeoutError"
+    ],
+    "archive_index": "https://actachemscand.ki.ku.dk/author.php?aid=6076",
+    "pdf_text_extraction": "eight scan-only pages; zero extracted lines",
+    "in_memory_OCR_pages": [
+      499,
+      500,
+      501,
+      502
+    ],
+    "agent_wrote_files": false
+  },
+  "root_access": {
+    "method": "curl --fail --location --max-time 90 --dump-header raw/article.headers --output raw/pettersson-1985.pdf",
+    "exit_code": 0,
+    "http_status": 200,
+    "bytes": 693134,
+    "sha256": "9ca2248f69f6fec625a4eb388950c438e1ecf016866dfe8d21b52349f2c0b8e0"
+  },
+  "root_visual_review": {
+    "method": "pdftoppm -f 1 -l 4 -scale-to 2000 -png; view_image",
+    "printed_pages": [
+      499,
+      500,
+      501,
+      502
+    ],
+    "table_1_all_numeric_columns_verified": true,
+    "figure_1_caption_and_normalization_verified": true,
+    "page_502_uncertainty_and_nonexclusion_verified": true,
+    "remaining_pages_reviewed": false,
+    "spectrum_digitization": false
+  },
+  "raw_files": {
+    "raw/article.headers": {
+      "bytes": 281,
+      "sha256": "c9fd3775e3af4d3d59fb72de740329fe97563df75ba2539295e81e2b3c8f3d7d"
+    },
+    "raw/page-1.png": {
+      "bytes": 266067,
+      "sha256": "28ccffbb313f9148420ed0f02029b8dcfb3a81ac9e985633f06f274ef7d1d0d1"
+    },
+    "raw/page-2.png": {
+      "bytes": 158125,
+      "sha256": "358a91cf7c18b03fc2f202539f486b95d9f685036d204e59ab2afcf29027ac23"
+    },
+    "raw/page-3.png": {
+      "bytes": 274647,
+      "sha256": "3ec22ee66f9c1dd3e1f820918b738454028cf626ffe72d3f5174e7d00fd32f7a"
+    },
+    "raw/page-4.png": {
+      "bytes": 215497,
+      "sha256": "ce8513d23432038f2ed43cba057bae9318c04b35c50e033b6a237b02db9ad15d"
+    },
+    "raw/pettersson-1985.pdf": {
+      "bytes": 693134,
+      "sha256": "9ca2248f69f6fec625a4eb388950c438e1ecf016866dfe8d21b52349f2c0b8e0"
+    }
+  },
+  "total_V_mM": 0.3125,
+  "temperature_C": 25,
+  "medium": "0.6 M Na(Cl)",
+  "acidity_axis": "-lg[H+] (hydrogen-ion concentration convention)",
+  "source_uncertainty_estimate_percentage_points": 3,
+  "uncertainty_confidence_level": null,
+  "quantitative_source_rows": 8,
+  "models_are_original_source_predictions": true,
+  "parameters_fitted": 0,
+  "retrospective_only": true,
+  "held_out_validation": false,
+  "target_tested": false,
+  "new_roles": 0,
+  "physical_admission": false
+}

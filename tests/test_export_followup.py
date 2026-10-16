@@ -15,6 +15,14 @@ from verify_followup import (verify_memory_followup, verify_openmp_renewal,
 
 
 class PublicationSelection(unittest.TestCase):
+    def test_serial_source_dossiers_keep_authored_evidence_and_exclude_acquisitions(self):
+        for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
+            base = Path('recursive-compound-2026-10-15') / folder
+            for name in ('raw/article.pdf', 'raw/article.headers', 'raw/patent.txt', 'raw/page-7.png'):
+                self.assertTrue(exclusion(base / name))
+            for name in ('ROOT_REVIEW.json', 'observations.csv', 'analysis.json', 'REPORT.md'):
+                self.assertIsNone(exclusion(base / name))
+
     def test_duplicate_ir_ta_acquisition_excludes_raw_payloads(self):
         base = Path('recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition')
         for name in ('raw/article.html', 'raw/article.headers', 'raw/supplement.docx', 'raw/supplement.headers'):
@@ -313,7 +321,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/aqueous-pom-nanofiltration-followup', 'parent-blas-control-audit',
                        'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup',
                        'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup',
-                       'parent-serial-rhs-diagnostic', 'renewal/ir-ta-reservoir-reacquisition'):
+                       'parent-serial-rhs-diagnostic', 'renewal/ir-ta-reservoir-reacquisition',
+                       'boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control', 'review'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -328,6 +337,26 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'complete_J_calls', 1),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'solves', 1),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'SCFs', 1),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'PCM_builds', 1),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'physical_admission', True),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'parent_SCF_readiness', True),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'held_out_validation', True),
+            ('parent-serial-rhs-diagnostic/run-v1/result.json', 'sentinel_count', 0),
+            ('parent-serial-rhs-diagnostic/run-v1/call-B.json', 'solves', 1),
+            ('boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json', 'physical_admission', True),
+            ('boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json', 'held_out_validation', True),
+            ('boundary/tantalum-coated-alumina-followup/evidence.json', ('target_parameters', 'active_retention_fraction'), 0.9),
+            ('boundary/tantalum-coated-alumina-followup/evidence.json', 'target_joint_function_demonstrated', True),
+            ('boundary/tantalum-coated-alumina-followup/evidence.json', 'verified_integrated_complements', 1),
+            ('boundary/tantalum-coated-alumina-followup/evidence.json', 'rate_fitting_performed', True),
+            ('identity/vanadate-nmr-control/analysis.json', 'held_out_validation', True),
+            ('identity/vanadate-nmr-control/analysis.json', 'target_tested', True),
+            ('identity/vanadate-nmr-control/analysis.json', 'parameters_fitted', 1),
+            ('identity/vanadate-nmr-control/analysis.json', 'physical_admission', True),
+            ('identity/vanadate-nmr-control/acquisition.json', 'source_contains_raw_instrument_data', True),
             ('parent-serial-rhs-diagnostic/preparation.json', 'status', 'COMPLETED'),
             ('parent-serial-rhs-diagnostic/preparation.json', 'solves', 1),
             ('parent-serial-rhs-diagnostic/preparation.json', 'complete_J_calls', 1),
@@ -653,6 +682,14 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-serial-rhs-diagnostic/run.py',
                        'parent-serial-rhs-diagnostic/preparation.json',
                        'parent-serial-rhs-diagnostic/qualification.json',
+                       'parent-serial-rhs-diagnostic/independent-root-review.json',
+                       'parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md',
+                       'parent-serial-rhs-diagnostic/PRELAUNCH_REVIEW.md',
+                       'parent-serial-rhs-diagnostic/run-v1/result.json',
+                       'parent-serial-rhs-diagnostic/run-v1/launch-result.json',
+                       'boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json',
+                       'identity/vanadate-nmr-control/ROOT_REVIEW.json',
+                       'review/serial-continuation-chemistry.md',
                        'renewal/ir-ta-reservoir-reacquisition/acquisition.json',
                        'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
@@ -707,10 +744,43 @@ class OpenMPRenewalVerification(unittest.TestCase):
         worker_path.write_bytes(worker_original)
         launch_path.write_bytes(launch_original)
 
+    def test_serial_prefix_cannot_consistently_be_promoted_to_j_validation(self):
+        run = self.recursive / 'parent-serial-rhs-diagnostic/run-v1'
+        paths = [run / name for name in ('comparisons.json', 'result.json')]
+        originals = [path.read_bytes() for path in paths]
+        for key, value in (('J_criterion_tested', True), ('exclusive_causality_established', True),
+                           ('J_absolute_tolerance', 1e-9), ('J_relative_tolerance', 1e-9)):
+            with self.subTest(key=key):
+                comparisons, result = map(json.loads, originals)
+                comparisons[key] = value
+                result['comparisons'] = comparisons
+                for path, record in zip(paths, (comparisons, result)):
+                    path.write_text(json.dumps(record))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, original in zip(paths, originals):
+            path.write_bytes(original)
+
+    def test_serial_result_and_source_bindings_cannot_be_omitted(self):
+        manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
+        records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
+        for suffix, verifier in (
+                ('parent-serial-rhs-diagnostic/run-v1/b_A.npy', verify_stage_artifact_bindings),
+                ('parent-serial-rhs-diagnostic/run-v1/b_B.npy', verify_stage_artifact_bindings),
+                ('parent-serial-rhs-diagnostic/run-v1/supervisor.json', verify_stage_artifact_bindings),
+                ('boundary/tantalum-coated-alumina-followup/observations.csv', verify_stage_artifact_bindings),
+                ('identity/vanadate-nmr-control/observations.csv', verify_stage_artifact_bindings),
+                ('review/serial-continuation-chemistry.md', verify_stage_artifact_bindings)):
+            with self.subTest(suffix=suffix):
+                reduced = [row for row in records if not row['path'].endswith(suffix)]
+                self.assertEqual(len(reduced), len(records) - 1)
+                with self.assertRaises((AssertionError, KeyError)):
+                    verifier(self.recursive, reduced)
+
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
-                       'parent-serial-rhs-diagnostic/independent-root-review.json',
-                       'parent-serial-rhs-diagnostic/run-v1/result.json',
+                       'parent-serial-rhs-diagnostic/run-v1/J_A.npy',
+                       'parent-serial-rhs-diagnostic/run-v1/SCF-result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
                        'explicit-blas-accuracy-qualification/run.py',
                        'explicit-blas-accuracy-qualification/run-v1/result.json',
@@ -768,6 +838,14 @@ class OpenMPRenewalVerification(unittest.TestCase):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
         verify_stage_artifact_bindings(self.recursive, records)
+        for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
+            for name in ('raw/article.headers', 'raw/page-1.png', 'raw/article.pdf'):
+                with self.subTest(folder=folder, excluded_payload=name):
+                    records.append({'path': 'recursive-compound-2026-10-15/' + folder + '/' + name,
+                                    'source_sha256': '0' * 64})
+                    with self.assertRaises(AssertionError):
+                        verify_stage_artifact_bindings(self.recursive, records)
+                    records.pop()
         for name in ('native.log', 'stdout.txt', 'stderr.txt'):
             with self.subTest(excluded_log=name):
                 records.append({'path': 'recursive-compound-2026-10-15/parent-saved-metric-solve/run-v1/' + name,
@@ -790,6 +868,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
                     verify_stage_artifact_bindings(self.recursive, records)
                 records.pop()
         for suffix in ('parent-j-stage-localization/run-v1/J_A.npy',
+                       'parent-serial-rhs-diagnostic/run-v1/b_A.npy',
+                       'parent-serial-rhs-diagnostic/run-v1/b_B.npy',
+                       'parent-serial-rhs-diagnostic/run-v1/result.json',
+                       'parent-serial-rhs-diagnostic/run-v1/supervisor.json',
+                       'boundary/tantalum-coated-alumina-followup/evidence.json',
+                       'identity/vanadate-nmr-control/analysis.json',
+                       'review/serial-continuation-chemistry.md',
                        'parent-j-stage-localization/run-v1/supervisor.json',
                        'boundary/copper-phosphate-transport/evidence.json',
                        'boundary/hollow-silicalite-followup/evidence.json',
