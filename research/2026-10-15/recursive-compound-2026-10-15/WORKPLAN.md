@@ -10,6 +10,8 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 
 ## Work and ownership
 
+Publication checkpoint after a394029: preserve parent-j-error-impact/ and parent-j-stage-localization/ as prepared and unexecuted. Their synthetic tests cover implementation behavior only; root launch reviews remain absent. Publish the recovered copper-phosphate source assessment and its reviewed model clarifications, keeping proposed role24 unregistered and the aggregate23/0. No new scientific calculation, candidate admission or target validation is part of this commit/push request.
+
 | Work | Owner/output | Observable result |
 |---|---|---|
 | Parent identity and quantum feasibility | identity/ | Connected parent coordinates, source mapping, failed extraction control, hydrogen/protonation limits, actual basis counts |

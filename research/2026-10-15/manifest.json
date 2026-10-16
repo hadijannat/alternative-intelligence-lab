@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 3049,
-  "published_bytes": 1540633862,
-  "unique_published_blobs": 2292,
-  "excluded_entries": 720,
+  "included_files": 3064,
+  "published_bytes": 1540753474,
+  "unique_published_blobs": 2307,
+  "excluded_entries": 726,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 780,
+    "recursive-compound-2026-10-15": 795,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,20 +4813,20 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 43451,
-      "source_sha256": "ca3191b7b32c287ef86f4ea859058f87208ccc260869471529cc702097276189",
-      "published_size": 43451,
-      "published_sha256": "ca3191b7b32c287ef86f4ea859058f87208ccc260869471529cc702097276189",
+      "source_size": 44235,
+      "source_sha256": "2abc875389373507e91f8a3b0fbe55c20fbb9469a13c56168066a0c4ec0910a4",
+      "published_size": 44235,
+      "published_sha256": "2abc875389373507e91f8a3b0fbe55c20fbb9469a13c56168066a0c4ec0910a4",
       "transformations": []
     },
     {
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 14458,
-      "source_sha256": "fbce720fa409f46a1527a680304a42b8c3d77991a993e635be3325534a7283cc",
-      "published_size": 14458,
-      "published_sha256": "fbce720fa409f46a1527a680304a42b8c3d77991a993e635be3325534a7283cc",
+      "source_size": 14948,
+      "source_sha256": "f73699a4c3eebcbcee011410b7784781ca7d913d39f2941b2a38d812fcab3642",
+      "published_size": 14948,
+      "published_sha256": "f73699a4c3eebcbcee011410b7784781ca7d913d39f2941b2a38d812fcab3642",
       "transformations": []
     },
     {
@@ -5163,6 +5163,112 @@
       "published_size": 4990,
       "published_sha256": "f901606736ca186dd1a9adee1840ba65af8cb49edef0b61159412a95871b04f7",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7485,
+      "source_sha256": "89b424b61e8dd89538aec70006231a551cca617eebc9e0b9d8696d2f14d717aa",
+      "published_size": 7485,
+      "published_sha256": "89b424b61e8dd89538aec70006231a551cca617eebc9e0b9d8696d2f14d717aa",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 1615,
+      "source_sha256": "cd6e95b16c63f739a733ce1c7032f4161fb7f41399b5d81dcc5ee12b61c50cc2",
+      "published_size": 1615,
+      "published_sha256": "cd6e95b16c63f739a733ce1c7032f4161fb7f41399b5d81dcc5ee12b61c50cc2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 2276,
+      "source_sha256": "7f5381ae71070c0c4e1f2d2391f61c2e93b56815fa21f11fa05dab0c6650e112",
+      "published_size": 2276,
+      "published_sha256": "7f5381ae71070c0c4e1f2d2391f61c2e93b56815fa21f11fa05dab0c6650e112",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1271,
+      "source_sha256": "1df3976cd73d5f585088cfd1358d2f20abbe6cfce83e3f7104812ef0730b04ec",
+      "published_size": 1271,
+      "published_sha256": "1df3976cd73d5f585088cfd1358d2f20abbe6cfce83e3f7104812ef0730b04ec",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/evidence.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2767,
+      "source_sha256": "76c83cb51baa7ae4fd2e0ebf91e58af1f63d310f651b4c3419eff792b6bfea66",
+      "published_size": 2767,
+      "published_sha256": "76c83cb51baa7ae4fd2e0ebf91e58af1f63d310f651b4c3419eff792b6bfea66",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/linear-growth.csv",
+      "status": "included",
+      "reason": null,
+      "source_size": 346,
+      "source_sha256": "2073b424267f073465fde10811a7be22fe6cdb07097be45ae75c63ffacae9073",
+      "published_size": 346,
+      "published_sha256": "2073b424267f073465fde10811a7be22fe6cdb07097be45ae75c63ffacae9073",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/model-observable.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3894,
+      "source_sha256": "138ba1014b0f3368972d20bc3938c5a54ab91022a848bc8a21dd73532c9a7582",
+      "published_size": 3894,
+      "published_sha256": "138ba1014b0f3368972d20bc3938c5a54ab91022a848bc8a21dd73532c9a7582",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/page-2.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 620584
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/page-3.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 500483
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/page-4.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 966814
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/page-5.png",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 566162
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/rauscher2018.pdf",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 2120816
+    },
+    {
+      "path": "recursive-compound-2026-10-15/boundary/copper-phosphate-transport/raw/rauscher2018.txt",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 62950
     },
     {
       "path": "recursive-compound-2026-10-15/boundary/nd-linker-proposition.json",
@@ -5502,10 +5608,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 20742,
-      "source_sha256": "6dcb44c032be7986787b630832a600c264eab6b714eaafa4a2766841869b6851",
-      "published_size": 20742,
-      "published_sha256": "6dcb44c032be7986787b630832a600c264eab6b714eaafa4a2766841869b6851",
+      "source_size": 21522,
+      "source_sha256": "8e3346fc46a32a6a7a92b188cf0b426851040d3a02589c80d78bfdac37dd7b53",
+      "published_size": 21522,
+      "published_sha256": "8e3346fc46a32a6a7a92b188cf0b426851040d3a02589c80d78bfdac37dd7b53",
       "transformations": []
     },
     {
@@ -8315,6 +8421,51 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-j-error-impact/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 3663,
+      "source_sha256": "6ae2ca0009eb55526f01eb0547b4ca982380d0d747975451550f34ff25c2d0a6",
+      "published_size": 3663,
+      "published_sha256": "6ae2ca0009eb55526f01eb0547b4ca982380d0d747975451550f34ff25c2d0a6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-error-impact/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2849,
+      "source_sha256": "8525666d8c02c092d160425a63a5ce84d5d4b9537e2f9d6c36a3c13c8efffd68",
+      "published_size": 2345,
+      "published_sha256": "3c905605cdfa0ab7504da8d48a905cc5e96d10edce0022b04bf775818fa67a46",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-error-impact/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 9069,
+      "source_sha256": "baecfa4dc703b485c3d9d662ff32d4e8687648e13ea96e751b4e68c5bbe04521",
+      "published_size": 9069,
+      "published_sha256": "baecfa4dc703b485c3d9d662ff32d4e8687648e13ea96e751b4e68c5bbe04521",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-error-impact/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 3475,
+      "source_sha256": "7b112cfc5ab959c4e42427c13d204590b1a1e2aca112d8a82be75f211971c6b5",
+      "published_size": 3475,
+      "published_sha256": "7b112cfc5ab959c4e42427c13d204590b1a1e2aca112d8a82be75f211971c6b5",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-j-repeatability/INDEPENDENT_REVIEW.md",
       "status": "included",
       "reason": null,
@@ -8728,6 +8879,51 @@
       "source_sha256": "3b0e8cb5dc34d66ce5a73feea4005f190e7080ce245afbbfbd9ddb8248254286",
       "published_size": 14687,
       "published_sha256": "3b0e8cb5dc34d66ce5a73feea4005f190e7080ce245afbbfbd9ddb8248254286",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-stage-localization/PROTOCOL.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4101,
+      "source_sha256": "85deb5593f724d04f22070ef9cca6f1819856d9f3b6be28b8ad817f6e7acdb23",
+      "published_size": 4101,
+      "published_sha256": "85deb5593f724d04f22070ef9cca6f1819856d9f3b6be28b8ad817f6e7acdb23",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-stage-localization/preparation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 63034,
+      "source_sha256": "077b972b1ea43bbf0472a7dcda5e3bbe89f964a583ee6ea2f34282c32b806c73",
+      "published_size": 52666,
+      "published_sha256": "428b40825c397914bb31ccf83871fd0d9665c21f3787952b04efb828f1d0e0e1",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 288
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-stage-localization/run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 13537,
+      "source_sha256": "7997719c2a4c12c1782695b30b6d707bb0fa5980c4640059038deb92f9d9e589",
+      "published_size": 13537,
+      "published_sha256": "7997719c2a4c12c1782695b30b6d707bb0fa5980c4640059038deb92f9d9e589",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-j-stage-localization/test_run.py",
+      "status": "included",
+      "reason": null,
+      "source_size": 7607,
+      "source_sha256": "0d6f699b2f29ab6cfeedafcecaeb329d1104bc6baaed5caad1557718a4560501",
+      "published_size": 7607,
+      "published_sha256": "0d6f699b2f29ab6cfeedafcecaeb329d1104bc6baaed5caad1557718a4560501",
       "transformations": []
     },
     {
@@ -13654,10 +13850,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 38519,
-      "source_sha256": "20c09faf411614b3e498e7dbd2695b6876d0c991b1e79318282075491e469429",
-      "published_size": 38519,
-      "published_sha256": "20c09faf411614b3e498e7dbd2695b6876d0c991b1e79318282075491e469429",
+      "source_size": 39960,
+      "source_sha256": "425dbaac131ad0b4d1e92c03744b5288b8392168e40ba1815fb33969a3e88288",
+      "published_size": 39960,
+      "published_sha256": "425dbaac131ad0b4d1e92c03744b5288b8392168e40ba1815fb33969a3e88288",
       "transformations": []
     },
     {

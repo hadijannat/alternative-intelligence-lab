@@ -910,6 +910,62 @@ def verify_repeatability_followup(recursive):
         assert phosphate['target_evidence'][key] is None
     assert phosphate['target_evidence']['heldout_validation'] is False
     assert phosphate['target_evidence']['integrated_admission'] is False
+    verify_stage_transport_followup(recursive)
+
+
+def verify_stage_transport_followup(recursive):
+    for folder, status in (
+            ('parent-j-error-impact', 'PREPARED_SAVED_ARRAY_ANALYSIS_NOT_RUN'),
+            ('parent-j-stage-localization', 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW')):
+        base = recursive / folder
+        preparation = json.loads((base / 'preparation.json').read_text())
+        assert preparation['status'] == status
+        assert preparation['operators_executed'] == preparation['SCFs_launched'] == 0
+        for name in ('independent-root-review.json', 'analysis-v1', 'run-v1'):
+            assert not (base / name).exists(), (folder, name)
+        for name in ('PROTOCOL.md', 'run.py', 'test_run.py'):
+            assert (base / name).is_file()
+        if folder == 'parent-j-error-impact':
+            assert preparation['real_arrays_analyzed'] is False
+        else:
+            assert preparation['PCM_builds'] == 0 and preparation['molecule_built'] is False
+            assert preparation['physical_admission'] is False
+            assert preparation['maximum_children'] == 1 and preparation['maximum_J_calls'] == 3
+            assert preparation['wall_cap_seconds'] == 1000 and preparation['sampled_RSS_guard_bytes'] == 10 * 1024**3
+            assert preparation['J_absolute_tolerance'] == 1e-10 and preparation['J_relative_tolerance'] == 0
+            assert preparation['sequence'] == ['ordinary_A_P0', 'ordinary_B_P0', 'controlled_C_fixed_rho_A']
+    copper = recursive / 'boundary/copper-phosphate-transport'
+    evidence = json.loads((copper / 'evidence.json').read_text())
+    assert evidence['status'] == 'SOURCE_ASSESSMENT_PENDING_INDEPENDENT_REVIEW'
+    assert evidence['proposed_candidate_role_id'] == 24 and evidence['aggregate_before_registration'] == 23
+    assert evidence['verified_integrated_complement_admissions'] == 0
+    assert evidence['proposition']['exact_phase_stoichiometry'] is None
+    assert evidence['proposition']['pure_Cu3_PO4_2_identity_verified'] is False
+    assert evidence['proposition']['target_mixture_tested'] is False
+    constraints = evidence['constraints']
+    slope = constraints['growth_regression_slope']
+    assert slope['zero_intercept_established'] is False and slope['pointwise_ratio_equivalence_established'] is False
+    for key in ('solute_permeability', 'hydraulic_permeance', 'membrane_rejection_of_intact_target',
+                'active_target_recovery', 'functional_boundary_renewal', 'shared_target_medium'):
+        assert constraints[key] is None
+    formation = constraints['formation_tests']
+    assert formation['pH_and_outcome'] == [
+        {'pH': 12.64, 'outcome': 'tubes'}, {'pH': 9.08, 'outcome': 'short tubes'},
+        {'pH': 4.19, 'outcome': 'no precipitation'}]
+    for key in ('only_proton_activity_changed', 'preformed_wall_dissolution_tested', 'target_pH_1_7_tested'):
+        assert formation[key] is False
+    for key in ('physical_experiments', 'target_fits', 'heldout_target_validations', 'digitized_figure_points'):
+        assert evidence['work_scope'][key] == 0
+    for key in ('target_function_demonstrated', 'integrated_admission', 'universal_acidic_wall_failure_proven',
+                'target_formula_changed'):
+        assert evidence['decision_boundary'][key] is False
+    for name in ('INDEPENDENT_REVIEW.md', 'REPORT.md', 'model-observable.md'):
+        assert (copper / name).is_file()
+    with (copper / 'linear-growth.csv').open() as stream:
+        rows = list(csv.DictReader(stream))
+    assert len(rows) == constraints['table2_rows'] == 5
+    assert evidence['source']['uncertainty_type'] is None
+    assert all(row['uncertainty_definition'] == 'unreported' for row in rows)
 
 
 def verify_parent_pilot_source_bindings(included):

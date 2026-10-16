@@ -4,6 +4,9 @@ All paths below are relative to this directory. Numerical PASS means only the st
 
 | Requirement | Verdict | Evidence | Correction or remaining work |
 |---|---|---|---|
+| Saved-array J error impact | PREPARED; NOT EXECUTED | parent-j-error-impact/PROTOCOL.md; preparation.json | No independent root approval or analysis-v1; five synthetic tests are preparation evidence only |
+| Parent J stage localization | PREPARED; NOT EXECUTED | parent-j-stage-localization/PROTOCOL.md; preparation.json | No independent root approval or run-v1; eight mock tests do not validate the native controlled path |
+| Copper-phosphate transport source | SOURCE ASSESSMENT; PROPOSED ROLE24 UNREGISTERED | boundary/copper-phosphate-transport/REPORT.md; evidence.json; INDEPENDENT_REVIEW.md; model-observable.md | Five growth rows, pH4.19 formation failure; regression slope does not identify target permeability; zero target fits or held-out validations; aggregate23/0 |
 | Signed parent RI-J diagnostic | FAIL; SECOND PROBE NOT EXECUTED | parent-signed-j-diagnostic/REPORT.md; run-v1/first-checks.json; INDEPENDENT_REVIEW.md | Sign residual5.282743131829193e-10>1e-10; one finite symmetric J; no second probe/oracle/SCF; unchanged pins; negative J not saved |
 | Parent J repeatability | COMPLETED_WITH_NUMERICAL_NONPASS | parent-j-repeatability/REPORT.md; run-v1/comparisons.json; run-v1/launch-result.json | Three saved arrays; five of six comparisons fail at unchanged1e-10, including identical-input contrast; root replay agrees; zero SCFs and no cause proof |
 | Candidate23 precipitation boundary | SOURCE COMPONENT ONLY; NOT ADMITTED | boundary/pom-polyoxocation-23/DECISION.json; INDEPENDENT_REVIEW.md | Finite growth and concentration failure retained; charge/speciation and active retention unresolved; no integrated member |

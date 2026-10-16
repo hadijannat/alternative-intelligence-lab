@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-16",
+  "researcher_phase": {
+    "queries": ["\"c7cp08282g\" pdf", "\"Osmotic contribution\" \"Rauscher\" repository"],
+    "query_count": 2,
+    "query_cap": 3,
+    "access_count": 3,
+    "access_cap": 6,
+    "operations": [
+      {"operation": "primary PDF web open", "url": "https://pdfs.semanticscholar.org/4266/f614d4ecf67d12bdcdec0b53895675f454fa.pdf", "outcome": "text recovered"},
+      {"operation": "PDF screenshot page index2", "outcome": "service did not expose PDF screenshot content", "http_status": null},
+      {"operation": "PDF screenshot page index3", "outcome": "service did not expose PDF screenshot content", "http_status": null}
+    ],
+    "local_downloads": 0,
+    "old_failed_publisher_URLs_repeated": false
+  },
+  "root_independent_review": {
+    "web_primary_open": "text recovered",
+    "download_command": "curl --location --fail --max-time30 --max-filesize10485760",
+    "download_outcome": "exit0, valid five-page PDF",
+    "download_bytes": 2120816,
+    "download_sha256": "d3e4b28df175027f00d48970de7eabb14b59232618815ce3cea8df76b7459a47",
+    "exact_HTTP_status_recorded": null,
+    "rendered_pages": [2, 3, 4, 5],
+    "render_command": "pdftoppm -scale-to1600 -png",
+    "text_extractor": "pdftotext -layout"
+  }
+}

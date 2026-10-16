@@ -84,10 +84,16 @@ class PublicationSelection(unittest.TestCase):
             base = Path('recursive-compound-2026-10-15')
             kept = (base / 'parent-signed-j-diagnostic/preparation.json',
                     base / 'parent-j-repeatability/run-v1/J1.npy',
+                    base / 'parent-j-stage-localization/preparation.json',
+                    base / 'parent-j-error-impact/preparation.json',
+                    base / 'boundary/copper-phosphate-transport/evidence.json',
                     base / 'boundary/acidic-nanofiltration/evidence.json',
                     base / 'identity/mov9-independent-assay-followup/acquisition.json')
             excluded = (base / 'boundary/acidic-nanofiltration/raw/article.pdf',
                         base / 'parent-j-repeatability/run-v1/post-call-1.bin',
+                        base / 'boundary/copper-phosphate-transport/raw/rauscher2018.pdf',
+                        base / 'boundary/copper-phosphate-transport/raw/rauscher2018.txt',
+                        base / 'boundary/copper-phosphate-transport/raw/page-2.png',
                         base / 'boundary/acidic-nanofiltration/raw/page.png',
                         base / 'identity/mov9-independent-assay-followup/raw/route03-si-tool-response.txt',
                         base / 'parent-openmp/env-aligned/lib/runtime.bin')
@@ -271,7 +277,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'identity/competing-mov-primary-followup', 'parent-signed-j-diagnostic',
                        'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup',
                        'boundary/pom-polyoxocation-23', 'boundary/tube-alternative-followup',
-                       'boundary/phosphate-transport-lead', 'parent-j-repeatability'):
+                       'boundary/phosphate-transport-lead', 'parent-j-repeatability',
+                       'parent-j-error-impact', 'parent-j-stage-localization', 'boundary/copper-phosphate-transport'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -357,6 +364,14 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('boundary/tube-alternative-followup/evidence.json', ('unresolved_lead', 'permeability'), 0.1),
             ('boundary/phosphate-transport-lead/evidence.json', ('target_evidence', 'heldout_validation'), True),
             ('boundary/phosphate-transport-lead/evidence.json', ('cited_transport_source', 'numeric_permeability'), 0.1),
+            ('parent-j-error-impact/preparation.json', 'real_arrays_analyzed', True),
+            ('parent-j-stage-localization/preparation.json', 'operators_executed', 3),
+            ('parent-j-stage-localization/preparation.json', 'J_absolute_tolerance', 1e-9),
+            ('boundary/copper-phosphate-transport/evidence.json', ('constraints', 'solute_permeability'), 0.1),
+            ('boundary/copper-phosphate-transport/evidence.json', ('constraints', 'growth_regression_slope', 'pointwise_ratio_equivalence_established'), True),
+            ('boundary/copper-phosphate-transport/evidence.json', ('decision_boundary', 'integrated_admission'), True),
+            ('boundary/copper-phosphate-transport/evidence.json', ('decision_boundary', 'universal_acidic_wall_failure_proven'), True),
+            ('boundary/copper-phosphate-transport/evidence.json', ('work_scope', 'heldout_target_validations'), 1),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'heldout_validation'), True),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'admission'), True),
             ('boundary/acidic-nanofiltration/evidence.json',
@@ -527,6 +542,22 @@ class OpenMPRenewalVerification(unittest.TestCase):
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)
         stages_path.write_text(original_stages)
+
+    def test_prepared_followups_cannot_gain_review_or_execution_outputs(self):
+        for folder in ('parent-j-error-impact', 'parent-j-stage-localization'):
+            for name in ('independent-root-review.json', 'analysis-v1', 'run-v1'):
+                with self.subTest(folder=folder, name=name):
+                    path = self.recursive / folder / name
+                    if path.suffix:
+                        path.write_text('{"approved": true}')
+                    else:
+                        path.mkdir()
+                    with self.assertRaises(AssertionError):
+                        verify_openmp_renewal(self.recursive, self.case_names)
+                    if path.is_dir():
+                        path.rmdir()
+                    else:
+                        path.unlink()
 
     def test_consistently_promoted_first_j_worker_is_rejected(self):
         run = self.recursive / 'parent-openmp-first-j-v2/run-v1'

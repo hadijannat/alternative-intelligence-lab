@@ -1,0 +1,71 @@
+{
+  "status": "SOURCE_ASSESSMENT_PENDING_INDEPENDENT_REVIEW",
+  "proposed_candidate_role_id": 24,
+  "aggregate_before_registration": 23,
+  "verified_integrated_complement_admissions": 0,
+  "proposition": {
+    "role": "boundary and selective transport",
+    "material": "Flow-grown Cu(II)/phosphate wall",
+    "exact_phase_stoichiometry": null,
+    "pure_Cu3_PO4_2_identity_verified": false,
+    "target_mixture_tested": false,
+    "source_comparator": "Copper silicate, same source family; not an independent dataset"
+  },
+  "source": {
+    "doi": "10.1039/C7CP08282G",
+    "pdf_url": "https://pdfs.semanticscholar.org/4266/f614d4ecf67d12bdcdec0b53895675f454fa.pdf",
+    "pdf_path": "raw/rauscher2018.pdf",
+    "pdf_bytes": 2120816,
+    "pdf_sha256": "d3e4b28df175027f00d48970de7eabb14b59232618815ce3cea8df76b7459a47",
+    "license_notice": "Creative Commons Attribution 3.0 Unported",
+    "root_visually_checked_printed_pages": [5767, 5768, 5769, 5770],
+    "methods_recovered": true,
+    "raw_measurement_files_identified": false,
+    "reported_repetitions_per_experiment": 4,
+    "uncertainty_type": null
+  },
+  "constraints": {
+    "formation_tests": {
+      "total_phosphate_M": 0.3,
+      "pump_mL_h": 0.71,
+      "pH_and_outcome": [
+        {"pH": 12.64, "outcome": "tubes"},
+        {"pH": 9.08, "outcome": "short tubes"},
+        {"pH": 4.19, "outcome": "no precipitation"}
+      ],
+      "only_proton_activity_changed": false,
+      "preformed_wall_dissolution_tested": false,
+      "target_pH_1_7_tested": false
+    },
+    "growth_regression_slope": {"value": 1.89, "reported_plusminus": 0.05, "units": "dimensionless", "zero_intercept_established": false, "pointwise_ratio_equivalence_established": false},
+    "matched_ratios": {
+      "silicate": {"value": 2.0, "reported_plusminus": 0.2},
+      "phosphate": {"value": 2.1, "reported_plusminus": 0.2},
+      "units": "dimensionless"
+    },
+    "figure4_silicate_M": 1.0,
+    "figure4_value_transferred_to_all_arms": false,
+    "table2_csv": "linear-growth.csv",
+    "table2_rows": 5,
+    "solute_permeability": null,
+    "hydraulic_permeance": null,
+    "membrane_rejection_of_intact_target": null,
+    "active_target_recovery": null,
+    "functional_boundary_renewal": null,
+    "shared_target_medium": null
+  },
+  "work_scope": {
+    "physical_experiments": 0,
+    "target_fits": 0,
+    "heldout_target_validations": 0,
+    "digitized_figure_points": 0
+  },
+  "decision_boundary": {
+    "source_component_boundary_supported": true,
+    "target_function_demonstrated": false,
+    "integrated_admission": false,
+    "formation_failure_scope": "Reported sodium dihydrogen phosphate experiment at pH4.19 only",
+    "universal_acidic_wall_failure_proven": false,
+    "target_formula_changed": false
+  }
+}

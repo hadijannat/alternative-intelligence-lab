@@ -1,5 +1,13 @@
 # Progress checkpoint
 
+## Current publication: prepared diagnostics and recovered copper-phosphate source
+
+The preceding publication reached a394029e09a38833a6f9b18083a6fca20edf6697, with successful hosted run38846287261. The user now requests committing the subsequent changes and pushing to main. This checkpoint retains parent-j-error-impact/ and parent-j-stage-localization/ as prepared and unexecuted: no approval, analysis-v1 or run-v1 exists. Their five and eight synthetic tests respectively are preparation checks, not real-data or native results.
+
+The recovered copper-phosphate paper supplies five linear-growth rows, a dimensionless regression slope and a pH4.19 formation failure. The model clarification defines inward-positive pressure jumps and keeps an unknown regression intercept distinct from a pointwise flow ratio. A target-free growth experiment cannot identify active-target retention. The independent review retains its original clarification findings and subsequent disposition. Proposed role24 is unregistered; aggregate23 assessed roles and zero verified integrated complements remain unchanged. All earlier numerical failures remain preserved. No scientific calculation or new source acquisition is part of publication.
+
+The full scientific objective remains active and unmet. Exact commit, push and CI evidence for this request will be recorded in .omo/evidence/publication-stage-transport/root-publication.md at the workspace root.
+
 ## Current continuation: original species evidence and matched numerical controls
 
 Previous goal turn classification: publication progress. Commit ecbe473801f349476fbfede84433d1e06965b749 reached remote main; hosted run38827465199 passed. This resumes science locally, with the full objective unchanged and all integrated requirements unresolved.
