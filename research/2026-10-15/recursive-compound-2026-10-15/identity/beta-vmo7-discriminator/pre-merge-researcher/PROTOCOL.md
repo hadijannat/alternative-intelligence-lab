@@ -1,0 +1,11 @@
+# Unexecuted discrimination hypothesis
+
+Status: **PROPOSED ONLY**. The exact target remains `[MoVI34WVI VV O112(H2O)16]9−`; this protocol neither changes its formula nor establishes its existence. The 2019 β-VMo7 reference is a competing-species control, not a proposed complement or admission.
+
+1. Define and record one actual aqueous medium: final dissolved Mo/W/V concentrations, pH, temperature, counterions, acid/base additions, redox history, precipitation and elapsed time. Resolve source-condition conflicts before transferring reference assignments. The Zhang1:1 and Jung4:1 mixtures do not specify the target's34:1 Mo:V medium.
+2. Compare characterized parent, vanadium precursor, characterized β-VMo7 and other assigned competing anions with the nominal target preparation in that same medium. Characterization after dissolution is required; crystal identity alone does not establish solution persistence. These are proposed controls, not prepared samples.
+3. Pair solution ⁵¹V NMR with Raman and independent molecular/framework identity. Establish reference assignments, quantitative response, uncertainty, detection limits and vanadium accounting before interpreting fractions. A chemical shift alone, an absent signal, total elemental V or a mixed-metal mass envelope does not establish target identity. Complementary valence/site evidence must distinguish the requested V(V) state and W/V coexistence in the same ordinary-Mo36 molecule.
+4. If a retention complement is subsequently evaluated, compare separate-component and mixture controls under the same conditions. Measure intact-target retention alongside chemical competence, with precursor-only and seed-erased controls. Retained competing anions cannot be counted as retained target; bulk retention alone is insufficient.
+5. A condition-specific negative result requires assigned competing V species and vanadium accounting sufficient to exclude the required substituted target population within stated detection limits. Preserve precipitation, unresolved signals, source conflicts, loss of activity and inconclusive outcomes. No fitted fractions, kinetics, target validation or inheritance claim follows from this proposal.
+
+All outcomes are unmeasured. Parent review of the source bindings is pending. Existing negative results and the target/complement admission count remain unchanged.

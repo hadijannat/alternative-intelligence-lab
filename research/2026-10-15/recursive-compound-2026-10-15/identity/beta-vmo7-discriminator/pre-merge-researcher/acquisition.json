@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-16",
+  "scope": "Read-only bounded source audit followed by authorized authored records",
+  "search_engine_queries_used": 2,
+  "search_engine_query_cap": 2,
+  "primary_opens_used": 1,
+  "primary_open_cap": 4,
+  "screenshot_attempts": 2,
+  "downloads": 0,
+  "native_chemistry_runs": 0,
+  "calculations": 0,
+  "search_queries": [
+    "molybdovanadate aqueous \"51V\" \"pH\" -Howarth -Kostenkova -Moreira -Hastings -Moussawi",
+    "molybdovanadate solution speciation \"EXAFS\" OR \"NMR\" high vanadium molybdenum ratio Pettersson Andersson"
+  ],
+  "records": [
+    {
+      "operation": "web_open",
+      "url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+      "result": "success_text_extraction",
+      "reported_content_type": "application/pdf",
+      "reported_PDF_pages": 15,
+      "inspected_text_scope": "Main article printedpp872-876/PDFpp1-5",
+      "http_status": null,
+      "local_file": null,
+      "sha256": null
+    },
+    {
+      "operation": "web_screenshot",
+      "url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+      "zero_based_page": 3,
+      "result": "citation_handle_returned_without_visible_image_in_tool_result",
+      "visual_verification_claimed": false,
+      "http_status": null,
+      "local_file": null
+    },
+    {
+      "operation": "web_screenshot",
+      "url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+      "zero_based_page": 4,
+      "result": "TimeoutError",
+      "visual_verification_claimed": false,
+      "http_status": null,
+      "local_file": null
+    }
+  ],
+  "duplicate_check": {
+    "searched_roots": ["recursive-compound-2026-10-15", "noncarbon-discovery-2026-10-15"],
+    "file_types": ["md", "json", "csv"],
+    "searched_identifiers": ["ky3170", "Regioselective synthesis", "monovanadium-substituted"],
+    "result": "No matching existing record found in those scoped files; not a universal novelty claim",
+    "Zhang2016_result": "Already recorded; direct full-document retrieval previously failed"
+  },
+  "existing_source_checks": [
+    "../../solution-constraints/REPORT.md",
+    "../../solution-constraints/sources.json",
+    "../vanadium-incorporation-followup/REPORT.md",
+    "../vanadium-incorporation-followup/raw/jung_sabrina.pdf"
+  ],
+  "previous_failed_routes_retried": [],
+  "parent_source_binding_review": "pending",
+  "post_assignment_external_calls": 0
+}

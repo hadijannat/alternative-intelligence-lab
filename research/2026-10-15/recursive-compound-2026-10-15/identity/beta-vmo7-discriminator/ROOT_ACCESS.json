@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-16",
+  "source": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+  "scope": "Root continuation after the initial acquisition ledger; operations below are additional",
+  "operations": [
+    {"operation": "primary PDF web open", "outcome": "parsed primary text available", "http_status": null, "already_reported_in_initial_root_phase": true},
+    {"operation": "web screenshot", "page_index": 3, "outcome": "failed: tool reported unsupported content type", "http_status": null},
+    {"operation": "web screenshot", "page_index": 4, "outcome": "failed: tool reported unsupported content type", "http_status": null},
+    {"operation": "bounded curl acquisition", "max_seconds": 30, "max_bytes": 10000000, "http_status": 403, "outcome": "HTML response, no PDF", "received_bytes": 5529, "retained_response": "raw/ky3170-response.html", "response_sha256": "cfe4871ad46e06499eff1624913662bc72dd58268b8a87b5601bf8631f84c3aa", "headers": "raw/ky3170-http.headers"}
+  ],
+  "total_root_access_operations": 4,
+  "local_primary_PDF_acquired": false,
+  "root_visual_PDF_review": false,
+  "primary_parsed_text_available": true,
+  "no_access_failure_interpreted_as_scientific_evidence": true
+}

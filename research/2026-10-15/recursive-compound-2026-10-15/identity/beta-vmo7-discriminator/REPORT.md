@@ -1,0 +1,11 @@
+# Beta-VMo7 competing-species discriminator
+
+Status: source dossier awaiting root review. A measured competing-species reference adds zero complement roles or admissions.
+
+[Krivosudsky, Roller and Rompel (2019)](https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf), DOI 10.1107/S205322961900620X, report K5[VMo7O26]·6H2O (Table 1, p. 873), with Mo/V half-occupancies at two equivalent crystal sites. Figure 6, pp. 875–876, shows original vanadium-51 mother-liquor spectra at 175 mM Mo/25 mM V, pH 3.1, after 24 and 48 h. The beta assignment is −534.2 ppm; claimed V(V) fractions are 95% and 73%. Page 873 specifies 20 °C, 2000 scans, 0.05 s accumulation, 0.01 s relaxation delay and a VOCl3 reference. Recovered uncertainty and response validation are absent, so these fractions are not calibrated target abundances. Dissolved crystals give competing species, including isomeric products. Figure 6 gives 0.5 mM NaCl and pH 4.0/5.2/6.0 for 10 mM V; prose gives 0.5 M and pH 4.2 and misreferences Figure 4. Adopted conditions remain unresolved. The assignment cites Howarth 1991; these crystal/spectral measurements are distinct observations. They establish no Mo36-bound V or W-containing target identity.
+
+## Proposed falsifying assay
+
+Use the same aliquots for vanadium-51 accounting with detection limits, independent Mo36-framework identification, an orthogonal identity method such as Raman, and recoverable catalytic competence. Include a characterized beta-VMo7 control and matrix-matched mixtures. Target-like elemental Mo/V/W totals or V retention accompanied only by the competing-anion fingerprint falsify an inference of intact target capture. A single shifted or missing vanadium signal cannot establish target occupancy or bound valence. Signal overlap, response bias and isomeric products must remain explicit alternative explanations.
+
+The earlier Zhang 2016 indexed-text assessment is a duplicate lead; its full PDF was not acquired in this step or established as locally acquired by the supplied report. The earlier Jung 2018 record uses Mo:V 4:1 and retains a methods/chapter pH 2.8/~4.2 conflict. Neither dataset supplies the target's 34:1 Mo:V stoichiometry. No new dataset is claimed for either lead.

@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_DOSSIER_PENDING_ROOT_REVIEW",
+  "source": {
+    "authors": "Dai et al.",
+    "year": 2014,
+    "journal": "Chemical Communications",
+    "volume": 50,
+    "pages": "4846–4848",
+    "doi": "10.1039/C4CC00693C",
+    "publisher_url": "https://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc00693c",
+    "full_text_url": "https://www.researchgate.net/publication/261255605_Synthesis_of_yolk-shell_HPWHollow_silicalite-1_for_esterification_reaction",
+    "local_source_file": null,
+    "local_source_sha256": null
+  },
+  "observed_in_source_as_reported_by_researcher": [
+    {"locator": "p. 4846", "quantity": "MFI silicalite-1 shell thickness", "value_range": [10, 20], "unit": "nm"},
+    {"locator": "p. 4846", "process": "guest assembly inside shell", "precursors": ["Na2WO4", "Na2HPO4"], "acid": "HCl", "pH": 1, "temperature_C": 95, "duration_h": 3, "water_washes_range": [6, 10]},
+    {"locator": "p. 4846", "preparation_additive": "TPAOH", "residual_carbon_quantified": false},
+    {"locator": "p. 4847", "measurement": "MFI diffraction and phosphorus-31 MAS", "shift_ppm": -15.5, "approximate_peak_width_ppm": 2, "source_assignment": "Keggin HPW guest", "guest_FTIR": "obscure"},
+    {"locator": "p. 4848", "measurement": "organic esterification recycling", "reported_uses": 6, "conversion_description": "retained", "numeric_conversion": null},
+    {"locator": "p. 4848", "measurement": "elemental-analysis-derived HPW loss", "encapsulated_reported_percent": 11, "exterior_impregnated_reported_percent": 89, "intact_molecular_fraction_measured": false, "active_fraction_measured": false}
+  ],
+  "inferred_proposition": "Refine existing B1 with a hollow inorganic shell and in-cavity assembly hypothesis, conditional on a same-medium target assay.",
+  "counterexamples": ["Defect-mediated guest escape", "Reporter activity from fragments", "Reporter activity from exterior or shell acid sites", "Unmeasured precursor exclusion"],
+  "target_parameters": {"active_retention_fraction": null, "intact_retention_fraction": null, "precursor_permeability": null, "target_permeability": null, "inactivation_rate": null, "functional_inheritance": null},
+  "new_complement_roles": 0,
+  "verified_integrated_complements": 0,
+  "existing_role_refinement": "B1",
+  "heldout_target_validation": false,
+  "target_identity_demonstrated": false,
+  "target_joint_function_demonstrated": false,
+  "registration_performed": false
+}

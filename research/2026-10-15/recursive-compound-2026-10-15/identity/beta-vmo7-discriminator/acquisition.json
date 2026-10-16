@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "provenance": "Researcher findings and root access outcomes forwarded by parent; dossier writer performed no web access.",
+  "researcher_phase": {
+    "query_count": 2,
+    "query_strings": null,
+    "query_strings_status": "not recorded in supplied report",
+    "access_count": 3,
+    "operations": [
+      {"operation": "primary PDF web open", "url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf", "outcome": "successful", "http_status": null},
+      {"operation": "PDF screenshot", "page_index": null, "outcome": "successful", "http_status": null},
+      {"operation": "PDF screenshot", "page_index": null, "outcome": "timeout", "http_status": null}
+    ],
+    "local_downloads": 0
+  },
+  "root_phase_as_reported_by_parent": {
+    "additional_access_count": 1,
+    "operations": [{"operation": "primary PDF web open", "url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf", "outcome": "successful"}],
+    "local_downloads": 0,
+    "final_dossier_review": "pending"
+  },
+  "writer_phase": {"queries": 0, "web_accesses": 0, "local_downloads": 0},
+  "local_source_sha256": null,
+  "Zhang_2016": {"new_accesses": 0, "duplicate_indexed_text_lead": true, "full_PDF_acquired": false},
+  "Jung_2018": {"new_accesses": 0, "prior_record_only": true}
+}

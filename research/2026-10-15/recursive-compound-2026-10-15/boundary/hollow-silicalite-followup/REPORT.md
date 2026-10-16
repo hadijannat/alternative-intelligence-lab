@@ -1,0 +1,11 @@
+# Hollow silicalite: B1 architecture refinement
+
+Status: source dossier awaiting root review. No additional complement role or admission.
+
+[Dai et al., Chemical Communications 2014, 50, 4846–4848](https://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc00693c) report an HPW guest inside hollow MFI silicalite-1. Page 4846 describes 10–20 nm shells and assembly from sodium tungstate/phosphate inside the shell using HCl at pH 1, 95 °C for 3 h, followed by 6–10 water washes. Shell preparation uses TPAOH; residual carbon was not established. Page 4847 reports MFI diffraction and a phosphorus-31 MAS peak at −15.5 ppm, approximately 2 ppm wide, supporting the Keggin HPW assignment; guest FTIR features are obscure. Page 4848 reports retained conversion across six organic esterification uses and elemental-analysis-derived HPW losses of 11% for encapsulation versus 89% for exterior impregnation. These losses do not measure intact active guest fractions. Quantitative inorganic precursor flux, Mo36 retention, shell renewal and seed dependence remain unmeasured.
+
+The [author-uploaded full text](https://www.researchgate.net/publication/261255605_Synthesis_of_yolk-shell_HPWHollow_silicalite-1_for_esterification_reaction) supplied the page-level observations. No local source file was acquired. Root independently opened both source URLs; final source review remains with root.
+
+## Proposed falsifying assay
+
+Pair hollow-loaded, exterior-loaded, free-cluster and empty-shell controls in one matched target medium. Measure molecular identity, recoverable catalytic competence and elemental balance separately in shell, liquid and effluent. Measure precursor passage, then transfer washed material to fresh medium alongside no-seed and matched carryover controls. A matched control reproducing the response prevents attributing that signal specifically to confinement. Judge defect leakage against a prespecified functional-retention criterion; detectable leakage alone is not complete functional failure. Reporter activity persisting after loss of intact target cannot establish target competence. A source synthesis pH of 1 does not establish target compatibility at that pH. No target parameter is inferred from the source loss percentages.

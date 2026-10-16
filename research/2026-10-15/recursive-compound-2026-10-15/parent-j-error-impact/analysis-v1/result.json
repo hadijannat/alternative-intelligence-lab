@@ -1,0 +1,272 @@
+{
+  "status": "COMPLETE_FIXED_DENSITY_SENSITIVITY_ONLY",
+  "comparisons": {
+    "J2-J1": {
+      "oriented_expression": "J2-J1",
+      "original_comparison": {
+        "category": "same_sign",
+        "pass": false,
+        "max_absolute_error": 4.844054046770907e-10,
+        "argmax": [
+          2972,
+          2972
+        ],
+        "values_at_argmax": {
+          "actual": 94.73410152448793,
+          "reference": 94.73410152497233,
+          "expected": 94.73410152497233
+        },
+        "entries_above_tolerance": 284,
+        "matrix_max_abs": 144.84252168571786,
+        "reference_max_abs": 144.84252168571868,
+        "reference_multiplier": 1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": -4.009096842432492e-11,
+      "absolute_delta_E_C_hartree": 4.009096842432492e-11,
+      "max_absolute_entry": 4.844054046770907e-10,
+      "argmax": [
+        2972,
+        2972
+      ],
+      "delta_J_Frobenius_norm": 4.763252807384829e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 2.2685692123545996e-06,
+      "computed_Frobenius_energy_bound_hartree": 1.2129891826205834e-07,
+      "entries_above_original_tolerance": 284,
+      "original_threshold_pass_recomputed": false,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    },
+    "J3+J1": {
+      "oriented_expression": "(-J3)-J1",
+      "original_comparison": {
+        "category": "sign_reversal",
+        "pass": false,
+        "max_absolute_error": 4.420286359163583e-10,
+        "argmax": [
+          2972,
+          2972
+        ],
+        "values_at_argmax": {
+          "actual": -94.7341015245303,
+          "reference": 94.73410152497233,
+          "expected": -94.73410152497233
+        },
+        "entries_above_tolerance": 231,
+        "matrix_max_abs": 144.8425216857176,
+        "reference_max_abs": 144.84252168571868,
+        "reference_multiplier": -1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": 3.6796504298973436e-11,
+      "absolute_delta_E_C_hartree": 3.6796504298973436e-11,
+      "max_absolute_entry": 4.420286359163583e-10,
+      "argmax": [
+        2972,
+        2972
+      ],
+      "delta_J_Frobenius_norm": 4.4628367741939295e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 2.0701101695746126e-06,
+      "computed_Frobenius_energy_bound_hartree": 1.136486546022881e-07,
+      "entries_above_original_tolerance": 231,
+      "original_threshold_pass_recomputed": false,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    },
+    "J3+J2": {
+      "oriented_expression": "(-J3)-J2",
+      "original_comparison": {
+        "category": "sign_reversal",
+        "pass": false,
+        "max_absolute_error": 4.142748366575688e-10,
+        "argmax": [
+          3022,
+          3022
+        ],
+        "values_at_argmax": {
+          "actual": -102.68194145726572,
+          "reference": 102.68194145768,
+          "expected": -102.68194145768
+        },
+        "entries_above_tolerance": 31,
+        "matrix_max_abs": 144.8425216857176,
+        "reference_max_abs": 144.84252168571786,
+        "reference_multiplier": -1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": 7.688747272329835e-11,
+      "absolute_delta_E_C_hartree": 7.688747272329835e-11,
+      "max_absolute_entry": 4.142748366575688e-10,
+      "argmax": [
+        3022,
+        3022
+      ],
+      "delta_J_Frobenius_norm": 2.2840689340323172e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 1.9401334725426493e-06,
+      "computed_Frobenius_energy_bound_hartree": 5.8165103163231946e-08,
+      "entries_above_original_tolerance": 31,
+      "original_threshold_pass_recomputed": false,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    },
+    "J1-Jold": {
+      "oriented_expression": "J1-Jold",
+      "original_comparison": {
+        "category": "external_run",
+        "pass": false,
+        "max_absolute_error": 4.718572199635673e-10,
+        "argmax": [
+          1882,
+          1882
+        ],
+        "values_at_argmax": {
+          "actual": 133.90056976409585,
+          "reference": 133.900569763624,
+          "expected": 133.900569763624
+        },
+        "entries_above_tolerance": 304,
+        "matrix_max_abs": 144.84252168571868,
+        "reference_max_abs": 144.84252168571857,
+        "reference_multiplier": 1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": -1.7423967359701162e-11,
+      "absolute_delta_E_C_hartree": 1.7423967359701162e-11,
+      "max_absolute_entry": 4.718572199635673e-10,
+      "argmax": [
+        1882,
+        1882
+      ],
+      "delta_J_Frobenius_norm": 4.833060938041598e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 2.2098035065280643e-06,
+      "computed_Frobenius_energy_bound_hartree": 1.2307662166705805e-07,
+      "entries_above_original_tolerance": 304,
+      "original_threshold_pass_recomputed": false,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    },
+    "J2-Jold": {
+      "oriented_expression": "J2-Jold",
+      "original_comparison": {
+        "category": "external_run",
+        "pass": true,
+        "max_absolute_error": 9.484324436925817e-11,
+        "argmax": [
+          3007,
+          3007
+        ],
+        "values_at_argmax": {
+          "actual": 95.67985145471982,
+          "reference": 95.67985145462498,
+          "expected": 95.67985145462498
+        },
+        "entries_above_tolerance": 0,
+        "matrix_max_abs": 144.84252168571786,
+        "reference_max_abs": 144.84252168571857,
+        "reference_multiplier": 1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": -5.7514935784026085e-11,
+      "absolute_delta_E_C_hartree": 5.7514935784026085e-11,
+      "max_absolute_entry": 9.484324436925817e-11,
+      "argmax": [
+        3007,
+        3007
+      ],
+      "delta_J_Frobenius_norm": 1.3577927182894635e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 4.44170238602828e-07,
+      "computed_Frobenius_energy_bound_hartree": 3.457695709479596e-08,
+      "entries_above_original_tolerance": 0,
+      "original_threshold_pass_recomputed": true,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    },
+    "J3+Jold": {
+      "oriented_expression": "(-J3)-Jold",
+      "original_comparison": {
+        "category": "external_run",
+        "pass": false,
+        "max_absolute_error": 3.2159164220502134e-10,
+        "argmax": [
+          3022,
+          3022
+        ],
+        "values_at_argmax": {
+          "actual": -102.68194145726572,
+          "reference": 102.68194145758731,
+          "expected": -102.68194145758731
+        },
+        "entries_above_tolerance": 14,
+        "matrix_max_abs": 144.8425216857176,
+        "reference_max_abs": 144.84252168571857,
+        "reference_multiplier": -1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "oriented_delta_E_C_hartree": 1.9372536939272274e-11,
+      "absolute_delta_E_C_hartree": 1.9372536939272274e-11,
+      "max_absolute_entry": 3.2159164220502134e-10,
+      "argmax": [
+        3022,
+        3022
+      ],
+      "delta_J_Frobenius_norm": 1.9576723440132433e-09,
+      "density_Frobenius_norm": 50.931127600029754,
+      "density_entrywise_L1_norm": 9366.407519201193,
+      "computed_maxnorm_energy_bound_hartree": 1.506079187830686e-06,
+      "computed_Frobenius_energy_bound_hartree": 4.985322997599392e-08,
+      "entries_above_original_tolerance": 14,
+      "original_threshold_pass_recomputed": false,
+      "absolute_tolerance_unchanged": 1e-10,
+      "relative_tolerance_unchanged": 0
+    }
+  },
+  "density": {
+    "shape": [
+      3068,
+      3068
+    ],
+    "dtype": "float64",
+    "cycle": 0,
+    "max_asymmetry": 2.220446049250313e-16
+  },
+  "original_categories_unchanged": {
+    "same_sign": "NONPASS",
+    "sign_reversal": "NONPASS",
+    "external_run": "NONPASS"
+  },
+  "original_nonpasses": 5,
+  "original_passes": 1,
+  "AO_element_localization": null,
+  "localization_omitted_reason": "Full exact AO-to-atom map was not saved; four labels do not validate a full reconstruction.",
+  "summation": "math.fsum over all binary64 Pij*deltaJij products; not a certified exact-real or outward-rounded calculation",
+  "interpretation": "Fixed-density Coulomb-energy sensitivity only; no relaxed SCF, chemical-accuracy or crash-cause conclusion",
+  "tolerance_relaxed": false,
+  "operators_executed": 0,
+  "SCFs_launched": 0,
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "input_pins_unchanged": true,
+  "numpy_version": "2.4.1"
+}

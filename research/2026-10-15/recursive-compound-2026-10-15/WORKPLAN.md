@@ -10,7 +10,9 @@ The long-task-harness and karpathy-guidelines project skills govern durable reco
 
 ## Work and ownership
 
-Publication checkpoint after a394029: preserve parent-j-error-impact/ and parent-j-stage-localization/ as prepared and unexecuted. Their synthetic tests cover implementation behavior only; root launch reviews remain absent. Publish the recovered copper-phosphate source assessment and its reviewed model clarifications, keeping proposed role24 unregistered and the aggregate23/0. No new scientific calculation, candidate admission or target validation is part of this commit/push request.
+Current continuation after89b5566: parent-j-error-impact/analysis-v1 is complete and independently reviewed. The separately approved parent-j-stage-localization/run-v1 attempt completed three calls within its frozen bounds: ordinary-repeat FAIL, fixed-coefficient control PASS. Both outcomes and all intermediate arrays remain retained; no retry is implicit. Next numerical prerequisite is to distinguish repeated identical-RHS solves from saved-RHS sensitivity and measure metric residual/error behavior before changing or qualifying the method. Copper-phosphate role24 is assessed without admission; hollow-silicalite remains a B1 refinement and beta-VMo7 a competing-species reference. Aggregate24 assessments/zero verified integrated complements. Root source review requires molecular identity and competence rather than elemental retention; no target holdout or physical test exists. New work remains local.
+
+Historical publication checkpoint after a394029: both diagnostics were prepared/unexecuted, proposed role24 unregistered, aggregate23/0. That state was committed at89b5566 and remains in publication history. It does not describe the later executions and decisions above.
 
 | Work | Owner/output | Observable result |
 |---|---|---|

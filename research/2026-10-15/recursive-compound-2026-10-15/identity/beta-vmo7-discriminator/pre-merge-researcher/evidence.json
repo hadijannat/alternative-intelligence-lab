@@ -1,0 +1,105 @@
+{
+  "status": "PROVISIONAL_SOURCE_CONSTRAINT_PENDING_PARENT_REVIEW",
+  "date": "2026-10-16",
+  "reference": {
+    "authors": ["Lukas Krivosudsky", "Alexander Roller", "Annette Rompel"],
+    "year": 2019,
+    "title": "Regioselective synthesis and characterization of monovanadium-substituted beta-octamolybdate [VMo7O26]5-",
+    "doi": "10.1107/S205322961900620X",
+    "journal": "Acta Crystallographica Section C",
+    "volume": 75,
+    "printed_pages": "872-876",
+    "primary_url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+    "ccdc_reference_reported": 1898165,
+    "local_pdf": null,
+    "source_file_sha256": null,
+    "raw_numeric_spectrum": null
+  },
+  "scope": {
+    "newly_inspected_measured_reference": true,
+    "new_target": false,
+    "new_complement": false,
+    "new_candidate_role": false,
+    "target_tested": false,
+    "target_validated": false,
+    "admitted_to_assembly": false,
+    "source_fitted": false,
+    "calibration_rows_admitted": 0,
+    "independent_measurements": ["crystallography", "solution_51V_NMR"],
+    "assignment_reference": "Howarth et al. 1991; DOI10.1039/DT9910001799",
+    "assignment_genealogy_independent": false,
+    "same_experiment_as_Howarth1991": false
+  },
+  "structure": {
+    "formula": "K5[VMo7O26].6H2O",
+    "anion_framework": "beta-octamolybdate",
+    "ordinary_Mo36": false,
+    "locator": "Section3, printedp874/PDFp3; Section2.5, printedp873/PDFp2",
+    "reported_MoC_site_occupancy_V": 0.5,
+    "reported_MoC_site_occupancy_Mo": 0.5,
+    "symmetry_equivalent_sites": 2,
+    "occupancy_uncertainty": null,
+    "valence_label": "V(V)",
+    "independent_target_bound_V_valence_measurement": null
+  },
+  "observations": [
+    {
+      "id": "mother_liquor_beta_assignment",
+      "locator": "Figure6a-b and discussion, printedp875/PDFp4",
+      "assigned_anion": "beta-[VMo7O26]5-",
+      "shift_ppm": -534.2,
+      "reported_Mo_mM": 175,
+      "reported_V_mM": 25,
+      "pH": 3.1,
+      "time_after_synthesis_h": [24, 48],
+      "observable": "51V_NMR",
+      "absolute_species_concentration": null,
+      "calibrated_fraction": null,
+      "uncertainty": null,
+      "target_transfer_eligible": false
+    },
+    {
+      "id": "dissolution_competition",
+      "locator": "Figure6c-e, printedp875/PDFp4; discussion printedp876/PDFp5",
+      "nominal_V_mM": 10,
+      "caption_NaCl_mM": 0.5,
+      "caption_pH": [4.0, 5.2, 6.0],
+      "prose_NaCl_M": 0.5,
+      "prose_pH": 4.2,
+      "condition_equivalence": null,
+      "pH_adjustment_reported": "dilute KOH",
+      "observation": "Competing Mo/V resonances after dissolution",
+      "calibrated_fraction": null,
+      "uncertainty": null,
+      "target_transfer_eligible": false
+    }
+  ],
+  "NMR_method": {
+    "locator": "Section2.4, printedp873/PDFp2",
+    "temperature_C": 20,
+    "D2O_percent": 10,
+    "frequency_MHz": 131.60,
+    "scans": 2000,
+    "accumulation_time_s": 0.05,
+    "relaxation_delay_s": 0.01,
+    "chemical_shift_reference": "VOCl3,0ppm",
+    "relaxation_response_validation": null,
+    "mass_balance_validation": null,
+    "detection_limit": null,
+    "reported_fractions_admitted_for_calibration": false
+  },
+  "source_conflicts": [
+    {"field": "dissolution_NaCl", "caption": "0.5mM", "prose": "0.5M", "resolution": null},
+    {"field": "first_dissolution_pH", "caption": "4.0", "prose": "4.2", "resolution": null},
+    {"field": "NMR_figure_reference", "caption": "Figure6", "prose": "Figure4", "resolution": null}
+  ],
+  "duplicate_correction": {
+    "reference": "Zhang2016",
+    "doi": "10.1063/1674-0068/29/cjcp1604069",
+    "existing_record": "../../solution-constraints/sources.json",
+    "new_dataset": false,
+    "archived_scope": "assessment and publisher-indexed observations",
+    "local_full_PDF_acquired": false,
+    "raw_spectra_acquired": false
+  }
+}

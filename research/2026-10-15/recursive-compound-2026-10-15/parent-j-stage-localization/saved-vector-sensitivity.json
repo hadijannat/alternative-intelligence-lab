@@ -1,0 +1,35 @@
+{
+  "scope": "Observed saved-vector sensitivity only; not a condition-number estimate or certified bound",
+  "baseline_L2": {
+    "b_A": 43723.32088467428,
+    "rho_ordinary_A": 144.32233127683415
+  },
+  "contrasts": {
+    "B_ordinary_minus_A": {
+      "delta_b_L2": 5.114825361036989e-11,
+      "delta_rho_L2": 0.0004353105728963133,
+      "relative_delta_b_L2": 1.1698163034157401e-15,
+      "relative_delta_rho_L2": 0.0000030162385061624,
+      "observed_relative_response_ratio": 2578386450.381399,
+      "rho_used_in_this_description": "ordinary solve output, not the substituted controlled-C vector"
+    },
+    "C_ordinary_minus_A": {
+      "delta_b_L2": 9.12411220647234e-11,
+      "delta_rho_L2": 0.00180615278743298,
+      "relative_delta_b_L2": 2.0867838997267213e-15,
+      "relative_delta_rho_L2": 0.000012514714607599288,
+      "observed_relative_response_ratio": 5997130133.713499,
+      "rho_used_in_this_description": "ordinary solve output, not the substituted controlled-C vector"
+    }
+  },
+  "operators_executed": 0,
+  "SCFs_launched": 0,
+  "input_sha256": {
+    "b_A.npy": "c7ae82341bf1c61fbabf95d7da42b3ac2f2653a45a4b50432dc7081d837b3cac",
+    "b_B.npy": "c84c18029fffd73d7fa4045fcdc1f90e92272b281991d78bd47fe7adb393c6f3",
+    "b_C.npy": "6ee3cdcec51f34c30db2a2be3acbffee3809343d68d5385c6024fb0f8d02b8b2",
+    "rho_ordinary_A.npy": "754e1e63a5a29353204c01cf876d7e401b6c925feb0a15dc08d9e6408bf3e802",
+    "rho_ordinary_B.npy": "e92e5f680ff80ceea93c428097b069b6c8d27db772c8574fcc58b28c3e5461eb",
+    "rho_ordinary_C.npy": "be9099c17ca4389424f47e2ea14ece7a036795186c7f37ba591b093ae2213eb1"
+  }
+}

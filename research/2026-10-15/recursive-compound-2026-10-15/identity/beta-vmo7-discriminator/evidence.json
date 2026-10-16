@@ -1,0 +1,35 @@
+{
+  "status": "SOURCE_DOSSIER_PENDING_ROOT_REVIEW",
+  "source": {
+    "authors": "Krivosudsky, Roller and Rompel",
+    "year": 2019,
+    "doi": "10.1107/S205322961900620X",
+    "primary_pdf_url": "https://journals.iucr.org/c/issues/2019/07/00/ky3170/ky3170.pdf",
+    "local_source_file": null,
+    "local_source_sha256": null
+  },
+  "observed_in_source_as_reported_by_researcher": [
+    {"locator": "p. 873, Table 1", "crystal_composition": "K5[VMo7O26]·6H2O", "Mo_V_site_assignment": "half-occupancies at two equivalent sites"},
+    {"locator": "pp. 875–876, Figure 6", "sample": "mother liquor", "Mo_mM": 175, "V_mM": 25, "pH": 3.1, "times_h": [24, 48], "assigned_beta_shift_ppm": -534.2, "claimed_VV_percent_by_time": [95, 73], "uncertainty": null, "response_validation_recovered": false},
+    {"locator": "p. 873, NMR methods", "temperature_C": 20, "scans": 2000, "accumulation_s": 0.05, "relaxation_delay_s": 0.01, "reference": "VOCl3"},
+    {"locator": "Figure 6 and associated discussion", "observation": "dissolved solid gives competing Mo/V species", "all_products_smaller_than_starting_cluster": false, "some_products_isomeric": true}
+  ],
+  "unresolved_source_conflicts": {
+    "NaCl": {"figure_6_caption": {"value": 0.5, "unit": "mM"}, "prose": {"value": 0.5, "unit": "M"}, "adopted_value": null},
+    "dissolved_solid_pH": {"figure_6_caption": [4.0, 5.2, 6.0], "prose_value": 4.2, "adopted_values": null, "V_mM": 10},
+    "figure_cross_reference": {"prose_reference": "Figure 4", "spectra_location": "Figure 6"}
+  },
+  "inferred_use": "A characterized competing-species control can test whether elemental V capture is being misidentified as target retention.",
+  "source_claim_limitations": ["Crystal-site occupancies do not establish target aqueous occupancy", "Reported percentages are not admitted quantitative target abundances", "The later mother-liquor sample also underwent crystallization, so 95 to 73 percent is not a decay rate", "Assignment cites Howarth 1991 while the crystal and spectra are a different experiment", "A competing spectrum alone does not identify every species or establish target valence"],
+  "prior_duplicate_leads": [
+    {"source": "Zhang 2016", "doi": "10.1063/1674-0068/29/cjcp1604069", "assessment": "previous indexed-text assessment", "new_dataset": false, "full_PDF_acquired": false},
+    {"source": "Jung 2018", "Mo_to_V_feed_ratio": "4:1", "methods_pH": 2.8, "chapter_5_approximate_pH": 4.2, "conflict_resolved": false, "new_dataset": false}
+  ],
+  "target_parameters": {"aqueous_target_fraction": null, "V_occupancy": null, "bound_V_valence": null, "active_retention_fraction": null, "functional_inheritance": null},
+  "new_complement_roles": 0,
+  "verified_integrated_complements": 0,
+  "heldout_target_validation": false,
+  "target_identity_demonstrated": false,
+  "target_joint_function_demonstrated": false,
+  "registration_performed": false
+}

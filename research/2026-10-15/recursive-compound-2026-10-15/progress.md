@@ -1,6 +1,22 @@
 # Progress checkpoint
 
-## Current publication: prepared diagnostics and recovered copper-phosphate source
+## Current scientific continuation: stage localization and molecular identity
+
+Previous goal turn was progress: publication89b55662c11374ea99f75f1214ce99f1883a1d12 and exact-commit CI38848077038 completed. Fresh inspection confirmed that state before continuing. The full integrated living/intelligent-system objective remains active and unmet.
+
+Copper-phosphate DECISION.json registers assessed role24 with six source/review bindings and no admission. The two new source dossiers, hollow-silicalite-followup and beta-vmo7-discriminator, passed independent and root scoped review. They refine B1 and add a competing-species reference, respectively, with zero additional roles. Aggregate24/0. Source condition conflicts, raw-data gaps and access failures remain explicit. Zhang2016 remains an indexed-text assessment without an acquired full PDF; it is not a new dataset.
+
+The saved-array J-error analysis completed in session6552, exit0. All14pins match, allsix original comparison records reproduce, and independent seven-row arithmetic confirms fixed-density sensitivities. Five original comparisons remain nonpassing. The separate stage-localization review cleared288grouped pins and eight tests; root approved preparation077b972b. Its sole attempt, execsession80130, completed with exit0; worker53270 is absent. Three calls and nine saved arrays satisfy the diagnostic protocol in698.885668seconds with sampledRSS3643949056bytes. Ordinary repeat1.1883116712851916e-10 fails the original screen; controlled fixed-rho contrast6.536993168992922e-13 passes. Root verified all30 terminal artifact hashes. No SCF/PCM or target validation occurred.
+
+The saved ordinary RHS/coefficient vectors show relative-response ratios about2.58e9 and6.00e9. This descriptive result suggests investigating solve/metric sensitivity before changing the native contraction; it is not a condition-number certificate or proof of exclusive causality. Next numerical action requires its own frozen diagnostic for identical-RHS repeat solves and response/residual checks against saved perturbations. Fixed coefficients are not a production repair because they ignore density changes. No further native attempt is authorized by this checkpoint.
+
+Independent terminal audit is CLEAR for evidence classification. It verified288 grouped pins, root/prelaunch bindings and30 artifact hashes, replayed both J contrasts and allfour vector differences with seven-row blocks, and independently checked the descriptive norms. The ordinary nonpass remains. This continuation made substantive progress through a discriminating numerical result and new source constraints; no repeated impasse is established. Full scientific completion remains unproven.
+
+The formal betaVMo7/molybdate/tungstate counterexample preserves the target metal ratio without target molecules. Integer atom/charge accounting passes independently, with no equilibrium or synthetic claim. Future retention evidence must identify the same mixed-metal species and its competence, not infer them from total metal capture. Held-out physical assays remain unavailable. New work is local; the publication checkpoint remains89b5566.
+
+Source-dossier writers overlapped on four new beta files. The current independently reviewed dossier and the earlier author's reconstructed patch versions are both retained; DRAFT_HISTORY.md states that original byte identity cannot be independently checked without prior digests. No frozen numerical outcome was changed. Full execution/provenance receipt: workspace .omo/evidence/recursive-stage-execution-2026-10-16.md.
+
+## Previous publication: prepared diagnostics and recovered copper-phosphate source
 
 The preceding publication reached a394029e09a38833a6f9b18083a6fca20edf6697, with successful hosted run38846287261. The user now requests committing the subsequent changes and pushing to main. This checkpoint retains parent-j-error-impact/ and parent-j-stage-localization/ as prepared and unexecuted: no approval, analysis-v1 or run-v1 exists. Their five and eight synthetic tests respectively are preparation checks, not real-data or native results.
 

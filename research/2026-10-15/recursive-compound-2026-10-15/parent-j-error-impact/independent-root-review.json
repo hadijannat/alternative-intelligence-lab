@@ -1,0 +1,19 @@
+{
+  "status": "APPROVED_SAVED_ARRAY_ERROR_IMPACT",
+  "independent_root_review": true,
+  "reviewer": "/root, separate from implementation worker",
+  "preparation_sha256": "8525666d8c02c092d160425a63a5ce84d5d4b9537e2f9d6c36a3c13c8efffd68",
+  "driver_sha256": "baecfa4dc703b485c3d9d662ff32d4e8687648e13ea96e751b4e68c5bbe04521",
+  "scope": "One exclusive saved-array analysis; no native operator, molecule construction, SCF or PCM build",
+  "reviewed": [
+    "All six pair orientations and signed energy interpretation",
+    "Direct fixed-density contraction with math.fsum over binary64 products",
+    "Finite square float64 guards, bounded row blocks and read-only mappings",
+    "Exact reproduction of original maximum, argmax, exceedance count and pass flag",
+    "Floating-point norm bounds explicitly not certified intervals",
+    "Pinned helper import path and saved-density loading without native work",
+    "Five synthetic tests passed at the preceding publication checkpoint"
+  ],
+  "original_threshold_unchanged": true,
+  "scientific_admission": false
+}

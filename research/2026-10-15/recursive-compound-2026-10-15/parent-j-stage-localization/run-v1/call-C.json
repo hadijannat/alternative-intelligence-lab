@@ -1,0 +1,55 @@
+{
+  "arm": "C",
+  "output": "J_fixed_rho_A",
+  "ordinary_J_P0": false,
+  "hashes": {
+    "J_fixed_rho_A": "b5d16ee7357b5676a8e9a425c2a569b91e72fb55ab0478df18248c4239607659",
+    "b_C": "6ee3cdcec51f34c30db2a2be3acbffee3809343d68d5385c6024fb0f8d02b8b2",
+    "rho_ordinary_C": "be9099c17ca4389424f47e2ea14ece7a036795186c7f37ba591b093ae2213eb1"
+  },
+  "matrix_checks": {
+    "finite": true,
+    "symmetric": true,
+    "max_asymmetry": 0.0,
+    "sign_pass": false,
+    "max_sign_error": null,
+    "chunk_rows": 16
+  },
+  "storage": {
+    "identity": 4641843856,
+    "pointer": 481346453504,
+    "shape": [
+      19612,
+      19612
+    ],
+    "readonly": true,
+    "Fortran": true,
+    "content_sha256": "15f8e083a4b323de758bf30b03438e1c0da0d80604b577208cc708b6c2f1a31c"
+  },
+  "solve_capture": {
+    "ordinary_returned_unchanged": false,
+    "returned_pointer": 5369233408,
+    "ordinary_pointer": 4966809600,
+    "shape": [
+      19612,
+      1
+    ],
+    "strides": [
+      8,
+      8
+    ],
+    "Fortran": true,
+    "C_contiguous": true,
+    "capture_aliases_rhs": false,
+    "capture_aliases_ordinary": false
+  },
+  "density_source": {
+    "shape": [
+      3068,
+      3068
+    ],
+    "dtype": "float64",
+    "cycle": 0,
+    "max_asymmetry": 2.220446049250313e-16
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "provenance": "Researcher findings and root access outcomes forwarded by parent; dossier writer performed no web access.",
+  "researcher_phase": {
+    "query_count": 3,
+    "query_strings": null,
+    "query_strings_status": "not recorded in supplied report",
+    "access_count": 5,
+    "operations": [
+      {"operation": "CsY ScienceDirect access", "url": null, "outcome": "failed", "http_status": null},
+      {"operation": "RSC landing open", "url": "https://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc00693c", "outcome": "successful", "http_status": null},
+      {"operation": "author full-text open", "url": "https://www.researchgate.net/publication/261255605_Synthesis_of_yolk-shell_HPWHollow_silicalite-1_for_esterification_reaction", "outcome": "successful", "http_status": null},
+      {"operation": "second full-text window", "outcome": "successful", "http_status": null},
+      {"operation": "publisher supplementary-information click", "url": null, "outcome": "failed", "http_status": null}
+    ],
+    "local_downloads": 0
+  },
+  "root_phase_as_reported_by_parent": {
+    "additional_access_count": 2,
+    "operations": [
+      {"operation": "RSC landing open", "outcome": "successful"},
+      {"operation": "author full-text open", "outcome": "successful"}
+    ],
+    "final_dossier_review": "pending"
+  },
+  "writer_phase": {"queries": 0, "web_accesses": 0, "local_downloads": 0},
+  "local_source_sha256": null,
+  "failed_access_implies_paywall": false
+}

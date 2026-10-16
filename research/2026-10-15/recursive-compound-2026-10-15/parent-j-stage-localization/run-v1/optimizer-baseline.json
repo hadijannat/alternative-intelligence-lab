@@ -1,0 +1,108 @@
+{
+  "optimizer_id": 4640954304,
+  "q_cond_shape": [
+    1592756
+  ],
+  "q_cond_pointer": 5176803328,
+  "q_cond_sha256": "c7d16f2a76b3150355db44aa6cd8e0e1adabfa761d63ce12e97de021ede1263d",
+  "cutoff": 1e-13,
+  "molecule": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          196,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "9d8b8812d53b30bf4c92254d6e2015964b3bb23ecc759c1289db2ceff7361fab"
+      },
+      "_bas": {
+        "shape": [
+          1260,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "6fb8927ff4eb294e9cff59118b22a55cb1d0627955db573c5e9561e3df1d33e5"
+      },
+      "_env": {
+        "shape": [
+          904
+        ],
+        "dtype": "float64",
+        "sha256": "e115fdfc10ff9a7d1e2a8a44b421d5534094db641e3becb2d7cd4329ef41cb01"
+      }
+    },
+    "natm": 196,
+    "nao": 3068,
+    "nelectron": 1568,
+    "charge": -8,
+    "spin": 0,
+    "cart": false
+  },
+  "auxmol": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          196,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "139d1b0d033bc3abe8e573f80fbff46ba093ad587c459a98fb94105636a2a772"
+      },
+      "_bas": {
+        "shape": [
+          5156,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "a0b0f4deb8220b663d15ae935343dd45bad97627b9360edc0e00ba3174eb8eba"
+      },
+      "_env": {
+        "shape": [
+          996
+        ],
+        "dtype": "float64",
+        "sha256": "8c6ac188183f62ac2d82180944619f01ab1776b70b77e13aa0bf5885736c2ca5"
+      }
+    },
+    "natm": 196,
+    "nao": 19612,
+    "nelectron": 2576,
+    "charge": -8,
+    "spin": 0,
+    "cart": false
+  },
+  "fakemol": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          392,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "ec6224797c6e2581e5d8c854e1039132de0eb0b8ea7ea22ec61a0757f766dfae"
+      },
+      "_bas": {
+        "shape": [
+          6417,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "eb88677184de89b04748a11bb90abc8798a38e781fbf3769db7f22a69796fde7"
+      },
+      "_env": {
+        "shape": [
+          1900
+        ],
+        "dtype": "float64",
+        "sha256": "dd5c56fc8dd9519e1792984a050486e9b577a9573967d1c45e3888a5e9e4bf7c"
+      }
+    },
+    "natm": 392,
+    "nao": 22681,
+    "nelectron": 4144,
+    "charge": -16,
+    "spin": 0,
+    "cart": false
+  }
+}

@@ -33,6 +33,7 @@ def verify(root):
     assert agents['actual_participating_subagents'] == 24 and not agents['thousand_agents_executed']
     assert COORDINATES <= {r['path'] for r in included}
     recursive = base / 'recursive-compound-2026-10-15'
+    verify_stage_artifact_bindings(recursive, included)
     inputs = json.loads((recursive / 'parent-inputs/metadata.json').read_text())['candidates']
     assert {c['id'] for c in inputs} == {'P0_A', 'P0_B', 'PT57_A', 'PT57_B'}
     for candidate_input in inputs:
@@ -921,8 +922,6 @@ def verify_stage_transport_followup(recursive):
         preparation = json.loads((base / 'preparation.json').read_text())
         assert preparation['status'] == status
         assert preparation['operators_executed'] == preparation['SCFs_launched'] == 0
-        for name in ('independent-root-review.json', 'analysis-v1', 'run-v1'):
-            assert not (base / name).exists(), (folder, name)
         for name in ('PROTOCOL.md', 'run.py', 'test_run.py'):
             assert (base / name).is_file()
         if folder == 'parent-j-error-impact':
@@ -934,6 +933,33 @@ def verify_stage_transport_followup(recursive):
             assert preparation['wall_cap_seconds'] == 1000 and preparation['sampled_RSS_guard_bytes'] == 10 * 1024**3
             assert preparation['J_absolute_tolerance'] == 1e-10 and preparation['J_relative_tolerance'] == 0
             assert preparation['sequence'] == ['ordinary_A_P0', 'ordinary_B_P0', 'controlled_C_fixed_rho_A']
+    impact = recursive / 'parent-j-error-impact'
+    review = json.loads((impact / 'independent-root-review.json').read_text())
+    assert review['status'] == 'APPROVED_SAVED_ARRAY_ERROR_IMPACT'
+    assert review['independent_root_review'] is True and review['scientific_admission'] is False
+    assert review['original_threshold_unchanged'] is True
+    assert review['preparation_sha256'] == '8525666d8c02c092d160425a63a5ce84d5d4b9537e2f9d6c36a3c13c8efffd68'
+    gate = json.loads((impact / 'analysis-v1/analysis-gate.json').read_text())
+    assert gate['preparation_sha256'] == review['preparation_sha256']
+    assert gate['review_sha256'] == '2977066eecd1eb167e21d18c93f2feb6785477fb152811faf8daa316c2ce8e79'
+    result = json.loads((impact / 'analysis-v1/result.json').read_text())
+    assert result['status'] == 'COMPLETE_FIXED_DENSITY_SENSITIVITY_ONLY'
+    assert result['operators_executed'] == result['SCFs_launched'] == 0
+    for key in ('physical_admission', 'parent_SCF_readiness', 'tolerance_relaxed'):
+        assert result[key] is False
+    assert result['input_pins_unchanged'] is True and result['AO_element_localization'] is None
+    assert result['original_nonpasses'] == 5 and result['original_passes'] == 1
+    original = json.loads((recursive / 'parent-j-repeatability/run-v1/comparisons.json').read_text())
+    assert result['original_categories_unchanged'] == original['categories']
+    assert set(result['comparisons']) == set(original['comparisons'])
+    for name, row in result['comparisons'].items():
+        prior = original['comparisons'][name]
+        assert row['original_comparison'] == prior
+        assert row['original_threshold_pass_recomputed'] is prior['pass']
+        assert row['entries_above_original_tolerance'] == prior['entries_above_tolerance']
+        assert row['max_absolute_entry'] == prior['max_absolute_error'] and row['argmax'] == prior['argmax']
+        assert row['absolute_tolerance_unchanged'] == 1e-10 and row['relative_tolerance_unchanged'] == 0
+    verify_stage_localization(recursive)
     copper = recursive / 'boundary/copper-phosphate-transport'
     evidence = json.loads((copper / 'evidence.json').read_text())
     assert evidence['status'] == 'SOURCE_ASSESSMENT_PENDING_INDEPENDENT_REVIEW'
@@ -966,6 +992,144 @@ def verify_stage_transport_followup(recursive):
     assert len(rows) == constraints['table2_rows'] == 5
     assert evidence['source']['uncertainty_type'] is None
     assert all(row['uncertainty_definition'] == 'unreported' for row in rows)
+    decision = json.loads((copper / 'DECISION.json').read_text())
+    assert decision['status'] == 'REVIEWED_SOURCE_CANDIDATE_ONLY_NOT_ADMITTED'
+    assert decision['candidate_role_id'] == decision['aggregate_candidate_role_assessments'] == 24
+    assert decision['aggregate_verified_integrated_complements'] == 0
+    for key in ('verified_integrated_member', 'preformed_wall_acid_survival_tested',
+                'pure_Cu3_PO4_2_phase_verified', 'growth_regression_identifies_target_transport'):
+        assert decision[key] is False
+    for key in ('target_compatibility', 'intact_active_target_retention', 'functional_boundary_renewal'):
+        assert decision[key] is None
+    for key in ('physical_experiments', 'target_model_fits', 'heldout_target_validations'):
+        assert decision[key] == 0
+    assert decision['source_pH_4_19_formation_failure_preserved'] is True
+    for name, key in (('evidence.json', 'assessment_sha256'), ('REPORT.md', 'report_sha256'),
+                      ('acquisition.json', 'acquisition_sha256'), ('INDEPENDENT_REVIEW.md', 'independent_review_sha256'),
+                      ('model-observable.md', 'model_sha256'), ('linear-growth.csv', 'table_sha256')):
+        assert hashlib.sha256((copper / name).read_bytes()).hexdigest() == decision[key]
+    verify_source_constraints(recursive)
+
+
+def verify_stage_localization(recursive):
+    base = recursive / 'parent-j-stage-localization'
+    review = json.loads((base / 'independent-root-review.json').read_text())
+    assert review['status'] == 'APPROVED_ONE_PARENT_J_STAGE_LOCALIZATION'
+    assert review['independent_root_review'] is True and review['physical_admission'] is False
+    assert review['preparation_sha256'] == '077b972b1ea43bbf0472a7dcda5e3bbe89f964a583ee6ea2f34282c32b806c73'
+    run = base / 'run-v1'
+    gate = json.loads((run / 'launch-gate.json').read_text())
+    assert gate['preparation_sha256'] == review['preparation_sha256']
+    assert gate['review_sha256'] == '1e4e34875a0a160a09569fe002426ee250e7b1a7a7a7b779d548d2ec961cb3f5'
+    assert gate['qualification_artifacts'] == review['qualification_artifacts']
+    launch = json.loads((run / 'launch-result.json').read_text())
+    result = json.loads((run / 'result.json').read_text())
+    assert launch['completed'] is True and launch['worker_result'] == result
+    assert result['status'] == 'COMPLETED_BOUNDED_STAGE_LOCALIZATION'
+    assert result['calls'] == 3 and result['SCFs_launched'] == result['PCM_builds'] == 0
+    assert result['invariants_passed'] is True and result['controlled_output_is_ordinary_J_P0'] is False
+    for record in (launch, result):
+        assert record['gate_unchanged'] is True
+        assert record['physical_admission'] is False and record['parent_SCF_readiness'] is False
+    receipt = json.loads((run / 'supervisor.json').read_text())
+    assert launch['receipt'] == receipt and receipt['returncode'] == 0
+    assert receipt['termination_reason'] is None and receipt['monitor_error'] is None
+    assert receipt['wall_seconds'] == 698.8856680409517 < receipt['wall_cap_seconds'] == 1000
+    assert receipt['sampled_max_rss_bytes'] == 3643949056 < receipt['rss_guard_bytes'] == 10 * 1024**3
+    assert receipt['hard_OS_memory_limit'] is False
+    assert len(launch['artifact_hashes']) == 30 and len(result['output_hashes']) == 9
+    for name, digest in result['output_hashes'].items():
+        assert launch['artifact_hashes'][name + '.npy'] == digest
+    for arm, output in (('A', 'J_A'), ('B', 'J_B'), ('C', 'J_fixed_rho_A')):
+        call = json.loads((run / f'call-{arm}.json').read_text())
+        assert call['arm'] == arm and call['output'] == output
+        assert call['ordinary_J_P0'] is (arm != 'C')
+        assert call['solve_capture']['ordinary_returned_unchanged'] is (arm != 'C')
+        assert call['matrix_checks']['finite'] is True and call['matrix_checks']['symmetric'] is True
+        assert call['hashes'] == {name: result['output_hashes'][name] for name in
+                                 (output, f'b_{arm}', f'rho_ordinary_{arm}')}
+    comparisons = json.loads((run / 'comparisons.json').read_text())
+    assert comparisons == result['comparisons']
+    assert comparisons['controlled_output_is_ordinary_J_P0'] is False
+    assert comparisons['stage_causality_proven'] is False
+    expected = {'J_B_minus_J_A': (1.1883116712851916e-10, 2),
+                'J_fixed_rho_A_minus_J_A': (6.536993168992922e-13, 0)}
+    assert set(comparisons['J_comparisons']) == set(expected)
+    for name, (error, count) in expected.items():
+        row = comparisons['J_comparisons'][name]
+        assert row['max_absolute_error'] == error and row['entries_above_tolerance'] == count
+        assert row['pass'] is (count == 0)
+        assert row['absolute_tolerance'] == 1e-10 and row['relative_tolerance'] == 0
+    assert len(comparisons['vector_comparisons']) == 4
+    for row in comparisons['vector_comparisons'].values():
+        assert row['acceptance_threshold'] is None and row['exact_equal'] is False
+    sensitivity = json.loads((base / 'saved-vector-sensitivity.json').read_text())
+    assert sensitivity['operators_executed'] == sensitivity['SCFs_launched'] == 0
+    assert sensitivity['scope'] == 'Observed saved-vector sensitivity only; not a condition-number estimate or certified bound'
+    assert sensitivity['input_sha256'] == {name + '.npy': digest for name, digest in
+        result['output_hashes'].items() if not name.startswith('J_')}
+    for name in ('SCF-result.json', 'iterations.jsonl'):
+        assert not (run / name).exists()
+
+
+def verify_source_constraints(recursive):
+    for folder, status in (
+            ('boundary/hollow-silicalite-followup', 'REVIEWED_B1_ARCHITECTURE_REFINEMENT_ONLY'),
+            ('identity/beta-vmo7-discriminator', 'REVIEWED_COMPETING_SPECIES_CONSTRAINT_ONLY')):
+        base = recursive / folder
+        evidence = json.loads((base / 'evidence.json').read_text())
+        review = json.loads((base / 'ROOT_REVIEW.json').read_text())
+        assert evidence['status'] == 'SOURCE_DOSSIER_PENDING_ROOT_REVIEW'
+        assert review['status'] == status and review['original_dossier_pending_status_is_historical'] is True
+        assert review['primary_text_checked'] is True and review['source_limits_preserved'] is True
+        for key in ('local_primary_pdf_acquired', 'raw_measurements_acquired', 'target_model_calibration',
+                    'heldout_target_validation', 'physical_target_tested'):
+            assert review[key] is False
+        assert review['new_candidate_roles'] == review['verified_integrated_complement_admissions'] == 0
+        assert evidence['new_complement_roles'] == evidence['verified_integrated_complements'] == 0
+        for key in ('heldout_target_validation', 'target_identity_demonstrated',
+                    'target_joint_function_demonstrated', 'registration_performed'):
+            assert evidence[key] is False
+        assert all(value is None for value in evidence['target_parameters'].values())
+        assert evidence['source']['local_source_file'] is evidence['source']['local_source_sha256'] is None
+        for name, digest in review['artifact_sha256'].items():
+            assert hashlib.sha256((base / name).read_bytes()).hexdigest() == digest
+        if 'silicalite' in folder:
+            assert evidence['existing_role_refinement'] == 'B1'
+            loss = evidence['observed_in_source_as_reported_by_researcher'][-1]
+            assert loss['encapsulated_reported_percent'] == 11 and loss['exterior_impregnated_reported_percent'] == 89
+            assert loss['intact_molecular_fraction_measured'] is False and loss['active_fraction_measured'] is False
+        else:
+            conflicts = evidence['unresolved_source_conflicts']
+            assert conflicts['NaCl']['adopted_value'] is None
+            assert conflicts['dissolved_solid_pH']['adopted_values'] is None
+            measurement = evidence['observed_in_source_as_reported_by_researcher'][1]
+            assert measurement['claimed_VV_percent_by_time'] == [95, 73]
+            assert measurement['response_validation_recovered'] is False and measurement['uncertainty'] is None
+            assert all(row['new_dataset'] is False for row in evidence['prior_duplicate_leads'])
+            assert hashlib.sha256((base / 'elemental-counterexample.md').read_bytes()).hexdigest() == '0a9852d6c4efced9fbe21db2c8a9e461ab1dbc8cfc5e32e3dfbf257220ee8b4e'
+
+
+def verify_stage_artifact_bindings(recursive, included):
+    source_hashes = {record['path']: record['source_sha256'] for record in included}
+    stage = 'parent-j-stage-localization/run-v1'
+    launch = json.loads((recursive / stage / 'launch-result.json').read_text())
+    omitted_logs = {'native.log', 'stdout.txt', 'stderr.txt'}
+    assert all('recursive-compound-2026-10-15/' + stage + '/' + name not in source_hashes
+               for name in omitted_logs)
+    bindings = {stage + '/' + name: digest for name, digest in launch['artifact_hashes'].items()
+                if name not in omitted_logs}
+    for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator'):
+        review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
+        bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
+    copper = 'boundary/copper-phosphate-transport'
+    decision = json.loads((recursive / copper / 'DECISION.json').read_text())
+    for name, key in (('evidence.json', 'assessment_sha256'), ('REPORT.md', 'report_sha256'),
+                      ('acquisition.json', 'acquisition_sha256'), ('INDEPENDENT_REVIEW.md', 'independent_review_sha256'),
+                      ('model-observable.md', 'model_sha256'), ('linear-growth.csv', 'table_sha256')):
+        bindings[copper + '/' + name] = decision[key]
+    for name, digest in bindings.items():
+        assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
 
 
 def verify_parent_pilot_source_bindings(included):
@@ -984,6 +1148,18 @@ def verify_parent_pilot_source_bindings(included):
             'J2.npy': 'de18f44800b2fa29fe36b171fedfcefd3d01cf0f38fd55b937616744d890c831',
             'J3.npy': 'a152f67d3cea79974e826aac9fd39ff2b9f33712ce1577fd1759bd5f2d5101ee'}.items():
         assert source_hashes['recursive-compound-2026-10-15/parent-j-repeatability/run-v1/' + name] == digest
+    for name, digest in {
+            'parent-j-error-impact/preparation.json': '8525666d8c02c092d160425a63a5ce84d5d4b9537e2f9d6c36a3c13c8efffd68',
+            'parent-j-error-impact/independent-root-review.json': '2977066eecd1eb167e21d18c93f2feb6785477fb152811faf8daa316c2ce8e79',
+            'parent-j-error-impact/analysis-v1/result.json': '748b359617096b93f9b60aa1ad3be05b9d2aa57244d0cef26067d02929ecac5f',
+            'parent-j-stage-localization/preparation.json': '077b972b1ea43bbf0472a7dcda5e3bbe89f964a583ee6ea2f34282c32b806c73',
+            'parent-j-stage-localization/independent-root-review.json': '1e4e34875a0a160a09569fe002426ee250e7b1a7a7a7b779d548d2ec961cb3f5',
+            'parent-j-stage-localization/run-v1/result.json': '290093ea73cfbc27da90321c9d47fdacd62ea0bc44aad508949906963250aeba',
+            'parent-j-stage-localization/run-v1/launch-result.json': '6c7ce531a0f06fd8e2a4cf643be2f69a68b6a1cfc7356709016d8da3e16b7344',
+            'boundary/copper-phosphate-transport/DECISION.json': '803b1979d22fb1d4fed3a8713fe5df046b7fa335fa2ecce60b2876d41257e8e5',
+            'boundary/hollow-silicalite-followup/ROOT_REVIEW.json': 'c3f9baad1897b1994ca3df288e59a4bb5c4b2cba991d9a6332199aba65eb43f9',
+            'identity/beta-vmo7-discriminator/ROOT_REVIEW.json': '08d497341e0c32dbc7f9aff64662a871d6d611c55f030fec81213aff4fb488ba'}.items():
+        assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
 
 
 if __name__ == '__main__':

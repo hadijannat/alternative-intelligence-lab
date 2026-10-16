@@ -10,7 +10,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import build_archive as archive
 from export_followup import LABS, exclusion, export, strip_signed_urls
-from verify_followup import verify_memory_followup, verify_openmp_renewal, verify_parent_pilot_source_bindings
+from verify_followup import (verify_memory_followup, verify_openmp_renewal,
+                             verify_parent_pilot_source_bindings, verify_stage_artifact_bindings)
 
 
 class PublicationSelection(unittest.TestCase):
@@ -278,7 +279,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup',
                        'boundary/pom-polyoxocation-23', 'boundary/tube-alternative-followup',
                        'boundary/phosphate-transport-lead', 'parent-j-repeatability',
-                       'parent-j-error-impact', 'parent-j-stage-localization', 'boundary/copper-phosphate-transport'):
+                       'parent-j-error-impact', 'parent-j-stage-localization', 'boundary/copper-phosphate-transport',
+                       'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -372,6 +374,19 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('boundary/copper-phosphate-transport/evidence.json', ('decision_boundary', 'integrated_admission'), True),
             ('boundary/copper-phosphate-transport/evidence.json', ('decision_boundary', 'universal_acidic_wall_failure_proven'), True),
             ('boundary/copper-phosphate-transport/evidence.json', ('work_scope', 'heldout_target_validations'), 1),
+            ('boundary/copper-phosphate-transport/DECISION.json', 'aggregate_verified_integrated_complements', 1),
+            ('boundary/copper-phosphate-transport/DECISION.json', 'growth_regression_identifies_target_transport', True),
+            ('boundary/hollow-silicalite-followup/evidence.json', ('target_parameters', 'active_retention_fraction'), 0.89),
+            ('boundary/hollow-silicalite-followup/ROOT_REVIEW.json', 'new_candidate_roles', 1),
+            ('boundary/hollow-silicalite-followup/ROOT_REVIEW.json', 'heldout_target_validation', True),
+            ('identity/beta-vmo7-discriminator/evidence.json', ('target_parameters', 'aqueous_target_fraction'), 0.95),
+            ('identity/beta-vmo7-discriminator/evidence.json', ('unresolved_source_conflicts', 'NaCl', 'adopted_value'), 0.5),
+            ('identity/beta-vmo7-discriminator/ROOT_REVIEW.json', 'physical_target_tested', True),
+            ('parent-j-error-impact/analysis-v1/result.json', 'parent_SCF_readiness', True),
+            ('parent-j-error-impact/analysis-v1/result.json', 'original_nonpasses', 0),
+            ('parent-j-error-impact/analysis-v1/result.json', 'operators_executed', 1),
+            ('parent-j-stage-localization/run-v1/call-C.json', 'ordinary_J_P0', True),
+            ('parent-j-stage-localization/saved-vector-sensitivity.json', 'scope', 'Certified condition number'),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'heldout_validation'), True),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'admission'), True),
             ('boundary/acidic-nanofiltration/evidence.json',
@@ -507,7 +522,12 @@ class OpenMPRenewalVerification(unittest.TestCase):
         verify_parent_pilot_source_bindings(records)
         for suffix in ('parent-saved-j-pilot/preparation.json', 'parent-saved-j-pilot/independent-root-review.json',
                        'history/f5c945a-incomplete/run.py', 'history/f5c945a-incomplete/STATUS.json',
-                       'parent-j-repeatability/preparation.json', 'parent-j-repeatability/run-v1/J1.npy'):
+                       'parent-j-repeatability/preparation.json', 'parent-j-repeatability/run-v1/J1.npy',
+                       'parent-j-error-impact/preparation.json', 'parent-j-error-impact/analysis-v1/result.json',
+                       'parent-j-stage-localization/preparation.json', 'parent-j-stage-localization/independent-root-review.json',
+                       'parent-j-stage-localization/run-v1/result.json', 'parent-j-stage-localization/run-v1/launch-result.json',
+                       'boundary/copper-phosphate-transport/DECISION.json',
+                       'boundary/hollow-silicalite-followup/ROOT_REVIEW.json', 'identity/beta-vmo7-discriminator/ROOT_REVIEW.json'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']
@@ -543,21 +563,70 @@ class OpenMPRenewalVerification(unittest.TestCase):
                     verify_openmp_renewal(self.recursive, self.case_names)
         stages_path.write_text(original_stages)
 
-    def test_prepared_followups_cannot_gain_review_or_execution_outputs(self):
-        for folder in ('parent-j-error-impact', 'parent-j-stage-localization'):
-            for name in ('independent-root-review.json', 'analysis-v1', 'run-v1'):
-                with self.subTest(folder=folder, name=name):
-                    path = self.recursive / folder / name
-                    if path.suffix:
-                        path.write_text('{"approved": true}')
-                    else:
-                        path.mkdir()
-                    with self.assertRaises(AssertionError):
-                        verify_openmp_renewal(self.recursive, self.case_names)
-                    if path.is_dir():
-                        path.rmdir()
-                    else:
-                        path.unlink()
+    def test_stage_completion_cannot_consistently_promote_worker_and_launcher(self):
+        run = self.recursive / 'parent-j-stage-localization/run-v1'
+        worker_path, launch_path = run / 'result.json', run / 'launch-result.json'
+        worker_original, launch_original = worker_path.read_bytes(), launch_path.read_bytes()
+        for key, value in (('SCFs_launched', 1), ('PCM_builds', 1), ('parent_SCF_readiness', True),
+                           ('physical_admission', True), ('controlled_output_is_ordinary_J_P0', True)):
+            with self.subTest(key=key):
+                worker, launch = json.loads(worker_original), json.loads(launch_original)
+                worker[key] = value
+                launch['worker_result'] = worker
+                worker_path.write_text(json.dumps(worker))
+                launch_path.write_text(json.dumps(launch))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        worker_path.write_bytes(worker_original)
+        launch_path.write_bytes(launch_original)
+
+    def test_stage_control_cannot_erase_ordinary_failure_or_claim_causality(self):
+        run = self.recursive / 'parent-j-stage-localization/run-v1'
+        paths = [run / name for name in ('comparisons.json', 'result.json', 'launch-result.json')]
+        originals = [path.read_bytes() for path in paths]
+        for promote in ('ordinary_pass', 'stage_causality_proven', 'controlled_output_is_ordinary_J_P0'):
+            with self.subTest(promote=promote):
+                comparisons, worker, launch = map(json.loads, originals)
+                if promote == 'ordinary_pass':
+                    comparisons['J_comparisons']['J_B_minus_J_A']['pass'] = True
+                else:
+                    comparisons[promote] = True
+                worker['comparisons'] = comparisons
+                launch['worker_result'] = worker
+                for path, record in zip(paths, (comparisons, worker, launch)):
+                    path.write_text(json.dumps(record))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, original in zip(paths, originals):
+            path.write_bytes(original)
+
+    def test_stage_and_source_artifacts_bind_original_manifest_bytes(self):
+        manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
+        records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
+        verify_stage_artifact_bindings(self.recursive, records)
+        for suffix in ('parent-j-stage-localization/run-v1/J_A.npy',
+                       'parent-j-stage-localization/run-v1/supervisor.json',
+                       'boundary/copper-phosphate-transport/evidence.json',
+                       'boundary/hollow-silicalite-followup/evidence.json',
+                       'identity/beta-vmo7-discriminator/elemental-counterexample.md'):
+            with self.subTest(suffix=suffix):
+                record = next(record for record in records if record['path'].endswith(suffix))
+                original = record['source_sha256']
+                record['source_sha256'] = '0' * 64
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                record['source_sha256'] = original
+
+    def test_formal_counterexample_limits_cannot_be_removed(self):
+        base = self.recursive / 'identity/beta-vmo7-discriminator'
+        counterexample = base / 'elemental-counterexample.md'
+        counterexample.write_text('The metal ratio proves target retention.\n')
+        review_path = base / 'ROOT_REVIEW.json'
+        review = json.loads(review_path.read_text())
+        review['artifact_sha256']['elemental-counterexample.md'] = hashlib.sha256(counterexample.read_bytes()).hexdigest()
+        review_path.write_text(json.dumps(review))
+        with self.assertRaises(AssertionError):
+            verify_openmp_renewal(self.recursive, self.case_names)
 
     def test_consistently_promoted_first_j_worker_is_rejected(self):
         run = self.recursive / 'parent-openmp-first-j-v2/run-v1'
