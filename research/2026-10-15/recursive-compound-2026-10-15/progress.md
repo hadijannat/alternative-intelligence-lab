@@ -1,5 +1,13 @@
 # Progress checkpoint
 
+## Current publication: failed metric setup, unrun v2 and acquired retention data
+
+The user requests committing the current changes and pushing main, following published baseline `95c7b86b943bbef9ab2ce7faa5dff3a8cb5faccf`. This section supersedes the publication-state statements in historical sections below. The full scientific goal remains active and unmet, with 24 assessed roles and zero verified integrated complements.
+
+Metric diagnostic v1 terminated with exit1 after 1.5096472079167143 seconds at `Molecule state changed`, before metric creation. Its attempt, approval and failure remain intact. Separate v2 preparation handles ECP metadata initialization and basis-storage ordering while requiring the exact prior parent/auxiliary fingerprints. Nine qualification tests pass; `qualification-failed-v1.json` retains the initial failed qualification. V2 remains unrun and requires independent prelaunch review. Publication introduces no new native metric, J, SCF or PCM run and no scientific admission.
+
+The aqueous POM nanofiltration dossier acquired the primary XML and a valid supplementary ZIP containing a 21-page PDF after a first timed-out partial ZIP. Both downloads remain preserved. The retrospective analysis extracts 15 main-table and 13 supplementary rows, with four mathematical self-checks and three statistical assertions. Conditional 1/5mM ratio incompatibilities, S8 flux SD disagreement, censoring and missing conditions remain explicit. No raw instrument data, target fit or held-out validation is claimed. Source preparation receipt: workspace `.omo/evidence/publication-metric-checkpoint/source.md`; the root publication receipt will record commit/push verification separately.
+
 ## Current scientific continuation: stage localization and molecular identity
 
 Previous goal turn was progress: publication89b55662c11374ea99f75f1214ce99f1883a1d12 and exact-commit CI38848077038 completed. Fresh inspection confirmed that state before continuing. The full integrated living/intelligent-system objective remains active and unmet.

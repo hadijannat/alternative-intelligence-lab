@@ -1,5 +1,11 @@
 # Recursive search around nominal Mo34WV
 
+## Current publication scope
+
+Publish the changes following `95c7b86b943bbef9ab2ce7faa5dff3a8cb5faccf` while retaining all failed attempts and source discrepancies. The metric diagnostic v1 failed its metadata fingerprint before metric construction. V2 is a separate, unrun preparation with nine passing qualification tests and its initial failed qualification retained. Publication does not authorize or substitute for its independent launch review.
+
+The nanofiltration dossier contains 15 main-table and 13 supplementary observations, four mathematical self-checks and three statistical assertions. Conditional rejection/composition discrepancies and the unreproduced S8 flux SD remain unresolved; the XML, supplement and failed partial download are retained. These are retrospective polymer-membrane comparators, with no raw instrument data, target fit or held-out target validation. Aggregate: 24 assessed roles, zero verified integrated complements, all required integrated functions open. After publication, scientific continuation requires separate review of v2 and target-specific identity/competence observations before a complement can be admitted.
+
 ## Objective and scope
 
 Investigate `[MoVI34WVI VVO112(H2O)16]9-` and recursively test complementary compounds for the missing functions of a living, intelligent noncarbon system. Keep the full objective open until the same maintained system demonstrates the required functions. A charge-balanced formula, component demonstration, numerical pass, or compatible-looking mixture does not complete this goal.

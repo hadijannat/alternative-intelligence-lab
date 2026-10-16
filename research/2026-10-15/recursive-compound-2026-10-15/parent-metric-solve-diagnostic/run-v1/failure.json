@@ -1,0 +1,4 @@
+{
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-metric-solve-diagnostic/run.py\", line 156, in <module>\n    try: worker()\n         ^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-metric-solve-diagnostic/run.py\", line 102, in worker\n    r.molecule_state(mol, read(SOURCE/'molecule-state.json'))\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-j-repeatability/run.py\", line 115, in molecule_state\n    require(expected is None or state==expected,'Molecule state changed')\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-first-j-v2/run.py\", line 33, in require\n    if not value:raise ValueError(message)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Molecule state changed\n",
+  "physical_admission": false
+}

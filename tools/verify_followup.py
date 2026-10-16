@@ -1009,6 +1009,73 @@ def verify_stage_transport_followup(recursive):
                       ('model-observable.md', 'model_sha256'), ('linear-growth.csv', 'table_sha256')):
         assert hashlib.sha256((copper / name).read_bytes()).hexdigest() == decision[key]
     verify_source_constraints(recursive)
+    verify_metric_checkpoint(recursive)
+
+
+def verify_metric_checkpoint(recursive):
+    failed = recursive / 'parent-metric-solve-diagnostic/run-v1'
+    launch = json.loads((failed / 'launch-result.json').read_text())
+    receipt = json.loads((failed / 'supervisor.json').read_text())
+    assert launch['completed'] is False and launch['physical_admission'] is False
+    assert launch['receipt'] == receipt and receipt['returncode'] == 1
+    assert receipt['termination_reason'] is receipt['monitor_error'] is None
+    failure = json.loads((failed / 'failure.json').read_text())
+    assert failure['physical_admission'] is False
+    assert failure['exception'].rstrip().endswith('ValueError: Molecule state changed')
+    for name in ('result.json', 'original_metric.npy', 'SCF-result.json'):
+        assert not (failed / name).exists()
+    prepared = recursive / 'parent-metric-solve-diagnostic-v2'
+    preparation = json.loads((prepared / 'preparation.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert preparation['J_calls'] == preparation['SCFs'] == preparation['PCM_builds'] == 0
+    assert preparation['physical_admission'] is False
+    assert not (prepared / 'independent-root-review.json').exists()
+    assert not (prepared / 'run-v1').exists()
+    for name, passed in (('qualification.json', True), ('qualification-failed-v1.json', False)):
+        qualification = json.loads((prepared / name).read_text())
+        assert qualification['passed'] is passed and qualification['tests_run'] == 9
+        assert qualification['native_parent_integrals'] == qualification['J_calls'] == qualification['SCFs'] == 0
+        for case in qualification['cases']:
+            assert case['estimate']['certified_bound'] is False
+            assert case['errors']['certified_error_bound'] is False
+    probe = json.loads((prepared / 'metadata-probe.json').read_text())
+    assert probe['exact_prior_match'] is probe['aux_exact_prior_match'] is True
+    assert probe['native_integral_calls'] == probe['J_calls'] == 0 and probe['PCM_unbuilt'] is True
+    assert probe['after_setup_state'] == probe['prior_state']
+    assert probe['changed_env_slots'] == [
+        {'index': 18, 'before': 0.0, 'after': 1260.0}, {'index': 19, 'before': 0.0, 'after': 144.0}]
+    ordering = json.loads((prepared / 'ordering-probe.json').read_text())['permutations']
+    assert len(ordering) == 6 and all(row['native_integrals'] == 0 for row in ordering)
+    assert [row['order'] for row in ordering if row['parent_match'] or row['aux_match']] == [['O', 'Mo', 'H']]
+    source = recursive / 'boundary/aqueous-pom-nanofiltration-followup'
+    evidence = json.loads((source / 'evidence.json').read_text())
+    results = json.loads((source / 'extracted-results.json').read_text())
+    assert evidence['status'] == 'RETROSPECTIVE_SOURCE_COMPARATOR_NOT_ADMITTED'
+    assert evidence['conditional_incompatible_table3_concentrations_mM'] == [1, 5]
+    assert evidence['fitted_parameters'] == [] and evidence['negative_results_preserved'] is True
+    for key in ('target_compound_tested', 'functional_inheritance_observed',
+                'catalytic_competence_of_target_observed', 'held_out_validation',
+                's8_flux_reported_standard_deviation_reproduced'):
+        assert evidence[key] is False
+    for record in (evidence, results):
+        assert record['new_candidate_roles'] == record['complement_admissions'] == 0
+        assert record['held_out_validation'] is False
+        assert record['source_sha256'] == '7fb77831963fcd4e25a5f62f454cbc8412525628f0e3286fa12f4f984b20f955'
+    assert results['fit_performed'] is False and results['self_checks_passed'] == 4
+    assert len(results['rows']) == evidence['extracted_main_table_rows'] == 15
+    assert all(row['retrospective'] is True and row['target_compound_tested'] is False for row in results['rows'])
+    checks = results['table3_ratio_checks']
+    assert [row['concentration_mM'] for row in checks] == [1, 5, 10, 25, 50]
+    for key in ('joint_exact_reported_ratio', 'joint_ratio_also_rounded_half_unit'):
+        assert [row[key]['compatible_with_closed_envelope'] for row in checks] == [False, False, True, True, True]
+    supplement = results['supplement']
+    assert len(supplement['table_s7_source_rows']) == 10 and len(supplement['table_s8_source_rows']) == 3
+    assert evidence['extracted_supplementary_rows'] == 13 and supplement['statistical_assertions_passed'] == 3
+    assert supplement['table_s8_concentration_mM'] is evidence['s8_feed_concentration'] is None
+    assert supplement['table_s8_flux_sd_reproduced'] is False
+    assert all(row[2:4] == ['> 99', '> 99'] for row in supplement['table_s8_source_rows'])
+    assert supplement['table_s8_stats']['permeate_flux_L_m2_h']['sample_variance_exact'] == '43'
+    assert supplement['table_s8_reported_sd']['permeate_flux_L_m2_h'] == '4'
 
 
 def verify_stage_localization(recursive):
@@ -1119,6 +1186,10 @@ def verify_stage_artifact_bindings(recursive, included):
                for name in omitted_logs)
     bindings = {stage + '/' + name: digest for name, digest in launch['artifact_hashes'].items()
                 if name not in omitted_logs}
+    metric = 'parent-metric-solve-diagnostic/run-v1'
+    failure = json.loads((recursive / metric / 'launch-result.json').read_text())
+    bindings.update({metric + '/' + name: digest for name, digest in failure['artifact_hashes'].items()
+                     if name not in omitted_logs})
     for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator'):
         review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
         bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
@@ -1159,6 +1230,22 @@ def verify_parent_pilot_source_bindings(included):
             'boundary/copper-phosphate-transport/DECISION.json': '803b1979d22fb1d4fed3a8713fe5df046b7fa335fa2ecce60b2876d41257e8e5',
             'boundary/hollow-silicalite-followup/ROOT_REVIEW.json': 'c3f9baad1897b1994ca3df288e59a4bb5c4b2cba991d9a6332199aba65eb43f9',
             'identity/beta-vmo7-discriminator/ROOT_REVIEW.json': '08d497341e0c32dbc7f9aff64662a871d6d611c55f030fec81213aff4fb488ba'}.items():
+        assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
+    for name, digest in {
+            'parent-metric-solve-diagnostic/run.py': 'e4cb38e887346231bb159d99279c1bb4d951ca0e769ea6565d50408849489212',
+            'parent-metric-solve-diagnostic/preparation.json': 'd39a9309180d2406eba32c91be45292eb8e789c68070de4062f900aaf3b6e7a4',
+            'parent-metric-solve-diagnostic/independent-root-review.json': '284b9b707fbcb799efe2d0deb071205ae4cf8e6408ecd6def4c0dfd806d6b9a0',
+            'parent-metric-solve-diagnostic/run-v1/launch-result.json': '6da6d27fb1752be0db3ed6e7ac8ee955d3184146758bc16157069f2779787c5f',
+            'parent-metric-solve-diagnostic-v2/run.py': 'c838f96be1270691bf8a0022d28c9c3a239eb0785850b9d414ffd7df9ad87776',
+            'parent-metric-solve-diagnostic-v2/preparation.json': '876d9901607cbe588636bacffafc8f66e8683df10dc3d27764853054a1c6076b',
+            'parent-metric-solve-diagnostic-v2/qualification.json': 'fccd60bc3b721720a8121c893d914381f581b25222586d056d1148d66e1e54b3',
+            'parent-metric-solve-diagnostic-v2/qualification-failed-v1.json': '95c6e8632e277641e0acb56c6a18734b4d0077570829ca0fc5a82f0a66999009',
+            'parent-metric-solve-diagnostic-v2/metadata-probe.json': 'e1151d1bfb58969ba908337a463b033c31e0ed2cd94a85ce6919b384f813236d',
+            'parent-metric-solve-diagnostic-v2/ordering-probe.json': '00509989dec1e7245edb34ac0e1ad614b6cb61b086d0a8379f6f26b81e324e92',
+            'boundary/aqueous-pom-nanofiltration-followup/evidence.json': 'f0a078125641d6a395a8abc433f114e57ac78959407573c8954ccd28709914f4',
+            'boundary/aqueous-pom-nanofiltration-followup/extracted-results.json': 'd87aff4510136de06830951259de5a322a6ffdc78da5c69ebe6ad36cc749aaf1',
+            'boundary/aqueous-pom-nanofiltration-followup/main-table-results.json': 'f678db15da8fa2246e887a3fd755c99a2fadd9a0f5b3ac611dc84c7604f3d776',
+            'boundary/aqueous-pom-nanofiltration-followup/extract_and_check.py': '15d72134896cb39ea0978ae57f97e237ce12ff51021e961bfc84c4212c3f071d'}.items():
         assert source_hashes['recursive-compound-2026-10-15/' + name] == digest
 
 

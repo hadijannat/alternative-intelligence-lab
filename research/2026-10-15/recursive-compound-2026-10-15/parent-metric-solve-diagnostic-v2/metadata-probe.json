@@ -1,0 +1,125 @@
+{
+  "fresh_state": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          196,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "9d8b8812d53b30bf4c92254d6e2015964b3bb23ecc759c1289db2ceff7361fab"
+      },
+      "_bas": {
+        "shape": [
+          1260,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "6fb8927ff4eb294e9cff59118b22a55cb1d0627955db573c5e9561e3df1d33e5"
+      },
+      "_env": {
+        "shape": [
+          904
+        ],
+        "dtype": "float64",
+        "sha256": "232a2fdcdd9b609c0f5d51f80e774b978b36e8b80e51d3a14461b4f7e54e4277"
+      }
+    },
+    "natm": 196,
+    "nao": 3068,
+    "nelectron": 1568,
+    "charge": -8,
+    "spin": 0,
+    "cart": false
+  },
+  "after_setup_state": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          196,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "9d8b8812d53b30bf4c92254d6e2015964b3bb23ecc759c1289db2ceff7361fab"
+      },
+      "_bas": {
+        "shape": [
+          1260,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "6fb8927ff4eb294e9cff59118b22a55cb1d0627955db573c5e9561e3df1d33e5"
+      },
+      "_env": {
+        "shape": [
+          904
+        ],
+        "dtype": "float64",
+        "sha256": "e115fdfc10ff9a7d1e2a8a44b421d5534094db641e3becb2d7cd4329ef41cb01"
+      }
+    },
+    "natm": 196,
+    "nao": 3068,
+    "nelectron": 1568,
+    "charge": -8,
+    "spin": 0,
+    "cart": false
+  },
+  "prior_state": {
+    "arrays": {
+      "_atm": {
+        "shape": [
+          196,
+          6
+        ],
+        "dtype": "int32",
+        "sha256": "9d8b8812d53b30bf4c92254d6e2015964b3bb23ecc759c1289db2ceff7361fab"
+      },
+      "_bas": {
+        "shape": [
+          1260,
+          8
+        ],
+        "dtype": "int32",
+        "sha256": "6fb8927ff4eb294e9cff59118b22a55cb1d0627955db573c5e9561e3df1d33e5"
+      },
+      "_env": {
+        "shape": [
+          904
+        ],
+        "dtype": "float64",
+        "sha256": "e115fdfc10ff9a7d1e2a8a44b421d5534094db641e3becb2d7cd4329ef41cb01"
+      }
+    },
+    "natm": 196,
+    "nao": 3068,
+    "nelectron": 1568,
+    "charge": -8,
+    "spin": 0,
+    "cart": false
+  },
+  "exact_prior_match": true,
+  "aux_exact_prior_match": true,
+  "changed_env_slots": [
+    {
+      "index": 18,
+      "before": 0.0,
+      "after": 1260.0
+    },
+    {
+      "index": 19,
+      "before": 0.0,
+      "after": 144.0
+    }
+  ],
+  "mocked_integral_calls": [
+    "int1e_kin_sph",
+    "int1e_nuc_sph",
+    "ECPscalar_sph"
+  ],
+  "native_integral_calls": 0,
+  "J_calls": 0,
+  "PCM_unbuilt": true,
+  "ecp_basis_offset": 1260,
+  "ecp_basis_count": 144
+}

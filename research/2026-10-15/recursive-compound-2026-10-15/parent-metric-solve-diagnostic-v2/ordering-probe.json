@@ -1,0 +1,64 @@
+{
+  "permutations": [
+    {
+      "order": [
+        "H",
+        "Mo",
+        "O"
+      ],
+      "parent_match": false,
+      "aux_match": false,
+      "native_integrals": 0
+    },
+    {
+      "order": [
+        "H",
+        "O",
+        "Mo"
+      ],
+      "parent_match": false,
+      "aux_match": false,
+      "native_integrals": 0
+    },
+    {
+      "order": [
+        "Mo",
+        "H",
+        "O"
+      ],
+      "parent_match": false,
+      "aux_match": false,
+      "native_integrals": 0
+    },
+    {
+      "order": [
+        "Mo",
+        "O",
+        "H"
+      ],
+      "parent_match": false,
+      "aux_match": false,
+      "native_integrals": 0
+    },
+    {
+      "order": [
+        "O",
+        "H",
+        "Mo"
+      ],
+      "parent_match": false,
+      "aux_match": false,
+      "native_integrals": 0
+    },
+    {
+      "order": [
+        "O",
+        "Mo",
+        "H"
+      ],
+      "parent_match": true,
+      "aux_match": true,
+      "native_integrals": 0
+    }
+  ]
+}

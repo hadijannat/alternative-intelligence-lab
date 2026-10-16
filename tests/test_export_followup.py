@@ -280,7 +280,9 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/pom-polyoxocation-23', 'boundary/tube-alternative-followup',
                        'boundary/phosphate-transport-lead', 'parent-j-repeatability',
                        'parent-j-error-impact', 'parent-j-stage-localization', 'boundary/copper-phosphate-transport',
-                       'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator'):
+                       'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
+                       'parent-metric-solve-diagnostic', 'parent-metric-solve-diagnostic-v2',
+                       'boundary/aqueous-pom-nanofiltration-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -295,6 +297,24 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('parent-metric-solve-diagnostic/run-v1/launch-result.json', 'completed', True),
+            ('parent-metric-solve-diagnostic-v2/preparation.json', 'physical_admission', True),
+            ('parent-metric-solve-diagnostic-v2/qualification.json', 'native_parent_integrals', 1),
+            ('parent-metric-solve-diagnostic-v2/qualification-failed-v1.json', 'passed', True),
+            ('parent-metric-solve-diagnostic-v2/metadata-probe.json', 'native_integral_calls', 1),
+            ('parent-metric-solve-diagnostic-v2/ordering-probe.json', ('permutations', 0, 'parent_match'), True),
+            ('boundary/aqueous-pom-nanofiltration-followup/evidence.json', 'complement_admissions', 1),
+            ('boundary/aqueous-pom-nanofiltration-followup/evidence.json', 'held_out_validation', True),
+            ('boundary/aqueous-pom-nanofiltration-followup/evidence.json', 'functional_inheritance_observed', True),
+            ('boundary/aqueous-pom-nanofiltration-followup/evidence.json', 'fitted_parameters', [0.99]),
+            ('boundary/aqueous-pom-nanofiltration-followup/extracted-results.json',
+             ('table3_ratio_checks', 0, 'joint_exact_reported_ratio', 'compatible_with_closed_envelope'), True),
+            ('boundary/aqueous-pom-nanofiltration-followup/extracted-results.json',
+             ('supplement', 'table_s8_concentration_mM'), 5),
+            ('boundary/aqueous-pom-nanofiltration-followup/extracted-results.json',
+             ('supplement', 'table_s8_source_rows', 0, 2), '99'),
+            ('boundary/aqueous-pom-nanofiltration-followup/extracted-results.json',
+             ('supplement', 'table_s8_stats', 'permeate_flux_L_m2_h', 'sample_variance_exact'), '16'),
             ('renewal/copI-source/assessment.json', 'admitted_to_assembly', True),
             ('renewal/copI-source/assessment.json', 'retained_founder_organization_fraction', 0.98),
             ('renewal/mo-blue-route/analysis.json', 'experimental_holdout', True),
@@ -527,7 +547,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-j-stage-localization/preparation.json', 'parent-j-stage-localization/independent-root-review.json',
                        'parent-j-stage-localization/run-v1/result.json', 'parent-j-stage-localization/run-v1/launch-result.json',
                        'boundary/copper-phosphate-transport/DECISION.json',
-                       'boundary/hollow-silicalite-followup/ROOT_REVIEW.json', 'identity/beta-vmo7-discriminator/ROOT_REVIEW.json'):
+                       'boundary/hollow-silicalite-followup/ROOT_REVIEW.json', 'identity/beta-vmo7-discriminator/ROOT_REVIEW.json',
+                       'parent-metric-solve-diagnostic/run-v1/launch-result.json',
+                       'parent-metric-solve-diagnostic-v2/run.py',
+                       'parent-metric-solve-diagnostic-v2/preparation.json',
+                       'parent-metric-solve-diagnostic-v2/qualification-failed-v1.json',
+                       'boundary/aqueous-pom-nanofiltration-followup/evidence.json',
+                       'boundary/aqueous-pom-nanofiltration-followup/extracted-results.json'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']
@@ -580,6 +606,22 @@ class OpenMPRenewalVerification(unittest.TestCase):
         worker_path.write_bytes(worker_original)
         launch_path.write_bytes(launch_original)
 
+    def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
+        for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
+                       'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
+                       'parent-metric-solve-diagnostic-v2/independent-root-review.json',
+                       'parent-metric-solve-diagnostic-v2/run-v1/result.json'):
+            with self.subTest(suffix=suffix):
+                path = self.recursive / suffix
+                parent_existed = path.parent.exists()
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('{}')
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+                path.unlink()
+                if not parent_existed:
+                    path.parent.rmdir()
+
     def test_stage_control_cannot_erase_ordinary_failure_or_claim_causality(self):
         run = self.recursive / 'parent-j-stage-localization/run-v1'
         paths = [run / name for name in ('comparisons.json', 'result.json', 'launch-result.json')]
@@ -608,7 +650,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-j-stage-localization/run-v1/supervisor.json',
                        'boundary/copper-phosphate-transport/evidence.json',
                        'boundary/hollow-silicalite-followup/evidence.json',
-                       'identity/beta-vmo7-discriminator/elemental-counterexample.md'):
+                       'identity/beta-vmo7-discriminator/elemental-counterexample.md',
+                       'parent-metric-solve-diagnostic/run-v1/failure.json'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
                 original = record['source_sha256']

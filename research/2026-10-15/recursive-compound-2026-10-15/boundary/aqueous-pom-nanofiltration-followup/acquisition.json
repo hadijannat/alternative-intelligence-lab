@@ -1,0 +1,43 @@
+{
+  "status": "PRIMARY_XML_ACQUIRED_BY_ROOT_AND_ANALYZED_LOCALLY",
+  "doi": "10.1021/acsomega.6c00086",
+  "pmid": "42040480",
+  "pmcid": "PMC13103803",
+  "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13103803/fullTextXML",
+  "xml_path": "raw/article.xml",
+  "xml_bytes": 132275,
+  "xml_sha256": "7fb77831963fcd4e25a5f62f454cbc8412525628f0e3286fa12f4f984b20f955",
+  "licence_as_stated_in_xml": "CC-BY 4.0",
+  "analysis_agent_direct_web_queries": [],
+  "analysis_agent_access": "Read complete local XML body, main tables, equations, figure captions and article metadata; parsed source using xml.etree.ElementTree.",
+  "researcher_queries_as_forwarded_by_root": [
+    "polyoxometalate encapsulated silicalite aqueous leaching membrane acidic transport 2026",
+    "polyoxometalate ceramic nanofiltration retention acid tungsten membrane leaching",
+    "\"6c00086\" supporting information pH",
+    "\"Investigations on the Recovery\" \"pH\" polyoxometalates",
+    "\"10.1021/acsomega.6c00086\" \"pH\" \"membrane\"",
+    "\"17961026\" Zenodo",
+    "\"6c00086\" \"om6c00086_si\"",
+    "\"Investigations on the Recovery of Different\" site:acs.figshare.com",
+    "\"hollow silicalite\" polyoxometalate leaching water retention",
+    "\"polyoxometalate\" \"silicalite\" \"leaching\" aqueous",
+    "\"C9NJ01891C\" pressure electrolyte intrusion nanoboxes",
+    "\"C9NJ01891C\" \"MPa\"",
+    "\"6c00086\" \"Table S6\" pH"
+  ],
+  "researcher_access_summary_as_forwarded_not_independently_replayed": [
+    "PMC captcha", "ACS internal error", "Zenodo inaccessible", "ACS abstract 403", "RSC 403", "Zenodo API 404 unregistered"
+  ],
+  "supplementary_status": "Second root acquisition succeeded; this analyst inspected text-converted S1-S8 and extracted S7/S8. Root independently visually inspected S8.",
+  "supplementary_archive_sha256": "c859da75c6c10fde6fc25be0d3a7526b7ca5aa1141f7d547b81a14be64c6a9f6",
+  "supplementary_archive_bytes": 4178237,
+  "supplementary_pdf": "raw/ao6c00086_si_001.pdf",
+  "supplementary_pdf_bytes": 1917706,
+  "supplementary_pdf_sha256": "2161f703c72a5bcf5412fa2654425adf4f31d6be7efde87f88661a283303aa96",
+  "supplementary_text": "raw/supplement.txt",
+  "supplementary_text_sha256": "e6ae88e4d25f1a2063c73587117d937ee9da388cfbb4d9b3855c358a2e5dcfd6",
+  "failed_supplement_attempt_preserved": "raw/supplementary-response.bin: first download timed out with partial ZIP; not treated as usable supplementary evidence",
+  "data_repository_link_in_primary_xml": "https://doi.org/10.5281/zenodo.17961026",
+  "data_repository_contents_used": false,
+  "limitations": "Query ledger is forwarded provenance. Successful XML availability does not establish availability of raw experimental data. No PDF image review was performed by the analysis agent."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PRIMARY_XML_AND_SUPPLEMENT_ACQUIRED_PARTIAL_ATTEMPT_RETAINED",
+  "doi": "10.1021/acsomega.6c00086",
+  "pmcid": "PMC13103803",
+  "provenance_scope": "Acquisition parameters and timeout are recorded from the root acquisition handoff and existing acquisition.json; archive integrity, file sizes, SHA256 hashes and PDF page count were independently checked during publication preparation. Downloads were not repeated.",
+  "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13103803/fullTextXML",
+  "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13103803/supplementaryFiles",
+  "acquisitions": [
+    {"kind": "primary_xml", "max_time_seconds": 30, "http_status_from_saved_headers": 200, "path": "raw/article.xml"},
+    {"kind": "supplement_attempt_1", "max_time_seconds": 30, "curl_exit_as_reported_by_root": 28, "http_status_from_saved_headers": 200, "path": "raw/supplementary-response.bin", "outcome": "TIMED_OUT_PARTIAL_ZIP_PRESERVED_NOT_USED_AS_SOURCE"},
+    {"kind": "supplement_attempt_2", "max_time_seconds": 60, "curl_exit_as_reported_by_root": 0, "http_status_from_saved_headers": 200, "path": "raw/supplementary-response-v2.zip", "outcome": "COMPLETE_ZIP", "archive_members_verified": 23, "zipfile_testzip_result": null}
+  ],
+  "pdf": {"path": "raw/ao6c00086_si_001.pdf", "pages_verified_with_pdfinfo": 21, "encrypted": false, "javascript": false},
+  "page_image": {"path": "raw/si-page20.png", "scope": "Root reports visual inspection of Table S8 on PDF page20; publication preparer verified file hash only."},
+  "data_repository_link_in_article": "https://doi.org/10.5281/zenodo.17961026",
+  "raw_instrument_data_acquired": false,
+  "held_out_validation": false,
+  "files": [
+    {"path": "raw/article.xml", "bytes": 132275, "sha256": "7fb77831963fcd4e25a5f62f454cbc8412525628f0e3286fa12f4f984b20f955"},
+    {"path": "raw/europepmc.headers", "bytes": 354, "sha256": "03cb2198fef7b8011aa0c10bf9acfb5dc9eaf5fa324e103dc46215853ea0a746"},
+    {"path": "raw/supplementary-response.bin", "bytes": 531571, "sha256": "f447872aab7b986aa7855614e959926412d0e5c25495e7b27e86d59ead5cd623"},
+    {"path": "raw/supplementary.headers", "bytes": 434, "sha256": "d8f94473fde80e0b496e89b86e68f234272ca53d78c61996be1eb82e0f0d185f"},
+    {"path": "raw/supplementary-response-v2.zip", "bytes": 4178237, "sha256": "c859da75c6c10fde6fc25be0d3a7526b7ca5aa1141f7d547b81a14be64c6a9f6"},
+    {"path": "raw/supplementary-v2.headers", "bytes": 434, "sha256": "b3d315d659f130bad53caba0a201d2fbe616d374ba63bf895bba6851b6a292c6"},
+    {"path": "raw/ao6c00086_si_001.pdf", "bytes": 1917706, "sha256": "2161f703c72a5bcf5412fa2654425adf4f31d6be7efde87f88661a283303aa96"},
+    {"path": "raw/supplement.txt", "bytes": 39958, "sha256": "e6ae88e4d25f1a2063c73587117d937ee9da388cfbb4d9b3855c358a2e5dcfd6"},
+    {"path": "raw/si-page20.png", "bytes": 302126, "sha256": "1161f21cd4dea1d15564e98eaa0c5a57499454471bcc7f0d81fb5b721ee5dd16"}
+  ],
+  "limitations": "Published XML and supplementary tables are source evidence, not raw paired ICP-OES instrument records or target observations. Saved headers include transient session cookies; publication handling is governed separately by archive policy. No new scientific runs were made for this record."
+}
