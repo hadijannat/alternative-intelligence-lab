@@ -30,6 +30,8 @@ The [saved-metric replay](research/2026-10-15/recursive-compound-2026-10-15/pare
   <a href="#selected-primary-sources">Sources</a>
 </p>
 
+The newly frozen [serial native RHS prefix diagnostic](research/2026-10-15/recursive-compound-2026-10-15/parent-serial-rhs-diagnostic/PROTOCOL.md) is **PREPARED**, with seven passing mock tests; native execution is **UNRUN** and independent root approval is pending. Its proposed capture stops before solving and does not test the original J criterion. Ordinary-J repeatability remains failed at the unchanged absolute 1e-10/relative-zero threshold, and the reserved holdout remains unused. The [Ir/Ta source reacquisition](research/2026-10-15/recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition/REPORT.md) recovered a byte-identical supplement already assessed in C47-v1 / DL-E247: no new dataset, role or admission. The total remains 24 assessed roles, zero verified integrated complements and all twelve integrated requirements unmet.
+
 ## The results at a glance
 
 | Research track | What the saved record establishes | What remains unresolved |

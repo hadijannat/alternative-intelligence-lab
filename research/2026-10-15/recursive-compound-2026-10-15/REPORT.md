@@ -1,6 +1,16 @@
 # Recursive compound investigation: first integrated assessment
 
-## Current publication checkpoint: explicit-control J repeatability failed
+## Current publication checkpoint: serial RHS preparation and duplicate source recovery
+
+The [serial native RHS prefix diagnostic](parent-serial-rhs-diagnostic/PROTOCOL.md) is **PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW**. Seven mock tests pass; native execution is **UNRUN**, with no root approval or run directory. Its proposed single child serializes only the first native contraction, captures two RHS vectors before any solve, and tests their bitwise equality. No completed J, SCF or PCM build is proposed. Preparation is not launch authorization or evidence of numerical improvement.
+
+The earlier ordinary-J repeatability failure remains 6.702407517877873e-10, with 630 entries above the unchanged absolute 1e-10/relative-zero threshold. The serial prefix proposal does not test that J criterion. The prospective accuracy qualification remains gated off and the reserved holdout unused. No causal explanation or parent SCF readiness is established.
+
+The [Ir/Ta reservoir reacquisition](renewal/ir-ta-reservoir-reacquisition/REPORT.md) recovered the same supplementary DOCX already assessed in C47-v1 / DL-E247, with identical SHA256. It is duplicate source recovery, with no new dataset, candidate role or complement admission. Previously identified finite-reserve and replacement-accounting limits remain.
+
+This is the requested publication checkpoint after `018a374d1b3f28453240b6f1ee18d89e1be96dd0`; export, commit and push are recorded separately. Aggregate remains **24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet**. Historical sections below retain their original states and failures.
+
+## Historical publication checkpoint: explicit-control J repeatability failed
 
 The [explicit BLAS diagnostic](parent-explicit-blas-j/REPORT.md) completed two ordinary positive-P0 J calls and one factorization, with zero SCFs and zero PCM builds. B versus A differs by 6.702407517877873e-10 at maximum, with 630 entries above the unchanged absolute 1e-10/relative-zero limit. Both matrices are finite and exactly symmetric; both comparisons with the historical first J also fail. No sign-reversal test ran. The child completed in 514.0907300410327 seconds with 3,772,645,376 bytes sampled maximum RSS. Independent review verified all 35 output hashes and reproduced the full-matrix failures. Completion is not numerical acceptance, and these results establish neither an exclusive cause nor parent SCF readiness.
 

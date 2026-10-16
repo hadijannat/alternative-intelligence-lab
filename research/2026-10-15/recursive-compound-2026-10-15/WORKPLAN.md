@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication work: retain explicit-control numerical failure
+## Current publication work: prepared serial prefix and duplicate source record
+
+Publish the [serial RHS preparation](parent-serial-rhs-diagnostic/PROTOCOL.md) and [Ir/Ta duplicate-source recovery](renewal/ir-ta-reservoir-reacquisition/REPORT.md) after `018a374d1b3f28453240b6f1ee18d89e1be96dd0`. Record export, commit, push and hosted checks separately. No native or scientific launch is included in this publication task.
+
+Serial preparation has seven passing mock tests and remains PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW, native UNRUN. Any later launch requires independent review and separate root approval of the frozen preparation. The proposed one-child diagnostic allows two first-contraction prefixes and one real factorization, stops before solving, and would compare RHS bytes; it cannot establish the original full-J criterion. Keep that absolute 1e-10/relative-zero threshold and the prior repeatability failure unchanged. The accuracy draft remains gated off and the reserved holdout unused.
+
+The Ir/Ta supplement is byte-identical to the already assessed source. Preserve its acquisition history without adding a role, dataset, new finding or admission. All twelve integrated requirements remain unmet; 24 assessments and zero admissions. Earlier plans below remain historical.
+
+## Historical publication work: retain explicit-control numerical failure
 
 Publish the completed [two-call diagnostic](parent-explicit-blas-j/REPORT.md), its independent review, the [failed qualification prerequisite](explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json), and the [measurement-integrity constraints](identity/measurement-integrity-followup/REPORT.md) after `82d915a3eaa292ebd8b0cdce4ffcfac9654dca44`. Record export, commit, push and hosted verification separately. No new scientific launch is included in this publication task.
 

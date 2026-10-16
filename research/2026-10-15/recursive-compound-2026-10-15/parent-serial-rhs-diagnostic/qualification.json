@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_bitwise_classifier_distinguishes_signed_zero_and_tiny_delta (__main__.Tests.test_bitwise_classifier_distinguishes_signed_zero_and_tiny_delta) ... ok\ntest_capture_stops_without_solve_and_rejects_duplicates (__main__.Tests.test_capture_stops_without_solve_and_rejects_duplicates) ... ok\ntest_gate_requires_binding_and_rejects_tamper (__main__.Tests.test_gate_requires_binding_and_rejects_tamper) ... ok\ntest_native_error_restores_interception_and_threads (__main__.Tests.test_native_error_restores_interception_and_threads) ... ok\ntest_other_sentinel_and_real_error_escape (__main__.Tests.test_other_sentinel_and_real_error_escape) ... ok\ntest_serial_restore_and_pass2_rejection (__main__.Tests.test_serial_restore_and_pass2_rejection) ... ok\ntest_two_prefixes_save_before_classification (__main__.Tests.test_two_prefixes_save_before_classification) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.012s\n\nOK\n",
+  "native_parent_calls": 0,
+  "mock_only": true
+}

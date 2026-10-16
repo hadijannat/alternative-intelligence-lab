@@ -15,6 +15,13 @@ from verify_followup import (verify_memory_followup, verify_openmp_renewal,
 
 
 class PublicationSelection(unittest.TestCase):
+    def test_duplicate_ir_ta_acquisition_excludes_raw_payloads(self):
+        base = Path('recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition')
+        for name in ('raw/article.html', 'raw/article.headers', 'raw/supplement.docx', 'raw/supplement.headers'):
+            self.assertTrue(exclusion(base / name))
+        for name in ('REPORT.md', 'acquisition.json'):
+            self.assertIsNone(exclusion(base / name))
+
     def test_measurement_access_failure_payload_stays_excluded(self):
         base = Path('recursive-compound-2026-10-15/identity/measurement-integrity-followup')
         for name in ('raw/poster-response.body', 'raw/poster.headers'):
@@ -305,7 +312,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-metric-solve-diagnostic', 'parent-metric-solve-diagnostic-v2',
                        'boundary/aqueous-pom-nanofiltration-followup', 'parent-blas-control-audit',
                        'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup',
-                       'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup'):
+                       'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup',
+                       'parent-serial-rhs-diagnostic', 'renewal/ir-ta-reservoir-reacquisition'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -320,6 +328,22 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('parent-serial-rhs-diagnostic/preparation.json', 'status', 'COMPLETED'),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'solves', 1),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'complete_J_calls', 1),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'SCFs', 1),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'operators_executed', 1),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'J_criterion_tested', True),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'held_out_validation', True),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'parent_SCF_readiness', True),
+            ('parent-serial-rhs-diagnostic/preparation.json', 'physical_admission', True),
+            ('parent-serial-rhs-diagnostic/qualification.json', 'native_parent_calls', 1),
+            ('parent-serial-rhs-diagnostic/qualification.json', 'mock_only', False),
+            ('renewal/ir-ta-reservoir-reacquisition/acquisition.json', 'new_raw_dataset', True),
+            ('renewal/ir-ta-reservoir-reacquisition/acquisition.json', 'new_candidate_roles', 1),
+            ('renewal/ir-ta-reservoir-reacquisition/acquisition.json', 'verified_integrated_complement_admissions', 1),
+            ('renewal/ir-ta-reservoir-reacquisition/acquisition.json', 'target_tested', True),
+            ('renewal/ir-ta-reservoir-reacquisition/acquisition.json', ('root_accesses', 3, 'matches_prior_archived_supplement'), False),
             ('parent-metric-solve-diagnostic-v2/run-v1/launch-result.json', 'completed', True),
             ('parent-metric-solve-diagnostic-v2/postmortem/result.json', 'root_cause_established', True),
             ('parent-metric-solve-diagnostic-v2/postmortem/result.json', ('terminal_artifacts_verified', 'original_metric.npy'), '0' * 64),
@@ -626,6 +650,10 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.md',
                        'explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json',
                        'identity/measurement-integrity-followup/ROOT_REVIEW.json',
+                       'parent-serial-rhs-diagnostic/run.py',
+                       'parent-serial-rhs-diagnostic/preparation.json',
+                       'parent-serial-rhs-diagnostic/qualification.json',
+                       'renewal/ir-ta-reservoir-reacquisition/acquisition.json',
                        'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
@@ -681,6 +709,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
+                       'parent-serial-rhs-diagnostic/independent-root-review.json',
+                       'parent-serial-rhs-diagnostic/run-v1/result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
                        'explicit-blas-accuracy-qualification/run.py',
                        'explicit-blas-accuracy-qualification/run-v1/result.json',
@@ -748,6 +778,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for name in ('raw/poster-response.body', 'raw/poster.headers'):
             with self.subTest(excluded_payload=name):
                 records.append({'path': 'recursive-compound-2026-10-15/identity/measurement-integrity-followup/' + name,
+                                'source_sha256': '0' * 64})
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                records.pop()
+        for name in ('raw/article.html', 'raw/supplement.docx'):
+            with self.subTest(excluded_duplicate_payload=name):
+                records.append({'path': 'recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition/' + name,
                                 'source_sha256': '0' * 64})
                 with self.assertRaises(AssertionError):
                     verify_stage_artifact_bindings(self.recursive, records)

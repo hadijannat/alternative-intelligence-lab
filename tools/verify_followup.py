@@ -1053,6 +1053,7 @@ def verify_metric_checkpoint(recursive):
     assert postmortem['root_cause_established'] is postmortem['physical_admission'] is False
     assert postmortem['factorizations'] == postmortem['solves'] == postmortem['J_calls'] == postmortem['SCFs'] == 0
     verify_blas_checkpoint(recursive)
+    verify_serial_rhs_preparation(recursive)
     for name, passed in (('qualification.json', True), ('qualification-failed-v1.json', False)):
         qualification = json.loads((prepared / name).read_text())
         assert qualification['passed'] is passed and qualification['tests_run'] == 9
@@ -1370,6 +1371,38 @@ def verify_explicit_blas_result(recursive):
     assert download['payload_sha256'] == 'e6b1fc626ab1d3c1d3df093c2dcdd61fac27477c8c1debe4bd4fe82c8646a653'
 
 
+def verify_serial_rhs_preparation(recursive):
+    base = recursive / 'parent-serial-rhs-diagnostic'
+    preparation = json.loads((base / 'preparation.json').read_text())
+    qualification = json.loads((base / 'qualification.json').read_text())
+    assert preparation['status'] == 'PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW'
+    assert sum(len(group) for group in preparation['pins'].values()) == 474
+    assert preparation['maximum_children'] == preparation['maximum_factorizations'] == 1
+    assert preparation['maximum_prefix_attempts'] == 2
+    assert preparation['wall_cap_seconds'] == 1800 and preparation['sampled_RSS_guard_bytes'] == 10737418240
+    for key in ('solves', 'complete_J_calls', 'SCFs', 'PCM_builds', 'operators_executed'):
+        assert preparation[key] == 0
+    for key in ('J_criterion_tested', 'physical_admission', 'parent_SCF_readiness', 'held_out_validation'):
+        assert preparation[key] is False
+    assert preparation['criterion'] == 'finite float64 (19612,1), bitwise A equals B'
+    assert preparation['J_absolute_tolerance'] == 1e-10 and preparation['J_relative_tolerance'] == 0
+    assert qualification['passed'] is qualification['mock_only'] is True
+    assert qualification['tests_run'] == 7
+    assert qualification['failures'] == qualification['errors'] == qualification['native_parent_calls'] == 0
+    assert not (base / 'independent-root-review.json').exists()
+    assert not list(base.glob('run-v*'))
+    acquisition = json.loads((recursive / 'renewal/ir-ta-reservoir-reacquisition/acquisition.json').read_text())
+    assert acquisition['status'] == 'DUPLICATE_PRIMARY_SUPPLEMENT_REACQUIRED_NO_NEW_ROLE'
+    assert acquisition['doi'] == '10.1007/s40820-025-01680-w'
+    assert acquisition['new_candidate_roles'] == acquisition['verified_integrated_complement_admissions'] == acquisition['calculations_executed'] == 0
+    for key in ('new_raw_dataset', 'target_tested', 'held_out_validation'):
+        assert acquisition[key] is False
+    supplement, = [row for row in acquisition['root_accesses'] if row.get('file') == 'raw/supplement.docx']
+    assert supplement['exit_code'] == 0 and supplement['http_status'] == 200
+    assert supplement['bytes'] == 44480742 and supplement['matches_prior_archived_supplement'] is True
+    assert supplement['sha256'] == 'a21b86081a77cd9516e03f45af3cc42a820576ea3078da64dd50ed2b0d73bd1a'
+
+
 def verify_stage_artifact_bindings(recursive, included):
     source_hashes = {record['path']: record['source_sha256'] for record in included}
     stage = 'parent-j-stage-localization/run-v1'
@@ -1413,6 +1446,8 @@ def verify_stage_artifact_bindings(recursive, included):
         review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
         bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
     assert not any(path.startswith('recursive-compound-2026-10-15/identity/measurement-integrity-followup/raw/')
+                   for path in source_hashes)
+    assert not any(path.startswith('recursive-compound-2026-10-15/renewal/ir-ta-reservoir-reacquisition/raw/')
                    for path in source_hashes)
     copper = 'boundary/copper-phosphate-transport'
     decision = json.loads((recursive / copper / 'DECISION.json').read_text())
@@ -1494,6 +1529,12 @@ def verify_parent_pilot_source_bindings(included):
             'explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json': '0877a1aecfd133a36f0c42e47e5edd8166c736a65a9f60075862c77ff83a4a9e',
             'explicit-blas-accuracy-qualification/preparation-audit.json': '34ea0cc066e891a105fde735e000e36b22ead8e8a9419526b827af35ae0726db',
             'identity/measurement-integrity-followup/ROOT_REVIEW.json': 'eb212ce924aa6ddfe932406ad84b82d468cce24c46ef693636195308249038c2',
+            'parent-serial-rhs-diagnostic/run.py': '4fd5d46ef41585deedcace63feef663f303b555ca94fc8fbf124af01ea24585c',
+            'parent-serial-rhs-diagnostic/test_run.py': '214f373ea253b122ba8aef2c169ad6b7cd031e7e0d72cd1ff47d060c60f997d0',
+            'parent-serial-rhs-diagnostic/PROTOCOL.md': '1f3e925d89c9426a9a820f4eb3570fa6ddf5729c2f985b31dd28ae66b74af17c',
+            'parent-serial-rhs-diagnostic/preparation.json': '0da90217f8074035deb9902173fb9bd3aa53d7679be4e56c0ec4736eded2f92b',
+            'parent-serial-rhs-diagnostic/qualification.json': 'afa05513c55b70714e415a50603541f9c2d80c98c18bfc9261bc67be67ae1e47',
+            'renewal/ir-ta-reservoir-reacquisition/acquisition.json': '7aeacbe90a8a5a6088851e03ebe4c115c5dd5a12b7c8c4d7a76fa65c704979c2',
             'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
     }.items():
         assert source_hashes['recursive-compound-2026-10-15/' + name] == digest

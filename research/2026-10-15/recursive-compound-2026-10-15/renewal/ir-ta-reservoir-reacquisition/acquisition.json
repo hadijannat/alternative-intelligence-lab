@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-16",
+  "status": "DUPLICATE_PRIMARY_SUPPLEMENT_REACQUIRED_NO_NEW_ROLE",
+  "doi": "10.1007/s40820-025-01680-w",
+  "prior_candidate": "discovery-loop/candidate_registry.json:C47-v1",
+  "prior_assessment": "discovery-loop/sources/iridium-tantalum-si-range-recovery/report.md:DL-E247",
+  "root_accesses": [
+    {"method": "web reader", "url": "https://link.springer.com/article/10.1007/s40820-025-01680-w", "result": "primary HTML parsed"},
+    {"method": "web reader supplement link", "result": "unsupported application/octet-stream; no parsed DOCX"},
+    {"method": "curl GET", "url": "https://link.springer.com/article/10.1007/s40820-025-01680-w", "exit_code": 0, "http_status": 200, "bytes": 503132, "file": "raw/article.html", "sha256": "69391fdb94ea7cdd5f7adc4ae295d799c01dbc1485ab554310e6b9ad2330a498"},
+    {"method": "curl GET", "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs40820-025-01680-w/MediaObjects/40820_2025_1680_MOESM1_ESM.docx", "exit_code": 0, "http_status": 200, "bytes": 44480742, "file": "raw/supplement.docx", "sha256": "a21b86081a77cd9516e03f45af3cc42a820576ea3078da64dd50ed2b0d73bd1a", "matches_prior_archived_supplement": true}
+  ],
+  "header_sha256": {"raw/article.headers": "deff0c517ab3b0a10916e99c95c55c3ae5826c8e05f2586a1875e0a95e1cd7f1", "raw/supplement.headers": "8156835cd2428a3e315f8dabb880590034b288520fe64489e729282edbeb2582"},
+  "current_docx_inspection": "ZIP catalogue48 entries; document XML selected captions/table labels; no visual or complete-content review this turn",
+  "new_raw_dataset": false,
+  "new_candidate_roles": 0,
+  "verified_integrated_complement_admissions": 0,
+  "target_tested": false,
+  "held_out_validation": false,
+  "calculations_executed": 0
+}

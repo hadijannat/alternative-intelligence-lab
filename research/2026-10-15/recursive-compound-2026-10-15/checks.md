@@ -2,7 +2,18 @@
 
 All paths below are relative to this directory. Numerical PASS means only the stated check passed. No required target function is fulfilled by a source-table or software check.
 
-## Current checkpoint: explicit-control failure retained
+## Current checkpoint: serial preparation only; duplicate source retained
+
+Aggregate remains 24 assessed roles, zero verified integrated complements and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. The following checks supersede preparation-state wording only; every previous numerical failure remains.
+
+| Check | Verdict | Evidence | Observable and limit |
+|---|---|---|---|
+| Serial native RHS prefix | PREPARED; NATIVE UNRUN; APPROVAL PENDING | parent-serial-rhs-diagnostic/preparation.json; qualification.json; PROTOCOL.md | Seven mock tests pass; no root approval or run directory; proposed capture before solve, no completed J/SCF/PCM |
+| Original J acceptance | STILL FAILED; THRESHOLD UNCHANGED | parent-explicit-blas-j/run-v1/result.json; parent-serial-rhs-diagnostic/PROTOCOL.md | 6.702407517877873e-10 maximum and 630 entries above absolute 1e-10/relative-zero; serial RHS proposal does not test J |
+| Prospective qualification and holdout | GATED OFF; HOLDOUT UNUSED | explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json | No new qualification execution or held-out validation |
+| Ir/Ta supplement recovery | DUPLICATE; ZERO NEW DATASETS/ROLES/ADMISSIONS | renewal/ir-ta-reservoir-reacquisition/acquisition.json; REPORT.md | 44,480,742 bytes and SHA256 a21b86081a77cd9516e03f45af3cc42a820576ea3078da64dd50ed2b0d73bd1a match the prior C47-v1 / DL-E247 archive |
+
+## Historical checkpoint: explicit-control failure retained
 
 The aggregate is 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. This checkpoint supersedes the pending statuses and earlier counts in the historical table below.
 

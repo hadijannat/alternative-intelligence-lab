@@ -1,6 +1,14 @@
 # Progress checkpoint
 
-## Current publication: completed explicit-control diagnostic with numerical failure
+## Current publication: prepared serial RHS diagnostic, native unrun
+
+The requested checkpoint after `018a374d1b3f28453240b6f1ee18d89e1be96dd0` adds the frozen serial native RHS prefix preparation and a duplicate Ir/Ta source recovery. Seven mock tests pass. The serial diagnostic remains PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW, with native execution UNRUN and no root approval or run directory. The proposed first-contraction capture stops before solving and supplies no completed J, SCF or PCM result.
+
+The ordinary-J repeatability failure remains 6.702407517877873e-10 at 630 entries above the unchanged absolute 1e-10/relative-zero criterion. The new proposal does not test that J criterion, establish its cause or qualify parent SCF. The accuracy qualification remains gated off and the reserved holdout unused.
+
+The recovered Ir/Ta supplementary DOCX exactly matches the prior C47-v1 / DL-E247 source. No new dataset, role, novelty claim or complement admission follows. The total remains 24 assessed roles and zero verified integrated complements, with all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. Publication actions are recorded separately; this checkpoint launches no science. Earlier checkpoint text and negative outcomes remain below as history.
+
+## Historical publication: completed explicit-control diagnostic with numerical failure
 
 The user requests committing and pushing the continuation after `82d915a3eaa292ebd8b0cdce4ffcfac9654dca44`. The single approved explicit BLAS diagnostic is complete: two ordinary positive-P0 J calls, one factorization, zero SCFs and zero PCM builds. Repeatability failed at maximum 6.702407517877873e-10, with 630 entries above the unchanged 1e-10 absolute/zero relative limit. Both historical comparisons fail; finite and exactly symmetric matrices do not rescue the failed criterion. No sign-reversal test occurred. Independent result review is CLEAR for recording this failure and reproduced all three full-matrix comparisons.
 
