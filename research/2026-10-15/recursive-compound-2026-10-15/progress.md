@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication: frozen response preparation after d0af744
+## Current continuation: startup failure preserved, corrected component passed
+
+Full target remains unchanged: nominal Mo34WV plus complements must jointly demonstrate all twelve functions in one characterized system. None is closed; 24 assessed roles and zero verified integrated complements. The preceding publication turn was progress: commit 0ec2b4f and exact-commit hosted success are complete and freshly verified. The user now requests committing the current continuation and pushing main. Publication evidence is recorded separately; no scientific launch is part of this request.
+
+One independently reviewed v1 child was launched and is terminal, PID 25996 absent. It failed at the initial pin check before runtime recording or molecule construction, with exit 1, zero checks and a valid empty arrays archive. Root and independent reviewer reproduced the cause using imports only: unittest.mock adds libssl, _ssl and _asyncio after the 177-entry preparation inventory, producing 180 entries without changing existing hashes. See cpcm-response-probe/FAILURE_REPORT.md and failure-analysis.json; the original child did not save its actual map. Preserve the original protocol, code, preparation and failed run. No v1 retry.
+
+The separate v2 retained scientific settings, normalized imports and passed fresh-process 180/180 pin checks. Independent review and root approval bound preparation 13b6c296ce45f312046c8b6b3ba7835f511c76884eb42e39830156f21e1b6476. Its single child completed successfully, PID 26857 absent: 60 checks/93 arrays, 7.009772667 seconds, 281,526,272 bytes sampled maximum across 33 samples. Root and independent saved-array reconstructions agree: stock maximum 3.1225e-17, FD maximum 1.3874e-12, unchanged tolerances. See cpcm-response-probe-v2/REPORT.md, analysis.json and TERMINAL_REVIEW.json. No SCF/holdout or target function was tested; cache preservation remains harness-observed and input flag/identity coverage limited.
+
+Next scientific action: implement and freeze full-fock-response-next-step/PLAN.md as a separate small integration test, retaining fixed grids and occupation-preserving rotations from the saved retrospective orbitals. It remains unimplemented/unapproved; no further native child is authorized. Parent full-J accuracy, all gradient/stability integration and exact-target chemistry remain unresolved. The new journal/deposition source pass found only duplicates; original W occupancy/CIF, V incorporation and actual target characterization remain missing. The user confirmed simulation and literature only, which constrains future work. The preceding scientific turn made concrete progress through a preserved preparation failure, its demonstrated correction and a qualified necessary component; the full objective remains active.
+
+## Historical publication: frozen response preparation after d0af744
 
 The user requests committing and pushing the continuation after `d0af744f6eb21b534fe95785e1491e514a236e99`. The checkpoint adds the derivative/stability source audit, alternate Moussawi access result and frozen standalone response preparation. Export, commit, push and exact-commit hosted verification remain separate publication steps. The full integrated goal remains unmet: 24 assessed roles, zero verified complements and all twelve requirements unresolved.
 

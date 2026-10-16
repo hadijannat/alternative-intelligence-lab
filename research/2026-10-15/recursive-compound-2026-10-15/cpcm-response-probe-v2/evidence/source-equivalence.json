@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "response.py_byte_identical": true,
+    "test_response.py_byte_identical": true,
+    "worker_AST_identical_except_mock_import_move": true,
+    "approval_AST_identical": true,
+    "prepare_AST_identical": true,
+    "launch_AST_identical": true,
+    "pins_AST_identical": true,
+    "all_v1_frozen_pins_unchanged": true,
+    "all_v2_frozen_pins_unchanged": true,
+    "no_v2_approval": true,
+    "no_v2_run": true,
+    "exactly_three_import_libraries_added": true,
+    "no_external_pin_changes_or_removals": true,
+    "v1_failure_retained": true
+  },
+  "all_pass": true,
+  "preparation_sha256": "13b6c296ce45f312046c8b6b3ba7835f511c76884eb42e39830156f21e1b6476",
+  "v1_preparation_sha256": "d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd",
+  "v1_result_sha256": "1b4386dee5dbffeef9cefc897b5998674e60432475b8030ca79457e8b8681692",
+  "v1_supervisor_sha256": "c71bfeaaa7c39c1fe193bc4aef6451ee418ee5176cbe39f24081be6438eecdc5",
+  "added_external_pins": {
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/libssl.3.dylib": "186ccda1086e78d7098a2182fd6f9c6aafe67f86d5e5ee12b9563aae8ede59e3",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/lib-dynload/_ssl.cpython-312-darwin.so": "732e6f3f91a695143397c3660cd548dc4cfb9c8b25e8b736d7af5bc8af659125",
+    "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/lib-dynload/_asyncio.cpython-312-darwin.so": "8865f1e1cfd74fcfef471ae1363e256e21214325c0c39a2784b191167ecc502e"
+  },
+  "changed_external_pins": [],
+  "missing_external_pins": [],
+  "files": {
+    "response.py": {
+      "v1_sha256": "c9571010d6abad93cb3f2f5d48af23776dfea71d4f9e3c57ff3b439c9f12a184",
+      "v2_sha256": "c9571010d6abad93cb3f2f5d48af23776dfea71d4f9e3c57ff3b439c9f12a184"
+    },
+    "test_response.py": {
+      "v1_sha256": "692fceceedf7fb1c8c668574a5b1beb0fcbad85e2d074064610cfc8db7b9e6a5",
+      "v2_sha256": "692fceceedf7fb1c8c668574a5b1beb0fcbad85e2d074064610cfc8db7b9e6a5"
+    },
+    "run.py": {
+      "v1_sha256": "70804ef14cb00252eb6327c613949d52b4ab25a767fd3184182962cffe821a94",
+      "v2_sha256": "c67fd3614d2465d46c0196b277e8becaaf55e5a5637c2a05ba8df560daa4e429"
+    },
+    "PROTOCOL.md": {
+      "v1_sha256": "ee8564193b038b76437139ce463a99e12aa7ebfdf626805c0d411d7ebddf67bd",
+      "v2_sha256": "3a7e1634d94c11ba1d84a5a36249ea6cc13e34b13604563a7aca2f9b0645944c"
+    }
+  }
+}

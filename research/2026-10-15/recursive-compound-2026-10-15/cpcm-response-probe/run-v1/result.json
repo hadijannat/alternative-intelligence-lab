@@ -1,0 +1,8 @@
+{
+  "status": "ERROR",
+  "checks": [],
+  "SCFs_launched": 0,
+  "physical_admission": false,
+  "parent_run": false,
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/cpcm-response-probe/run.py\", line 136, in worker\n    raise ValueError('Missing or changed launch pins')\nValueError: Missing or changed launch pins\n"
+}

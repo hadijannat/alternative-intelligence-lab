@@ -1,0 +1,25 @@
+{
+  "status": "APPROVED_FOR_ONE_BOUNDED_NATIVE_CHILD",
+  "date": "2026-10-16",
+  "preparation_sha256": "13b6c296ce45f312046c8b6b3ba7835f511c76884eb42e39830156f21e1b6476",
+  "independent_review": ".omo/evidence/pcm-response-v2-prelaunch-review.md",
+  "independent_review_sha256": "ea10dfeb35c1125e74962c3d356cc66c6d7c15ed6fb1c90c08c88e6dd6fb2567",
+  "root_fresh_process_import_check": "PASS_IMPORT_ONLY_PINS; prepared180/current180; added/missing/changed empty",
+  "wall_cap_seconds": 120,
+  "sampled_rss_guard_bytes": 2147483648,
+  "requested_threads": 1,
+  "allowed_native_children": 1,
+  "SCFs_allowed": 0,
+  "parent_molecule_allowed": false,
+  "held_out_inputs_allowed": false,
+  "retry_allowed": false,
+  "physical_admission": false,
+  "prior_v1_disposition": "Terminal startup ERROR retained unchanged; no v1 restart. No molecule or numerical check was reached.",
+  "root_decision": "Approve one separately versioned child after demonstrated import-order correction and independent fresh-process review. Operator, fixture, numerical criteria and resource limits remain unchanged.",
+  "limitations": [
+    "Sampled RSS and termination grace are not hard peak/exact-time guarantees.",
+    "Input array_equal checks do not directly measure byte/flag/identity preservation.",
+    "Interrupted non-atomic writes may leave incomplete artifacts; require clean exit and independent output verification.",
+    "No approval for parent relaxation, nuclear derivatives, full orbital stability or exact-target chemistry."
+  ]
+}

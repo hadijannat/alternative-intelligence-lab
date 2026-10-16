@@ -2,7 +2,22 @@
 
 All paths below are relative to this directory. Numerical PASS means only the stated check passed. No required target function is fulfilled by a source-table or software check.
 
-## Current publication checkpoint: derivative audit and response preparation
+## Current scientific continuation: corrected response component passed
+
+| Requirement/check | Verdict | Evidence | Observable and limit |
+|---|---|---|---|
+| Latest publication | COMPLETE | commit 0ec2b4f; GitHub run 38867827053 | Exact-commit success freshly observed; publication only |
+| Frozen v1 execution | FAILED BEFORE MOLECULAR WORK | cpcm-response-probe/run-v1/result.json; supervisor.json; FAILURE_REPORT.md | Exit 1; zero checks; valid empty archive; no runtime getter or molecule reached |
+| Resource observation | TERMINAL WITHIN GUARDS | cpcm-response-probe/failure-analysis.json | 0.650576708 seconds; 141,656,064 bytes sampled maximum, three samples; no cap/monitor error; not a peak guarantee |
+| Import-order defect | REPRODUCED WITHOUT MOLECULAR WORK | cpcm-response-probe/failure-analysis.json; ../.omo/evidence/pcm-response-terminal-review.md | 177 pins before unittest.mock, 180 after; three additions, no changed/missing hashes; original child inventory unsaved |
+| Corrected preparation | VERIFIED AND SEPARATELY APPROVED | cpcm-response-probe-v2/preparation.json; independent-root-review.json | Fresh-process 180/180 pins; no numerical settings changed; independent review bound to exact preparation |
+| Fixed-geometry solvent response | PASS_COMPONENT_ONLY | cpcm-response-probe-v2/analysis.json; TERMINAL_REVIEW.json | 60 checks, 93 finite arrays; stock error 3.1225e-17, FD error 1.3874e-12, original tolerances; 7.00977 seconds and 281,526,272 sampled bytes |
+| Preservation evidence | LIMITED OBSERVATION | cpcm-response-probe-v2/REPORT.md | Cache checks reported by frozen harness; snapshots not saved; input equality does not measure flags/identity |
+| Full-Fock response integration | DRAFT, UNIMPLEMENTED/UNRUN | full-fock-response-next-step/PLAN.md | Must qualify combined RI-J/XC/PCM derivative; no new launch authorized |
+| Further structural source route | NO NEW DATA | identity/moussawi-alternate-deposit-followup/JOURNAL_ROUTE_FOLLOWUP.md | Three new queries returned duplicates/unrelated structures; no CIF or occupancy |
+| Full objective | UNMET | PROTOCOL.md; cpcm-response-probe-v2/REPORT.md | Component response pass adds no SCF, held-out validation, target identity or admission; 24 assessed roles/zero verified complements; all twelve functions open |
+
+## Historical publication checkpoint: derivative audit and response preparation
 
 | Requirement/check | Verdict | Evidence | Observable and limit |
 |---|---|---|---|

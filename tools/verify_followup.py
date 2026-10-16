@@ -1551,8 +1551,77 @@ def verify_response_preparation(recursive):
     assert receipt['SCFs_launched'] == 0
     for key in ('native_probe_run', 'approval_exists', 'run_directory_exists', 'held_out_validation', 'physical_admission'):
         assert receipt[key] is False
-    assert not (base / 'independent-root-review.json').exists()
-    assert not list(base.glob('run-v*'))
+    failure = json.loads((base / 'failure-analysis.json').read_text())
+    assert failure['status'] == 'TERMINAL_PRECHECK_FAILURE_NO_MOLECULAR_EVALUATION'
+    assert failure['child_returncode'] == 1 and failure['worker_checks'] == 0
+    assert failure['response_operators_evaluated'] == failure['SCFs_launched'] == 0
+    for key in ('molecular_construction_reached', 'held_out_validation', 'physical_admission',
+                'original_child_actual_pin_map_saved', 'v1_restart_allowed', 'original_numerical_tolerances_changed'):
+        assert failure[key] is False
+    reproduction = failure['import_only_worker_prefix_reproduction']
+    assert reproduction['expected_count'] == 177 and reproduction['actual_count'] == 180
+    assert reproduction['missing'] == reproduction['changed_hashes'] == []
+    assert len(reproduction['added']) == 3
+    for folder, pin_count, exit_code, status in (
+            ('cpcm-response-probe', 177, 1, 'ERROR'),
+            ('cpcm-response-probe-v2', 180, 0, 'PASS_RESPONSE_COMPONENT_ONLY')):
+        current = recursive / folder
+        frozen = json.loads((current / 'preparation.json').read_text())
+        assert frozen['status'] == 'PREPARED_NOT_EXECUTED' and len(frozen['pins']) == pin_count
+        for key in ('case', 'density_key', 'density_shape', 'epsilons', 'steps',
+                    'native_probe_run', 'SCFs_launched', 'physical_admission'):
+            assert frozen[key] == preparation[key]
+        approval = json.loads((current / 'independent-root-review.json').read_text())
+        assert approval == json.loads((current / 'run-v1/root-review.json').read_text())
+        assert approval['status'] == 'APPROVED_FOR_ONE_BOUNDED_NATIVE_CHILD'
+        assert approval['allowed_native_children'] == approval['requested_threads'] == 1
+        assert approval['SCFs_allowed'] == 0
+        for key in ('parent_molecule_allowed', 'held_out_inputs_allowed', 'retry_allowed', 'physical_admission'):
+            assert approval[key] is False
+        launch = json.loads((current / 'launch-result.json').read_text())
+        supervisor = json.loads((current / 'run-v1/supervisor.json').read_text())
+        assert launch['receipt'] == supervisor and supervisor['returncode'] == exit_code
+        assert supervisor['termination_reason'] is supervisor['monitor_error'] is None
+        assert supervisor['wall_cap_seconds'] == approval['wall_cap_seconds'] == 120
+        assert supervisor['rss_guard_bytes'] == approval['sampled_rss_guard_bytes'] == 2 * 1024**3
+        assert 0 < supervisor['wall_seconds'] < 120
+        assert 0 < supervisor['sampled_max_rss_bytes'] < supervisor['rss_guard_bytes']
+        assert json.loads((current / 'run-v1/pins.json').read_text()) == frozen['pins']
+        result = json.loads((current / 'run-v1/result.json').read_text())
+        assert result['status'] == status and result['SCFs_launched'] == 0
+        assert result['physical_admission'] is result['parent_run'] is False
+        if exit_code:
+            assert launch['status'] == 'FAIL' and result['checks'] == [] and 'runtime' not in result
+            assert 'ValueError: Missing or changed launch pins' in result['exception']
+        else:
+            assert launch['status'] == 'PASS_COMPONENT_RECEIPT'
+            assert len(result['checks']) == len({c['name'] for c in result['checks']}) == 60
+            assert all(c['pass'] is True for c in result['checks'])
+            assert result['runtime']['pyscf_threads'] == 1 and result['runtime']['OMP_NUM_THREADS'] == '1'
+    current = recursive / 'cpcm-response-probe-v2'
+    check = json.loads((current / 'evidence/import-only-pins.json').read_text())
+    assert check['status'] == 'PASS_IMPORT_ONLY_PINS'
+    assert check['prepared_pin_count'] == check['actual_pin_count'] == 180
+    assert check['added'] == check['missing'] == check['changed'] == []
+    assert check['molecular_builds'] == check['SCFs_launched'] == 0 and check['native_probe_run'] is False
+    terminal = json.loads((current / 'TERMINAL_REVIEW.json').read_text())
+    assert terminal['status'] == 'ACCEPTED_NUMERICAL_COMPONENT_ONLY'
+    assert terminal['checks_passed'] == 60 and terminal['retained_arrays'] == 93
+    assert terminal['source_runtime_pins_verified'] == 180 and terminal['v1_negative_artifacts_unchanged'] == 9
+    assert terminal['new_roles'] == terminal['verified_integrated_complements'] == 0
+    for key in ('full_Fock_qualified', 'orbital_stability_qualified', 'nuclear_derivatives_qualified',
+                'parent_qualified', 'held_out_validation', 'physical_admission', 'next_native_launch_authorized'):
+        assert terminal[key] is False
+    analysis = json.loads((current / 'analysis.json').read_text())
+    assert analysis['status'] == 'SAVED_ARRAY_COMPONENT_CHECKS_REPRODUCED'
+    assert analysis['checks'] == 60 and analysis['matching_preparation_pins'] == 180
+    assert analysis['SCFs_launched'] == 0 and analysis['held_out_validation'] is analysis['physical_admission'] is False
+    for key, bound in (('max_stock_abs_error', 1e-10), ('max_fd_abs_error', 1e-8),
+                       ('max_linearity_abs_error', 1e-10), ('max_reciprocity_abs_error', 1e-10)):
+        assert 0 <= analysis[key] <= bound
+    draft = recursive / 'full-fock-response-next-step'
+    assert 'DRAFT_NOT_IMPLEMENTED_OR_AUTHORIZED' in (draft / 'PLAN.md').read_text()
+    assert not (draft / 'run.py').exists() and not list(draft.glob('run-v*'))
 
 
 def verify_stage_artifact_bindings(recursive, included):
@@ -1571,6 +1640,24 @@ def verify_stage_artifact_bindings(recursive, included):
                     if '/recursive-compound-2026-10-15/' in path and '/env-aligned/' not in path}
     assert len(project_pins) == 12
     bindings.update(project_pins)
+    for folder, receipt_name, key in (
+            ('cpcm-response-probe', 'failure-analysis.json', 'terminal_artifact_sha256'),
+            ('cpcm-response-probe-v2', 'analysis.json', 'artifact_sha256')):
+        hashes = json.loads((recursive / folder / receipt_name).read_text())[key]
+        bindings.update({folder + '/' + name: digest for name, digest in hashes.items()
+                         if name.split('/')[-1] not in omitted_logs})
+        assert all('recursive-compound-2026-10-15/' + folder + '/run-v1/' + name not in source_hashes
+                   for name in omitted_logs)
+    v2 = 'cpcm-response-probe-v2'
+    frozen = json.loads((recursive / v2 / 'preparation.json').read_text())
+    project_pins = {path.split('/recursive-compound-2026-10-15/', 1)[1]: digest
+                    for path, digest in frozen['pins'].items()
+                    if '/recursive-compound-2026-10-15/' in path and '/env-aligned/' not in path}
+    assert len(project_pins) == 12
+    bindings.update(project_pins)
+    assert all('recursive-compound-2026-10-15/' + v2 + '/evidence/' + name not in source_hashes
+               for name in ('command-receipts.json', 'mock-tests-aligned.log',
+                            'protocol-v1-to-v2.diff', 'run-v1-to-v2.diff'))
     audit = json.loads((recursive / 'derivative-route-audit/evidence.json').read_text())
     assert len(audit['project_sha256']) == 3
     bindings.update(audit['project_sha256'])
@@ -1725,6 +1812,18 @@ def verify_parent_pilot_source_bindings(included):
             'cpcm-response-probe/evidence/mock-tests.json': '854fa7127cd5e6edbb8273f867ce7d53cf8dc38dba522d3e3f7c961336edb829',
             'cpcm-response-probe/REPORT.md': 'b7a9226c374b67f4a50a1af78124380c6432a491421555c2e0bcdb8007e12213',
             'cpcm-response-probe/preparation-evidence.json': '1d521c35c6e6e5aacf2d0e8b843024ce7502ea50280a3349afcd43c3d6f2a6e2',
+            'cpcm-response-probe/FAILURE_REPORT.md': '9ae4dfa7fef13b2a567f1eff7210a264ddfb9dc03cd88d80fd4e600c73abc9f7',
+            'cpcm-response-probe/failure-analysis.json': 'b41a0355d33d75506176d7ff1e0f4df7447253ed25fd0bf542728c84f9615964',
+            'cpcm-response-probe-v2/preparation.json': '13b6c296ce45f312046c8b6b3ba7835f511c76884eb42e39830156f21e1b6476',
+            'cpcm-response-probe-v2/REPORT.md': '0bd7cf6ce8fa45875ecd8dba1a7bdb10d8f5b7de8b0ab9c92a21af849c238adc',
+            'cpcm-response-probe-v2/TERMINAL_REVIEW.json': '652688d231e24c4336a047dcbbca5f4a2e1d050dfee6e549377487ea6892b379',
+            'cpcm-response-probe-v2/analysis.json': 'eae404694eb5dff455c73dc306bb03c737af049747ba7e5789447003939a0e48',
+            'cpcm-response-probe-v2/analyze.py': 'ea24a6590bc11e8cb0dbf86a564c8f1a18e9787374f35fa1e98169a10ef5df47',
+            'cpcm-response-probe-v2/evidence/import-only-pins.json': '9cc04a4c526c465c7a135cbe5a8a16929328f8391487f6f0bb457c41c7c24968',
+            'cpcm-response-probe-v2/evidence/mock-tests.json': '854fa7127cd5e6edbb8273f867ce7d53cf8dc38dba522d3e3f7c961336edb829',
+            'cpcm-response-probe-v2/evidence/source-equivalence.json': '920a089596b568bfa4762c08ab3229457b6cb6d6f5f710699c8193d131f79e43',
+            'full-fock-response-next-step/PLAN.md': 'dc49e841f99152b9fb4e9f8cf95e928cf20692a70e34b7950b005cfafb9ceb08',
+            'identity/moussawi-alternate-deposit-followup/JOURNAL_ROUTE_FOLLOWUP.md': '230591899641bea7d73bc21c45ac68957934a6532768651b26bd0db2fa5e91e6',
             'renewal/ir-ta-reservoir-reacquisition/acquisition.json': '7aeacbe90a8a5a6088851e03ebe4c115c5dd5a12b7c8c4d7a76fa65c704979c2',
             'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
     }.items():

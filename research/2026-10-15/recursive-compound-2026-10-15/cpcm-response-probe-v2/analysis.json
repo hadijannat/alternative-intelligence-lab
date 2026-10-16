@@ -1,0 +1,117 @@
+{
+  "status": "SAVED_ARRAY_COMPONENT_CHECKS_REPRODUCED",
+  "checks": 60,
+  "arrays": 93,
+  "matching_preparation_pins": 180,
+  "max_stock_abs_error": 3.122502256758253e-17,
+  "max_fd_abs_error": 1.3873530518577603e-12,
+  "max_linearity_abs_error": 3.8163916471489756e-17,
+  "max_reciprocity_abs_error": 1.7787691892340307e-20,
+  "wall_seconds": 7.009772666962817,
+  "sampled_max_rss_bytes": 281526272,
+  "rss_samples": 33,
+  "rows": [
+    {
+      "epsilon": 1.0,
+      "direction": "zero",
+      "stock_max_abs_error": 0.0,
+      "curvature": 0.0,
+      "finite_difference": {
+        "0.001": 0.0,
+        "0.0005": 0.0
+      }
+    },
+    {
+      "epsilon": 1.0,
+      "direction": "positive",
+      "stock_max_abs_error": 0.0,
+      "curvature": 0.0,
+      "finite_difference": {
+        "0.001": 0.0,
+        "0.0005": 0.0
+      }
+    },
+    {
+      "epsilon": 1.0,
+      "direction": "negative",
+      "stock_max_abs_error": 0.0,
+      "curvature": 0.0,
+      "finite_difference": {
+        "0.001": 0.0,
+        "0.0005": 0.0
+      }
+    },
+    {
+      "epsilon": 1.0,
+      "direction": "mixed",
+      "stock_max_abs_error": 0.0,
+      "curvature": 0.0,
+      "finite_difference": {
+        "0.001": 0.0,
+        "0.0005": 0.0
+      }
+    },
+    {
+      "epsilon": 78.4,
+      "direction": "zero",
+      "stock_max_abs_error": 0.0,
+      "curvature": 0.0,
+      "finite_difference": {
+        "0.001": 0.0,
+        "0.0005": 0.0
+      }
+    },
+    {
+      "epsilon": 78.4,
+      "direction": "positive",
+      "stock_max_abs_error": 3.122502256758253e-17,
+      "curvature": -0.0016047314385319509,
+      "finite_difference": {
+        "0.001": 2.8571589538728404e-13,
+        "0.0005": 6.314428147025097e-13
+      }
+    },
+    {
+      "epsilon": 78.4,
+      "direction": "negative",
+      "stock_max_abs_error": 3.122502256758253e-17,
+      "curvature": -0.0016047314385319509,
+      "finite_difference": {
+        "0.001": 2.8571589538728404e-13,
+        "0.0005": 6.314428147025097e-13
+      }
+    },
+    {
+      "epsilon": 78.4,
+      "direction": "mixed",
+      "stock_max_abs_error": 8.809142651444724e-20,
+      "curvature": -1.0904656866008537e-07,
+      "finite_difference": {
+        "0.001": 5.023950615874913e-13,
+        "0.0005": 1.3873530518577603e-12
+      }
+    }
+  ],
+  "artifact_sha256": {
+    "preparation.json": "13b6c296ce45f312046c8b6b3ba7835f511c76884eb42e39830156f21e1b6476",
+    "independent-root-review.json": "43939496f3b60f6c3ac4e7f860eaf8d14e3a8effdd5ab8d1008b77e3f1907a17",
+    "launch-result.json": "90edfe2d4ec0b501aa5934991c34dfb6f1e08d5745f54bae2a6080039a1d9439",
+    "run-v1/arrays.npz": "5aa702784e57c24a68b23f1331a257a23d13c96207141022bf60ce3f09ccf6cf",
+    "run-v1/pins.json": "7c7158e897e4a1becbd9625be66e03c1a8bdec2ddabada83ea49d1c51d320df4",
+    "run-v1/result.json": "caf886b44410f1b9718084cf67f86127435132cb380e16b171406bc2bc6b67fc",
+    "run-v1/root-review.json": "43939496f3b60f6c3ac4e7f860eaf8d14e3a8effdd5ab8d1008b77e3f1907a17",
+    "run-v1/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run-v1/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run-v1/supervisor.json": "b96df15a0535dbb84a45c3a1f2fb270d7b093bd4d9254aac3d1e92b52f92fb11"
+  },
+  "analysis_sha256": "ea24a6590bc11e8cb0dbf86a564c8f1a18e9787374f35fa1e98169a10ef5df47",
+  "SCFs_launched": 0,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "scope": "Retrospective fixed-geometry electronic solvent-response component only",
+  "limits": [
+    "Transient cache assertions are recorded harness observations, not reconstructed snapshots.",
+    "Input checks used array_equal; no direct input flag/identity measurement.",
+    "Stock oracle shares integral/runtime components; no independent physical accuracy claim."
+  ]
+}

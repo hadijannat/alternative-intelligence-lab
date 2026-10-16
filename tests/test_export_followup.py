@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import build_archive as archive
 from export_followup import LABS, exclusion, export, strip_signed_urls
+from curate_archive import tool_envelope
 from verify_followup import (verify_memory_followup, verify_openmp_renewal,
                              verify_parent_pilot_source_bindings, verify_stage_artifact_bindings)
 
@@ -21,6 +22,17 @@ class PublicationSelection(unittest.TestCase):
             self.assertTrue(exclusion(base / 'evidence' / name))
         for name in ('preparation.json', 'evidence/mock-tests.json', 'run.py', 'response.py', 'test_response.py', 'PROTOCOL.md'):
             self.assertIsNone(exclusion(base / name))
+
+    def test_response_terminal_keeps_evidence_and_excludes_private_receipts(self):
+        base = Path('recursive-compound-2026-10-15/cpcm-response-probe-v2')
+        for name in ('evidence/mock-tests-aligned.log', 'evidence/protocol-v1-to-v2.diff',
+                     'evidence/run-v1-to-v2.diff', 'run-v1/stdout.txt', 'run-v1/stderr.txt'):
+            self.assertTrue(exclusion(base / name))
+        for name in ('TERMINAL_REVIEW.json', 'analysis.json', 'run-v1/result.json', 'run-v1/arrays.npz'):
+            self.assertIsNone(exclusion(base / name))
+        receipt = {'prepare': {'cmd': 'python run.py --prepare', 'chunk_id': 'example',
+                               'wall_time_seconds': 0.4, 'exit_code': 0, 'output': ''}}
+        self.assertTrue(tool_envelope(receipt, 'command-receipts.json'))
 
     def test_serial_source_dossiers_keep_authored_evidence_and_exclude_acquisitions(self):
         for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
@@ -330,7 +342,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup',
                        'parent-serial-rhs-diagnostic', 'renewal/ir-ta-reservoir-reacquisition',
                        'boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control', 'review',
-                       'derivative-route-audit', 'identity/moussawi-alternate-deposit-followup', 'cpcm-response-probe'):
+                       'derivative-route-audit', 'identity/moussawi-alternate-deposit-followup', 'cpcm-response-probe',
+                       'cpcm-response-probe-v2', 'full-fock-response-next-step'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -345,6 +358,25 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('cpcm-response-probe/failure-analysis.json', 'molecular_construction_reached', True),
+            ('cpcm-response-probe/failure-analysis.json', 'v1_restart_allowed', True),
+            ('cpcm-response-probe/failure-analysis.json', 'original_child_actual_pin_map_saved', True),
+            ('cpcm-response-probe/run-v1/result.json', 'status', 'PASS_RESPONSE_COMPONENT_ONLY'),
+            ('cpcm-response-probe-v2/run-v1/result.json', 'status', 'PASS_FULL_FOCK'),
+            ('cpcm-response-probe-v2/run-v1/result.json', ('checks', 1, 'pass'), False),
+            ('cpcm-response-probe-v2/run-v1/result.json', 'SCFs_launched', 1),
+            ('cpcm-response-probe-v2/run-v1/result.json', 'physical_admission', True),
+            ('cpcm-response-probe-v2/run-v1/result.json', 'parent_run', True),
+            ('cpcm-response-probe-v2/run-v1/result.json', ('runtime', 'pyscf_threads'), 2),
+            ('cpcm-response-probe-v2/launch-result.json', ('receipt', 'returncode'), 1),
+            ('cpcm-response-probe-v2/evidence/import-only-pins.json', 'actual_pin_count', 177),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'full_Fock_qualified', True),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'orbital_stability_qualified', True),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'held_out_validation', True),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'physical_admission', True),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'next_native_launch_authorized', True),
+            ('cpcm-response-probe-v2/TERMINAL_REVIEW.json', 'verified_integrated_complements', 1),
+            ('cpcm-response-probe-v2/analysis.json', 'max_fd_abs_error', 1e-7),
             ('cpcm-response-probe/preparation.json', 'status', 'PASS_NATIVE_RESPONSE'),
             ('cpcm-response-probe/preparation.json', 'native_probe_run', True),
             ('cpcm-response-probe/preparation.json', 'SCFs_launched', 1),
@@ -733,6 +765,18 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'cpcm-response-probe/evidence/mock-tests.json',
                        'cpcm-response-probe/REPORT.md',
                        'cpcm-response-probe/preparation-evidence.json',
+                       'cpcm-response-probe/FAILURE_REPORT.md',
+                       'cpcm-response-probe/failure-analysis.json',
+                       'cpcm-response-probe-v2/preparation.json',
+                       'cpcm-response-probe-v2/REPORT.md',
+                       'cpcm-response-probe-v2/TERMINAL_REVIEW.json',
+                       'cpcm-response-probe-v2/analysis.json',
+                       'cpcm-response-probe-v2/analyze.py',
+                       'cpcm-response-probe-v2/evidence/import-only-pins.json',
+                       'cpcm-response-probe-v2/evidence/mock-tests.json',
+                       'cpcm-response-probe-v2/evidence/source-equivalence.json',
+                       'full-fock-response-next-step/PLAN.md',
+                       'identity/moussawi-alternate-deposit-followup/JOURNAL_ROUTE_FOLLOWUP.md',
                        'renewal/ir-ta-reservoir-reacquisition/acquisition.json',
                        'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
@@ -825,6 +869,10 @@ class OpenMPRenewalVerification(unittest.TestCase):
         records = [row for row in json.loads(manifest.read_text())['files'] if row['status'] == 'included']
         for suffix in ('cpcm-response-probe/PROTOCOL.md', 'cpcm-response-probe/response.py',
                        'cpcm-response-probe/run.py', 'cpcm-response-probe/test_response.py',
+                       'cpcm-response-probe/run-v1/arrays.npz', 'cpcm-response-probe/run-v1/result.json',
+                       'cpcm-response-probe-v2/run-v1/arrays.npz', 'cpcm-response-probe-v2/run-v1/result.json',
+                       'cpcm-response-probe-v2/run-v1/supervisor.json', 'cpcm-response-probe-v2/PROTOCOL.md',
+                       'cpcm-response-probe-v2/response.py', 'cpcm-response-probe-v2/run.py',
                        'cpcm-blocked/evidence/anion-water.npz', 'cpcm-rij-memory/memory.py'):
             with self.subTest(suffix=suffix):
                 reduced = [row for row in records if not row['path'].endswith(suffix)]
@@ -834,8 +882,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
-                       'cpcm-response-probe/independent-root-review.json',
-                       'cpcm-response-probe/run-v1/result.json',
+                       'full-fock-response-next-step/run-v1/result.json',
+                       'full-fock-response-next-step/run.py',
                        'parent-serial-rhs-diagnostic/run-v1/J_A.npy',
                        'parent-serial-rhs-diagnostic/run-v1/SCF-result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
@@ -895,6 +943,14 @@ class OpenMPRenewalVerification(unittest.TestCase):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
         verify_stage_artifact_bindings(self.recursive, records)
+        for name in ('command-receipts.json', 'mock-tests-aligned.log',
+                     'protocol-v1-to-v2.diff', 'run-v1-to-v2.diff'):
+            with self.subTest(excluded_v2_diagnostic=name):
+                records.append({'path': 'recursive-compound-2026-10-15/cpcm-response-probe-v2/evidence/' + name,
+                                'source_sha256': '0' * 64})
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                records.pop()
         for name in ('mock-startup-sample.txt', 'mock-tests.log', 'mock-tests-aligned.log', 'preparation.log'):
             with self.subTest(excluded_response_diagnostic=name):
                 records.append({'path': 'recursive-compound-2026-10-15/cpcm-response-probe/evidence/' + name,

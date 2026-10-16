@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication work: derivative audit, alternate access and response preparation
+## Current work: qualify the next coupled electronic-response dependency
+
+Preserve the [terminal v1 startup failure](cpcm-response-probe/FAILURE_REPORT.md), original preparation and all prior numerical failures. No v1 restart or repinning is permitted. The separately reviewed v2 corrected the demonstrated import closure defect, passed fresh-process pin checking and completed its one bounded child with all 60 checks passing. Independent review of 93 arrays supports only the standalone fixed-geometry C-PCM response. Do not turn that component result into a full-Fock, stability, derivative or chemistry claim.
+
+Next implement and freeze the [full-Fock response design](full-fock-response-next-step/PLAN.md): existing retrospective orbitals, memory-specialized RI-J plus PBE-XC plus standalone PCM response, compared with independent full-Fock finite differences along occupation-preserving orbital rotations. Keep the grid fixed, response memory bounded and each partial contribution visible. Freeze numerical conventions and limits, prove fresh-process imports, then obtain independent review before a new child. The draft is not launch authorization; no full-Fock test has run.
+
+The latest identity search recovered only duplicates; an accessible original substitution chapter/CIF or published species-resolved target characterization remains the discriminating external input. The user confirmed simulation and literature only; future work must remain within that scope. Full-J accuracy, consistent nuclear derivatives, full solvent-aware stability and all twelve integrated functions remain unresolved. Aggregate is 24 roles/zero verified complements. Publication 0ec2b4f and its hosted checks are complete. The current user request is to publish this continuation after that commit, retaining failed and successful component records and the unimplemented next-step design; commit, push and hosted verification are recorded separately.
+
+## Historical publication work: derivative audit, alternate access and response preparation
 
 Publish the [source-reviewed dependency audit](derivative-route-audit/REPORT.md), [alternate Moussawi access result](identity/moussawi-alternate-deposit-followup/REPORT.md) and frozen [response protocol](cpcm-response-probe/PROTOCOL.md) after `d0af744f6eb21b534fe95785e1491e514a236e99`. Record export, commit, push and hosted verification separately. The response preparation is **PREPARED_NOT_EXECUTED**: seven mocks pass, native execution is **UNRUN**, and no independent root approval or run directory exists. Preparation SHA256 is `d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd`. This publication task performs no native launch.
 

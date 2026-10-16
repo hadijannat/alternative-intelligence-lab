@@ -1,0 +1,63 @@
+{
+  "status": "TERMINAL_PRECHECK_FAILURE_NO_MOLECULAR_EVALUATION",
+  "date": "2026-10-16",
+  "child_returncode": 1,
+  "worker_status": "ERROR",
+  "worker_checks": 0,
+  "exception": "ValueError: Missing or changed launch pins",
+  "wall_seconds": 0.6505767080234364,
+  "sampled_max_rss_bytes": 141656064,
+  "rss_sample_count": 3,
+  "termination_reason": null,
+  "monitor_error": null,
+  "child_pid": 25996,
+  "child_observed_absent": true,
+  "valid_empty_arrays_archive": true,
+  "molecular_construction_reached": false,
+  "response_operators_evaluated": 0,
+  "SCFs_launched": 0,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "original_child_actual_pin_map_saved": false,
+  "independent_terminal_review": {
+    "path": ".omo/evidence/pcm-response-terminal-review.md",
+    "sha256": "976a96772ee47d340fd64e9a39289eb83c500b0132fe4f9555c25ebf9ee91fc2",
+    "verdict": "APPROVE_RECORDING_NEGATIVE_PRECHECK_ONLY",
+    "v1_retry_permitted": false
+  },
+  "import_only_worker_prefix_reproduction": {
+    "expected_count": 177,
+    "actual_count": 180,
+    "missing": [],
+    "changed_hashes": [],
+    "runtime_prefix": "recursive-compound-2026-10-15/parent-openmp/env-aligned/",
+    "added": {
+      "lib/libssl.3.dylib": "186ccda1086e78d7098a2182fd6f9c6aafe67f86d5e5ee12b9563aae8ede59e3",
+      "lib/python3.12/lib-dynload/_ssl.cpython-312-darwin.so": "732e6f3f91a695143397c3660cd548dc4cfb9c8b25e8b736d7af5bc8af659125",
+      "lib/python3.12/lib-dynload/_asyncio.cpython-312-darwin.so": "8865f1e1cfd74fcfef471ae1363e256e21214325c0c39a2784b191167ecc502e"
+    }
+  },
+  "paired_import_only_test": {
+    "before_matches_original_preparation": true,
+    "intervention": "from unittest.mock import patch",
+    "before_count": 177,
+    "after_count": 180,
+    "same_three_additions": true,
+    "missing": [],
+    "changed_hashes": [],
+    "molecular_work": false
+  },
+  "terminal_artifact_sha256": {
+    "launch-result.json": "e6bc8d6c0a4331b6f8fd2ae32d8edfd097ec7b00917c99d0d4ec7efd9e99ea38",
+    "independent-root-review.json": "e43f13eb152071533e900de4119e411360a22db2d1d82c58daa50956f1fa664d",
+    "run-v1/arrays.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "run-v1/pins.json": "fb3c55ce7feb7733715559f474aa9a7b18da7c6673b3045c44f1ca7f4f97d3f6",
+    "run-v1/result.json": "1b4386dee5dbffeef9cefc897b5998674e60432475b8030ca79457e8b8681692",
+    "run-v1/root-review.json": "e43f13eb152071533e900de4119e411360a22db2d1d82c58daa50956f1fa664d",
+    "run-v1/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run-v1/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run-v1/supervisor.json": "c71bfeaaa7c39c1fe193bc4aef6451ee418ee5176cbe39f24081be6438eecdc5"
+  },
+  "v1_restart_allowed": false,
+  "original_numerical_tolerances_changed": false
+}

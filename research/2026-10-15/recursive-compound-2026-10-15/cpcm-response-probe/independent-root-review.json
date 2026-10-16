@@ -1,0 +1,25 @@
+{
+  "status": "APPROVED_FOR_ONE_BOUNDED_NATIVE_CHILD",
+  "date": "2026-10-16",
+  "preparation_sha256": "d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd",
+  "independent_review": ".omo/evidence/pcm-response-prelaunch-review.md",
+  "independent_review_sha256": "4224e6680a5a676d5def52c34f7aeb36710d5feead02538f95086811d59656a0",
+  "root_matching_pins": 177,
+  "wall_cap_seconds": 120,
+  "sampled_rss_guard_bytes": 2147483648,
+  "requested_threads": 1,
+  "case": "retrospective hypothetical MoO4 anion-water",
+  "allowed_native_children": 1,
+  "SCFs_allowed": 0,
+  "parent_molecule_allowed": false,
+  "held_out_inputs_allowed": false,
+  "retry_allowed": false,
+  "physical_admission": false,
+  "root_decision": "Independent prelaunch review and root source/pin/resource inspection approve only the frozen response component test. Preserve every failure and original tolerance.",
+  "limitations": [
+    "Sampled RSS and termination grace do not guarantee a hard peak or exact wall duration.",
+    "Input array_equal checks do not directly observe byte/flag/identity preservation; cache snapshots are richer.",
+    "Interrupted non-atomic writes may leave incomplete artifacts; accept only clean complete output and independently verified arrays.",
+    "No launch approval for parent relaxation, nuclear derivatives, orbital stability or exact-target chemistry."
+  ]
+}

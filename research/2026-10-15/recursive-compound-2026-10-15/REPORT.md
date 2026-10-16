@@ -1,6 +1,16 @@
 # Recursive compound investigation: first integrated assessment
 
-## Current publication checkpoint: derivative audit and frozen response preparation
+## Current scientific continuation: solvent-response component qualified
+
+Publication 0ec2b4f is complete, with successful exact-commit GitHub run 38867827053. The full goal remains unmet: 24 assessed roles, zero verified integrated complements and all twelve functions unresolved. That publication was progress in preserving/verifying the research record, not a life-function result.
+
+The separately approved [response probe v1](cpcm-response-probe/FAILURE_REPORT.md) terminated at its first pin check before constructing a molecule: exit 1, zero numerical checks, a valid empty array archive, 0.650576708 seconds and 141,656,064 bytes sampled maximum RSS. Independent import-only tests explain the rejection: importing unittest.mock adds three runtime libraries after the original 177-file inventory. No existing hash changed. The failed child did not save its actual inventory; the 180-entry map is a reproduced observation. Frozen v1 and its negative result remain unchanged and cannot be retried.
+
+The separately reviewed [v2 response probe](cpcm-response-probe-v2/REPORT.md) corrected only import closure and passed a fresh-process 180-pin check before launch. Its one child then completed all 60 numerical/runtime checks in 7.009772667 seconds, with sampled maximum RSS 281,526,272 bytes. Independent saved-array review verified all 93 finite entries, maximum stock-response error 3.1225e-17 and finite-difference error 1.3874e-12 against unchanged tolerances. This qualifies the fixed-geometry solvent-response contribution on the retrospective MoO4 reference; it does not qualify full Fock response, stability, gradients, the parent or the target. No SCF or holdout ran; the v1 failure remains preserved.
+
+The next [full-Fock response design](full-fock-response-next-step/PLAN.md) is unimplemented and unapproved. It would test RI-J, PBE-XC and solvent jointly against full-Fock finite differences on existing saved orbitals. The [journal/deposition follow-up](identity/moussawi-alternate-deposit-followup/JOURNAL_ROUTE_FOLLOWUP.md) returned duplicate-only sources and no structural constraint. Target identity remains unresolved. The user confirmed that available work is simulation and literature only. The user now requests committing this continuation and pushing main; publication verification is recorded separately and launches no scientific calculation.
+
+## Historical publication checkpoint: derivative audit and frozen response preparation
 
 The user requests committing and pushing the continuation after `d0af744f6eb21b534fe95785e1491e514a236e99`. The [derivative/stability audit](derivative-route-audit/REPORT.md) identifies incompatible derivative dispatch if guards are bypassed, missing solvent-response state and an inspected external-stability Fock path that omits the tagged solvent contribution. A full 400-point stock derivative tensor would require 90,361,190,400 bytes at parent dimensions. These are source and arithmetic findings, not observed native failures or measured allocations. Removing the current guards cannot qualify H-only relaxation or full orbital stability.
 

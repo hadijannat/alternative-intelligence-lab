@@ -1,0 +1,313 @@
+{
+  "status": "PASS_RESPONSE_COMPONENT_ONLY",
+  "checks": [
+    {
+      "name": "actual_PySCF_threads_one",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/zero/stock_B_dot_x",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/zero/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/zero/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/zero/exact_zero",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/zero/exact_zero_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/zero/FD_h0.001",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/zero/FD_h0.0005",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/positive/stock_B_dot_x",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/positive/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/positive/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/positive/exact_zero",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/positive/exact_zero_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/positive/FD_h0.001",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/positive/FD_h0.0005",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/negative/stock_B_dot_x",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/negative/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/negative/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/negative/exact_zero",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/negative/exact_zero_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/negative/FD_h0.001",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/negative/FD_h0.0005",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/mixed/stock_B_dot_x",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/mixed/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/mixed/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/mixed/exact_zero",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/mixed/exact_zero_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/mixed/FD_h0.001",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/mixed/FD_h0.0005",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/linearity",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/reciprocity",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps1.0/cache_objects_bytes_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps1.0/equilibrium_flag_false",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/zero/stock_B_dot_x",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps78.4/zero/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/zero/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps78.4/zero/exact_zero",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/zero/exact_zero_curvature",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps78.4/zero/FD_h0.001",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps78.4/zero/FD_h0.0005",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "eps78.4/positive/stock_B_dot_x",
+      "pass": true,
+      "value": 3.122502256758253e-17
+    },
+    {
+      "name": "eps78.4/positive/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/positive/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": -0.0016047314385319509
+    },
+    {
+      "name": "eps78.4/positive/FD_h0.001",
+      "pass": true,
+      "value": 2.8571589538728404e-13
+    },
+    {
+      "name": "eps78.4/positive/FD_h0.0005",
+      "pass": true,
+      "value": 6.314428147025097e-13
+    },
+    {
+      "name": "eps78.4/negative/stock_B_dot_x",
+      "pass": true,
+      "value": 3.122502256758253e-17
+    },
+    {
+      "name": "eps78.4/negative/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/negative/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": -0.0016047314385319509
+    },
+    {
+      "name": "eps78.4/negative/FD_h0.001",
+      "pass": true,
+      "value": 2.8571589538728404e-13
+    },
+    {
+      "name": "eps78.4/negative/FD_h0.0005",
+      "pass": true,
+      "value": 6.314428147025097e-13
+    },
+    {
+      "name": "eps78.4/mixed/stock_B_dot_x",
+      "pass": true,
+      "value": 8.809142651444724e-20
+    },
+    {
+      "name": "eps78.4/mixed/input_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/mixed/nonpositive_solvent_curvature",
+      "pass": true,
+      "value": -1.0904656866008537e-07
+    },
+    {
+      "name": "eps78.4/mixed/FD_h0.001",
+      "pass": true,
+      "value": 5.023950615874913e-13
+    },
+    {
+      "name": "eps78.4/mixed/FD_h0.0005",
+      "pass": true,
+      "value": 1.3873530518577603e-12
+    },
+    {
+      "name": "eps78.4/linearity",
+      "pass": true,
+      "value": 3.8163916471489756e-17
+    },
+    {
+      "name": "eps78.4/reciprocity",
+      "pass": true,
+      "value": 1.7787691892340307e-20
+    },
+    {
+      "name": "eps78.4/cache_objects_bytes_unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "eps78.4/equilibrium_flag_false",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "pins_unchanged",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "SCFs_launched": 0,
+  "physical_admission": false,
+  "parent_run": false,
+  "runtime": {
+    "python": "PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp/env-aligned/bin/python",
+    "pyscf_threads": 1,
+    "OMP_NUM_THREADS": "1"
+  }
+}
