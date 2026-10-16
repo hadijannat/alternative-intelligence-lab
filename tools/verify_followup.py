@@ -1255,7 +1255,7 @@ def verify_blas_checkpoint(recursive):
     assert pending['physical_admission'] is pending['parent_SCF_readiness'] is False
     assert mocks['passed'] is mocks['mock_only'] is True
     assert mocks['tests_run'] == 6 and mocks['failures'] == mocks['errors'] == mocks['native_parent_calls'] == 0
-    assert not (explicit / 'independent-root-review.json').exists() and not (explicit / 'run-v1').exists()
+    verify_explicit_blas_result(recursive)
     qualification = json.loads((replay / 'qualification.json').read_text())
     assert qualification['passed'] is True and qualification['tests_run'] == 8
     assert qualification['parent_native_execution'] is False
@@ -1266,6 +1266,108 @@ def verify_blas_checkpoint(recursive):
     evidence = json.loads((recursive / 'identity/concentration-speciation-followup/evidence.json').read_text())
     assert evidence['target_tested'] is evidence['heldout_target_validation'] is False
     assert evidence['fitted_target_parameters'] == [] and evidence['negative_results_preserved'] is True
+
+
+def verify_explicit_blas_result(recursive):
+    base = recursive / 'parent-explicit-blas-j'
+    run = base / 'run-v1'
+    approval = json.loads((base / 'independent-root-review.json').read_text())
+    assert approval['status'] == 'APPROVED_ONE_EXPLICIT_BLAS_J_DIAGNOSTIC'
+    assert approval['independent_root_review'] is True
+    assert approval['preparation_sha256'] == '13cf6df31ebf08fd49d873e96d77843dd1df4cbe8e4039488a0376bf0d90d51e'
+    launch = json.loads((run / 'launch-result.json').read_text())
+    result = json.loads((run / 'result.json').read_text())
+    assert launch['completed'] is launch['gate_unchanged'] is True
+    assert len(launch['artifact_hashes']) == 35
+    receipt = launch['receipt']
+    assert receipt == json.loads((run / 'supervisor.json').read_text())
+    assert receipt['returncode'] == 0 and receipt['termination_reason'] is receipt['monitor_error'] is None
+    assert receipt['wall_seconds'] <= receipt['wall_cap_seconds'] == 600
+    assert receipt['sampled_max_rss_bytes'] <= receipt['rss_guard_bytes'] == 10737418240
+    assert receipt['hard_OS_memory_limit'] is False
+    assert result['status'] == 'COMPLETED_EXPLICIT_BLAS_J_DIAGNOSTIC_ONLY'
+    assert result['J_calls'] == 2 and result['factor_count'] == 1
+    assert result['SCFs'] == result['PCM_builds'] == 0
+    for key in ('physical_admission', 'parent_SCF_readiness'):
+        assert result[key] is launch[key] is False
+    assert result['held_out_validation'] is False
+    comparisons = json.loads((run / 'comparisons.json').read_text())
+    assert comparisons == result['comparisons']
+    for key in ('repeat_and_symmetry_pass', 'historical_reference_pass',
+                'historical_reference_is_independent_oracle', 'physical_admission'):
+        assert comparisons[key] is False
+    for row, error, count in ((comparisons['repeat'], 6.702407517877873e-10, 630),
+                             (comparisons['historical_reference']['A'], 2.560511802585097e-10, 80),
+                             (comparisons['historical_reference']['B'], 8.22808488010196e-10, 790)):
+        assert row['pass'] is False
+        assert row['max_absolute_error'] == error and row['entries_above_tolerance'] == count
+        assert row['absolute_tolerance'] == 1e-10 and row['relative_tolerance'] == 0
+    for row in comparisons['symmetry'].values():
+        assert row['finite'] is row['symmetric'] is True and row['max_asymmetry'] == 0
+        # No sign comparison was executed by this two-positive-density-call diagnostic.
+        assert row['sign_pass'] is False and row['max_sign_error'] is None
+    for key, error in (('b', 2.2282620193436742e-11), ('rho_ordinary', 0.0013222289814285304)):
+        row = comparisons['vectors'][key]
+        assert row['exact_equal'] is False and row['acceptance_threshold'] is None
+        assert row['max_absolute_difference'] == error
+    metric = json.loads((run / 'metric-before-factor.json').read_text())
+    assert metric['matches_saved_metric'] is True and metric['causal_comparison_established'] is False
+    assert metric['metric_array_sha256'] == metric['saved_metric_array_sha256'] == 'f972103f0d3473f6b899e0a77aa1206a783b68ba97a550707e5fea80edbc7d6f'
+    states = json.loads((run / 'factor-states.json').read_text())
+    assert len(states) == 2 and states[0] == states[1]
+    assert states[0]['readonly'] is states[0]['Fortran'] is True
+    assert states[0]['content_sha256'] == '261d6cbcbe2d0ee2b42f3dfb064570df01ca831676e968591518f6083c242c0e'
+    for arm in ('A', 'B'):
+        call = json.loads((run / f'call-{arm}.json').read_text())
+        assert call['arm'] == arm and call['storage'] == states[0]
+        assert call['capture']['ordinary_returned_unchanged'] is True
+        assert call['capture']['capture_aliases_rhs'] is call['capture']['capture_aliases_ordinary'] is False
+        assert call['hashes'] == {name: result['output_hashes'][name]
+                                  for name in (f'J_{arm}', f'b_{arm}', f'rho_ordinary_{arm}')}
+    for name, digest in result['output_hashes'].items():
+        assert launch['artifact_hashes'][name + '.npy'] == digest
+    for label in ('initial', 'restored_getter_counts', 'explicit_setter', 'before_setup',
+                  'after_setup', 'before_J_A', 'after_J_A', 'before_J_B', 'after_J_B'):
+        row = json.loads((run / f'threads-{label}.json').read_text())
+        assert row['pyscf'] == 4 and row['blas'] == (4 if label in ('initial', 'restored_getter_counts') else 1)
+        if label == 'restored_getter_counts':
+            assert row['explicit_control_mode_restored'] is False
+    draft = recursive / 'explicit-blas-accuracy-qualification'
+    prerequisite = json.loads((draft / 'PREREQUISITE_STATUS.json').read_text())
+    assert prerequisite['status'] == 'PARENT_REPEATABILITY_PREREQUISITE_FAILED_NO_LAUNCH'
+    assert prerequisite['protocol_draft_sha256'] == '27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6'
+    assert prerequisite['parent_result_sha256'] == 'cd35669af12ff030145d3f8afdf51ed8a53343c809929783f0ec121589221d1f'
+    for key in ('parent_repeat_pass', 'qualification_implemented', 'qualification_launched',
+                'reserved_HMo2O7_operator_or_SCF_use', 'held_out_validation',
+                'physical_admission', 'parent_SCF_readiness'):
+        assert prerequisite[key] is False
+    assert prerequisite['qualification_native_operator_calls'] == prerequisite['qualification_SCF_calls'] == 0
+    assert prerequisite['parent_repeat_max_absolute_error'] == comparisons['repeat']['max_absolute_error']
+    assert prerequisite['parent_repeat_entries_above_tolerance'] == comparisons['repeat']['entries_above_tolerance']
+    assert prerequisite['absolute_tolerance'] == 1e-10 and prerequisite['relative_tolerance'] == 0
+    audit = json.loads((draft / 'preparation-audit.json').read_text())
+    assert audit['status'] == 'PASS_PREPARATION_ARTIFACT_CHECKS_ONLY'
+    assert audit['native_operators'] == audit['SCFs'] == 0
+    assert audit['parent_diagnostic_outcome'] == 'NOT_INSPECTED_UNKNOWN'
+    assert audit['protocol_sha256'] == prerequisite['protocol_draft_sha256']
+    for name in ('run.py', 'preparation.json', 'independent-root-review.json', 'run-v1'):
+        assert not (draft / name).exists()
+    measurement = recursive / 'identity/measurement-integrity-followup'
+    review = json.loads((measurement / 'ROOT_REVIEW.json').read_text())
+    acquisition = json.loads((measurement / 'acquisition.json').read_text())
+    assert review['status'] == 'PASS_SOURCE_DESIGN_REVIEW_ONLY'
+    assert review['new_candidate_roles'] == review['verified_integrated_complement_admissions'] == 0
+    for key in ('physical_target_tested', 'heldout_target_validation', 'raw_quantitative_dataset_acquired', 'rates_fitted'):
+        assert review[key] is False
+    assert acquisition['status'] == 'PRIMARY_PARSED_TEXT_AND_FAILED_BYTE_ACQUISITION_ONLY'
+    assert acquisition['new_candidate_roles'] == acquisition['verified_integrated_complements'] == acquisition['scientific_runs'] == 0
+    for key in ('target_tested', 'held_out_target_validation', 'quantitative_raw_dataset_acquired'):
+        assert acquisition[key] is False
+    assert acquisition['numerical_parameters_admitted'] == []
+    download, = [row for row in acquisition['root_observations'] if row['method'] == 'curl direct GET']
+    assert download['curl_exit_code'] == 0 and download['http_status'] == 406
+    assert download['download_bytes'] == 293 and download['pdf_magic'] is False
+    assert download['payload_sha256'] == 'e6b1fc626ab1d3c1d3df093c2dcdd61fac27477c8c1debe4bd4fe82c8646a653'
 
 
 def verify_stage_artifact_bindings(recursive, included):
@@ -1293,15 +1395,25 @@ def verify_stage_artifact_bindings(recursive, included):
                for name in omitted_logs)
     bindings.update({replay + '/' + name: digest for name, digest in completed['artifact_hashes'].items()
                      if name not in omitted_logs})
+    explicit = 'parent-explicit-blas-j/run-v1'
+    terminal = json.loads((recursive / explicit / 'launch-result.json').read_text())
+    assert len(terminal['artifact_hashes']) == 35
+    assert all('recursive-compound-2026-10-15/' + explicit + '/' + name not in source_hashes
+               for name in omitted_logs)
+    bindings.update({explicit + '/' + name: digest for name, digest in terminal['artifact_hashes'].items()
+                     if name not in omitted_logs})
     for folder, receipt, key in (('parent-blas-control-audit', 'verification.json', 'sha256'),
                                  ('parent-saved-metric-solve', 'qualification.json', 'tiny_artifact_hashes')):
         hashes = json.loads((recursive / folder / receipt).read_text())[key]
         bindings.update({folder + '/' + name: digest for name, digest in hashes.items()
                          if name.split('/')[-1] not in omitted_logs and not name.startswith('sources/')})
     for folder in ('boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
-                   'boundary/hollow-silicalite-followup/wetting-constraint', 'identity/concentration-speciation-followup'):
+                   'boundary/hollow-silicalite-followup/wetting-constraint', 'identity/concentration-speciation-followup',
+                   'identity/measurement-integrity-followup'):
         review = json.loads((recursive / folder / 'ROOT_REVIEW.json').read_text())
         bindings.update({folder + '/' + name: digest for name, digest in review['artifact_sha256'].items()})
+    assert not any(path.startswith('recursive-compound-2026-10-15/identity/measurement-integrity-followup/raw/')
+                   for path in source_hashes)
     copper = 'boundary/copper-phosphate-transport'
     decision = json.loads((recursive / copper / 'DECISION.json').read_text())
     for name, key in (('evidence.json', 'assessment_sha256'), ('REPORT.md', 'report_sha256'),
@@ -1374,6 +1486,14 @@ def verify_parent_pilot_source_bindings(included):
             'parent-explicit-blas-j/qualification.json': '1e1a757e739a5605b925605285477173db475018035eeb3977a52b4fd22cd85a',
             'parent-explicit-blas-j/test_run.py': '9de6d3b5767dd37416bca777d2eb5037896bc36db21e4f25185b0d6b6ffefb4c',
             'parent-explicit-blas-j/run.py': 'b7f2ee113dab465dcf8528b6a80020f098ee17fa6f9b09efb4c81fef4e085beb',
+            'parent-explicit-blas-j/independent-root-review.json': '22fadb8296b639a3859ac79de7dbf2b93e68224c80a6df077846efd80d4b3892',
+            'parent-explicit-blas-j/run-v1/launch-result.json': 'e896086b360363a1c527911142bee762b39f20b3c16b073a6235cebd30987c6f',
+            'parent-explicit-blas-j/run-v1/result.json': 'cd35669af12ff030145d3f8afdf51ed8a53343c809929783f0ec121589221d1f',
+            'explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.md': '27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6',
+            'explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.before-scope-clarifications.md': '070474ef7d65d0f08f334bbf9fbb1c638831a085aa7561f3a5e8fae3b45102be',
+            'explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json': '0877a1aecfd133a36f0c42e47e5edd8166c736a65a9f60075862c77ff83a4a9e',
+            'explicit-blas-accuracy-qualification/preparation-audit.json': '34ea0cc066e891a105fde735e000e36b22ead8e8a9419526b827af35ae0726db',
+            'identity/measurement-integrity-followup/ROOT_REVIEW.json': 'eb212ce924aa6ddfe932406ad84b82d468cce24c46ef693636195308249038c2',
             'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
     }.items():
         assert source_hashes['recursive-compound-2026-10-15/' + name] == digest

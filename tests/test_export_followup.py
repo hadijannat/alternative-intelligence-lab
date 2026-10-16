@@ -15,6 +15,13 @@ from verify_followup import (verify_memory_followup, verify_openmp_renewal,
 
 
 class PublicationSelection(unittest.TestCase):
+    def test_measurement_access_failure_payload_stays_excluded(self):
+        base = Path('recursive-compound-2026-10-15/identity/measurement-integrity-followup')
+        for name in ('raw/poster-response.body', 'raw/poster.headers'):
+            self.assertTrue(exclusion(base / name))
+        for name in ('REPORT.md', 'acquisition.json', 'ROOT_REVIEW.json', 'INDEPENDENT_REVIEW.md'):
+            self.assertIsNone(exclusion(base / name))
+
     def test_blas_upstream_readme_is_acquired_source(self):
         base = Path('recursive-compound-2026-10-15/parent-blas-control-audit')
         self.assertTrue(exclusion(base / 'sources', directory=True))
@@ -297,7 +304,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/hollow-silicalite-followup', 'identity/beta-vmo7-discriminator',
                        'parent-metric-solve-diagnostic', 'parent-metric-solve-diagnostic-v2',
                        'boundary/aqueous-pom-nanofiltration-followup', 'parent-blas-control-audit',
-                       'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup'):
+                       'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup',
+                       'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -332,6 +340,23 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-explicit-blas-j/qualification.json', 'native_parent_calls', 1),
             ('parent-explicit-blas-j/qualification.json', 'tests_run', 7),
             ('parent-explicit-blas-j/preparation.json', 'physical_admission', True),
+            ('parent-explicit-blas-j/run-v1/launch-result.json', 'completed', False),
+            ('parent-explicit-blas-j/run-v1/launch-result.json', 'gate_unchanged', False),
+            ('parent-explicit-blas-j/run-v1/result.json', 'J_calls', 3),
+            ('parent-explicit-blas-j/run-v1/result.json', 'SCFs', 1),
+            ('parent-explicit-blas-j/run-v1/result.json', 'held_out_validation', True),
+            ('parent-explicit-blas-j/run-v1/result.json', 'physical_admission', True),
+            ('parent-explicit-blas-j/run-v1/result.json', 'parent_SCF_readiness', True),
+            ('parent-explicit-blas-j/run-v1/threads-before_J_A.json', 'blas', 4),
+            ('parent-explicit-blas-j/run-v1/call-A.json', ('capture', 'ordinary_returned_unchanged'), False),
+            ('parent-explicit-blas-j/run-v1/metric-before-factor.json', 'causal_comparison_established', True),
+            ('explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json', 'qualification_launched', True),
+            ('explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json', 'reserved_HMo2O7_operator_or_SCF_use', True),
+            ('explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json', 'parent_repeat_pass', True),
+            ('identity/measurement-integrity-followup/ROOT_REVIEW.json', 'verified_integrated_complement_admissions', 1),
+            ('identity/measurement-integrity-followup/ROOT_REVIEW.json', 'rates_fitted', True),
+            ('identity/measurement-integrity-followup/acquisition.json', 'quantitative_raw_dataset_acquired', True),
+            ('identity/measurement-integrity-followup/acquisition.json', ('root_observations', 5, 'pdf_magic'), True),
             ('identity/concentration-speciation-followup/evidence.json', 'target_tested', True),
             ('boundary/hollow-silicalite-followup/wetting-constraint/ROOT_REVIEW.json', 'physical_target_tested', True),
             ('parent-metric-solve-diagnostic/run-v1/launch-result.json', 'completed', True),
@@ -596,6 +621,11 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-explicit-blas-j/preparation.json',
                        'parent-explicit-blas-j/qualification.json',
                        'parent-explicit-blas-j/test_run.py',
+                       'parent-explicit-blas-j/run-v1/result.json',
+                       'parent-explicit-blas-j/run-v1/launch-result.json',
+                       'explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.md',
+                       'explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json',
+                       'identity/measurement-integrity-followup/ROOT_REVIEW.json',
                        'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
                 record = next(record for record in records if record['path'].endswith(suffix))
@@ -652,8 +682,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
-                       'parent-explicit-blas-j/independent-root-review.json',
-                       'parent-explicit-blas-j/run-v1/result.json',
+                       'explicit-blas-accuracy-qualification/run.py',
+                       'explicit-blas-accuracy-qualification/run-v1/result.json',
                        'parent-metric-solve-diagnostic-v2/run-v1/result.json'):
             with self.subTest(suffix=suffix):
                 path = self.recursive / suffix
@@ -686,6 +716,24 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for path, original in zip(paths, originals):
             path.write_bytes(original)
 
+    def test_explicit_blas_consistent_negative_result_promotions_are_rejected(self):
+        run = self.recursive / 'parent-explicit-blas-j/run-v1'
+        paths = [run / name for name in ('comparisons.json', 'result.json')]
+        originals = [path.read_bytes() for path in paths]
+        for key, value in (('pass', True), ('max_absolute_error', 0),
+                           ('entries_above_tolerance', 0), ('absolute_tolerance', 1e-9),
+                           ('relative_tolerance', 1e-9)):
+            with self.subTest(key=key):
+                comparisons, result = map(json.loads, originals)
+                comparisons['repeat'][key] = value
+                result['comparisons'] = comparisons
+                for path, record in zip(paths, (comparisons, result)):
+                    path.write_text(json.dumps(record))
+                with self.assertRaises(AssertionError):
+                    verify_openmp_renewal(self.recursive, self.case_names)
+        for path, original in zip(paths, originals):
+            path.write_bytes(original)
+
     def test_stage_and_source_artifacts_bind_original_manifest_bytes(self):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
@@ -693,6 +741,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
         for name in ('native.log', 'stdout.txt', 'stderr.txt'):
             with self.subTest(excluded_log=name):
                 records.append({'path': 'recursive-compound-2026-10-15/parent-saved-metric-solve/run-v1/' + name,
+                                'source_sha256': '0' * 64})
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                records.pop()
+        for name in ('raw/poster-response.body', 'raw/poster.headers'):
+            with self.subTest(excluded_payload=name):
+                records.append({'path': 'recursive-compound-2026-10-15/identity/measurement-integrity-followup/' + name,
                                 'source_sha256': '0' * 64})
                 with self.assertRaises(AssertionError):
                     verify_stage_artifact_bindings(self.recursive, records)
@@ -709,6 +764,9 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-saved-metric-solve/qualification-thread/errors-A1.json',
                        'parent-saved-metric-solve/run-v1/rho_A1.npy',
                        'parent-saved-metric-solve/run-v1/result.json',
+                       'parent-explicit-blas-j/run-v1/J_A.npy',
+                       'parent-explicit-blas-j/run-v1/result.json',
+                       'identity/measurement-integrity-followup/acquisition.json',
                        'identity/concentration-speciation-followup/evidence.json',
                        'boundary/hollow-silicalite-followup/wetting-constraint/validation.json'):
             with self.subTest(suffix=suffix):

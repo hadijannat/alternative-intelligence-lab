@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-16",
+  "status": "PRIMARY_PARSED_TEXT_AND_FAILED_BYTE_ACQUISITION_ONLY",
+  "new_candidate_roles": 0,
+  "verified_integrated_complements": 0,
+  "target_tested": false,
+  "held_out_target_validation": false,
+  "quantitative_raw_dataset_acquired": false,
+  "article_doi": "10.1039/D1QI01618K",
+  "root_observations": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9216222/",
+      "method": "web open",
+      "outcome": "CAPTCHA page; no root full article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35756945/",
+      "method": "web indexed primary abstract",
+      "outcome": "abstract read; no native spectra or chromatograms"
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10333339",
+      "method": "web open",
+      "outcome": "fetch timeout; no PDF bytes"
+    },
+    {
+      "url": "https://www.bruker.com/en/landingpages/bdal/poster-hall-mrms-2020/_jcr_content/root/sections/section/sectionpar/accordion/item_1601303372394.download-asset.pdf/ff5a8435-53b3-4a27-86cc-046e88e244ae/mp-444-structure-and-dynamics-of-inorganic-polymers-in-solution-studied-with-high-resolution-ms--lcms-and-16o18o-exchange-focus-on-polyoxometales.pdf",
+      "method": "web PDF text reader",
+      "outcome": "one-page parsed text read; no visually verified figures or local PDF bytes"
+    },
+    {
+      "url": "https://www.bruker.com/en/landingpages/bdal/poster-hall-mrms-2020/_jcr_content/root/sections/section/sectionpar/accordion/item_1601303372394.download-asset.pdf/ff5a8435-53b3-4a27-86cc-046e88e244ae/mp-444-structure-and-dynamics-of-inorganic-polymers-in-solution-studied-with-high-resolution-ms--lcms-and-16o18o-exchange-focus-on-polyoxometales.pdf",
+      "method": "web PDF screenshot",
+      "outcome": "fetch timeout; no screenshot"
+    },
+    {
+      "url": "https://www.bruker.com/en/landingpages/bdal/poster-hall-mrms-2020/_jcr_content/root/sections/section/sectionpar/accordion/item_1601303372394.download-asset.pdf/ff5a8435-53b3-4a27-86cc-046e88e244ae/mp-444-structure-and-dynamics-of-inorganic-polymers-in-solution-studied-with-high-resolution-ms--lcms-and-16o18o-exchange-focus-on-polyoxometales.pdf",
+      "method": "curl direct GET",
+      "curl_exit_code": 0,
+      "http_status": 406,
+      "download_bytes": 293,
+      "pdf_magic": false,
+      "payload": "raw/poster-response.body",
+      "payload_sha256": "e6b1fc626ab1d3c1d3df093c2dcdd61fac27477c8c1debe4bd4fe82c8646a653",
+      "headers": "raw/poster.headers",
+      "headers_sha256": "150914dd12abcf31dd542b5ea37e29ee486a51267a46421d51c461d34f3c11b3",
+      "outcome": "Non-PDF response retained; curl success does not mean source acquired"
+    }
+  ],
+  "investigator_reported_not_root_archived": [
+    {
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2022/qi/d1qi01618k",
+      "outcome": "indexed primary text read; direct403"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9216222/fullTextXML",
+      "outcome": "HTTP500"
+    },
+    {
+      "url": "https://www.rsc.org/suppdata/d1/qi/d1qi01618k/d1qi01618k1.pdf",
+      "outcome": "HTTP403; no SI acquired"
+    }
+  ],
+  "root_search_queries": [
+    "site.pmc.ncbi.nlm.nih.gov/articles/PMC9216222 \"triethylamine\"",
+    "site.pmc.ncbi.nlm.nih.gov/articles/PMC9216222 \"fragment\" \"chromatography\"",
+    "\"D1QI01618K\"",
+    "\"Favre\" \"decavanadate\" \"ion-exclusion\""
+  ],
+  "search_limitations": "First two root queries returned unrelated material and supplied no accepted claim. Six investigator queries were reported; exact strings were not supplied. No exhaustive novelty search claimed.",
+  "numerical_parameters_admitted": [],
+  "scientific_runs": 0
+}

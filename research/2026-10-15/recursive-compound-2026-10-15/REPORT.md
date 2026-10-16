@@ -1,6 +1,14 @@
 # Recursive compound investigation: first integrated assessment
 
-## Current publication checkpoint: controlled solve completed, full-J diagnostic prepared
+## Current publication checkpoint: explicit-control J repeatability failed
+
+The [explicit BLAS diagnostic](parent-explicit-blas-j/REPORT.md) completed two ordinary positive-P0 J calls and one factorization, with zero SCFs and zero PCM builds. B versus A differs by 6.702407517877873e-10 at maximum, with 630 entries above the unchanged absolute 1e-10/relative-zero limit. Both matrices are finite and exactly symmetric; both comparisons with the historical first J also fail. No sign-reversal test ran. The child completed in 514.0907300410327 seconds with 3,772,645,376 bytes sampled maximum RSS. Independent review verified all 35 output hashes and reproduced the full-matrix failures. Completion is not numerical acceptance, and these results establish neither an exclusive cause nor parent SCF readiness.
+
+The [prospective accuracy qualification](explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json) fails its required parent prerequisite. Its reviewed draft remains unimplemented and unlaunched, and the reserved HMo2O7 case has not been used for operators or SCFs. No held-out validation occurred. The [measurement-integrity follow-up](identity/measurement-integrity-followup/REPORT.md) adds assay controls for instrument-dependent speciation and oxygen exchange, based on primary abstract and parsed poster content. Direct poster retrieval returned a retained HTTP 406 response; no raw chromatogram, spectrum or target calibration dataset was acquired. This supplies measurement constraints, not demonstrated active retention or inheritance.
+
+The user requests committing and pushing the continuation after `82d915a3eaa292ebd8b0cdce4ffcfac9654dca44`. Publication evidence is recorded separately; no further scientific run is part of this checkpoint. Aggregate remains **24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet**. The following sections preserve historical states, including earlier pending-preparation wording, and are superseded by this checkpoint.
+
+## Historical publication checkpoint: controlled solve completed, full-J diagnostic prepared
 
 The [saved-metric replay](parent-saved-metric-solve/REPORT.md) completed one factorization and four explicit solves in66.0381505seconds under observed configured BLAS1/PySCF4. The identical-RHS pair is bitwise repeatable. Small saved RHS differences still amplify into coefficient differences; DPOCON estimates condition number2.49724e13. The new factor differs from the historical factor, so no exclusive prior-cause inference follows. Independent selected-row exact arithmetic exposes rounding in the ordinary residual calculation. No J, SCF, target experiment or held-out target validation ran.
 

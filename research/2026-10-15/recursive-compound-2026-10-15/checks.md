@@ -2,6 +2,22 @@
 
 All paths below are relative to this directory. Numerical PASS means only the stated check passed. No required target function is fulfilled by a source-table or software check.
 
+## Current checkpoint: explicit-control failure retained
+
+The aggregate is 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unmet. This checkpoint supersedes the pending statuses and earlier counts in the historical table below.
+
+| Check | Verdict | Evidence | Observable and limit |
+|---|---|---|---|
+| Explicit BLAS ordinary-J diagnostic | COMPLETED; NUMERICAL FAIL | parent-explicit-blas-j/run-v1/result.json; supervisor.json; REPORT.md | Two J calls, one factorization, zero SCFs/PCM builds; 514.0907300410327 s, sampled maximum RSS 3,772,645,376 bytes; process exit zero is diagnostic completion only |
+| Full-matrix repetition | FAIL | parent-explicit-blas-j/run-v1/comparisons.json; INDEPENDENT_REVIEW.md | Maximum 6.702407517877873e-10; 630 entries exceed unchanged 1e-10 absolute/zero relative tolerance |
+| Historical first-J comparisons | FAIL; NONINDEPENDENT REFERENCE | parent-explicit-blas-j/run-v1/comparisons.json | A: 2.560511802585097e-10 and 80 entries; B: 8.22808488010196e-10 and 790 entries; no independent accuracy oracle |
+| Matrix symmetry and sign-test scope | FINITE AND EXACTLY SYMMETRIC; SIGN UNTESTED | parent-explicit-blas-j/run-v1/result.json; INDEPENDENT_REVIEW.md | No sign-reversal call; false/null helper fields are no-reference defaults, not an executed sign-test failure |
+| Terminal independent review | CLEAR FOR RECORDING FAILURE | parent-explicit-blas-j/INDEPENDENT_REVIEW.md | All 35 output hashes verified and full differences recomputed in 73-row blocks; no numerical pass or physical admission |
+| Prospective accuracy qualification | PREREQUISITE FAILED; UNIMPLEMENTED AND UNLAUNCHED | explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json | No operator/SCF use of reserved HMo2O7 case; no held-out validation; unchanged draft retained |
+| Analytical integrity and isotope controls | SOURCE CONSTRAINT ONLY | identity/measurement-integrity-followup/REPORT.md; acquisition.json; ROOT_REVIEW.json | Primary abstract and parsed poster support assay controls; HTTP 406 body retained, no raw spectra/chromatograms or target calibration data |
+
+## Historical checkpoint table
+
 | Requirement | Verdict | Evidence | Correction or remaining work |
 |---|---|---|---|
 | Parent metric diagnostic v1 | FAILED BEFORE METRIC | parent-metric-solve-diagnostic/run-v1/failure.json; launch-result.json | Parent metadata fingerprint rejects state; exit1; no metric or solve result; failed attempt retained |

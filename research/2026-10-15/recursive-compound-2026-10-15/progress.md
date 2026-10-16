@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication: completed saved-metric replay and prepared full-J diagnostic
+## Current publication: completed explicit-control diagnostic with numerical failure
+
+The user requests committing and pushing the continuation after `82d915a3eaa292ebd8b0cdce4ffcfac9654dca44`. The single approved explicit BLAS diagnostic is complete: two ordinary positive-P0 J calls, one factorization, zero SCFs and zero PCM builds. Repeatability failed at maximum 6.702407517877873e-10, with 630 entries above the unchanged 1e-10 absolute/zero relative limit. Both historical comparisons fail; finite and exactly symmetric matrices do not rescue the failed criterion. No sign-reversal test occurred. Independent result review is CLEAR for recording this failure and reproduced all three full-matrix comparisons.
+
+The child returned zero in 514.0907300410327 seconds and remained below the sampled RSS guard, with observed maximum 3,772,645,376 bytes. These observations establish completion within the stated monitoring limits, not general runtime safety or physical accuracy. Configured BLAS1/PySCF4 control did not resolve the repeatability failure in this realization; no exclusive cause or configuration ranking is established.
+
+The prospective accuracy qualification's parent prerequisite failed. Its reviewed draft remains unimplemented and unlaunched; the reserved HMo2O7 case remains unused for operators or SCFs, with no held-out validation. The measurement-integrity follow-up adds controls for analytical speciation changes and isotope exchange while preserving failed source retrieval and absence of raw quantitative data. No target retention or inheritance assay ran.
+
+The full scientific objective remains active and unmet: 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unresolved. All numerical failures and prior states remain below as history. Publication status is recorded separately; this checkpoint supersedes historical pending-approval and unlaunched-diagnostic wording without changing frozen records.
+
+## Historical publication: completed saved-metric replay and prepared full-J diagnostic
 
 The user requests committing the continuation after published `ce36500` and pushing main. This section supersedes current-state wording in every historical section below. The full scientific objective remains active and unmet: 24 assessed roles, zero verified integrated complements, and all twelve requirements I/E/T/B/R/H/V/S/M/A/J/C unresolved.
 

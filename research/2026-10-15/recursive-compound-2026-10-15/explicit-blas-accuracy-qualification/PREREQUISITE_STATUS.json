@@ -1,0 +1,21 @@
+{
+  "status": "PARENT_REPEATABILITY_PREREQUISITE_FAILED_NO_LAUNCH",
+  "date": "2026-10-16",
+  "protocol_draft_sha256": "27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6",
+  "parent_result_path": "../parent-explicit-blas-j/run-v1/result.json",
+  "parent_result_sha256": "cd35669af12ff030145d3f8afdf51ed8a53343c809929783f0ec121589221d1f",
+  "parent_repeat_pass": false,
+  "parent_repeat_max_absolute_error": 6.702407517877873e-10,
+  "parent_repeat_entries_above_tolerance": 630,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 0,
+  "qualification_implemented": false,
+  "qualification_launched": false,
+  "qualification_native_operator_calls": 0,
+  "qualification_SCF_calls": 0,
+  "reserved_HMo2O7_operator_or_SCF_use": false,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "interpretation": "The draft's required parent repeatability prerequisite failed. Preserve the draft and preparation audit as historical planning artifacts; their pre-result unknown status is superseded here. No retry or threshold change is authorized by this receipt."
+}

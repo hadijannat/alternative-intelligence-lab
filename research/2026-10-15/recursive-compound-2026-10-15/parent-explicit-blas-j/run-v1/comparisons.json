@@ -1,0 +1,100 @@
+{
+  "repeat": {
+    "pass": false,
+    "max_absolute_error": 6.702407517877873e-10,
+    "argmax": [
+      2972,
+      2972
+    ],
+    "values_at_argmax": {
+      "actual": 94.73410152385041,
+      "reference": 94.73410152452065,
+      "expected": 94.73410152452065
+    },
+    "entries_above_tolerance": 630,
+    "matrix_max_abs": 144.84252168571876,
+    "reference_max_abs": 144.8425216857189,
+    "reference_multiplier": 1,
+    "absolute_tolerance": 1e-10,
+    "relative_tolerance": 0,
+    "chunk_rows": 16
+  },
+  "symmetry": {
+    "A": {
+      "finite": true,
+      "symmetric": true,
+      "max_asymmetry": 0.0,
+      "sign_pass": false,
+      "max_sign_error": null,
+      "chunk_rows": 16
+    },
+    "B": {
+      "finite": true,
+      "symmetric": true,
+      "max_asymmetry": 0.0,
+      "sign_pass": false,
+      "max_sign_error": null,
+      "chunk_rows": 16
+    }
+  },
+  "historical_reference": {
+    "A": {
+      "pass": false,
+      "max_absolute_error": 2.560511802585097e-10,
+      "argmax": [
+        3061,
+        3061
+      ],
+      "values_at_argmax": {
+        "actual": 130.3277009567762,
+        "reference": 130.32770095652015,
+        "expected": 130.32770095652015
+      },
+      "entries_above_tolerance": 80,
+      "matrix_max_abs": 144.8425216857189,
+      "reference_max_abs": 144.84252168571857,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "B": {
+      "pass": false,
+      "max_absolute_error": 8.22808488010196e-10,
+      "argmax": [
+        2987,
+        2987
+      ],
+      "values_at_argmax": {
+        "actual": 94.73410152427216,
+        "reference": 94.73410152509497,
+        "expected": 94.73410152509497
+      },
+      "entries_above_tolerance": 790,
+      "matrix_max_abs": 144.84252168571876,
+      "reference_max_abs": 144.84252168571857,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    }
+  },
+  "vectors": {
+    "b": {
+      "exact_equal": false,
+      "max_absolute_difference": 2.2282620193436742e-11,
+      "RMS_difference": 6.08576192478926e-13,
+      "acceptance_threshold": null
+    },
+    "rho_ordinary": {
+      "exact_equal": false,
+      "max_absolute_difference": 0.0013222289814285304,
+      "RMS_difference": 1.729655261814533e-05,
+      "acceptance_threshold": null
+    }
+  },
+  "repeat_and_symmetry_pass": false,
+  "historical_reference_pass": false,
+  "historical_reference_is_independent_oracle": false,
+  "physical_admission": false
+}

@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication work: completed replay and prepared explicit-control diagnostic
+## Current publication work: retain explicit-control numerical failure
+
+Publish the completed [two-call diagnostic](parent-explicit-blas-j/REPORT.md), its independent review, the [failed qualification prerequisite](explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json), and the [measurement-integrity constraints](identity/measurement-integrity-followup/REPORT.md) after `82d915a3eaa292ebd8b0cdce4ffcfac9654dca44`. Record export, commit, push and hosted verification separately. No new scientific launch is included in this publication task.
+
+The unchanged parent repeatability criterion failed: maximum B-minus-A J difference 6.702407517877873e-10, with 630 entries above 1e-10. The historical comparisons fail as well. Retain these results, all earlier failures and the original thresholds. The reviewed prospective accuracy draft cannot proceed because its parent prerequisite failed; it remains unimplemented and unlaunched, with the reserved HMo2O7 operator/SCF case unused. A subsequent scientific proposal must discriminate numerical variability from conditioning without inferring an exclusive cause, choosing an approximation from coefficient deltas alone, or consuming the holdout before prerequisites pass.
+
+Assay design now requires solution-resolved identity and competence measurements before and after analytical processing, matched column-free aging, source-energy controls and recovery accounting. Oxygen-label ancestry interpretation additionally requires a precursor-free founder-plus-labelled-water control. These remain proposed measurements, with no imported target rates or verified complement. All twelve integrated requirements remain unmet; 24 assessments and zero admissions. Historical workplans below retain their original checkpoint states and are superseded here.
+
+## Historical publication work: completed replay and prepared explicit-control diagnostic
 
 The single saved-metric replay is complete and independently reviewed:66.0381505seconds, one factorization/four solves, identical A1/A2, high estimated conditioning and retained RHS sensitivity. It reused examined inputs and is not a holdout. Preserve the SIGBUS, all earlier J nonpasses, and the residual-rounding findings; do not replace coefficient sensitivity with a claim of physical error or crash causality.
 

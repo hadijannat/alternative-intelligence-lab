@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PREPARATION_ARTIFACT_CHECKS_ONLY",
+  "checks": [
+    {
+      "scenario": "HMo2O7.xyz original selection SHA256",
+      "pass": true
+    },
+    {
+      "scenario": "HMo2O7.in original selection SHA256",
+      "pass": true
+    },
+    {
+      "scenario": "ten finite atoms and Mo2O7H composition",
+      "pass": true
+    },
+    {
+      "scenario": "null source spin retained",
+      "pass": true
+    },
+    {
+      "scenario": "anion-water all four saved direct/RI/density members",
+      "pass": true
+    },
+    {
+      "scenario": "neutral-water all four saved direct/RI/density members",
+      "pass": true
+    },
+    {
+      "scenario": "anion-eps1 all four saved direct/RI/density members",
+      "pass": true
+    },
+    {
+      "scenario": "heldout-Mo2O7 all four saved direct/RI/density members",
+      "pass": true
+    },
+    {
+      "scenario": "new-external all four saved direct/RI/density members",
+      "pass": true
+    }
+  ],
+  "native_operators": 0,
+  "SCFs": 0,
+  "parent_diagnostic_outcome": "NOT_INSPECTED_UNKNOWN",
+  "protocol_sha256": "27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6",
+  "invocation": "python3 stdlib-only inline audit: hashlib raw provenance; finite coordinate parsing; zipfile NPZ member inventory; no numerical imports",
+  "previous_protocol_sha256": "070474ef7d65d0f08f334bbf9fbb1c638831a085aa7561f3a5e8fae3b45102be",
+  "previous_protocol_path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.before-scope-clarifications.md",
+  "scope_clarification_checks": {
+    "empty_success_stderr_allowed": true,
+    "no_arbitrary_nonempty_log_requirement": true,
+    "RI_stationarity_not_applied_at_direct_density": true,
+    "direct_residual_at_RI_density_retained": true
+  }
+}

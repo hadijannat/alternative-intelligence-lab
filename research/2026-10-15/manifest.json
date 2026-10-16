@@ -14,15 +14,15 @@
     "rna-turnover-tests-2026-10-15",
     "recursive-compound-2026-10-15"
   ],
-  "included_files": 3270,
-  "published_bytes": 1770296057,
-  "unique_published_blobs": 2489,
-  "excluded_entries": 761,
+  "included_files": 3316,
+  "published_bytes": 1922112991,
+  "unique_published_blobs": 2531,
+  "excluded_entries": 766,
   "per_lab": {
     "alternative-entity-lab-2026-10-15": 107,
     "measured-coupling-2026-10-15": 159,
     "noncarbon-discovery-2026-10-15": 87,
-    "recursive-compound-2026-10-15": 1001,
+    "recursive-compound-2026-10-15": 1047,
     "rna-coupled-chemistry-2026-10-15": 31,
     "rna-inheritance-design-2026-10-15": 387,
     "rna-mechanism-2026-10-15": 127,
@@ -4813,10 +4813,10 @@
       "path": "recursive-compound-2026-10-15/REPORT.md",
       "status": "included",
       "reason": null,
-      "source_size": 53218,
-      "source_sha256": "54a3ec3840fa512b56ae8741e6b999e798809041e11bdf4a7d0de481d0e533e1",
-      "published_size": 53218,
-      "published_sha256": "54a3ec3840fa512b56ae8741e6b999e798809041e11bdf4a7d0de481d0e533e1",
+      "source_size": 55264,
+      "source_sha256": "28b3e67adfa126c93bd186004a330fcf9ac3f3ef22aaa15ff8ac0fae96deff07",
+      "published_size": 55264,
+      "published_sha256": "28b3e67adfa126c93bd186004a330fcf9ac3f3ef22aaa15ff8ac0fae96deff07",
       "transformations": []
     },
     {
@@ -4833,10 +4833,10 @@
       "path": "recursive-compound-2026-10-15/WORKPLAN.md",
       "status": "included",
       "reason": null,
-      "source_size": 20189,
-      "source_sha256": "bee24044e20e80b2612b849c6fbf92c2e0d4813bc49883ee68239c8c505e2f7a",
-      "published_size": 20189,
-      "published_sha256": "bee24044e20e80b2612b849c6fbf92c2e0d4813bc49883ee68239c8c505e2f7a",
+      "source_size": 21997,
+      "source_sha256": "02820971aa4984d91bdc0aad427e4551c776dc63e9488c3fbd22454c1aa4aeca",
+      "published_size": 21997,
+      "published_sha256": "02820971aa4984d91bdc0aad427e4551c776dc63e9488c3fbd22454c1aa4aeca",
       "transformations": []
     },
     {
@@ -5874,10 +5874,10 @@
       "path": "recursive-compound-2026-10-15/checks.md",
       "status": "included",
       "reason": null,
-      "source_size": 26554,
-      "source_sha256": "5766692b679ecd012d7f6f2a056432b1761c822f2ade68c93d9d7f47a4c45ab3",
-      "published_size": 26554,
-      "published_sha256": "5766692b679ecd012d7f6f2a056432b1761c822f2ade68c93d9d7f47a4c45ab3",
+      "source_size": 28740,
+      "source_sha256": "f505b117a42e3691469ccfe4f49457b991bbfe4888e6b4958c3e3030f66635bd",
+      "published_size": 28740,
+      "published_sha256": "f505b117a42e3691469ccfe4f49457b991bbfe4888e6b4958c3e3030f66635bd",
       "transformations": []
     },
     {
@@ -7217,6 +7217,56 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/PLAN_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 9153,
+      "source_sha256": "142cebb9f267aa639f7b79e1d1993a305cafc6704193e71295e30e140428c644",
+      "published_size": 9153,
+      "published_sha256": "142cebb9f267aa639f7b79e1d1993a305cafc6704193e71295e30e140428c644",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/PREREQUISITE_STATUS.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1118,
+      "source_sha256": "0877a1aecfd133a36f0c42e47e5edd8166c736a65a9f60075862c77ff83a4a9e",
+      "published_size": 1118,
+      "published_sha256": "0877a1aecfd133a36f0c42e47e5edd8166c736a65a9f60075862c77ff83a4a9e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.before-scope-clarifications.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 12514,
+      "source_sha256": "070474ef7d65d0f08f334bbf9fbb1c638831a085aa7561f3a5e8fae3b45102be",
+      "published_size": 12514,
+      "published_sha256": "070474ef7d65d0f08f334bbf9fbb1c638831a085aa7561f3a5e8fae3b45102be",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/PROTOCOL_DRAFT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 13337,
+      "source_sha256": "27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6",
+      "published_size": 13337,
+      "published_sha256": "27943221f7205f7dda7f4077935dc6dc9ac3e11f9d833b09877a4a0a92f262c6",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/explicit-blas-accuracy-qualification/preparation-audit.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1781,
+      "source_sha256": "34ea0cc066e891a105fde735e000e36b22ead8e8a9419526b827af35ae0726db",
+      "published_size": 1781,
+      "published_sha256": "34ea0cc066e891a105fde735e000e36b22ead8e8a9419526b827af35ae0726db",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/heredity/.omo/evidence/checks.json",
       "status": "included",
       "reason": null,
@@ -7750,6 +7800,58 @@
       "published_size": 346,
       "published_sha256": "45ce76bf1c969a761e63691fba6426ef4d8998d92ddbea1ee597cc101fb99e35",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 5000,
+      "source_sha256": "a6ce18cee5794dca94dfb3b91415f66bb915c211ad7e9e751ba5e68caf48eeb9",
+      "published_size": 5000,
+      "published_sha256": "a6ce18cee5794dca94dfb3b91415f66bb915c211ad7e9e751ba5e68caf48eeb9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4106,
+      "source_sha256": "9717274ac3eae665250c728e47976b36a2cf0463185b02fda44d8b4bc8e54129",
+      "published_size": 4106,
+      "published_sha256": "9717274ac3eae665250c728e47976b36a2cf0463185b02fda44d8b4bc8e54129",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/ROOT_REVIEW.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 572,
+      "source_sha256": "eb212ce924aa6ddfe932406ad84b82d468cce24c46ef693636195308249038c2",
+      "published_size": 572,
+      "published_sha256": "eb212ce924aa6ddfe932406ad84b82d468cce24c46ef693636195308249038c2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/acquisition.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3691,
+      "source_sha256": "8839f2f74faac714c5a9a85eb04bbe6c2b02081cbf12b04f53cded2fda0692bc",
+      "published_size": 3691,
+      "published_sha256": "8839f2f74faac714c5a9a85eb04bbe6c2b02081cbf12b04f53cded2fda0692bc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/raw/poster-response.body",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 293
+    },
+    {
+      "path": "recursive-compound-2026-10-15/identity/measurement-integrity-followup/raw/poster.headers",
+      "status": "excluded",
+      "reason": "third-party raw payload; source URL/hash retained in ledgers",
+      "source_size": 271
     },
     {
       "path": "recursive-compound-2026-10-15/identity/mixed-addenda-source-audit/INDEPENDENT_REVIEW.md",
@@ -8920,6 +9022,26 @@
       "transformations": []
     },
     {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/INDEPENDENT_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7051,
+      "source_sha256": "cd888f79188015430d361b119d23ae9d5df2717a7662995b3302bac1362499f9",
+      "published_size": 7051,
+      "published_sha256": "cd888f79188015430d361b119d23ae9d5df2717a7662995b3302bac1362499f9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/PRELAUNCH_REVIEW.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 7274,
+      "source_sha256": "acd1c3c88a58baf69bfe41c227efb891f0c12ace12ef8049296cecde4e15b1a4",
+      "published_size": 7274,
+      "published_sha256": "acd1c3c88a58baf69bfe41c227efb891f0c12ace12ef8049296cecde4e15b1a4",
+      "transformations": []
+    },
+    {
       "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/PROTOCOL.md",
       "status": "included",
       "reason": null,
@@ -8928,6 +9050,31 @@
       "published_size": 3157,
       "published_sha256": "80aec5db5c86a6dd124df021b759b1e64e3eb635cbe4558be90500a9ccb62d9a",
       "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/REPORT.md",
+      "status": "included",
+      "reason": null,
+      "source_size": 4173,
+      "source_sha256": "4ae49589d54ce1785fa4a1de223690c2f3dac23ef200c26f193aa7c079498b4e",
+      "published_size": 4173,
+      "published_sha256": "4ae49589d54ce1785fa4a1de223690c2f3dac23ef200c26f193aa7c079498b4e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/independent-root-review.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 20570,
+      "source_sha256": "22fadb8296b639a3859ac79de7dbf2b93e68224c80a6df077846efd80d4b3892",
+      "published_size": 17690,
+      "published_sha256": "3c706ca1f0536bb27ff1faf29284d87079dd3cdc422b6fae6cc89ef989bdd6f6",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 80
+        }
+      ]
     },
     {
       "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/preparation-failures.md",
@@ -8962,6 +9109,374 @@
       "source_sha256": "1e1a757e739a5605b925605285477173db475018035eeb3977a52b4fd22cd85a",
       "published_size": 875,
       "published_sha256": "1e1a757e739a5605b925605285477173db475018035eeb3977a52b4fd22cd85a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/J_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301120,
+      "source_sha256": "ed9d5270aa9bf67c6ea7f7cc79945468bc45ee3b3ef5f5b2e30e3181b8fb046f",
+      "published_size": 75301120,
+      "published_sha256": "ed9d5270aa9bf67c6ea7f7cc79945468bc45ee3b3ef5f5b2e30e3181b8fb046f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/J_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 75301120,
+      "source_sha256": "76d572f4f288393d1cce001068b9b2b3bc5c8717d850a7c5430af0b3ee9d5ac0",
+      "published_size": 75301120,
+      "published_sha256": "76d572f4f288393d1cce001068b9b2b3bc5c8717d850a7c5430af0b3ee9d5ac0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/b_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "ffabf610b00860eae6d1f440fd6e42f710cd44a6345fb832c27ca469387b2da9",
+      "published_size": 157024,
+      "published_sha256": "ffabf610b00860eae6d1f440fd6e42f710cd44a6345fb832c27ca469387b2da9",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/b_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "dcbf684676563f0ff8eacb6758d494b2bf3ba928dc00d53c992b8588b3f4136b",
+      "published_size": 157024,
+      "published_sha256": "dcbf684676563f0ff8eacb6758d494b2bf3ba928dc00d53c992b8588b3f4136b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/call-A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1031,
+      "source_sha256": "96dc88d4ad01e3f280b83d9db933d4d4a734de436b10da659bb114f1ce3135e3",
+      "published_size": 1031,
+      "published_sha256": "96dc88d4ad01e3f280b83d9db933d4d4a734de436b10da659bb114f1ce3135e3",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/call-B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 1027,
+      "source_sha256": "c1ee2cdd5481c4e51e9627dc2876c98cef33a3a76bcf04b3df060fbd285b0112",
+      "published_size": 1027,
+      "published_sha256": "c1ee2cdd5481c4e51e9627dc2876c98cef33a3a76bcf04b3df060fbd285b0112",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/closed-output-hashes-A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 245,
+      "source_sha256": "dc4b3604eb8ab8b241db55e13b1a2fa26d070d25df79144df71031d96d0e13be",
+      "published_size": 245,
+      "published_sha256": "dc4b3604eb8ab8b241db55e13b1a2fa26d070d25df79144df71031d96d0e13be",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/closed-output-hashes-B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 245,
+      "source_sha256": "0ee660280199ef7519f734aaa40c8c246a6e4bfa53ca58aee725759d84b0c87b",
+      "published_size": 245,
+      "published_sha256": "0ee660280199ef7519f734aaa40c8c246a6e4bfa53ca58aee725759d84b0c87b",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/comparisons.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2562,
+      "source_sha256": "285fffe7b0f0071be751f904be3747687e9965e3df48b6d059f2102a3347d5cc",
+      "published_size": 2562,
+      "published_sha256": "285fffe7b0f0071be751f904be3747687e9965e3df48b6d059f2102a3347d5cc",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/factor-aliases.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 289,
+      "source_sha256": "09f7431b59ae39ad4382409333dfdf05c93014f9aa483baf1e0a58a10e87ea6e",
+      "published_size": 289,
+      "published_sha256": "09f7431b59ae39ad4382409333dfdf05c93014f9aa483baf1e0a58a10e87ea6e",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/factor-states.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 493,
+      "source_sha256": "530db90fb7e6d7d4d7d0ee16051aa3638047ceb6ae4b7ebb00623995701b0598",
+      "published_size": 493,
+      "published_sha256": "530db90fb7e6d7d4d7d0ee16051aa3638047ceb6ae4b7ebb00623995701b0598",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/launch-gate.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 182,
+      "source_sha256": "bc97acb0b447eb244a8837e5ea2dd6ec4ef693cbd1e0b871add8a2185ae62289",
+      "published_size": 182,
+      "published_sha256": "bc97acb0b447eb244a8837e5ea2dd6ec4ef693cbd1e0b871add8a2185ae62289",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/launch-result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 234389,
+      "source_sha256": "e896086b360363a1c527911142bee762b39f20b3c16b073a6235cebd30987c6f",
+      "published_size": 234317,
+      "published_sha256": "e427c2471feace1096c6343f88d5de1303c321b558db6c1322cdcd5a808c3a09",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/metric-before-factor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 269,
+      "source_sha256": "de5dc02671c688b817d2c7642634a1c99507499acf32c01de91c0dbed4aa11e2",
+      "published_size": 269,
+      "published_sha256": "de5dc02671c688b817d2c7642634a1c99507499acf32c01de91c0dbed4aa11e2",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/metric-calls.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 198,
+      "source_sha256": "2d548912537d9f7046e7fef4e2144a616bf5a42467d97afd6fe5266edd3ef46c",
+      "published_size": 198,
+      "published_sha256": "2d548912537d9f7046e7fef4e2144a616bf5a42467d97afd6fe5266edd3ef46c",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/molecule-state.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 641,
+      "source_sha256": "6ed120a401a20c8d7dc611987c7949d45e20136de9961dda3619691226dbfaad",
+      "published_size": 641,
+      "published_sha256": "6ed120a401a20c8d7dc611987c7949d45e20136de9961dda3619691226dbfaad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/native.log",
+      "status": "excluded",
+      "reason": "unapproved format, acquired document, or raw payload",
+      "source_size": 37883
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/result.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 3524,
+      "source_sha256": "cd35669af12ff030145d3f8afdf51ed8a53343c809929783f0ec121589221d1f",
+      "published_size": 3524,
+      "published_sha256": "cd35669af12ff030145d3f8afdf51ed8a53343c809929783f0ec121589221d1f",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/rho_ordinary_A.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "9e5931626667db51502ba34b4b337bbe982a2de90ab0bd3079b0cf03c586ff98",
+      "published_size": 157024,
+      "published_sha256": "9e5931626667db51502ba34b4b337bbe982a2de90ab0bd3079b0cf03c586ff98",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/rho_ordinary_B.npy",
+      "status": "included",
+      "reason": null,
+      "source_size": 157024,
+      "source_sha256": "37667ba7790e35dcf3ac9a8eb0f69e30f027b6826b50908fc13fe278a7b2c452",
+      "published_size": 157024,
+      "published_sha256": "37667ba7790e35dcf3ac9a8eb0f69e30f027b6826b50908fc13fe278a7b2c452",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/runtime-observation.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 37392,
+      "source_sha256": "176a3222c9f2ac7605bad6c605437d80358dfa38a0d536ac8efddd54e8017078",
+      "published_size": 31776,
+      "published_sha256": "b685d3dff53c880189f2408da1b7dc5bc47430cb790c4fbe57da92c59143a98d",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/stages.jsonl",
+      "status": "included",
+      "reason": null,
+      "source_size": 298,
+      "source_sha256": "a738617a4a38bad3734c63393d0fccf27fc7e73d6ef9208860367f25d501e428",
+      "published_size": 298,
+      "published_sha256": "a738617a4a38bad3734c63393d0fccf27fc7e73d6ef9208860367f25d501e428",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/stderr.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 0
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/stdout.txt",
+      "status": "excluded",
+      "reason": "text log or raw web body outside own model/experiment/results scope",
+      "source_size": 133
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/supervisor.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 211601,
+      "source_sha256": "e23b1b2509b975826e47493f4822ee114bc9192e58bfd4d867e9d51c33dafc89",
+      "published_size": 211529,
+      "published_sha256": "e31ddcb5b1467db21e71751db2b856c8e918ebd0f6aa8632efeb29682fd331b1",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-after_J_A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 54,
+      "source_sha256": "cec93b4613679062b22258ccec257ebc522d110304eac35a67d374ba5ffa14ad",
+      "published_size": 54,
+      "published_sha256": "cec93b4613679062b22258ccec257ebc522d110304eac35a67d374ba5ffa14ad",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-after_J_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 54,
+      "source_sha256": "c47ccc123b288cead61f942075c4f39f365fb1d94c7b97d5064983cc1282f57a",
+      "published_size": 54,
+      "published_sha256": "c47ccc123b288cead61f942075c4f39f365fb1d94c7b97d5064983cc1282f57a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-after_setup.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 56,
+      "source_sha256": "af2b53590f9fd81aac3229a40b9f4ad45ac59155cbf22ed80501c8c64d1abbd0",
+      "published_size": 56,
+      "published_sha256": "af2b53590f9fd81aac3229a40b9f4ad45ac59155cbf22ed80501c8c64d1abbd0",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-before_J_A.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 55,
+      "source_sha256": "f6b146c6993fb8edeaae258aab2475ce60de30a292ea336884bee8cab4970719",
+      "published_size": 55,
+      "published_sha256": "f6b146c6993fb8edeaae258aab2475ce60de30a292ea336884bee8cab4970719",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-before_J_B.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 55,
+      "source_sha256": "af389f75947ae3dce9fdec1059d333e8a6ed26902885a175997274a6696e5623",
+      "published_size": 55,
+      "published_sha256": "af389f75947ae3dce9fdec1059d333e8a6ed26902885a175997274a6696e5623",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-before_setup.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 57,
+      "source_sha256": "ec6e29984437d4d4120158c25ca574b8ca5ea6aed40a392c147ca4ee558dc044",
+      "published_size": 57,
+      "published_sha256": "ec6e29984437d4d4120158c25ca574b8ca5ea6aed40a392c147ca4ee558dc044",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-explicit_setter.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 60,
+      "source_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "published_size": 60,
+      "published_sha256": "f84325c0d6f544d3e3c2bac2f750cb23b912b40872b86b8c77968cd275ffecb8",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-identity.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 2194,
+      "source_sha256": "045b804c8a7c81e5219fcb035208acb8201926788c6b4ee0c6948856317378b3",
+      "published_size": 1906,
+      "published_sha256": "ac29de81705a3effc747fda08fe845febfb3d75eb15d45fed7c3fdf8713778ad",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-initial.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 30,
+      "source_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "published_size": 30,
+      "published_sha256": "3b2bd900c2083cff3300a296af1a417924e328875bd0c305fc1252b46d167d9a",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/threads-restored_getter_counts.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 73,
+      "source_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "published_size": 73,
+      "published_sha256": "9e0b0253ad0713a3b07d7c8a73054132a6d28c4eafbaf5e235964d34a0e25f82",
+      "transformations": []
+    },
+    {
+      "path": "recursive-compound-2026-10-15/parent-explicit-blas-j/run-v1/worker-started.json",
+      "status": "included",
+      "reason": null,
+      "source_size": 75,
+      "source_sha256": "db97e02c09dbed803ee84700ece19a2c6ccada851b989e2bcd5c2ad2cf8b6575",
+      "published_size": 75,
+      "published_sha256": "db97e02c09dbed803ee84700ece19a2c6ccada851b989e2bcd5c2ad2cf8b6575",
       "transformations": []
     },
     {
@@ -16255,10 +16770,10 @@
       "path": "recursive-compound-2026-10-15/progress.md",
       "status": "included",
       "reason": null,
-      "source_size": 50176,
-      "source_sha256": "6446368e8b9de716d53d18b6f33c2ff7b9a5c8401a753c977ace5751bd6ac7d3",
-      "published_size": 50176,
-      "published_sha256": "6446368e8b9de716d53d18b6f33c2ff7b9a5c8401a753c977ace5751bd6ac7d3",
+      "source_size": 52173,
+      "source_sha256": "f7b46ef88303122e7f980b982ae79f91e2f64662988408c22666a88688e3223c",
+      "published_size": 52173,
+      "published_sha256": "f7b46ef88303122e7f980b982ae79f91e2f64662988408c22666a88688e3223c",
       "transformations": []
     },
     {

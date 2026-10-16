@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETED_EXPLICIT_BLAS_J_DIAGNOSTIC_ONLY",
+  "J_calls": 2,
+  "factor_count": 1,
+  "SCFs": 0,
+  "PCM_builds": 0,
+  "comparisons": {
+    "repeat": {
+      "pass": false,
+      "max_absolute_error": 6.702407517877873e-10,
+      "argmax": [
+        2972,
+        2972
+      ],
+      "values_at_argmax": {
+        "actual": 94.73410152385041,
+        "reference": 94.73410152452065,
+        "expected": 94.73410152452065
+      },
+      "entries_above_tolerance": 630,
+      "matrix_max_abs": 144.84252168571876,
+      "reference_max_abs": 144.8425216857189,
+      "reference_multiplier": 1,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0,
+      "chunk_rows": 16
+    },
+    "symmetry": {
+      "A": {
+        "finite": true,
+        "symmetric": true,
+        "max_asymmetry": 0.0,
+        "sign_pass": false,
+        "max_sign_error": null,
+        "chunk_rows": 16
+      },
+      "B": {
+        "finite": true,
+        "symmetric": true,
+        "max_asymmetry": 0.0,
+        "sign_pass": false,
+        "max_sign_error": null,
+        "chunk_rows": 16
+      }
+    },
+    "historical_reference": {
+      "A": {
+        "pass": false,
+        "max_absolute_error": 2.560511802585097e-10,
+        "argmax": [
+          3061,
+          3061
+        ],
+        "values_at_argmax": {
+          "actual": 130.3277009567762,
+          "reference": 130.32770095652015,
+          "expected": 130.32770095652015
+        },
+        "entries_above_tolerance": 80,
+        "matrix_max_abs": 144.8425216857189,
+        "reference_max_abs": 144.84252168571857,
+        "reference_multiplier": 1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      },
+      "B": {
+        "pass": false,
+        "max_absolute_error": 8.22808488010196e-10,
+        "argmax": [
+          2987,
+          2987
+        ],
+        "values_at_argmax": {
+          "actual": 94.73410152427216,
+          "reference": 94.73410152509497,
+          "expected": 94.73410152509497
+        },
+        "entries_above_tolerance": 790,
+        "matrix_max_abs": 144.84252168571876,
+        "reference_max_abs": 144.84252168571857,
+        "reference_multiplier": 1,
+        "absolute_tolerance": 1e-10,
+        "relative_tolerance": 0,
+        "chunk_rows": 16
+      }
+    },
+    "vectors": {
+      "b": {
+        "exact_equal": false,
+        "max_absolute_difference": 2.2282620193436742e-11,
+        "RMS_difference": 6.08576192478926e-13,
+        "acceptance_threshold": null
+      },
+      "rho_ordinary": {
+        "exact_equal": false,
+        "max_absolute_difference": 0.0013222289814285304,
+        "RMS_difference": 1.729655261814533e-05,
+        "acceptance_threshold": null
+      }
+    },
+    "repeat_and_symmetry_pass": false,
+    "historical_reference_pass": false,
+    "historical_reference_is_independent_oracle": false,
+    "physical_admission": false
+  },
+  "output_hashes": {
+    "J_A": "ed9d5270aa9bf67c6ea7f7cc79945468bc45ee3b3ef5f5b2e30e3181b8fb046f",
+    "b_A": "ffabf610b00860eae6d1f440fd6e42f710cd44a6345fb832c27ca469387b2da9",
+    "rho_ordinary_A": "9e5931626667db51502ba34b4b337bbe982a2de90ab0bd3079b0cf03c586ff98",
+    "J_B": "76d572f4f288393d1cce001068b9b2b3bc5c8717d850a7c5430af0b3ee9d5ac0",
+    "b_B": "dcbf684676563f0ff8eacb6758d494b2bf3ba928dc00d53c992b8588b3f4136b",
+    "rho_ordinary_B": "37667ba7790e35dcf3ac9a8eb0f69e30f027b6826b50908fc13fe278a7b2c452"
+  },
+  "physical_admission": false,
+  "parent_SCF_readiness": false,
+  "held_out_validation": false
+}
