@@ -1,0 +1,156 @@
+{
+  "status": "SOURCE_ASSESSMENT_PREPARED_PENDING_ROOT_REVIEW",
+  "candidate_role_id": 23,
+  "candidate_role": "Proposed all-inorganic precipitation boundary and negative sustained-renewal comparator",
+  "target": "Nominal Mo34WV target; not present in the source experiments",
+  "verified_integrated_complement_admissions": 0,
+  "candidate_evaluation_count_change_pending_review": 1,
+  "source": {
+    "doi": "10.1039/C5CC09536K",
+    "citation": "Points, Cooper, Dolbecq, Mialane and Cronin, Chemical Communications 52 (2016), 1911-1914",
+    "pdf_path": "raw/points2016.pdf",
+    "pdf_sha256": "6c73dbd40f5fe111993fa59113872ed8d3d6b47b3f5b2a2857338aa2ccf4f1f5",
+    "text_path": "raw/points2016.txt",
+    "text_sha256": "8cf5451a105fd50a65457881c38321b931d500763786e17c24a83f535efe8a58",
+    "protocol_sha256": "e793cdf4d8d0ec33c74332cc1bb642bc3ed2e10e06d8aa1610b37ba635281305",
+    "evidence_scope": "Primary four-page article only; SI and cited earlier primary papers not independently acquired or admitted."
+  },
+  "reported_species": {
+    "solid_cation": {
+      "formula": "[epsilon-PMo12O36(OH)4{La(H2O)2.5}4]5+",
+      "state": "solid seed, (s), as printed",
+      "source_label": "1",
+      "charge": 5,
+      "locator": "PDF page 2 / journal page 1912, left column first line"
+    },
+    "chloride_containing_salt": {
+      "formula_as_printed": "[epsilon-PMo12O36(OH)4{La(H2O)2.5Cl1.25}4]",
+      "source_label": "1",
+      "interpretation": "Printed without a net charge; four La groups each containing Cl1.25 give five chloride equivalents, consistent with neutralizing the 5+ cation. This is formula accounting, not a new structural measurement.",
+      "locator": "PDF page 2 / 1912, left column paragraph beginning To prepare a POM based chemical garden"
+    },
+    "aqueous_partner": {
+      "salt_formula": "K8[gamma-SiW10O36]",
+      "anion_formula": "[gamma-SiW10O36]8-",
+      "state": "aqueous, (aq)",
+      "source_label": "2",
+      "locator": "PDF page 2 / 1912, left column first line and cationic-seed paragraph"
+    },
+    "notation_caveats": [
+      "The displayed seed formula uses La(H2O)2.5, while the explanatory prose describes four {La(H2O)4}3+ capping groups. Preserve both source notations without supplying a hydration/speciation reconciliation.",
+      "The page 3 discussion prints (OH4) in related formulae whereas page 2 uses (OH)4. The formal charge derivation here explicitly uses the page 2 formula with four hydroxide groups.",
+      "Reference 19 is the authors' cited origin of the seed and aqueous La-loss observations; those underlying measurements were not independently re-examined."
+    ]
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "evidence_class": "reported experimental concentration survey",
+      "claim": "Aqueous compound 2 was surveyed from 0.5 to 30.0 mM; the text also describes visible tubes upon adding 1-20 mM solutions to seed crystals.",
+      "survey_mM": [0.5, 30.0],
+      "tube_observation_range_mM": [1.0, 20.0],
+      "locator": "PDF page 2 / 1912, left column seed paragraph and right column concentration-survey paragraph"
+    },
+    {
+      "id": "O2",
+      "evidence_class": "optical morphology observations",
+      "claim": "The prose assigns clouds below 1 mM, while Figure 3 labels its cloud column <=1 mM and the adjacent membrane column 1 mM. This overlap does not establish a sharp regime boundary. The authors describe clouds, membranes, slugs, tubes, jetting and budding over the survey. Between 2 and 20 mM, tubes have increasing aspect ratios and smaller projected areas. No precise new boundaries are assigned to the intermediate regimes here.",
+      "regimes": ["clouds", "membranes", "slugs", "tubes", "jetting", "budding"],
+      "locator": "PDF page 2 / 1912 right column; PDF page 3 / 1913 Figure 3"
+    },
+    {
+      "id": "O3",
+      "evidence_class": "reported negative boundary observation",
+      "claim": "The article states no membrane formation or tube growth at anion concentrations of 30 mM or above. The declared survey upper endpoint is 30 mM; the article gives no explicit maximum tested concentration above that endpoint.",
+      "failure_threshold_mM_in_source": 30,
+      "relation": ">=",
+      "maximum_tested_above_30_mM": null,
+      "locator": "PDF page 2 / 1912, right column paragraph ending no membrane formation or tube growth occurs"
+    },
+    {
+      "id": "O4",
+      "evidence_class": "optical time-course and finite termination observations",
+      "claim": "Figure 2 shows growth at 20 mM at 10, 40, 70 and 220 seconds. The text describes growth on an approximately 20-minute rather than hours timescale and termination while material remains in the seed. This is not a measured sustained-renewal lifetime.",
+      "illustrated_concentration_mM": 20,
+      "illustrated_times_seconds": [10, 40, 70, 220],
+      "approximate_growth_timescale_minutes": 20,
+      "remaining_seed_at_termination": true,
+      "locator": "PDF page 2 / 1912, Figure 2 caption and last right-column paragraph; continued on PDF page 3 / 1913 left column opening"
+    },
+    {
+      "id": "O5",
+      "evidence_class": "reported optical quantitative trends without re-fit",
+      "claim": "The authors report a linear relationship between crystal and tube areas measured from above and an exponential trend of growth rate with anion concentration. Figure 4 is explicitly a trend guideline; growth rates are not normalized to crystal area. No curve was digitized or fitted here.",
+      "fitted_parameters": null,
+      "locator": "PDF page 3 / 1913 left column and Figure 4; PDF page 4 / 1914 Figure 5 and conclusion"
+    },
+    {
+      "id": "O6",
+      "evidence_class": "reported elemental analysis with ambiguous interpretation",
+      "claim": "The authors report a higher-than-expected La:Mo ratio in the supernatant from flame atomic absorption/emission spectroscopy, then interpret this as greater La incorporation into the precipitation structures. The text does not provide the mass balance or numerical ratios needed to reconcile that inference. Preserve the observed compartment and stated direction without correcting them.",
+      "numeric_supernatant_La_to_Mo_ratio": null,
+      "uncertainty": null,
+      "partition_fraction": null,
+      "locator": "PDF page 3 / 1913 left column, paragraph beginning In the synthesis of 1"
+    }
+  ],
+  "source_mechanisms_not_admitted_as_direct_target_measurements": [
+    {
+      "claim": "The authors explain growth through ion-exchange precipitation, exclusion of both POM species by a semi-permeable membrane, osmotic water influx, rupture and continued tube-wall precipitation.",
+      "classification": "Author mechanism explanation; not a quantified permeability, pore-size, solute-flux or target-retention measurement in this assessment",
+      "locator": "PDF page 1 / 1911 Figure 1B; PDF page 2 / 1912 mechanism paragraph crossing columns"
+    },
+    {
+      "claim": "The authors connect termination to La loss, citing prior NMR and X-ray work for conversion of the 5+ species to a 2+ species and then a La-free 5- anion, which would cease precipitating with the anionic partner.",
+      "classification": "Proposed termination explanation supported by cited prior speciation work; no direct time-resolved intact-target speciation or activity in the garden is supplied here",
+      "locator": "PDF page 3 / 1913 left column, La-loss paragraph and reference 19",
+      "charge_sequence_as_printed": [5, 2, -5],
+      "La_counts_as_printed": [4, 3, 0],
+      "formal_charge_consistency": {
+        "classification": "Conditional arithmetic discrepancy, not a species identification or disproof",
+        "assumption": "Remove four La(III) cations while keeping the remaining core composition, protonation and electron count unchanged",
+        "predicted_La_free_charge": -7,
+        "printed_La_free_charge": -5,
+        "printed_minus_predicted_charge": 2,
+        "interpretation": "A formal +2 difference remains. A redox, protonation or composition change, or a notation issue, would be needed to reconcile this simple bookkeeping model; the admitted article does not resolve which applies. The initial Mo-charge derivation is not propagated to the terminal species."
+      }
+    }
+  ],
+  "formal_charge_derivation": {
+    "classification": "Derived charge accounting only",
+    "formula_basis": "Page 2 cation with four OH groups and four La atoms",
+    "assumptions": {"P": 5, "La": 3, "oxo_O": -2, "OH_group": -1, "H2O": 0, "net_cation_charge": 5},
+    "equation": "5 + total_Mo_charge + 4*3 + 36*(-2) + 4*(-1) = 5",
+    "total_Mo_charge": 64,
+    "Mo_count": 12,
+    "mean_formal_Mo_oxidation_state_exact": "16/3",
+    "measured_Mo_oxidation_state_distribution": null,
+    "target_electron_transfer_prediction": null,
+    "limitation": "The mean does not identify site-specific oxidation states, their distribution, or electron transfer to nominal Mo34WV."
+  },
+  "joint_target_requirements": {
+    "target_mixture_tested": false,
+    "intact_target_identity": null,
+    "intact_target_activity": null,
+    "intact_target_recovery_fraction": null,
+    "recovery_denominator": null,
+    "recovery_uncertainty": null,
+    "selective_precursor_exchange": null,
+    "precursor_flux": null,
+    "water_flux": null,
+    "pH": null,
+    "same_medium_compatibility": null,
+    "sustained_functional_boundary_renewal": null,
+    "reason": "Not measured for the nominal target in the admitted article; no target mixture, permeability experiment, recovery assay or activity assay was run by this assessment."
+  },
+  "decision": {
+    "classification": "PROPOSED_BOUNDARY_AND_NEGATIVE_RENEWAL_COMPARATOR_ONLY",
+    "integrated_complement_admitted": false,
+    "reason": "Optical precipitation-boundary formation is relevant to a candidate boundary role. Finite termination, upper-concentration failure and unmeasured target retention, activity, exchange and renewal prevent integrated admission.",
+    "root_review_pending": true,
+    "chemical_experiments_run": 0,
+    "simulations_run": 0,
+    "fits_run": 0,
+    "held_out_target_validations_run": 0
+  }
+}

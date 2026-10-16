@@ -1,0 +1,5 @@
+{
+  "exception": "Traceback (most recent call last):\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-signed-j-diagnostic/run.py\", line 327, in <module>\n    try:sys.exit(worker())\n                 ^^^^^^^^\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-signed-j-diagnostic/run.py\", line 261, in worker\n    require(one['finite'] and one['symmetric'] and one['sign_pass'],'First sign/finite/symmetry check failed')\n  File \"PROJECT_ROOT/recursive-compound-2026-10-15/parent-openmp-first-j-v2/run.py\", line 33, in require\n    if not value:raise ValueError(message)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: First sign/finite/symmetry check failed\n",
+  "SCFs_launched": 0,
+  "physical_admission": false
+}

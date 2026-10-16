@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication checkpoint: signed diagnostic prepared and boundary evidence refined
+## Current scientific continuation: signed failure and candidate23 boundary
+
+Previous-turn classification: publication-state progress. Commit ba01440 was pushed; fresh GitHub run38825295570 is SUCCESS for that exact commit. It added no chemical-function evidence. This continuation produced new numerical and source constraints, so it is progress toward resolving the full goal rather than a repeated impasse.
+
+The reviewed signed-parent diagnostic launched once in session98414 and is terminal with exit1. Worker25053 is absent. First J returned finite and symmetric, but recorded sign residual5.282743131829193e-10 exceeded1e-10. One buffered close completed; no second probe, selected oracle or SCF ran. Wall243.2830698749749seconds, sampled maximumRSS3,742,777,344bytes, no supervisor limit/monitor error. All224 grouped pins remain unchanged. Negative J was not saved, preventing independent residual replay. The failure and original protocol are preserved; no retry or threshold relaxation occurred. See parent-signed-j-diagnostic/REPORT.md and INDEPENDENT_REVIEW.md.
+
+Candidate-role23, boundary/pom-polyoxocation-23/, assesses the all-inorganic La-capped phosphomolybdate/polyoxotungstate precipitation pair. Source morphology supports boundary formation; growth ends with seed remaining, and the high-concentration case fails. The charge sequence, concentration labels and supernatant interpretation retain explicit ambiguities. Root's reviewed decision adds one evaluation and no verified integrated complement. The active-retention-identifiability.md design separates intact competence from elemental capture, includes wall Mo/W and disjoint inventories, and requires founder-controlled clean transfers. It remains unexecuted.
+
+Current aggregate:23 candidate-role assessments, zero verified integrated complements. Exact target identity and every integrated life/intelligence function remain unresolved. Next: resolve the candidate's original speciation/redox evidence and identifying transport observations; separately design matched same-sign/sign-reversal controls with arrays saved before abort if continuing numerical diagnosis. No new native run is authorized by this checkpoint. New work remains local; publication is ba01440.
+
+## Previous publication checkpoint: signed diagnostic prepared and boundary evidence refined
 
 The user requested commit and push of the latest changes. parent-signed-j-diagnostic is PREPARED_PENDING_INDEPENDENT_ROOT_REVIEW: ten synthetic tests pass and224grouped pin entries bind the preparation. No molecule build, operator, SCF, run-v1 directory or independent root approval exists. The proposed two-call signed-density test remains unlaunched; no native value, memory-safety result or SIGTRAP repair is claimed.
 

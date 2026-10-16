@@ -710,8 +710,29 @@ def verify_signed_boundary_followup(recursive):
     assert preparation['density']['shape'] == [3068, 3068] and preparation['density']['cycle'] == 0
     for name in ('run.py', 'test_run.py', 'PROTOCOL.md'):
         assert (diagnostic / name).is_file()
-    for name in ('independent-root-review.json', 'run-v1'):
-        assert not (diagnostic / name).exists()
+    assert (diagnostic / 'independent-root-review.json').is_file()
+    run = diagnostic / 'run-v1'
+    launch = json.loads((run / 'launch-result.json').read_text())
+    receipt = json.loads((run / 'supervisor.json').read_text())
+    first = json.loads((run / 'first-checks.json').read_text())
+    failure = json.loads((run / 'failure.json').read_text())
+    assert launch['status'] == 'INCOMPLETE_OR_FAILED_SIGNED_J'
+    assert launch['receipt'] == receipt and launch['worker_result'] == {}
+    assert launch['gate_unchanged'] is True and launch['artifact_sha256'] == {}
+    assert 'second-checks.json' in launch['errors']['artifacts']
+    assert launch['maximum_children'] == 1 and launch['maximum_J_calls'] == 2 and launch['maximum_SCFs'] == 0
+    assert launch['physical_admission'] is False and launch['parent_SCF_readiness'] is False
+    assert receipt['returncode'] == 1
+    assert receipt['termination_reason'] is None and receipt['monitor_error'] is None
+    assert first['finite'] is True and first['symmetric'] is True and first['sign_pass'] is False
+    assert first['max_sign_error'] == 5.282743131829193e-10
+    assert preparation['absolute_tolerance'] == 1e-10 and preparation['relative_tolerance'] == 0
+    assert first['max_sign_error'] > preparation['absolute_tolerance']
+    assert failure['SCFs_launched'] == 0 and failure['physical_admission'] is False
+    assert 'ValueError: First sign/finite/symmetry check failed' in failure['exception']
+    for name in ('second-checks.json', 'selected-oracle.json', 'result.json', 'checks.json'):
+        assert not (run / name).exists()
+    assert (diagnostic / 'REPORT.md').is_file()
     membrane = json.loads((recursive / 'boundary/acidic-nanofiltration/evidence.json').read_text())
     assert membrane['new_candidate_roles'] == membrane['verified_integrated_complements_added'] == 0
     assert membrane['decision']['status'] == 'COMPONENT_SUPPORTED_ACIDIC_MEMBRANE_ARCHITECTURE_TARGET_FUNCTION_UNRESOLVED'
@@ -755,6 +776,27 @@ def verify_signed_boundary_followup(recursive):
     assert routes['R3']['pdf_acquired'] is False and routes['R3']['pdf_sha256'] is None
     assert routes['R4']['outcome'] == 'FULLTEXT_LINK_REDIRECTED_TO_ABSTRACT'
     assert routes['R4']['http_status'] is None and routes['R4']['full_article_acquired'] is False
+    candidate = recursive / 'boundary/pom-polyoxocation-23'
+    decision = json.loads((candidate / 'DECISION.json').read_text())
+    assessment = json.loads((candidate / 'assessment.json').read_text())
+    assert decision['status'] == 'REVIEWED_SOURCE_CANDIDATE_ONLY_NOT_ADMITTED'
+    assert decision['candidate_role_id'] == decision['aggregate_candidate_role_assessments'] == 23
+    assert decision['aggregate_verified_integrated_complements'] == 0 and decision['verified_integrated_member'] is False
+    for key in ('target_compatibility', 'intact_active_target_retention', 'functional_boundary_renewal'):
+        assert decision[key] is None
+    for key in ('physical_experiments', 'target_model_fits', 'heldout_target_validations'):
+        assert decision[key] == 0
+    assert decision['finite_growth_termination_preserved'] is True and decision['upper_concentration_failure_preserved'] is True
+    assert assessment['candidate_role_id'] == 23 and assessment['verified_integrated_complement_admissions'] == 0
+    assert assessment['decision']['integrated_complement_admitted'] is False
+    assert assessment['joint_target_requirements']['target_mixture_tested'] is False
+    for key in ('intact_target_identity', 'intact_target_activity', 'intact_target_recovery_fraction', 'recovery_denominator'):
+        assert assessment['joint_target_requirements'][key] is None
+    observations = {row['id']: row for row in assessment['observations']}
+    assert observations['O3']['failure_threshold_mM_in_source'] == 30
+    assert observations['O3']['maximum_tested_above_30_mM'] is None
+    assert observations['O4']['remaining_seed_at_termination'] is True
+    assert (recursive / 'boundary/active-retention-identifiability.md').is_file()
 
 
 def verify_parent_pilot_source_bindings(included):

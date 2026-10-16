@@ -1,0 +1,11 @@
+# Candidate-role 23: all-inorganic precipitation boundary
+
+Question: can the reported polyoxocation/polyoxometalate chemical-garden pair complement the nominal Mo34WV target by forming a boundary that retains intact active target while exchanging precursors and renewing itself?
+
+This is a materially different proposal from the existing zirconia membrane. The source pair is the reported lanthanum-capped epsilon-phosphomolybdate polyoxocation and potassium gamma-decatungstosilicate, not a demonstrated mixture with Mo34WV. Evaluate Points et al., DOI 10.1039/C5CC09536K, using its primary four-page article. Acquire that exact author-hosted PDF once, with a 30-second timeout and 10-MiB cap; record its hash and inspect the relevant pages. The prior researcher's unsuccessful SI observation remains an access limitation; do not infer unavailable measurements or repeat the failed route unchanged.
+
+Before adding a complement, require direct observations of target identity/activity, selective precursor exchange, sustained functional boundary renewal and same-medium compatibility. Optical morphology, a stated osmotic mechanism, elemental partitioning and remaining solid seed cannot substitute for these observations. Preserve upper-concentration failure and finite-growth termination. Keep a source's proposed mechanism distinct from the measured endpoints.
+
+Record exact reported species, chloride/hydration notation, concentration regimes, observed timescale and stop conditions. Preserve the supernatant La:Mo interpretation ambiguity instead of silently correcting it. A formal charge balance may identify necessary total Mo charge under explicit oxidation-state assumptions; it is not a measured oxidation-state distribution or target electron-transfer prediction. Leave missing pH, flux, recovery denominator, uncertainty and catalytic activity null.
+
+Outputs: attributed assessment.json and REPORT.md, primary-source acquisition metadata, and independent source/claim review. No fit, new simulation, chemical experiment or held-out target validation is permitted by this source assessment. Count this as one candidate-role evaluation after root review, with no verified integrated complement unless the joint target evidence exists.

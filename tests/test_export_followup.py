@@ -267,13 +267,16 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'identity/vanadium-incorporation-followup', 'identity/competing-mov-speciation',
                        'identity/next-step/pcm-heldout-selection', 'parent-saved-j-crash-diagnostic',
                        'identity/competing-mov-primary-followup', 'parent-signed-j-diagnostic',
-                       'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup'):
+                       'boundary/acidic-nanofiltration', 'identity/mov9-independent-assay-followup',
+                       'boundary/pom-polyoxocation-23'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
                     target = self.recursive / path.relative_to(source)
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_bytes(path.read_bytes())
+        design = Path('boundary/active-retention-identifiability.md')
+        (self.recursive / design).write_bytes((source / design).read_bytes())
 
     def test_failures_qualified_runtime_and_first_j_scope_are_preserved(self):
         verify_openmp_renewal(self.recursive, self.case_names)
@@ -328,6 +331,15 @@ class OpenMPRenewalVerification(unittest.TestCase):
             ('parent-signed-j-diagnostic/preparation.json', 'operators_executed', 2),
             ('parent-signed-j-diagnostic/preparation.json', 'SCFs_launched', 1),
             ('parent-signed-j-diagnostic/preparation.json', 'physical_admission', True),
+            ('parent-signed-j-diagnostic/preparation.json', 'absolute_tolerance', 1e-9),
+            ('parent-signed-j-diagnostic/run-v1/first-checks.json', 'sign_pass', True),
+            ('parent-signed-j-diagnostic/run-v1/first-checks.json', 'max_sign_error', 0),
+            ('parent-signed-j-diagnostic/run-v1/launch-result.json', 'status', 'PASS'),
+            ('parent-signed-j-diagnostic/run-v1/launch-result.json', 'parent_SCF_readiness', True),
+            ('boundary/pom-polyoxocation-23/DECISION.json', 'verified_integrated_member', True),
+            ('boundary/pom-polyoxocation-23/DECISION.json', 'aggregate_verified_integrated_complements', 1),
+            ('boundary/pom-polyoxocation-23/DECISION.json', 'heldout_target_validations', 1),
+            ('boundary/pom-polyoxocation-23/assessment.json', ('joint_target_requirements', 'recovery_denominator'), 'feed amount'),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'heldout_validation'), True),
             ('boundary/acidic-nanofiltration/evidence.json', ('decision', 'admission'), True),
             ('boundary/acidic-nanofiltration/evidence.json',
@@ -505,10 +517,10 @@ class OpenMPRenewalVerification(unittest.TestCase):
         with self.assertRaises(AssertionError):
             verify_openmp_renewal(self.recursive, self.case_names)
 
-    def test_signed_diagnostic_cannot_be_promoted_to_approved_or_run(self):
-        for name in ('independent-root-review.json', 'run-v1'):
+    def test_signed_diagnostic_cannot_gain_unobserved_completion(self):
+        for name in ('second-checks.json', 'selected-oracle.json', 'result.json', 'checks.json'):
             with self.subTest(name=name):
-                path = self.recursive / 'parent-signed-j-diagnostic' / name
+                path = self.recursive / 'parent-signed-j-diagnostic/run-v1' / name
                 path.write_text('{}')
                 with self.assertRaises(AssertionError):
                     verify_openmp_renewal(self.recursive, self.case_names)

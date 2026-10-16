@@ -1,0 +1,63 @@
+{
+  "status": "PRIMARY_ARTICLE_ACQUIRED_SOURCE_ASSESSMENT_ONLY",
+  "citation": {
+    "authors": ["Laurie J. Points", "Geoffrey J. T. Cooper", "Anne Dolbecq", "Pierre Mialane", "Leroy Cronin"],
+    "title": "An all-inorganic polyoxometalate-polyoxocation chemical garden",
+    "journal": "Chemical Communications",
+    "year": 2016,
+    "volume": 52,
+    "pages": "1911-1914",
+    "doi": "10.1039/C5CC09536K",
+    "article_publication_date_printed": "2015-12-07"
+  },
+  "requested_url": "https://eprints.gla.ac.uk/119364/1/119364.pdf",
+  "acquisition_provenance": "Root agent downloaded the primary repository PDF once; this assessor read and hashed the completed local files after root confirmed completion.",
+  "download": {
+    "tool": "curl",
+    "flags": ["--fail", "--location", "--max-time", "30", "--max-filesize", "10485760"],
+    "root_exec_session_id": 12167,
+    "returncode_reported_by_root": 0,
+    "maximum_seconds": 30,
+    "maximum_bytes": 10485760,
+    "download_start_utc": null,
+    "http_status": null,
+    "http_content_type": null,
+    "resolved_url": null,
+    "uncaptured_fields_reason": "HTTP headers, final URL and download-start UTC were not captured. Successful curl exit is distinct from a recorded HTTP status."
+  },
+  "artifacts": {
+    "pdf": {
+      "path": "raw/points2016.pdf",
+      "bytes": 2133797,
+      "sha256": "6c73dbd40f5fe111993fa59113872ed8d3d6b47b3f5b2a2857338aa2ccf4f1f5",
+      "local_file_mtime_utc": "2026-10-15T23:48:29.644737+00:00",
+      "mtime_is_download_start": false
+    },
+    "extracted_text": {
+      "path": "raw/points2016.txt",
+      "bytes": 44781,
+      "sha256": "8cf5451a105fd50a65457881c38321b931d500763786e17c24a83f535efe8a58",
+      "tool": "pdftotext",
+      "returncode_reported_by_root": 0,
+      "form_feed_delimited_pages": 4,
+      "local_file_mtime_utc": "2026-10-15T23:48:29.714431+00:00",
+      "limitation": "Text extraction drops some Greek letters, minus signs and micrometre glyphs. Species notation and the 200 micrometre scale on page 2 were checked against its rendered image."
+    }
+  },
+  "license": {
+    "printed_notice": "Creative Commons Attribution 3.0 Unported Licence",
+    "identifier": "CC-BY-3.0",
+    "locator": "PDF page 1 left-margin notice; repeated on later pages",
+    "attribution_retained": true
+  },
+  "scope": {
+    "primary_main_article_admitted": true,
+    "supporting_information_admitted": false,
+    "supporting_information_access": "Prior researcher reported a record followed by HTTP 404 on the attempted SI route; no SI bytes or measurements admitted and no retry by this assessor.",
+    "prior_research_budget_reported_by_root": {"queries": 4, "opens": 8},
+    "additional_external_queries_by_assessor": 0,
+    "additional_downloads_by_assessor": 0,
+    "assessor_visual_check": "Existing raw/page2.png inspected; root performs independent page 2/page 3 claim review.",
+    "independent_review_status": "PENDING_ROOT_REVIEW"
+  }
+}

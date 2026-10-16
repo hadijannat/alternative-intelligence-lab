@@ -1,0 +1,9 @@
+{"stage": "worker_started", "elapsed_seconds": 6.25033862888813e-07, "J_calls": 0, "SCFs_launched": 0}
+{"stage": "basis_build_start", "elapsed_seconds": 0.4107008749851957}
+{"stage": "setup_complete", "elapsed_seconds": 9.04957066604402}
+{"stage": "native_J_start", "elapsed_seconds": 9.11247645795811, "call": 1}
+{"stage": "RI_factor_start", "elapsed_seconds": 10.271852707955986, "shape": [19612, 19612]}
+{"stage": "RI_factor_complete", "elapsed_seconds": 22.163009166019037}
+{"stage": "native_J_returned", "elapsed_seconds": 242.22937583294697, "call": 1}
+{"stage": "post_call_file_start", "elapsed_seconds": 242.27792695804965, "call": 1}
+{"stage": "post_call_file_closed", "elapsed_seconds": 242.27825079101603, "call": 1}
