@@ -1,6 +1,16 @@
 # Progress checkpoint
 
-## Current publication: completed serial RHS diagnostic and source constraints
+## Current publication: frozen response preparation after d0af744
+
+The user requests committing and pushing the continuation after `d0af744f6eb21b534fe95785e1491e514a236e99`. The checkpoint adds the derivative/stability source audit, alternate Moussawi access result and frozen standalone response preparation. Export, commit, push and exact-commit hosted verification remain separate publication steps. The full integrated goal remains unmet: 24 assessed roles, zero verified complements and all twelve requirements unresolved.
+
+The [derivative/stability audit](derivative-route-audit/REPORT.md) is independently source-reviewed, with eleven source hashes and reproducible coordinate/evaluation and allocation arithmetic. It identifies conditional dispatch/cache incompatibilities and the inspected external-stability Fock omission; no native derivative failure or allocation was observed. The frozen [C-PCM response preparation](cpcm-response-probe/PROTOCOL.md) is **PREPARED_NOT_EXECUTED**, SHA256 `d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd`. Seven synthetic tests pass. Native execution is **UNRUN**, with no independent root approval or run directory. Its proposed one 120-second/2-GiB sampled-RSS child uses only the retrospective hypothetical MoO4 fixture. The first mock invocation stalled during imports and was terminated; corrected aligned-runtime mocks and preparation succeeded. This was a preparation-runtime correction, not a native retry.
+
+The [alternate Moussawi author-deposit route](identity/moussawi-alternate-deposit-followup/REPORT.md) supplied a parsed figure page but no ordinary-Mo36 occupancy data. The investigator's full-text route returned HTTP 403; root did not repeat the failed download. No raw response, PDF, substitution chapter, CIF or new structure was acquired. Characterization/laboratory access remains unconfirmed; lack of access is not inferred.
+
+Publication performs no scientific launch or holdout test. The unchanged full-J failure remains 6.702407517877873e-10 at 630 entries above absolute 1e-10/relative-zero tolerance, and the prospective HMo2O7 holdout remains unused. Any subsequent native response test needs independent review and root authorization of the frozen preparation. Parent relaxation/stability remains gated until complete derivative/response and electronic prerequisites are qualified. Historical sections below retain earlier states.
+
+## Historical publication: completed serial RHS diagnostic and source constraints
 
 The user requests publication after baseline `5e5e9e2`. The approved serial-prefix diagnostic is terminal: one child returned zero after 893.8663067501038 seconds, with 3,627,646,976 bytes sampled maximum RSS and no limit termination or monitor error. Two native pass-1 contractions and two stop sentinels used one factorization, with zero solves, completed J calls, SCFs or PCM builds. Both saved RHS arrays are finite float64 (19612, 1) and bitwise identical. This is a serial-prefix repeat result for the parent-Mo36 numerical setup; [Independent terminal review](parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md) is CLEAR for publication of this scoped result. See [the result report](parent-serial-rhs-diagnostic/REPORT.md).
 

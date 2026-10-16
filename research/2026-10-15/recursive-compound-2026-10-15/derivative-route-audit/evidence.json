@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-16",
+  "status": "SOURCE_REVIEWED_DERIVATIVE_AND_STABILITY_DEPENDENCIES",
+  "campaign_ready": false,
+  "native_physics_executed": false,
+  "observed_gradient_failure": false,
+  "new_roles": 0,
+  "verified_integrated_complements": 0,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "project_prefix": "recursive-compound-2026-10-15/",
+  "runtime_prefix": "recursive-compound-2026-10-15/parent-openmp/env-aligned/lib/python3.12/site-packages/pyscf/",
+  "project_sha256": {
+    "cpcm-blocked/blocked_pcm.py": "3458ab92f2e48847d7d88dde3a1c20e35343e66743b75d7d01ca5d21f8b80d12",
+    "cpcm-rij-memory/memory.py": "6e1db7f1eac20e8a6ae3c8c752a4bba46bdab3ede45323ae5c410327d1a8435c",
+    "rij-jkfit-qualification/rij.py": "498d190e20cf48f793617abd3cb0404e13a3b8f39314e486289f70cc6502a4b8"
+  },
+  "runtime_sha256": {
+    "solvent/pcm.py": "97bb24fb2e607745c444c36b6c3e649ffca66f808ec2965137a871061b3b9fed",
+    "solvent/grad/pcm.py": "7f81e75c1b903bd338832442b6902f354a3bfef336eacbabe94b09d076f67e4e",
+    "solvent/_attach_solvent.py": "d6d55d480c7fbb49481fbea792956a53d603fc1ed3f762fa96d6c652f07fb9a6",
+    "grad/rhf.py": "d30fd1ab2a00997183802da28da775f6a29a6c9705c55b19c04d66a1a575267f",
+    "df/grad/rhf.py": "a52525f269974884b28846b55d021c169d430048e0755b55557480f733128735",
+    "scf/stability.py": "58ceea68eb56702ec41fa0a844b60c225ef53800ed4fb5b1fea307cd5bc50674",
+    "scf/_response_functions.py": "806b3bbf00f1127bfbb15c74f5c7b022bb8f58ca01945f502d6082dd0b35f411",
+    "soscf/newton_ah.py": "7276458382a9530771b85b0c0d1aa39fd42d9b98e69c65d9b4a5410222a70c98"
+  },
+  "arithmetic": {
+    "movable_H": 32,
+    "coordinates": 96,
+    "central_displaced_SCFs_per_gradient": 192,
+    "four_start_displaced_SCFs_per_gradient": 768,
+    "four_start_h_and_h2_displaced_SCFs": 1536,
+    "PCM_full400_block_derivative_bytes": 90361190400,
+    "RI_aux_metric_derivative_bytes": 9231133056,
+    "mean_observed_serial_pass1_seconds": 414.111371000472,
+    "one_RHS_per_displaced_SCF_four_start_proxy_days": 3.68098996444864,
+    "runtime_forecast": false,
+    "guaranteed_runtime_lower_bound": false
+  },
+  "independent_review": {
+    "reviewer": "integrated_goal_dependency_audit",
+    "source_claims_confirmed": true,
+    "qualifications": [
+      "Gradient mismatch is conditional on bypassing guards; no native failure was reproduced.",
+      "400-point tensor estimate applies to a full block; last block can be smaller and no allocation was observed.",
+      "Solvent omission is scoped to inspected external stability Fock construction, not every PySCF stability path.",
+      "Internal stability needs equilibrium response and current guard rejects that mode."
+    ]
+  },
+  "user_experimental_access": "UNCONFIRMED; asynchronous clarification pending, no lack of access inferred"
+}

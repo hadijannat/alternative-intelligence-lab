@@ -15,6 +15,13 @@ from verify_followup import (verify_memory_followup, verify_openmp_renewal,
 
 
 class PublicationSelection(unittest.TestCase):
+    def test_response_preparation_keeps_structured_mocks_and_excludes_machine_logs(self):
+        base = Path('recursive-compound-2026-10-15/cpcm-response-probe')
+        for name in ('mock-startup-sample.txt', 'mock-tests.log', 'mock-tests-aligned.log', 'preparation.log'):
+            self.assertTrue(exclusion(base / 'evidence' / name))
+        for name in ('preparation.json', 'evidence/mock-tests.json', 'run.py', 'response.py', 'test_response.py', 'PROTOCOL.md'):
+            self.assertIsNone(exclusion(base / name))
+
     def test_serial_source_dossiers_keep_authored_evidence_and_exclude_acquisitions(self):
         for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
             base = Path('recursive-compound-2026-10-15') / folder
@@ -322,7 +329,8 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'parent-saved-metric-solve', 'parent-explicit-blas-j', 'identity/concentration-speciation-followup',
                        'explicit-blas-accuracy-qualification', 'identity/measurement-integrity-followup',
                        'parent-serial-rhs-diagnostic', 'renewal/ir-ta-reservoir-reacquisition',
-                       'boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control', 'review'):
+                       'boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control', 'review',
+                       'derivative-route-audit', 'identity/moussawi-alternate-deposit-followup', 'cpcm-response-probe'):
             self.assertTrue((source / folder).is_dir(), folder)
             for path in (source / folder).rglob('*'):
                 if path.is_file() and path.suffix in ('.json', '.jsonl', '.py', '.md', '.csv'):
@@ -337,6 +345,33 @@ class OpenMPRenewalVerification(unittest.TestCase):
 
     def test_admission_and_result_mutations_are_rejected(self):
         mutations = (
+            ('cpcm-response-probe/preparation.json', 'status', 'PASS_NATIVE_RESPONSE'),
+            ('cpcm-response-probe/preparation.json', 'native_probe_run', True),
+            ('cpcm-response-probe/preparation.json', 'SCFs_launched', 1),
+            ('cpcm-response-probe/preparation.json', 'physical_admission', True),
+            ('cpcm-response-probe/preparation.json', 'case', 'unused holdout'),
+            ('cpcm-response-probe/evidence/mock-tests.json', 'native_probe_run', True),
+            ('cpcm-response-probe/evidence/mock-tests.json', 'SCFs_launched', 1),
+            ('cpcm-response-probe/preparation-evidence.json', ('initial_import_attempt', 'returncode'), 0),
+            ('cpcm-response-probe/preparation-evidence.json', ('initial_import_attempt', 'tests_started'), True),
+            ('cpcm-response-probe/preparation-evidence.json', 'native_probe_run', True),
+            ('cpcm-response-probe/preparation-evidence.json', 'approval_exists', True),
+            ('cpcm-response-probe/preparation-evidence.json', 'run_directory_exists', True),
+            ('cpcm-response-probe/preparation-evidence.json', 'held_out_validation', True),
+            ('cpcm-response-probe/preparation-evidence.json', 'physical_admission', True),
+            ('derivative-route-audit/evidence.json', 'campaign_ready', True),
+            ('derivative-route-audit/evidence.json', 'native_physics_executed', True),
+            ('derivative-route-audit/evidence.json', 'observed_gradient_failure', True),
+            ('derivative-route-audit/evidence.json', ('arithmetic', 'runtime_forecast'), True),
+            ('derivative-route-audit/evidence.json', ('arithmetic', 'guaranteed_runtime_lower_bound'), True),
+            ('derivative-route-audit/evidence.json', 'held_out_validation', True),
+            ('derivative-route-audit/evidence.json', 'physical_admission', True),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', 'nominal_target_verified', True),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', 'new_primary_structure_datasets', 1),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', 'held_out_validation', True),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', 'physical_admission', True),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', ('unresolved', 'W_loading'), 2),
+            ('identity/moussawi-alternate-deposit-followup/evidence.json', ('accesses', 0, 'full_text_acquired'), True),
             ('parent-serial-rhs-diagnostic/run-v1/result.json', 'complete_J_calls', 1),
             ('parent-serial-rhs-diagnostic/run-v1/result.json', 'solves', 1),
             ('parent-serial-rhs-diagnostic/run-v1/result.json', 'SCFs', 1),
@@ -690,6 +725,14 @@ class OpenMPRenewalVerification(unittest.TestCase):
                        'boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json',
                        'identity/vanadate-nmr-control/ROOT_REVIEW.json',
                        'review/serial-continuation-chemistry.md',
+                       'derivative-route-audit/REPORT.md',
+                       'derivative-route-audit/evidence.json',
+                       'identity/moussawi-alternate-deposit-followup/evidence.json',
+                       'identity/moussawi-alternate-deposit-followup/REPORT.md',
+                       'cpcm-response-probe/preparation.json',
+                       'cpcm-response-probe/evidence/mock-tests.json',
+                       'cpcm-response-probe/REPORT.md',
+                       'cpcm-response-probe/preparation-evidence.json',
                        'renewal/ir-ta-reservoir-reacquisition/acquisition.json',
                        'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md'):
             with self.subTest(suffix=suffix):
@@ -777,8 +820,22 @@ class OpenMPRenewalVerification(unittest.TestCase):
                 with self.assertRaises((AssertionError, KeyError)):
                     verifier(self.recursive, reduced)
 
+    def test_response_preparation_cannot_lose_dependency_or_protocol_bindings(self):
+        manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
+        records = [row for row in json.loads(manifest.read_text())['files'] if row['status'] == 'included']
+        for suffix in ('cpcm-response-probe/PROTOCOL.md', 'cpcm-response-probe/response.py',
+                       'cpcm-response-probe/run.py', 'cpcm-response-probe/test_response.py',
+                       'cpcm-blocked/evidence/anion-water.npz', 'cpcm-rij-memory/memory.py'):
+            with self.subTest(suffix=suffix):
+                reduced = [row for row in records if not row['path'].endswith(suffix)]
+                self.assertEqual(len(reduced), len(records) - 1)
+                with self.assertRaises((AssertionError, KeyError)):
+                    verify_stage_artifact_bindings(self.recursive, reduced)
+
     def test_metric_checkpoint_cannot_acquire_unobserved_result_or_approval(self):
         for suffix in ('parent-metric-solve-diagnostic/run-v1/result.json',
+                       'cpcm-response-probe/independent-root-review.json',
+                       'cpcm-response-probe/run-v1/result.json',
                        'parent-serial-rhs-diagnostic/run-v1/J_A.npy',
                        'parent-serial-rhs-diagnostic/run-v1/SCF-result.json',
                        'parent-metric-solve-diagnostic/run-v1/original_metric.npy',
@@ -838,6 +895,13 @@ class OpenMPRenewalVerification(unittest.TestCase):
         manifest = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
         records = [record for record in json.loads(manifest.read_text())['files'] if record['status'] == 'included']
         verify_stage_artifact_bindings(self.recursive, records)
+        for name in ('mock-startup-sample.txt', 'mock-tests.log', 'mock-tests-aligned.log', 'preparation.log'):
+            with self.subTest(excluded_response_diagnostic=name):
+                records.append({'path': 'recursive-compound-2026-10-15/cpcm-response-probe/evidence/' + name,
+                                'source_sha256': '0' * 64})
+                with self.assertRaises(AssertionError):
+                    verify_stage_artifact_bindings(self.recursive, records)
+                records.pop()
         for folder in ('boundary/tantalum-coated-alumina-followup', 'identity/vanadate-nmr-control'):
             for name in ('raw/article.headers', 'raw/page-1.png', 'raw/article.pdf'):
                 with self.subTest(folder=folder, excluded_payload=name):

@@ -1391,6 +1391,7 @@ def verify_serial_rhs_preparation(recursive):
     assert qualification['failures'] == qualification['errors'] == qualification['native_parent_calls'] == 0
     verify_serial_rhs_result(recursive)
     verify_serial_source_dossiers(recursive)
+    verify_response_preparation(recursive)
     acquisition = json.loads((recursive / 'renewal/ir-ta-reservoir-reacquisition/acquisition.json').read_text())
     assert acquisition['status'] == 'DUPLICATE_PRIMARY_SUPPLEMENT_REACQUIRED_NO_NEW_ROLE'
     assert acquisition['doi'] == '10.1007/s40820-025-01680-w'
@@ -1507,6 +1508,53 @@ def verify_serial_source_dossiers(recursive):
     assert acquisition['uncertainty_confidence_level'] is None
 
 
+def verify_response_preparation(recursive):
+    audit = json.loads((recursive / 'derivative-route-audit/evidence.json').read_text())
+    assert audit['status'] == 'SOURCE_REVIEWED_DERIVATIVE_AND_STABILITY_DEPENDENCIES'
+    for key in ('campaign_ready', 'native_physics_executed', 'observed_gradient_failure',
+                'held_out_validation', 'physical_admission'):
+        assert audit[key] is False
+    assert audit['new_roles'] == audit['verified_integrated_complements'] == 0
+    arithmetic = audit['arithmetic']
+    assert arithmetic['central_displaced_SCFs_per_gradient'] == 2 * 3 * arithmetic['movable_H'] == 192
+    assert arithmetic['four_start_displaced_SCFs_per_gradient'] == 4 * 192
+    assert arithmetic['four_start_h_and_h2_displaced_SCFs'] == 2 * 4 * 192
+    assert arithmetic['runtime_forecast'] is arithmetic['guaranteed_runtime_lower_bound'] is False
+    identity = json.loads((recursive / 'identity/moussawi-alternate-deposit-followup/evidence.json').read_text())
+    assert identity['status'] == 'ALTERNATE_ROUTE_LOCATED_NO_OCCUPANCY_RECOVERED'
+    assert identity['raw_files_saved'] == [] and identity['response_hashes'] is None
+    assert all(value is None for value in identity['unresolved'].values())
+    assert all(access['full_text_acquired'] is False for access in identity['accesses'])
+    for key in ('new_primary_structure_datasets', 'new_roles', 'verified_integrated_complements', 'chemistry_jobs_run'):
+        assert identity[key] == 0
+    for key in ('nominal_target_verified', 'held_out_validation', 'physical_admission', 'author_contacted'):
+        assert identity[key] is False
+    base = recursive / 'cpcm-response-probe'
+    preparation = json.loads((base / 'preparation.json').read_text())
+    mocks = json.loads((base / 'evidence/mock-tests.json').read_text())
+    assert preparation['status'] == 'PREPARED_NOT_EXECUTED' and len(preparation['pins']) == 177
+    assert preparation['case'] == 'retrospective anion-water MoO4'
+    assert preparation['density_key'] == 'initial_dm' and preparation['density_shape'] == [87, 87]
+    assert preparation['epsilons'] == [1.0, 78.4] and preparation['steps'] == [0.001, 0.0005]
+    assert preparation['physical_admission'] is False
+    for record in (preparation, mocks):
+        assert record['native_probe_run'] is False and record['SCFs_launched'] == 0
+    assert mocks['success'] is True and mocks['tests_run'] == 7
+    receipt = json.loads((base / 'preparation-evidence.json').read_text())
+    assert receipt['status'] == 'PREPARATION_VERIFIED_NATIVE_UNRUN'
+    assert receipt['preparation_sha256'] == 'd6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd'
+    assert receipt['matching_preparation_pins'] == 177 and receipt['matching_derivative_audit_sources'] == 11
+    assert receipt['mock_tests']['tests_run'] == mocks['tests_run']
+    assert receipt['mock_tests']['success'] is receipt['mock_tests']['root_independent_rerun'] is True
+    assert receipt['initial_import_attempt']['returncode'] == 143
+    assert receipt['initial_import_attempt']['tests_started'] is receipt['initial_import_attempt']['molecular_probe_started'] is False
+    assert receipt['SCFs_launched'] == 0
+    for key in ('native_probe_run', 'approval_exists', 'run_directory_exists', 'held_out_validation', 'physical_admission'):
+        assert receipt[key] is False
+    assert not (base / 'independent-root-review.json').exists()
+    assert not list(base.glob('run-v*'))
+
+
 def verify_stage_artifact_bindings(recursive, included):
     source_hashes = {record['path']: record['source_sha256'] for record in included}
     stage = 'parent-j-stage-localization/run-v1'
@@ -1516,6 +1564,18 @@ def verify_stage_artifact_bindings(recursive, included):
                for name in omitted_logs)
     bindings = {stage + '/' + name: digest for name, digest in launch['artifact_hashes'].items()
                 if name not in omitted_logs}
+    response = 'cpcm-response-probe'
+    preparation = json.loads((recursive / response / 'preparation.json').read_text())
+    project_pins = {path.split('/recursive-compound-2026-10-15/', 1)[1]: digest
+                    for path, digest in preparation['pins'].items()
+                    if '/recursive-compound-2026-10-15/' in path and '/env-aligned/' not in path}
+    assert len(project_pins) == 12
+    bindings.update(project_pins)
+    audit = json.loads((recursive / 'derivative-route-audit/evidence.json').read_text())
+    assert len(audit['project_sha256']) == 3
+    bindings.update(audit['project_sha256'])
+    assert all('recursive-compound-2026-10-15/' + response + '/evidence/' + name not in source_hashes
+               for name in ('mock-startup-sample.txt', 'mock-tests.log', 'mock-tests-aligned.log', 'preparation.log'))
     metric = 'parent-metric-solve-diagnostic/run-v1'
     failure = json.loads((recursive / metric / 'launch-result.json').read_text())
     bindings.update({metric + '/' + name: digest for name, digest in failure['artifact_hashes'].items()
@@ -1657,6 +1717,14 @@ def verify_parent_pilot_source_bindings(included):
             'boundary/tantalum-coated-alumina-followup/ROOT_REVIEW.json': 'c4456a81132ad15cf23b9d01aaef7389e182c46220308dbe437c935bc98e1319',
             'identity/vanadate-nmr-control/ROOT_REVIEW.json': 'b24e6736224cd5db6eaed6519fec982d67417129427246b2321fb395aa262bf5',
             'review/serial-continuation-chemistry.md': '1657921c4a17f3fb7cad6511db1c80dee66cf99041c09b7cf435b40bb5ffcfab',
+            'derivative-route-audit/REPORT.md': 'f1a80d01607db68dee830cf52b6adee59aaa2a553097d88cc630b6521cf04c8a',
+            'derivative-route-audit/evidence.json': '22d0f340a3bf4b57cd274b4e22c7b3cc21c6c80e4e3944e4e9a9607c24c245bc',
+            'identity/moussawi-alternate-deposit-followup/REPORT.md': '530b9b140e11c441d32841a9b25c838b003864f8481017ef887ef9ae040675b4',
+            'identity/moussawi-alternate-deposit-followup/evidence.json': '758bb86fff79d3fdf1920f0076b49436e788de99fe4a0a46f9b96928c40cfe65',
+            'cpcm-response-probe/preparation.json': 'd6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd',
+            'cpcm-response-probe/evidence/mock-tests.json': '854fa7127cd5e6edbb8273f867ce7d53cf8dc38dba522d3e3f7c961336edb829',
+            'cpcm-response-probe/REPORT.md': 'b7a9226c374b67f4a50a1af78124380c6432a491421555c2e0bcdb8007e12213',
+            'cpcm-response-probe/preparation-evidence.json': '1d521c35c6e6e5aacf2d0e8b843024ce7502ea50280a3349afcd43c3d6f2a6e2',
             'renewal/ir-ta-reservoir-reacquisition/acquisition.json': '7aeacbe90a8a5a6088851e03ebe4c115c5dd5a12b7c8c4d7a76fa65c704979c2',
             'identity/competing-mov-speciation/ACCESS_FOLLOWUP_2026-10-16.md': '871dc24fddfd0fa6a2e684fd3c299109915d1e8a62309311d2e1f075374aaa00',
     }.items():

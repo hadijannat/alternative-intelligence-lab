@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-16",
+  "status": "ALTERNATE_ROUTE_LOCATED_NO_OCCUPANCY_RECOVERED",
+  "investigator_queries": [
+    "\"2017SACLV078\" \"pdf\" -site:grafiati.com",
+    "\"74668_MOUSSAWI\" -site:theses.hal.science",
+    "\"Moussawi\" \"Assemblages\" repository thesis",
+    "site:researchgate.net/publication/323533874 \"Mo36\" \"W\"",
+    "site:researchgate.net \"323533874\" \"occupancy\"",
+    "site:researchgate.net \"323533874\" \"Krebs\""
+  ],
+  "root_queries": [
+    "\"Mo36\" \"vanadium\" NMR solution substitution",
+    "\"Mo36\" \"tungsten\" \"vanadium\" cluster"
+  ],
+  "root_query_scope": "Inspected search results; relevant Sanchez Sanchez2012 deposit was already assessed. Other architectures and secondary sources were not used as exact-target evidence. No exhaustive coverage claimed.",
+  "accesses": [
+    {
+      "observer": "exact_target_identity_search investigator",
+      "url": "https://www.researchgate.net/publication/323533874_Assemblages_a_base_de_polyoxometallates_des_interactions_fondamentales_aux_materiaux_hybrides_supramoleculaires",
+      "outcome": "TimeoutError",
+      "full_text_acquired": false
+    },
+    {
+      "observer": "investigator and independent root open",
+      "url": "https://www.researchgate.net/figure/Schematic-representation-of-the-different-sites-of-the-inner-acetates-coordinated-to-the_fig31_323533874",
+      "outcome": "Parsed HTML accessible",
+      "locators": "Author line0; capsule caption lines8-9; thesis metadata lines13-22; full-text link line26 in root tool response",
+      "source_tier": "Author-uploaded figure page and truncated thesis abstract",
+      "ordinary_mo36_occupancy_table": false,
+      "full_text_acquired": false
+    },
+    {
+      "observer": "exact_target_identity_search investigator; not retried by root",
+      "url": "https://www.researchgate.net/figure/publication/323533874_Assemblages_a_base_de_polyoxometallates_des_interactions_fondamentales_aux_materiaux_hybrides_supramoleculaires/download",
+      "outcome": "HTTP403 Forbidden",
+      "full_text_acquired": false
+    }
+  ],
+  "raw_files_saved": [],
+  "response_hashes": null,
+  "known_blocked_hal_or_soleil_retried": false,
+  "author_contacted": false,
+  "new_primary_structure_datasets": 0,
+  "new_roles": 0,
+  "verified_integrated_complements": 0,
+  "chemistry_jobs_run": 0,
+  "nominal_target_verified": false,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "unresolved": {
+    "W_loading": null,
+    "site_occupancies_and_uncertainties": null,
+    "crystallographic_identifier": null,
+    "counterions_and_protonation": null,
+    "solution_persistence": null,
+    "V_V_occupancy": null,
+    "same_molecule_W_V_identity": null
+  }
+}

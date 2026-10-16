@@ -1,0 +1,22 @@
+{
+  "status": "PREPARATION_VERIFIED_NATIVE_UNRUN",
+  "preparation_sha256": "d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd",
+  "matching_preparation_pins": 177,
+  "matching_derivative_audit_sources": 11,
+  "mock_tests": {"tests_run": 7, "success": true, "root_independent_rerun": true, "seconds": 0.005},
+  "initial_import_attempt": {"interpreter": "older discovery-loop environment", "returncode": 143, "tests_started": false, "molecular_probe_started": false},
+  "native_probe_run": false,
+  "approval_exists": false,
+  "run_directory_exists": false,
+  "SCFs_launched": 0,
+  "held_out_validation": false,
+  "physical_admission": false,
+  "retained_local_files": {
+    "evidence/mock-startup-sample.txt": {"bytes": 151576, "sha256": "fee08b41fe48ec363fd0784fe47fa2b786bd12e2b5a8a80b547a635f5db104d0"},
+    "evidence/mock-tests-aligned.log": {"bytes": 1006, "sha256": "27acf598bb7541f3ad8d58a2d2ae2ae6f905e6cd697583f75a30fc41236a6ada"},
+    "evidence/mock-tests.json": {"bytes": 91, "sha256": "854fa7127cd5e6edbb8273f867ce7d53cf8dc38dba522d3e3f7c961336edb829"},
+    "evidence/mock-tests.log": {"bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},
+    "evidence/preparation.log": {"bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}
+  },
+  "excluded_logs_policy": "Existing raw-log and text-acquisition exclusions; originals retained locally. Empty logs do not establish success."
+}

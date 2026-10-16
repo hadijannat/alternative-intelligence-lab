@@ -1,6 +1,14 @@
 # Recursive search around nominal Mo34WV
 
-## Current publication work: completed serial prefix and reviewed source constraints
+## Current publication work: derivative audit, alternate access and response preparation
+
+Publish the [source-reviewed dependency audit](derivative-route-audit/REPORT.md), [alternate Moussawi access result](identity/moussawi-alternate-deposit-followup/REPORT.md) and frozen [response protocol](cpcm-response-probe/PROTOCOL.md) after `d0af744f6eb21b534fe95785e1491e514a236e99`. Record export, commit, push and hosted verification separately. The response preparation is **PREPARED_NOT_EXECUTED**: seven mocks pass, native execution is **UNRUN**, and no independent root approval or run directory exists. Preparation SHA256 is `d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd`. This publication task performs no native launch.
+
+A later native response test requires independent review and root authorization bound to that frozen preparation. Its existing retrospective MoO4 fixture, fixed comparisons/tolerances and one 120-second/2-GiB sampled-RSS child remain unchanged; no retry, parent calculation or holdout use is included. Keep every frozen ground-state guard. Any later parent relaxation still needs consistent nuclear derivatives, qualified full solvent-aware response/stability, parent electronic accuracy and an explicit force/state-following/resource protocol. The unchanged full-J failure is 6.702407517877873e-10 at 630 entries above absolute 1e-10/relative-zero tolerance. The reserved holdout remains unused.
+
+Identity evidence remains separate: the alternate route recovered no substitution chapter, W occupancy or CIF; V(V), same-molecule W/V and solution competence remain unresolved. Characterization/laboratory access is unconfirmed, without inferring lack of access. All twelve functions remain unmet, with 24 assessed roles and zero verified integrated complements. Historical workplans below retain their original states.
+
+## Historical publication work: completed serial prefix and reviewed source constraints
 
 Publish the completed [serial-prefix result](parent-serial-rhs-diagnostic/REPORT.md) and reviewed source constraints after `5e5e9e2`, recording export, commit, push and hosted verification separately. The single child completed two pass-1 contractions/two sentinels and one factorization with zero solves, completed J calls, SCFs or PCM builds. The two finite float64 (19612, 1) RHS arrays are bitwise identical. Wall time was 893.8663067501038 seconds and sampled maximum RSS 3,627,646,976 bytes. [Independent terminal review](parent-serial-rhs-diagnostic/INDEPENDENT_REVIEW.md) is CLEAR for publication of this scoped result. This publication task launches no new scientific run or physics implementation.
 

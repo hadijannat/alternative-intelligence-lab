@@ -2,7 +2,21 @@
 
 All paths below are relative to this directory. Numerical PASS means only the stated check passed. No required target function is fulfilled by a source-table or software check.
 
-## Current publication checkpoint: completed prefix and reviewed source constraints
+## Current publication checkpoint: derivative audit and response preparation
+
+| Requirement/check | Verdict | Evidence | Observable and limit |
+|---|---|---|---|
+| Requested publication | PENDING EXPORT/COMMIT/PUSH | baseline d0af744f6eb21b534fe95785e1491e514a236e99; progress.md | New checkpoint records preparation and source findings only; hosted verification is recorded separately |
+| Nuclear derivative dispatch | INCOMPATIBLE IF GUARDS BYPASSED | derivative-route-audit/REPORT.md; evidence.json | Independent source review confirms direct-gradient/RI-energy mismatch and missing PCM cache; no gradient run |
+| Parent derivative allocation | RESOURCE ESTIMATE | derivative-route-audit/evidence.json | Full400-point tensor90,361,190,400bytes; arithmetic independently reproduced, not observed RSS |
+| Stability response | UNSUPPORTED | derivative-route-audit/REPORT.md | Internal path needs new solvent response; inspected external path omits tagged solvent Fock; existing guards retained |
+| Standalone solvent-response probe | PREPARED_NOT_EXECUTED; NATIVE UNRUN | cpcm-response-probe/PROTOCOL.md; preparation.json; evidence/mock-tests.json | Seven mocks pass; preparation SHA256 d6d4f14cd837e20fc0206cfbebca4a35e1b6f3009a89ad52d96ad8bb96c66ebd; no independent root approval/run directory; proposed one 120-second/2-GiB sampled-RSS child on retrospective MoO4 only |
+| Native response/stability qualification | UNVERIFIED | cpcm-response-probe/PROTOCOL.md; derivative-route-audit/REPORT.md | Standalone candidate has no production response/stability wiring or nuclear derivatives; current guards remain; native cache preservation and equivalence untested |
+| Exact W/V target identity | UNRESOLVED | identity/moussawi-alternate-deposit-followup/REPORT.md | New author-associated page accessible; chapter/CIF/occupancies unrecovered; no target assay |
+| Original J acceptance and holdout | STILL FAILED; HOLDOUT UNUSED | parent-explicit-blas-j/run-v1/result.json; cpcm-response-probe/PROTOCOL.md | 6.702407517877873e-10 maximum; 630 entries above unchanged absolute 1e-10/relative-zero criterion; response preparation does not test J |
+| Integrated functions | UNMET | PROTOCOL.md | All twelve functions remain open;24assessed roles and0verified complements |
+
+## Historical publication checkpoint: completed prefix and reviewed source constraints
 
 | Requirement/check | Verdict | Evidence | Observable and limit |
 |---|---|---|---|
