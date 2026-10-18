@@ -1,0 +1,26 @@
+{
+  "retrieved_on": "2026-10-18",
+  "primary_paper": {
+    "authors": "Mark D. Symes and Leroy Cronin",
+    "title": "Decoupling hydrogen and oxygen evolution during electrolytic water splitting using an electron-coupled-proton buffer",
+    "doi": "10.1038/nchem.1621",
+    "url": "https://www.chem.gla.ac.uk/cronin/images/pubs/251.SymesNatureChem_sDKDy5D.pdf",
+    "local_path": "../../recursive-compound-2026-10-15/energy/raw/symes2013.pdf",
+    "sha256": "cba5ee525fdfba67185b30180dae2b3ae201cb89e2bed40e66b42e831dd9d9a6",
+    "acquisition_class": "previously acquired bytes, live primary URL reopened this turn"
+  },
+  "supplement": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnchem.1621/MediaObjects/41557_2013_BFnchem1621_MOESM145_ESM.pdf",
+    "local_path": "symes2013-si.pdf",
+    "bytes": 2054083,
+    "pages": 37,
+    "sha256": "55af718552d17d3c260d530d9b25d26a8019468ed345f5318d752649bb33e981",
+    "extracted_text": "symes2013-si.txt",
+    "acquisition_class": "official linked supplementary PDF downloaded and inspected this turn"
+  },
+  "retained_acquisition_negatives": [
+    "Initial guessed MOESM1 asset route failed; official article links to MOESM145.",
+    "Initial destination copy failed because sources directory was absent; directory creation and copy subsequently succeeded.",
+    "No native numerical electrochemical dataset acquired. Published vector plot markers are digitized data, not raw measurements."
+  ]
+}

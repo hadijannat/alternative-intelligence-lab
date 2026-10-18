@@ -1,0 +1,33 @@
+{
+  "retrieved_utc": "2026-10-18T14:11:47.119084+00:00",
+  "requests": [
+    {
+      "name": "figshare-28718969.json",
+      "url": "https://api.figshare.com/v2/articles/28718969",
+      "resolved_url": "https://api.figshare.com/v2/articles/28718969",
+      "request_payload": null,
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 9134,
+      "sha256": "390dcfbccefef1148057200a0954461b0a80c35bf1f3c9e789728dcd74f7f3d6",
+      "md5": "797bbf377c7bf472da10c3b75f9aaf13"
+    },
+    {
+      "name": "ja5c00438_si_001.pdf",
+      "url": "https://ndownloader.figshare.com/files/53382659",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pstorage-acs-6854636/53382659/ja5c00438_si_001.pdf",
+      "request_payload": null,
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1342459,
+      "sha256": "658e8a17f67d282b219ea77cefb59aa59dccfe1deb06555b7a7a3f93e1f6dca1",
+      "md5": "e08c00938f919d0bd21ffc76112e8ec6",
+      "expected_md5": "e08c00938f919d0bd21ffc76112e8ec6",
+      "expected_size": 1342459,
+      "matches_md5": true,
+      "matches_size": true,
+      "pdf_pages": 35,
+      "extraction": "ja5c00438_si_001.pdf.txt"
+    }
+  ]
+}

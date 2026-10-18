@@ -1,0 +1,56 @@
+{
+  "retrieved_utc": "2026-10-18T13:50:54.293296+00:00",
+  "records": [
+    {
+      "article_id": 12662087,
+      "doi": "10.1021/acs.cgd.0c00693.s001",
+      "metadata_url": "https://api.figshare.com/v2/articles/12662087",
+      "url": "https://ndownloader.figshare.com/files/23899775?download=1",
+      "file": "cg0c00693_si_001.pdf",
+      "bytes": 933404,
+      "sha256": "d1c390ab34911f76195e8bdb0f13dff2ee7a9ef0476e904c6a2f4cfa68992bc9",
+      "md5_matches_deposit": true,
+      "failed_download_attempts": [],
+      "pages": 13
+    },
+    {
+      "article_id": 12662108,
+      "doi": "10.1021/acs.cgd.0c00693.s008",
+      "metadata_url": "https://api.figshare.com/v2/articles/12662108",
+      "url": "https://ndownloader.figshare.com/files/23899796?download=3",
+      "file": "cg0c00693_si_008.mp4",
+      "bytes": 6992954,
+      "sha256": "494b52bb5e7bb3ec24e546d3c166ae1ccfe20b955445d501d19b3c521504a1fc",
+      "md5_matches_deposit": true,
+      "failed_download_attempts": [
+        {
+          "url": "https://ndownloader.figshare.com/files/23899796?download=1",
+          "http_status": 500
+        },
+        {
+          "url": "https://ndownloader.figshare.com/files/23899796?download=2",
+          "http_status": 500
+        }
+      ]
+    },
+    {
+      "article_id": 12662111,
+      "doi": "10.1021/acs.cgd.0c00693.s009",
+      "metadata_url": "https://api.figshare.com/v2/articles/12662111",
+      "url": "https://ndownloader.figshare.com/files/23899799?download=1",
+      "file": "cg0c00693_si_009.mp4",
+      "bytes": 8234589,
+      "sha256": "bf61aa022f39bee47d753ab67a313639186ba99dfa135b0a13e41f19e1034831",
+      "md5_matches_deposit": true,
+      "failed_download_attempts": []
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.cgd.0c00693",
+      "status": 403,
+      "file": "publisher-main-response.html",
+      "bytes": 5451,
+      "sha256": "7f516acbfa66483f04c75ca0ec1e7dac92725aaaec4b7944f54eaddcc1571d79",
+      "main_text_verified": false
+    }
+  ]
+}

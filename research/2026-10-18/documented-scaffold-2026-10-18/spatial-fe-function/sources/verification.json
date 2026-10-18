@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "resource_doi_exact": true,
+    "si_doi_exact": true,
+    "pdf_magic": true,
+    "size_match": true,
+    "md5_match": true,
+    "pages_35": true,
+    "one_advertised_file": true,
+    "no_embedded_files": true,
+    "extracted_text_nonempty": true,
+    "methods_renders_nonempty": true
+  },
+  "all_pass": true,
+  "native_sha256": "658e8a17f67d282b219ea77cefb59aa59dccfe1deb06555b7a7a3f93e1f6dca1",
+  "scope": "Acquisition identity/integrity, not scientific validation. No response points extracted."
+}

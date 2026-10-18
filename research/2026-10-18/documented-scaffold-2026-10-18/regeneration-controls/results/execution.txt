@@ -1,0 +1,21 @@
+Invocation (workspace root):
+/USER_HOME/.pyenv/versions/3.12.3/bin/python3 documented-scaffold-2026-10-18/regeneration-controls/analyze.py
+
+Observed final tool process exit code:0
+WNi175T-A summaries 43 train 14 reserved 29
+WNi176T-A summaries 43 train 14 reserved 29
+WNi194T-A summaries 43 train 14 reserved 29
+WNi197T-A summaries 43 train 14 reserved 29
+WNi198T-A summaries 43 train 14 reserved 29
+WNi214T-A summaries 38 train 14 reserved 24
+WNi225T-A summaries 40 train 14 reserved 26
+WNi78T summaries 43 train 14 reserved 29
+WNi79T summaries 41 train 14 reserved 27
+WNi99T summaries 43 train 14 reserved 29
+PASS: execution/selfchecks; scientific forecast failures retained in analysis.json
+
+Artifacts:
+analysis.json: source/protocol/amendment/script hashes; every specimen summary, calibration and reserved residual; every fixed-grid fit and screen; flat baselines; parameter ambiguity and boundary flags; exact origin counterexample; processed/native discrepancies; separate unvalidated followup.
+forecasts.png: ten specimen plots with native training/reserved values and primary M0/M1/flat forecasts.
+../execution_failures.txt: retained parser and serialization failures.
+../extraction_notes.md: actual field, clock, gap, current and scientific scope audit.

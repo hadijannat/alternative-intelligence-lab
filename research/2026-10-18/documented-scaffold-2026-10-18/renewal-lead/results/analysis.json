@@ -1,0 +1,119 @@
+{
+  "status": "RETROSPECTIVE_BULK_STATE_TRANSFER_COMPARISONS_COMPLETE",
+  "protocol_sha256": "118d1e96066224ccbc6f1e7cd448ae8a34b0685755332463b0f695640bc72bdd",
+  "source_table_sha256": "1bf3a6fb72c7196c0beafed63553150bf3c0a33d68a062759c1447988a050b79",
+  "analysis_sha256": "2a4009844878b428f292205743b0806f5f021e919bb59c38f0f302cce0f9ecf4",
+  "classification": "Primary tables inspected before fitting; two pure-silica parents withheld from parameter estimation, not blind validation",
+  "composition": {
+    "calibration_seeds": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ],
+    "heldout_seeds": [
+      "S9",
+      "S10"
+    ],
+    "parameters": {
+      "alpha": 0,
+      "intercept": 0.16185897435897434,
+      "g": 0.16185897435897434,
+      "unconstrained_alpha": -0.13633415120305079,
+      "boundary_hit": true
+    },
+    "effective_mixture_heldout": {
+      "observed": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "predicted": [
+        0.16185897435897434,
+        0.16185897435897434
+      ],
+      "residual_predicted_minus_observed": [
+        -0.004807692307692318,
+        -0.004807692307692318
+      ],
+      "rmse": 0.004807692307692318
+    },
+    "direct_parent_copy_heldout": {
+      "observed": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "predicted": [
+        0.0,
+        0.0
+      ],
+      "residual_predicted_minus_observed": [
+        -0.16666666666666666,
+        -0.16666666666666666
+      ],
+      "rmse": 0.16666666666666666
+    },
+    "limitation": "Bulk XRF state descriptor; alpha is not copying fidelity, founder fraction or an uncertainty bound"
+  },
+  "microporosity": {
+    "calibration_seeds": [
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ],
+    "heldout_seeds": [
+      "S9",
+      "S10"
+    ],
+    "common_product_mean_cm3_g": 0.1975,
+    "common_product_heldout": {
+      "observed": [
+        0.21,
+        0.2
+      ],
+      "predicted": [
+        0.1975,
+        0.1975
+      ],
+      "residual_predicted_minus_observed": [
+        -0.012499999999999983,
+        -0.0025000000000000022
+      ],
+      "rmse": 0.009013878188659962
+    },
+    "parent_copy_heldout": {
+      "observed": [
+        0.21,
+        0.2
+      ],
+      "predicted": [
+        0.16,
+        0.17
+      ],
+      "residual_predicted_minus_observed": [
+        -0.04999999999999999,
+        -0.03
+      ],
+      "rmse": 0.041231056256176596
+    },
+    "limitation": "One-growth nitrogen accessibility; no lineage-linked catalytic function or quantitative active founder bound"
+  },
+  "exact_target_integration": false,
+  "PMo12_same_medium_integration": false,
+  "newly_active_product_mol": null,
+  "empirical_founder_function_bound": null,
+  "functional_transmission_matrix": null,
+  "preserved_negatives": [
+    "Direct parent bulk-composition copying contradicts pure-silica-parent/Al-containing-product contrast",
+    "Effective positive composition-memory coefficient reaches zero boundary under constrained descriptor",
+    "Unknown yield denominator prevents converting10wt%seed/feed into final founder fraction",
+    "Unchanged and chemically altered founder function not independently bounded",
+    "No serial newly competent descendants, catalytic inheritance or selectable inherited variants measured",
+    "Seeds were originally made with organic templates and later calcined",
+    "Alkaline140C synthesis not a demonstrated common medium with acidicPMo12 electrolysis"
+  ]
+}

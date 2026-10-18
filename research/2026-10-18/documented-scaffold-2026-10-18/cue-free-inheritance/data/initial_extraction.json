@@ -1,0 +1,64 @@
+{
+  "source_sha256": "f83754d9317c0fd177471fb0d18f1ae9a78d02bdcdc3a472433f9bff8afe36f6",
+  "doi": "10.1021/jacs.5c12567",
+  "page_zero_based": 2,
+  "image_size": [
+    1500,
+    1285
+  ],
+  "axes_pixels": {
+    "A": [
+      129.0,
+      723.0,
+      14.5,
+      530.5
+    ],
+    "B": [
+      873.5,
+      1471.0,
+      14.5,
+      530.5
+    ]
+  },
+  "method": "Enclosed white centers of colored hollow circles; separate panels and legend exclusion.",
+  "data_class": "Published raster digitization, not original measurements",
+  "allowance": "2 percentage points on x/y, analyst allowance; experimental uncertainty unknown",
+  "counts": {
+    "A/untreated": 10,
+    "A/preactivated": 12,
+    "B/untreated": 10,
+    "B/preactivated": 11
+  },
+  "excluded_legends": [
+    {
+      "panel": "A",
+      "treatment": "untreated",
+      "pixel_x": 228.876,
+      "pixel_y": 406.579,
+      "hole_area_pixels": 121
+    },
+    {
+      "panel": "A",
+      "treatment": "preactivated",
+      "pixel_x": 229.0,
+      "pixel_y": 457.847,
+      "hole_area_pixels": 118
+    },
+    {
+      "panel": "B",
+      "treatment": "untreated",
+      "pixel_x": 947.5,
+      "pixel_y": 60.5,
+      "hole_area_pixels": 120
+    },
+    {
+      "panel": "B",
+      "treatment": "preactivated",
+      "pixel_x": 947.595,
+      "pixel_y": 116.595,
+      "hole_area_pixels": 116
+    }
+  ],
+  "csv_sha256": "3629f2558569c32b4daa70253a488f152c7be64543cbce475ec641206d0fae1d",
+  "protocol_sha256": "2a1962954f12b52656cf795ce73c40730f2fe823edd0150ec9b56aa733742c44"
+}

@@ -1,0 +1,71 @@
+{
+  "source_sha256": "f83754d9317c0fd177471fb0d18f1ae9a78d02bdcdc3a472433f9bff8afe36f6",
+  "doi": "10.1021/jacs.5c12567",
+  "catalyst": "GTM-4(RS-OMBMEP)",
+  "page_zero_based": 2,
+  "image_size": [
+    1500,
+    1285
+  ],
+  "axes_pixels": {
+    "A": [
+      129.0,
+      723.0,
+      14.5,
+      530.5
+    ],
+    "B": [
+      873.5,
+      1471.0,
+      14.5,
+      530.5
+    ]
+  },
+  "method": "Enclosed white centers of colored hollow circles; separate panels and legend exclusion.",
+  "data_class": "Published raster digitization, not original measurements",
+  "allowance": "2 percentage points on x/y, analyst allowance; experimental uncertainty unknown",
+  "partial_extraction": "Overlapping near-origin B markers and one overlapping 100%-ee B marker are not recovered. No fit-region blue markers are missing; withheld plateau retains two distinct recoverable markers. Unrecovered points are not imputed.",
+  "fallback": "Two visually located red A markers have partial blue overlap; remaining red arcs fitted to circles, centers within 1 pixel of initial visual locations.",
+  "counts": {
+    "A/untreated": 12,
+    "A/preactivated": 12,
+    "B/untreated": 10,
+    "B/preactivated": 11
+  },
+  "excluded_legends": [
+    {
+      "catalyst": "GTM-4(RS-OMBMEP)",
+      "panel": "A",
+      "treatment": "untreated",
+      "pixel_x": 228.876,
+      "pixel_y": 406.579,
+      "hole_area_pixels": 121
+    },
+    {
+      "catalyst": "GTM-4(RS-OMBMEP)",
+      "panel": "A",
+      "treatment": "preactivated",
+      "pixel_x": 229.0,
+      "pixel_y": 457.847,
+      "hole_area_pixels": 118
+    },
+    {
+      "catalyst": "GTM-4(RS-OMBMEP)",
+      "panel": "B",
+      "treatment": "untreated",
+      "pixel_x": 947.5,
+      "pixel_y": 60.5,
+      "hole_area_pixels": 120
+    },
+    {
+      "catalyst": "GTM-4(RS-OMBMEP)",
+      "panel": "B",
+      "treatment": "preactivated",
+      "pixel_x": 947.595,
+      "pixel_y": 116.595,
+      "hole_area_pixels": 116
+    }
+  ],
+  "csv_sha256": "2dcc1147746e21c002a02af7eefe144c739bf83b3a14e944007867e66143b48f",
+  "protocol_sha256": "2a1962954f12b52656cf795ce73c40730f2fe823edd0150ec9b56aa733742c44"
+}

@@ -1,0 +1,39 @@
+{
+  "doi": "10.1021/jacs.2c01874",
+  "title": "GTM-3, an Extra-Large Pore Enantioselective Chiral Zeolitic Catalyst",
+  "source_class": "EuropePMC primary article XML and linked supplementary package",
+  "article_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9100664/fullTextXML",
+  "supplementary_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9100664/supplementaryFiles",
+  "extracted_asset": "ja2c01874_si_001.pdf",
+  "si_pages": 24,
+  "files": {
+    "article.xml": {
+      "bytes": 88549,
+      "sha256": "78b5bba8f013561715f6691474685dbeda30c04f8cd2130b00141908ef505ce6"
+    },
+    "supplementary.zip": {
+      "bytes": 2117858,
+      "sha256": "c531e2e7940d5c12aa513846b6e9222215718476d6786104c1adccd89fda3947"
+    },
+    "supporting-information.pdf": {
+      "bytes": 1229104,
+      "sha256": "e69afea7d614b735984891b7513b2afd0474cfb43c08708667a878783e9169df"
+    },
+    "supporting-information.txt": {
+      "bytes": 35147,
+      "sha256": "4164f7cf858c564c52a8fde159d339c4c43b3698920168ac3ea6abb21c0297fe"
+    },
+    "body.txt": {
+      "bytes": 24232,
+      "sha256": "c5a539a0153cf0b448c91a40e1c4ab834901975d223caeecbb76ff8dff0586e4"
+    },
+    "tables.json": {
+      "bytes": 578,
+      "sha256": "fde4b299efc9ab87d9d2ec45f8ce019b2b5fa7b3b3496515bad76651b6635dc0"
+    }
+  },
+  "failures": [
+    "Web reader received a PMC CAPTCHA page; ACS main article returned403. No challenge bypass attempted; public EuropePMC API succeeded."
+  ],
+  "checks": "PASS: exact DOI/title, XML-linked unique ZIP member, PDF signature/pages, primary tables retained"
+}

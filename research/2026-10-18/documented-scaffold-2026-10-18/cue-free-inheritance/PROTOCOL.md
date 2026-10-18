@@ -1,0 +1,23 @@
+# Cue-controlled inheritance and catalyst activation
+
+2026-10-18. Task: follow up the closest functional-inheritance leads, retain negative results, and test the smallest source-constrained reaction model that the new measurements support. Scope: this folder and append-only continuation notes in its parent. No new synthesis, external correspondence or publication.
+
+## Evidence and completion
+
+Acquire and inspect a bounded set of GTM/STW primary articles and SI, preserving access failures. Check whether actual newly grown descendants have seed-associated function under a common achiral growth cue with founder activity bounded. Separate independently prepared catalysts, structural purity, catalytic function and serial inheritance. Preserve contradictory numerical source statements.
+
+A new 2025 GTM study supplies activation and inactivation evidence. Test a stationary reaction null rather than assign unmeasured Ge activation, transport or growth rates. Completion requires saved source receipts, an executable bounded calculation, a negative-results ledger, an independent review, checks.md and progress.md. The complete life/intelligence goal remains unchanged and incomplete.
+
+## Frozen numerical assessment
+
+Source DOI10.1021/jacs.5c12567, Figure1, main PDF SHA256 `f83754d9317c0fd177471fb0d18f1ae9a78d02bdcdc3a472433f9bff8afe36f6`. The figure and author-reported outcomes have already been seen. This is a **retrospective withheld-point assessment**, not blinded validation or new experimental data. Freeze this protocol before numerical digitization/fitting.
+
+1. Extract hollow red/blue marker centers from the native embedded Figure1 raster, keeping panel A (unlike-product ee) and B (remaining-substrate ee). Calibrate each panel independently to its printed 0–100% axes. Exclude legend markers explicitly. Retain source pixels, extraction geometry and a conservative analyst coordinate allowance of 2 percentage points on each axis; this is not experimental error or a confidence interval.
+2. Fit only the preactivated substrate series (panel B, blue), conversion 0.10–0.60, to irreversible pseudo-first-order depletion of an initially racemic pair: `F=0.5 exp(-s*tau)`, `S=0.5 exp(-tau)`, `x=1-F-S`, `ee_sub=(S-F)/(S+F)`, with `s>=1`. There is one dimensionless rate ratio, no elapsed-time rate. Solve tau at each conversion by bisection and fit s on a fixed log grid with local deterministic refinement. Do not use SciPy or infer actual hours.
+3. Withhold preactivated substrate points at 0.60<x<0.95. Points at x>=0.95 are excluded because ee of vanishing residue is ill-conditioned. Values near 100% ee are treated as resolution-limited, not exact extinction. Screening pass: withheld RMSE <=0.05 ee fraction and no absolute residual >0.10. Report raw residuals, and digitization-coordinate sensitivity separately. No retuning after evaluation. The earlier points below 10% conversion remain visible but unfitted.
+4. Independently test the stationary-channel invariant against panel A. For any fixed nonnegative branch coefficients, `U1=a*C_F+b*C_S`, `U2=d*C_F+e*C_S`, the unlike-product ee is a fractional-linear function of `C_F/C_S`; its derivative has one sign. A resolved fall followed by rise cannot arise from this stationary two-pool/constant-branch model. Test all ordered marker triples using the declared y allowance; reject only if a turning excursion survives that allowance. Do not impose a single-product inventory bound on unlike products, which are only one product family.
+5. Keep a better chemical mechanism as a **proposed constrained extension**: initial/hydrogen-bonded Ge sites, butanol-coordinated active sites, dehydrated butoxide sites and hydrolyzed framework. The source supports these distinct states and condition-dependent transitions, but not numerical interconversion, water-transport, or repair rates. Do not fit an arbitrary activation ODE to repair a failed stationary model. The 50/115 C humidity preparations and room-temperature catalytic preparation are different experiments; XRD preservation is not a post-humidity activity assay. The 120 C inactivity statement remains qualitative.
+
+## Admission and negative-result rules
+
+Butanol is an active carbon-containing ligand/reactant, not merely an eliminated synthesis aid. Its improvement cannot qualify as a fully noncarbon active organization. Neither humidity protection nor catalytic bias proves functional inheritance, material renewal, PMo12 compatibility or intelligence. Preserve the earlier parent-priority/cue-priority witness test unchanged; new independent-batch assays cannot fill its missing offspring matrix. Keep all previous model failures and the source-access limitations.

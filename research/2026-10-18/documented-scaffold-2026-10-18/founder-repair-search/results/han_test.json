@@ -1,0 +1,390 @@
+{
+  "source_doi": "10.1038/s41467-025-60201-w",
+  "material": "Ni felt Bekaert2Ni18-025",
+  "source_sha256": "6807bd68789619eaa116329b9b73b14ed3d1e779696590dca665c77f12183206",
+  "units": "micrograms per geometric cm2",
+  "protocol_sha256": "1ddca9cca5effc7da93458365ae61b8c7f63e41becffcd2d91f5dcc17edd14ce",
+  "deviations_sha256": "6e1d75396ce0ee62134c39fcdae0674feba5d7c41b16d2dd560215ac2cc4bc9a",
+  "validation_class": "Retrospective reserved condition; exact outcomes exposed before implementation; EA excluded from fitting",
+  "source_rows": [
+    {
+      "condition": "initial",
+      "source_row": 27,
+      "Fe56_ug_cm2": 2.49,
+      "Fe57_ug_cm2": 0.2672,
+      "reported_two_isotope_sum": 2.758,
+      "individual_sum_minus_reported": -0.0007999999999999119
+    },
+    {
+      "condition": "high_no_EA",
+      "source_row": 28,
+      "Fe56_ug_cm2": 0.814,
+      "Fe57_ug_cm2": 0.2167,
+      "reported_two_isotope_sum": 1.03,
+      "individual_sum_minus_reported": 0.0006999999999999229
+    },
+    {
+      "condition": "low_no_EA",
+      "source_row": 29,
+      "Fe56_ug_cm2": 1.259,
+      "Fe57_ug_cm2": 3.10598,
+      "reported_two_isotope_sum": 4.365,
+      "individual_sum_minus_reported": -2.0000000000131024e-05
+    },
+    {
+      "condition": "high_EA_reserved",
+      "source_row": 30,
+      "Fe56_ug_cm2": 0.614,
+      "Fe57_ug_cm2": 2.567,
+      "reported_two_isotope_sum": 3.189,
+      "individual_sum_minus_reported": -0.008000000000000007
+    }
+  ],
+  "replicate_level_values": null,
+  "numeric_SEM": null,
+  "screen_tolerance_ug_cm2": 0.25,
+  "isotope_mass_fractions_background": [
+    0.05645558160867322,
+    0.9190152885563223,
+    0.02160368599477656,
+    0.0029254438402279157
+  ],
+  "conditional_excess_label": [
+    {
+      "condition": "high_no_EA",
+      "endpoint_minus_initial_Fe57_ug_cm2": -0.05049999999999999,
+      "positive_excess_ug_cm2": 0.0,
+      "positive_excess_fraction_of_measured_isotope_sum": 0.0
+    },
+    {
+      "condition": "low_no_EA",
+      "endpoint_minus_initial_Fe57_ug_cm2": 2.8387800000000003,
+      "positive_excess_ug_cm2": 2.8387800000000003,
+      "positive_excess_fraction_of_measured_isotope_sum": 0.6503534953195662
+    },
+    {
+      "condition": "high_EA_reserved",
+      "endpoint_minus_initial_Fe57_ug_cm2": 2.2998000000000003,
+      "positive_excess_ug_cm2": 2.2998000000000003,
+      "positive_excess_fraction_of_measured_isotope_sum": 0.722980194907262
+    }
+  ],
+  "finite_bath_models": [
+    {
+      "accessible_volume_ml": 50,
+      "initial_bath_ug_cm2": [
+        0.9190152885563223,
+        5.021603685994776
+      ],
+      "deterministic_screen_compatibility": {
+        "minimum_model_Fe56_Fe57_mass_ratio": 0.6445720981445575,
+        "maximum_ratio_in_reserved_tolerance_box": 0.3728959861890375,
+        "possible_to_meet_both_isotope_tolerances": false,
+        "class": "Post-hoc analytic necessary condition; applies to any common nonnegative rate history within the same closed reservoir"
+      },
+      "untracked_other_background_Fe_ug": 0.059381025448901135,
+      "uptake_per_h": 1.118080136786843,
+      "loss_per_h_per_A_cm2": 32.81852775681027,
+      "parameter_boundary": false,
+      "control_predictions_ug_cm2": [
+        [
+          0.21746319789431848,
+          0.33737606471068227
+        ],
+        [
+          1.8127494894229874,
+          2.812330063062153
+        ]
+      ],
+      "control_residuals_ug_cm2": [
+        [
+          -0.5965368021056815,
+          0.12067606471068226
+        ],
+        [
+          0.5537494894229875,
+          -0.29364993693784713
+        ]
+      ],
+      "control_rmse_ug_cm2": 0.43683167563729586,
+      "control_screen_pass": false,
+      "absolute_rates_identified": false,
+      "timescale_sensitivity": [
+        {
+          "rate_multiplier": 0.5,
+          "control_sse_ug2_cm4": 0.7632876530182088,
+          "reserved_prediction_ug_cm2": [
+            0.3054515803591267,
+            0.4738827219459063
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 1,
+          "control_sse_ug2_cm4": 0.7632876513603507,
+          "reserved_prediction_ug_cm2": [
+            0.39098819055592315,
+            0.6065856584258107
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 2,
+          "control_sse_ug2_cm4": 0.7632876513603507,
+          "reserved_prediction_ug_cm2": [
+            0.5550786051744883,
+            0.8611582889987295
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 4,
+          "control_sse_ug2_cm4": 0.7632876513603507,
+          "reserved_prediction_ug_cm2": [
+            0.8569796766095825,
+            1.3295326916514902
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 8,
+          "control_sse_ug2_cm4": 0.7632876513603507,
+          "reserved_prediction_ug_cm2": [
+            1.3683511917051114,
+            2.122883065593436
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        }
+      ],
+      "exact_endpoint_cone_diagnostic": [
+        {
+          "condition": "high_no_EA",
+          "alpha": 0.29093530797249945,
+          "beta": 0.02627476721772301,
+          "exact_point_inside_physical_cone": true,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        },
+        {
+          "condition": "low_no_EA",
+          "alpha": -0.3205788054382739,
+          "beta": 0.6034708123625104,
+          "exact_point_inside_physical_cone": false,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        },
+        {
+          "condition": "high_EA_reserved",
+          "alpha": -0.4489731187142692,
+          "beta": 0.5080479021060618,
+          "exact_point_inside_physical_cone": false,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        }
+      ],
+      "reserved_tests": [
+        {
+          "clock": "oer",
+          "predicted_ug_cm2": [
+            0.39098819055592315,
+            0.6065856584258107
+          ],
+          "residual_ug_cm2": [
+            -0.22301180944407684,
+            -1.9604143415741895
+          ],
+          "rmse_ug_cm2": 1.3951628323965064,
+          "screen_pass": false,
+          "remaining_bath_ug_cm2": [
+            3.0180270980003994,
+            4.6822180275689655
+          ],
+          "elapsed_hours": 21.000000000000007,
+          "oer_hours": 20.0,
+          "prescribed_OER_charge_C_cm2": 36000.0,
+          "reductive_pulse_charge_C_cm2": null
+        },
+        {
+          "clock": "elapsed",
+          "predicted_ug_cm2": [
+            0.28970034657041266,
+            0.4494459927823957
+          ],
+          "residual_ug_cm2": [
+            -0.32429965342958733,
+            -2.1175540072176045
+          ],
+          "rmse_ug_cm2": 1.5147945799179974,
+          "screen_pass": false,
+          "remaining_bath_ug_cm2": [
+            3.11931494198591,
+            4.8393576932123805
+          ],
+          "elapsed_hours": 20.0,
+          "oer_hours": 19.049999999999994,
+          "prescribed_OER_charge_C_cm2": 34289.999999999985,
+          "reductive_pulse_charge_C_cm2": null
+        }
+      ]
+    },
+    {
+      "accessible_volume_ml": 100,
+      "initial_bath_ug_cm2": [
+        1.8380305771126446,
+        10.043207371989553
+      ],
+      "deterministic_screen_compatibility": {
+        "minimum_model_Fe56_Fe57_mass_ratio": 0.4197729945055977,
+        "maximum_ratio_in_reserved_tolerance_box": 0.3728959861890375,
+        "possible_to_meet_both_isotope_tolerances": false,
+        "class": "Post-hoc analytic necessary condition; applies to any common nonnegative rate history within the same closed reservoir"
+      },
+      "untracked_other_background_Fe_ug": 0.11876205089780227,
+      "uptake_per_h": 0.6331424765106213,
+      "loss_per_h_per_A_cm2": 48.75030826704592,
+      "parameter_boundary": false,
+      "control_predictions_ug_cm2": [
+        [
+          0.109574036198346,
+          0.2610316471820696
+        ],
+        [
+          1.307593225506888,
+          3.115000828118902
+        ]
+      ],
+      "control_residuals_ug_cm2": [
+        [
+          -0.7044259638016539,
+          0.04433164718206961
+        ],
+        [
+          0.04859322550688816,
+          0.009020828118901925
+        ]
+      ],
+      "control_rmse_ug_cm2": 0.3537739074341402,
+      "control_screen_pass": false,
+      "absolute_rates_identified": false,
+      "timescale_sensitivity": [
+        {
+          "rate_multiplier": 0.5,
+          "control_sse_ug2_cm4": 0.5006239103751953,
+          "reserved_prediction_ug_cm2": [
+            0.1758207027836134,
+            0.4188471032794574
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 1,
+          "control_sse_ug2_cm4": 0.5006239103248785,
+          "reserved_prediction_ug_cm2": [
+            0.24102655493465264,
+            0.5741830896447482
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 2,
+          "control_sse_ug2_cm4": 0.5006239103248785,
+          "reserved_prediction_ug_cm2": [
+            0.36838284451016,
+            0.8775763313312606
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 4,
+          "control_sse_ug2_cm4": 0.5006239103248785,
+          "reserved_prediction_ug_cm2": [
+            0.6113133336760659,
+            1.4562950491754734
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        },
+        {
+          "rate_multiplier": 8,
+          "control_sse_ug2_cm4": 0.5006239103248785,
+          "reserved_prediction_ug_cm2": [
+            1.053376225769063,
+            2.509394933825397
+          ],
+          "class": "Post-hoc timescale sensitivity; not selected against reserved data"
+        }
+      ],
+      "exact_endpoint_cone_diagnostic": [
+        {
+          "condition": "high_no_EA",
+          "alpha": 0.30407269158136097,
+          "beta": 0.013137383608861502,
+          "exact_point_inside_physical_cone": true,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        },
+        {
+          "condition": "low_no_EA",
+          "alpha": -0.0188433992570185,
+          "beta": 0.30173540618125516,
+          "exact_point_inside_physical_cone": false,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        },
+        {
+          "condition": "high_EA_reserved",
+          "alpha": -0.19494916766123827,
+          "beta": 0.2540239510530308,
+          "exact_point_inside_physical_cone": false,
+          "class": "Post-hoc algebraic diagnostic of mean endpoints, not an uncertainty test"
+        }
+      ],
+      "reserved_tests": [
+        {
+          "clock": "oer",
+          "predicted_ug_cm2": [
+            0.24102655493465264,
+            0.5741830896447482
+          ],
+          "residual_ug_cm2": [
+            -0.37297344506534735,
+            -1.992816910355252
+          ],
+          "rmse_ug_cm2": 1.4336018326093487,
+          "screen_pass": false,
+          "remaining_bath_ug_cm2": [
+            4.087004022177992,
+            9.736224282344804
+          ],
+          "elapsed_hours": 21.000000000000007,
+          "oer_hours": 20.0,
+          "prescribed_OER_charge_C_cm2": 36000.0,
+          "reductive_pulse_charge_C_cm2": null
+        },
+        {
+          "clock": "elapsed",
+          "predicted_ug_cm2": [
+            0.14722019336179049,
+            0.3507138269701784
+          ],
+          "residual_ug_cm2": [
+            -0.4667798066382095,
+            -2.216286173029822
+          ],
+          "rmse_ug_cm2": 1.6015317337861865,
+          "screen_pass": false,
+          "remaining_bath_ug_cm2": [
+            4.180810383750854,
+            9.959693545019373
+          ],
+          "elapsed_hours": 20.0,
+          "oer_hours": 19.049999999999994,
+          "prescribed_OER_charge_C_cm2": 34289.999999999985,
+          "reductive_pulse_charge_C_cm2": null
+        }
+      ]
+    }
+  ],
+  "retained_only_baseline_control_rmse": 1.7596561552189678,
+  "retained_only_baseline_reserved_rmse": 2.0986252690749727,
+  "initial_measured_Fe57_Fe56_mass_ratio": 0.10730923694779115,
+  "nominal_natural_Fe57_Fe56_mass_ratio": 0.023507428291768367,
+  "functional_contribution_of_new_Fe": null,
+  "functional_inheritance_demonstrated": false,
+  "verified_integrated_complements_added": 0,
+  "self_check": "PASS: tracked-isotope conservation, positivity, semigroup, zero-rate limits, equilibrium, synthetic fit and pulse clocks"
+}

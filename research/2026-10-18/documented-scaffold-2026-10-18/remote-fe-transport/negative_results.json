@@ -1,0 +1,25 @@
+{
+  "previous_results_preserved": true,
+  "verified_integrated_complements_added": 0,
+  "origin_specific_repair_verified": false,
+  "chemical_rates_identified": false,
+  "candidate_forecast_validated": false,
+  "evidence_class": "Retrospective native numerical intervention audit and frozen synthetic coupled-chemistry test",
+  "negatives": [
+    {"id":"strict-CA-support","finding":"AEM/CEM traces stop before300min. Strict full-edge results remain null; observed-window descriptions do not replace them."},
+    {"id":"native-clock-provenance","finding":"SC has an out-of-order appended300min row after301.53min data. It remains in provenance and window summaries."},
+    {"id":"combined-sink-model","finding":"The cooperative exchange model cannot lower active population solely by reducing counter removal under common rates/starts. The matched assay contradicts that combined transport/readout interpretation; missing low-loading permeability prevents a unique causal attribution."},
+    {"id":"five-hour-aggregation-failure","finding":"A+Dto2X allows transient reversal forka10/100, but every frozen case has the wrong ordering at5h. No early time substitutes for the late criterion; the entire mechanism is not globally rejected."},
+    {"id":"convergence-diagnostic-failure","finding":"Two ka100 runs exceed the implementation1e-5 step-halving tolerance, with maximum1.1528e-5. False check and all coarse/fine values are retained."},
+    {"id":"candidate-training-insufficient","finding":"Each candidate has2training and6reserved observations; the minimum3training gate fails. Fits remain empty and the split is unchanged."},
+    {"id":"Zn-incremental-retention-unproved","finding":"At200cycles the nominalZn-derived retention101.23percent does not exceed NiFeCl103.03percent. No statistical equivalence or general superiority follows."},
+    {"id":"relative-composition-not-inventory","finding":"Surface/bulkFeNiratios do not identify absolute Fe, active-site count or inactive-phase fraction. DFT does not calibrate exchange rates."},
+    {"id":"unmatched-counter-assay","finding":"Counter-deposit measurements use different loading/substrate and cannot close low-loadingCA atom balances or supply a matched sink rate."},
+    {"id":"electrochemical-history-confounds","finding":"Membrane,geometry,volume,localpH and uncertainCAinterfacial correction remain. Same-electrode refreshedSCcontrols address immediate effects but do not make all exposure histories identical."},
+    {"id":"composition-and-label-inconsistencies","finding":"NominalNiFe composition conflicts with4to1methodsprecursors; loading typo and sheet/panel numbering errors remain recorded. Missing-control misidentification was corrected by internalheaders, without hiding it."},
+    {"id":"oxygen-not-metal-origin","finding":"Oxygen18 labeling is a separate assay and cannot assign Fe origin or new-material catalytic contribution."},
+    {"id":"initial-competence-and-readout","finding":"CEM postCV current exceeds its preCV value; fully competent initial state and one common calibrated activity trajectory are not established. SyntheticAinitial1 is not fitted to this activation."},
+    {"id":"assembly-and-integration","finding":"Carbonblack,Nafion and externalapparatus dependencies remain; no noncarbon autonomous target-system integration, functional heredity or intelligent behavior is verified."},
+    {"id":"execution-history","finding":"An integer synthetic-buffer bug and a convergence assertion stop occurred before final artifact emission. The bug was fixed and convergence remains false; exit0 is not an all-checks-pass claim."}
+  ]
+}

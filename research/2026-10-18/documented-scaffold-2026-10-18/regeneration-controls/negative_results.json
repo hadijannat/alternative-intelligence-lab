@@ -1,0 +1,20 @@
+{
+  "previous_results_preserved": true,
+  "verified_integrated_complements_added": 0,
+  "active_new_material_function_identified": false,
+  "validation": "Retrospective paper-informed within-specimen extrapolation; first24h fit, later native intervals reserved. No independent-specimen validation or prospective experiment.",
+  "negatives": [
+    {"id":"chemical-model-no-overall-gain","finding":"M0 and M1 each pass 4 of 10 primary and sensitivity trace screens, versus 7 of 10 for a constant last-training observation baseline. Added restoration has no overall predictive advantage."},
+    {"id":"primary-model-calibration-failures","finding":"Some assumed competence dynamics fail training, including WNi78T at 221.50 mV RMSE; later activity increase exceeds the fixed early-anchor capacity. Reserved failure cannot uniquely identify missing new-material repair."},
+    {"id":"late-high-current-failure","finding":"Both 800 mA/cm2 traces fail the primary screen; pulsed WNi225T-A has 177.81 mV reserved RMSE and 661.98 mV maximum error on available native data."},
+    {"id":"restoration-not-superior-to-flat","finding":"WNi99T M1 improves over M0 but its 12.37 mV RMSE remains slightly worse than the 12.12 mV flat baseline. Other positive restoration-rate fits include large boundary/near-optimal ambiguities."},
+    {"id":"origin-function-nonidentifiability","finding":"Same-initial-pool conserved-inventory founder-reactivation and mixed-liquid replacement counterexamples produce equal total activity and voltage with different active material origins. No actual new-atom function or founder upper bound is measured."},
+    {"id":"metal-supply-controls-not-founder-withdrawal","finding":"Source Fig.3 nominal Fe×pulse arms begin on separate wires with separate feed histories; Fe-lean is not measured zero, 5 ppm precipitates, and no matched preloaded-founder supply-withdrawal control is qualified."},
+    {"id":"raw-dose-binding-unresolved","finding":"Native OPJU printable labels do not independently resolve exact raw sample-to-Fe plot bindings. No response-based assignment or dose-response fit is used; all 36 cross-panel mappings remain possible in the strict audit."},
+    {"id":"missing-empty-native-records","finding":"Eight repository files are empty. WNi225T-A OER41 is absent from all 638 metadata entries; 42–43 are empty. Late processed data do not repair those acquisition gaps."},
+    {"id":"unsupported-processed-tail","finding":"WNi225T-A processed record has 603 rows beyond available raw support, including 12 time-only rows. None enter primary fitting/validation and no values are imputed."},
+    {"id":"followup-not-clean-switch","finding":"WNi78T additional 24h CHRONOP follows more than 3h unrecorded time and EIS; final Regen43 records 6s. Separate followup is not a causal pulse-withdrawal test."},
+    {"id":"instrument-and-source-ambiguities","finding":"Raw relative voltage avoids unsupported RHE/iR correction, but changing resistance/bubbles/morphology remain confounders. Pulse voltage 1.43 versus SI 1.47 and raw WNi78 versus Origin WNi98 labels remain unresolved."},
+    {"id":"composition-and-gas-limits","finding":"Separate-wire relative SIMS/XPS and bulk pristine-wire Fe do not bound founder active function or trace atom age. No matched O2/Faradaic-efficiency assay is identified for the analyzed arms."}
+  ]
+}

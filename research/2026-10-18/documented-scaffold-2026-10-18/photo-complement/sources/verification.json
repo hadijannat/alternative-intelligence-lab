@@ -1,0 +1,53 @@
+{
+  "scenario": "primary-source-byte-integrity-and-openability",
+  "checks": [
+    {
+      "file": "bloor2016.pdf",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "pmc.html",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "epmc.xml",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "bloor2016-si-failed.html",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "acs-si-failed.html",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "pmc-assets-failed.html",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "epmc-supplementary.zip",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "pmc-oa.xml",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "file": "bloor2016-si.pdf",
+      "hash_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "article_pages": 4,
+  "si_pages": 11,
+  "all_bytes_match": true
+}

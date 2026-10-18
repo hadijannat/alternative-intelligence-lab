@@ -1,0 +1,40 @@
+{
+  "scenario": "claude-lead-primary-source-package-integrity",
+  "passed": true,
+  "checks": [
+    {
+      "file": "PMC7643164.xml",
+      "doi": [
+        "10.1038/s41598-020-75552-1"
+      ],
+      "identity_and_hash_pass": true
+    },
+    {
+      "file": "PMC4789783.xml",
+      "doi": [
+        "10.1038/srep23040"
+      ],
+      "identity_and_hash_pass": true
+    },
+    {
+      "file": "PMC7643164-supplements.zip",
+      "members": 27,
+      "crc_and_hash_pass": true
+    },
+    {
+      "file": "PMC4789783-supplements.zip",
+      "members": 21,
+      "crc_and_hash_pass": true
+    },
+    {
+      "file": "41598_2020_75552_MOESM1_ESM.pdf",
+      "pages": 13,
+      "pdf_parse_pass": true
+    },
+    {
+      "file": "srep23040-s6.pdf",
+      "pages": 1,
+      "pdf_parse_pass": true
+    }
+  ]
+}

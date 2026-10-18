@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scenario": "primary package and ten-row table join",
+  "checks": {
+    "pdf_pages": 11,
+    "joined_rows": 10,
+    "html_tables_equal_archived_extraction": true,
+    "csv_cells_match_primary_tables": true,
+    "receipt_hashes_match": true
+  },
+  "limits": "No model fit, chemical validation, independent replicates or serial-transfer assay."
+}

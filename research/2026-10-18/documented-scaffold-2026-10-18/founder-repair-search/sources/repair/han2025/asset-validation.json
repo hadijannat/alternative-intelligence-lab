@@ -1,0 +1,123 @@
+{
+  "assets": [
+    {
+      "path": "41467_2025_60201_Fig3_HTML.jpg",
+      "bytes": 153294,
+      "sha256": "4e9d69bc31dda047d4926f020ba51662a3b1d0651f2be67d314ee029081f0afe"
+    },
+    {
+      "path": "41467_2025_60201_MOESM1_ESM.pdf",
+      "bytes": 6224007,
+      "sha256": "236828bb51a59e2c1326be321637883d76428671ea130856334cc5717a78e74c"
+    },
+    {
+      "path": "41467_2025_60201_MOESM2_ESM.pdf",
+      "bytes": 6037149,
+      "sha256": "66d5425c078058ebe87109130ddc658ffe96e05337aeada51a756cf6ce6346b5"
+    },
+    {
+      "path": "41467_2025_60201_MOESM3_ESM.xlsx",
+      "bytes": 40501102,
+      "sha256": "6807bd68789619eaa116329b9b73b14ed3d1e779696590dca665c77f12183206"
+    },
+    {
+      "path": "article.pdf",
+      "bytes": 2311165,
+      "sha256": "a591bea8e82f83dc7900735a29016e7f09a014e7e88fd036b9130e7e1add804a"
+    },
+    {
+      "path": "article.txt",
+      "bytes": 49466,
+      "sha256": "022de993929defb97a8be09c59e1ab849c3dcc3f37dca0b21f8e533c971d555b"
+    },
+    {
+      "path": "article.xml",
+      "bytes": 120013,
+      "sha256": "c8dfad8268f429b1bc3afc1453363d6f0e3b75dcdface4b184e70e37bd3cb7a5"
+    },
+    {
+      "path": "fig3-text-cells.json",
+      "bytes": 1289777,
+      "sha256": "519a9851fffd26f6f3591436b3b5a8bc3d5fd1c620a4fcd6fcb311d1c4954239"
+    },
+    {
+      "path": "fig3g-cell-layout.json",
+      "bytes": 2027,
+      "sha256": "4063d05d8653ffe3e5df98624521581ddc0bedfb33aae46d16cac3f2b83af07b"
+    },
+    {
+      "path": "pdf-receipt.json",
+      "bytes": 206,
+      "sha256": "93b08d44093f839ee35bdadf4f6d9a9ceee4d257873bb45dca15650ed0b5186c"
+    },
+    {
+      "path": "receipt.json",
+      "bytes": 619,
+      "sha256": "ade0e1cecbc8e4b9604e5b93919687bcb19957a3485a3774a9553a82d53e9997"
+    },
+    {
+      "path": "supplementary.zip",
+      "bytes": 50708163,
+      "sha256": "54e9f339d1bdd8dd916da4768b65c1e65dedf98470bdb4e03ebf3da213af06b2"
+    },
+    {
+      "path": "supporting-information.txt",
+      "bytes": 16205,
+      "sha256": "6837493a372f9dce4c2c4249d5e05448614ddfdf5ef3bc6ef719ec20dbe97726"
+    }
+  ],
+  "source_workbook_sheets": [
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5",
+    "Fig6",
+    "FigS1",
+    "FigS2",
+    "FigS3",
+    "FigS4",
+    "FigS5",
+    "FigS6",
+    "FigS7",
+    "FigS8",
+    "FigS9",
+    "FigS10",
+    "FigS11",
+    "FigS12",
+    "FigS13",
+    "FigS14",
+    "FigS15",
+    "FigS19",
+    "FigS20",
+    "FigS21",
+    "FigS22",
+    "FigS23",
+    "FigS24",
+    "FigS25",
+    "FigS26",
+    "FigS27",
+    "FigS28",
+    "FigS29",
+    "FigS30",
+    "FigS31",
+    "FigS32",
+    "FigS33",
+    "FigS35",
+    "FigS36",
+    "FigS37",
+    "FigS38",
+    "FigS39",
+    "FigS40",
+    "FigS42"
+  ],
+  "source_workbook_sheet_count": 42,
+  "checks": {
+    "han_pdf_magic": true,
+    "han_nonempty_assets": true,
+    "han_fig3_present": true,
+    "poli_files_verified": 481,
+    "poli_all_checksums_match": true
+  },
+  "numerical_isotope_cells_read": false,
+  "source_rounded_outcomes_seen": true
+}

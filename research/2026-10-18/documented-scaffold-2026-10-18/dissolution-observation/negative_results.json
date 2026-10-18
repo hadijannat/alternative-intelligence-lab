@@ -1,0 +1,22 @@
+{
+  "previous_results_preserved": true,
+  "verified_integrated_complements_added": 0,
+  "origin_specific_function_identified": false,
+  "chemical_rates_fitted": false,
+  "held_out_validation_claimed": false,
+  "evidence_class": "Native primary-source audit and frozen synthetic sampling mass-balance checks",
+  "negatives": [
+    {"id":"failed-access-and-metadata-routes","finding":"Direct HTTP requests failed and the registered PDF SI differs from the live DOCX attachment. Ordinary browser acquisition succeeded; all earlier failures remain."},
+    {"id":"no-native-instrument-traces","finding":"The acquired package contains plots and one composition table, without raw instrument exports. No separate raw deposit was located; absence elsewhere is not proved."},
+    {"id":"inventory-and-reset-unresolved","finding":"Approximately50mL is total reported electrolyte, not independently verified mixed circulating volume. Exact top-up, dead volume, sampling statistic and stock/export mapping remain unqualified."},
+    {"id":"flow-discrepancy","finding":"Main text gives approximately3.2microlitres/s; SI gives approximately3.5. Both are retained as conditional model inputs."},
+    {"id":"dual-axis-conversion","finding":"Native tick-only mass/concentration factor differs approximately8.3percent from the exact nominal50mL/area factor. Axes are converted copies, not independent observations; no physical reservoir volume is inferred from that difference."},
+    {"id":"detection-and-matrix-transfer","finding":"Blank distributions, accumulation-specific LOD/LOQ, recoveries and censoring rules are missing. Matrix dilution differs; online non-detection is not zero dissolution."},
+    {"id":"complete-reset-unsupported","finding":"Conditional nominal-volume transport removes about2percent in the first five-minute sample. A complete reset requires a separate full-volume replacement assumption; detector baseline does not establish reservoir reset."},
+    {"id":"gross-and-net-flux-ambiguity","finding":"Net recovered metal does not split gross dissolution, recapture, wall losses and particles without independent constraints. Small net loss does not establish a particular turnover mechanism."},
+    {"id":"active-origin-repair-unresolved","finding":"No matched damaged-founder supply/withdrawal arms, selective new-material function, founder capacity ceiling or serial functional descendants are supplied."},
+    {"id":"equation-extraction-and-source-typo","finding":"The apparent0.0593 Nernst coefficient was a flattened-fraction extraction artifact; native EqS5 correctly has0.059/3. A separate native Reaction30 is unbalanced, without proving the used EqS5 calculation wrong."},
+    {"id":"no-identified-kinetic-holdout","finding":"Missing observation mapping precludes an identified chemical-rate fit. Rounded endpoints were exposed before protocol; synthetic conservation checks are not held-out validation of observed chemistry."},
+    {"id":"integration-and-stress-transfer","finding":"Six-hour1mA/cm2 source observations do not calibrate300/800mA/cm2 failures, founder catalytic capacity, Mo34WV identity or same-medium integration. All12full-system requirements remain unclosed."}
+  ]
+}

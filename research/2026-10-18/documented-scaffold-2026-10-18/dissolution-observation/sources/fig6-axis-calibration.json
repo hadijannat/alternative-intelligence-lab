@@ -1,0 +1,39 @@
+{
+  "source": "Main PDF page5 Fig6a; black major tick rectangles only; labels verified visually",
+  "left_axis_label": "Fe / microgram cm^-2",
+  "right_axis_label": "[Fe] / ppb",
+  "left_tick_values": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "right_tick_values": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "tick_center_pdf_y_points": {
+    "left": [
+      407.9210205078125,
+      383.85101318359375,
+      359.73101806640625,
+      335.6610107421875
+    ],
+    "right": [
+      407.9210205078125,
+      392.3310241699219,
+      376.781005859375,
+      361.1910095214844,
+      345.5960235595703
+    ]
+  },
+  "microgram_per_cm2_per_ppb": 1.6172066632288995,
+  "expected_using_50mL_and_area_0_02835cm2": 1.7636684303350971,
+  "effective_volume_mL_using_area_0_02835cm2": 45.847808902539306,
+  "relative_difference_from_50mL_factor": -0.083043821949214,
+  "response_points_extracted": 0,
+  "scope": "Graphic axis conversion audit; ppb interpreted as microgram/L. Effective volume is a conditional calculation, not a measured reservoir volume."
+}

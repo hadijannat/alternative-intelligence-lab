@@ -1,0 +1,72 @@
+{
+  "retrieved_utc": "2026-10-18T13:14:03.758157+00:00",
+  "requests": [
+    {
+      "url": "https://api.figshare.com/v2/articles/21509957",
+      "resolved_url": "https://api.figshare.com/v2/articles/21509957",
+      "status": 200,
+      "path": "figshare.json",
+      "bytes": 8782,
+      "sha256": "df00b16cdb139ebdb42b1399cc91cfded706e386514df4098fd42539b3e3a33f",
+      "md5": "9cb9025f76d23b0f7e5d5a7be318a95a",
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/38122559",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pstorage-acs-6854636/38122559/cs2c03898_si_001.pdf",
+      "status": 200,
+      "path": "cs2c03898_si_001.pdf",
+      "bytes": 644572,
+      "sha256": "fa82d1784dbd4257238e31a3a907e1b7fbc07c0849b3be2663b6350c63d857ab",
+      "md5": "873f9d0e1b058f7be27f508f518657c5",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acscatal.2c03898",
+      "resolved_url": "https://pubs.acs.org/doi/10.1021/acscatal.2c03898",
+      "status": 403,
+      "path": "acs-landing.html",
+      "bytes": 5454,
+      "sha256": "4f0dbd7d2799734b5515acb12aaf2d3f553186f47f71d39e86b72f7b2d03b91c",
+      "md5": "21778fa93956564a66674b36f96c420c",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://www.sigs.tsinghua.edu.cn/gl_en/list.htm",
+      "resolved_url": "https://www.sigs.tsinghua.edu.cn/gl_en/list.htm",
+      "status": 200,
+      "path": "author-institution.html",
+      "bytes": 82442,
+      "sha256": "6117b22570b129c778572b4e6b7d9647f5fb38ffb72423e20670b11f044519ae",
+      "md5": "043b6f9e52937ef949b3072d9286c1bc",
+      "content_type": "text/html"
+    }
+  ],
+  "native_file_list": [
+    {
+      "id": 38122559,
+      "name": "cs2c03898_si_001.pdf",
+      "size": 644572,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/38122559",
+      "supplied_md5": "873f9d0e1b058f7be27f508f518657c5",
+      "computed_md5": "873f9d0e1b058f7be27f508f518657c5",
+      "mimetype": "application/pdf"
+    }
+  ],
+  "pdf_pages": 11,
+  "rendered_pages": [
+    "si-page-06.png",
+    "si-page-07.png",
+    "si-page-09.png",
+    "si-page-10.png"
+  ],
+  "metadata_license": {
+    "value": 10,
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "doi": "10.1021/acscatal.2c03898.s001",
+  "resource_doi": "10.1021/acscatal.2c03898",
+  "byte_verification": "PASS"
+}

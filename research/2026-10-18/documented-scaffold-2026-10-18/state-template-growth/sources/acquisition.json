@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-18T13:01:23.814890+00:00",
+  "records": [
+    {
+      "file": "hal-metadata.json",
+      "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-00909130&wt=json&fl=title_s,doiId_s,fileMain_s,files_s,licence_s,uri_s,openAccess_bool",
+      "final_url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-00909130&wt=json&fl=title_s,doiId_s,fileMain_s,files_s,licence_s,uri_s,openAccess_bool",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 549,
+      "sha256": "6e0f7e32b94cd635046ba1a23e75887e1188faf0df5871fbd9a74a9c74758d43",
+      "magic": "{\n  \"response\":{\n   "
+    },
+    {
+      "file": "ome2011.pdf",
+      "url": "https://hal.science/hal-00909130/file/PPKTP_OMEx_Revised_280411.pdf",
+      "final_url": "https://hal.science/hal-00909130/file/PPKTP_OMEx_Revised_280411.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 378376,
+      "sha256": "8edd175ce10cdbe22c2d0387da1fcdc23857d49bf0358367ab92fd26a6ecfc1c",
+      "magic": "%PDF-1.4\n%\u00f6\u00e4\u00fc\u00df\n1 0 o"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "classification": "source-informed analytical/synthetic test; empirical validation insufficient",
+  "negative_results": [
+    {"id": "SF01", "result": "Primary main article access remains restricted; only the abstract and native SI were available for the audit."},
+    {"id": "SF02", "result": "No matched specimen-level numerical site-population, Fe-ancestry and function dataset was acquired; empirical held-out validation is INSUFFICIENT_DATA."},
+    {"id": "SF03", "result": "Total-Fe-normalized turnover is derived from current and total Fe; it cannot independently calibrate a competent-site fraction."},
+    {"id": "SF04", "result": "Local electrochemistry, bulk activity/composition and Raman assay conditions differ, preventing an assumed common observation operator."},
+    {"id": "SF05", "result": "Oxygen isotope exchange does not distinguish founder and incoming Fe."},
+    {"id": "SF06", "result": "Bulk incoming Fe and regional total Fe leave incoming functional contribution ambiguous when regional competence differs, even with fixed known competence and background."},
+    {"id": "SF07", "result": "The synthetic [1.3,4.0] incoming-current interval and its positive lower bound are conditional; they establish no observed new-material activity."},
+    {"id": "SF08", "result": "Adding regional Fe ancestry identifies the four-pool algebra only under fixed-competence assumptions; it does not identify inactive pools, Ni reconstruction or transport changes."},
+    {"id": "SF09", "result": "Carbon/additive-supported bulk activity does not establish an autonomous carbon-free system or a novel defined chemical formula."},
+    {"id": "SF10", "result": "The static identifiability model does not resolve the preserved remote-Fe five-hour ordering failures or the failed 1e-5 convergence check."},
+    {"id": "SF11", "result": "No same-specimen active repair, founder-bounded inheritance, integrated complement, life or intelligence has been demonstrated."}
+  ],
+  "positive_controls_preserved": "Equal regional competence, zero/all incoming Fe, single occupied region and zero inventories identify the conditional incoming contribution. Independently observed regional incoming Fe yields full algebraic rank under the frozen assumptions."
+}

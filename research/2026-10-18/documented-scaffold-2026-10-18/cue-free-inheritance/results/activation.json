@@ -1,0 +1,221 @@
+{
+  "catalyst": "GTM-4(RS-OMBMEP)",
+  "source_doi": "10.1021/jacs.5c12567",
+  "source_figure": "Figure1 panels A/B",
+  "protocol_sha256": "2a1962954f12b52656cf795ce73c40730f2fe823edd0150ec9b56aa733742c44",
+  "data_sha256": "2dcc1147746e21c002a02af7eefe144c739bf83b3a14e944007867e66143b48f",
+  "validation_class": "Retrospective withheld-point assessment, source outcomes previously seen",
+  "model": "Initially racemic irreversible pseudo-first-order depletion; one dimensionless total-rate ratio",
+  "apparent_rate_ratio": 3.9383684506776344,
+  "absolute_rates_identified": false,
+  "training_count": 6,
+  "heldout_count": 2,
+  "training_rmse": 0.015601941020162312,
+  "heldout_rows": [
+    {
+      "conversion": 0.87369,
+      "observed_ee": 1.00107,
+      "predicted_ee": 0.9671217511955141,
+      "residual": -0.03394824880448577,
+      "observation_class": "Plateau near 100% ee; resolution-limited, not exact extinction"
+    },
+    {
+      "conversion": 0.89849,
+      "observed_ee": 1.00107,
+      "predicted_ee": 0.9821757134668337,
+      "residual": -0.01889428653316616,
+      "observation_class": "Plateau near 100% ee; resolution-limited, not exact extinction"
+    }
+  ],
+  "heldout_rmse": 0.027472510446705206,
+  "heldout_max_absolute_error": 0.03394824880448577,
+  "screening_pass": true,
+  "axis_offset_sensitivity": [
+    {
+      "training_x_shift": -0.02,
+      "training_y_shift": -0.02,
+      "rate_ratio": 3.998430312732496,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9542302562903151,
+          0.9727659629462363
+        ],
+        [
+          0.9814346485281602,
+          0.9914580546902743
+        ]
+      ]
+    },
+    {
+      "training_x_shift": -0.02,
+      "training_y_shift": 0,
+      "rate_ratio": 4.365168059462611,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9700465971850544,
+          0.9834844768788316
+        ],
+        [
+          0.9893300139938409,
+          0.995575243328107
+        ]
+      ]
+    },
+    {
+      "training_x_shift": -0.02,
+      "training_y_shift": 0.02,
+      "rate_ratio": 4.776272468987759,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9815325906996363,
+          0.9906391472089523
+        ],
+        [
+          0.994298901306379,
+          0.9978911359650788
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0,
+      "training_y_shift": -0.02,
+      "rate_ratio": 3.6332256786302644,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.93079717260579,
+          0.9555546476329178
+        ],
+        [
+          0.9680097724715876,
+          0.9836422324525483
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0,
+      "training_y_shift": 0,
+      "rate_ratio": 3.9383684506776344,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9509782828190854,
+          0.9704626855243018
+        ],
+        [
+          0.9796848216798575,
+          0.9904906328596097
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0,
+      "training_y_shift": 0.02,
+      "rate_ratio": 4.276806116285591,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9668012757712139,
+          0.981357523793824
+        ],
+        [
+          0.987800152864241,
+          0.9948135141935381
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0.02,
+      "training_y_shift": -0.02,
+      "rate_ratio": 3.334705608902858,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9037165089856359,
+          0.9341985831178864
+        ],
+        [
+          0.9504702236357238,
+          0.972350755591168
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0.02,
+      "training_y_shift": 0,
+      "rate_ratio": 3.5928828973723044,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9276077698759042,
+          0.9531126902466686
+        ],
+        [
+          0.9660476615758642,
+          0.9824330306265436
+        ]
+      ]
+    },
+    {
+      "training_x_shift": 0.02,
+      "training_y_shift": 0.02,
+      "rate_ratio": 3.8767493143574394,
+      "heldout_x_endpoint_predictions": [
+        [
+          0.9474151329885835,
+          0.9679049176473223
+        ],
+        [
+          0.977722984406584,
+          0.9893858443419539
+        ]
+      ]
+    }
+  ],
+  "sensitivity_scope": "Coherent +/-2pp axis shifts and heldout x endpoints; not all per-point errors or a confidence interval",
+  "stationary_branch_invariant": {
+    "untreated": {
+      "triple": [
+        [
+          0.02774,
+          -0.31774
+        ],
+        [
+          0.48679,
+          -0.5943
+        ],
+        [
+          0.9997199999999999,
+          -0.49523000000000006
+        ]
+      ],
+      "excursion": 0.09906999999999999,
+      "margin_after_allowance": 0.05906999999999999,
+      "kind": "valley",
+      "stationary_channel_null_rejected": true
+    },
+    "preactivated": {
+      "triple": [
+        [
+          0.0034899999999999996,
+          -0.78361
+        ],
+        [
+          0.08707000000000001,
+          -0.768
+        ],
+        [
+          0.17095,
+          -0.7710899999999999
+        ]
+      ],
+      "excursion": 0.003089999999999926,
+      "margin_after_allowance": -0.036910000000000075,
+      "kind": "peak",
+      "stationary_channel_null_rejected": false
+    }
+  },
+  "scope_limits": [
+    "Two heldout markers share one high-ee plateau; limited independent constraint",
+    "Raster ee slightly above 1 is retained as artwork, not physical excess or exact purity",
+    "Constant total-rate ratio does not identify stationary product branching",
+    "Passing depletion screening cannot validate a site-activation or transport mechanism",
+    "No new Ge-state/transport/inheritance rates estimated; no PMo12 coupling tested"
+  ],
+  "self_check": "PASS: conservation, positivity, equal rates, label swap, synthetic recovery and turning cases"
+}

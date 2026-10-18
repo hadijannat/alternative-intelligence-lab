@@ -1,0 +1,66 @@
+{
+  "invocation": "python3 sources/gtm3/verify.py",
+  "checks": [
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2025-main.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "cattod-publisher-response.html",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2024-article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2024-supplementary.zip",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2024-supporting-information.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2025-article.xml",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2025-supplementary.zip",
+      "pass": true
+    },
+    {
+      "scenario": "raw asset integrity",
+      "artifact": "2025-supporting-information.pdf",
+      "pass": true
+    },
+    {
+      "scenario": "source identity and complete supplemental PDF",
+      "year": 2024,
+      "pages": 14,
+      "pass": true
+    },
+    {
+      "scenario": "source identity and complete supplemental PDF",
+      "year": 2025,
+      "pages": 15,
+      "pass": true
+    },
+    {
+      "scenario": "blocked source remains classified as failure",
+      "pass": true
+    },
+    {
+      "scenario": "2025 publisher PDF and Figure 1 location",
+      "pass": true
+    }
+  ],
+  "scientific_limit": "These checks verify provenance and acquisition, not functional inheritance or a chemical model."
+}

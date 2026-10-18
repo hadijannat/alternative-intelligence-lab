@@ -1,0 +1,6 @@
+Initial test_han.py run failed before fitting or producing chemical results:
+numpy._core._exceptions._UFuncOutputCastingError: Cannot cast ufunc 'divide' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'
+
+Cause: the self-check passes integer zero rates; zeros_like inherited integer dtype for the division output. Correction: request floating-point output for that division. Equations, calibration/test arms, bounds and screening criteria unchanged. This is an implementation failure, not a chemistry negative.
+
+Second run also stopped in self-check, before source fitting: synthetic parameter recovery failed. Refining only the best coarse-grid cell prematurely excluded the correct basin along correlated uptake/loss parameters (returned0.12589,2.61550 for truth0.1,2). The optimizer now refines64 coarse candidate cells and retains the lowest objective. The same synthetic-recovery tolerance remains enforced; no source split, chemical equation or acceptance threshold changed.

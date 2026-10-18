@@ -1,0 +1,689 @@
+{
+  "source": "recursive-compound-2026-10-15/energy/raw/symes2013.pdf",
+  "source_sha256": "cba5ee525fdfba67185b30180dae2b3ae201cb89e2bed40e66b42e831dd9d9a6",
+  "source_doi": "10.1038/nchem.1621",
+  "pdf_page_zero_based": 3,
+  "printed_page": 406,
+  "pymupdf_version": "1.27.2.3",
+  "method": "Affine axis calibration from labeled vector tick paths; filled marker bounding-box centers.",
+  "data_class": "digitized published figure, not raw experimental data",
+  "coordinate_allowance_pt": 0.1,
+  "uncertainty_definition": "Conservative digitization allowance = 0.1 PDF point times axis scale + maximum tick residual + half rounding interval. This is an analyst allowance, not measured experimental uncertainty or a confidence interval.",
+  "experimental_error_bars": {
+    "fig4a_and_fig5a": "Source caption: horizontal error associated with iR compensation (+/-3%); vertical error is standard deviation of currents. Individual bars were not extracted.",
+    "fig5b": "Source caption: error bars within markers correspond to +/-2%; convention retained verbatim, no invented per-point SD."
+  },
+  "limitations": [
+    "Markers and axes have finite plotting precision; derived coordinates are not original author measurements.",
+    "Near-zero negative GC concentration caused by marker placement is preserved; no clipping or baseline correction applied.",
+    "Different series' time coordinates differ slightly because of artwork placement; no snapping to nominal times.",
+    "Legend symbols 642 and 645 excluded; only explicitly listed primary data markers retained.",
+    "No fitting, chemistry inference, or experimental replicate reconstruction performed."
+  ],
+  "axis_calibrations": {
+    "fig4a": {
+      "x": {
+        "slope": 0.018590123099441306,
+        "intercept": -5.187298893022712,
+        "max_tick_residual": 0.00031237770903036477,
+        "ticks": [
+          {
+            "drawing_index": 0,
+            "coordinate_pt": 144.54400634765625,
+            "value": -2.5
+          },
+          {
+            "drawing_index": 2,
+            "coordinate_pt": 171.46800231933594,
+            "value": -2
+          },
+          {
+            "drawing_index": 4,
+            "coordinate_pt": 198.33599853515625,
+            "value": -1.5
+          },
+          {
+            "drawing_index": 6,
+            "coordinate_pt": 225.25999450683594,
+            "value": -1
+          },
+          {
+            "drawing_index": 8,
+            "coordinate_pt": 252.1280059814453,
+            "value": -0.5
+          }
+        ]
+      },
+      "y": {
+        "slope": -1.3952873377370194,
+        "intercept": 117.28220097700245,
+        "max_tick_residual": 0.03497170821728446,
+        "ticks": [
+          {
+            "drawing_index": 10,
+            "coordinate_pt": 170.0589599609375,
+            "value": -120
+          },
+          {
+            "drawing_index": 12,
+            "coordinate_pt": 155.74298095703125,
+            "value": -100
+          },
+          {
+            "drawing_index": 14,
+            "coordinate_pt": 141.36700439453125,
+            "value": -80
+          },
+          {
+            "drawing_index": 16,
+            "coordinate_pt": 127.04998779296875,
+            "value": -60
+          },
+          {
+            "drawing_index": 18,
+            "coordinate_pt": 112.73199462890625,
+            "value": -40
+          },
+          {
+            "drawing_index": 20,
+            "coordinate_pt": 98.41497802734375,
+            "value": -20
+          },
+          {
+            "drawing_index": 22,
+            "coordinate_pt": 84.03900146484375,
+            "value": 0
+          },
+          {
+            "drawing_index": 24,
+            "coordinate_pt": 69.72198486328125,
+            "value": 20
+          }
+        ]
+      }
+    },
+    "fig5a": {
+      "x": {
+        "slope": 0.02829302691108143,
+        "intercept": -14.574801735484494,
+        "max_tick_residual": 0.0005149219073317113,
+        "ticks": [
+          {
+            "drawing_index": 646,
+            "coordinate_pt": 409.0989990234375,
+            "value": -3
+          },
+          {
+            "drawing_index": 648,
+            "coordinate_pt": 444.46600341796875,
+            "value": -2
+          },
+          {
+            "drawing_index": 650,
+            "coordinate_pt": 479.7749938964844,
+            "value": -1
+          },
+          {
+            "drawing_index": 652,
+            "coordinate_pt": 515.1439819335938,
+            "value": 0
+          }
+        ]
+      },
+      "y": {
+        "slope": -0.0034894140235175106,
+        "intercept": 1.1312263767752604,
+        "max_tick_residual": 5.998783184915646e-05,
+        "ticks": [
+          {
+            "drawing_index": 654,
+            "coordinate_pt": 410.156982421875,
+            "value": -0.3
+          },
+          {
+            "drawing_index": 656,
+            "coordinate_pt": 381.5209655761719,
+            "value": -0.2
+          },
+          {
+            "drawing_index": 658,
+            "coordinate_pt": 352.8289794921875,
+            "value": -0.1
+          },
+          {
+            "drawing_index": 660,
+            "coordinate_pt": 324.1939697265625,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "fig5b": {
+      "x": {
+        "slope": 5.658571733679794,
+        "intercept": -2264.908840582645,
+        "max_tick_residual": 0.09507363188777163,
+        "ticks": [
+          {
+            "drawing_index": 566,
+            "coordinate_pt": 400.2559814453125,
+            "value": 0
+          },
+          {
+            "drawing_index": 568,
+            "coordinate_pt": 435.62298583984375,
+            "value": 200
+          },
+          {
+            "drawing_index": 570,
+            "coordinate_pt": 470.9339904785156,
+            "value": 400
+          },
+          {
+            "drawing_index": 572,
+            "coordinate_pt": 506.3009948730469,
+            "value": 600
+          }
+        ]
+      },
+      "y": {
+        "slope": -0.07974617343655162,
+        "intercept": 44.217943111498094,
+        "max_tick_residual": 0.002037514298649512,
+        "ticks": [
+          {
+            "drawing_index": 575,
+            "coordinate_pt": 554.4889526367188,
+            "value": 0
+          },
+          {
+            "drawing_index": 577,
+            "coordinate_pt": 541.9420166015625,
+            "value": 1
+          },
+          {
+            "drawing_index": 579,
+            "coordinate_pt": 529.3909912109375,
+            "value": 2
+          },
+          {
+            "drawing_index": 581,
+            "coordinate_pt": 516.8419799804688,
+            "value": 3
+          },
+          {
+            "drawing_index": 583,
+            "coordinate_pt": 504.3499755859375,
+            "value": 4
+          },
+          {
+            "drawing_index": 585,
+            "coordinate_pt": 491.8009948730469,
+            "value": 5
+          },
+          {
+            "drawing_index": 587,
+            "coordinate_pt": 479.2499694824219,
+            "value": 6
+          },
+          {
+            "drawing_index": 589,
+            "coordinate_pt": 466.70196533203125,
+            "value": 7
+          },
+          {
+            "drawing_index": 591,
+            "coordinate_pt": 454.1529846191406,
+            "value": 8
+          }
+        ]
+      }
+    }
+  },
+  "markers": [
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 105,
+      "bbox_pt": [
+        245.50900268554688,
+        83.0699462890625,
+        248.24700927734375,
+        85.8089599609375
+      ],
+      "center_pt": {
+        "x": 246.8780059814453,
+        "y": 84.439453125
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 107,
+      "bbox_pt": [
+        229.82200622558594,
+        84.6689453125,
+        232.5600128173828,
+        87.40594482421875
+      ],
+      "center_pt": {
+        "x": 231.19100952148438,
+        "y": 86.03744506835938
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 109,
+      "bbox_pt": [
+        216.47500610351562,
+        94.24993896484375,
+        219.21400451660156,
+        96.98895263671875
+      ],
+      "center_pt": {
+        "x": 217.8445053100586,
+        "y": 95.61944580078125
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 111,
+      "bbox_pt": [
+        204.43899536132812,
+        108.73895263671875,
+        207.177001953125,
+        111.47796630859375
+      ],
+      "center_pt": {
+        "x": 205.80799865722656,
+        "y": 110.10845947265625
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 113,
+      "bbox_pt": [
+        192.802001953125,
+        124.31201171875,
+        195.54100036621094,
+        127.04998779296875
+      ],
+      "center_pt": {
+        "x": 194.17150115966797,
+        "y": 125.68099975585938
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 115,
+      "bbox_pt": [
+        181.90699768066406,
+        142.62298583984375,
+        184.64500427246094,
+        145.3599853515625
+      ],
+      "center_pt": {
+        "x": 183.2760009765625,
+        "y": 143.99148559570312
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 117,
+      "bbox_pt": [
+        169.2429962158203,
+        155.0009765625,
+        171.9810028076172,
+        157.73797607421875
+      ],
+      "center_pt": {
+        "x": 170.61199951171875,
+        "y": 156.36947631835938
+      }
+    },
+    {
+      "figure": "fig4a",
+      "series": "Pt_ECPB",
+      "drawing_index": 119,
+      "bbox_pt": [
+        154.29800415039062,
+        159.10797119140625,
+        157.0360107421875,
+        161.845947265625
+      ],
+      "center_pt": {
+        "x": 155.66700744628906,
+        "y": 160.47695922851562
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 710,
+      "bbox_pt": [
+        514.114990234375,
+        323.1659851074219,
+        516.16796875,
+        325.219970703125
+      ],
+      "center_pt": {
+        "x": 515.1414794921875,
+        "y": 324.19297790527344
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 712,
+      "bbox_pt": [
+        483.9389953613281,
+        325.79095458984375,
+        485.99200439453125,
+        327.8439636230469
+      ],
+      "center_pt": {
+        "x": 484.9654998779297,
+        "y": 326.8174591064453
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 714,
+      "bbox_pt": [
+        478.2909851074219,
+        333.719970703125,
+        480.344970703125,
+        335.7729797363281
+      ],
+      "center_pt": {
+        "x": 479.31797790527344,
+        "y": 334.74647521972656
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 716,
+      "bbox_pt": [
+        474.12701416015625,
+        344.1579895019531,
+        476.17901611328125,
+        346.21197509765625
+      ],
+      "center_pt": {
+        "x": 475.15301513671875,
+        "y": 345.1849822998047
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 718,
+      "bbox_pt": [
+        470.64801025390625,
+        355.62298583984375,
+        472.7010192871094,
+        357.6769714355469
+      ],
+      "center_pt": {
+        "x": 471.6745147705078,
+        "y": 356.6499786376953
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 720,
+      "bbox_pt": [
+        467.4540100097656,
+        367.65997314453125,
+        469.50799560546875,
+        369.7129821777344
+      ],
+      "center_pt": {
+        "x": 468.4810028076172,
+        "y": 368.6864776611328
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 722,
+      "bbox_pt": [
+        464.42999267578125,
+        379.8659973144531,
+        466.4830017089844,
+        381.91998291015625
+      ],
+      "center_pt": {
+        "x": 465.4564971923828,
+        "y": 380.8929901123047
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 724,
+      "bbox_pt": [
+        461.635009765625,
+        392.4729919433594,
+        463.69000244140625,
+        394.5269775390625
+      ],
+      "center_pt": {
+        "x": 462.6625061035156,
+        "y": 393.49998474121094
+      }
+    },
+    {
+      "figure": "fig5a",
+      "series": "Pt_ECPB",
+      "drawing_index": 726,
+      "bbox_pt": [
+        458.8970031738281,
+        405.136962890625,
+        460.9519958496094,
+        407.1899719238281
+      ],
+      "center_pt": {
+        "x": 459.92449951171875,
+        "y": 406.16346740722656
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 620,
+      "bbox_pt": [
+        399.2300109863281,
+        553.4630126953125,
+        401.28302001953125,
+        555.5159912109375
+      ],
+      "center_pt": {
+        "x": 400.2565155029297,
+        "y": 554.489501953125
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 622,
+      "bbox_pt": [
+        420.45098876953125,
+        529.9049682617188,
+        422.5039978027344,
+        531.9569702148438
+      ],
+      "center_pt": {
+        "x": 421.4774932861328,
+        "y": 530.9309692382812
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 624,
+      "bbox_pt": [
+        441.6700134277344,
+        497.9609680175781,
+        443.7230224609375,
+        500.01397705078125
+      ],
+      "center_pt": {
+        "x": 442.69651794433594,
+        "y": 498.9874725341797
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 626,
+      "bbox_pt": [
+        462.8330078125,
+        464.9339599609375,
+        464.8869934082031,
+        466.9869689941406
+      ],
+      "center_pt": {
+        "x": 463.86000061035156,
+        "y": 465.96046447753906
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 628,
+      "bbox_pt": [
+        484.052001953125,
+        464.9339599609375,
+        486.10699462890625,
+        466.9869689941406
+      ],
+      "center_pt": {
+        "x": 485.0794982910156,
+        "y": 465.96046447753906
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_charge_calculated",
+      "drawing_index": 630,
+      "bbox_pt": [
+        505.27301025390625,
+        464.9339599609375,
+        507.3260192871094,
+        466.9869689941406
+      ],
+      "center_pt": {
+        "x": 506.2995147705078,
+        "y": 465.96046447753906
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 633,
+      "bbox_pt": [
+        399.0669860839844,
+        553.6429443359375,
+        401.4629821777344,
+        556.0379638671875
+      ],
+      "center_pt": {
+        "x": 400.2649841308594,
+        "y": 554.8404541015625
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 634,
+      "bbox_pt": [
+        420.27398681640625,
+        545.6139526367188,
+        422.66998291015625,
+        548.0099487304688
+      ],
+      "center_pt": {
+        "x": 421.47198486328125,
+        "y": 546.8119506835938
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 635,
+      "bbox_pt": [
+        441.48199462890625,
+        513.7599487304688,
+        443.8769836425781,
+        516.1549682617188
+      ],
+      "center_pt": {
+        "x": 442.6794891357422,
+        "y": 514.9574584960938
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 636,
+      "bbox_pt": [
+        462.69000244140625,
+        472.12896728515625,
+        465.0849914550781,
+        474.5259704589844
+      ],
+      "center_pt": {
+        "x": 463.8874969482422,
+        "y": 473.3274688720703
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 637,
+      "bbox_pt": [
+        483.89599609375,
+        464.5379943847656,
+        486.2909851074219,
+        466.9339904785156
+      ],
+      "center_pt": {
+        "x": 485.09349060058594,
+        "y": 465.7359924316406
+      }
+    },
+    {
+      "figure": "fig5b",
+      "series": "H2_GC_measured",
+      "drawing_index": 638,
+      "bbox_pt": [
+        505.1009826660156,
+        464.5379943847656,
+        507.49798583984375,
+        466.9339904785156
+      ],
+      "center_pt": {
+        "x": 506.2994842529297,
+        "y": 465.7359924316406
+      }
+    }
+  ],
+  "series_counts": {
+    "fig4a/Pt_ECPB": 8,
+    "fig5a/Pt_ECPB": 9,
+    "fig5b/H2_charge_calculated": 6,
+    "fig5b/H2_GC_measured": 6
+  },
+  "self_check": "PASS: source hash, drawing inventory, tick orientation/linearity, marker shape/color/geometry, count/uniqueness and gas allowance",
+  "csv_sha256": "9cadaee99b5c763b455a11c1a5b89a633e36cfa9666f5a634902c863116df119",
+  "script_sha256": "6be134dd1c7e14b039bb4cc0d66c3938bb24aba2dce143a8be3d18f8880137ea"
+}

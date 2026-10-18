@@ -1,0 +1,20 @@
+{
+  "previous_results_preserved": true,
+  "verified_integrated_complements_added": 0,
+  "origin_specific_function_identified": false,
+  "validation_scope": "Retrospective raster-derived conditional current screening; reserved density is a measured input, not a forecast; no independent-specimen or prospective validation",
+  "negatives": [
+    {"id":"raw-data-and-main-access","finding":"Public deposit contains one11pagePDF only, no native traces or tables. Main fullbody returned403; author bibliography supplies no manuscript."},
+    {"id":"four-current-groups-seven-labels","finding":"FigureS8 is540x412JPEG with no vector paths. Cycles1/2,3/4,6/7 have unresolved current curves and share broad intervals/midpoints. Seven rows are not seven resolved current measurements."},
+    {"id":"charge-integration-unreproduced","finding":"S8 scan rate, precise integration limits and background uncertainty remain unspecified. Published Fe density is a derived proxy; no independent charge reintegration is claimed."},
+    {"id":"TOF-density-circularity","finding":"TOF contains the same charge denominator used for density. No current was reconstructed from density times TOF, and TOF was not used as an independent response."},
+    {"id":"nominal-model-failures","finding":"Changing-competence M1 and both constant-current baselines fail the reserved midpoint screen. Both M0 and M1 exceed the10percent normalized-error criterion in early-cycle calibration."},
+    {"id":"fragile-nominal-M0-pass","finding":"M0 passes the nominal reserved screen, but M0 and M1 both pass and fail at different extraction-box corners. This is not robust mechanistic selection or repair validation."},
+    {"id":"corner-sensitivity-not-bound","finding":"All16384independent box corners were checked, but this is not a continuous bound, probability or confidence interval; source correlations are unmodeled. B4 has a hypothetical passing interior despite zero passing corners."},
+    {"id":"origin-function-not-identified","finding":"An identical-initial-pool, conserved-inventory counterexample admits founder exposure and fresh-material addition with the same total Fe-redox count and current. Actual founder inventory/function ceilings are absent."},
+    {"id":"host-and-assay-perturbation","finding":"Changing Ni activity, double-layer subtraction, accessibility, morphology and restructuring during the diagnostic sweep remain alternatives to changing intrinsic Fe competence."},
+    {"id":"functional-product-and-repair-controls","finding":"No matched gas/Faradaic-efficiency or origin-specific product assay, damaged-founder replacement control, serial functional descendants or target integration is supplied for these cycles."},
+    {"id":"carbon-dependent-preparation","finding":"Vulcan carbon black, Nafion and glassy carbon are functional electrode components. This source is not a demonstrated noncarbon complement, nor a transferable rate for bare-Ni/Han/Poli/PMo12/Mo34WV."},
+    {"id":"source-reference-error","finding":"The SI points toS6 for the pure-Ni background actually shown inS5. This is retained as a figure-reference error, not an invented electrode-voltage correction."}
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "scope": "Retrospective raster-derived conditional current screening; measured reserved density supplied; no independent functional-origin validation",
+  "hashes": {
+    "PROTOCOL.md": "5f819932b054e05c41de8187ac9ce856b516e21aaf859ef55cb3d07f62eb6e44",
+    "test_models.py": "b1e8e883a344d7069fc0680dffcf21c8d13a5be5027cebe2675adc57d0c27167",
+    "data/figS8_points.json": "e053118b06beeb20e045f0dbc533af8b8dc56ad78808d5dfb79d8777ec52e425",
+    "sources/cs2c03898_si_001.pdf": "fa82d1784dbd4257238e31a3a907e1b7fbc07c0849b3be2663b6350c63d857ab"
+  },
+  "self_checks": {
+    "units_charge_and_molar_density": "PASS",
+    "synthetic_parameter_recovery": "PASS",
+    "zero_competence_and_no_leverage": "PASS",
+    "reserved_values_excluded": "PASS",
+    "M0_nested_in_M1": "PASS",
+    "origin_counterexample": {
+      "kind": "Synthetic observation nonuniqueness; not fitted to source",
+      "units": "nmol/cm2 in synthetic finite pools",
+      "same_initial_pools": {
+        "founder_total": 3.0,
+        "founder_accessible": 1.0,
+        "fresh_liquid_total": 2.0
+      },
+      "total_accessible_Fe": [
+        1.0,
+        1.1,
+        1.4,
+        1.9,
+        2.5,
+        2.9,
+        3.0
+      ],
+      "founder_only_accessible": [
+        1.0,
+        1.1,
+        1.4,
+        1.9,
+        2.5,
+        2.9,
+        3.0
+      ],
+      "replacement_founder_accessible": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "replacement_new_accessible": [
+        0.0,
+        0.10000000000000009,
+        0.3999999999999999,
+        0.8999999999999999,
+        1.5,
+        1.9,
+        2.0
+      ],
+      "max_charge_or_count_difference": 0.0,
+      "max_current_difference_mA_cm2": 0.0,
+      "measured_initial_founder_inventory_upper_bound": null
+    }
+  },
+  "points": [
+    {
+      "cycle": 1,
+      "j_mA_cm2": 18.47826086956522,
+      "n_nmol_cm2": 1.2341772151898733,
+      "j_interval_mA_cm2": [
+        9.057971014492754,
+        27.89855072463768
+      ],
+      "n_interval_nmol_cm2": [
+        0.6962025316455697,
+        1.7721518987341771
+      ],
+      "j_pixel_y_interval": [
+        75,
+        127
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "olive-1-or-2",
+      "n_pixel_y_interval": [
+        353,
+        370
+      ],
+      "n_pixel_x": 334,
+      "legend_sample_xy": [
+        75,
+        62,
+        91,
+        62
+      ],
+      "legend_mean_rgb": [
+        170.41176470588235,
+        173.52941176470588,
+        152.52941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 2,
+      "j_mA_cm2": 18.47826086956522,
+      "n_nmol_cm2": 1.6139240506329113,
+      "j_interval_mA_cm2": [
+        9.057971014492754,
+        27.89855072463768
+      ],
+      "n_interval_nmol_cm2": [
+        1.3291139240506329,
+        1.8987341772151898
+      ],
+      "j_pixel_y_interval": [
+        75,
+        127
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "olive-1-or-2",
+      "n_pixel_y_interval": [
+        351,
+        360
+      ],
+      "n_pixel_x": 358,
+      "legend_sample_xy": [
+        75,
+        74,
+        91,
+        74
+      ],
+      "legend_mean_rgb": [
+        217.0,
+        221.47058823529412,
+        194.23529411764707
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 3,
+      "j_mA_cm2": 27.536231884057973,
+      "n_nmol_cm2": 2.4683544303797467,
+      "j_interval_mA_cm2": [
+        14.492753623188406,
+        40.57971014492754
+      ],
+      "n_interval_nmol_cm2": [
+        2.151898734177215,
+        2.7848101265822787
+      ],
+      "j_pixel_y_interval": [
+        40,
+        112
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "yellow-3-or-4",
+      "n_pixel_y_interval": [
+        337,
+        347
+      ],
+      "n_pixel_x": 383,
+      "legend_sample_xy": [
+        75,
+        86,
+        91,
+        86
+      ],
+      "legend_mean_rgb": [
+        234.35294117647058,
+        236.2941176470588,
+        204.52941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 4,
+      "j_mA_cm2": 27.536231884057973,
+      "n_nmol_cm2": 5.0,
+      "j_interval_mA_cm2": [
+        14.492753623188406,
+        40.57971014492754
+      ],
+      "n_interval_nmol_cm2": [
+        4.6835443037974684,
+        5.3164556962025316
+      ],
+      "j_pixel_y_interval": [
+        40,
+        112
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "yellow-3-or-4",
+      "n_pixel_y_interval": [
+        297,
+        307
+      ],
+      "n_pixel_x": 407,
+      "legend_sample_xy": [
+        75,
+        98,
+        91,
+        98
+      ],
+      "legend_mean_rgb": [
+        245.2941176470588,
+        234.64705882352942,
+        209.41176470588235
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 5,
+      "j_mA_cm2": 34.96376811594203,
+      "n_nmol_cm2": 6.518987341772152,
+      "j_interval_mA_cm2": [
+        23.91304347826087,
+        46.01449275362319
+      ],
+      "n_interval_nmol_cm2": [
+        6.2025316455696204,
+        6.8354430379746836
+      ],
+      "j_pixel_y_interval": [
+        25,
+        86
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "orange-5",
+      "n_pixel_y_interval": [
+        273,
+        283
+      ],
+      "n_pixel_x": 432,
+      "legend_sample_xy": [
+        75,
+        110,
+        91,
+        110
+      ],
+      "legend_mean_rgb": [
+        244.52941176470588,
+        219.88235294117646,
+        194.05882352941177
+      ],
+      "current_unique_cycle_assignment": true,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 6,
+      "j_mA_cm2": 39.130434782608695,
+      "n_nmol_cm2": 7.7215189873417724,
+      "j_interval_mA_cm2": [
+        28.26086956521739,
+        50.0
+      ],
+      "n_interval_nmol_cm2": [
+        7.405063291139241,
+        8.037974683544304
+      ],
+      "j_pixel_y_interval": [
+        14,
+        74
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "red-6-or-7",
+      "n_pixel_y_interval": [
+        254,
+        264
+      ],
+      "n_pixel_x": 456,
+      "legend_sample_xy": [
+        75,
+        122,
+        91,
+        122
+      ],
+      "legend_mean_rgb": [
+        249.35294117647058,
+        219.05882352941177,
+        223.88235294117646
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 7,
+      "j_mA_cm2": 39.130434782608695,
+      "n_nmol_cm2": 8.291139240506329,
+      "j_interval_mA_cm2": [
+        28.26086956521739,
+        50.0
+      ],
+      "n_interval_nmol_cm2": [
+        7.974683544303797,
+        8.60759493670886
+      ],
+      "j_pixel_y_interval": [
+        14,
+        74
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "red-6-or-7",
+      "n_pixel_y_interval": [
+        245,
+        255
+      ],
+      "n_pixel_x": 481,
+      "legend_sample_xy": [
+        75,
+        134,
+        91,
+        134
+      ],
+      "legend_mean_rgb": [
+        254.88235294117646,
+        223.0,
+        230.2941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    }
+  ],
+  "fit_cycles": [
+    2,
+    3,
+    4
+  ],
+  "baseline_cycle": 1,
+  "reserved_cycles": [
+    5,
+    6,
+    7
+  ],
+  "current_factor_mA_per_nmol_per_s": 0.38594132848,
+  "models": {
+    "M0": {
+      "parameters": {
+        "k_apparent_per_s": 7.404276823745284,
+        "gamma": 0.0,
+        "training_SSE_mA2_cm4": 34.67264365974512,
+        "training_count": 3,
+        "gamma_boundary": false,
+        "zero_competence": false,
+        "zero_density_leverage": false,
+        "near_optimal_gamma_range": [
+          0.0,
+          0.0
+        ],
+        "near_optimal_definition": "SSE <= minSSE + max(1e-12,0.01*minSSE)"
+      },
+      "predictions_mA_cm2": [
+        18.47826086956522,
+        19.563431667206963,
+        22.00506596190089,
+        29.239537946179198,
+        33.580221136746175,
+        37.016595329278374,
+        38.64435152574099
+      ],
+      "training": {
+        "RMSE_mA_cm2": 3.3996393759605907,
+        "normalized_RMSE": 0.1366086837528332,
+        "max_fractional_error": 0.200868657173073,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          1.0851707976417444,
+          -5.531165922157083,
+          1.703306062121225
+        ]
+      },
+      "reserved": {
+        "RMSE_mA_cm2": 1.4853502853653666,
+        "normalized_RMSE": 0.03930265192883173,
+        "max_fractional_error": 0.05402034158510821,
+        "nominal_operational_screen_pass": true,
+        "residuals_pred_minus_observed_mA_cm2": [
+          -1.383546979195856,
+          -2.1138394533303213,
+          -0.48608325686770826
+        ]
+      }
+    },
+    "M1": {
+      "parameters": {
+        "k_apparent_per_s": 36.81765925304261,
+        "gamma": -1.6762819476996653,
+        "training_SSE_mA2_cm4": 21.464688388686465,
+        "training_count": 3,
+        "gamma_boundary": false,
+        "zero_competence": false,
+        "zero_density_leverage": false,
+        "near_optimal_gamma_range": [
+          -1.8374629042092487,
+          -1.5104958210040942
+        ],
+        "near_optimal_definition": "SSE <= minSSE + max(1e-12,0.01*minSSE)"
+      },
+      "predictions_mA_cm2": [
+        18.47826086956522,
+        21.56432508148201,
+        24.214426097576684,
+        28.488336072428275,
+        26.512415446878148,
+        24.11867389130064,
+        21.987356807358776
+      ],
+      "training": {
+        "RMSE_mA_cm2": 2.674863759065525,
+        "normalized_RMSE": 0.10748481733914732,
+        "max_fractional_error": 0.16701053382137931,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          3.086064211916792,
+          -3.3218057864812884,
+          0.9521041883703028
+        ]
+      },
+      "reserved": {
+        "RMSE_mA_cm2": 14.031671906324375,
+        "normalized_RMSE": 0.37128071563145126,
+        "max_fractional_error": 0.43810088158972016,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          -8.451352669063883,
+          -15.011760891308054,
+          -17.14307797524992
+        ]
+      }
+    },
+    "B1": {
+      "parameters": null,
+      "predictions_mA_cm2": [
+        18.47826086956522,
+        18.47826086956522,
+        18.47826086956522,
+        18.47826086956522,
+        18.47826086956522,
+        18.47826086956522,
+        18.47826086956522
+      ],
+      "training": {
+        "RMSE_mA_cm2": 7.39580236347578,
+        "normalized_RMSE": 0.2971876468176991,
+        "max_fractional_error": 0.3289473684210526,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          0.0,
+          -9.057971014492754,
+          -9.057971014492754
+        ]
+      },
+      "reserved": {
+        "RMSE_mA_cm2": 19.36316540788661,
+        "normalized_RMSE": 0.5123530508356591,
+        "max_fractional_error": 0.5277777777777778,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          -16.485507246376812,
+          -20.652173913043477,
+          -20.652173913043477
+        ]
+      }
+    },
+    "B4": {
+      "parameters": null,
+      "predictions_mA_cm2": [
+        27.536231884057973,
+        27.536231884057973,
+        27.536231884057973,
+        27.536231884057973,
+        27.536231884057973,
+        27.536231884057973,
+        27.536231884057973
+      ],
+      "training": {
+        "RMSE_mA_cm2": 5.229622003529219,
+        "normalized_RMSE": 0.21014340034966772,
+        "max_fractional_error": 0.49019607843137253,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          9.057971014492754,
+          0.0,
+          0.0
+        ]
+      },
+      "reserved": {
+        "RMSE_mA_cm2": 10.392615586422801,
+        "normalized_RMSE": 0.2749905911404961,
+        "max_fractional_error": 0.2962962962962963,
+        "nominal_operational_screen_pass": false,
+        "residuals_pred_minus_observed_mA_cm2": [
+          -7.4275362318840585,
+          -11.594202898550723,
+          -11.594202898550723
+        ]
+      }
+    }
+  },
+  "digitization_corner_sensitivity": {
+    "scope": "All 16384 independent interval-box corners; not an interior bound, probability, CI or independent replicates. Curve/axis correlations are unmodeled.",
+    "corners": 16384,
+    "models": {
+      "M0": {
+        "pass_corners": 848,
+        "nRMSE_min": 0.007305346790056605,
+        "nRMSE_max": 2.3409007338142542,
+        "prediction_min_mA_cm2": [
+          13.514683980580342,
+          14.724363214232687,
+          15.297369167015376
+        ],
+        "prediction_max_mA_cm2": [
+          76.12965402820475,
+          92.05917874396135,
+          99.60474308300395
+        ]
+      },
+      "M1": {
+        "pass_corners": 554,
+        "nRMSE_min": 0.014418233098384692,
+        "nRMSE_max": 16.887331208279225,
+        "prediction_min_mA_cm2": [
+          12.649067187408352,
+          11.177237984207727,
+          10.141120518316567
+        ],
+        "prediction_max_mA_cm2": [
+          127.24498103842232,
+          324.157886469034,
+          749.6349041214495
+        ]
+      },
+      "B1": {
+        "pass_corners": 1024,
+        "nRMSE_min": 0.08627698550617044,
+        "nRMSE_max": 0.8142042751853399,
+        "prediction_min_mA_cm2": [
+          9.057971014492754,
+          9.057971014492754,
+          9.057971014492754
+        ],
+        "prediction_max_mA_cm2": [
+          27.89855072463768,
+          27.89855072463768,
+          27.89855072463768
+        ]
+      },
+      "B4": {
+        "pass_corners": 0,
+        "nRMSE_min": 0.17054857896733916,
+        "nRMSE_max": 0.7027700061988831,
+        "prediction_min_mA_cm2": [
+          14.492753623188406,
+          14.492753623188406,
+          14.492753623188406
+        ],
+        "prediction_max_mA_cm2": [
+          40.57971014492754,
+          40.57971014492754,
+          40.57971014492754
+        ]
+      }
+    }
+  },
+  "TOF_used_as_response": false,
+  "independent_redox_charge_reintegration": false,
+  "origin_function_identified": false,
+  "verified_integrated_complements_added": 0
+}

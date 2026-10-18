@@ -1,0 +1,186 @@
+{
+  "protocol_sha256": "2e8fc310cbe13cdd163f7cb9a54f703cdd85ed44bff66501e7a7cfac7494749c",
+  "analysis_sha256": "532c679074c42f560a290bb994f9ac6f225eed184107c048dd35444d3d5507e5",
+  "status": "EVIDENCE_AND_IDENTIFIABILITY_ASSESSMENT_COMPLETE_NOT_GOAL_COMPLETE",
+  "evidence_class": "Previously inspected primary observations; no empirical kinetic fit or fresh chemical holdout",
+  "gtm3": {
+    "doi": "10.1021/jacs.2c01874",
+    "catalytic_observations": [
+      {
+        "catalyst": "SS-GTM-3",
+        "conversion_percent": 50.7,
+        "inversion_ee_percent": -28.8,
+        "retention_ee_percent": 23.8,
+        "link_to_crossed_seeded_offspring_lot": null
+      },
+      {
+        "catalyst": "SS-GTM-3",
+        "conversion_percent": 99.4,
+        "inversion_ee_percent": -28.5,
+        "retention_ee_percent": 17.5,
+        "link_to_crossed_seeded_offspring_lot": null
+      },
+      {
+        "catalyst": "RR-GTM-3",
+        "conversion_percent": 60.2,
+        "inversion_ee_percent": 28.8,
+        "retention_ee_percent": -22.3,
+        "link_to_crossed_seeded_offspring_lot": null
+      },
+      {
+        "catalyst": "RR-GTM-3",
+        "conversion_percent": 99.5,
+        "inversion_ee_percent": 30.3,
+        "retention_ee_percent": -19.0,
+        "link_to_crossed_seeded_offspring_lot": null
+      }
+    ],
+    "functional_observable": "Sign of inversion-product ee under the source assay; preparation labels are not absolute framework configurations",
+    "crossed_growth_conditions": [
+      {
+        "seed_loading_percent_of_feed_oxide": 5,
+        "seed": "SS",
+        "directing_agent": "SS",
+        "source_ordinal_progress": "greater_if_matched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": -1,
+        "cue_priority_counterfactual_sign": -1,
+        "counterfactuals_disagree": false
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 5,
+        "seed": "SS",
+        "directing_agent": "RR",
+        "source_ordinal_progress": "lower_if_mismatched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": -1,
+        "cue_priority_counterfactual_sign": 1,
+        "counterfactuals_disagree": true
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 5,
+        "seed": "RR",
+        "directing_agent": "SS",
+        "source_ordinal_progress": "lower_if_mismatched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": 1,
+        "cue_priority_counterfactual_sign": -1,
+        "counterfactuals_disagree": true
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 5,
+        "seed": "RR",
+        "directing_agent": "RR",
+        "source_ordinal_progress": "greater_if_matched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": 1,
+        "cue_priority_counterfactual_sign": 1,
+        "counterfactuals_disagree": false
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 10,
+        "seed": "SS",
+        "directing_agent": "SS",
+        "source_ordinal_progress": "greater_if_matched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": -1,
+        "cue_priority_counterfactual_sign": -1,
+        "counterfactuals_disagree": false
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 10,
+        "seed": "SS",
+        "directing_agent": "RR",
+        "source_ordinal_progress": "lower_if_mismatched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": -1,
+        "cue_priority_counterfactual_sign": 1,
+        "counterfactuals_disagree": true
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 10,
+        "seed": "RR",
+        "directing_agent": "SS",
+        "source_ordinal_progress": "lower_if_mismatched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": 1,
+        "cue_priority_counterfactual_sign": -1,
+        "counterfactuals_disagree": true
+      },
+      {
+        "seed_loading_percent_of_feed_oxide": 10,
+        "seed": "RR",
+        "directing_agent": "RR",
+        "source_ordinal_progress": "greater_if_matched",
+        "measured_new_material_function_sign": null,
+        "parent_priority_counterfactual_sign": 1,
+        "cue_priority_counterfactual_sign": 1,
+        "counterfactuals_disagree": false
+      }
+    ],
+    "incompatible_counterfactual_predictions": 4,
+    "resolved_by_measured_offspring_function": 0,
+    "functional_inheritance_identified": false,
+    "founder_catalytic_flux_fraction": null,
+    "copying_fidelity": null,
+    "conclusion": "Two candidate explanations share observed qualitative growth matching and separately measured catalyst signs; off-diagonal offspring function remains unmeasured. These are identifiability witnesses, not fitted chemical mechanisms."
+  },
+  "boundary_dataset": {
+    "doi": "10.25405/data.ncl.9610601.v1",
+    "checksum_verification": "PASS",
+    "inventory": {
+      "Figure4.csv": {
+        "rows": 7679,
+        "channels": {
+          "N2": {
+            "valid_pairs": 2963,
+            "unpaired_fields": 0,
+            "negative_flux_pairs": 887,
+            "minimum_time": 0.0,
+            "maximum_time": 52.75261,
+            "after_83h_pairs": 0
+          },
+          "CO2": {
+            "valid_pairs": 6331,
+            "unpaired_fields": 0,
+            "negative_flux_pairs": 0,
+            "minimum_time": 0.0,
+            "maximum_time": 52.75,
+            "after_83h_pairs": 0
+          }
+        }
+      },
+      "Figure5.csv": {
+        "rows": 43539,
+        "channels": {
+          "N2": {
+            "valid_pairs": 43536,
+            "unpaired_fields": 3,
+            "negative_flux_pairs": 6793,
+            "minimum_time": 0.0,
+            "maximum_time": 111.32667,
+            "after_83h_pairs": 11079
+          },
+          "CO2": {
+            "valid_pairs": 13273,
+            "unpaired_fields": 30266,
+            "negative_flux_pairs": 0,
+            "minimum_time": 0.0,
+            "maximum_time": 110.68333,
+            "after_83h_pairs": 3322
+          }
+        }
+      }
+    },
+    "fit_allowed": false,
+    "reasons": [
+      "README names a different paper and unreconciled drilled-channel geometry",
+      "Figure labels differ from accepted paper",
+      "Independent time columns include orphaned CO2 flux values",
+      "Late data extend beyond documented plotted conditions; no spontaneous-failure or durability claim"
+    ]
+  },
+  "source_to_target_properties_transferred": false,
+  "verified_integrated_complements_added": 0,
+  "full_goal_complete": false
+}

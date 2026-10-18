@@ -1,0 +1,54 @@
+{
+  "status": "SOURCE_CONSISTENCY_AND_IDEAL_CHARGE_COORDINATE_CHECKS_COMPLETE",
+  "protocol_sha256": "2cd0ed6c85574a924d6159323c2129e60f5c23985195c38bdd4ef747d11acab3",
+  "primary_sha256": {
+    "bloor2016.pdf": "3f1224a42e7969b907bbd04efd95a90bf3005d8d884a71b0ea6bcafec444c077",
+    "bloor2016-si.pdf": "ca05559d0a7e792e0416022f28ce966d12151c91e82e3e756a1c0751a64b72ab"
+  },
+  "analysis_sha256": "38172035ac0567e06bb6121b9977178e634fa2273ccc4b6817f1017c6438d60a",
+  "evidence_class": "Already-inspected primary endpoints; no fitted kinetics or fresh held-out experiment",
+  "source_cycle": {
+    "nominal_inventory_mol": "0.0125",
+    "capacity_C": "2412.1250",
+    "reported_charge_C": "47",
+    "reported_recovered_C": "47",
+    "capacity_fraction_accessed": "0.01948489402497797585116857543",
+    "charge_predicted_H2_mL": "5.845468207493392755350572627",
+    "measured_H2_mL": "6.0",
+    "burette_uncertainty_mL": "0.2",
+    "prediction_within_reported_interval": true,
+    "central_measured_over_predicted": "1.026436170212765957446808511",
+    "ratio_uncertainty_from_burette_only": "0.03421453900709219858156028369",
+    "observed_same_cycle_O2_mol": null,
+    "actual_complete_cycle_energy_J": null,
+    "new_active_material_mol": null,
+    "inherited_function": null
+  },
+  "ideal_trajectory": {
+    "rows": 202,
+    "coordinate": "fraction of stated charge endpoint, not elapsed time",
+    "max_charge_residual_C": "1E-26",
+    "assumption": "Two-state competent inventory, all charge follows specified PCET; O2 equivalents are formal predictions, not measured gas for this cycle"
+  },
+  "energy_estimate": {
+    "classification": "SI-7 assumed scenario, not measured 47C cycle",
+    "illustrative_charge_C": "100",
+    "assumed_current_A": "0.001",
+    "implied_time_s": "1.00E+5",
+    "incident_optical_J": "1.00E+4",
+    "assumed_cell_discharge_V": "1.5",
+    "electrical_release_J": "150.0",
+    "H2_HHV_J": "148.2095662538218375913354407",
+    "HHV_over_total_input": "0.01460192770973614163461432913",
+    "excluded": "Lamp wall-plug conversion, pumps, compressors, degassing and other balance of plant"
+  },
+  "retained_negatives": [
+    "Only 1.9485% of nominal inventory capacity is exercised; no depletion validation",
+    "O2 assay used Pt mesh, unlike carbonfelt photocharge; its84+/-6% cannot be inserted as charge loss in this cycle",
+    "Zero photocharging bias does not remove required electrical input in H2 release",
+    "+0.75V versus Ag/AgCl is not a measured full-cell voltage integral",
+    "No identified active-material replacement or inherited useful state",
+    "Methanesulfonicacid, carbonfelt and Nafion are source dependencies; organic-free integrated organization is unproved",
+    "No transfer of source properties to Mo34WV"
+  ]
+}

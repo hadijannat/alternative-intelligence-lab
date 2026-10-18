@@ -1,0 +1,21 @@
+# Patterned inorganic growth: admission and source-consistency protocol
+
+Full objective remains the original Mo34WV-plus-complements living/intelligent system. Exact Mo34WV identity and all12system functions remain subject to the original contract. Previous goal turn: progress, because the481-file analysis changed the chemical-model and attribution decisions. No old blocked-turn count is reused.
+
+This step evaluates periodically poled KTiOPO4 (PPKTP) as a proposed functional-state carrier. It does not replace the objective with optical conversion. Primary sources are OME2011 DOI10.1364/OME.1.000185 and its JCG2012 companion DOI10.1016/j.jcrysgro.2011.11.081. They are one evidence family, not independent replications.
+
+## Exposure and tests
+
+The acquired-paper audit has already exposed source-reported inputs/outcomes:70micrometre1/e² pump diameter; measurement225micrometres inside new material and275micrometres inside seed; new-layer SHG peak28%lower; peak wavelengths2126.9/2127.1nm with stated±0.5nm; measured bandwidth product12.7nm·cm versus theoretical9.4. These are known before this protocol. The analysis is a parameter-free source-consistency and observation-symmetry check, not blinded/held-out validation. No copying or reaction rate is fitted.
+
+1. Verify native primary DOI/title/figures, beam/interface geometry, growth conditions, actual optical assay and all defects/access limits. Distinguish copied domain structure, new-layer function and serial detached functional inheritance.
+2. For an ideal Gaussian pump `I∝exp(-2r²/w²)`, use radius w=35µm and new-layer distance d=225µm. Calculate the pump fraction in the seed half-plane `fI=erfc(sqrt(2)*d/w)/2`, integrated local-squared-intensity SHG fraction `fI2=erfc(2*d/w)/2`, and a coherent on-axis source proxy `fI²`. State the collection/undepleted-beam assumptions; these are different idealized optical observables. Compare with the source relative peak0.72 only conditionally. Do not call Gaussian overlap a measured stray-light or independent founder-function bound.
+3. Report fixed sensitivity scenarios d=0,25,50,100,150,200,225µm and w=35,70,140µm. These are hypothetical beam/interface uncertainties, not observations or fitted corrections. Under identical conversion geometry, separately report the fraction of full seed-mode pump needed to produce0.72relative SHG (`sqrt(0.72)`). Do not apply that relation without its optical-geometry assumption.
+4. Compare reported center intervals without assigning an unreported statistical meaning to±0.5nm. Calculate bandwidth-product broadening and implied FWHM at6.50mm path length. Retain lower new-layer output, nonideal width and defective outer growth rather than treating800µm growth as800µm functional optical aperture.
+5. Test the intensity observation `|integral d33(s)*exp(i*DeltaK*s)ds|²` under a global sign reversal. It must be exactly invariant numerically. Also compare unpatterned/periodic coefficients in a dimensionless, explicitly synthetic phase-matching scan. This tests whether an intensity spectrum identifies absolute polarity; it does not infer measured bit errors, efficiency or a chemical state-transfer rate.
+
+## Admission boundary and completion
+
+Component support requires measured function in the newly formed region under the actual optical setup. Full H additionally requires an independent quantitative founder bound and serial functional descendants; V needs alternative inherited functional variants under controlled shared growth. Neither Gaussian assumptions nor a copied etch pattern alone supplies those observations. Initial electrical poling, external furnace/laser/handling, retained seed, finite fluoride/phosphate flux, carbon use and medium incompatibilities must be explicit. SHG intensity cannot establish a signed polarization bit if its observation law erases global sign.
+
+Save source receipts/audit, executed calculations, negative ledger, report/checks/progress and independent review. Self-check Gaussian limits/monotonicity, radius-versus-diameter, bandwidth units, coherent sign invariance and numerical phase-matching calculation. No threshold or mechanism is adjusted to rescue a negative result. No verified integrated complement, whole-goal completion or new unique-compound global count is inferred from this component assessment.

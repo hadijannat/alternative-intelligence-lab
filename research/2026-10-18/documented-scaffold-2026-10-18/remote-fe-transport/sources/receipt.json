@@ -1,0 +1,50 @@
+{
+  "retrieved_utc": "2026-10-18T13:49:55.836800+00:00",
+  "requests": [
+    {
+      "name": "pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12216224/",
+      "resolved_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12216224/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 242958,
+      "sha256": "6e1720f25e02e6ed900d320e7b1624f60e425f9b4c52818802d9efbe835c846a"
+    },
+    {
+      "name": "oa.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12216224",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12216224",
+      "status": 404,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "bytes": 1588,
+      "sha256": "8dec7ae0e387122306c60139c7073f94dd0f30e0c057a407fc2350f86281f61b"
+    },
+    {
+      "name": "bioc.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC12216224/unicode",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC12216224/unicode",
+      "status": 200,
+      "content_type": "text/xml",
+      "bytes": 110659,
+      "sha256": "df89bc1edfeb230cb078042c2f46f0c428e926c50350633e737d7de424a046c2"
+    },
+    {
+      "name": "nature.html",
+      "url": "https://www.nature.com/articles/s41467-025-60728-y",
+      "resolved_url": "https://www.nature.com/articles/s41467-025-60728-y?error=cookies_not_supported&code=57a30bc7-c443-483b-87d6-011c56faca5c",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 486541,
+      "sha256": "cdfb90f3dddb8e382e29686b52844e21eb2a18061c5ee5668be8ed4841201d9a"
+    },
+    {
+      "name": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1038/s41467-025-60728-y",
+      "resolved_url": "https://api.crossref.org/works/10.1038/s41467-025-60728-y",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 25918,
+      "sha256": "b49589eb86af46d4403968a02087ab94bcdd2760ff7a85ec09fee9b0788497e7"
+    }
+  ]
+}

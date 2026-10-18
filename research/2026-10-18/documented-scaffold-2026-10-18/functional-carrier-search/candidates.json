@@ -1,0 +1,59 @@
+{
+  "scope": "New functional-carrier and repair evidence for the full goal; no target property transfer",
+  "legacy_exact_target_ledger_preserved": true,
+  "legacy_roles_in_unchanged_ledger": 31,
+  "verified_integrated_complements_added": 0,
+  "full_goal_complete": false,
+  "candidates": [
+    {
+      "id": "GTM3-functional-chirality",
+      "material": "GTM-3 germanosilicate with chiral -ITV framework; Al-free and Al-containing preparations are distinct",
+      "doi": "10.1021/jacs.2c01874",
+      "proposed_roles": ["H", "M", "V", "R"],
+      "primary_access": "Complete primary XML and linked24-page SI acquired and hashed",
+      "observed_component_function": "Calcined inorganic framework gives opposite catalytic enantiomeric product biases; inversion ee reaches30.3% in sourceTable1",
+      "seeded_growth_evidence": "Crossed SS/RR seeds and SS/RR chiral directing agent show match-dependent crystallization progress at5% and10% loading",
+      "performed_test": "Enumerated parent-priority and cue-priority counterfactual functional signs; parsed actual catalytic table separately",
+      "offspring_function_mapped_to_crossed_growth_lots": null,
+      "empirical_founder_function_bound": null,
+      "copying_fidelity": null,
+      "decision": "COMPONENT_FUNCTION_SUPPORTED; FUNCTIONAL_INHERITANCE_UNRESOLVED; NOT_INTEGRATED",
+      "remaining_dependencies": ["Chiral organic directing agent during growth", "550C calcination", "Inert handling to avoid ambient humidity", "No common-medium PMo12 or Mo34WV assay"]
+    },
+    {
+      "id": "AuPd-to-Au-complement-loss",
+      "material": "AuPd nanorod photocatalyst bed producing Au nanospheres through NADH regeneration",
+      "doi": "10.1039/D1NR04400A",
+      "proposed_roles": ["R", "H", "E"],
+      "primary_access": "Publisher-indexed main contents and researcher-read primarySI; local PDF routes failed",
+      "observed_component_function": "Repeated original-bed cycles produce estimated100,133,117 new particles per founder rod",
+      "specific_negative": "Authors report missing positive feedback: new Au products lack the Pd complement for efficient cofactor regeneration",
+      "daughter_sphere_catalytic_rate": null,
+      "copying_fidelity": null,
+      "decision": "MATERIAL_PRODUCTION_SUPPORTED; FUNCTIONAL_FEEDBACK_NOT_DEMONSTRATED; NOT_INTEGRATED",
+      "caveats": ["Three original-bed cycles are not daughter generations", "Bare Au rod SI response is not a measured sphere rate", "Particle counts are model-derived", "Organic NAD/cofactor, formate and agarose dependencies"]
+    },
+    {
+      "id": "Alumina-molten-carbonate-repair",
+      "material": "Porous alphaAl2O3 with43.5:31.5:25mol%Li2CO3:Na2CO3:K2CO3",
+      "doi": "10.1016/j.memsci.2020.117855",
+      "dataset_doi": "10.25405/data.ncl.9610601.v1",
+      "proposed_roles": ["B", "R", "T"],
+      "primary_access": "Accepted primaryPDF and linked numericCSV deposit acquired; repository checksums match",
+      "observed_component_function": "Gas-selective transport recovers after induced dispersed damage in700C apparatus",
+      "new_competent_material_synthesized": null,
+      "specific_negative": "Healing redistributes existing carbonate; no measured POM retention or catalytic restoration; direct aqueous-regime transfer unsupported",
+      "dataset_fit_allowed": false,
+      "decision": "FUNCTIONAL_REPAIR_COMPONENT_SUPPORTED; INTEGRATION_REJECTED; NUMERIC_FIT_QUARANTINED",
+      "caveats": ["README names a different paper and geometry", "Paired time channels incomplete", "Late experimental phases undocumented", "Carbonate chemistry contains carbon; inorganic does not mean literally carbon-free"]
+    }
+  ],
+  "comparators": [
+    {
+      "material": "Seeded TiO2 core-antenna structures",
+      "doi": "10.1021/jacs.5b04676",
+      "finding": "Growth-associated photocatalysis improves, but founder core remains attached and functional descendants/serial inheritance are untested",
+      "decision": "GROWTH_FUNCTION_COMPARATOR_ONLY"
+    }
+  ]
+}

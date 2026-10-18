@@ -1,0 +1,180 @@
+{
+  "retrieved_utc": "2026-10-18T13:34:50.470308+00:00",
+  "requests": [
+    {
+      "name": "main-new.html",
+      "url": "https://pubs.acs.org/accacs/article/16/9/8633/5142681/Setting-the-Record-Straight-A-Systematic-Study-on",
+      "resolved_url": "https://pubs.acs.org/accacs/article/16/9/8633/5142681/Setting-the-Record-Straight-A-Systematic-Study-on",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5680,
+      "sha256": "38a349683f031fad3ffb463a711fed600d7e418a439d77b64a97164ce935faad",
+      "md5": "701b4deef241c0348bd404f7bd96b28a",
+      "request_payload": null
+    },
+    {
+      "name": "main-doi.html",
+      "url": "https://pubs.acs.org/doi/10.1021/acscatal.6c01228",
+      "resolved_url": "https://pubs.acs.org/doi/10.1021/acscatal.6c01228",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5454,
+      "sha256": "0b4d5cadf9f873b813435111a0176d362cf5b8c94794015572a9a1ba0ad12574",
+      "md5": "5015d84d0fe6cff32c63f40b47100aef",
+      "request_payload": null
+    },
+    {
+      "name": "figshare-title-search.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 103288,
+      "sha256": "439237c63e0bcfcdbbb04725071d895cf9775b1ff1860ea6adf0fb9f00f3a138",
+      "md5": "037d632c716983d0dacec0ad50cdc960",
+      "request_payload": {
+        "search_for": "Setting the Record Straight",
+        "limit": 100
+      }
+    },
+    {
+      "name": "figshare-doi-search.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "md5": "d751713988987e9331980363e24189ce",
+      "request_payload": {
+        "resource_doi": "10.1021/acscatal.6c01228",
+        "limit": 100
+      }
+    },
+    {
+      "name": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1021/acscatal.6c01228",
+      "resolved_url": "https://api.crossref.org/works/10.1021/acscatal.6c01228",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 22925,
+      "sha256": "41dfc82931ef7de7925e1f8eae85e19441ef689811ccbd44035bd21c80f2a689",
+      "md5": "b9e9d01a2a989fffb3b5d05f9532dd06",
+      "request_payload": null
+    },
+    {
+      "name": "main-pdf-response.bin",
+      "url": "https://pubs.acs.org/accacs/article-pdf/16/9/8633/64857843/cs-2026-01228g.pdf",
+      "resolved_url": "https://pubs.acs.org/accacs/article-pdf/16/9/8633/64857843/cs-2026-01228g.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5560,
+      "sha256": "cf12e07f0efdb83173daced0ee184829fdbd21d70d109c731fb8baa2f6de8ab9",
+      "md5": "40f3df9d38b938f15f75cd73116b7a4e",
+      "request_payload": null
+    },
+    {
+      "name": "si-conventional-route-response.bin",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acscatal.6c01228/suppl_file/cs6c01228_si_001.docx",
+      "resolved_url": "https://pubs.acs.org/doi/suppl/10.1021/acscatal.6c01228/suppl_file/cs6c01228_si_001.docx",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5614,
+      "sha256": "8e511d62e5910640dec3cfa1d7769dce424045075e2c4a374b462f71c5b89c97",
+      "md5": "40e001bd6f58ff3795f5c0c20167cefc",
+      "request_payload": null
+    },
+    {
+      "name": "figshare-title-search-specific.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 126856,
+      "sha256": "33a6dff01cc13c42ec2beb42f8fb8e747e7658368c98d144ac97a63cbb530043",
+      "md5": "43de36abc36ef565e5b29718095023df",
+      "request_payload": {
+        "search_for": "Fe and Ni Dissolution",
+        "limit": 100
+      }
+    },
+    {
+      "name": "crossref-si.json",
+      "url": "https://api.crossref.org/works/10.1021/acscatal.6c01228.s001",
+      "resolved_url": "https://api.crossref.org/works/10.1021/acscatal.6c01228.s001",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1222,
+      "sha256": "b113f97f461e9e47a4f7dce14b33ace8dbb3de2e56fe8d6de199ec98372910b9",
+      "md5": "adbbd9ac0ed6a797968f7180718614f9",
+      "request_payload": null
+    },
+    {
+      "name": "juelich-search.html",
+      "url": "https://publications.fz-juelich.de/search?p=10.1021%2Facscatal.6c01228&of=hb",
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "request_payload": null
+    },
+    {
+      "name": "figshare-exact-title.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 34875,
+      "sha256": "d7f9f06c576b1f6478a0080aa8a015c3f970b54a437a2ac0cafb942a0dc6a690",
+      "md5": "a1f32ef5807cae92482bcba24235ea3f",
+      "request_payload": {
+        "search_for": "\"Setting the Record Straight\"",
+        "limit": 100
+      }
+    },
+    {
+      "name": "si-pdf-response.bin",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acscatal.6c01228/suppl_file/cs6c01228_si_001.pdf",
+      "resolved_url": "https://pubs.acs.org/doi/suppl/10.1021/acscatal.6c01228/suppl_file/cs6c01228_si_001.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5611,
+      "sha256": "f93b37ec34f9b2139a85ca6230e398a792fff4dab181f98cacc0d65796abf721",
+      "md5": "97a91e3d0a649f70cb2943a9218ba3ad",
+      "request_payload": null
+    },
+    {
+      "name": "si-doi-response.bin",
+      "url": "https://doi.org/10.1021/acscatal.6c01228.s001",
+      "resolved_url": "https://pubs.acs.org/doi/suppl/10.1021/acscatal.6c01228/suppl_file/cs6c01228_si_001.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5611,
+      "sha256": "36408e810bb8a366b368515361d23781866cbf39fed05572ad7e509c0e65b8f0",
+      "md5": "388be23c0b28acf5adb973074bff18ce",
+      "request_payload": null
+    },
+    {
+      "name": "figshare-si-doi.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "md5": "d751713988987e9331980363e24189ce",
+      "request_payload": {
+        "doi": "10.1021/acscatal.6c01228.s001",
+        "limit": 100
+      }
+    },
+    {
+      "name": "juser-search.json",
+      "url": "https://juser.fz-juelich.de/search?p=acscatal.6c01228&of=recjson",
+      "resolved_url": "https://juser.fz-juelich.de/search?p=acscatal.6c01228&of=recjson",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 248,
+      "sha256": "4681fa6e4303ecc351521fa1c7c836c9f3d6774b11725d39885ec3bf8ff16561",
+      "md5": "5f5e426cb5fe214e86811c272f13e641",
+      "request_payload": null
+    }
+  ]
+}

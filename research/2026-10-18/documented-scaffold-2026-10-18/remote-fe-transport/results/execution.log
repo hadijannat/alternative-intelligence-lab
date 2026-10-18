@@ -1,0 +1,128 @@
+{
+  "checks": {
+    "parser_missing_gap": true,
+    "multiple_branch_crossings": true,
+    "nonpositive_ratio_denominator": true,
+    "synthetic_grid_recovery": true,
+    "reserved_response_exclusion": true,
+    "zero_k_constant": true,
+    "loss_nesting": true,
+    "source_units": true,
+    "positive_pools": true,
+    "conserved_Fe_units": true,
+    "ka_zero_sink_order": true,
+    "step_convergence_below_1e_minus_5": false
+  },
+  "candidate_status": {
+    "LDH": "insufficient_data",
+    "NiFeCl": "insufficient_data",
+    "NiFeZnCl": "insufficient_data"
+  },
+  "CA_observed_window_retention": {
+    "SC": {
+      "nominal": 0.8456080293789123,
+      "midpoint_ratio": 0.8818010956076774,
+      "bounds": [
+        0.8219787815632102,
+        0.9442025858537305
+      ]
+    },
+    "AEM": {
+      "nominal": 0.1624761766125097,
+      "midpoint_ratio": 0.16154035630712882,
+      "bounds": [
+        0.15257624733605932,
+        0.1714535408209292
+      ]
+    },
+    "CEM": {
+      "nominal": 0.7321846427178575,
+      "midpoint_ratio": 0.7370949611984178,
+      "bounds": [
+        0.7105284059920255,
+        0.7647776116355932
+      ]
+    }
+  },
+  "CV_retention": {
+    "1.53": {
+      "SC": {
+        "nominal": 0.8495565472899048,
+        "midpoint_ratio": 0.8495565472899048,
+        "bounds": [
+          0.8182410121172488,
+          0.8819715021932408
+        ]
+      },
+      "CEM": {
+        "nominal": 1.266341429292368,
+        "midpoint_ratio": 1.266341429292368,
+        "bounds": [
+          1.2625217829621214,
+          1.2701765534110308
+        ]
+      },
+      "AEM": {
+        "nominal": 0.40072334678469895,
+        "midpoint_ratio": 0.40072334678469895,
+        "bounds": [
+          0.3819510918489839,
+          0.42018626874903436
+        ]
+      }
+    },
+    "1.55": {
+      "SC": {
+        "nominal": 0.8603467304922715,
+        "midpoint_ratio": 0.8603467304922715,
+        "bounds": [
+          0.856974141370476,
+          0.863734887790387
+        ]
+      },
+      "CEM": {
+        "nominal": 1.2814326988293536,
+        "midpoint_ratio": 1.2814326988293536,
+        "bounds": [
+          1.2790282611413994,
+          1.2838396223935742
+        ]
+      },
+      "AEM": {
+        "nominal": 0.4323587201261662,
+        "midpoint_ratio": 0.4323587201261662,
+        "bounds": [
+          0.4286215487161828,
+          0.43614210351052574
+        ]
+      }
+    }
+  },
+  "synthetic_reversal": [
+    {
+      "ka": 0,
+      "difference": 0.40876941044621495,
+      "reversal": false
+    },
+    {
+      "ka": 0.1,
+      "difference": 0.328087476228791,
+      "reversal": false
+    },
+    {
+      "ka": 1,
+      "difference": 0.1114927879095502,
+      "reversal": false
+    },
+    {
+      "ka": 10,
+      "difference": 0.012223550935500557,
+      "reversal": false
+    },
+    {
+      "ka": 100,
+      "difference": 0.0009319650083388802,
+      "reversal": false
+    }
+  ]
+}

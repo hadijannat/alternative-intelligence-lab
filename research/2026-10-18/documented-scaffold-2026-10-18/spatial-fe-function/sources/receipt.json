@@ -1,0 +1,91 @@
+{
+  "retrieved_utc": "2026-10-18T14:10:18.577282+00:00",
+  "requests": [
+    {
+      "name": "acs-doi.html",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.5c00438",
+      "resolved_url": "https://pubs.acs.org/doi/10.1021/jacs.5c00438",
+      "request_payload": null,
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5464,
+      "sha256": "a4271423b5bfae7af93f852e678973833908dc67d501cab092b3fbb97adbcd6a",
+      "md5": "8a8f921bf6485f1ccebd87f5beae7d51"
+    },
+    {
+      "name": "acs-new.html",
+      "url": "https://pubs.acs.org/jacsat/article/147/16/13502/3771257/Role-of-Site-Specific-Iron-in-Fe-Doped-Nickel",
+      "resolved_url": "https://pubs.acs.org/jacsat/article/147/16/13502/3771257/Role-of-Site-Specific-Iron-in-Fe-Doped-Nickel",
+      "request_payload": null,
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5720,
+      "sha256": "76ea72f080ef99375497c9c1a21b86a93a2947d946edb16a769bfbef4672f93c",
+      "md5": "fb081e4bbeaa8a4336f1a8082c138308"
+    },
+    {
+      "name": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1021/jacs.5c00438",
+      "resolved_url": "https://api.crossref.org/works/10.1021/jacs.5c00438",
+      "request_payload": null,
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 14943,
+      "sha256": "1d74df6cb739fa2193660d641d641d33334e3a380b2e8075d0e39669cc72fac9",
+      "md5": "61ef6ba0a1959b481e54df52d9c6ad38"
+    },
+    {
+      "name": "crossref-si.json",
+      "url": "https://api.crossref.org/works/10.1021/jacs.5c00438.s001",
+      "resolved_url": "https://api.crossref.org/works/10.1021/jacs.5c00438.s001",
+      "request_payload": null,
+      "status": 429,
+      "content_type": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "name": "figshare-resource-search.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "request_payload": {
+        "resource_doi": "10.1021/jacs.5c00438",
+        "limit": 100
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1379,
+      "sha256": "b2a199669855922d7bfeb21da44fdab78540bcbebd4a94cae25b2e9a74afa3f8",
+      "md5": "3a93e61c6623ac1edd5869e09587d571"
+    },
+    {
+      "name": "figshare-si-search.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "request_payload": {
+        "doi": "10.1021/jacs.5c00438.s001",
+        "limit": 100
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 1379,
+      "sha256": "b2a199669855922d7bfeb21da44fdab78540bcbebd4a94cae25b2e9a74afa3f8",
+      "md5": "3a93e61c6623ac1edd5869e09587d571"
+    },
+    {
+      "name": "figshare-title-search.json",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "resolved_url": "https://api.figshare.com/v2/articles/search",
+      "request_payload": {
+        "search_for": "Role of Site-Specific Iron",
+        "limit": 100
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 119080,
+      "sha256": "a842c90c7a29cb19c0a391e02bfab80c10a04c80c3c4e2a4488e3e39b82fe48d",
+      "md5": "e73c378bf5847c593fbc3881dfe0103a"
+    }
+  ]
+}

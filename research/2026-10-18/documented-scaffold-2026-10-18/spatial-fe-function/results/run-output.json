@@ -1,0 +1,16 @@
+{
+  "cases": 720,
+  "allocations": 15120,
+  "checks": {
+    "main_bounds_1_3_to_4": true,
+    "main_current_7_5": true,
+    "rank_3_null_direction": true,
+    "augmented_rank_4": true,
+    "positive_controls_identified": true,
+    "zero_one_site_activity_does_not_identify": true,
+    "grid_720_cases_15120_allocations": true,
+    "all_grid_and_control_checks": true
+  },
+  "all_numerical_checks_pass": true,
+  "empirical_status": "INSUFFICIENT_DATA"
+}

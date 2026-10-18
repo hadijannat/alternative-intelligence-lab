@@ -1,0 +1,132 @@
+{
+  "doi": "10.1016/S1872-2067(14)60089-9",
+  "retrieved_utc": "2026-10-18T11:15:52.685919+00:00",
+  "routes": [
+    {
+      "url": "https://www.cjcatal.com/fileup/0253-9837/HTML/20141103.htm",
+      "method": "curl GET -L --max-time 45",
+      "http_status": 200,
+      "artifact": "zheng2014-main.html"
+    },
+    {
+      "url": "https://www.cjcatal.com/EN/10.1016/S1872-2067%2814%2960089-9",
+      "method": "curl GET -L --max-time 45",
+      "http_status": 200,
+      "artifact": "zheng2014-abstract.html"
+    },
+    {
+      "url": "http://www.chxb.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=21346",
+      "method": "curl GET -L --max-time 30; actual legacy full-HTML link",
+      "http_status": 404,
+      "artifact": "failed-legacy-pdf.html"
+    },
+    {
+      "url": "https://www.cjcatal.com/js/download_EN.js",
+      "method": "curl GET; script src in abstract HTML",
+      "http_status": 200,
+      "artifact": "publisher-download.js"
+    },
+    {
+      "url": "https://www.cjcatal.com/EN/article/showArticleFile.do",
+      "method": "curl POST attachType=PDF&id=21346&json=true; observed publisher interface",
+      "http_status": 200,
+      "artifact": "publisher-pdf-api.txt"
+    },
+    {
+      "url": "https://www.cjcatal.com/EN/PDF/10.1016/S1872-2067(14)60089-9",
+      "method": "requests GET timeout=45; exact URL returned by publisher API",
+      "http_status": 200,
+      "artifact": "zheng2014-main.pdf",
+      "content_type": "application/octet-stream;charset=UTF-8"
+    }
+  ],
+  "reported_prior_failures": [
+    {
+      "route": "web tool full HTML",
+      "outcome": "two timeouts reported by parent; not independently repeated"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "failed-legacy-pdf.html",
+      "bytes": 146,
+      "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+    },
+    {
+      "path": "page-2.png",
+      "bytes": 318119,
+      "sha256": "f655d546fec8ecf232504dc1e75e3e7d990e4e6d6f4529fb56e102350a3a6389"
+    },
+    {
+      "path": "page-3.png",
+      "bytes": 283859,
+      "sha256": "8a6b747be8b85a982c6e2ca3a81806e54043d2dd479706eea767881d128c536a"
+    },
+    {
+      "path": "page-4.png",
+      "bytes": 405013,
+      "sha256": "93821d884eb3b4df6e1c309a65c56a9dda5112fc2b5ecbd53d0d13595e9f5307"
+    },
+    {
+      "path": "publisher-download.js",
+      "bytes": 16561,
+      "sha256": "6ea163cfc582cfa7ec9c3114174bef7d6f587368936de815bbee0a46b43f2153"
+    },
+    {
+      "path": "publisher-pdf-api.txt",
+      "bytes": 438,
+      "sha256": "0aad4125c4c6b50270974a960f5ba7af5594343961499f2507787a21dfddce75"
+    },
+    {
+      "path": "seed-product-table.csv",
+      "bytes": 827,
+      "sha256": "121ca737dbd539f68214983d9fac7b6dfdb0bd37328041f1c1bbbc5868402953"
+    },
+    {
+      "path": "tables-exact.json",
+      "bytes": 3799,
+      "sha256": "1bf3a6fb72c7196c0beafed63553150bf3c0a33d68a062759c1447988a050b79"
+    },
+    {
+      "path": "verify_source.py",
+      "bytes": 2628,
+      "sha256": "8cd5cf7ffcf00baa048ceebe665afcf10e084494021964ec527e31bf64838a62"
+    },
+    {
+      "path": "zheng2014-abstract.html",
+      "bytes": 54407,
+      "sha256": "260ca4f84517667cf90843c6c5fbdf826086cc5904ca929c66b9fe6a6403c021"
+    },
+    {
+      "path": "zheng2014-main.html",
+      "bytes": 105798,
+      "sha256": "3dcbe1fbc4c6f9d7c076d22dd6ec075eb04b337f4ae53e7d5e39271a1000f3cb"
+    },
+    {
+      "path": "zheng2014-main.pdf",
+      "bytes": 3250584,
+      "sha256": "2f89247d7718a5d10cdd0cab2134fd1550c93d5559e8aa154db35c08d267f30f"
+    },
+    {
+      "path": "zheng2014-main.txt",
+      "bytes": 39721,
+      "sha256": "8b0618b603b433a1e7bd512c8dc18f68f20de1ad4853d089c7b657f4d017d29f"
+    },
+    {
+      "path": "zheng2014-pdf.txt",
+      "bytes": 44204,
+      "sha256": "e475541b71e0d9993108b0d97cf4f99b8e6467c83bf2f30d127c25335d396e58"
+    }
+  ],
+  "pdf_visual_check": {
+    "pages": [
+      3,
+      4
+    ],
+    "printed_pages": [
+      1802,
+      1803
+    ],
+    "observable": "Table1 seed and Table2 product cells match HTML; views captured as page-3.png/page-4.png"
+  }
+}

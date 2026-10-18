@@ -1,0 +1,296 @@
+{
+  "status": "BOUNDED_SIMULATIONS_COMPLETE",
+  "protocol_sha256": "97d9721694d1af68a3d9218b5980c607f5e459293ab224a6252366ca2d18aa5c",
+  "inputs": {
+    "plot_points_sha256": "9cadaee99b5c763b455a11c1a5b89a633e36cfa9666f5a634902c863116df119"
+  },
+  "validation_class": "retrospective plotted-source holdouts; not independent experimental validation",
+  "transport": {
+    "parameters": {
+      "j_lim_mA_cm2": 110.39775192296466,
+      "b_per_V": 4.535841945143583,
+      "u_half_V": 1.5374139766174313
+    },
+    "fit_boundary_hit": false,
+    "calibration_voltage_V": [
+      0.598,
+      0.889,
+      1.138,
+      1.361,
+      1.578,
+      1.78
+    ],
+    "heldout_voltage_V": [
+      2.016,
+      2.293
+    ],
+    "calibration": {
+      "rmse": 1.7768199233681612,
+      "max_absolute_error": 2.7374057529293987,
+      "predicted": [
+        1.5357937098320555,
+        5.5374057529293985,
+        15.503748676272545,
+        34.22173007031517,
+        60.26540526885911,
+        82.8338930434
+      ],
+      "observed": [
+        0.5,
+        2.8,
+        16.1,
+        36.4,
+        58.1,
+        83.6
+      ],
+      "residual_predicted_minus_observed": [
+        1.0357937098320555,
+        2.7374057529293987,
+        -0.596251323727456,
+        -2.1782699296848307,
+        2.1654052688591108,
+        -0.7661069565999981
+      ]
+    },
+    "heldout": {
+      "rmse": 1.298578376875477,
+      "max_absolute_error": 1.807457465991007,
+      "predicted": [
+        99.092542534009,
+        106.92512937488092
+      ],
+      "observed": [
+        100.9,
+        106.6
+      ],
+      "residual_predicted_minus_observed": [
+        -1.807457465991007,
+        0.3251293748809303
+      ]
+    },
+    "screening_pass": true,
+    "effective_k_m_cm_s": 0.0022883841408279882,
+    "exponential_baseline_parameters": [
+      3.5436240735562246,
+      2.4212065175170903
+    ],
+    "exponential_heldout": {
+      "rmse": 142.16715496324542,
+      "max_absolute_error": 193.99429357802623,
+      "predicted": [
+        153.71300938073344,
+        300.5942935780262
+      ],
+      "observed": [
+        100.9,
+        106.6
+      ],
+      "residual_predicted_minus_observed": [
+        52.81300938073343,
+        193.99429357802623
+      ]
+    }
+  },
+  "geometry_transfer": {
+    "heldout": {
+      "rmse": 125.86969463647546,
+      "max_absolute_error": 227.72646698408266,
+      "predicted": [
+        0.10327984901157189,
+        4.759591715717271,
+        9.363341668548651,
+        15.085432069191729,
+        21.937053682021713,
+        29.991991282514984,
+        39.217988430910786,
+        48.66807549118027,
+        58.27353301591734
+      ],
+      "observed": [
+        0.0,
+        9.2,
+        36.8,
+        73.3,
+        113.3,
+        155.29999999999998,
+        197.9,
+        241.9,
+        286.0
+      ],
+      "residual_predicted_minus_observed": [
+        0.10327984901157189,
+        -4.440408284282729,
+        -27.436658331451348,
+        -58.21456793080827,
+        -91.36294631797828,
+        -125.308008717485,
+        -158.6820115690892,
+        -193.23192450881973,
+        -227.72646698408266
+      ]
+    },
+    "screening_pass": false,
+    "max_observed_over_old_limit": 2.5906324632368443,
+    "limitation": "Actual immersed mesh area unknown; no fitted multiplier or quantitative enlarged-geometry prediction"
+  },
+  "gas_observation": {
+    "tau_min": 73.74802388171489,
+    "fit_boundary_hit": false,
+    "calibration": {
+      "rmse": 0.21893910051480692,
+      "max_absolute_error": 0.3408394631825824,
+      "predicted": [
+        0.0,
+        0.9508394631825824,
+        2.986502447907905
+      ],
+      "observed": [
+        -0.03,
+        0.61,
+        3.15
+      ],
+      "residual_predicted_minus_observed": [
+        0.03,
+        0.3408394631825824,
+        -0.1634975520920947
+      ]
+    },
+    "heldout": {
+      "rmse": 0.6054964605802249,
+      "max_absolute_error": 0.9918983600590314,
+      "predicted": [
+        5.478101639940968,
+        6.749178542738214,
+        6.998927821955175
+      ],
+      "observed": [
+        6.47,
+        7.08,
+        7.08
+      ],
+      "residual_predicted_minus_observed": [
+        -0.9918983600590314,
+        -0.330821457261786,
+        -0.08107217804482492
+      ]
+    },
+    "instantaneous_heldout": {
+      "rmse": 0.3410278580995986,
+      "max_absolute_error": 0.5899999999999999,
+      "predicted": [
+        7.06,
+        7.06,
+        7.06
+      ],
+      "observed": [
+        6.47,
+        7.08,
+        7.08
+      ],
+      "residual_predicted_minus_observed": [
+        0.5899999999999999,
+        -0.020000000000000462,
+        -0.020000000000000462
+      ]
+    },
+    "screening_pass": false,
+    "limitation": "Conditioned on measured charge input; headspace percent response, not chemical rate or absolute gas yield"
+  },
+  "conditional_inventory": {
+    "total_mol": 0.0005,
+    "capacity_C": 96.48533212000001,
+    "final_red_fraction": 1.0,
+    "charge_in_C": 192.42653136762024,
+    "charge_out_C": 95.94119924762023,
+    "refused_charging_C": 75.41346863237979,
+    "H2_mol": 0.000497180230090813,
+    "O2_mol": 0.0004985901150454065,
+    "required_abs_proton_transfer_mol": 0.002988720920363252,
+    "balance_errors": {
+      "mediator_mol": 0.0,
+      "stored_charge_C": 2.842170943040401e-14,
+      "H2_electron_C": 0.0,
+      "O2_electron_C": 5.684341886080802e-14,
+      "bound_H2_equivalent_mol": 1.0842021724855044e-19
+    }
+  },
+  "controls": {
+    "no_drive": {
+      "total_mol": 0.0005,
+      "capacity_C": 96.48533212000001,
+      "final_red_fraction": 0.0,
+      "charge_in_C": 0.0,
+      "charge_out_C": 0.0,
+      "refused_charging_C": 0.0,
+      "H2_mol": 0.0,
+      "O2_mol": 0.0,
+      "required_abs_proton_transfer_mol": 0.0,
+      "balance_errors": {
+        "mediator_mol": 0.0,
+        "stored_charge_C": 0.0,
+        "H2_electron_C": 0.0,
+        "O2_electron_C": 0.0,
+        "bound_H2_equivalent_mol": 0.0
+      }
+    },
+    "no_buffer_mediator_pathway": {
+      "total_mol": 0,
+      "capacity_C": 0.0,
+      "final_red_fraction": 0.0,
+      "charge_in_C": 0.0,
+      "charge_out_C": 0.0,
+      "refused_charging_C": 267.84000000000003,
+      "H2_mol": 0.0,
+      "O2_mol": 0.0,
+      "required_abs_proton_transfer_mol": 0.0,
+      "balance_errors": {
+        "mediator_mol": 0.0,
+        "stored_charge_C": 0.0,
+        "H2_electron_C": 0.0,
+        "O2_electron_C": 0.0,
+        "bound_H2_equivalent_mol": 0.0
+      }
+    },
+    "oxidized_idle": {
+      "total_mol": 0.0005,
+      "capacity_C": 96.48533212000001,
+      "final_red_fraction": 0.0,
+      "charge_in_C": 0.0,
+      "charge_out_C": 0.0,
+      "refused_charging_C": 0.0,
+      "H2_mol": 0.0,
+      "O2_mol": 0.0,
+      "required_abs_proton_transfer_mol": 0.0,
+      "balance_errors": {
+        "mediator_mol": 0.0,
+        "stored_charge_C": 0.0,
+        "H2_electron_C": 0.0,
+        "O2_electron_C": 0.0,
+        "bound_H2_equivalent_mol": 0.0
+      }
+    },
+    "frozen_current_rival_H2_mol": 0.0015662502271722497,
+    "frozen_current_rival_exceeds_available_stock": true
+  },
+  "separate_SI_capacity_check": {
+    "nominal_capacity_C": 337.6975,
+    "first_reduction_C": 317,
+    "fourth_reduction_C": 308,
+    "first_fraction_of_capacity": 0.9387099401091213,
+    "fourth_fraction_of_capacity": 0.9120588692542883,
+    "fourth_over_first": 0.9716088328075709,
+    "limitation": "No ideal complete-conversion model explains reduced throughput or loss; charge ratio is not molecule survival"
+  },
+  "source_energy_penalties": {
+    "three_electrode_equivalent_V": 2.94,
+    "direct_V": 2.55,
+    "relative_efficiency": 0.8673469387755102,
+    "source_two_electrode_relative_efficiency": 0.79
+  },
+  "limits": [
+    "No mediator decomposition, O2 side reaction or molecular repair kinetics identified",
+    "Direct water splitting outside the mediator pathway is excluded, not experimentally absent",
+    "Effective transport law extrapolation to changing redox fraction is conditional",
+    "No inherited variants, active material replacement, maintained boundary or intelligence established"
+  ]
+}

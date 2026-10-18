@@ -1,0 +1,16 @@
+# Photo-input complement: frozen source-consistency tests
+
+2026-10-18. Previous goal turn: **progress**. It acquired documented PMo12 evidence and executed transport/inventory models with retained failures. The full life/intelligence goal remains incomplete. The user's documented-alternative authorization still applies; none of these properties is assigned to Mo34WV.
+
+This step examines whether WO3/FTO photo-oxidation is a component-supported energy-input complement for the PMo12 branch, and whether the evidence closes a complete maintained chemical cycle. It does not redefine the full objective as hydrogen generation.
+
+Before numerical analysis, freeze these checks. Primary Bloor2016 article/figure captions and headline endpoints have already been inspected; newly acquired SI is not a blinded dataset. No empirical held-out prediction is claimed in this step.
+
+1. Use actual SI-6 volume (25 mL), mediator concentration (0.5 M), two-electron capacity and 47 C charge/reoxidation endpoints. Compute the changed fraction of nominal inventory without interpreting charge recovery as active-material repair or molecular survival.
+2. Predict the gas volume from charge, using only 2 electrons per H2, source F=96485 C/mol and source molar volume 24 L/mol. Compare with the separately reported collected H2 volume and its uncertainty. No fitted yield/volume conversion. This is a parameter-free source-consistency check on already-known endpoints.
+3. Execute a charge-coordinate cycle of Ox/Red, external electron throughput and gas equivalents. Charge-coordinate progression is not a time-dependent rate model: overnight illumination duration/current history is not reconstructed from a guessed constant current. Separate the source charge/reoxidation run from the source oxygen-probe run. All unmeasured side-product/loss fluxes remain unidentified.
+4. Reproduce SI-7's rough energy estimate as an explicitly assumed scenario: 1 mA/cm2 photocharging, 100 mW/cm2 incident light, 1 cm2 anode, and 1.5 V full-cell discharge assumption. Mark these as assumptions where the SI does; distinguish +0.75 V versus Ag/AgCl from the two-terminal cell voltage. Reject a claim that zero charging bias means a complete cycle with zero electrical input.
+5. Preserve source controls (dark, no WO3, no mediator), the reported O2 Faradaic shortfall, altered counterelectrode geometry, finite capacity and carbon-containing active/device components. Do not merge 84% O2 from a Pt-mesh counterelectrode assay into carbon-felt charge/release kinetics or identify a side reaction from a gas deficit alone.
+6. Carry forward the complete I/E/T/B/R/H/V/S/M/A/J/C evidence contract. A component-supported photo-input pathway gives no R/H credit without newly made competent material and founder-bounded transmission of function. In parallel, inspect the previously unacquired Beta composition study as the next R/H proposal; acquisition failure remains a result, not an invented copying probability.
+
+Acceptance for this bounded step: acquired and hashed primary packages, source-consistency arithmetic and balanced state trajectory executed, assumptions/negatives recorded, complete-function ledger preserved, and independent review. Full-goal completion still requires every original function in a characterized integrated system, which this step cannot assume.

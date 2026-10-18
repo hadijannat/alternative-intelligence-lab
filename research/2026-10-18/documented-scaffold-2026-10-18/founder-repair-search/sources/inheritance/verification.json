@@ -1,0 +1,22 @@
+{
+  "scenario": "two-native-primary-identities-and-byte-integrity",
+  "passed": true,
+  "checks": [
+    {
+      "file": "PMC9105084.xml",
+      "doi": [
+        "10.3390/nano12091601"
+      ],
+      "sha256_matches": true,
+      "xml_parse": true
+    },
+    {
+      "file": "PMC10108007.xml",
+      "doi": [
+        "10.1002/chir.23523"
+      ],
+      "sha256_matches": true,
+      "xml_parse": true
+    }
+  ]
+}

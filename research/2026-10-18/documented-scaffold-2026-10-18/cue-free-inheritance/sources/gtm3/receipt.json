@@ -1,0 +1,69 @@
+{
+  "checked_date": "2026-10-18",
+  "scope": "Three follow-up sources; original JACS 2022 package remains in sibling functional-carrier-search.",
+  "web_reader_failures": [
+    "ScienceDirect 403",
+    "PMC browser CAPTCHA",
+    "UCL PDF 429"
+  ],
+  "records": [
+    {
+      "file": "2025-main.pdf",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10221401/3/Beale_enzyme-like-enantioselectivity-in-gtm-chiral-zeolite-catalysts-upon-preactivation-of-ge-sites.pdf",
+      "status": 200,
+      "bytes": 7785241,
+      "pages": 14,
+      "sha256": "f83754d9317c0fd177471fb0d18f1ae9a78d02bdcdc3a472433f9bff8afe36f6",
+      "method": "curl -L --fail --max-time 60; exit 0; fitz PDF parse passed"
+    },
+    {
+      "file": "cattod-publisher-response.html",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0920586123004133",
+      "status": 403,
+      "bytes": 832802,
+      "sha256": "5722cb23e368b2ea4c868834ef84a7184f8ee3963377c036eae970cdec367ab2"
+    },
+    {
+      "file": "2024-article.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11472255/fullTextXML",
+      "status": 200,
+      "bytes": 125109,
+      "sha256": "ed260c4dea3fe739f184a2b41154e7e5855efe058933d4f1d41c0acc3148ad82"
+    },
+    {
+      "file": "2024-supplementary.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11472255/supplementaryFiles",
+      "status": 200,
+      "bytes": 2757184,
+      "sha256": "94efbf4361c1a9cc44e4fba0ca612de548ada644b617477c7034ea6297b805ae"
+    },
+    {
+      "file": "2024-supporting-information.pdf",
+      "archive_member": "am4c14487_si_001.pdf",
+      "pages": 14,
+      "bytes": 1363753,
+      "sha256": "8b755a68d709f2048fe39d1b30b7717dd5b43fc3900fad7187869c8e0b121774"
+    },
+    {
+      "file": "2025-article.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12550838/fullTextXML",
+      "status": 200,
+      "bytes": 131166,
+      "sha256": "2c6bbdc1cde60ec0e3fc544e48f0ea6154bd57af2ff8ea240af1df77af72a8a3"
+    },
+    {
+      "file": "2025-supplementary.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12550838/supplementaryFiles",
+      "status": 200,
+      "bytes": 2332393,
+      "sha256": "f33194e335b08f541ec6cf64a843370484b0422fb15fa9c4c69312f660af586d"
+    },
+    {
+      "file": "2025-supporting-information.pdf",
+      "archive_member": "ja5c12567_si_001.pdf",
+      "pages": 15,
+      "bytes": 1043963,
+      "sha256": "77b53884c1bece4b279d3527f92f3ccbb273bb24ad1e3c0cdd2cc282b06f07b5"
+    }
+  ]
+}

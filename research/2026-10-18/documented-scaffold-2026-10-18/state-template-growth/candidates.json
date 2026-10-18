@@ -1,0 +1,24 @@
+{
+  "candidate": "PPKTP_template_optical_carrier",
+  "material": "KTiOPO4 with a periodically inverted ferroelectric domain grating",
+  "evidence_family": ["10.1364/OME.1.000185", "10.1016/j.jcrysgro.2011.11.081"],
+  "independent_optical_replication": false,
+  "role": "Proposed inorganic functional-state carrier; documented template growth and spatial new-layer SHG",
+  "disposition": "Component-supported for template growth and new-layer optical function; H/V/J unresolved",
+  "functional_heredity_verified": false,
+  "verified_integrated_complements_added": 0,
+  "target_species_participation_measured": false,
+  "global_unique_candidate_total_audited": false,
+  "measured_stray_light_upper_bound": null,
+  "serial_functional_descendants": null,
+  "carbon": "Named active crystal and flux contain no carbon; full fabrication/apparatus inventory unspecified",
+  "negative_results": [
+    "Layer SHG peak about28%lower than seed",
+    "Bandwidth product12.7 versus ideal9.4nm.cm",
+    "Cracks/inclusions beyond clean225micrometre region despite800micrometre growth extent",
+    "No raw numerical spectra, independent sample uncertainty, detached daughters or serial functional transmission",
+    "Intensity readout invariant under global domain-sign reversal",
+    "Companion manuscript recipe and diffraction inconsistencies retained in source audit",
+    "No common characterized medium or coupled function with Mo34WV or PMo12"
+  ]
+}

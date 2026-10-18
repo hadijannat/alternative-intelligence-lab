@@ -1,0 +1,18 @@
+[
+  {
+    "file": "hal-companion-metadata.json",
+    "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A10.1016%2Fj.jcrysgro.2011.11.081&wt=json&fl=title_s%2CdoiId_s%2CfileMain_s%2Cfiles_s%2Clicence_s%2Curi_s%2CopenAccess_bool",
+    "status": 200,
+    "bytes": 555,
+    "sha256": "4b5c7884c484c39a9c27a68beaf0cc91c067dfc010f0e29f3074f56b2018f60d",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "jcg2012.pdf",
+    "url": "https://hal.science/hal-00909135/file/PPKTP_JCG_2011_vAP.pdf",
+    "status": 200,
+    "bytes": 658142,
+    "sha256": "27ba4dd347b377eaad316f0e8b02bfca4ec7f4423b9587a0a33920ae92d4a256",
+    "content_type": "application/pdf"
+  }
+]

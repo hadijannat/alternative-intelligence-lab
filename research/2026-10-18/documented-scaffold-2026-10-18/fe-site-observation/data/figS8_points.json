@@ -1,0 +1,343 @@
+{
+  "source_sha256": "fa82d1784dbd4257238e31a3a907e1b7fbc07c0849b3be2663b6350c63d857ab",
+  "method": "Manual native-JPEG color-compatible interval selection followed by affine axis calibration; no raw traces or vector paths",
+  "points": [
+    {
+      "cycle": 1,
+      "j_mA_cm2": 18.47826086956522,
+      "n_nmol_cm2": 1.2341772151898733,
+      "j_interval_mA_cm2": [
+        9.057971014492754,
+        27.89855072463768
+      ],
+      "n_interval_nmol_cm2": [
+        0.6962025316455697,
+        1.7721518987341771
+      ],
+      "j_pixel_y_interval": [
+        75,
+        127
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "olive-1-or-2",
+      "n_pixel_y_interval": [
+        353,
+        370
+      ],
+      "n_pixel_x": 334,
+      "legend_sample_xy": [
+        75,
+        62,
+        91,
+        62
+      ],
+      "legend_mean_rgb": [
+        170.41176470588235,
+        173.52941176470588,
+        152.52941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 2,
+      "j_mA_cm2": 18.47826086956522,
+      "n_nmol_cm2": 1.6139240506329113,
+      "j_interval_mA_cm2": [
+        9.057971014492754,
+        27.89855072463768
+      ],
+      "n_interval_nmol_cm2": [
+        1.3291139240506329,
+        1.8987341772151898
+      ],
+      "j_pixel_y_interval": [
+        75,
+        127
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "olive-1-or-2",
+      "n_pixel_y_interval": [
+        351,
+        360
+      ],
+      "n_pixel_x": 358,
+      "legend_sample_xy": [
+        75,
+        74,
+        91,
+        74
+      ],
+      "legend_mean_rgb": [
+        217.0,
+        221.47058823529412,
+        194.23529411764707
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 3,
+      "j_mA_cm2": 27.536231884057973,
+      "n_nmol_cm2": 2.4683544303797467,
+      "j_interval_mA_cm2": [
+        14.492753623188406,
+        40.57971014492754
+      ],
+      "n_interval_nmol_cm2": [
+        2.151898734177215,
+        2.7848101265822787
+      ],
+      "j_pixel_y_interval": [
+        40,
+        112
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "yellow-3-or-4",
+      "n_pixel_y_interval": [
+        337,
+        347
+      ],
+      "n_pixel_x": 383,
+      "legend_sample_xy": [
+        75,
+        86,
+        91,
+        86
+      ],
+      "legend_mean_rgb": [
+        234.35294117647058,
+        236.2941176470588,
+        204.52941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 4,
+      "j_mA_cm2": 27.536231884057973,
+      "n_nmol_cm2": 5.0,
+      "j_interval_mA_cm2": [
+        14.492753623188406,
+        40.57971014492754
+      ],
+      "n_interval_nmol_cm2": [
+        4.6835443037974684,
+        5.3164556962025316
+      ],
+      "j_pixel_y_interval": [
+        40,
+        112
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "yellow-3-or-4",
+      "n_pixel_y_interval": [
+        297,
+        307
+      ],
+      "n_pixel_x": 407,
+      "legend_sample_xy": [
+        75,
+        98,
+        91,
+        98
+      ],
+      "legend_mean_rgb": [
+        245.2941176470588,
+        234.64705882352942,
+        209.41176470588235
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 5,
+      "j_mA_cm2": 34.96376811594203,
+      "n_nmol_cm2": 6.518987341772152,
+      "j_interval_mA_cm2": [
+        23.91304347826087,
+        46.01449275362319
+      ],
+      "n_interval_nmol_cm2": [
+        6.2025316455696204,
+        6.8354430379746836
+      ],
+      "j_pixel_y_interval": [
+        25,
+        86
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "orange-5",
+      "n_pixel_y_interval": [
+        273,
+        283
+      ],
+      "n_pixel_x": 432,
+      "legend_sample_xy": [
+        75,
+        110,
+        91,
+        110
+      ],
+      "legend_mean_rgb": [
+        244.52941176470588,
+        219.88235294117646,
+        194.05882352941177
+      ],
+      "current_unique_cycle_assignment": true,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 6,
+      "j_mA_cm2": 39.130434782608695,
+      "n_nmol_cm2": 7.7215189873417724,
+      "j_interval_mA_cm2": [
+        28.26086956521739,
+        50.0
+      ],
+      "n_interval_nmol_cm2": [
+        7.405063291139241,
+        8.037974683544304
+      ],
+      "j_pixel_y_interval": [
+        14,
+        74
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "red-6-or-7",
+      "n_pixel_y_interval": [
+        254,
+        264
+      ],
+      "n_pixel_x": 456,
+      "legend_sample_xy": [
+        75,
+        122,
+        91,
+        122
+      ],
+      "legend_mean_rgb": [
+        249.35294117647058,
+        219.05882352941177,
+        223.88235294117646
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    },
+    {
+      "cycle": 7,
+      "j_mA_cm2": 39.130434782608695,
+      "n_nmol_cm2": 8.291139240506329,
+      "j_interval_mA_cm2": [
+        28.26086956521739,
+        50.0
+      ],
+      "n_interval_nmol_cm2": [
+        7.974683544303797,
+        8.60759493670886
+      ],
+      "j_pixel_y_interval": [
+        14,
+        74
+      ],
+      "j_pixel_x_interval": [
+        207,
+        210
+      ],
+      "j_legend_group": "red-6-or-7",
+      "n_pixel_y_interval": [
+        245,
+        255
+      ],
+      "n_pixel_x": 481,
+      "legend_sample_xy": [
+        75,
+        134,
+        91,
+        134
+      ],
+      "legend_mean_rgb": [
+        254.88235294117646,
+        223.0,
+        230.2941176470588
+      ],
+      "current_unique_cycle_assignment": false,
+      "nominal_rule": "midpoint of full conservative manual raster interval"
+    }
+  ],
+  "provenance": {
+    "source": "sources/cs2c03898_si_001.pdf",
+    "pdf_page_1based": 9,
+    "image_xref": 65,
+    "native_dimensions_px": [
+      540,
+      412
+    ],
+    "source_filter": "DCTDecode",
+    "x_anchors_pixel_V_RHE": [
+      [
+        50.5,
+        1.2
+      ],
+      [
+        247.5,
+        1.6
+      ]
+    ],
+    "j_anchors_pixel_mA_cm2": [
+      [
+        152.0,
+        0.0
+      ],
+      [
+        14.0,
+        50.0
+      ]
+    ],
+    "n_anchors_pixel_nmol_cm2": [
+      [
+        381.0,
+        0.0
+      ],
+      [
+        223.0,
+        10.0
+      ]
+    ],
+    "x_target_pixel": 208.1,
+    "target_V_RHE": 1.52,
+    "direction": "not identified; no sweep branch selected",
+    "interval_basis": "Manually selected visible stroke, marker, JPEG and color-assignment envelopes, including horizontal calibration band; not exhaustive bounds or experimental confidence intervals",
+    "current_color_ambiguity": "Cycles1/2,3/4,6/7 share interval bounds because their individual colors/intersections cannot reliably be separated in this raster",
+    "density_cycle1_ambiguity": "Overlapping green strokes/markers against orange bar; interval spans full visible extent rather than assuming a single center",
+    "excluded_observable": "TOF bars not read or multiplied by site density to reconstruct current",
+    "manual_verification": "Compared all selected intervals to native-image enlarged inspection and annotated boxes; every candidate matching trace/symbol visually lies inside its reported envelope",
+    "independence_limit": "Repeated cycles from one figure; group-shared intervals are correlated and their midpoints are not distinct resolved observations",
+    "experiment_uncertainty": "Unknown; no zero experimental uncertainty assumed"
+  },
+  "self_checks": {
+    "affine_axes": "PASS",
+    "reversed_axis": "PASS",
+    "out_of_range_rejection": "PASS",
+    "synthetic_line_interpolation": "PASS",
+    "source_identity": "PASS"
+  }
+}

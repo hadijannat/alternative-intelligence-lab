@@ -1,0 +1,55 @@
+{
+  "historical_preservation": "No prior model, Mo34WV ledger, RNA failure, W72V30 archive or SCF result was replaced or relabelled successful.",
+  "results": [
+    {
+      "id": "kinetic-only-extrapolation",
+      "class": "retrospective source holdout failure",
+      "rmse_mA_cm2": 142.16715496324542,
+      "finding": "Unbounded kinetic exponential overpredicts the high-voltage transport plateau."
+    },
+    {
+      "id": "unchanged-geometry-transfer",
+      "class": "deliberately strict source-condition transfer failure",
+      "rmse_mA_cm2": 125.86969463647546,
+      "finding": "Equal-disc effective parameters fail on larger mediator-side mesh geometry; actual immersed mesh area is missing."
+    },
+    {
+      "id": "one-time-constant-GC",
+      "class": "retrospective late-time holdout failure",
+      "rmse_percentage_points": 0.6054964605802249,
+      "threshold_percentage_points": 0.3,
+      "instantaneous_baseline_rmse_percentage_points": 0.3410278580995986,
+      "finding": "A single first-order detector response underpredicts late-time catch-up and is worse than the instantaneous baseline on these held-out outputs. No revised detector model was tuned."
+    },
+    {
+      "id": "frozen-current-depletion",
+      "class": "conditional model rejected by inventory balance",
+      "H2_mol": 0.0015662502271722497,
+      "available_Red_mol": 0.0005,
+      "finding": "Keeping initial current for 24 hours consumes more reducing equivalents than exist."
+    },
+    {
+      "id": "ideal-full-conversion-and-perfect-retention",
+      "class": "source comparison contradicts a perfect-cycle assumption",
+      "nominal_capacity_C": 337.6975,
+      "first_reduction_C": 317,
+      "fourth_reduction_C": 308,
+      "finding": "Neither full initial utilization nor zero throughput decline is observed. Charge throughput is not molecular survival or repair."
+    },
+    {
+      "id": "carbon-OER",
+      "class": "primary experimental negative",
+      "finding": "Carbon electrodes exfoliate during attempted OER, with below 5% oxygen Faradaic efficiency in the source assay."
+    },
+    {
+      "id": "missing-functional-integration",
+      "class": "insufficient evidence",
+      "finding": "No verified coupling to active-material replacement, functional inheritance, maintained boundaries, selection or intelligence. External electrode drive and carbon-containing device parts are required in the demonstrated assay."
+    },
+    {
+      "id": "scipy-native-import",
+      "class": "implementation execution failure, not a chemistry result",
+      "finding": "Initial run failed loading scipy sparse PROPACK _spropack.cpython-312-darwin.so: __DATA/__thread_bss zero-fill section offset is not zero. Existing cco venv resolves to the same broken installation; Homebrew Python has no SciPy. No dependency was installed or system binary patched. Deterministic NumPy grid refinement and an implicit analytic discharge solution replaced the numerical backend without changing equations, splits or thresholds."
+    }
+  ]
+}

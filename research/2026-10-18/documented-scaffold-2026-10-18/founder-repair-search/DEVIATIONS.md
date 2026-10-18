@@ -1,0 +1,13 @@
+# Protocol exposure and identity corrections
+
+Before fitting, the root read the complete H25:K30 worksheet block while checking its labels. This exposed the continued-EA endpoint as well as the calibration endpoints before implementation selected parameter values. It violates PROTOCOL.md's stronger instruction to keep that endpoint unread until parameter selection. Preserve this as a protocol deviation. The predeclared calibration arms, reserved test arm, equations, parameter ranges and threshold remain unchanged. The test is retrospective and excludes EA from fitting; it is not analyst-blinded or a fully protocol-compliant holdout. No fit had run before this correction.
+
+The source material is **nickel felt**, Bekaert2Ni18-025, not nickel foam. The original protocol's expansion of NF as foam was incorrect; the actual source, area and condition mapping are unchanged. All new results must use nickel felt.
+
+CIAAW isotope percentages are **amount fractions**, not mass fractions. Convert the nominal natural-background Fe inventory to isotope masses using `w_i=p_i*M_i/sum(p_j*M_j)` for54/56/57/58Fe before evaluating a mass-based model. Source: https://ciaaw.org/iron.htm. This unit correction is made before any fit, changes no test outcome selection and leaves the original frozen text intact.
+
+The reported K-column sums do not all exactly equal I+J. Preserve both versions and use the individual isotope columns for fitting. The initial measured57Fe/56Fe ratio also does not match nominal natural isotopic abundance; do not replace it with a theoretical natural ratio. Treat it as the observed initial assay inventory and retain the mismatch as an unresolved measurement/stock constraint.
+
+Before fitting, independent source review identified another declared sensitivity: the H-cell has50mL in each compartment and is called undivided. A closed isolated50mL Fe reservoir is therefore an assumption. Repeat the same control-only fit and reserved-condition prediction with100mL accessible volume, reporting both without choosing whichever fits the reserved arm better. No microscopic permeability or inter-compartment equilibration rate is identified.
+
+The source does not report digestion or selective active-film extraction details for the ICP-MS samples. Interpret its units as coupon-associated measured isotope inventory, not isolated active-site mass. The plotted 'total' is the reported56Fe+57Fe sum, excluding54/58Fe; the model closes only its two tracked isotope balances. Other natural-background isotopes are an explicitly untracked inventory, with initial coupon amounts unknown.
