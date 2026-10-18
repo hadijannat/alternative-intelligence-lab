@@ -1,0 +1,11 @@
+# Specific concurrent silica-mold study
+
+The independent read-only scout checked Luan's reference93: Ha et al., *Synthesis of Chiral Ag, Pd, and Pt Helicoids inside Chiral Silica Mold*, JACS146,30741–30747(2024), DOI [10.1021/jacs.4c10143](https://doi.org/10.1021/jacs.4c10143).
+
+The scout read the public15-page SI in memory and visually inspected its Pt panel. The [Figshare metadata](https://api.figshare.com/v2/articles/27205375) identifies [ja4c10143_si_001.pdf](https://ndownloader.figshare.com/files/49732957),1392927bytes, MD5 `f19ec4d9f558ecd10ae873ba91f36bf2`, matching the fetched bytes. Deposit license: CC BY-NC4.0. Those bytes were not saved to this package; this is a primary-reader screen with URLs and observed metadata, not root's hash-verified native acquisition. One scout request returned500 before a successful retry. Main full-text access returned403; the accessible abstract/SI listing does not establish main-only controls.
+
+SI FigureS2(p8) compares original and regrown Au after one mold-mediated growth cycle with a retained Au seed. FigureS3(p9) supplies an Ag growth comparison without the mold. FigureS7(p13) compares Pt optics before/after shell removal, and its EDS map explicitly depicts retained central Au and surrounding Pt. No quantitative elemental fraction/detection limit accompanies that panel. Methods use original L-glutathione-directed Au, PEG modification, TEOS, PVP and L-ascorbic acid. Operating ligand independence is not established. The Pt optical curves are consumed observations; they were not digitized or fitted.
+
+These controls strengthen the geometric-casting mechanism. The accessible SI does not add recipient-as-parent remolding, serial functional generations or a calibrated founder/ligand contribution bound. The main's missing access remains explicit, so universal absence across the paper is not claimed. This is the same one-pass evidence family, not a reason to restart a generic mold literature survey.
+
+Disposition: component comparator, no new H/V/J credit. A measured founder/function ceiling and controlled recipient-as-parent functional transfer remain the next H discriminator. Continue the separate available analog-learning data audit for its limited A/C questions.

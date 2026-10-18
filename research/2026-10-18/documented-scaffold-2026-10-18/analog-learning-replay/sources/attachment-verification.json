@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "successful_immutable_attachment_receipt": true,
+    "native_size": true,
+    "repository_md5": true,
+    "native_sha256": true,
+    "no_deposited_code_execution": true,
+    "no_numerical_response_replay": true,
+    "zip_crc_and_entry_count": true,
+    "six_extracted_sources_match_archive": true,
+    "repository_software_license_mit": true
+  },
+  "passed": 9,
+  "total": 9,
+  "scientific_validation": false
+}

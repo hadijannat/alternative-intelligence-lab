@@ -20,7 +20,10 @@ REVIEWS = tuple(name + '.md' for name in (
     'remote-fe-transport-review', 'current-branch-impasse',
     'full-goal-critical-path-2026-10-18', 'spatial-fe-function-review',
     'october18-publication-review', 'origin-function-followup-code-review',
-    'renewal-causal-controls-review'))
+    'renewal-causal-controls-review', 'silica-platinum-state-transfer-code-review',
+    'analog-learning-protocol-review', 'matlab-object-reader-research',
+    'analog-learning-source-code-review', 'analog-learning-decoding-review',
+    'analog-replay-synthetic-code-review', 'analog-learning-outcome-code-review'))
 FAILURES = {
     'founder-repair-search/execution_failures.txt',
     'regeneration-controls/execution_failures.txt',
@@ -38,6 +41,8 @@ SOURCE_METADATA = {
     'asset-validation.json', 'checksums.json', 'figure3-inventory.json',
     'fig3g-cell-layout.json', 'fig6-axis-calibration.json', 'si-math-structure.json',
     'hal-metadata.json', 'hal-companion-metadata.json', 'workbook-structure.json',
+    'browser-receipt.json', 'native-inventory.json', 'browser-observations.json',
+    'attachment-verification.json',
 }
 
 
@@ -55,6 +60,8 @@ def exclusion(rel, directory=False):
         return None
     if rel.name in {'native_cells.json', 'fig3-text-cells.json'}:
         return 'one-to-one native workbook cells; derived analyses and provenance retained'
+    if 'browser-native' in parts:
+        return 'third-party native browser payload; authored receipts retain provenance'
     if 'sources' in parts or 'raw' in parts:
         if rel.suffix == '.js':
             return 'third-party publisher JavaScript runtime; acquisition receipt retains URL and hash'

@@ -2,13 +2,14 @@
   "date": "2026-10-18",
   "scientific_validation": false,
   "source_root": "PROJECT_ROOT",
-  "included_files": 267,
-  "published_bytes": 11276515,
-  "excluded_entries": 735,
+  "included_files": 333,
+  "published_bytes": 20633092,
+  "excluded_entries": 772,
   "missing_reviews": [],
   "exclusions_by_reason": {
     "private consultation, runtime cache, or orchestration subtree": 16,
-    "third-party source payload or registry response; authored receipts retain provenance": 713,
+    "third-party source payload or registry response; authored receipts retain provenance": 747,
+    "third-party native browser payload; authored receipts retain provenance": 3,
     "native figure crop or annotated source image; numeric extraction retained": 3,
     "one-to-one native workbook cells; derived analyses and provenance retained": 2,
     "third-party publisher JavaScript runtime; acquisition receipt retains URL and hash": 1
@@ -49,10 +50,10 @@
       "source_path": "documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 19664,
-      "source_sha256": "fdf36e4bd11f141cd5ac8e45487ea51502e3e116e36c1baf3a43daca6d4a4199",
-      "published_size": 19639,
-      "published_sha256": "696d1b85af8122c4f4a24e1d6a5b776476a615a525ea08b04704dea4a3e5f81a",
+      "source_size": 22980,
+      "source_sha256": "93209b8ea9463bea85199d7ac426d785adb0d2eccec8eb169c538a86959a9383",
+      "published_size": 22955,
+      "published_sha256": "812f20b29a4a614fdc0836c5f8477131b7e508fe19a6541051799bfc68b55220",
       "transformations": [
         {
           "transformation": "portable original goal-contract link",
@@ -65,10 +66,10 @@
       "source_path": "documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 13155,
-      "source_sha256": "371af39dc39878e5f061022e62f2c68d4ede99c998f7e45a334e24aa5db48dee",
-      "published_size": 13155,
-      "published_sha256": "371af39dc39878e5f061022e62f2c68d4ede99c998f7e45a334e24aa5db48dee",
+      "source_size": 16462,
+      "source_sha256": "3fb320e22683ab670bf1d4b23e3fa867b1182f0772a6b19681004aa1ea6f2d5a",
+      "published_size": 16462,
+      "published_sha256": "3fb320e22683ab670bf1d4b23e3fa867b1182f0772a6b19681004aa1ea6f2d5a",
       "transformations": []
     },
     {
@@ -110,6 +111,715 @@
       "status": "excluded",
       "reason": "private consultation, runtime cache, or orchestration subtree",
       "scope": "subtree; contents not enumerated"
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_AMENDMENT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_AMENDMENT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2050,
+      "source_sha256": "26cbfec4d6b4fa65578ba83e9e770af9198fff7a3017c5c4810f21e814466fe3",
+      "published_size": 2050,
+      "published_sha256": "26cbfec4d6b4fa65578ba83e9e770af9198fff7a3017c5c4810f21e814466fe3",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2689,
+      "source_sha256": "e989e1e369a337bd19a03a089cde3722e45149c4f73d61331202915f93ed1e42",
+      "published_size": 2689,
+      "published_sha256": "e989e1e369a337bd19a03a089cde3722e45149c4f73d61331202915f93ed1e42",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/DECODING_REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2982,
+      "source_sha256": "dd2ebbc0cbbd2f4ffaa7c06842139393e5b07ed5ce30a7927f74aaba111516a6",
+      "published_size": 2982,
+      "published_sha256": "dd2ebbc0cbbd2f4ffaa7c06842139393e5b07ed5ce30a7927f74aaba111516a6",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/INPUT_OVERLAP_PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/INPUT_OVERLAP_PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1856,
+      "source_sha256": "8ce25f0b53cc11afeccc1085908ba4e6dbcd41ae8778f274fe958fa647a5aded",
+      "published_size": 1856,
+      "published_sha256": "8ce25f0b53cc11afeccc1085908ba4e6dbcd41ae8778f274fe958fa647a5aded",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5029,
+      "source_sha256": "d9361f267eb9b1c53ba664ebf23fe049dd759d3dec8b1d167c321a1f24593485",
+      "published_size": 5029,
+      "published_sha256": "d9361f267eb9b1c53ba664ebf23fe049dd759d3dec8b1d167c321a1f24593485",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_CLARIFICATIONS.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_CLARIFICATIONS.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1439,
+      "source_sha256": "be0c54f5bf283027f99473972b4dc3c7736a706384adb3825f1eff65ef7d76bd",
+      "published_size": 1439,
+      "published_sha256": "be0c54f5bf283027f99473972b4dc3c7736a706384adb3825f1eff65ef7d76bd",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 6603,
+      "source_sha256": "d5e2411412b68f50b3f8f1bd96fda33eba3276a9b21ccb0c401f1124e62ce4e9",
+      "published_size": 6603,
+      "published_sha256": "d5e2411412b68f50b3f8f1bd96fda33eba3276a9b21ccb0c401f1124e62ce4e9",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5891,
+      "source_sha256": "9c9fe92556f854ea00f1fa35bd0de23ce5f74207658edaf48b8bf00449a30c40",
+      "published_size": 5891,
+      "published_sha256": "9c9fe92556f854ea00f1fa35bd0de23ce5f74207658edaf48b8bf00449a30c40",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_SCHEDULE_AMENDMENT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/REPLAY_SCHEDULE_AMENDMENT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3021,
+      "source_sha256": "32b49b8b7f768cdace259da5dc24614dc23fc05afaff2dfdd7e84cd8ab05ceb5",
+      "published_size": 3021,
+      "published_sha256": "32b49b8b7f768cdace259da5dc24614dc23fc05afaff2dfdd7e84cd8ab05ceb5",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2893,
+      "source_sha256": "c3f62dfb730e0d6083ae9ffc965d653f590768d1110cac6938780e7ba91b6e1b",
+      "published_size": 2893,
+      "published_sha256": "c3f62dfb730e0d6083ae9ffc965d653f590768d1110cac6938780e7ba91b6e1b",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/SOURCE_AUDIT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/SOURCE_AUDIT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4737,
+      "source_sha256": "8c32af5864bcabcfcb58a216ae53d7e72cb371a1547eaddde10cddb6868105b4",
+      "published_size": 4737,
+      "published_sha256": "8c32af5864bcabcfcb58a216ae53d7e72cb371a1547eaddde10cddb6868105b4",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4417,
+      "source_sha256": "56510f7a8b27d829737711dc4eb878e1a0ae4f5d2c5279ce1021b157eaaec273",
+      "published_size": 4417,
+      "published_sha256": "56510f7a8b27d829737711dc4eb878e1a0ae4f5d2c5279ce1021b157eaaec273",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/diagnose_control.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/diagnose_control.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2120,
+      "source_sha256": "0f72b9111c8a4918c8e55bf37619a087771407499dacd03d72869db779ea3205",
+      "published_size": 2120,
+      "published_sha256": "0f72b9111c8a4918c8e55bf37619a087771407499dacd03d72869db779ea3205",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/execution_failures.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/execution_failures.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2943,
+      "source_sha256": "ac0d244c1bd454257cece1504b2f0955f31748c0d8b0ab11995625c383e760ff",
+      "published_size": 2943,
+      "published_sha256": "ac0d244c1bd454257cece1504b2f0955f31748c0d8b0ab11995625c383e760ff",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/input_overlap.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/input_overlap.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3799,
+      "source_sha256": "b7e557bcf78355ef6707988c7bce7243ab3cdb80d8e1d1e1083bcda3dc4cb3ed",
+      "published_size": 3799,
+      "published_sha256": "b7e557bcf78355ef6707988c7bce7243ab3cdb80d8e1d1e1083bcda3dc4cb3ed",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/inspect_properties.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/inspect_properties.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5789,
+      "source_sha256": "a6d0f6e4ca3bd5e4c23e6c42da2207f37e8d2d7a7cfc5651e0cf57e2fbdf3d7d",
+      "published_size": 5789,
+      "published_sha256": "a6d0f6e4ca3bd5e4c23e6c42da2207f37e8d2d7a7cfc5651e0cf57e2fbdf3d7d",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/inventory.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/inventory.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3719,
+      "source_sha256": "8d17b9c68b613f1366988f42d2a341ebcda2441fed3ecf3208cfa7b109dbfce6",
+      "published_size": 3719,
+      "published_sha256": "8d17b9c68b613f1366988f42d2a341ebcda2441fed3ecf3208cfa7b109dbfce6",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4167,
+      "source_sha256": "2b70a8c00288c152541b093f0f379b364c619bbf5e6a4addf7885734212ab579",
+      "published_size": 4167,
+      "published_sha256": "2b70a8c00288c152541b093f0f379b364c619bbf5e6a4addf7885734212ab579",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/reader-runtime.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/reader-runtime.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1224,
+      "source_sha256": "581e0ffd048264fe9ef5843ca2f49a78fdb445ebee169e939d70a4366700290e",
+      "published_size": 1206,
+      "published_sha256": "9754d9a1d9296ed63b681501b0c0cb758806f062f735ebf7eb494d935a49c4b6",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/replay.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/replay.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 16163,
+      "source_sha256": "8056b774b9d6af35f04fff57fa617ce65a709c44bebb41df81b47d957cbdbeb1",
+      "published_size": 16163,
+      "published_sha256": "8056b774b9d6af35f04fff57fa617ce65a709c44bebb41df81b47d957cbdbeb1",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/replay_flag_assumption.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/replay_flag_assumption.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 15427,
+      "source_sha256": "dd6a8fa0c2ea1e2b94b320735686bcdcbef152b6467336886b46a119dcad79ca",
+      "published_size": 15427,
+      "published_sha256": "dd6a8fa0c2ea1e2b94b320735686bcdcbef152b6467336886b46a119dcad79ca",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/control-schema.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/control-schema.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 295163,
+      "source_sha256": "8cf85a010111b8a348c6b50ca35a19eb06908c18c67417eff4f323acc2887617",
+      "published_size": 295163,
+      "published_sha256": "8cf85a010111b8a348c6b50ca35a19eb06908c18c67417eff4f323acc2887617",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/input-overlap.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/input-overlap.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1069711,
+      "source_sha256": "b2deaa01df2cb866abf210e3f0fcc482c07ae934645c2eff79aa22f15590e21f",
+      "published_size": 1069711,
+      "published_sha256": "b2deaa01df2cb866abf210e3f0fcc482c07ae934645c2eff79aa22f15590e21f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/property-schema-all.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/property-schema-all.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3608590,
+      "source_sha256": "975e3ec499eff79b76f30c86ca7aeb37cc7395c9ba0aea670cac4bd729039a8d",
+      "published_size": 3608590,
+      "published_sha256": "975e3ec499eff79b76f30c86ca7aeb37cc7395c9ba0aea670cac4bd729039a8d",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/property-schema-xor.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/property-schema-xor.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 15988,
+      "source_sha256": "460c6ee6db5bd01404af9b9a82c8146b7ebeea5f2720a351e5f2d5fd67998298",
+      "published_size": 15988,
+      "published_sha256": "460c6ee6db5bd01404af9b9a82c8146b7ebeea5f2720a351e5f2d5fd67998298",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/replay-schedule.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/replay-schedule.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3738007,
+      "source_sha256": "377abb9f97de6dbdd57eb38a95af49162b406ec14b31ea744aef80ce2afce86e",
+      "published_size": 3737998,
+      "published_sha256": "67f7f5c12e972cfdd68c4380e8c19e9050ce1c6732992207092fbc9026691cf7",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/results/replay.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/results/replay.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 118070,
+      "source_sha256": "fab1c351cb389fa73ab49be2db290883eb4f30ccd3189d87edc15d44bd58e666",
+      "published_size": 118061,
+      "published_sha256": "998773e7d27dc6fcb254726d17899cf96b346f905905832badd9d1446e83d44a",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/HELPER_METHODS_AUDIT.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/HELPER_METHODS_AUDIT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 8611,
+      "source_sha256": "00aded802ed7d5d56198f95bdd2ccb26fe8c6e9c99d20e16aaca7f7ed346cb13",
+      "published_size": 8611,
+      "published_sha256": "00aded802ed7d5d56198f95bdd2ccb26fe8c6e9c99d20e16aaca7f7ed346cb13",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_extended_methods.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_extended_methods.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 918,
+      "source_sha256": "edc78447ae1aff53d0f6294618648d0ac4d16bc2e4e45c25ca6a1dd567cfacd8",
+      "published_size": 918,
+      "published_sha256": "edc78447ae1aff53d0f6294618648d0ac4d16bc2e4e45c25ca6a1dd567cfacd8",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_file_metadata.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_file_metadata.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1248,
+      "source_sha256": "5499badddde88f8315cfd8e0ffb2c912c2ad710e83182c00c7599d17aaee9f2c",
+      "published_size": 1248,
+      "published_sha256": "5499badddde88f8315cfd8e0ffb2c912c2ad710e83182c00c7599d17aaee9f2c",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/acquire_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2298,
+      "source_sha256": "98e68b4f400f380cb53918216a74e989e690609208711db90389761abb039ad8",
+      "published_size": 2298,
+      "published_sha256": "98e68b4f400f380cb53918216a74e989e690609208711db90389761abb039ad8",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attachment-receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attachment-receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2242,
+      "source_sha256": "3702bcaabeceeb88f052cc37468b2685f169a316499f7c58e87386919e473dad",
+      "published_size": 2233,
+      "published_sha256": "e4361536c36aea0fabdcdbbd7f95077165f41f7938a39c4e4311e90296060151",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attachment-verification.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attachment-verification.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 431,
+      "source_sha256": "35382d9648435d154341c38048691d9e0124bda346921dd07d1268699af4540f",
+      "published_size": 431,
+      "published_sha256": "35382d9648435d154341c38048691d9e0124bda346921dd07d1268699af4540f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig2.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig2.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig3.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig3.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig4.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig4.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig5.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig5.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig6.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/PNASscriptFig6.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/datacite-data.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/datacite-data.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 25040
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/datacite-software.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/datacite-software.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 12152
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/dryad-dataset.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/dryad-dataset.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 5626
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/helper_scripts.zip",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/helper_scripts.zip",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5308,
+      "source_sha256": "ea51f1796cd2a01b00ede155edfa460625d190ec799e17ca66d3d42d5af7d10f",
+      "published_size": 5308,
+      "published_sha256": "ea51f1796cd2a01b00ede155edfa460625d190ec799e17ca66d3d42d5af7d10f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/zenodo-record.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt1/zenodo-record.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 763
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt2/dryad-files.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt2/dryad-files.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1454
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt2/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/attempt2/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 592,
+      "source_sha256": "a3acf468f6c57ddea58de77e3556da0696a8b25d98058f74f7737b941f5b9f85",
+      "published_size": 592,
+      "published_sha256": "a3acf468f6c57ddea58de77e3556da0696a8b25d98058f74f7737b941f5b9f85",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/PNASscriptFig3.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/PNASscriptFig3.m",
+      "status": "excluded",
+      "reason": "third-party native browser payload; authored receipts retain provenance",
+      "source_size": 9277
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/README.md",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/README.md",
+      "status": "excluded",
+      "reason": "third-party native browser payload; authored receipts retain provenance",
+      "source_size": 3135
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/data.zip",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-native/data.zip",
+      "status": "excluded",
+      "reason": "third-party native browser payload; authored receipts retain provenance",
+      "source_size": 15756671
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-observations.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-observations.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2305,
+      "source_sha256": "8a8bd96b95ce8324ba05425766803d1f839c77e011350e1dec43abefc98f74b9",
+      "published_size": 2296,
+      "published_sha256": "79b85ad5f5216e542e6e82b67217ddbd9864ebe1039744f50c292e3e70331340",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/browser-receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2400,
+      "source_sha256": "e44de1ac4be5903cfbc6461be11a72c57f6d34e5e56ac3b6dc3c23a3fea7b458",
+      "published_size": 2337,
+      "published_sha256": "519d2ae1009a8232a3fdb76bf952d310bbec779c72d79816a7696bf5984d0e03",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        },
+        {
+          "transformation": "host home path",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/companion-acquisition.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/companion-acquisition.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 507,
+      "source_sha256": "cb21a5295b5a333610b2fc4f0dbfa00c46bde5b4408042e35f7e8b936f0ef128",
+      "published_size": 507,
+      "published_sha256": "cb21a5295b5a333610b2fc4f0dbfa00c46bde5b4408042e35f7e8b936f0ef128",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/extended-methods.html",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/extended-methods.html",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 293048
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/Experiment2.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/Experiment2.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 189506
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/ExperimentGroup.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/ExperimentGroup.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 37284
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/helper_scripts.zip",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/helper_scripts.zip",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 50569
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/logic_truth_table3.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/logic_truth_table3.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 3323
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/makeOrthonormalModes.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/makeOrthonormalModes.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 2667
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/makePlotPrettyNow.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/makePlotPrettyNow.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 526
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/network_project_superclass2.m",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/helper-native/network_project_superclass2.m",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 3234
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/import_browser_files.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/import_browser_files.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4029,
+      "source_sha256": "9a8300f35a5e00c3051df2807da5c42a8a237a17eee94ccf1c55d746577ee7c4",
+      "published_size": 4020,
+      "published_sha256": "a446ad1ca41f087a8e2acecd952f8d1895cdb8c9007bbddeda89578d73d48302",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/import_helper_attachment.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/import_helper_attachment.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2743,
+      "source_sha256": "5b2adf1509de126313ec689e7c80a7eae106eb18c6b6409de4247bb93e47d0a6",
+      "published_size": 2734,
+      "published_sha256": "fe737ddf1737542d2a2eecd1334759cd2ae0b4b3a3fada920c2f1ffe4831e5d5",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/native-inventory.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/native-inventory.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 210892,
+      "source_sha256": "763d6c3b1a15eabb4eab5f111d6b32baf11a48df4b945b4d57ec4f2e8be6a12c",
+      "published_size": 210856,
+      "published_sha256": "4f4d3cb1325973e442ce7bd1171d23a03b9ca104bd8b7d644abe796faecd7128",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verification.json",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verification.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1050,
+      "source_sha256": "e1ad86160180a0ec429777b6d715d183f8c71d0ab2d1d6d900631400639bbe2e",
+      "published_size": 1050,
+      "published_sha256": "e1ad86160180a0ec429777b6d715d183f8c71d0ab2d1d6d900631400639bbe2e",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verify_helper_attachment.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verify_helper_attachment.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2064,
+      "source_sha256": "09671c64587eec75d07a7537a8bd4e8308a0e087808073b41d8470b70ef55d0e",
+      "published_size": 2064,
+      "published_sha256": "09671c64587eec75d07a7537a8bd4e8308a0e087808073b41d8470b70ef55d0e",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verify_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/sources/verify_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4200,
+      "source_sha256": "4d7d545d49d240f1caa8954245fa6f4c857e8f4af4caa3f550fe9684fccd21c1",
+      "published_size": 4200,
+      "published_sha256": "4d7d545d49d240f1caa8954245fa6f4c857e8f4af4caa3f550fe9684fccd21c1",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/test_replay.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/test_replay.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 10493,
+      "source_sha256": "21a232e21799fff4e87bf421e31676cb70fd50d9183b2cf3cad7219d5b1dab54",
+      "published_size": 10493,
+      "published_sha256": "21a232e21799fff4e87bf421e31676cb70fd50d9183b2cf3cad7219d5b1dab54",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/analog-learning-replay/test_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/analog-learning-replay/test_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4390,
+      "source_sha256": "2ecee82916a4d75557c1241003ad8fca2b1f3bfe1176d6b703bf642ec2b1dfe5",
+      "published_size": 4390,
+      "published_sha256": "2ecee82916a4d75557c1241003ad8fca2b1f3bfe1176d6b703bf642ec2b1dfe5",
+      "transformations": []
     },
     {
       "path": "documented-scaffold-2026-10-18/checks.md",
@@ -6399,10 +7109,10 @@
       "source_path": "documented-scaffold-2026-10-18/progress.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 16183,
-      "source_sha256": "281bd95183915621f5dd58c4cd4b0fa63ea4495c1e787991461c884e88cf4559",
-      "published_size": 16183,
-      "published_sha256": "281bd95183915621f5dd58c4cd4b0fa63ea4495c1e787991461c884e88cf4559",
+      "source_size": 19253,
+      "source_sha256": "300eaae6268e9c69634fb9339a4ca04fd65ef2e85f8f929f4e5593fcafed613a",
+      "published_size": 19253,
+      "published_sha256": "300eaae6268e9c69634fb9339a4ca04fd65ef2e85f8f929f4e5593fcafed613a",
       "transformations": []
     },
     {
@@ -7534,6 +8244,254 @@
       "transformations": []
     },
     {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/COMPARATOR_SCREEN.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/COMPARATOR_SCREEN.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2242,
+      "source_sha256": "2305803109e5b34b4ae5906377dd8de38345031663c2cc8d63b68d9bf5d7c85a",
+      "published_size": 2242,
+      "published_sha256": "2305803109e5b34b4ae5906377dd8de38345031663c2cc8d63b68d9bf5d7c85a",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3106,
+      "source_sha256": "6cda5e9da442c20e10a1a814c9cdbdbc58d2b4d96bac8e0673a73c01cd3959c0",
+      "published_size": 3106,
+      "published_sha256": "6cda5e9da442c20e10a1a814c9cdbdbc58d2b4d96bac8e0673a73c01cd3959c0",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4353,
+      "source_sha256": "cf69a7809ff8e1942a57c69025d31e337ec469dd70b15846adb42aae5a6ff3f0",
+      "published_size": 4353,
+      "published_sha256": "cf69a7809ff8e1942a57c69025d31e337ec469dd70b15846adb42aae5a6ff3f0",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/SOURCE_AUDIT.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/SOURCE_AUDIT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5908,
+      "source_sha256": "86f7b4b428812d54754eca09924dc25bc2f4d22576b4b37edeaff02e3a6a3681",
+      "published_size": 5908,
+      "published_sha256": "86f7b4b428812d54754eca09924dc25bc2f4d22576b4b37edeaff02e3a6a3681",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/TASK.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/TASK.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1541,
+      "source_sha256": "ab82be6218b962bc24e034e8dc87a4fa60113481010536278377f9ce7b73eb7a",
+      "published_size": 1541,
+      "published_sha256": "ab82be6218b962bc24e034e8dc87a4fa60113481010536278377f9ce7b73eb7a",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2168,
+      "source_sha256": "7ec955e86adf6f23d1d45e31f6226d36314c421bf9b6738a54c2e845caa9f5d3",
+      "published_size": 2168,
+      "published_sha256": "7ec955e86adf6f23d1d45e31f6226d36314c421bf9b6738a54c2e845caa9f5d3",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/execution_failures.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/execution_failures.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 974,
+      "source_sha256": "015f76fd49e48e405e42c2ec5d6ec8bb9cdef7b7fb1771b9269ee1656637a11a",
+      "published_size": 974,
+      "published_sha256": "015f76fd49e48e405e42c2ec5d6ec8bb9cdef7b7fb1771b9269ee1656637a11a",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/negative_results.json",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/negative_results.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 986,
+      "source_sha256": "b31d7315ce9503f6c98922559bd7b1d6c84a8773e92ea36652d4f976b3284534",
+      "published_size": 986,
+      "published_sha256": "b31d7315ce9503f6c98922559bd7b1d6c84a8773e92ea36652d4f976b3284534",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3158,
+      "source_sha256": "69765cd72a9137d4ea7de0a53b35ab047914460d38a51ffbf628ebb3b7cc408f",
+      "published_size": 3158,
+      "published_sha256": "69765cd72a9137d4ea7de0a53b35ab047914460d38a51ffbf628ebb3b7cc408f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/article.txt",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/article.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 71582
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/article.xml",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/article.xml",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 173872
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/collect_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/collect_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1386,
+      "source_sha256": "2f39f2364d90fd6a311686e85deb07bf1608e025e8c80280ca9908e5fb90bad9",
+      "published_size": 1386,
+      "published_sha256": "2f39f2364d90fd6a311686e85deb07bf1608e025e8c80280ca9908e5fb90bad9",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/movie-descriptions.pdf",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/movie-descriptions.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 415081
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/peer-review.pdf",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/peer-review.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 16641
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/peer-review.pdf.txt",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/peer-review.pdf.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1646
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1144,
+      "source_sha256": "376fb4290d270106c6d20cdd630822fe3f50c2abc2d7fa98a73bb928e8825624",
+      "published_size": 1144,
+      "published_sha256": "376fb4290d270106c6d20cdd630822fe3f50c2abc2d7fa98a73bb928e8825624",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-10.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-10.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 272251
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-12.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-12.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 301927
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-13.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-13.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 262531
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-7.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-7.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 207235
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-8.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-8.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 151577
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-9.png",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si-page-9.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 217078
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 14652873
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si.pdf.txt",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/si.pdf.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 30429
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/source-data.xlsx",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/source-data.xlsx",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1011966
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/supplementary.zip",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/supplementary.zip",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 29770389
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/verification.json",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/verification.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 57793,
+      "source_sha256": "159b89c32abf1fb5b3d6e60c907e08ad3a034e4ff8b27a73057628a410841e60",
+      "published_size": 57793,
+      "published_sha256": "159b89c32abf1fb5b3d6e60c907e08ad3a034e4ff8b27a73057628a410841e60",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/verify_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/silica-platinum-state-transfer/sources/verify_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4843,
+      "source_sha256": "a2e40eea5dd934aaa43d456460a0085eb8a99009d5ee10dbc470d9c116a7badd",
+      "published_size": 4843,
+      "published_sha256": "a2e40eea5dd934aaa43d456460a0085eb8a99009d5ee10dbc470d9c116a7badd",
+      "transformations": []
+    },
+    {
       "path": "documented-scaffold-2026-10-18/sources/receipt.json",
       "source_path": "documented-scaffold-2026-10-18/sources/receipt.json",
       "status": "included",
@@ -8125,6 +9083,71 @@
       "transformations": []
     },
     {
+      "path": "reviews/analog-learning-decoding-review.md",
+      "source_path": ".omo/evidence/analog-learning-decoding-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4784,
+      "source_sha256": "46f672171b9ecf01bbb033214cacc7da032aed28c23177e7a7d62f47ecf020ea",
+      "published_size": 4784,
+      "published_sha256": "46f672171b9ecf01bbb033214cacc7da032aed28c23177e7a7d62f47ecf020ea",
+      "transformations": []
+    },
+    {
+      "path": "reviews/analog-learning-outcome-code-review.md",
+      "source_path": ".omo/evidence/analog-learning-outcome-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 8505,
+      "source_sha256": "8e206b7fcb75023914c787def9e6806649adeedb67ea319343edf9778bc0af6a",
+      "published_size": 8487,
+      "published_sha256": "6e32476c1e97e46ab50eba8bc084de85aff238a48b3faf60ea8cee8541f614c0",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "reviews/analog-learning-protocol-review.md",
+      "source_path": ".omo/evidence/analog-learning-protocol-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 9204,
+      "source_sha256": "36bcda1fdfe1660cce80e30bef12e75547c58fb8046fe6808fd6d3f44dee98e0",
+      "published_size": 9204,
+      "published_sha256": "36bcda1fdfe1660cce80e30bef12e75547c58fb8046fe6808fd6d3f44dee98e0",
+      "transformations": []
+    },
+    {
+      "path": "reviews/analog-learning-source-code-review.md",
+      "source_path": ".omo/evidence/analog-learning-source-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 9520,
+      "source_sha256": "ef0ffa3b18a63f0ea60ae7608e0b3589e76988af9380ff8ebc78678e8d8a0bf4",
+      "published_size": 9520,
+      "published_sha256": "ef0ffa3b18a63f0ea60ae7608e0b3589e76988af9380ff8ebc78678e8d8a0bf4",
+      "transformations": []
+    },
+    {
+      "path": "reviews/analog-replay-synthetic-code-review.md",
+      "source_path": ".omo/evidence/analog-replay-synthetic-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 7070,
+      "source_sha256": "0202cce3fc3b8a4059ac148660b17f5837bec2b5504a3d3715446b64d472b3e4",
+      "published_size": 7061,
+      "published_sha256": "6a27a3ffe7ae5d00ff298f6de809c8dc9825948291675c80ef86f304db3d8913",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
       "path": "reviews/contact-chirality-review.md",
       "source_path": ".omo/evidence/contact-chirality-review.md",
       "status": "included",
@@ -8254,6 +9277,17 @@
       ]
     },
     {
+      "path": "reviews/matlab-object-reader-research.md",
+      "source_path": ".omo/evidence/matlab-object-reader-research.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2848,
+      "source_sha256": "9f8245b875385389cb8507295e28720441d7a18f5dc5fa4780b2068f0905a9a5",
+      "published_size": 2848,
+      "published_sha256": "9f8245b875385389cb8507295e28720441d7a18f5dc5fa4780b2068f0905a9a5",
+      "transformations": []
+    },
+    {
       "path": "reviews/october18-publication-review.md",
       "source_path": ".omo/evidence/october18-publication-review.md",
       "status": "included",
@@ -8337,6 +9371,17 @@
       "source_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
       "published_size": 5772,
       "published_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
+      "transformations": []
+    },
+    {
+      "path": "reviews/silica-platinum-state-transfer-code-review.md",
+      "source_path": ".omo/evidence/silica-platinum-state-transfer-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4341,
+      "source_sha256": "972d382084d7491c585f44bc46215c93edc727c0657772cc17cafdd16dca222e",
+      "published_size": 4341,
+      "published_sha256": "972d382084d7491c585f44bc46215c93edc727c0657772cc17cafdd16dca222e",
       "transformations": []
     },
     {

@@ -1,0 +1,818 @@
+{
+  "records": [
+    {
+      "member": "data/experiment_XOR3S2T_0920_ETA=64_VIT=40_[2S2T2G]_23-09-20-15-31-46.mat",
+      "sha256": "254277bfa18727b7dc263f00ccc6d87e3c7cc961f88a8bb7b74a56abf07f02ac",
+      "class": "Experiment2",
+      "properties": {
+        "num_free_inputs": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VMN": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VIT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "CLA": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "SPR": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VEG": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "HEG": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "DUP": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "HOT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "DIF": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "UPD": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "UPT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "DEL": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "BUF": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "DAT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "PARAMNAMES": {
+          "type": "MatlabOpaque"
+        },
+        "DATANAMES": {
+          "type": "MatlabOpaque"
+        },
+        "RCHARGE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RDRAIN": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "CCHARGE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "ROFF": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "CEDGE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RFREE_LOW": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RFREE_HIGH": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RCLAMP_LOW": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "RCLAMP_HIGH": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "SOURCERES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TARGETRES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TARGETC": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TLNODE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "NSIZE2": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "ISPERIODIC": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "AMPSETUP": {
+          "type": "ndarray",
+          "shape": [
+            1
+          ],
+          "dtype": "<U19"
+        },
+        "NOCHANGES": {
+          "type": "MatlabOpaque"
+        },
+        "OTHERNEEDED": {
+          "type": "MatlabOpaque"
+        },
+        "PREVEXP": {
+          "type": "ndarray",
+          "shape": [
+            0
+          ],
+          "dtype": "<U1"
+        },
+        "GATEMULT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "NODEMULT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VITMULT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VMNMULT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VITSHIFT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "VMNSHIFT": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "Name": {
+          "type": "ndarray",
+          "shape": [
+            1
+          ],
+          "dtype": "<U35"
+        },
+        "SOR": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TAR": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "EPO": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TRA": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TST": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "ETA": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "ALF": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "REP": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "MES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "TRAIN": {
+          "type": "ndarray",
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "SENDTRAIN": {
+          "type": "ndarray",
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "TEST": {
+          "type": "ndarray",
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "SENDTEST": {
+          "type": "ndarray",
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "DOTEST": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TARGETLOCS": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "SOURCELOCS": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "ETAS": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TRAINCLASSES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "TESTCLASSES": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "ALFS": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TRAINIDX": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "NSIZE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "SLOC": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "TLOC": {
+          "type": "ndarray",
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "BROKENLOC": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "DIODES": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "Notes": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TestMeasurements": {
+          "type": "ndarray",
+          "shape": [
+            2,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TrainMeasurements": {
+          "type": "ndarray",
+          "shape": [
+            2,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "LearnTimes": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "AbsoluteTimes": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TestMSE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TrainMSE": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TestMSE2": {
+          "type": "ndarray",
+          "shape": [
+            2,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TrainMSE2": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TestMeanMSE": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TrainMeanMSE": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TestMeanMeanMSE": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TrainMeanMeanMSE": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TestConfusion": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "TrainConfusion": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "HorizontalCapacitors": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "VerticalCapacitors": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TrainFreeState": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TrainClampedState": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61
+          ],
+          "dtype": "float64"
+        },
+        "TestFreeState": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "TestClampedState": {
+          "type": "ndarray",
+          "shape": [
+            4,
+            4,
+            61,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "trainStep": {
+          "type": "ndarray",
+          "shape": [
+            1,
+            312500
+          ],
+          "dtype": "uint16"
+        },
+        "ClassBasis": {
+          "type": "ndarray",
+          "shape": [
+            0,
+            0
+          ],
+          "dtype": "float64"
+        },
+        "dG": {
+          "type": "ndarray",
+          "shape": [
+            193,
+            19
+          ],
+          "dtype": "float64"
+        },
+        "dS": {
+          "type": "ndarray",
+          "shape": [
+            193,
+            19
+          ],
+          "dtype": "float64"
+        },
+        "C": {
+          "type": "ndarray",
+          "shape": [
+            193,
+            19
+          ],
+          "dtype": "float64"
+        },
+        "Date": {
+          "type": "ndarray",
+          "shape": [
+            1
+          ],
+          "dtype": "<U17"
+        },
+        "FullPathSaveName": {
+          "type": "ndarray",
+          "shape": [
+            1
+          ],
+          "dtype": "<U136"
+        }
+      },
+      "missing": [],
+      "count_metadata": {
+        "MES": 61,
+        "TRA": 4,
+        "TST": 4,
+        "SOR": 4,
+        "TAR": 2,
+        "DEL": 1
+      },
+      "scale_metadata_volts": {
+        "NODEMULT": 0.4531818181818182,
+        "GATEMULT": 9.97
+      },
+      "shape_checks": {
+        "TRAIN": true,
+        "TEST": true,
+        "TLOC": true,
+        "SLOC": true,
+        "TestFreeState": true,
+        "TestClampedState": true,
+        "LearnTimes": true,
+        "HorizontalCapacitors": true,
+        "VerticalCapacitors": true
+      },
+      "scale_checks": {
+        "NODEMULT": true,
+        "GATEMULT": true
+      },
+      "location_checks": {
+        "TLOC": true,
+        "SLOC": true
+      },
+      "warnings": [],
+      "qualified_schema": true
+    }
+  ],
+  "reader_version": "1.0.1",
+  "numerical_response_replay": false,
+  "response_points_selected_for_analysis": 0,
+  "empirical_holdout_validation": false
+}

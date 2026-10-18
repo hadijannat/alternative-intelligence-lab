@@ -1,0 +1,118 @@
+{
+  "retrieved_utc": "2026-10-18T15:24:40.452389+00:00",
+  "protocol_sha256": "d9361f267eb9b1c53ba664ebf23fe049dd759d3dec8b1d167c321a1f24593485",
+  "helper_sha256": "1a3e810e5afeeb6d0704c631bdfb5b4bde7d0cbbf0c57d505cec60b6633040d8",
+  "requests": [
+    {
+      "name": "datacite-data.json",
+      "url": "https://api.datacite.org/dois/10.5061/dryad.8w9ghx3vx",
+      "attempted_utc": "2026-10-18T15:24:39.686400+00:00",
+      "status": 200,
+      "resolved_url": "https://api.datacite.org/dois/10.5061/dryad.8w9ghx3vx",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 25040,
+      "sha256": "14dc65fedf943c2bb2db86bb54256b9cc29d1d51cf888645b1d3bebf774fda23",
+      "md5": "b4c01cb38c145a6efaac185da89379fa"
+    },
+    {
+      "name": "datacite-software.json",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.12009234",
+      "attempted_utc": "2026-10-18T15:24:39.686710+00:00",
+      "status": 200,
+      "resolved_url": "https://api.datacite.org/dois/10.5281/zenodo.12009234",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 12152,
+      "sha256": "656773d4fe6a22c843a7d8a8b96fa445c9f58dc9512f3ff40aade826f34f25e4",
+      "md5": "a6da86f451089d73d61071000b0849dd"
+    },
+    {
+      "name": "dryad-dataset.json",
+      "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.8w9ghx3vx",
+      "attempted_utc": "2026-10-18T15:24:39.686865+00:00",
+      "status": 200,
+      "resolved_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.8w9ghx3vx",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 5626,
+      "sha256": "09e3b9d7bbf8f5e4d8050b6966ba9de881c409077b96d894a83c5271c6dda9f5",
+      "md5": "2cfd9c67573447c8ceb646bf46077b07"
+    },
+    {
+      "name": "zenodo-record.json",
+      "url": "https://zenodo.org/api/records/12009234",
+      "attempted_utc": "2026-10-18T15:24:39.686934+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/api/records/12009234",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "ddd3763adabddcedb1226b5a15cf960bf7851e91358e0b5bd2fddc9538ef4f12",
+      "md5": "c8efcb3a882fe791ae054a7365a8b0af"
+    },
+    {
+      "name": "PNASscriptFig2.m",
+      "url": "https://zenodo.org/records/12009234/files/PNASscriptFig2.m?download=1",
+      "attempted_utc": "2026-10-18T15:24:39.971661+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/PNASscriptFig2.m?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "91cb2eac93af164f1874a7f8c8aa6d572f251fd1421047ea827249fd46f7059e",
+      "md5": "f58b923d376811ac973bc88838dbdbbb"
+    },
+    {
+      "name": "PNASscriptFig3.m",
+      "url": "https://zenodo.org/records/12009234/files/PNASscriptFig3.m?download=1",
+      "attempted_utc": "2026-10-18T15:24:39.982025+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/PNASscriptFig3.m?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "3d4cb34dbe46689e0dc16c619b52e436bc3e672842da2013bc3db475682c6be3",
+      "md5": "ccaeef11b08d66b83cd62329b44bbd6f"
+    },
+    {
+      "name": "PNASscriptFig4.m",
+      "url": "https://zenodo.org/records/12009234/files/PNASscriptFig4.m?download=1",
+      "attempted_utc": "2026-10-18T15:24:40.030450+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/PNASscriptFig4.m?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "4299340e328a790766f668b7ddf6f8e70a96bbec31eecb7eba4373801b368cb8",
+      "md5": "60b63dc3fc579bb605742d305b7a4c8e"
+    },
+    {
+      "name": "PNASscriptFig5.m",
+      "url": "https://zenodo.org/records/12009234/files/PNASscriptFig5.m?download=1",
+      "attempted_utc": "2026-10-18T15:24:40.082730+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/PNASscriptFig5.m?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "abf3251738174a69799c7a94334a45cb84e5bd03610f980d39594f220547ff7a",
+      "md5": "2102f1038e07e69f5c8688b8f897cb08"
+    },
+    {
+      "name": "PNASscriptFig6.m",
+      "url": "https://zenodo.org/records/12009234/files/PNASscriptFig6.m?download=1",
+      "attempted_utc": "2026-10-18T15:24:40.104765+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/PNASscriptFig6.m?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "7ad30484a0b6eda4e7b2176bb575dbfb70e138e93402fc768e8419a8d40e87a6",
+      "md5": "b2c1bae9207e532e3472543d8267c722"
+    },
+    {
+      "name": "helper_scripts.zip",
+      "url": "https://zenodo.org/records/12009234/files/helper_scripts.zip?download=1",
+      "attempted_utc": "2026-10-18T15:24:40.138349+00:00",
+      "status": 403,
+      "resolved_url": "https://zenodo.org/records/12009234/files/helper_scripts.zip?download=1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 763,
+      "sha256": "adbfe0fe6ec85f27d66e60e78889e7d07e4a455ea5879e72a3d009fa320f81c5",
+      "md5": "e3a3195c67b94f8b0698eda868f5c993"
+    }
+  ],
+  "scientific_validation": false
+}

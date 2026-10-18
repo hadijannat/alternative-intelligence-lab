@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "request_1_retained_bytes": true,
+    "request_2_retained_bytes": true,
+    "request_3_retained_bytes": true,
+    "request_4_retained_bytes": true,
+    "request_5_retained_bytes": true,
+    "request_6_retained_bytes": true,
+    "request_7_retained_bytes": true,
+    "request_8_retained_bytes": true,
+    "request_9_retained_bytes": true,
+    "request_10_retained_bytes": true,
+    "request_11_retained_bytes": true,
+    "seven_direct_403_bodies_preserved": true,
+    "data_doi_license": true,
+    "software_doi_license": true,
+    "dataset_exact_article": true,
+    "both_dryad_assets_match_repository": true,
+    "three_native_imports_match_receipt": true,
+    "native_fig3_repository_md5": true,
+    "archive_crcs_and_inventory": true,
+    "all_201_matlab_files_read_at_storage_level": true,
+    "200_opaque_Experiment2_objects_retained": true,
+    "oscilloscope_schema": true,
+    "frozen_protocol_unchanged": true,
+    "no_numerical_outcome_replay": true
+  },
+  "passed": 24,
+  "total": 24,
+  "scientific_validation": false
+}

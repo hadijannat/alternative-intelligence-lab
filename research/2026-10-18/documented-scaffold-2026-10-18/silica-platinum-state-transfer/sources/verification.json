@@ -1,0 +1,2963 @@
+{
+  "checks": {
+    "article.xml_unchanged": true,
+    "supplementary.zip_unchanged": true,
+    "both_requests_successful": true,
+    "exact_doi": true,
+    "exact_pmc": true,
+    "main_license_nc_nd": true,
+    "zip_crc": true,
+    "unique_zip_names": true,
+    "si.pdf_pages": true,
+    "peer-review.pdf_pages": true,
+    "workbook_has_figure3h": true
+  },
+  "all_pass": true,
+  "extracted": [
+    {
+      "name": "si.pdf",
+      "member": "41467_2025_57624_MOESM1_ESM.pdf",
+      "bytes": 14652873,
+      "sha256": "f3e22f2ea693923bf490793621fd70996aaea1917bdb22d581ff16eec1c72aad"
+    },
+    {
+      "name": "movie-descriptions.pdf",
+      "member": "41467_2025_57624_MOESM2_ESM.pdf",
+      "bytes": 415081,
+      "sha256": "29b28acccbf08d42fb500e09f05239179bbe10bcb1e82b6406035641578ba8b4"
+    },
+    {
+      "name": "peer-review.pdf",
+      "member": "41467_2025_57624_MOESM9_ESM.pdf",
+      "bytes": 16641,
+      "sha256": "68acd80593d3a0b3c21b8dc3d36732435e43f6202ba3b25e9683bf9f7ca1d09d"
+    },
+    {
+      "name": "source-data.xlsx",
+      "member": "41467_2025_57624_MOESM10_ESM.xlsx",
+      "bytes": 1011966,
+      "sha256": "9ea8c618d9d68e284a7cc970317fac6116e756f9182f7a80b0c0407e5d068cf2"
+    }
+  ],
+  "workbook_structure": [
+    {
+      "name": "Figure 2n",
+      "rows": 705,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 2n"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@SiO2"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@SiO2"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        }
+      ]
+    },
+    {
+      "name": "Figure 2o",
+      "rows": 705,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 2o"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@SiO2"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@SiO2"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Figure 3h",
+      "rows": 705,
+      "columns": 7,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 3h"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "L-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "D-helicoid Pt"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Figure 4j",
+      "rows": 705,
+      "columns": 7,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 4j"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "L-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "D-helicoid Au@Pd"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Figure 4o",
+      "rows": 35,
+      "columns": 5,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 4o"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Pd"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Au"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Distance"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Counts"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Distance"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Counts"
+        }
+      ]
+    },
+    {
+      "name": "Figure 5o",
+      "rows": 413,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 5o"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Ag"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Au"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Distance"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Counts"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Counts"
+        }
+      ]
+    },
+    {
+      "name": "Figure 5p",
+      "rows": 705,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 5p"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        }
+      ]
+    },
+    {
+      "name": "Figure 5q",
+      "rows": 705,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 5q"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        }
+      ]
+    },
+    {
+      "name": "Figure 5r",
+      "rows": 705,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 5r"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        }
+      ]
+    },
+    {
+      "name": "Figure 6n",
+      "rows": 705,
+      "columns": 7,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Figure 6n"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-cube-Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-cube-Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "L-octahedron-Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "D-octahedron-Au@Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "g-factor"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 4",
+      "rows": 705,
+      "columns": 16,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 4a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-0.75 mL"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-0.75 mL"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-3.0 mL"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-3.0 mL"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "L-4.5 mL"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "D-4.5 mL"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "Supplementary Figure 4b"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-0.75 mL"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-0.75 mL"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "text": "L-3.0 mL"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "text": "D-3.0 mL"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "text": "L-4.5 mL"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "text": "D-4.5 mL"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 5",
+      "rows": 705,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 5a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-seeds@chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-seeds@chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 5b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-seeds@chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-seeds@chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-chiral SiO2"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-chiral SiO2"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 7",
+      "rows": 7,
+      "columns": 5,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 7"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "intact"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "cracked"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "intact"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "batch"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Frequency"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 9",
+      "rows": 257,
+      "columns": 11,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 9d"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "perfect"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "incomplete"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "overgrown"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "perfect"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "incomplete"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "overgrown"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "Supplementary Figure 9e"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "batch"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "number"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "Distance"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 10",
+      "rows": 1601,
+      "columns": 3,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 10"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Helicoid Pt"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "2q"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 11",
+      "rows": 405,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 11"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Pt 4f7/2 Pt(0)"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Pt 4f5/2 Pt(0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Pt 4f5/2Pt(II)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Pt 4f7/2 Pt(II)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Baseline"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "XPS"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Binding energy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 14",
+      "rows": 705,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 14c"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 16",
+      "rows": 705,
+      "columns": 7,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 16"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "L-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "D-helicoid Au@Pt"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 17",
+      "rows": 205,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 17a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@Pt"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 17b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-helicoid Pt"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 19",
+      "rows": 205,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 19a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@Pd"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 19b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-helicoid Pd"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-helicoid Pd"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-helicoid Pd"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-helicoid Pd"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Wavelength "
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 20",
+      "rows": 405,
+      "columns": 16,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 20e"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "helicoid Pt@Ag"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "helicoid Pt@Au"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "helicoid Pt@Pd"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "helicoid Pt"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "Supplementary Figure 20f"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "helicoid Pt@Ag"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "text": "helicoid Pt@Au"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "text": "helicoid Pt@Pd"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "text": "helicoid Pt"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 21",
+      "rows": 230,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 21e"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "helicoid  Pd@Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "helicoid  Ag@Au"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "helicoid  Au"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "helicoid  Pt@Au"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 21f"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "helicoid  Pd@Au"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "helicoid  Ag@Au"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "helicoid  Au"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "helicoid  Pt@Au"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 22",
+      "rows": 205,
+      "columns": 10,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 22g"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "helicoid Au@Pd-a"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "helicoid Au@Pd-b"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "helicoid Au@Pd-c"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Supplementary Figure 22h"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "helicoid Au@Pd-a"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "helicoid Au@Pd-b"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "helicoid Au@Pd-c"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 23",
+      "rows": 404,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 23"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Pd 3d5/2 Pd(0)"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Pd 3d3/2 Pd(0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Pd 3d3/2 Pd(II)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Pd 3d5/2 Pd(II)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Baseline"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "Au@Pd XPS"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Binding energy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 24",
+      "rows": 1700,
+      "columns": 3,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 24"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Helicoid Au@Pd"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "2q"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 26",
+      "rows": 259,
+      "columns": 8,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 26a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "perfect"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "incomplete"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "perfect"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Supplementary Figure 26b"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "Au@Pd"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "batch"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "number"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Distance"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 28",
+      "rows": 705,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 28j"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "helicoid Au@RF"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Au seed@chiral RF"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "helicoid Au@RF"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": " Au seed@chiral RF"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Norm. extinction"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "Norm. extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 29",
+      "rows": 405,
+      "columns": 29,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 29c"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Cu"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Au"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Supplementary Figure 29g"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "75 min"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "85 min"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "95 min"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "100 min"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "105 min"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "110 min"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "text": "115 min"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "text": "120 min"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "text": "130 min"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "text": "140 min"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "text": "150 min"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "text": "Supplementary Figure 29h"
+        },
+        {
+          "row": 2,
+          "column": 22,
+          "text": "Supplementary Figure 29i"
+        },
+        {
+          "row": 2,
+          "column": 24,
+          "text": "experiment"
+        },
+        {
+          "row": 2,
+          "column": 25,
+          "text": "experiment"
+        },
+        {
+          "row": 2,
+          "column": 26,
+          "text": "Supplementary Figure 29j"
+        },
+        {
+          "row": 2,
+          "column": 28,
+          "text": "simulation"
+        },
+        {
+          "row": 2,
+          "column": 29,
+          "text": "simulation"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Distance"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "counts"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "counts"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 17,
+          "text": "CD"
+        },
+        {
+          "row": 3,
+          "column": 19,
+          "text": "Time"
+        },
+        {
+          "row": 3,
+          "column": 20,
+          "text": "|CD|"
+        },
+        {
+          "row": 3,
+          "column": 21,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 23,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 24,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 25,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 27,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 28,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 29,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 32",
+      "rows": 404,
+      "columns": 9,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 32"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Au@AgXPS"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Ag 3d3/2 Ag(0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "Ag 3d3/2 Ag(I)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Ag 3d5/2 Ag(0)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Pd 3d5/2 Ag(I)"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "Baseline"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Binding energy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "Intensity"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 33",
+      "rows": 1700,
+      "columns": 3,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 33"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Helicoid Au@Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "2q"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 35",
+      "rows": 262,
+      "columns": 8,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 35d"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "cubic profile"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "defective"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "cubic profile"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Supplementary Figure 35e"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "Au@Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "batch"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "number"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Distance"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 40",
+      "rows": 705,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 40a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "0.18 mL"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "0.15 mL"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "0.12 mL"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "0.09 mL"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 40b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "0.18 mL"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "0.15 mL"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "0.12 mL"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "0.09 mL"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Wavelength"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "Norm.extinction"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "Norm.extinction"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "Norm.extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "Norm.extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 45",
+      "rows": 414,
+      "columns": 4,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 45"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "Distance"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "counts"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "counts"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 46",
+      "rows": 263,
+      "columns": 8,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 46d"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "octahedral profile"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "defective"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "octahedral profile"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "Supplementary Figure 35e"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "text": "Au@Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "batch"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "quantity"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "Frequency"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "text": "number"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "Distance"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 47",
+      "rows": 706,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 47a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 47b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 48",
+      "rows": 355,
+      "columns": 12,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 47a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au@Ag"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 47b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Figure 49",
+      "rows": 405,
+      "columns": 24,
+      "top_three_row_text_labels": [
+        {
+          "row": 2,
+          "column": 1,
+          "text": "Supplementary Figure 49a"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "text": "L-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "text": "D-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "text": "L-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "text": "D-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "text": "Supplementary Figure 49b"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "text": "L-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "D-helicoid Ag"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "text": "Supplementary Figure 49c"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "text": "L-cube-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "text": "D-cube-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "text": "L-cube-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "text": "D-cube-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 19,
+          "text": "Supplementary Figure 49d"
+        },
+        {
+          "row": 2,
+          "column": 21,
+          "text": "L-octahedral-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 22,
+          "text": "D-octahedral-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 23,
+          "text": "L-octahedral-helicoid Au"
+        },
+        {
+          "row": 2,
+          "column": 24,
+          "text": "D-octahedral-helicoid Au"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 17,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 18,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 20,
+          "text": "wavelength"
+        },
+        {
+          "row": 3,
+          "column": 21,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 22,
+          "text": "g-factor"
+        },
+        {
+          "row": 3,
+          "column": 23,
+          "text": "extinction"
+        },
+        {
+          "row": 3,
+          "column": 24,
+          "text": "extinction"
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "6cda5e9da442c20e10a1a814c9cdbdbc58d2b4d96bac8e0673a73c01cd3959c0",
+  "response_points_selected_for_analysis": 0,
+  "numerical_response_fit": false,
+  "empirical_holdout_validation": false,
+  "scientific_validation": false
+}

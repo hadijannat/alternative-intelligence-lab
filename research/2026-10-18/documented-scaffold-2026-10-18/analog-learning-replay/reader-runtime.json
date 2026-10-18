@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "initial_source_commit": "302efd30727473fa1a47ffd425b85d738be414e5",
+  "initial_build": "failed; clang exit69; host Xcode license not accepted; no setting changed",
+  "selected_version": "mat-io==1.0.1",
+  "release_source_commit": "b1a08584245ae4cec094be61b5ecb42b75ad3252",
+  "wheel_filename": "mat_io-1.0.1-cp312-cp312-macosx_11_0_arm64.whl",
+  "wheel_sha256": "ea9583e7c234bbc7d2f38390f249b46b1813cf8ca24f065706db1b996fb09a4a",
+  "source_files_compared_equal": ["subsystem/subsys.py", "v5/matreader5.py", "matio.py"],
+  "binary_rebuild_equivalence_verified": false,
+  "runtime": "/USER_HOME/.codex/worktrees/mat-io-runtime-302efd/bin/python",
+  "dependencies": {"mat-io": "1.0.1", "numpy": "2.4.1", "scipy": "1.18.1", "pandas": "3.0.6", "h5py": "3.16.0", "pytest": "9.1.1", "Cython": "3.3.0"},
+  "upstream_tests": {
+    "command": "python -B -m pytest -q -p no:cacheprovider --import-mode=importlib /USER_HOME/.codex/worktrees/mat-io-b1a085-reader/tests/test_user_defined.py::TestLoadMatlabUserDefined",
+    "passed": 12,
+    "failed": 0,
+    "reported_seconds": 4.06
+  },
+  "experimental_decoding_at_record_creation": "not yet attempted",
+  "scientific_validation": false
+}

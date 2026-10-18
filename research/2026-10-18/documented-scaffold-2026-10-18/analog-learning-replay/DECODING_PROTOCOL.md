@@ -1,0 +1,13 @@
+# MCOS property eligibility before response replay
+
+This is a named-property/schema step after verified native acquisition and ordinary SciPy inventory, before any numerical learning replay. Native archive SHA256 is `f6a972d8ab2aaa6ae91529a38d5e0dff54d6c4888984834633161226c1a6a57c`. All200opaque objects remain in the inventory; none is discarded because its learning result is inconvenient.
+
+The selected existing reader is foreverallama/matio (`mat-io`), exact source commit `302efd30727473fa1a47ffd425b85d738be414e5`, BSD-3-Clause. Its documented MCOS metadata resolves stored property-name/type/value indices; use `raw_data=True` and do not invoke external Experiment2 MATLAB methods. Source qualification is saved in `.omo/evidence/matlab-object-reader-research.md`.
+
+1. Inspect source/build manifest, verify exact commit, install in a separate local environment and record resolved dependencies. Do not repair the user's global Python installation.
+2. Run the upstream user-defined-object load tests against their known MATLAB fixtures. A failure blocks experimental property decoding until understood; do not guess serialized positions.
+3. First inspect the exact XOR file named in the verified Figure3 MATLAB script: `data/experiment_XOR3S2T_0920_ETA=64_VIT=40_[2S2T2G]_23-09-20-15-31-46.mat`. Read only class, property names, dtypes and shapes; no measured response values or learning error computation/selection. Record any warnings or decoder exceptions, and preserve failures.
+4. Require class `Experiment2` and named stored properties for TRAIN, TEST, TestFreeState, TestClampedState, LearnTimes, target/source locations, count/scaling metadata and gate histories. Verify dimensions against count metadata and README; metadata scalars/locations are allowed for mapping, not performance inference. Stop on unresolved property types, a lone custom-serialization payload, warnings or inconsistent dimensions.
+5. If qualified, inventory all200objects with the same rule before declaring eligible run families. A parser success is data accessibility. It is not physical learning replication, independent generalization or integrated-goal validation.
+
+Only after this eligibility stage can a separate `REPLAY_PROTOCOL.md` freeze exact output construction, initialization validity, all-run inclusion, train-only conventional/frozen-initial baselines, uncertainty and failure criteria. The source's differential second-minus-first output, integrated unfrozen microseconds, signed-error display suppression and step2 initial truth-table plotting have been seen. Do not promote those consumed source choices into a blinded test or use signed-error suppression as a data-validity rule.

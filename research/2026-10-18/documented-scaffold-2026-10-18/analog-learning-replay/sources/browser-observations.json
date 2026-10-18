@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "browser": "normal Chrome via CUA",
+  "dataset_page": "https://datadryad.org/dataset/doi:10.5061/dryad.8w9ghx3vx",
+  "software_page": "https://zenodo.org/records/12009234",
+  "dataset_observations": [
+    "Public page displays native data.zip and README links, article DOI and CC0 license.",
+    "Archive preview reports201 logical files and lists50; this is not the complete central-directory inventory.",
+    "Direct data-link downloadMedia timed out after60000ms; normal link click produced no returned file handle.",
+    "Full-dataset button exposed a POST form to /dataset/downloadZip/doi_10_5061_dryad_8w9ghx3vx__v20240702.zip.",
+    "Full-dataset dialog appeared with15.76MB progress then disappeared. A later download-event wait timed out after20000ms.",
+    "A narrowly scoped local source-file integrity check subsequently found native data.zip and README with exact current repository hashes. Timeouts therefore did not prove transfer failure.",
+    "Two full-package wrapper ZIPs also existed, each15760046bytes/SHA256377491e9013ff6f35ef96875f56ccbaf360f75b8419e402be842d449d6cad1f2. Their bytes are not confused with native data.zip and no wrapper is imported.",
+    "No further dataset download was launched after native hash confirmation."
+  ],
+  "software_observations": [
+    "Public Zenodo record displays versionv1, MIT license and six files with MD5 digests.",
+    "PNASscriptFig3.m downloadMedia returned /USER_HOME/Downloads/PNASscriptFig3.m; imported bytes match the displayed repository MD5.",
+    "Fig2 downloadMedia timed out after20000ms; helperZIP and Fig4-6 downloadMedia calls each timed out after5000ms. No matching native files were observed during import.",
+    "A readable web/script preview is not reported as byte-integrity-verified acquisition."
+  ],
+  "other_limits": [
+    "A chrome://downloads/ observation was rejected by the browser URL policy; it was not retried through an alternate browser surface. Native source-file verification instead used the exact expected file names and repository hashes without reading browser history.",
+    "No CAPTCHA, authentication change, purchase, author contact or access-restriction bypass was performed."
+  ],
+  "native_array_values_inspected": false,
+  "scientific_validation": false
+}

@@ -1,0 +1,9 @@
+# Separate input-set audit after output consistency failure
+
+The original frozen REPLAY_PROTOCOL already specifies exact and1e-12tolerance comparison of full TRAIN/TEST source boundaries. The first implementation gated that audit behind successful output-field equality. The amended physical-response replay failed that equality on all191runs; its result and tolerance remain unchanged in `results/replay-schedule.json`. No physical task error/baseline score was computed by that failed replay.
+
+Input-set overlap does not depend on TestMeasurements, TestFreeState, DOTEST encoding or a physical response model. The qualified named TRAIN/TEST/SOR/TAR/DEL fields and native README identify which declared source vectors were used for training/testing. Perform that already specified audit independently, with no output voltages or performance calculation.
+
+Use all191schema-qualified runs and retain the other nine opaque/calibration records as exclusions. Use the same native archive hash, exact named properties and documented shapes. Compare the complete SOR-dimensional source vector, including fixed inputs. Report exact matches, the predeclared max-coordinate tolerance1e-12matches, duplicate inputs, native/logical label conflicts and ordering/matched indices. Do not infer independent experiments from filenames or create a withheld set from trained inputs.
+
+No learned function, causal update, out-of-environment generalization, repair/inheritance/integration, or model success is established by input matching. A zero-untrained-input result would bound what this deposited evaluation measures, not show that generalization is impossible or that the primary paper claimed otherwise. Frozen output-mapping failure stays failed until new source-specific observation/precision evidence resolves it; do not widen tolerance from observed discrepancies.

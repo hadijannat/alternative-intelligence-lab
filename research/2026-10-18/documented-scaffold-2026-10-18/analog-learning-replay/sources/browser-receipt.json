@@ -1,0 +1,70 @@
+{
+  "observed_utc": "2026-10-18T15:32:01.127086+00:00",
+  "software_digest_source": "Normal browser Zenodo12009234 file table, 2026-10-18",
+  "reused_primary": {
+    "path": "PROJECT_ROOT/noncarbon-discovery-2026-10-15/research/information/raw/analog-2024.xml",
+    "sha256": "4e2a79e948d3604d2aaf5146d8be85fb927453d827086a630a8b7c5520f3d349",
+    "native_copy": false
+  },
+  "requests": [
+    {
+      "name": "data.zip",
+      "source_path": "/USER_HOME/Downloads/data.zip",
+      "bytes": 15756671,
+      "sha256": "f6a972d8ab2aaa6ae91529a38d5e0dff54d6c4888984834633161226c1a6a57c",
+      "md5": "82081580e42b8fd2f7553df11ce01c87",
+      "expected_digest": "f6a972d8ab2aaa6ae91529a38d5e0dff54d6c4888984834633161226c1a6a57c",
+      "digest_algorithm": "sha256",
+      "expected_size": 15756671,
+      "status": "verified_native_bytes"
+    },
+    {
+      "name": "README.md",
+      "source_path": "/USER_HOME/Downloads/README.md",
+      "bytes": 3135,
+      "sha256": "7b20120bc94c2d5e9fbc184dfcdae98eb39c25773a58bfa927097f14cd13b4d1",
+      "md5": "00effa94de3683837adb4eda6325eeab",
+      "expected_digest": "7b20120bc94c2d5e9fbc184dfcdae98eb39c25773a58bfa927097f14cd13b4d1",
+      "digest_algorithm": "sha256",
+      "expected_size": 3135,
+      "status": "verified_native_bytes"
+    },
+    {
+      "name": "PNASscriptFig2.m",
+      "status": "no_native_file_observed",
+      "source_path": null
+    },
+    {
+      "name": "PNASscriptFig3.m",
+      "source_path": "/USER_HOME/Downloads/PNASscriptFig3.m",
+      "bytes": 9277,
+      "sha256": "1684913dfa60263799fd2bb2642c541f8bdf3b8094264bcce9270f7bc0c20a87",
+      "md5": "b1d791f1f80fabeb8699500e0592a261",
+      "expected_digest": "b1d791f1f80fabeb8699500e0592a261",
+      "digest_algorithm": "md5",
+      "expected_size": null,
+      "status": "verified_native_bytes"
+    },
+    {
+      "name": "PNASscriptFig4.m",
+      "status": "no_native_file_observed",
+      "source_path": null
+    },
+    {
+      "name": "PNASscriptFig5.m",
+      "status": "no_native_file_observed",
+      "source_path": null
+    },
+    {
+      "name": "PNASscriptFig6.m",
+      "status": "no_native_file_observed",
+      "source_path": null
+    },
+    {
+      "name": "helper_scripts.zip",
+      "status": "no_native_file_observed",
+      "source_path": null
+    }
+  ],
+  "scientific_validation": false
+}

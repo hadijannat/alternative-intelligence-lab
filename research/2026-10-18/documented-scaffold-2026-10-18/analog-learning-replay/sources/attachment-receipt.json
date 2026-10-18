@@ -1,0 +1,62 @@
+{
+  "observed_utc": "2026-10-18T15:59:09.688663+00:00",
+  "source_url": "https://zenodo.org/records/12009234/files/helper_scripts.zip?download=1",
+  "source_record": "10.5281/zenodo.12009234",
+  "license": "MIT",
+  "route": "One normal Chrome link downloadMedia attempt returned native file path",
+  "previous_absence_checked": true,
+  "extracted_files": [
+    {
+      "name": "Experiment2.m",
+      "archive_path": "helper_scripts/Experiment2.m",
+      "bytes": 189506,
+      "sha256": "d95070097420a6e2f382e087089dd152f8edb1cab1bb39b98720e43ee6eb0cf3"
+    },
+    {
+      "name": "makeOrthonormalModes.m",
+      "archive_path": "helper_scripts/makeOrthonormalModes.m",
+      "bytes": 2667,
+      "sha256": "07b75cc6b8a305cb32979ba8d892ba57504399dc44b96096e6313b422db4d749"
+    },
+    {
+      "name": "network_project_superclass2.m",
+      "archive_path": "helper_scripts/network_project_superclass2.m",
+      "bytes": 3234,
+      "sha256": "726debbe67c8b9020501843eedfeee22689824a7ea43c01a399b168d15445094"
+    },
+    {
+      "name": "makePlotPrettyNow.m",
+      "archive_path": "helper_scripts/makePlotPrettyNow.m",
+      "bytes": 526,
+      "sha256": "8dde8e6f7715eba08d0765989e05242b6bcf34154fd5be62e3ec4baeae298fd4"
+    },
+    {
+      "name": "logic_truth_table3.m",
+      "archive_path": "helper_scripts/logic_truth_table3.m",
+      "bytes": 3323,
+      "sha256": "5121c41865e647c591abf7a084bdf1af4f0019fe2d69902ac96577153775b260"
+    },
+    {
+      "name": "ExperimentGroup.m",
+      "archive_path": "helper_scripts/ExperimentGroup.m",
+      "bytes": 37284,
+      "sha256": "3348ba063b0fd2faa61cf0714790b08d5b7ee6c36d9b1b70c9fa27704d1cbf06"
+    }
+  ],
+  "execution_error": null,
+  "third_party_code_executed": false,
+  "numerical_response_replay": false,
+  "native_zip": {
+    "name": "helper_scripts.zip",
+    "source_path": "/USER_HOME/Downloads/helper_scripts.zip",
+    "bytes": 50569,
+    "sha256": "7c65cecb1b2cf19b7bb5f665c9b44695bb805d47214f38a9945ddffd5202cd46",
+    "md5": "b9b06b71f3b709445f97d4386366fe76",
+    "expected_digest": "b9b06b71f3b709445f97d4386366fe76",
+    "digest_algorithm": "md5",
+    "expected_size": null,
+    "status": "verified_native_bytes"
+  },
+  "zip_crc_ok": true,
+  "archive_entries": 14
+}
