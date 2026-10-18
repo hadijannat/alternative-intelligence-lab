@@ -1,0 +1,813 @@
+{
+  "checks": {
+    "exact_resource_doi": true,
+    "one_exact_workbook": true,
+    "workbook_size": true,
+    "workbook_md5": true,
+    "ou-main.pdf_pdf_signature": true,
+    "ou-si.pdf_pdf_signature": true,
+    "ou-main.pdf_unchanged": true,
+    "ou-si.pdf_unchanged": true,
+    "ou-figshare.json_unchanged": true,
+    "ou-tabulated.xlsx_unchanged": true,
+    "exact_resource_doi_recomputed": true,
+    "dataset_license": true,
+    "workbook_metadata_recomputed": true,
+    "ou-main.pdf_pages": true,
+    "ou-main.pdf_title": true,
+    "ou-si.pdf_pages": true,
+    "ou-si.pdf_title": true,
+    "twenty_one_sheets": true
+  },
+  "all_pass": true,
+  "pdf_pages": {
+    "ou-main.pdf": 12,
+    "ou-si.pdf": 35
+  },
+  "workbook_inventory": [
+    {
+      "sheet": "Figure 1a",
+      "rows": 845,
+      "columns": 2,
+      "labels": [
+        [
+          "A1",
+          "CV_1 post CA Co spike E/RHE"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 1688
+    },
+    {
+      "sheet": "Figure 1b",
+      "rows": 857,
+      "columns": 14,
+      "labels": [
+        [
+          "A1",
+          "CV_3 E/RHE"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "CV_5 E/RHE"
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ],
+        [
+          "G1",
+          "CV_7 E/RHE"
+        ],
+        [
+          "H1",
+          "I/mA cm-2"
+        ],
+        [
+          "J1",
+          "CV_9 E/RHE"
+        ],
+        [
+          "K1",
+          "I/mA cm-2"
+        ],
+        [
+          "M1",
+          "CV_25 E/RHE"
+        ],
+        [
+          "N1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 8148
+    },
+    {
+      "sheet": "Figure 1c and 1d",
+      "rows": 886,
+      "columns": 14,
+      "labels": [
+        [
+          "A1",
+          "Co(OH)2 cv_1 post Ni CA spike Ewe/V"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "Co(OH)2 cv_5 post Ni CA spike Ewe/V"
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ],
+        [
+          "G1",
+          "Co(OH)2 cv_10 post Ni CA spike Ewe/V"
+        ],
+        [
+          "H1",
+          "I/mA cm-2"
+        ],
+        [
+          "J1",
+          "Co(OH)2 cv_15 post Ni CA spike Ewe/V"
+        ],
+        [
+          "K1",
+          "I/mA cm-2"
+        ],
+        [
+          "M1",
+          "Co(OH)2 cv_20 post Ni CA spike Ewe/V"
+        ],
+        [
+          "N1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 8478
+    },
+    {
+      "sheet": "Figure 2a",
+      "rows": 24081,
+      "columns": 2,
+      "labels": [
+        [
+          "A1",
+          "Ni(OH)2 CA-0.1 ppm Fe spike 1.55V vs RHE non-iR"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 48160
+    },
+    {
+      "sheet": "Figure 2b",
+      "rows": 856,
+      "columns": 8,
+      "labels": [
+        [
+          "A1",
+          "0.5066 cm2 cv_1 after CA test  RHE "
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "0.5066 cm2 cv_20 after CA test  RHE "
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ],
+        [
+          "G1",
+          " 0.5066 cm2 CV_2 in Fe free KOH E RHE"
+        ],
+        [
+          "H1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 4944
+    },
+    {
+      "sheet": "Figure 2c",
+      "rows": 36115,
+      "columns": 2,
+      "labels": [
+        [
+          "A1",
+          " Co(OH)2 for CA Fe spike time/s"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 72228
+    },
+    {
+      "sheet": "Figure 2d",
+      "rows": 2019,
+      "columns": 8,
+      "labels": [
+        [
+          "A1",
+          "Co(OH)2 CV_2 in Fe free KOH E/RHE"
+        ],
+        [
+          "B1",
+          "I/mA cm-2 "
+        ],
+        [
+          "D1",
+          "Co(OH)2 CV_1 after Fe CA spike KOH E/RHE"
+        ],
+        [
+          "E1",
+          "I/mA cm-2 "
+        ],
+        [
+          "G1",
+          "Co(OH)2 CV_10 after Fe CA spike KOH E/RHE"
+        ],
+        [
+          "H1",
+          "I/mA cm-2 "
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 7450
+    },
+    {
+      "sheet": "Figure 3a",
+      "rows": 11,
+      "columns": 9,
+      "labels": [
+        [
+          "A1",
+          "Fe spiked Fe/Ni ratio"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF/ s-1"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "F1",
+          "codep NiFe Fe/Ni ratio"
+        ],
+        [
+          "G1",
+          "x STD"
+        ],
+        [
+          "H1",
+          "TOF/ s-1"
+        ],
+        [
+          "I1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 56
+    },
+    {
+      "sheet": "Figure 3b",
+      "rows": 5,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "Spiked Fe Fe/Co ratio"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF/s-1"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "G1",
+          "Codep CoFe Fe/Co ratio"
+        ],
+        [
+          "H1",
+          "x STD"
+        ],
+        [
+          "I1",
+          "TOF/s-1"
+        ],
+        [
+          "J1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 32
+    },
+    {
+      "sheet": "Figure 3c",
+      "rows": 7,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "NiFe TOF at 300 mV Fe ng cm-2 ECSA"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF/s-1"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "G1",
+          "CoFe TOF at 300 mV Fe ng cm-2 ECSA"
+        ],
+        [
+          "H1",
+          "x STD"
+        ],
+        [
+          "I1",
+          "TOF/s-1"
+        ],
+        [
+          "J1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 40
+    },
+    {
+      "sheet": "Figure 3d",
+      "rows": 6,
+      "columns": 8,
+      "labels": [
+        [
+          "A1",
+          "NiFe Tafel analysis Fe con./ppb"
+        ],
+        [
+          "B1",
+          "Tafel slope"
+        ],
+        [
+          "C1",
+          "y STD"
+        ],
+        [
+          "F1",
+          "CoFe Tafel analysis Fe con./ppb"
+        ],
+        [
+          "G1",
+          "Tafel slope"
+        ],
+        [
+          "H1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 30
+    },
+    {
+      "sheet": "Figure 4a",
+      "rows": 9,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "Ni loading-CA/ nmol cm-2 "
+        ],
+        [
+          "B1",
+          "Fe loading / nmol cm-2"
+        ],
+        [
+          "C1",
+          "Ni loading-CV/ nmol cm-2"
+        ],
+        [
+          "D1",
+          "Fe loading / nmol cm-2"
+        ],
+        [
+          "G1",
+          "Capacitance-CA / mF cm-2"
+        ],
+        [
+          "H1",
+          "Fe loading / nmol cm-2"
+        ],
+        [
+          "I1",
+          "Capacitance-CV / mF cm-2"
+        ],
+        [
+          "J1",
+          "Fe loading / nmol cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 64
+    },
+    {
+      "sheet": "Fig. S1a",
+      "rows": 810,
+      "columns": 17,
+      "labels": [
+        [
+          "A1",
+          "0.4191 cm2, cv_3 in Fe free KOH E RHE -Ir"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "CV_4 in Fe spiked KOH E RHE -iR "
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ],
+        [
+          "G1",
+          "CV_5 in Fe spiked KOH E RHE -iR "
+        ],
+        [
+          "H1",
+          "I/mA cm-2"
+        ],
+        [
+          "J1",
+          "CV_6 in Fe spiked KOH E RHE -iR "
+        ],
+        [
+          "K1",
+          "I/mA cm-2"
+        ],
+        [
+          "M1",
+          "CV_7 in Fe spiked KOH E RHE -iR "
+        ],
+        [
+          "N1",
+          "I/mA cm-2"
+        ],
+        [
+          "P1",
+          "CV_22 in Fe spiked KOH E RHE -iR "
+        ],
+        [
+          "Q1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 9658
+    },
+    {
+      "sheet": "Fig.S1b",
+      "rows": 2026,
+      "columns": 17,
+      "labels": [
+        [
+          "A1",
+          "cv_2 in Fe free KOH E RHE -Ir"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "cv_3 in Fe spiked KOH E RHE -Ir"
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ],
+        [
+          "G1",
+          "cv_4 in Fe spiked KOH E RHE -Ir"
+        ],
+        [
+          "H1",
+          "I/mA cm-2"
+        ],
+        [
+          "J1",
+          "cv_5 in Fe spiked KOH E RHE -Ir"
+        ],
+        [
+          "K1",
+          "I/mA cm-2"
+        ],
+        [
+          "M1",
+          "cv_6 in Fe spiked KOH E RHE -Ir"
+        ],
+        [
+          "N1",
+          "I/mA cm-2"
+        ],
+        [
+          "P1",
+          "cv_21 in Fe spiked KOH E RHE -Ir"
+        ],
+        [
+          "Q1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 24230
+    },
+    {
+      "sheet": "Fig.S8 a",
+      "rows": 806,
+      "columns": 5,
+      "labels": [
+        [
+          "A1",
+          "Ni(OH)2 CV_2 in Fe free KOH E RHE/V"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "cv_10 after Co CV spike E RHE/V"
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 3218
+    },
+    {
+      "sheet": "Fig.S8 b",
+      "rows": 820,
+      "columns": 5,
+      "labels": [
+        [
+          "A1",
+          "Co(OH)2 CV_20 Ni spike Ewe/V"
+        ],
+        [
+          "B1",
+          "I/mA cm-2"
+        ],
+        [
+          "D1",
+          "cv_2 in Fe free KOH Ewe/V"
+        ],
+        [
+          "E1",
+          "I/mA cm-2"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 3264
+    },
+    {
+      "sheet": "Fig.S19 a",
+      "rows": 11,
+      "columns": 9,
+      "labels": [
+        [
+          "A1",
+          "Spiked Fe Fe/Ni ratio"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF 350 mV"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "F1",
+          "codep NiFe Fe/Ni ratio"
+        ],
+        [
+          "G1",
+          "x STD"
+        ],
+        [
+          "H1",
+          "TOF 350 mV"
+        ],
+        [
+          "I1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 56
+    },
+    {
+      "sheet": "Fig.S19 b",
+      "rows": 5,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "Spiked Fe Fe/Co ratio"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF 350  mV"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "G1",
+          "Codep CoFe Fe/Co ratio"
+        ],
+        [
+          "H1",
+          "x STD"
+        ],
+        [
+          "I1",
+          "TOF 350  mV"
+        ],
+        [
+          "J1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 32
+    },
+    {
+      "sheet": "Fig.S19 c",
+      "rows": 7,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "NiFe 350 mV Fe ng cm-2-geo"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF "
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "G1",
+          "CoFe 350 mV Fe ng cm-2-geo"
+        ],
+        [
+          "H1",
+          "x STD"
+        ],
+        [
+          "I1",
+          "TOF "
+        ],
+        [
+          "J1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 40
+    },
+    {
+      "sheet": "Fig.S19 d",
+      "rows": 7,
+      "columns": 10,
+      "labels": [
+        [
+          "A1",
+          "NiFe TOF at 350 mV Fe ng cm-2 ECSA"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF/s-1"
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "G1",
+          "CoFe TOF at 350 mV Fe ng cm-2 ECSA"
+        ],
+        [
+          "H1",
+          "x STD"
+        ],
+        [
+          "I1",
+          "TOF/s-1"
+        ],
+        [
+          "J1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 40
+    },
+    {
+      "sheet": "Fig.S20",
+      "rows": 7,
+      "columns": 9,
+      "labels": [
+        [
+          "A1",
+          "NiFe 300 mV Fe ng cm-2-geo"
+        ],
+        [
+          "B1",
+          "x STD"
+        ],
+        [
+          "C1",
+          "TOF "
+        ],
+        [
+          "D1",
+          "y STD"
+        ],
+        [
+          "F1",
+          "CoFe 300 mV Fe ng cm-2-geo"
+        ],
+        [
+          "G1",
+          "x STD"
+        ],
+        [
+          "H1",
+          "TOF "
+        ],
+        [
+          "I1",
+          "y STD"
+        ]
+      ],
+      "formulas": 0,
+      "numeric_cells": 40
+    }
+  ],
+  "scientific_validation": false,
+  "response_points_selected_for_analysis": 0,
+  "empirical_holdout_validation": false
+}

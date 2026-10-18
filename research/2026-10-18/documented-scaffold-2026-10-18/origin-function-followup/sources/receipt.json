@@ -1,0 +1,61 @@
+{
+  "retrieved_utc": "2026-10-18T14:37:16.082041+00:00",
+  "resource_doi": "10.1038/s41467-023-43305-z",
+  "requests": [
+    {
+      "name": "ou-main.pdf",
+      "url": "https://electrochemistry.berkeley.edu/sites/default/files/s41467-023-43305-z_2.pdf",
+      "attempted_utc": "2026-10-18T14:37:13.195233+00:00",
+      "status": 200,
+      "resolved_url": "https://electrochemistry.berkeley.edu/sites/default/files/s41467-023-43305-z_2.pdf",
+      "content_type": "application/pdf",
+      "bytes": 2036782,
+      "sha256": "dde35e1a277a9cfcc80ab9b4fdc8d2ca8f65ab7f2230cbb1880536bb80292ef1",
+      "md5": "7904c17ab91fbf73cb872235b05ac604"
+    },
+    {
+      "name": "ou-si.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-43305-z/MediaObjects/41467_2023_43305_MOESM1_ESM.pdf",
+      "attempted_utc": "2026-10-18T14:37:13.195562+00:00",
+      "status": 200,
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-43305-z/MediaObjects/41467_2023_43305_MOESM1_ESM.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3418265,
+      "sha256": "73f0ee44da1d9a655be96cc26a024ba36c1936e1b86156e96700bdbeeb54b921",
+      "md5": "1c3996023e547ba1a95b5e0a8fd6e282"
+    },
+    {
+      "name": "ou-figshare.json",
+      "url": "https://api.figshare.com/v2/articles/24197487",
+      "attempted_utc": "2026-10-18T14:37:13.195645+00:00",
+      "status": 200,
+      "resolved_url": "https://api.figshare.com/v2/articles/24197487",
+      "content_type": "application/json",
+      "bytes": 6003,
+      "sha256": "f8280ad6ab1b903f4a249b431fa7297e235051e27be17ace5ce250558aa12885",
+      "md5": "c0172e497c4781dccdb98619cb3a1fa6"
+    },
+    {
+      "name": "ou-tabulated.xlsx",
+      "url": "https://ndownloader.figshare.com/files/42460317",
+      "attempted_utc": "2026-10-18T14:37:14.689703+00:00",
+      "status": 200,
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pstorage-npg-968563215/42460317/RawTabulatedDatafromFigures.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 1662539,
+      "sha256": "cfffdad87f99ac9422aa3051f7c3e0f16c1079ca9da7b0ff2aba8664da722615",
+      "md5": "f9ac3a56fe0e8a187d653790c2679622",
+      "expected_size": 1662539,
+      "expected_md5": "f9ac3a56fe0e8a187d653790c2679622"
+    }
+  ],
+  "checks": {
+    "exact_resource_doi": true,
+    "one_exact_workbook": true,
+    "workbook_size": true,
+    "workbook_md5": true,
+    "ou-main.pdf_pdf_signature": true,
+    "ou-si.pdf_pdf_signature": true
+  },
+  "scientific_validation": false
+}

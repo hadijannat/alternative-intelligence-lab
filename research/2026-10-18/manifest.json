@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "scientific_validation": false,
   "source_root": "PROJECT_ROOT",
-  "included_files": 236,
-  "published_bytes": 11154032,
-  "excluded_entries": 710,
+  "included_files": 251,
+  "published_bytes": 11223917,
+  "excluded_entries": 723,
   "missing_reviews": [],
   "exclusions_by_reason": {
-    "private consultation, runtime cache, or orchestration subtree": 14,
-    "third-party source payload or registry response; authored receipts retain provenance": 690,
+    "private consultation, runtime cache, or orchestration subtree": 16,
+    "third-party source payload or registry response; authored receipts retain provenance": 701,
     "native figure crop or annotated source image; numeric extraction retained": 3,
     "one-to-one native workbook cells; derived analyses and provenance retained": 2,
     "third-party publisher JavaScript runtime; acquisition receipt retains URL and hash": 1
@@ -49,10 +49,10 @@
       "source_path": "documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 17022,
-      "source_sha256": "94ac4dd655e5725b67c8e221c3205a6e51618b97f2a75d7c5a49fe4e096899c8",
-      "published_size": 16997,
-      "published_sha256": "beaf420a1bed8be03a83825c753c907f8746abb5213d6f4b8772c2e61840ea17",
+      "source_size": 18398,
+      "source_sha256": "95457d51f1231decd5c9c5acf34e6daee054a6fcb1d48ae94234eb91cd7e7669",
+      "published_size": 18373,
+      "published_sha256": "c24fa4ee161cb31970b75186890a488dc8210064177ee8431f7f3d83f0e27fdf",
       "transformations": [
         {
           "transformation": "portable original goal-contract link",
@@ -65,10 +65,10 @@
       "source_path": "documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 9853,
-      "source_sha256": "6a5197eedbdacb313db3a6b0e8a60c4fa5f6b9ab7dd01b797ac1c9b1c39f67ec",
-      "published_size": 9853,
-      "published_sha256": "6a5197eedbdacb313db3a6b0e8a60c4fa5f6b9ab7dd01b797ac1c9b1c39f67ec",
+      "source_size": 11541,
+      "source_sha256": "9794ecaae87e175990e0db1ece3f3cb12e57bd333293cbf3513cc5ac00ddb5cd",
+      "published_size": 11541,
+      "published_sha256": "9794ecaae87e175990e0db1ece3f3cb12e57bd333293cbf3513cc5ac00ddb5cd",
       "transformations": []
     },
     {
@@ -5918,6 +5918,260 @@
       "transformations": []
     },
     {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2848,
+      "source_sha256": "45b71ca66ad444a71586a53bb6174fd51fc3c9d81eb56b58e72314ae904908b2",
+      "published_size": 2848,
+      "published_sha256": "45b71ca66ad444a71586a53bb6174fd51fc3c9d81eb56b58e72314ae904908b2",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4165,
+      "source_sha256": "ea3bb0b0880362b3a21736b0496d2c03d140d7001a6a54e53abbb4298b5f1dbe",
+      "published_size": 4165,
+      "published_sha256": "ea3bb0b0880362b3a21736b0496d2c03d140d7001a6a54e53abbb4298b5f1dbe",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/SOURCE_AUDIT.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/SOURCE_AUDIT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 9541,
+      "source_sha256": "1fb447adde8112ddb37f34b81dd12058298aee2b9843536f820789f06e3ea4c7",
+      "published_size": 9541,
+      "published_sha256": "1fb447adde8112ddb37f34b81dd12058298aee2b9843536f820789f06e3ea4c7",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/TASK.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/TASK.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3768,
+      "source_sha256": "b73d368d60eb3a7ee7a8602fef4f2f82ee57fccf7b988d2d3f7119c83506e3cb",
+      "published_size": 3768,
+      "published_sha256": "b73d368d60eb3a7ee7a8602fef4f2f82ee57fccf7b988d2d3f7119c83506e3cb",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/__pycache__",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/__pycache__",
+      "status": "excluded",
+      "reason": "private consultation, runtime cache, or orchestration subtree",
+      "scope": "subtree; contents not enumerated"
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3963,
+      "source_sha256": "4f14a3590a12aeb7b620b3966af0d65d98516e39efee58106511266f76f472b9",
+      "published_size": 3963,
+      "published_sha256": "4f14a3590a12aeb7b620b3966af0d65d98516e39efee58106511266f76f472b9",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/execution_failures.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/execution_failures.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2278,
+      "source_sha256": "fd1c9328fdd63a139b0db79b552e705c563109a6213554c4aca7aba03c047af9",
+      "published_size": 2278,
+      "published_sha256": "fd1c9328fdd63a139b0db79b552e705c563109a6213554c4aca7aba03c047af9",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/negative_results.json",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/negative_results.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1834,
+      "source_sha256": "bb9e10866c62c454ce1e279dabd097ad887a5f4b12ff5d653d0ca4ab19ba80a7",
+      "published_size": 1834,
+      "published_sha256": "bb9e10866c62c454ce1e279dabd097ad887a5f4b12ff5d653d0ca4ab19ba80a7",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3990,
+      "source_sha256": "d4c44f322c6893c2c84bef8d8ff3a5363d967637c580210143c39261dba7bd2a",
+      "published_size": 3990,
+      "published_sha256": "d4c44f322c6893c2c84bef8d8ff3a5363d967637c580210143c39261dba7bd2a",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/__pycache__",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/__pycache__",
+      "status": "excluded",
+      "reason": "private consultation, runtime cache, or orchestration subtree",
+      "scope": "subtree; contents not enumerated"
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/acquire.py",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/acquire.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3994,
+      "source_sha256": "1a3e810e5afeeb6d0704c631bdfb5b4bde7d0cbbf0c57d505cec60b6633040d8",
+      "published_size": 3994,
+      "published_sha256": "1a3e810e5afeeb6d0704c631bdfb5b4bde7d0cbbf0c57d505cec60b6633040d8",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-figshare.json",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-figshare.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 6003
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 2036782
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf-page-9.png",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf-page-9.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 372008
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf.txt",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-main.pdf.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 76149
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 3418265
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-24.png",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-24.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 109380
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-25.png",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-25.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 106759
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-28.png",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-28.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 261413
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-29.png",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf-page-29.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 128495
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf.txt",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-si.pdf.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 51093
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-tabulated.xlsx",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/ou-tabulated.xlsx",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1662539
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2905,
+      "source_sha256": "6e4b5a8afd6afc2192ac9f94df1f2e7e77be30a6d843469dbb147f2d66569262",
+      "published_size": 2648,
+      "published_sha256": "563ad2dee2f74fe786c0d829cec2e52ce82f01cd7b059af990af09c80c38a147",
+      "transformations": [
+        {
+          "transformation": "credential pattern",
+          "count": 1
+        },
+        {
+          "transformation": "signed URL query removed; stable URL retained",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/task.md",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/task.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 623,
+      "source_sha256": "2deb7e60e21bd9bd10ad813fc1f1ab9faaadd1f75446a471264bf6d6e0ff2651",
+      "published_size": 623,
+      "published_sha256": "2deb7e60e21bd9bd10ad813fc1f1ab9faaadd1f75446a471264bf6d6e0ff2651",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/verification.json",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/verification.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 13847,
+      "source_sha256": "e29edf8e972b6ccf454ee9eea7825185d66e914df465b22bc0e68f48d1da04e8",
+      "published_size": 13847,
+      "published_sha256": "e29edf8e972b6ccf454ee9eea7825185d66e914df465b22bc0e68f48d1da04e8",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/sources/verify_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/sources/verify_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3260,
+      "source_sha256": "856c490ccb118cfda3d1527fac3d9c18bf2113364932b1fd64984494948259ce",
+      "published_size": 3260,
+      "published_sha256": "856c490ccb118cfda3d1527fac3d9c18bf2113364932b1fd64984494948259ce",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/origin-function-followup/test_acquire.py",
+      "source_path": "documented-scaffold-2026-10-18/origin-function-followup/test_acquire.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2185,
+      "source_sha256": "54b41b9d11917274e0c1676322c019f2d7d8ffcdc21f5ac1c85dcd42e5687c38",
+      "published_size": 2185,
+      "published_sha256": "54b41b9d11917274e0c1676322c019f2d7d8ffcdc21f5ac1c85dcd42e5687c38",
+      "transformations": []
+    },
+    {
       "path": "documented-scaffold-2026-10-18/photo-complement/PROTOCOL.md",
       "source_path": "documented-scaffold-2026-10-18/photo-complement/PROTOCOL.md",
       "status": "included",
@@ -6145,10 +6399,10 @@
       "source_path": "documented-scaffold-2026-10-18/progress.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 13025,
-      "source_sha256": "1e1b9e86626838bfe5e6cd9ff8143cdd48c7411348dd543ee3c424d5991a5101",
-      "published_size": 13025,
-      "published_sha256": "1e1b9e86626838bfe5e6cd9ff8143cdd48c7411348dd543ee3c424d5991a5101",
+      "source_size": 14946,
+      "source_sha256": "2d0479fe375d67e9397169f4c7dd3e9fa9c649c1bf257d5f5f6344dedd57afd2",
+      "published_size": 14946,
+      "published_sha256": "2d0479fe375d67e9397169f4c7dd3e9fa9c649c1bf257d5f5f6344dedd57afd2",
       "transformations": []
     },
     {
@@ -7760,6 +8014,17 @@
           "count": 1
         }
       ]
+    },
+    {
+      "path": "reviews/origin-function-followup-code-review.md",
+      "source_path": ".omo/evidence/origin-function-followup-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5956,
+      "source_sha256": "2d51681b7c38f1cc6553ed23a6c340ed2206bb4b140f3c5df37642479471ba34",
+      "published_size": 5956,
+      "published_sha256": "2d51681b7c38f1cc6553ed23a6c340ed2206bb4b140f3c5df37642479471ba34",
+      "transformations": []
     },
     {
       "path": "reviews/photo-beta-review.md",
