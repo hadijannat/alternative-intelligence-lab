@@ -1,0 +1,50 @@
+{
+  "retrieved_utc": "2026-10-18T14:59:55.870686+00:00",
+  "requests": [
+    {
+      "name": "nishioka-main.pdf",
+      "url": "https://pubs.rsc.org/ta/article-pdf/14/36/23803/12747865/d6ta02355j.pdf",
+      "attempted_utc": "2026-10-18T14:59:55.596259+00:00",
+      "status": 403,
+      "resolved_url": "https://pubs.rsc.org/ta/article-pdf/14/36/23803/12747865/d6ta02355j.pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5542,
+      "sha256": "8430fdf4f40e998432d03a8b893307cb52a6a320daab5b645b6003fce08e2818",
+      "md5": "95677a2c83a14092e504cd46e8e96331"
+    },
+    {
+      "name": "nishioka-si.pdf",
+      "url": "https://pubs.rsc.org/ta/article-supplement/1241054/pdf/d6ta02355j1_suppl/",
+      "attempted_utc": "2026-10-18T14:59:55.596705+00:00",
+      "status": 403,
+      "resolved_url": "https://pubs.rsc.org/ta/article-supplement/1241054/pdf/d6ta02355j1_suppl/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5548,
+      "sha256": "62b80e824e64006b36ba516a7da4c2f6575a613d3d5bcba9274a56ca6dd580e3",
+      "md5": "d4c0c2ef22f31218703ce27fd637bbee"
+    },
+    {
+      "name": "stevens-main.pdf",
+      "url": "https://escholarship.org/content/qt08k5s56q/qt08k5s56q_noSplash_1e87bb45bd80b5ee61ae972d8887dfd6.pdf",
+      "attempted_utc": "2026-10-18T14:59:55.597119+00:00",
+      "status": 403,
+      "resolved_url": "https://escholarship.org/content/qt08k5s56q/qt08k5s56q_noSplash_1e87bb45bd80b5ee61ae972d8887dfd6.pdf",
+      "content_type": "text/html",
+      "bytes": 919,
+      "sha256": "25f111e3c0bfe5002dc4720136d2d3ca500cd57e4579d6fafd054e9d1bbf4488",
+      "md5": "d87c275ebc891e04b5ae32311168a35d"
+    },
+    {
+      "name": "cimino-main.pdf",
+      "url": "https://iris.cnr.it/retrieve/1a173e96-30dd-4110-a69a-57265ae685e5/prod_488104-doc_202951.pdf",
+      "attempted_utc": "2026-10-18T14:59:55.597035+00:00",
+      "status": 403,
+      "resolved_url": "https://iris.cnr.it/retrieve/1a173e96-30dd-4110-a69a-57265ae685e5/prod_488104-doc_202951.pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5743,
+      "sha256": "0bfab1dbbdf9e814d6234904383856ed3d985489e885ffb0dcd88f2a6cd55cad",
+      "md5": "0dccd7b6fc8e49da5087ce654a231476"
+    }
+  ],
+  "scientific_validation": false
+}

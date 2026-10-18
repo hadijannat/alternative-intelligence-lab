@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "nishioka-main.pdf_unchanged": true,
+    "nishioka-si.pdf_unchanged": true,
+    "stevens-main.pdf_unchanged": true,
+    "cimino-main.pdf_unchanged": true,
+    "nishioka-browser-main.pdf_unchanged": true,
+    "four_failed_routes_preserved": true,
+    "native_pdf_signature": true,
+    "eleven_pages": true,
+    "title": true,
+    "exact_doi": true,
+    "both_capacity_unit_readings_retained": true
+  },
+  "all_pass": true,
+  "native_pdf": "nishioka-browser-main.pdf",
+  "native_sha256": "cc0a2f41fb99889e0b28cebe2d21270e3c532823f515727b89f53953862ce825",
+  "capacity_unit_audit": {
+    "mentions": [
+      {
+        "pdf_page": 6,
+        "journal_page": 23808,
+        "unit": "C"
+      },
+      {
+        "pdf_page": 7,
+        "journal_page": 23809,
+        "unit": "mC"
+      }
+    ],
+    "literal_unit_ratio": 1000,
+    "disposition": "Source inconsistency retained; no corrected capacity selected for analysis"
+  },
+  "full_text_extracted": true,
+  "response_points_selected_for_analysis": 0,
+  "empirical_holdout_validation": false,
+  "scientific_validation": false,
+  "missing_native": [
+    "Nishioka supplement",
+    "Stevens main",
+    "Cimino main"
+  ]
+}

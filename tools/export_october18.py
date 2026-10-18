@@ -19,7 +19,8 @@ REVIEWS = tuple(name + '.md' for name in (
     'dissolution-observation-review', 'contact-chirality-review',
     'remote-fe-transport-review', 'current-branch-impasse',
     'full-goal-critical-path-2026-10-18', 'spatial-fe-function-review',
-    'october18-publication-review', 'origin-function-followup-code-review'))
+    'october18-publication-review', 'origin-function-followup-code-review',
+    'renewal-causal-controls-review'))
 FAILURES = {
     'founder-repair-search/execution_failures.txt',
     'regeneration-controls/execution_failures.txt',

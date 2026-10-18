@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "scientific_validation": false,
   "source_root": "PROJECT_ROOT",
-  "included_files": 251,
-  "published_bytes": 11223917,
-  "excluded_entries": 723,
+  "included_files": 267,
+  "published_bytes": 11276515,
+  "excluded_entries": 735,
   "missing_reviews": [],
   "exclusions_by_reason": {
     "private consultation, runtime cache, or orchestration subtree": 16,
-    "third-party source payload or registry response; authored receipts retain provenance": 701,
+    "third-party source payload or registry response; authored receipts retain provenance": 713,
     "native figure crop or annotated source image; numeric extraction retained": 3,
     "one-to-one native workbook cells; derived analyses and provenance retained": 2,
     "third-party publisher JavaScript runtime; acquisition receipt retains URL and hash": 1
@@ -49,10 +49,10 @@
       "source_path": "documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 18398,
-      "source_sha256": "95457d51f1231decd5c9c5acf34e6daee054a6fcb1d48ae94234eb91cd7e7669",
-      "published_size": 18373,
-      "published_sha256": "c24fa4ee161cb31970b75186890a488dc8210064177ee8431f7f3d83f0e27fdf",
+      "source_size": 19664,
+      "source_sha256": "fdf36e4bd11f141cd5ac8e45487ea51502e3e116e36c1baf3a43daca6d4a4199",
+      "published_size": 19639,
+      "published_sha256": "696d1b85af8122c4f4a24e1d6a5b776476a615a525ea08b04704dea4a3e5f81a",
       "transformations": [
         {
           "transformation": "portable original goal-contract link",
@@ -65,10 +65,10 @@
       "source_path": "documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 11541,
-      "source_sha256": "9794ecaae87e175990e0db1ece3f3cb12e57bd333293cbf3513cc5ac00ddb5cd",
-      "published_size": 11541,
-      "published_sha256": "9794ecaae87e175990e0db1ece3f3cb12e57bd333293cbf3513cc5ac00ddb5cd",
+      "source_size": 13155,
+      "source_sha256": "371af39dc39878e5f061022e62f2c68d4ede99c998f7e45a334e24aa5db48dee",
+      "published_size": 13155,
+      "published_sha256": "371af39dc39878e5f061022e62f2c68d4ede99c998f7e45a334e24aa5db48dee",
       "transformations": []
     },
     {
@@ -6399,10 +6399,10 @@
       "source_path": "documented-scaffold-2026-10-18/progress.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 14946,
-      "source_sha256": "2d0479fe375d67e9397169f4c7dd3e9fa9c649c1bf257d5f5f6344dedd57afd2",
-      "published_size": 14946,
-      "published_sha256": "2d0479fe375d67e9397169f4c7dd3e9fa9c649c1bf257d5f5f6344dedd57afd2",
+      "source_size": 16183,
+      "source_sha256": "281bd95183915621f5dd58c4cd4b0fa63ea4495c1e787991461c884e88cf4559",
+      "published_size": 16183,
+      "published_sha256": "281bd95183915621f5dd58c4cd4b0fa63ea4495c1e787991461c884e88cf4559",
       "transformations": []
     },
     {
@@ -7028,6 +7028,260 @@
       "source_sha256": "d0e09a672cc1c0b558c73cfae724cc4c13156f0e947b0e32ef023e5a3cba36d3",
       "published_size": 58721,
       "published_sha256": "d0e09a672cc1c0b558c73cfae724cc4c13156f0e947b0e32ef023e5a3cba36d3",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3822,
+      "source_sha256": "0e5117dc99233e5b4c6a2d5d6aa51aaabf4737cef263d6a4df553ecf84527928",
+      "published_size": 3822,
+      "published_sha256": "0e5117dc99233e5b4c6a2d5d6aa51aaabf4737cef263d6a4df553ecf84527928",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3412,
+      "source_sha256": "d77a226bcaa299a365b9ab2ef3db05d2a8c3ea45414701428be0e0aeebf24f9c",
+      "published_size": 3412,
+      "published_sha256": "d77a226bcaa299a365b9ab2ef3db05d2a8c3ea45414701428be0e0aeebf24f9c",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/R_SCOPE_CLARIFICATION.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/R_SCOPE_CLARIFICATION.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2553,
+      "source_sha256": "7e77f292bec8bad967ebfd40d7db3e9fab2acda5e697154868ca0a9301fd16a6",
+      "published_size": 2553,
+      "published_sha256": "7e77f292bec8bad967ebfd40d7db3e9fab2acda5e697154868ca0a9301fd16a6",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/SOURCE_AUDIT.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/SOURCE_AUDIT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 9202,
+      "source_sha256": "240752f45d7551fb89605efa2c7fa0fbd99365a90f88afb7d40ca9a015f10496",
+      "published_size": 9202,
+      "published_sha256": "240752f45d7551fb89605efa2c7fa0fbd99365a90f88afb7d40ca9a015f10496",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/TASK.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/TASK.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1767,
+      "source_sha256": "bb4e5232ac9356cc87b53d949358f47df24271992c2741545a01a8df00ec1442",
+      "published_size": 1767,
+      "published_sha256": "bb4e5232ac9356cc87b53d949358f47df24271992c2741545a01a8df00ec1442",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3906,
+      "source_sha256": "885627c38de0cad30f3becdd3e6ce6e12830b24297db8cb3b03b924ec3524ee5",
+      "published_size": 3906,
+      "published_sha256": "885627c38de0cad30f3becdd3e6ce6e12830b24297db8cb3b03b924ec3524ee5",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/execution_failures.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/execution_failures.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1851,
+      "source_sha256": "4b6740efeb302614c02630c9f72e65222176f5ea4d2673d45d5811a323ec6a5d",
+      "published_size": 1851,
+      "published_sha256": "4b6740efeb302614c02630c9f72e65222176f5ea4d2673d45d5811a323ec6a5d",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/negative_results.json",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/negative_results.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2474,
+      "source_sha256": "da7b60eb17b1997f0d8d9aa42688729d2b665b160b66dcff9a17e0284720bbb2",
+      "published_size": 2474,
+      "published_sha256": "da7b60eb17b1997f0d8d9aa42688729d2b665b160b66dcff9a17e0284720bbb2",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3648,
+      "source_sha256": "78004c4e2a3ac37126883a5d545aa4ba38e0d71ae8838ace8bb3fb56224f10ae",
+      "published_size": 3648,
+      "published_sha256": "78004c4e2a3ac37126883a5d545aa4ba38e0d71ae8838ace8bb3fb56224f10ae",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/acquire_browser_main.py",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/acquire_browser_main.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1151,
+      "source_sha256": "a320f9dba1c9de9c7be1b19c23c7f4eb82267eaecb8bf949a9688617d0a5bc47",
+      "published_size": 1151,
+      "published_sha256": "a320f9dba1c9de9c7be1b19c23c7f4eb82267eaecb8bf949a9688617d0a5bc47",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/browser-main-receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/browser-main-receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1752,
+      "source_sha256": "8d7cfb2950c423098c96cca81bdc4e8d62c4f75fa6e6e2b5b30238fdad40b6cc",
+      "published_size": 938,
+      "published_sha256": "b1091994eb35beaaff87c0a2786bb3d600007b2bc7d4ea00af1a803efc3929bf",
+      "transformations": [
+        {
+          "transformation": "signed URL query removed; stable URL retained",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/cimino-main.pdf",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/cimino-main.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 5743
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/collect_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/collect_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1643,
+      "source_sha256": "558011d1bad179a12836124c84f327bdc065f88f987514655ccd1fd605e60ce7",
+      "published_size": 1643,
+      "published_sha256": "558011d1bad179a12836124c84f327bdc065f88f987514655ccd1fd605e60ce7",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-browser-main.pdf",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-browser-main.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1069448
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-main.pdf",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-main.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 5542
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-main.txt",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-main.txt",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 60256
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-10.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-10.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 273845
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-3.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-3.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 275858
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-6.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-6.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 254444
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-7.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-7.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 289369
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-8.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-8.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 303727
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-9.png",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-page-9.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 281581
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/nishioka-si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 5548
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2259,
+      "source_sha256": "ff9423902253f77d9a3bdfc7bad2e8005042318db4e4a3a882bc8aec8aafccee",
+      "published_size": 2259,
+      "published_sha256": "ff9423902253f77d9a3bdfc7bad2e8005042318db4e4a3a882bc8aec8aafccee",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/stevens-main.pdf",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/stevens-main.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 919
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/verification.json",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/verification.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1186,
+      "source_sha256": "6c2a75c8aa11c8d47109dfc7adac441e73435e250150ff5e3f04779208158cf5",
+      "published_size": 1186,
+      "published_sha256": "6c2a75c8aa11c8d47109dfc7adac441e73435e250150ff5e3f04779208158cf5",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/verify_sources.py",
+      "source_path": "documented-scaffold-2026-10-18/renewal-causal-controls/sources/verify_sources.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2897,
+      "source_sha256": "533dbed24a64b6025755f2e7cf0813939492d2de151b25a7fbc33b319bc54484",
+      "published_size": 2897,
+      "published_sha256": "533dbed24a64b6025755f2e7cf0813939492d2de151b25a7fbc33b319bc54484",
       "transformations": []
     },
     {
@@ -8073,6 +8327,17 @@
           "count": 1
         }
       ]
+    },
+    {
+      "path": "reviews/renewal-causal-controls-review.md",
+      "source_path": ".omo/evidence/renewal-causal-controls-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5772,
+      "source_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
+      "published_size": 5772,
+      "published_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
+      "transformations": []
     },
     {
       "path": "reviews/spatial-fe-function-review.md",
