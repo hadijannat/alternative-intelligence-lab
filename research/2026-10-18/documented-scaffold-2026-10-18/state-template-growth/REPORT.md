@@ -4,7 +4,7 @@
 
 ## Primary observation and its scope
 
-The new primary package is Peña et al., [*Template-growth of periodically domain-structured KTiOPO4*, Optical Materials Express 1,185–191 (2011)](https://doi.org/10.1364/OME.1.000185), acquired as the public [HAL author manuscript](https://hal.science/hal-00909130/file/PPKTP_OMEx_Revised_280411.pdf). Its [2012 growth companion](https://doi.org/10.1016/j.jcrysgro.2011.11.081) refers back to this optical experiment and is not an independent replication. Native PDFs, rights/identity metadata, checksums, complete extracted text and inspected figure pixels are in `sources/`. [Source audit](SOURCE_AUDIT.md).
+The new primary package is Peña et al., [*Template-growth of periodically domain-structured KTiOPO4*, Optical Materials Express 1,185–191 (2011)](https://doi.org/10.1364/OME.1.000185), acquired as the public [HAL author manuscript](https://hal.science/hal-00909130/file/PPKTP_OMEx_Revised_280411.pdf). Its [2012 growth companion](https://doi.org/10.1016/j.jcrysgro.2011.11.081) refers back to this optical experiment and is not an independent replication. Native PDFs, rights/identity metadata, checksums, complete extracted text and inspected figure pixels are in `sources/`. [Source audit](<SOURCE_AUDIT.md>).
 
 The authors first program a 38.86µm domain grating electrically into the seed. They grow KTP from an inorganic KTP/KPO3/KF flux, beginning at 1005.5K with a 0.05K/h cooling ramp. The operating temperature is below both the stated Curie range and polar-face roughening threshold, protecting the seed pattern and growth morphology. The resulting layer remains attached. Named crystal and flux compositions contain no carbon; the fabrication, lithographic processing and complete apparatus carbon inventory are not established.
 
@@ -14,7 +14,7 @@ The new-layer peak is approximately 28% lower. Both spectra have a 12.7nm·cm ba
 
 ## Executed optical checks
 
-[The protocol](PROTOCOL.md) discloses that these source outcomes were known before calculations. No parameter was fitted and no held-out validation is claimed. [The executable](check_optics.py) performs source-consistency and synthetic observation-symmetry checks; [results](results/optics.json) preserve source/protocol/script hashes, every sensitivity scenario and the missing experimental bounds as null.
+[The protocol](<PROTOCOL.md>) discloses that these source outcomes were known before calculations. No parameter was fitted and no held-out validation is claimed. [The executable](<check_optics.py>) performs source-consistency and synthetic observation-symmetry checks; [results](<results/optics.json>) preserve source/protocol/script hashes, every sensitivity scenario and the missing experimental bounds as null.
 
 For an ideal Gaussian pump, the radius is **35µm**, not 70µm. At a 225µm separation from the seed half-plane:
 
@@ -34,7 +34,7 @@ The two quoted wavelength intervals overlap; their centers differ by 0.2nm. The 
 
 For the usual undepleted coherent observation, amplitude is proportional to `integral d33(s) exp(i*DeltaK*s) ds`, and the measured intensity is its squared magnitude. Reversing **every** domain sign changes amplitude sign but leaves intensity unchanged. The exact piecewise integral and a synthetic 20-period scan confirm zero intensity difference between these globally reversed gratings.
 
-![Conditional optical geometry and synthetic sign symmetry](results/optics.png)
+![Conditional optical geometry and synthetic sign symmetry](<results/optics.png>)
 
 This readout cannot identify absolute global polarization from an intensity spectrum. It does not erase all pattern information: periodic and uniform structures have different phase-matching spectra, and grating period or relative domain arrangement can remain observable. A phase-sensitive measurement or two distinguishable pattern variants is needed before calling this a signed hereditary-state assay. The synthetic mismatch axis is dimensionless; it is not a predicted wavelength spectrum or a fitted copy-error rate.
 

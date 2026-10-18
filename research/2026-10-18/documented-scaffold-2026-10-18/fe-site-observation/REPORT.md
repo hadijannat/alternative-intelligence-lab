@@ -6,7 +6,7 @@ The original Mo34WV-plus-complements objective and all12requirements remain inta
 
 ## Primary source and actual data boundary
 
-Haitao Qian et al., [*In Situ Quantification of the Active Sites, Turnover Frequency, and Stability of Ni–Fe (Oxy)hydroxides for the Oxygen Evolution Reaction*](https://doi.org/10.1021/acscatal.2c03898), ACS Catalysis12 (2022),14280–14289. The native [public SI](https://ndownloader.figshare.com/files/38122559) is the sole file in [publisher Figshare record21509957](https://acs.figshare.com/articles/journal_contribution/In_Situ_Quantification_of_the_Active_Sites_Turnover_Frequency_and_Stability_of_Ni_Fe_Oxy_hydroxides_for_the_Oxygen_Evolution_Reaction/21509957), 644572bytes and11pages, with matching deposited MD5 and saved SHA256. [Source audit](SOURCE_AUDIT.md) records rights, routes, methods and limitations. Main-body acquisition returned403; an author institutional bibliography confirms identity but supplies no manuscript. No raw numeric trace, spreadsheet or analysis code is deposited in this record.
+Haitao Qian et al., [*In Situ Quantification of the Active Sites, Turnover Frequency, and Stability of Ni–Fe (Oxy)hydroxides for the Oxygen Evolution Reaction*](https://doi.org/10.1021/acscatal.2c03898), ACS Catalysis12 (2022),14280–14289. The native [public SI](https://ndownloader.figshare.com/files/38122559) is the sole file in [publisher Figshare record21509957](https://acs.figshare.com/articles/journal_contribution/In_Situ_Quantification_of_the_Active_Sites_Turnover_Frequency_and_Stability_of_Ni_Fe_Oxy_hydroxides_for_the_Oxygen_Evolution_Reaction/21509957), 644572bytes and11pages, with matching deposited MD5 and saved SHA256. [Source audit](<SOURCE_AUDIT.md>) records rights, routes, methods and limitations. Main-body acquisition returned403; an author institutional bibliography confirms identity but supplies no manuscript. No raw numeric trace, spreadsheet or analysis code is deposited in this record.
 
 SI FigureS8 follows seven cycling labels in1M KOH plus2µM Fe3+, from−0.4 to1.6V versus RHE. Panel a contains separate current-density curves; panel d contains a derived Fe-density proxy and TOF. Methods count Fe using corrected reduction charge, assuming one electron per accessible Fe. The axis is mol/cm2, so its areal charge conversion uses **Faraday's constant**, not elementary charge times moles.
 
@@ -14,7 +14,7 @@ The source's apparent TOF is current divided by four times that same redox charg
 
 ## Extraction limitations govern interpretation
 
-The PDF embeds FigureS8 as a **540×412 JPEG**, with no vector curves. [The extractor](extract_figS8.py), [native/annotated pixels](data/figS8_calibration.png), [point provenance](data/point_provenance.csv) and [seven-row table](data/figS8_points.json) preserve the reading process. The current curves merge into only **four distinguishable color groups**: cycles1/2,3/4 and6/7 share broad color-compatible intervals; cycle5 is separate. Sweep branches are not labeled. No response ranking or fit was used to invent distinct values for the ambiguous pairs.
+The PDF embeds FigureS8 as a **540×412 JPEG**, with no vector curves. [The extractor](<extract_figS8.py>), native/annotated pixels (dependency not included: `documented-scaffold-2026-10-18/fe-site-observation/data/figS8_calibration.png`), [point provenance](<data/point_provenance.csv>) and [seven-row table](<data/figS8_points.json>) preserve the reading process. The current curves merge into only **four distinguishable color groups**: cycles1/2,3/4 and6/7 share broad color-compatible intervals; cycle5 is separate. Sweep branches are not labeled. No response ranking or fit was used to invent distinct values for the ambiguous pairs.
 
 Nominal currents are interval midpoints, not seven resolved raw measurements. The bounds include the horizontal calibration band because the steep OER slope amplifies a one-pixel horizontal error. Density points are more readable, but baseline cycle1 has overlapping symbols and a wider interval. These are deliberately loose manual extraction envelopes, not experimental error bars, likelihoods or confidence intervals. Shared colors, axes and baseline induce correlations that the independent interval box does not model.
 
@@ -22,7 +22,7 @@ Two extraction failures were caught before fitting: a floating-point self-check 
 
 ## Predeclared test and observed result
 
-[The protocol](PROTOCOL.md) fixes cycle1 as baseline, cycles2–4 for fitting, and cycles5–7 as reserved responses. Qualitative source conclusions were already known; the extraction agent is response-exposed. This is retrospective, paper-informed conditional prediction from a published figure. Reserved Fe density is supplied as an observation, so density evolution itself is not forecast.
+[The protocol](<PROTOCOL.md>) fixes cycle1 as baseline, cycles2–4 for fitting, and cycles5–7 as reserved responses. Qualitative source conclusions were already known; the extraction agent is response-exposed. This is retrospective, paper-informed conditional prediction from a published figure. Reserved Fe density is supplied as an observation, so density evolution itself is not forecast.
 
 M0 fits added current proportional to added redox-accessible Fe density with a fixed host baseline. M1 adds an exponential cycle-dependent competence coefficient. It is an empirical two-parameter diagnostic, not an identified chemical mechanism. Both models constrain the apparent scale k to be nonnegative; M1 gamma ranges from −ln(10) to +ln(10). M0 is nested in M1. B1 andB4 carry forward the baseline or last training current, respectively. They do not bound adaptive founder activity.
 
@@ -41,9 +41,9 @@ All16384corners of the deliberately independent14-dimensional extraction box wer
 
 B4 has no passing corner, which does not reject the model throughout the continuous box. As a post-hoc illustration,35mA/cm2 lies inside each interval for cycles4–7; assigning that value to those four entries makes B4's reserved error zero inside the loose box. This hypothetical interior is not a new extraction or an observed current trajectory, and source correlations could exclude it. It demonstrates why corner evaluation cannot certify a continuous bound. No nominal data or reported fit was replaced by it.
 
-![Figure-derived conditional current test](results/models.png)
+![Figure-derived conditional current test](<results/models.png>)
 
-[Machine-readable results](results/models.json) retain every nominal prediction/residual, exact fit parameters, sensitivity summaries, origin witness and frozen-input hashes. [The implementation](test_models.py) checks molar/charge units, synthetic recovery, zero/leverage limits, nesting and exclusion of reserved current **and** density from fitting. Numerical checks passed; scientific inference remains qualified by the data.
+[Machine-readable results](<results/models.json>) retain every nominal prediction/residual, exact fit parameters, sensitivity summaries, origin witness and frozen-input hashes. [The implementation](<test_models.py>) checks molar/charge units, synthetic recovery, zero/leverage limits, nesting and exclusion of reserved current **and** density from fitting. Numerical checks passed; scientific inference remains qualified by the data.
 
 ## Why origin-specific repair is still unidentifiable
 

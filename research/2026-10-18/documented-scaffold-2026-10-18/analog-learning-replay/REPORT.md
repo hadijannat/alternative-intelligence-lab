@@ -1,6 +1,6 @@
 # Physical-learning evidence stages
 
-Current result: [REPLAY_REPORT.md](REPLAY_REPORT.md) records successful named-property decoding, two preserved response-replay failures, and an independent input-only audit. All1,524TEST columns across191qualified records are also training inputs. No performance replay or independent generalization was validated. All twelve integrated requirements remain open.
+Current result: [REPLAY_REPORT.md](<REPLAY_REPORT.md>) records successful named-property decoding, two preserved response-replay failures, and an independent input-only audit. All1,524TEST columns across191qualified records are also training inputs. No performance replay or independent generalization was validated. All twelve integrated requirements remain open.
 
 ## Original acquisition-stage report
 

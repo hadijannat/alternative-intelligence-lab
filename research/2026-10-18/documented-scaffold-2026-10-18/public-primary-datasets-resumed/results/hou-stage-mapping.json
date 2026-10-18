@@ -1,0 +1,60 @@
+{
+  "status": "posthoc_descriptive_stage_reconciliation",
+  "original_frozen_fe_physical_pairing": "incorrect_for_recovery; preserved",
+  "original_result_unchanged": true,
+  "cycles": [
+    {
+      "cycle": 1,
+      "start_percent": 93.1,
+      "after_ten_hours_percent": 79,
+      "within_cycle_fe_retention": 0.8485499462943072,
+      "start_initial_start_ratio": 1.0
+    },
+    {
+      "cycle": 2,
+      "start_percent": 91.5,
+      "after_ten_hours_percent": 77.3,
+      "within_cycle_fe_retention": 0.8448087431693989,
+      "start_initial_start_ratio": 0.9828141783029002
+    },
+    {
+      "cycle": 3,
+      "start_percent": 89.8,
+      "after_ten_hours_percent": 75.9,
+      "within_cycle_fe_retention": 0.8452115812917596,
+      "start_initial_start_ratio": 0.9645542427497314
+    }
+  ],
+  "displayed_recovery_arrows": [
+    {
+      "transition": 1,
+      "deactivated_row": 4,
+      "next_start_row": 6,
+      "before_percent": 79,
+      "after_percent": 91.5,
+      "next_start_deactivated_ratio": 1.1582278481012658,
+      "difference_percentage_points": 12.5
+    },
+    {
+      "transition": 2,
+      "deactivated_row": 7,
+      "next_start_row": 9,
+      "before_percent": 77.3,
+      "after_percent": 89.8,
+      "next_start_deactivated_ratio": 1.1617076326002587,
+      "difference_percentage_points": 12.5
+    }
+  ],
+  "source_figure_units": "FE of formate (%)",
+  "unobserved_third_recovery": null,
+  "fitted_parameters": 0,
+  "predictive_validation": false,
+  "full_integrated_requirements_closed": [],
+  "provenance": {
+    "results/hou-test.json": "52c8a954e1b33c40643930d20c859202966e483ca7b370b3a7648838e60bcd36",
+    "STAGE_MAPPING_AMENDMENT.md": "370ea0d5dba473e342dd8d4f21164b325ed8e5cc22f8b78a7b3336c663029166",
+    "sources/hou-fig5.png": "9a076caf64e9c24ecd1aa2810c1cf4bf10983368cf5e360ab7e8f4b99018d8f4",
+    "sources/figure5-acquisition.json": "14c99ebfb077c9d31536d1087dc2be71d2f65bf61d2f83d913a64ee8f881aaa9",
+    "reconcile_hou_stages.py": "7ac32156e5e8ed07b8136c0adfead10cefa70f898e3c8e2dca84b197acdd24a7"
+  }
+}

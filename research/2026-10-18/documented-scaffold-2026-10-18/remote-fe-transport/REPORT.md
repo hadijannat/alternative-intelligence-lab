@@ -4,7 +4,7 @@ The new primary intervention supplies stronger evidence than current-only regene
 
 ## Source and controls
 
-[Zhao et al., *Remote Iron dynamics of NiFe (oxy)hydroxides toward robust active sites in water oxidation*](https://doi.org/10.1038/s41467-025-60728-y), Nature Communications16,5601 (2025). [Acquisition](ACQUISITION.md) verifies the native article, SI, peer-review file,19-sheet numerical workbook and supplementary17CIF structures. [The source audit](SOURCE_AUDIT.md) maps actual headers and preserves numbering/preparation inconsistencies. These are newly analyzed source data, not another experiment.
+[Zhao et al., *Remote Iron dynamics of NiFe (oxy)hydroxides toward robust active sites in water oxidation*](https://doi.org/10.1038/s41467-025-60728-y), Nature Communications16,5601 (2025). [Acquisition](<ACQUISITION.md>) verifies the native article, SI, peer-review file,19-sheet numerical workbook and supplementary17CIF structures. [The source audit](<SOURCE_AUDIT.md>) maps actual headers and preserves numbering/preparation inconsistencies. These are newly analyzed source data, not another experiment.
 
 The low-loading comparison uses NiFe-LDH-derived material in single-cell(SC), AEM H-cell and CEM/PEM H-cell configurations in1M KOH. Membrane, geometry and solution-volume differences remain; the exact CA interfacial-potential correction is not fully specified. The paper does address immediate membrane/electrolyte/bubble effects: the **same working electrode** is tested in refreshed SC conditions before and after its assigned exposure. This positive control is retained, not dismissed.
 
@@ -12,7 +12,7 @@ Counter-electrode metal measurements use another substrate/loading. They cannot 
 
 ## Frozen experimental screen
 
-[Protocol](PROTOCOL.md), [metadata amendment](AMENDMENTS.md) and [extraction notes](EXTRACTION.md) separate reserved numerical observations from already known qualitative claims. This is retrospective and source-informed. No clean blind or independent-specimen validation is claimed.
+[Protocol](<PROTOCOL.md>), [metadata amendment](<AMENDMENTS.md>) and [extraction notes](<EXTRACTION.md>) separate reserved numerical observations from already known qualitative claims. This is retrospective and source-informed. No clean blind or independent-specimen validation is claimed.
 
 At1.53V, including both CV branch crossings, the refreshed-SC after/before current ratios are:
 
@@ -36,9 +36,9 @@ Ten frozen synthetic cases use the specified common rates, ka=0,0.1,1,10,100 and
 
 The step-halving diagnostic also fails its implementation tolerance1e-5 for the two ka100 cases, reaching1.15e-5. The other eight are below9e-7. The protocol required the comparison but supplied no tolerance; the implementation's failure flag is retained. Eleven other checks pass. Process exit0 means artifacts were saved, not that every numerical or scientific check passed. No result was retuned or replaced to obtain a pass.
 
-![Native observations and frozen tests](results/observations.png)
+![Native observations and frozen tests](<results/observations.png>)
 
-[Results](results/analysis.json) retain native-cell provenance, all crossings/windows, null screens, synthetic trajectories, failures and frozen hashes. The improvement still lacks a measured inactive-state population, persistent blocking kinetics and independently constrained boundary flux. Adding more free loss terms to the consumed curves would not identify those quantities.
+[Results](<results/analysis.json>) retain native-cell provenance, all crossings/windows, null screens, synthetic trajectories, failures and frozen hashes. The improvement still lacks a measured inactive-state population, persistent blocking kinetics and independently constrained boundary flux. Adding more free loss terms to the consumed curves would not identify those quantities.
 
 ## Zn-derived precursor decision
 
@@ -52,6 +52,6 @@ Carbon black/Nafion, glassy carbon and the external electrochemical apparatus re
 
 Retain state-dependent competence and inactive-material removal as necessary design questions. Reject a boundary proposal justified solely by total-metal retention. The tested aggregation model remains an unvalidated partial explanation; chloride-derived NiFe is a source-condition comparator, and the Zn modifier earns no verified incremental retention role here. Zero integrated complements are added; all12full-system requirements remain unclosed.
 
-The parallel [contact-state assessment](../contact-chirality/REPORT.md) provides a different H-route proposal but no isolated, serially inherited recipient function. The exact Mo34WV identity, coupled renewal, functional heredity and intelligence remain unverified.
+The parallel [contact-state assessment](<../contact-chirality/REPORT.md>) provides a different H-route proposal but no isolated, serially inherited recipient function. The exact Mo34WV identity, coupled renewal, functional heredity and intelligence remain unverified.
 
 A concrete next primary lead is spatial edge/plane Fe function, DOI10.1021/jacs.5c00438, previously abstract-screened only. Its native SI/data must first be acquired and matched to independent site-state/function measurements before adding a persistent-state term or testing another candidate. No property from that unacquired dataset is used here. This step is progress through new intervention evidence, executed tests and preserved negative decisions; the full original goal remains active and unachieved.

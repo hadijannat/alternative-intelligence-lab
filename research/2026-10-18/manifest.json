@@ -2,20 +2,20 @@
   "date": "2026-10-18",
   "scientific_validation": false,
   "source_root": "PROJECT_ROOT",
-  "included_files": 333,
-  "published_bytes": 20633092,
-  "excluded_entries": 772,
+  "included_files": 384,
+  "published_bytes": 21339530,
+  "excluded_entries": 789,
   "missing_reviews": [],
   "exclusions_by_reason": {
-    "private consultation, runtime cache, or orchestration subtree": 16,
-    "third-party source payload or registry response; authored receipts retain provenance": 747,
+    "private consultation, runtime cache, or orchestration subtree": 17,
+    "third-party source payload or registry response; authored receipts retain provenance": 763,
     "third-party native browser payload; authored receipts retain provenance": 3,
     "native figure crop or annotated source image; numeric extraction retained": 3,
     "one-to-one native workbook cells; derived analyses and provenance retained": 2,
     "third-party publisher JavaScript runtime; acquisition receipt retains URL and hash": 1
   },
   "generated_files": {
-    "README.md": "3aea605178467613ec97e4ec1605779d2d86215ca075a05a4fac5016c92860cc"
+    "README.md": "28ff273de749c1ac81cbb5617db4d80c40e09be1825bb993c659f20c098bca48"
   },
   "files": [
     {
@@ -50,27 +50,47 @@
       "source_path": "documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 22980,
-      "source_sha256": "93209b8ea9463bea85199d7ac426d785adb0d2eccec8eb169c538a86959a9383",
-      "published_size": 22955,
-      "published_sha256": "812f20b29a4a614fdc0836c5f8477131b7e508fe19a6541051799bfc68b55220",
+      "source_size": 29995,
+      "source_sha256": "2f8fb99b413264385a343e35889b1ccff1a6c6cf08f3d79afb8b3add587b5740",
+      "published_size": 30006,
+      "published_sha256": "9074d99a6efc5116d504be9e33dc0611a33ea7c1fe951ddf50e9be74bb77711b",
       "transformations": [
         {
           "transformation": "portable original goal-contract link",
           "count": 1
+        },
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 18
         }
       ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/NEXT_GOAL.md",
+      "source_path": "documented-scaffold-2026-10-18/NEXT_GOAL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 6345,
+      "source_sha256": "e9a0a5c8af8303ffcb6e095cc8e4ef63cd43565fea7bb080a1d5cdeb7c520145",
+      "published_size": 6345,
+      "published_sha256": "e9a0a5c8af8303ffcb6e095cc8e4ef63cd43565fea7bb080a1d5cdeb7c520145",
+      "transformations": []
     },
     {
       "path": "documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md",
       "source_path": "documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 16462,
-      "source_sha256": "3fb320e22683ab670bf1d4b23e3fa867b1182f0772a6b19681004aa1ea6f2d5a",
-      "published_size": 16462,
-      "published_sha256": "3fb320e22683ab670bf1d4b23e3fa867b1182f0772a6b19681004aa1ea6f2d5a",
-      "transformations": []
+      "source_size": 22137,
+      "source_sha256": "385e6c7dfceccbc4ba36d480c06ebdc5008b0ebf88495e97b9ed4b06790bdbd5",
+      "published_size": 22139,
+      "published_sha256": "918a72c7710a363558da1ef01e61f5bd7529c26d908df9790095e81338f78b1e",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 1
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/PROTOCOL.md",
@@ -90,9 +110,14 @@
       "reason": "authored research or provenance record",
       "source_size": 10669,
       "source_sha256": "734b01f8e70912bb0e13efeba11c90fa9f25b33fb266eace9f989a4c2460e66b",
-      "published_size": 10669,
-      "published_sha256": "734b01f8e70912bb0e13efeba11c90fa9f25b33fb266eace9f989a4c2460e66b",
-      "transformations": []
+      "published_size": 10744,
+      "published_sha256": "5ebf2f0be82811ac965d7a7d332d3d14c2ac105eba7438137b6decaa90b4d82e",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 10
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/SOURCES.md",
@@ -218,9 +243,14 @@
       "reason": "authored research or provenance record",
       "source_size": 2893,
       "source_sha256": "c3f62dfb730e0d6083ae9ffc965d653f590768d1110cac6938780e7ba91b6e1b",
-      "published_size": 2893,
-      "published_sha256": "c3f62dfb730e0d6083ae9ffc965d653f590768d1110cac6938780e7ba91b6e1b",
-      "transformations": []
+      "published_size": 2895,
+      "published_sha256": "5119d02f183f7eeb0a890b50f1cdae647b736ffc2fc87718159bd618c19e371c",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 1
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/analog-learning-replay/SOURCE_AUDIT.md",
@@ -851,11 +881,15 @@
       "reason": "authored research or provenance record",
       "source_size": 5795,
       "source_sha256": "0b2a4f784d801d6275046e3552e35acb1041ef1482cec9e087ca4ed137d1f6e0",
-      "published_size": 5786,
-      "published_sha256": "c2a0e62db91a61ad6cb146081a722db0ad32f62d05c749af0520e2407ba79432",
+      "published_size": 5788,
+      "published_sha256": "11654772726fe5869ce29ed019e2a0cde497b0577df9eb5a36e2d95088ed14fa",
       "transformations": [
         {
           "transformation": "host home path",
+          "count": 1
+        },
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
           "count": 1
         }
       ]
@@ -867,9 +901,14 @@
       "reason": "authored research or provenance record",
       "source_size": 3468,
       "source_sha256": "59e56aefa2da526da2d2e1e111ec3be30833b9b1d36f3803f67cef2fcde7fab7",
-      "published_size": 3468,
-      "published_sha256": "59e56aefa2da526da2d2e1e111ec3be30833b9b1d36f3803f67cef2fcde7fab7",
-      "transformations": []
+      "published_size": 3472,
+      "published_sha256": "66b258e770019ba5f6a8f5414c49a9b82d57d91193a7c7403f376facab6d901c",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 2
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/contact-chirality/SOURCE_AUDIT.md",
@@ -878,9 +917,14 @@
       "reason": "authored research or provenance record",
       "source_size": 7067,
       "source_sha256": "fc75961207569fd14b2df4352f941249b0eaad653c5870b8d3541fdc60152396",
-      "published_size": 7067,
-      "published_sha256": "fc75961207569fd14b2df4352f941249b0eaad653c5870b8d3541fdc60152396",
-      "transformations": []
+      "published_size": 7219,
+      "published_sha256": "a0f2dc21339edda2cb37405f87b9687ef8bf1c07bb273fd4d99f9372f1a1f048",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 3
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/contact-chirality/checks.md",
@@ -1025,9 +1069,14 @@
       "reason": "authored research or provenance record",
       "source_size": 7508,
       "source_sha256": "91c886313bd8ea61f44f4990bbc0cd04425cc35f7458ac9ea5d521863a0dd122",
-      "published_size": 7508,
-      "published_sha256": "91c886313bd8ea61f44f4990bbc0cd04425cc35f7458ac9ea5d521863a0dd122",
-      "transformations": []
+      "published_size": 7510,
+      "published_sha256": "ec1a0e69e93c3981694c3a0c8b26af49e306189a5387fd9bffe48eb80411e33a",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 1
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/coupling-identifiability/checks.md",
@@ -1096,9 +1145,14 @@
       "reason": "authored research or provenance record",
       "source_size": 6830,
       "source_sha256": "c98c2bd24fddfef497087fd9ae27ee60f64f7e2da8b2ce681e91fb78b0142b54",
-      "published_size": 6830,
-      "published_sha256": "c98c2bd24fddfef497087fd9ae27ee60f64f7e2da8b2ce681e91fb78b0142b54",
-      "transformations": []
+      "published_size": 6842,
+      "published_sha256": "b13426b3500cb22deb67138bd25e9233d7509d4d0fff359481d190a0b42be42f",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 6
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/cue-free-inheritance/STW_FINDINGS.md",
@@ -1661,9 +1715,14 @@
       "reason": "authored research or provenance record",
       "source_size": 7583,
       "source_sha256": "c34f4ba61d5d32356220ea41016442bfe915e999f8602564c23ae50b1f22cd9e",
-      "published_size": 7583,
-      "published_sha256": "c34f4ba61d5d32356220ea41016442bfe915e999f8602564c23ae50b1f22cd9e",
-      "transformations": []
+      "published_size": 7595,
+      "published_sha256": "1544b88077b34a93641e666f6800a58f5d53f9fe6f718c5f50aaa551fd3fc099",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 6
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/dissolution-observation/SOURCE_AUDIT.md",
@@ -2202,9 +2261,14 @@
       "reason": "authored research or provenance record",
       "source_size": 10415,
       "source_sha256": "1ae951d7a5c1f3a3d85e4be78823392cf938c1e861da16326ecfde1e845cebf1",
-      "published_size": 10415,
-      "published_sha256": "1ae951d7a5c1f3a3d85e4be78823392cf938c1e861da16326ecfde1e845cebf1",
-      "transformations": []
+      "published_size": 10508,
+      "published_sha256": "14272e85f4fcdd4f89d2f5c9f39512a1083c4cb6abf27f57714be3ee009720ed",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 9
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/fe-site-observation/SOURCE_AUDIT.md",
@@ -2519,9 +2583,14 @@
       "reason": "authored research or provenance record",
       "source_size": 12073,
       "source_sha256": "152019648ebb712cbca97c6a3f3ab4c2dc2f45997c49b4cc99503549dae66e6e",
-      "published_size": 12073,
-      "published_sha256": "152019648ebb712cbca97c6a3f3ab4c2dc2f45997c49b4cc99503549dae66e6e",
-      "transformations": []
+      "published_size": 12403,
+      "published_sha256": "5810abbe7410c5f465a8ddb68fb30a8879d83d112c5452203b3091c277966634",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 11
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/founder-repair-search/__pycache__",
@@ -6374,9 +6443,14 @@
       "reason": "authored research or provenance record",
       "source_size": 8046,
       "source_sha256": "386c053f8784ab564a597e1c9e2daf59d5fac22f5c9508ea33358ab38ba2ff5b",
-      "published_size": 8046,
-      "published_sha256": "386c053f8784ab564a597e1c9e2daf59d5fac22f5c9508ea33358ab38ba2ff5b",
-      "transformations": []
+      "published_size": 8050,
+      "published_sha256": "cf12ea7deb7869ab88be67f71ea2479e63062b7536ce2d84d2b2c903864fe318",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 2
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/functional-carrier-search/__pycache__",
@@ -6628,6 +6702,77 @@
       "transformations": []
     },
     {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 8376,
+      "source_sha256": "d336be50923c7c9bd53a6fad9cb1470ffbceb98a024be21633d2484a2b10a0ad",
+      "published_size": 8379,
+      "published_sha256": "e0c41ef3d77a422f820f2d115c589d0c2219351ce5f304525636ea9b9277644a",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/REVALIDATIONS.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/REVALIDATIONS.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 6765,
+      "source_sha256": "ba88e9355e1e505762eca883d2bccdbba2d7fa2508dc598b2b8b5ea622a3f038",
+      "published_size": 6765,
+      "published_sha256": "ba88e9355e1e505762eca883d2bccdbba2d7fa2508dc598b2b8b5ea622a3f038",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/SOURCE_SCREEN.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/SOURCE_SCREEN.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 8703,
+      "source_sha256": "f38df0bb752701bbeef23baeca6c103c9328248cef4eb75d775408f35735c87e",
+      "published_size": 8703,
+      "published_sha256": "f38df0bb752701bbeef23baeca6c103c9328248cef4eb75d775408f35735c87e",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/TASK.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/TASK.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2126,
+      "source_sha256": "f502155c9803ee47fef76fb6b00772cc74bef0a33b804e38e58285c710394b0b",
+      "published_size": 2126,
+      "published_sha256": "f502155c9803ee47fef76fb6b00772cc74bef0a33b804e38e58285c710394b0b",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3786,
+      "source_sha256": "41f5dceeedea946f0b33c2be39dce1bb6f0c3a1be74220f01a10a38a87d9404f",
+      "published_size": 3786,
+      "published_sha256": "41f5dceeedea946f0b33c2be39dce1bb6f0c3a1be74220f01a10a38a87d9404f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/observation-availability-audit/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/observation-availability-audit/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2747,
+      "source_sha256": "8ea6d5ec82b860b017259a3341909bedd4eb38f0e29e061c009fda253fa96e53",
+      "published_size": 2747,
+      "published_sha256": "8ea6d5ec82b860b017259a3341909bedd4eb38f0e29e061c009fda253fa96e53",
+      "transformations": []
+    },
+    {
       "path": "documented-scaffold-2026-10-18/origin-function-followup/PROTOCOL.md",
       "source_path": "documented-scaffold-2026-10-18/origin-function-followup/PROTOCOL.md",
       "status": "included",
@@ -6667,9 +6812,14 @@
       "reason": "authored research or provenance record",
       "source_size": 3768,
       "source_sha256": "b73d368d60eb3a7ee7a8602fef4f2f82ee57fccf7b988d2d3f7119c83506e3cb",
-      "published_size": 3768,
-      "published_sha256": "b73d368d60eb3a7ee7a8602fef4f2f82ee57fccf7b988d2d3f7119c83506e3cb",
-      "transformations": []
+      "published_size": 3770,
+      "published_sha256": "87cf5f573f0c6e64344e21d5f79f8b5cb431249d60a1649f3aa43ce268192649",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 1
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/origin-function-followup/__pycache__",
@@ -6899,9 +7049,14 @@
       "reason": "authored research or provenance record",
       "source_size": 3753,
       "source_sha256": "82918bbe3e290026b227a9949027e7ca41fc139bbe8290d0be939ca780e113d6",
-      "published_size": 3753,
-      "published_sha256": "82918bbe3e290026b227a9949027e7ca41fc139bbe8290d0be939ca780e113d6",
-      "transformations": []
+      "published_size": 3757,
+      "published_sha256": "4429de5307ea122d6f23eb470791e20fa91745b40da99d70c60d4ec0f4744274",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 2
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/photo-complement/SOURCE_NOTES.md",
@@ -7109,10 +7264,545 @@
       "source_path": "documented-scaffold-2026-10-18/progress.md",
       "status": "included",
       "reason": "authored research or provenance record",
-      "source_size": 19253,
-      "source_sha256": "300eaae6268e9c69634fb9339a4ca04fd65ef2e85f8f929f4e5593fcafed613a",
-      "published_size": 19253,
-      "published_sha256": "300eaae6268e9c69634fb9339a4ca04fd65ef2e85f8f929f4e5593fcafed613a",
+      "source_size": 24103,
+      "source_sha256": "4ad242b3d1241285cb914a1df31e4ab34ac6dbb03d30c0c3ba2231fa5768f1bb",
+      "published_size": 24103,
+      "published_sha256": "4ad242b3d1241285cb914a1df31e4ab34ac6dbb03d30c0c3ba2231fa5768f1bb",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/DATASET_REGISTRY.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/DATASET_REGISTRY.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5547,
+      "source_sha256": "1ad81d3a8828ca0182354f1c7d55adee11d3d21af19762ceaea8379bc511b41f",
+      "published_size": 5547,
+      "published_sha256": "1ad81d3a8828ca0182354f1c7d55adee11d3d21af19762ceaea8379bc511b41f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5914,
+      "source_sha256": "1f3eb5253caf78a8a12e8d0a655c05f47b5907b0f9d083b9687a3920fb5ea70b",
+      "published_size": 5914,
+      "published_sha256": "1f3eb5253caf78a8a12e8d0a655c05f47b5907b0f9d083b9687a3920fb5ea70b",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 10743,
+      "source_sha256": "5a1d4c495de5ccd37218ef160b8c58958f3c7f69a4768204106fbfcefac7cf4a",
+      "published_size": 10751,
+      "published_sha256": "cb63fd66d6652851557233dbe26667374c3c87985dffdec50e5f1cdd2aec60ca",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/STAGE_MAPPING_AMENDMENT.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/STAGE_MAPPING_AMENDMENT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3634,
+      "source_sha256": "370ea0d5dba473e342dd8d4f21164b325ed8e5cc22f8b78a7b3336c663029166",
+      "published_size": 3634,
+      "published_sha256": "370ea0d5dba473e342dd8d4f21164b325ed8e5cc22f8b78a7b3336c663029166",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_CLARIFICATION.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_CLARIFICATION.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1265,
+      "source_sha256": "9d6ebb159ac81eca4f1413e453ebd6b41dd1a181e1b4a545bac74ad4287d8dc2",
+      "published_size": 1265,
+      "published_sha256": "9d6ebb159ac81eca4f1413e453ebd6b41dd1a181e1b4a545bac74ad4287d8dc2",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 7502,
+      "source_sha256": "0aa3857b762953d98358f405e139538efa622f61b0f7bbed7dd1a4f0174dc825",
+      "published_size": 7502,
+      "published_sha256": "0aa3857b762953d98358f405e139538efa622f61b0f7bbed7dd1a4f0174dc825",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/__pycache__",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/__pycache__",
+      "status": "excluded",
+      "reason": "private consultation, runtime cache, or orchestration subtree",
+      "scope": "subtree; contents not enumerated"
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/analyze_hou.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/analyze_hou.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 11545,
+      "source_sha256": "fae0f24dae7def6833d898f3a1ec7ac536f80665dc76364fbf2689f2dc5b9899",
+      "published_size": 11545,
+      "published_sha256": "fae0f24dae7def6833d898f3a1ec7ac536f80665dc76364fbf2689f2dc5b9899",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5702,
+      "source_sha256": "e97355ccc6a219dc439260f67ec54b05936d32a97bc39aaaec480da9c24648c7",
+      "published_size": 5702,
+      "published_sha256": "e97355ccc6a219dc439260f67ec54b05936d32a97bc39aaaec480da9c24648c7",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/collect_hananel.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/collect_hananel.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2497,
+      "source_sha256": "c019ca3a67f048e3a86cb9d56a8f9b06862b435c5cf713d3cb9b21b40f354b1c",
+      "published_size": 2497,
+      "published_sha256": "c019ca3a67f048e3a86cb9d56a8f9b06862b435c5cf713d3cb9b21b40f354b1c",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/collect_hou.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/collect_hou.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2592,
+      "source_sha256": "d7e25bca200d4df685231d34ac4de02fcd0c8e43193dec550f00324e13192b29",
+      "published_size": 2592,
+      "published_sha256": "d7e25bca200d4df685231d34ac4de02fcd0c8e43193dec550f00324e13192b29",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/dynamic-inheritance-discovery.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/dynamic-inheritance-discovery.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 7336,
+      "source_sha256": "59ce3f0af95bf0f912b0bceb35f420bcc396eaf102c4c0e38d75024dc0d1448c",
+      "published_size": 7336,
+      "published_sha256": "59ce3f0af95bf0f912b0bceb35f420bcc396eaf102c4c0e38d75024dc0d1448c",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/PROTOCOL.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/PROTOCOL.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3056,
+      "source_sha256": "5d749082e186f1000bc88780bf5bd53c0f2d2b6654f5b188dc83d0c8c8b10596",
+      "published_size": 3056,
+      "published_sha256": "5d749082e186f1000bc88780bf5bd53c0f2d2b6654f5b188dc83d0c8c8b10596",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/REPORT.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/REPORT.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 6011,
+      "source_sha256": "189d4bdd3d3ef1f9051a338c417a49a4a8dfb860582ed9717b3eaf9fcde9656c",
+      "published_size": 6129,
+      "published_sha256": "439634dcf53d3814d47cb5745f2c17bdadce6cedddf6a7a05d2af3fc98413df4",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/REVALIDATIONS.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/REVALIDATIONS.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 10080,
+      "source_sha256": "3826eb5e152a2734468912f19250504f3f8d69ef170827913a3c44ed705898cd",
+      "published_size": 10080,
+      "published_sha256": "3826eb5e152a2734468912f19250504f3f8d69ef170827913a3c44ed705898cd",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/checks.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/checks.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4388,
+      "source_sha256": "580442757b65d1c75b8fcc6754b60a4ce47a8bae0cd40cccb2521ec435a34a89",
+      "published_size": 4388,
+      "published_sha256": "580442757b65d1c75b8fcc6754b60a4ce47a8bae0cd40cccb2521ec435a34a89",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3280,
+      "source_sha256": "f3eed4cbfa4c22e4dc5ac4e13e365222293f4c188bc51c4ac29f037c7f477f46",
+      "published_size": 3280,
+      "published_sha256": "f3eed4cbfa4c22e4dc5ac4e13e365222293f4c188bc51c4ac29f037c7f477f46",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/repair-audit.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/repair-audit.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 15516,
+      "source_sha256": "a05a6ebe22f331334c09f56fb15b26facb719627782caf0251559066bfbed6da",
+      "published_size": 15516,
+      "published_sha256": "a05a6ebe22f331334c09f56fb15b26facb719627782caf0251559066bfbed6da",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-audit.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-audit.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 12041,
+      "source_sha256": "ad408ee0df63ea7f505ff4a2ef711b20df3d184d73feeaa57dc43cb634eed387",
+      "published_size": 12041,
+      "published_sha256": "ad408ee0df63ea7f505ff4a2ef711b20df3d184d73feeaa57dc43cb634eed387",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/europepmc-supplementary.zip",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/europepmc-supplementary.zip",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1202571
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/figshare-28823413.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/figshare-28823413.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 6764
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/hananel-preprint.pdf",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/hananel-preprint.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 1978587
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/idrees2025-main.xml",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/idrees2025-main.xml",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 80907
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/ja4c16883_si_001.pdf",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/ja4c16883_si_001.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 760874
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/schwartz2023-main.xml",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/eligibility-followup/serial-sources/schwartz2023-main.xml",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 57460
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/execution_failures.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/execution_failures.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3244,
+      "source_sha256": "fe1b430d6615ce0a74fe34da9b8002d249d25b68dbba5a9a2caa3361fc087710",
+      "published_size": 3244,
+      "published_sha256": "fe1b430d6615ce0a74fe34da9b8002d249d25b68dbba5a9a2caa3361fc087710",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/inspect_hou.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/inspect_hou.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3025,
+      "source_sha256": "54c70ff089e3cb428315a45cb68dbc8e9ee857f360a9ccc8890817ec169d78a1",
+      "published_size": 3025,
+      "published_sha256": "54c70ff089e3cb428315a45cb68dbc8e9ee857f360a9ccc8890817ec169d78a1",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/plot_hou.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/plot_hou.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2915,
+      "source_sha256": "51e6bf580bab9e819dea330678d6ae34cdfedcc123ea2fa9a31369b2dbfc5a86",
+      "published_size": 2915,
+      "published_sha256": "51e6bf580bab9e819dea330678d6ae34cdfedcc123ea2fa9a31369b2dbfc5a86",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/progress.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/progress.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 4507,
+      "source_sha256": "bcc5f9bc1947e8ed647f4ea187399bae4b36e94154cd2649511ce8686a7e65a4",
+      "published_size": 4507,
+      "published_sha256": "bcc5f9bc1947e8ed647f4ea187399bae4b36e94154cd2649511ce8686a7e65a4",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/reconcile_hou_stages.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/reconcile_hou_stages.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2299,
+      "source_sha256": "7ac32156e5e8ed07b8136c0adfead10cefa70f898e3c8e2dca84b197acdd24a7",
+      "published_size": 2299,
+      "published_sha256": "7ac32156e5e8ed07b8136c0adfead10cefa70f898e3c8e2dca84b197acdd24a7",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/repair-discovery.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/repair-discovery.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 11408,
+      "source_sha256": "3af983e148aa90791814e64ba46c95e83cee52d651709bf584f2e9a55c8b28cc",
+      "published_size": 11408,
+      "published_sha256": "3af983e148aa90791814e64ba46c95e83cee52d651709bf584f2e9a55c8b28cc",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-comparisons-final.png",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-comparisons-final.png",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 156577,
+      "source_sha256": "fadd5e8fd94f6a07599d72361d992eaa9ab1730b679dab3aedd2490f501fc198",
+      "published_size": 156577,
+      "published_sha256": "fadd5e8fd94f6a07599d72361d992eaa9ab1730b679dab3aedd2490f501fc198",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-comparisons.png",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-comparisons.png",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 156304,
+      "source_sha256": "6d40d65949b5b3dd427233cfa37957ec56390456d2eb75c6f5d911fa855624dc",
+      "published_size": 156304,
+      "published_sha256": "6d40d65949b5b3dd427233cfa37957ec56390456d2eb75c6f5d911fa855624dc",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-stage-mapping.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-stage-mapping.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2048,
+      "source_sha256": "fd48c49dd4a728d7032769e09c75b408b431290498a2cfc4c2f07fee957f23ea",
+      "published_size": 2048,
+      "published_sha256": "fd48c49dd4a728d7032769e09c75b408b431290498a2cfc4c2f07fee957f23ea",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-test.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/results/hou-test.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 16653,
+      "source_sha256": "52c8a954e1b33c40643930d20c859202966e483ca7b370b3a7648838e60bcd36",
+      "published_size": 16365,
+      "published_sha256": "d71f49205ddab8fc61b11afe374e52be605463d6775fa92232fbab8a48054b67",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/serial-inheritance-discovery.md",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/serial-inheritance-discovery.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 16951,
+      "source_sha256": "a8f96667207a93a6898542376c7773e9a33f19e296af78a71cfa6a82f839005c",
+      "published_size": 16942,
+      "published_sha256": "2a91513e5b9e65a346852a457b3bd4ecd6ba46944a45f5e8b73f42f1a691707b",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/figure5-acquisition.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/figure5-acquisition.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 587,
+      "source_sha256": "14c99ebfb077c9d31536d1087dc2be71d2f65bf61d2f83d913a64ee8f881aaa9",
+      "published_size": 587,
+      "published_sha256": "14c99ebfb077c9d31536d1087dc2be71d2f65bf61d2f83d913a64ee8f881aaa9",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/alternate/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/alternate/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 417,
+      "source_sha256": "c6f638e3a68fe90abd8572264146b7a38443c5285c57235c4b8d3e1043587f7f",
+      "published_size": 417,
+      "published_sha256": "c6f638e3a68fe90abd8572264146b7a38443c5285c57235c4b8d3e1043587f7f",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/alternate/si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/alternate/si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 0
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/deposit.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/deposit.json",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 6764
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/main.xml",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/main.xml",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 80907
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 1843,
+      "source_sha256": "a6e9803f36eb8438dda589ad8ab196be17c50ea48ca55acae349b3c54507f0ef",
+      "published_size": 1843,
+      "published_sha256": "a6e9803f36eb8438dda589ad8ab196be17c50ea48ca55acae349b3c54507f0ef",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hananel2025/si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 71
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-fig5.png",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-fig5.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 318737
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-main.html",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-main.html",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 423265
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-si.pdf",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-si.pdf",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 3811836
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-source.xlsx",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-source.xlsx",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 29687651
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/native-inventory.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/native-inventory.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 21402,
+      "source_sha256": "7d024337bdb4d9dff3829f7fb404fb712659820edcd71b9380635621f4ae59bd",
+      "published_size": 21402,
+      "published_sha256": "7d024337bdb4d9dff3829f7fb404fb712659820edcd71b9380635621f4ae59bd",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/receipt.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/receipt.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2156,
+      "source_sha256": "7949c5593b0e250e637219434942f115966ebc17dfb8d063d6e279996e26fe84",
+      "published_size": 2156,
+      "published_sha256": "7949c5593b0e250e637219434942f115966ebc17dfb8d063d6e279996e26fe84",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/renders/si-page-18.png",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/renders/si-page-18.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 71269
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/renders/si-page-20.png",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/renders/si-page-20.png",
+      "status": "excluded",
+      "reason": "third-party source payload or registry response; authored receipts retain provenance",
+      "source_size": 250866
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/time-axis-schema.json",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/time-axis-schema.json",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2164,
+      "source_sha256": "fa27ecd46be8911f86ca217839cd3efaffaa5242d1e5ede9f92bc10cfe25d8ad",
+      "published_size": 2164,
+      "published_sha256": "fa27ecd46be8911f86ca217839cd3efaffaa5242d1e5ede9f92bc10cfe25d8ad",
+      "transformations": []
+    },
+    {
+      "path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/test_analyze_hou.py",
+      "source_path": "documented-scaffold-2026-10-18/public-primary-datasets-resumed/test_analyze_hou.py",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 11666,
+      "source_sha256": "f1c08844f50ae23c4e1ed87b32281a1e543cf58dade5101d5eec894a1e9f0d09",
+      "published_size": 11666,
+      "published_sha256": "f1c08844f50ae23c4e1ed87b32281a1e543cf58dade5101d5eec894a1e9f0d09",
       "transformations": []
     },
     {
@@ -7160,9 +7850,14 @@
       "reason": "authored research or provenance record",
       "source_size": 11460,
       "source_sha256": "a3542136d70b41c1259f431222823119de281bcc2b2cd4403407ffea9d9aec33",
-      "published_size": 11460,
-      "published_sha256": "a3542136d70b41c1259f431222823119de281bcc2b2cd4403407ffea9d9aec33",
-      "transformations": []
+      "published_size": 11478,
+      "published_sha256": "5b8f735c4325c64f7eb0aa3c0c8b34c49fa610b7f72edb8aed7ead5e9e5741a6",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 9
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/regeneration-controls/SOURCE_AUDIT.md",
@@ -7395,9 +8090,14 @@
       "reason": "authored research or provenance record",
       "source_size": 8639,
       "source_sha256": "8e228801e90d50e28a77b29ec8d4133059de0da94afbac67109f967740de840e",
-      "published_size": 8639,
-      "published_sha256": "8e228801e90d50e28a77b29ec8d4133059de0da94afbac67109f967740de840e",
-      "transformations": []
+      "published_size": 8655,
+      "published_sha256": "4bf17e3648634cc2829f5e10b2caf916abd138b61e3f8c3db35a471ea9828322",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 8
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/remote-fe-transport/SOURCE_AUDIT.md",
@@ -8012,9 +8712,14 @@
       "reason": "authored research or provenance record",
       "source_size": 4865,
       "source_sha256": "39e4a3207f750e21ddc7fa9917abcdfd390c1a03ec68a5b0237efa0f18b8f88b",
-      "published_size": 4865,
-      "published_sha256": "39e4a3207f750e21ddc7fa9917abcdfd390c1a03ec68a5b0237efa0f18b8f88b",
-      "transformations": []
+      "published_size": 4871,
+      "published_sha256": "ae3dba4b10ffb730a08b8ecbb2fa0a355c22f03ffaa9bf80ad133266f9962137",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 3
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/renewal-lead/SOURCE_NOTES.md",
@@ -8874,9 +9579,14 @@
       "reason": "authored research or provenance record",
       "source_size": 9236,
       "source_sha256": "42eb705a9d902276268814463d96fd1ff491a0cdc94cc20840c1e8921a117f6e",
-      "published_size": 9236,
-      "published_sha256": "42eb705a9d902276268814463d96fd1ff491a0cdc94cc20840c1e8921a117f6e",
-      "transformations": []
+      "published_size": 9246,
+      "published_sha256": "29a72cc50b4494193ccbe44157b29a45343a144f938b9884b3a86153b4def9cc",
+      "transformations": [
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 5
+        }
+      ]
     },
     {
       "path": "documented-scaffold-2026-10-18/state-template-growth/SOURCE_AUDIT.md",
@@ -9277,6 +9987,28 @@
       ]
     },
     {
+      "path": "reviews/hou-public-data-outcome-review.md",
+      "source_path": ".omo/evidence/hou-public-data-outcome-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 45033,
+      "source_sha256": "848641b3f6bd4df019ca041c9696aab51bd5202ac9776120730dcef59be68432",
+      "published_size": 45033,
+      "published_sha256": "848641b3f6bd4df019ca041c9696aab51bd5202ac9776120730dcef59be68432",
+      "transformations": []
+    },
+    {
+      "path": "reviews/hou-public-data-protocol-review.md",
+      "source_path": ".omo/evidence/hou-public-data-protocol-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 10532,
+      "source_sha256": "c7e37a191c5782eeafac4243d34c7f29906777baf7a331465d4156f17708382f",
+      "published_size": 10532,
+      "published_sha256": "c7e37a191c5782eeafac4243d34c7f29906777baf7a331465d4156f17708382f",
+      "transformations": []
+    },
+    {
       "path": "reviews/matlab-object-reader-research.md",
       "source_path": ".omo/evidence/matlab-object-reader-research.md",
       "status": "included",
@@ -9285,6 +10017,17 @@
       "source_sha256": "9f8245b875385389cb8507295e28720441d7a18f5dc5fa4780b2068f0905a9a5",
       "published_size": 2848,
       "published_sha256": "9f8245b875385389cb8507295e28720441d7a18f5dc5fa4780b2068f0905a9a5",
+      "transformations": []
+    },
+    {
+      "path": "reviews/observation-availability-code-review.md",
+      "source_path": ".omo/evidence/observation-availability-code-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 5131,
+      "source_sha256": "d40884f72b241a8b618a3b1b06ffe3212b26dbd48a520f589450013110ff8f21",
+      "published_size": 5131,
+      "published_sha256": "d40884f72b241a8b618a3b1b06ffe3212b26dbd48a520f589450013110ff8f21",
       "transformations": []
     },
     {
@@ -9331,6 +10074,66 @@
       ]
     },
     {
+      "path": "reviews/post-eligibility-full-goal-revalidation-1.md",
+      "source_path": ".omo/evidence/post-eligibility-full-goal-revalidation-1.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 12744,
+      "source_sha256": "90b42e5198dabe2e2ed2828b0f99958fe6cd234b933cb9bf8d69d611972490aa",
+      "published_size": 12149,
+      "published_sha256": "e1670a0648e6731610830fc29321c7bf05daa6e62e4794daa1a184b4a0a05315",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 14
+        },
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "path": "reviews/post-eligibility-full-goal-revalidation-2.md",
+      "source_path": ".omo/evidence/post-eligibility-full-goal-revalidation-2.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 2872,
+      "source_sha256": "779e9ffcc5df233f9d46c560eeea9337efdc1d52f9cc5a998064e8b54bbbdef0",
+      "published_size": 2717,
+      "published_sha256": "af5edee42d5569b53b6e3dfe238ccbd1d16d18eae4ce5936c2bdfdc9a40941bd",
+      "transformations": [
+        {
+          "transformation": "host home path",
+          "count": 3
+        },
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "path": "reviews/post-eligibility-full-goal-revalidation-3.md",
+      "source_path": ".omo/evidence/post-eligibility-full-goal-revalidation-3.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 3291,
+      "source_sha256": "949b54c9e4348dfa84213e0af87be5dd796eae3d52b21c4ad80b1eaa2c50250a",
+      "published_size": 3136,
+      "published_sha256": "5ed5e922f6244427f3fef9fded62b1d69eb8f5aa9b64c8e4ac44b2f0e34ebc04",
+      "transformations": [
+        {
+          "transformation": "project path",
+          "count": 3
+        },
+        {
+          "transformation": "portable publication links or explicit excluded dependencies",
+          "count": 3
+        }
+      ]
+    },
+    {
       "path": "reviews/regeneration-controls-review.md",
       "source_path": ".omo/evidence/regeneration-controls-review.md",
       "status": "included",
@@ -9371,6 +10174,28 @@
       "source_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
       "published_size": 5772,
       "published_sha256": "fbb75631b4b93bc2ec8df22a6dfb76a53fa091f697a45c5f4fdbf8e8ceecb7b8",
+      "transformations": []
+    },
+    {
+      "path": "reviews/repair-inheritance-eligibility-followup-review.md",
+      "source_path": ".omo/evidence/repair-inheritance-eligibility-followup-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 25590,
+      "source_sha256": "00cb90797e88ec84941367cd5afef4ea6df6fa65d0b75bf0b4400f314c450dc6",
+      "published_size": 25590,
+      "published_sha256": "00cb90797e88ec84941367cd5afef4ea6df6fa65d0b75bf0b4400f314c450dc6",
+      "transformations": []
+    },
+    {
+      "path": "reviews/resumed-dataset-publication-review.md",
+      "source_path": ".omo/evidence/resumed-dataset-publication-review.md",
+      "status": "included",
+      "reason": "authored research or provenance record",
+      "source_size": 10333,
+      "source_sha256": "17ff6657b6ebc010a1662c9a91ef492a91c1045b9b9dfd38143bb5caa61076b9",
+      "published_size": 10333,
+      "published_sha256": "17ff6657b6ebc010a1662c9a91ef492a91c1045b9b9dfd38143bb5caa61076b9",
       "transformations": []
     },
     {

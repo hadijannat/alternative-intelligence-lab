@@ -2,7 +2,7 @@
 
 Source: Niinomi et al., *Plasmonic Manipulation of Sodium Chlorate Chiral Crystallization: Directed Chirality Transfer via Contact-Induced Polymorphic Transformation and Formation of Liquid Precursor*, Crystal Growth & Design 20 (2020), 5493–5507, [DOI 10.1021/acs.cgd.0c00693](https://doi.org/10.1021/acs.cgd.0c00693).
 
-The native supplement and two relevant movies were acquired on 2026-10-18. The [receipt](sources/receipt.json) records URLs, file sizes, SHA256 hashes and agreement with publisher-deposited MD5 values. The metadata are retained verbatim. Methods discovery was outcome-exposed and retrospective; nothing here is a preregistered or held-out test.
+The native supplement and two relevant movies were acquired on 2026-10-18. The [receipt](<sources/receipt.json>) records URLs, file sizes, SHA256 hashes and agreement with publisher-deposited MD5 values. The metadata are retained verbatim. Methods discovery was outcome-exposed and retrospective; nothing here is a preregistered or held-out test.
 
 | Source artifact | Native publisher record | Bytes | Check |
 |---|---|---:|---|

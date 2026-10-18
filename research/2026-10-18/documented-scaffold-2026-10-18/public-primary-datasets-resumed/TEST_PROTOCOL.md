@@ -1,0 +1,37 @@
+# Frozen retrospective test: recovery and residual deterioration
+
+This amendment follows verified native acquisition and metadata/time-coordinate inspection, before numerical response selection. General PROTOCOL.md SHA256 is `1f3eb5253caf78a8a12e8d0a655c05f47b5907b0f9d083b9687a3920fb5ea70b`. Native workbook SHA256 is `3319d65a2cfc4fa43f1ea78b906b5be2a5987d5efa928f1312beaeb38f843315`; SI SHA256 is `adf9763a2b1f2f6d31695fb78b05ef342e07b1186aa5df9f60418a368826c246`.
+
+## Question and admitted interpretation
+
+For Hou et al., DOI10.1038/s41467-022-35416-w, do all three labeled efficiency comparisons show nominal recovery after the combined treatment, and do the recorded current traces retain deterioration after excluding the immediate startup interval? This tests the distinction between repeatable functional recovery and removal of the durability defect. It is a new retrospective source-data calculation, not an independent physical replication or identification of a unique repair mechanism.
+
+Material evidence supports loss of metallic-Bi phase and regeneration after redispersion/reducing drive, with source phase comparators. The treatment also removes/replaces the electrolyte, mechanically stirs and rests the electrode. Matched damaged-electrode refresh-only/stir-only controls, quantitative Bi/Ga loss accounting and replicate-linked material/function specimen identifiers were not found. Thus this test cannot isolate a regeneration-specific causal effect or close R/J. No serial inheritance data or H/V test is admitted.
+
+## Consumed observations
+
+The source abstract, main text, figure captions and methods have been read; published recovery/deactivation descriptions and approximate performance prose have been seen. SI Figures16 and18 were rendered and visually inspected to qualify trace layout/units, exposing their qualitative declines. Workbook sheet names, dimensions, text labels and time coordinates were inspected. No current/efficiency response value was selected, extracted into a numerical result or fitted before this amendment. The future calculation is retrospective, with no blinded holdout claim.
+
+## Included native records
+
+1. `Fig. 5e`: every labeled pair in rows3/4,6/7,9/10, columnsA/B. Require exact labels `origina-1`/`selfhealing-1`, `origina-2`/`selfhealing-2`, `origina-3`/`selfhealing-3`. Retain the native misspelling. Exclude only the explicit separator rows5/8; do not convert their `--` strings into zeros. Require positive finite numeric values. Compute each healed/original ratio and literal native difference. Do not invent independent replicate identities, uncertainty or percentage-point units from unlabeled cells. A common positive FE-unit factor cancels in the ratios.
+2. `Supplementary Fig. 16`: all three ordered time/current column pairs A/B,D/E,G/H, data from row5 onward. The time-only schema shows A spans0–600.00668 while D/G span0–36000.0005. The SI figure displays each as approximately600minutes. For human-readable coordinates only, A is minutes and D/G seconds divided by60. The primary dimensionless comparison below is invariant to a positive time-unit factor. Do not compare absolute current amplitudes across columns without an independent scaling calibration.
+3. `Supplementary Fig. 18`: all eight numbered time/current pairs A/B,D/E,G/H,J/K,M/N,P/Q,S/T,V/W from row5 onward. SI axes are seconds; time-only ranges are approximately0.2–4000 or4000.8s. The caption calls these eight replicates, while main text describes repeated cycles; do not assume independent specimens. Do not pool these shorter records with the ten-hour group as common-duration replicates.
+
+Require finite numerical time/current pairs, strictly increasing time, at least two points and complete coverage of each comparison window. Fully empty row tails may be ignored and counted; one-sided numeric rows, text within data, missing/nonfinite observations or nonmonotone time fail that trace. Every attempted trace and failure remains in the output. No sign, magnitude, peak, early row or favorable condition is excluded after seeing responses.
+
+## Fixed estimands and reference
+
+For each complete current trace define normalized elapsed time `u=(t-t_first)/(t_last-t_first)`. Integrate the magnitude of recorded current by trapezoids with linear interpolation at window boundaries. Let E be the time-average magnitude over `u in[0.10,0.20]` and L the average over `u in[0.90,1.00]`. Compute `retention=L/E`, `fractional_decline=1-retention`, and the literal E/L values in the native current scale. These windows are fixed before numerical outcomes; they avoid the initial transient and use equal relative durations. They are not assumed equal physical durations across the two sheet families.
+
+The prespecified conventional reference is persistence of each trace's early-window magnitude, predicting normalized retention1. This is a descriptive reference, not an empirical sham-treatment counterfactual. Report each residual `retention-1`; do not fit a decay law, forecast future chemistry or estimate a rate constant. Report all three FE ratios and all eleven current retentions by sheet/column. Do not treat timepoints as independent experiments or compute p-values/confidence intervals from them. Source uncertainty and specimen independence are unreported for these native rows, so nominal directional contrasts do not establish statistical significance.
+
+Nominal signatures: a healed/original FE ratio above1 indicates that labeled comparison increased; a within-trace retention below1 indicates residual deterioration in that recorded interval. Report all signs without changing the criterion or converting nominal signs into a validated physical threshold. Zero/invalid E, nonpositive/invalid FE, source-label mismatch, workbook-hash mismatch or failed parsing prevents the corresponding comparison; retain the failure instead of repairing the data.
+
+Do not multiply FE and current to invent a formate-production trajectory: their sampling times/specimen linkage and native scales are not established. Do not infer phase fractions from arbitrary XRD intensity scaling, gross catalyst turnover from net performance, autonomous renewal from external handling or serial inheritance from repeated operation of a retained electrode.
+
+## Verification and full-goal boundary
+
+An independent reviewer must approve this saved source mapping, estimands and limitations before response execution. Meaningful implementation checks cover window interpolation/integration and rejection of malformed traces, plus source labels/hash and all-record retention. Independently cross-check the three FE arithmetic results and at least one trace calculation by a distinct calculation. A plot may display all eleven normalized trajectories and the fixed windows; any display downsampling must not affect calculations.
+
+All I/E/T/B/R/H/V/S/M/A/J/C integrated requirements remain open. The active organization here is Bi/Ga with bicarbonate/CO2 and external electrical/mechanical/thermal handling; PLA support and Nafion separator are organic apparatus/structural dependencies requiring explicit treatment, not an established carbon-free maintained system. The 4g Ga preparation and4.5g cyclic-regeneration recipe are different stated conditions. No measured linkage to PMo12, maintained boundary renewal, founder-bounded descendants, inherited selection or adaptive behavior is supplied. A numerical directional result does not add a verified integrated complement.

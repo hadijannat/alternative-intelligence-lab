@@ -1,6 +1,7 @@
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
+import re
 
 import build_archive as archive
 import curate_archive as curator
@@ -40,6 +41,9 @@ def verify(base):
             text = raw.decode('utf-8')
             assert not archive.HOST.search(text) and not archive.KEY.search(text), name
             assert strip_signed_urls(text)[1] == 0, name
+            if path.suffix == '.md':
+                assert not re.search(r'\]\(<?(?:PROJECT_ROOT|/USER_HOME)/', text), name
+                assert not re.search(r'^\[[^\]\n]+\]:\s*<?(?:PROJECT_ROOT|/USER_HOME)/', text, re.MULTILINE), name
             if path.suffix == '.json':
                 assert not curator.tool_envelope(json.loads(text), str(name)), name
     for name, digest in manifest['generated_files'].items():
@@ -48,6 +52,22 @@ def verify(base):
     paths = {r['path'] for r in included}
     assert {LAB + '/' + name for name in FAILURES} <= paths
     assert LAB + '/NEXT_SESSION_PROMPT.md' in paths
+    assert LAB + '/NEXT_GOAL.md' in paths
+    assert {'reviews/' + name for name in REVIEWS} <= paths
+    assert manifest['missing_reviews'] == []
+    resumed = LAB + '/public-primary-datasets-resumed/'
+    assert LAB + '/observation-availability-audit/REPORT.md' in paths
+    assert {resumed + name for name in (
+        'REPORT.md', 'eligibility-followup/REPORT.md', 'eligibility-followup/REVALIDATIONS.md',
+        'results/hou-test.json', 'STAGE_MAPPING_AMENDMENT.md',
+        'results/hou-stage-mapping.json', 'results/hou-comparisons-final.png')} <= paths
+    stages = json.loads((base / resumed / 'results/hou-stage-mapping.json').read_text())
+    assert stages['status'] == 'posthoc_descriptive_stage_reconciliation'
+    assert stages['original_result_unchanged'] is True
+    assert stages['predictive_validation'] is False
+    assert stages['full_integrated_requirements_closed'] == []
+    assert len(stages['displayed_recovery_arrows']) == 2
+    assert stages['unobserved_third_recovery'] is None
     assert 'GOAL_CONTRACT.md' in paths
     ledger = (base / LAB / 'CONTINUATION_LEDGER.md').read_text()
     assert '../GOAL_CONTRACT.md' in ledger

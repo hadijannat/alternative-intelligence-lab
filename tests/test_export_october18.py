@@ -5,9 +5,10 @@ import shutil
 import sys
 import tempfile
 import unittest
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
-from export_october18 import FAILURES, LAB, exclusion, export
+from export_october18 import FAILURES, LAB, exclusion, export, portable_links
 from verify_october18 import verify
 
 
@@ -55,6 +56,101 @@ class October18Publication(unittest.TestCase):
         self.assertIsNone(exclusion(Path('spatial-fe-function/REPORT.md')))
         self.assertIn('publisher JavaScript', exclusion(Path('renewal-lead/sources/publisher-download.js')))
 
+    def test_serial_sources_publish_receipts_without_native_payloads(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / 'source'
+            branch = source / LAB / 'eligibility'
+            raw = branch / 'serial-sources'
+            raw.mkdir(parents=True)
+            (source / 'recursive-compound-2026-10-15').mkdir()
+            (source / 'recursive-compound-2026-10-15/PROTOCOL.md').write_text('contract')
+            (raw / 'article.pdf').write_bytes(b'native supplement')
+            (raw / 'registry.json').write_text('{"license": "original terms"}')
+            for name in ('receipt.json', 'figure5-acquisition.json', 'time-axis-schema.json'):
+                (raw / name).write_text('{"source_sha256": "native input hash"}')
+            (branch / 'REPORT.md').write_text('[Native supplement](serial-sources/article.pdf)\n'
+                                            '[Receipt](serial-sources/receipt.json)\n')
+            output = Path(temporary) / 'publication'
+            export(source, output)
+            published = output / LAB / 'eligibility'
+            self.assertFalse((published / 'serial-sources/article.pdf').exists())
+            self.assertFalse((published / 'serial-sources/registry.json').exists())
+            for name in ('receipt.json', 'figure5-acquisition.json', 'time-axis-schema.json'):
+                self.assertTrue((published / 'serial-sources' / name).is_file())
+            report = (published / 'REPORT.md').read_text()
+            self.assertIn('Native supplement (dependency not included:', report)
+            self.assertIn('[Receipt](<serial-sources/receipt.json>)', report)
+            manifest = json.loads((output / 'manifest.json').read_text())
+            record = next(r for r in manifest['files'] if r['path'].endswith('/REPORT.md'))
+            self.assertEqual(record['published_sha256'], hashlib.sha256(report.encode()).hexdigest())
+
+    def test_authored_links_resolve_across_contract_reviews_and_prior_snapshot(self):
+        current = LAB + '/audit/REPORT.md'
+        review = '.omo/evidence/hou-public-data-outcome-review.md'
+        receiver = 'recursive-compound-2026-10-15/renewal/photochemical-delivery-2026-10-18/RECEIVER_BALANCE.md'
+        mapping = {'recursive-compound-2026-10-15/PROTOCOL.md': 'GOAL_CONTRACT.md',
+                   review: 'reviews/hou-public-data-outcome-review.md',
+                   receiver: '../2026-10-15/' + receiver}
+        original = ('[Contract](../../recursive-compound-2026-10-15/PROTOCOL.md)\n'
+                    f'[Review](<PROJECT_ROOT/{review}>)\n'
+                    f'[Balance](../../{receiver}#receiver)\n'
+                    '[Unpublished input](<PROJECT_ROOT/discovery-loop/native.pdf>)\n'
+                    '[Publisher](https://example.org/data)\n[Section](#local)')
+        text, count = portable_links(original, current, current, mapping)
+        self.assertEqual(count, 4)
+        self.assertIn('[Contract](<../../GOAL_CONTRACT.md>)', text)
+        self.assertIn('[Review](<../../reviews/hou-public-data-outcome-review.md>)', text)
+        self.assertIn(f'[Balance](<../../../2026-10-15/{receiver}#receiver>)', text)
+        self.assertIn('Unpublished input (dependency not included: `discovery-loop/native.pdf`)', text)
+        self.assertIn('[Publisher](https://example.org/data)\n[Section](#local)', text)
+
+    def test_encoded_project_links_survive_sanitization_and_export(self):
+        with tempfile.TemporaryDirectory(dir=Path.home()) as temporary:
+            source = Path(temporary) / 'project with spaces'
+            lab = source / LAB
+            lab.mkdir(parents=True)
+            (source / 'recursive-compound-2026-10-15').mkdir()
+            (source / 'recursive-compound-2026-10-15/PROTOCOL.md').write_text('contract')
+            (source / '.omo/evidence').mkdir(parents=True)
+            review = '.omo/evidence/post-eligibility-full-goal-revalidation-2.md'
+            (source / review).write_text('review')
+            (lab / 'linked.md').write_text('linked report')
+            original = '\n'.join(f'[{label}](<{quote(str(source / path))}>)' for label, path in (
+                ('Contract', 'recursive-compound-2026-10-15/PROTOCOL.md'),
+                ('Review', review), ('Report', LAB + '/linked.md')))
+            (lab / 'REPORT.md').write_text(original)
+            output = Path(temporary) / 'publication'
+            export(source, output)
+            published = (output / LAB / 'REPORT.md').read_text()
+            self.assertEqual(published, '[Contract](<../GOAL_CONTRACT.md>)\n'
+                             '[Review](<../reviews/post-eligibility-full-goal-revalidation-2.md>)\n'
+                             '[Report](<linked.md>)')
+            manifest = json.loads((output / 'manifest.json').read_text())
+            record = next(r for r in manifest['files'] if r['path'] == LAB + '/REPORT.md')
+            self.assertEqual(record['source_sha256'], hashlib.sha256(original.encode()).hexdigest())
+            self.assertEqual(record['published_sha256'], hashlib.sha256(published.encode()).hexdigest())
+            self.assertNotEqual(record['source_sha256'], record['published_sha256'])
+
+    def test_reference_links_map_included_and_explain_excluded_dependencies(self):
+        review = '.omo/evidence/repair-inheritance-eligibility-followup-review.md'
+        locator = 'publication/origin-function-local-checkpoint.json'
+        original = ('Read [contract], [review] and [local checkpoint][locator].\n'
+                    'Shortcut: [locator].\n\n'
+                    '[contract]: <PROJECT_ROOT/recursive-compound-2026-10-15/PROTOCOL.md>\n'
+                    f'[locator]: <PROJECT_ROOT/{locator}>\n'
+                    f'[review]: <PROJECT_ROOT/{review}>\n')
+        mapping = {'recursive-compound-2026-10-15/PROTOCOL.md': 'GOAL_CONTRACT.md',
+                   review: 'reviews/repair-inheritance-eligibility-followup-review.md'}
+        text, count = portable_links(original, '.omo/evidence/audit.md', 'reviews/audit.md', mapping)
+        self.assertEqual(count, 5)
+        self.assertIn('[contract]: <../GOAL_CONTRACT.md>', text)
+        self.assertIn('[review]: <repair-inheritance-eligibility-followup-review.md>', text)
+        self.assertIn(f'local checkpoint (dependency not included: `{locator}`)', text)
+        self.assertIn(f'Shortcut: locator (dependency not included: `{locator}`)', text)
+        self.assertIn(f'\n\nlocator (dependency not included: `{locator}`)\n\n[review]:', text)
+        self.assertNotIn('PROJECT_ROOT', text)
+        self.assertNotIn('[locator]', text)
+
     def test_complete_saved_snapshot_and_tampering(self):
         source = Path(__file__).resolve().parents[1] / 'research/2026-10-18'
         self.assertEqual(verify(source)['status'], 'PASS_OCTOBER18_PUBLICATION_ONLY')
@@ -90,6 +186,27 @@ class October18Publication(unittest.TestCase):
             (base / 'unexpected.pdf').write_bytes(b'unlisted source payload')
             with self.assertRaises(AssertionError):
                 verify(base)
+
+    def test_hou_promotion_rejected_with_updated_manifest(self):
+        source = Path(__file__).resolve().parents[1] / 'research/2026-10-18'
+        with tempfile.TemporaryDirectory() as temporary:
+            base = Path(temporary) / 'snapshot'
+            shutil.copytree(source, base)
+            name = LAB + '/public-primary-datasets-resumed/results/hou-stage-mapping.json'
+            path, manifest_path = base / name, base / 'manifest.json'
+            original, original_manifest = path.read_text(), manifest_path.read_text()
+            for key, replacement in (('predictive_validation', True), ('unobserved_third_recovery', 90)):
+                with self.subTest(key=key):
+                    value, manifest = json.loads(original), json.loads(original_manifest)
+                    value[key] = replacement
+                    path.write_text(json.dumps(value))
+                    record = next(r for r in manifest['files'] if r['path'] == name)
+                    manifest['published_bytes'] += path.stat().st_size - record['published_size']
+                    record['published_size'] = path.stat().st_size
+                    record['published_sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
+                    manifest_path.write_text(json.dumps(manifest))
+                    with self.assertRaises(AssertionError):
+                        verify(base)
 
     def test_result_promotion_rejected_after_coordinated_manifest_update(self):
         source = Path(__file__).resolve().parents[1] / 'research/2026-10-18'

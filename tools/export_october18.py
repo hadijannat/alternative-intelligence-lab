@@ -5,7 +5,10 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import posixpath
+import re
 import stat
+from urllib.parse import unquote
 
 import build_archive as archive
 import curate_archive as curator
@@ -23,7 +26,11 @@ REVIEWS = tuple(name + '.md' for name in (
     'renewal-causal-controls-review', 'silica-platinum-state-transfer-code-review',
     'analog-learning-protocol-review', 'matlab-object-reader-research',
     'analog-learning-source-code-review', 'analog-learning-decoding-review',
-    'analog-replay-synthetic-code-review', 'analog-learning-outcome-code-review'))
+    'analog-replay-synthetic-code-review', 'analog-learning-outcome-code-review',
+    'observation-availability-code-review', 'hou-public-data-protocol-review',
+    'hou-public-data-outcome-review', 'repair-inheritance-eligibility-followup-review',
+    'post-eligibility-full-goal-revalidation-1', 'post-eligibility-full-goal-revalidation-2',
+    'post-eligibility-full-goal-revalidation-3', 'resumed-dataset-publication-review'))
 FAILURES = {
     'founder-repair-search/execution_failures.txt',
     'regeneration-controls/execution_failures.txt',
@@ -42,7 +49,7 @@ SOURCE_METADATA = {
     'fig3g-cell-layout.json', 'fig6-axis-calibration.json', 'si-math-structure.json',
     'hal-metadata.json', 'hal-companion-metadata.json', 'workbook-structure.json',
     'browser-receipt.json', 'native-inventory.json', 'browser-observations.json',
-    'attachment-verification.json',
+    'attachment-verification.json', 'figure5-acquisition.json', 'time-axis-schema.json',
 }
 
 
@@ -62,7 +69,7 @@ def exclusion(rel, directory=False):
         return 'one-to-one native workbook cells; derived analyses and provenance retained'
     if 'browser-native' in parts:
         return 'third-party native browser payload; authored receipts retain provenance'
-    if 'sources' in parts or 'raw' in parts:
+    if {'sources', 'raw', 'serial-sources'} & set(parts):
         if rel.suffix == '.js':
             return 'third-party publisher JavaScript runtime; acquisition receipt retains URL and hash'
         if rel.suffix in {'.md', '.py'} or rel.name in SOURCE_METADATA:
@@ -73,6 +80,52 @@ def exclusion(rel, directory=False):
     if rel.suffix not in {'.md', '.py', '.json', '.csv', '.png', '.npz'}:
         return 'unapproved payload format; scientific failure logs use an explicit allowlist'
     return None
+
+
+def portable_links(text, source_path, destination, mapping, source_root=None):
+    count = 0
+    excluded_references = {}
+
+    def replace(match, reference=False):
+        nonlocal count
+        target = unquote(match['target'].strip('<>'))
+        path, separator, fragment = target.partition('#')
+        if source_root is not None:
+            for prefix in (str(source_root), archive.HOST.sub('/USER_HOME', str(source_root))):
+                if path.startswith(prefix + '/'):
+                    path = 'PROJECT_ROOT/' + path[len(prefix) + 1:]
+                    break
+        if not path or re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', path):
+            return match.group()
+        rooted = path.startswith('PROJECT_ROOT/')
+        if rooted:
+            original = posixpath.normpath(path.removeprefix('PROJECT_ROOT/'))
+        elif path.startswith('/'):
+            return match.group()
+        else:
+            original = posixpath.normpath(posixpath.join(posixpath.dirname(source_path), path))
+        if original in mapping:
+            relative = posixpath.relpath(mapping[original], posixpath.dirname(destination) or '.')
+            replacement = match['label'] + (': <' if reference else '(<') + relative + separator + fragment + ('>' if reference else '>)')
+        elif rooted or original.startswith((LAB + '/', '.omo/evidence/', 'recursive-compound-2026-10-15/')):
+            replacement = match['label'].lstrip('!')[1:-1] + ' (dependency not included: `' + original + '`)'
+            if reference:
+                excluded_references[match['label'][1:-1]] = original
+                replacement = '\n' + replacement + '\n'
+        else:
+            return match.group()
+        count += replacement != match.group()
+        return replacement
+
+    text = re.sub(r'(?P<label>!?\[[^\]\n]*\])\((?P<target><[^>\n]+>|[^\s)]+)\)', replace, text)
+    text = re.sub(r'^(?P<label>\[[^\]\n]+\]):[ \t]*(?P<target><[^>\n]+>|\S+)[ \t]*$',
+                  lambda match: replace(match, True), text, flags=re.MULTILINE)
+    for label, original in excluded_references.items():
+        text, changes = re.subn(r'!?\[([^\]\n]+)\]\[' + re.escape(label) + r'\]|\[' + re.escape(label) + r'\](?![\[(])',
+                                lambda match: (match[1] or label) + ' (dependency not included: `' + original + '`)',
+                                text, flags=re.IGNORECASE)
+        count += changes
+    return text, count
 
 
 def export(source, output):
@@ -159,11 +212,25 @@ def export(source, output):
         else:
             records.append(dict(path='reviews/' + name, source_path='.omo/evidence/' + name,
                                 status='missing', reason='requested review absent; no review invented'))
+    earlier = Path(__file__).resolve().parents[1] / 'research/2026-10-15/manifest.json'
+    mapping = {r.get('source_path', r['path']): '../2026-10-15/' + r['path']
+               for r in json.loads(earlier.read_text())['files'] if r['status'] == 'included'}
+    mapping.update({r['source_path']: r['path'] for r in records if r['status'] == 'included'})
+    for record in records:
+        if record['status'] != 'included' or not record['path'].endswith('.md'):
+            continue
+        target = output / record['path']
+        text, count = portable_links(target.read_text(), record['source_path'], record['path'], mapping, source)
+        if count:
+            data = text.encode('utf-8')
+            target.write_bytes(data)
+            record['transformations'].append(dict(transformation='portable publication links or explicit excluded dependencies', count=count))
+            record.update(published_size=len(data), published_sha256=hashlib.sha256(data).hexdigest())
     readme = '''# October 18 research snapshot
 
 This is a curated publication of saved research artifacts. Publication integrity is not scientific validation. No scientific model is rerun by the exporter or verifier. The full life/intelligence goal remains unachieved; no integrated complement is verified.
 
-Start with [the continuation ledger](documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md), [the next-session prompt](documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md), and [the original goal contract](GOAL_CONTRACT.md). Reports, protocols, authored model code, derived results, failed checks, numerical plots, and authored reviews are retained.
+Start with [the continuation ledger](documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md), [the next-session prompt](documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md), [the next copy-paste goal](documented-scaffold-2026-10-18/NEXT_GOAL.md), and [the original goal contract](GOAL_CONTRACT.md). Reports, protocols, authored model code, derived results, failed checks, numerical plots, and authored reviews are retained.
 
 The manifest maps each original project-relative path and SHA256 to its published path and SHA256, with sanitization and exclusions recorded. Frozen hashes embedded in scientific outputs identify original local bytes; sanitized publication hashes can differ. Do not rewrite frozen scientific hashes to claim byte-identical reproduction.
 

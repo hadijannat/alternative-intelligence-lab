@@ -2,7 +2,7 @@
 
 Acquiring the previously missing [Zheng et al. 2014 primary study](https://doi.org/10.1016/S1872-2067(14)60089-9) changes the inheritance assessment. Compositionally different Beta seeds grow Beta under the same nominal gel, but the bulk product does not copy the parent composition. This rejects a particular copying assumption; it does not prove mineral inheritance impossible.
 
-The archived11-page PDF and publisher HTML provide ten joined seed/product records. The gel is Na2O:Al2O3:SiO2:H2O=11.4:1:40:640, seeds are10wt% relative to silica source, and growth is static at140C. Seeds were initially synthesized with organic templates and subsequently calcined. [SOURCE_NOTES.md](SOURCE_NOTES.md) preserves exact preparation, table definitions, yield/access gaps and source hashes.
+The archived11-page PDF and publisher HTML provide ten joined seed/product records. The gel is Na2O:Al2O3:SiO2:H2O=11.4:1:40:640, seeds are10wt% relative to silica source, and growth is static at140C. Seeds were initially synthesized with organic templates and subsequently calcined. [SOURCE_NOTES.md](<SOURCE_NOTES.md>) preserves exact preparation, table definitions, yield/access gaps and source hashes.
 
 Seeds have SiO2/Al2O3 ratios11–38, plus two pure-silica samples. Products cluster at10–11. Pure-silica parents lead to an Al-containing product; unchanged founders cannot supply that Al, so feed-derived material is involved. Seed size, defects, preparation and composition covary, preventing a composition-only causal kinetic inference. Bulk measurements also include residual founders.
 
@@ -31,4 +31,4 @@ The micropore baseline is0.1975 cm3/g; the held products are0.21 and0.20. N2 acc
 
 Decision: retain Beta as a component-supported seeded-growth/porosity candidate, **reject direct bulk-composition copying in this source regime**, and leave functional inheritance and integrated active renewal unresolved. The next useful inheritance evidence must track a parent-associated function in new material under matched feed with a quantitative founder bound. It must not rely only on bulk ratio, topology or growth acceleration.
 
-All source rows, missing fields and failed comparisons are preserved in [results/analysis.json](results/analysis.json) and [results/joined_tables.csv](results/joined_tables.csv). No source or negative result from the earlier Beta assessment was overwritten.
+All source rows, missing fields and failed comparisons are preserved in [results/analysis.json](<results/analysis.json>) and [results/joined_tables.csv](<results/joined_tables.csv>). No source or negative result from the earlier Beta assessment was overwritten.

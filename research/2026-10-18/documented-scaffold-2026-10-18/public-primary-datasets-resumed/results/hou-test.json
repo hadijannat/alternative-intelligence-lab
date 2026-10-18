@@ -1,0 +1,532 @@
+{
+  "workbook": {
+    "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/hou-source.xlsx",
+    "sha256": "3319d65a2cfc4fa43f1ea78b906b5be2a5987d5efa928f1312beaeb38f843315",
+    "expected_sha256": "3319d65a2cfc4fa43f1ea78b906b5be2a5987d5efa928f1312beaeb38f843315"
+  },
+  "errors": [],
+  "efficiency": [
+    {
+      "sheet": "Fig. 5e",
+      "comparison": 1,
+      "status": "ok",
+      "source_coordinates": [
+        "A3:B3",
+        "A4:B4"
+      ],
+      "errors": [],
+      "labels": [
+        "origina-1",
+        "selfhealing-1"
+      ],
+      "original_native": 93.1,
+      "healed_native": 79,
+      "healed_original_ratio": 0.8485499462943072,
+      "difference_native": -14.099999999999994,
+      "nominal_recovery": false,
+      "units": "unlabeled native FE scale"
+    },
+    {
+      "sheet": "Fig. 5e",
+      "comparison": 2,
+      "status": "ok",
+      "source_coordinates": [
+        "A6:B6",
+        "A7:B7"
+      ],
+      "errors": [],
+      "labels": [
+        "origina-2",
+        "selfhealing-2"
+      ],
+      "original_native": 91.5,
+      "healed_native": 77.3,
+      "healed_original_ratio": 0.8448087431693989,
+      "difference_native": -14.200000000000003,
+      "nominal_recovery": false,
+      "units": "unlabeled native FE scale"
+    },
+    {
+      "sheet": "Fig. 5e",
+      "comparison": 3,
+      "status": "ok",
+      "source_coordinates": [
+        "A9:B9",
+        "A10:B10"
+      ],
+      "errors": [],
+      "labels": [
+        "origina-3",
+        "selfhealing-3"
+      ],
+      "original_native": 89.8,
+      "healed_native": 75.9,
+      "healed_original_ratio": 0.8452115812917596,
+      "difference_native": -13.899999999999991,
+      "nominal_recovery": false,
+      "units": "unlabeled native FE scale"
+    }
+  ],
+  "traces": [
+    {
+      "sheet": "Supplementary Fig. 16",
+      "time_column": "A",
+      "current_column": "B",
+      "first_data_row": 5,
+      "source_rows_seen": 180003,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "minutes",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 0,
+      "data_rows_attempted": 180003,
+      "source_coordinates": "A5:B180007",
+      "finite_pair_count": 180003,
+      "first_time_native": 0.0,
+      "last_time_native": 600.00668,
+      "early_window_native": [
+        60.000668,
+        120.001336
+      ],
+      "late_window_native": [
+        540.0060119999999,
+        600.00668
+      ],
+      "early_mean_magnitude_native": 8.628328714322713,
+      "late_mean_magnitude_native": 5.231749024731033,
+      "retention": 0.6063455853329416,
+      "fractional_decline": 0.3936544146670584,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.3936544146670584,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 16",
+      "time_column": "D",
+      "current_column": "E",
+      "first_data_row": 5,
+      "source_rows_seen": 180003,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 2,
+      "data_rows_attempted": 180001,
+      "source_coordinates": "D5:E180005",
+      "finite_pair_count": 180001,
+      "first_time_native": 0.0,
+      "last_time_native": 36000.0005,
+      "early_window_native": [
+        3600.0000500000006,
+        7200.000100000001
+      ],
+      "late_window_native": [
+        32400.000450000003,
+        36000.0005
+      ],
+      "early_mean_magnitude_native": 0.0067238203820140195,
+      "late_mean_magnitude_native": 0.005598844421944246,
+      "retention": 0.8326879815113676,
+      "fractional_decline": 0.16731201848863242,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.16731201848863242,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 16",
+      "time_column": "G",
+      "current_column": "H",
+      "first_data_row": 5,
+      "source_rows_seen": 180003,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time ",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 2,
+      "data_rows_attempted": 180001,
+      "source_coordinates": "G5:H180005",
+      "finite_pair_count": 180001,
+      "first_time_native": 0.0,
+      "last_time_native": 36000.0005,
+      "early_window_native": [
+        3600.0000500000006,
+        7200.000100000001
+      ],
+      "late_window_native": [
+        32400.000450000003,
+        36000.0005
+      ],
+      "early_mean_magnitude_native": 0.008207189352863062,
+      "late_mean_magnitude_native": 0.0051584284770237725,
+      "retention": 0.6285255835146858,
+      "fractional_decline": 0.3714744164853142,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.3714744164853142,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "A",
+      "current_column": "B",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 4,
+      "data_rows_attempted": 20000,
+      "source_coordinates": "A5:B20004",
+      "finite_pair_count": 20000,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.0001,
+      "early_window_native": [
+        400.18001000000004,
+        800.1600200000001
+      ],
+      "late_window_native": [
+        3600.0200900000004,
+        4000.0001
+      ],
+      "early_mean_magnitude_native": 7.411408082518194,
+      "late_mean_magnitude_native": 6.549794192294611,
+      "retention": 0.8837449131621923,
+      "fractional_decline": 0.11625508683780772,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.11625508683780772,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "D",
+      "current_column": "E",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 4,
+      "data_rows_attempted": 20000,
+      "source_coordinates": "D5:E20004",
+      "finite_pair_count": 20000,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.0001,
+      "early_window_native": [
+        400.18001000000004,
+        800.1600200000001
+      ],
+      "late_window_native": [
+        3600.0200900000004,
+        4000.0001
+      ],
+      "early_mean_magnitude_native": 7.156492123136504,
+      "late_mean_magnitude_native": 6.376411648218694,
+      "retention": 0.8909968094010952,
+      "fractional_decline": 0.10900319059890484,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.10900319059890484,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "G",
+      "current_column": "H",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 0,
+      "data_rows_attempted": 20004,
+      "source_coordinates": "G5:H20008",
+      "finite_pair_count": 20004,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.8001,
+      "early_window_native": [
+        400.26001,
+        800.3200200000001
+      ],
+      "late_window_native": [
+        3600.74009,
+        4000.8001
+      ],
+      "early_mean_magnitude_native": 9.980512145293746,
+      "late_mean_magnitude_native": 6.74176577573132,
+      "retention": 0.6754929684555678,
+      "fractional_decline": 0.32450703154443217,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.32450703154443217,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "J",
+      "current_column": "K",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 4,
+      "data_rows_attempted": 20000,
+      "source_coordinates": "J5:K20004",
+      "finite_pair_count": 20000,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.0001,
+      "early_window_native": [
+        400.18001000000004,
+        800.1600200000001
+      ],
+      "late_window_native": [
+        3600.0200900000004,
+        4000.0001
+      ],
+      "early_mean_magnitude_native": 7.247601555454005,
+      "late_mean_magnitude_native": 6.460473543736327,
+      "retention": 0.8913946902716605,
+      "fractional_decline": 0.10860530972833948,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.10860530972833948,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "M",
+      "current_column": "N",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 4,
+      "data_rows_attempted": 20000,
+      "source_coordinates": "M5:N20004",
+      "finite_pair_count": 20000,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.0001,
+      "early_window_native": [
+        400.18001000000004,
+        800.1600200000001
+      ],
+      "late_window_native": [
+        3600.0200900000004,
+        4000.0001
+      ],
+      "early_mean_magnitude_native": 8.545054976217212,
+      "late_mean_magnitude_native": 5.633093745133663,
+      "retention": 0.6592226452388914,
+      "fractional_decline": 0.3407773547611086,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.3407773547611086,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "P",
+      "current_column": "Q",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 0,
+      "data_rows_attempted": 20004,
+      "source_coordinates": "P5:Q20008",
+      "finite_pair_count": 20004,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.8001,
+      "early_window_native": [
+        400.26001,
+        800.3200200000001
+      ],
+      "late_window_native": [
+        3600.74009,
+        4000.8001
+      ],
+      "early_mean_magnitude_native": 8.273271837296107,
+      "late_mean_magnitude_native": 7.285768806299485,
+      "retention": 0.8806393588392762,
+      "fractional_decline": 0.11936064116072376,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.11936064116072376,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "S",
+      "current_column": "T",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 4,
+      "data_rows_attempted": 20000,
+      "source_coordinates": "S5:T20004",
+      "finite_pair_count": 20000,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.0001,
+      "early_window_native": [
+        400.18001000000004,
+        800.1600200000001
+      ],
+      "late_window_native": [
+        3600.0200900000004,
+        4000.0001
+      ],
+      "early_mean_magnitude_native": 13.165070067424605,
+      "late_mean_magnitude_native": 9.346015682143566,
+      "retention": 0.7099100600511931,
+      "fractional_decline": 0.29008993994880694,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.29008993994880694,
+      "nominal_deterioration": true
+    },
+    {
+      "sheet": "Supplementary Fig. 18",
+      "time_column": "V",
+      "current_column": "W",
+      "first_data_row": 5,
+      "source_rows_seen": 20004,
+      "status": "ok",
+      "errors": [],
+      "time_native_unit": "seconds",
+      "current_scale": "native, not calibrated across columns",
+      "source_headers": [
+        "time",
+        "current density"
+      ],
+      "trailing_fully_empty_rows": 0,
+      "data_rows_attempted": 20004,
+      "source_coordinates": "V5:W20008",
+      "finite_pair_count": 20004,
+      "first_time_native": 0.2,
+      "last_time_native": 4000.8001,
+      "early_window_native": [
+        400.26001,
+        800.3200200000001
+      ],
+      "late_window_native": [
+        3600.74009,
+        4000.8001
+      ],
+      "early_mean_magnitude_native": 7.991653299034194,
+      "late_mean_magnitude_native": 6.638258750830456,
+      "retention": 0.8306489911959396,
+      "fractional_decline": 0.1693510088040604,
+      "persistent_early_reference": 1,
+      "reference_residual": -0.1693510088040604,
+      "nominal_deterioration": true
+    }
+  ],
+  "windows_normalized": {
+    "early": [
+      0.1,
+      0.2
+    ],
+    "late": [
+      0.9,
+      1.0
+    ]
+  },
+  "interpolation": "piecewise linear in sampled current magnitude",
+  "excluded_efficiency_separator_rows": [
+    5,
+    8
+  ],
+  "excluded_traces": [],
+  "source_sheet_passes": {
+    "Fig. 5e": 1,
+    "Supplementary Fig. 16": 1,
+    "Supplementary Fig. 18": 1
+  },
+  "full_integrated_requirements_closed": [],
+  "all_records_retained": true,
+  "counts": {
+    "efficiency_attempted": 3,
+    "traces_attempted": 11,
+    "efficiency_valid": 3,
+    "traces_valid": 11
+  },
+  "status": "ok",
+  "provenance": {
+    "PROTOCOL.md": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/PROTOCOL.md",
+      "sha256": "1f3eb5253caf78a8a12e8d0a655c05f47b5907b0f9d083b9687a3920fb5ea70b"
+    },
+    "TEST_PROTOCOL.md": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_PROTOCOL.md",
+      "sha256": "0aa3857b762953d98358f405e139538efa622f61b0f7bbed7dd1a4f0174dc825"
+    },
+    "TEST_CLARIFICATION.md": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/TEST_CLARIFICATION.md",
+      "sha256": "9d6ebb159ac81eca4f1413e453ebd6b41dd1a181e1b4a545bac74ad4287d8dc2"
+    },
+    "analyze_hou.py": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/analyze_hou.py",
+      "sha256": "fae0f24dae7def6833d898f3a1ec7ac536f80665dc76364fbf2689f2dc5b9899"
+    },
+    "test_analyze_hou.py": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/test_analyze_hou.py",
+      "sha256": "f1c08844f50ae23c4e1ed87b32281a1e543cf58dade5101d5eec894a1e9f0d09"
+    },
+    "sources/native-inventory.json": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/native-inventory.json",
+      "sha256": "7d024337bdb4d9dff3829f7fb404fb712659820edcd71b9380635621f4ae59bd"
+    },
+    "sources/time-axis-schema.json": {
+      "path": "PROJECT_ROOT/documented-scaffold-2026-10-18/public-primary-datasets-resumed/sources/time-axis-schema.json",
+      "sha256": "fa27ecd46be8911f86ca217839cd3efaffaa5242d1e5ede9f92bc10cfe25d8ad"
+    }
+  },
+  "runtime": {
+    "python": "3.12.3 (main, May  9 2025, 22:01:02) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "openpyxl": "3.1.3"
+  }
+}

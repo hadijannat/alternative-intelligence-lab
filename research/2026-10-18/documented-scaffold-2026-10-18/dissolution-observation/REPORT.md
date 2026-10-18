@@ -4,13 +4,13 @@ The remaining dissolution-control lead is now acquired as a native nine-page art
 
 ## New primary evidence
 
-Da Silva, Igel and Cherevko, [*Setting the Record Straight: A Systematic Study on Fe and Ni Dissolution in NiFe-Based Oxygen Evolution Reaction Catalysts*](https://doi.org/10.1021/acscatal.6c01228), ACS Catalysis16,8633–8641 (2026). [Acquisition](ACQUISITION.md) records the two native files, byte hashes, live browser download links and preserved failed routes. The live DOCX attachment differs from Crossref's registered PDF-supplement route. No raw instrument export or separate raw deposit was located; the acquired supplement contains ten images and one composition table.
+Da Silva, Igel and Cherevko, [*Setting the Record Straight: A Systematic Study on Fe and Ni Dissolution in NiFe-Based Oxygen Evolution Reaction Catalysts*](https://doi.org/10.1021/acscatal.6c01228), ACS Catalysis16,8633–8641 (2026). [Acquisition](<ACQUISITION.md>) records the two native files, byte hashes, live browser download links and preserved failed routes. The live DOCX attachment differs from Crossref's registered PDF-supplement route. No raw instrument export or separate raw deposit was located; the acquired supplement contains ten images and one composition table.
 
 The source compares electrodeposited NiFe oxyhydroxides, FeOOH/NiOOH references and commercial NiFe-LDH. Online non-detection is followed by accumulation measurements that reveal Fe entering the sampled electrolyte while beginning/end electrode performance changes little under a mild 1mA/cm2 protocol. This supports a loss-observation method. It does not establish damage repair, origin-specific catalysis or unchanged material inventory. Naturally abundant Fe56/Ni60 detector channels are not atom-origin labels.
 
 ## What the native methods resolve
 
-[The methods audit](SOURCE_AUDIT.md) verifies approximately50mL total electrolyte, five-minute OCP sampling at1,2,3,6h, and a reservoir returned to the cell during recirculation. A separate electrolyte stream supplies the analyzer baseline between samples. A return of the detector trace to baseline is therefore not evidence that the electrode's liquid inventory has become zero.
+[The methods audit](<SOURCE_AUDIT.md>) verifies approximately50mL total electrolyte, five-minute OCP sampling at1,2,3,6h, and a reservoir returned to the cell during recirculation. A separate electrolyte stream supplies the analyzer baseline between samples. A return of the detector trace to baseline is therefore not evidence that the electrode's liquid inventory has become zero.
 
 The main article reports flow approximately3.2microlitres/s; the SI reports approximately3.5. The source does not fully specify mixed circulating volume, dead volume, top-up, or the conversion from sampled concentration to cumulative loss. Figure6's aligned axes are converted forms of one measurement, not independent mass and concentration assays; its panel c repeats the NiFe curve from panel a. Tick-only calibration gives an amount/concentration factor about8.3% below an exact50mL/0.02835cm2 conversion. That is an unresolved mapping difference, not proof of an erroneous experiment or a measured45.85mL reservoir.
 
@@ -18,9 +18,9 @@ Daily calibration, matched-matrix baseline, reaction-gas interference suppressio
 
 ## Executed transport and measurement test
 
-[The frozen protocol](PROTOCOL.md) avoids fitting unidentified chemical rates. Root and reviewers had already seen rounded source endpoints; no blind or held-out chemical validation is claimed. The test uses finite synthetic pools, an arbitrary constant source during polarization, zero source during OCP as an explicit scenario, and separate liquid-stock/exported-mass bookkeeping. No repair, redeposition or incoming metal is present in this null.
+[The frozen protocol](<PROTOCOL.md>) avoids fitting unidentified chemical rates. Root and reviewers had already seen rounded source endpoints; no blind or held-out chemical validation is claimed. The test uses finite synthetic pools, an arbitrary constant source during polarization, zero source during OCP as an explicit scenario, and separate liquid-stock/exported-mass bookkeeping. No repair, redeposition or incoming metal is present in this null.
 
-[The implementation](test_measurement.py) and [results](results/measurement.json) compare unreplenished and clean-replenished well-mixed50mL scenarios with a complete-reset comparison. All12 numerical checks pass, including conservation, finite exhaustion, analytic withdrawal, scaling and separation of wall time from polarization time. Maximum conservation residual is1.78e-15 normalized mass units.
+[The implementation](<test_measurement.py>) and [results](<results/measurement.json>) compare unreplenished and clean-replenished well-mixed50mL scenarios with a complete-reset comparison. All12 numerical checks pass, including conservation, finite exhaustion, analytic withdrawal, scaling and separation of wall time from polarization time. Maximum conservation residual is1.78e-15 normalized mass units.
 
 After six polarization hours, six arbitrary mass units have left the solid:
 
@@ -38,7 +38,7 @@ This changes the next action: resolve the sample-to-stock/export operator and bl
 
 ## Chemical and functional limits
 
-[The chemistry audit](CHEMISTRY_AUDIT.md) confirms the native ferrate equation contains `0.059/3`; a flattened-text coefficient suspicion was rejected. Atom/charge bookkeeping and the source's rounded onset potentials agree for Eq.S5. A separate unbalanced Reaction30 line is preserved as a transcription inconsistency, without attributing the source's calculations to that typo.
+[The chemistry audit](<CHEMISTRY_AUDIT.md>) confirms the native ferrate equation contains `0.059/3`; a flattened-text coefficient suspicion was rejected. Atom/charge bookkeeping and the source's rounded onset potentials agree for Eq.S5. A separate unbalanced Reaction30 line is preserved as a transcription inconsistency, without attributing the source's calculations to that typo.
 
 Even perfect net-loss measurements do not uniquely split gross dissolution from recapture: adding the same admissible flux to both leaves their difference unchanged. Additional fluxes require independent measurements and finite inventory bounds. Similarly, retained current cannot assign catalytic competence to newly supplied atoms. The source supplies no matched damaged-founder supply/withdrawal comparison, selective new-material function, founder functional ceiling or serial functional descendants. Its nominal cast mass is not a catalytic-capacity bound.
 

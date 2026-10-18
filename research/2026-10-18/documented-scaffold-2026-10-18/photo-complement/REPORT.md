@@ -1,6 +1,6 @@
 # WO3 photo-input complement: support and limits
 
-The newly acquired [Bloor et al. 2016 article and supplement](https://doi.org/10.1021/jacs.6b03187) support light-driven charging of PMo12 followed by electrically driven hydrogen release. This is **component support for energy input**, not an autonomous maintained system and not evidence about Mo34WV. [SOURCE_NOTES.md](SOURCE_NOTES.md) identifies the actual cells and measured versus assumed quantities.
+The newly acquired [Bloor et al. 2016 article and supplement](https://doi.org/10.1021/jacs.6b03187) support light-driven charging of PMo12 followed by electrically driven hydrogen release. This is **component support for energy input**, not an autonomous maintained system and not evidence about Mo34WV. [SOURCE_NOTES.md](<SOURCE_NOTES.md>) identifies the actual cells and measured versus assumed quantities.
 
 The SI-6 experiment uses 25 mL of 0.5 M mediator, a WO3/FTO photoanode, carbon-felt cathode, methanesulfonic acid and Nafion. After overnight illumination at zero cell bias, 47 C was passed. The same reduced mediator solution was then transferred into a separate electrically driven cell and reoxidized, delivering 47 C and 6.0 +/-0.2 mL H2. The second stage is not a zero-input reaction.
 
@@ -20,4 +20,4 @@ Reproducing SI-7's explicitly assumed100 C example gives10000 J incident sunligh
 - **No new-material renewal or inheritance.** Returning charge and color restore a redox state; no newly synthesized competent mediator or transmitted functional variant is measured.
 - **No demonstrated organic-free organization.** Carbon felt, organic acid and Nafion are operational source dependencies. An acid/electrode substitution requires its own compatibility evidence.
 
-Decision: WO3/FTO plus its source device is **component-supported for photocharging PMo12**. It is not admitted as a verified integrated life complement. The full R/H/J requirements remain open, as does exact Mo34WV identity. Numerical results, including missing measurements as null, are retained in [results/analysis.json](results/analysis.json).
+Decision: WO3/FTO plus its source device is **component-supported for photocharging PMo12**. It is not admitted as a verified integrated life complement. The full R/H/J requirements remain open, as does exact Mo34WV identity. Numerical results, including missing measurements as null, are retained in [results/analysis.json](<results/analysis.json>).

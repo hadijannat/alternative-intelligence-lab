@@ -4,7 +4,7 @@
 
 ## Candidate decision
 
-Proposed complement: butanol-coordinated GTM-4(RS-OMBMEP) as a functional-state/retention module alongside the documented PMo12 scaffold. Performed test: primary preparation, medium, clock and measurement-linkage audit. [Detailed source audit](CONDITION_AUDIT.md).
+Proposed complement: butanol-coordinated GTM-4(RS-OMBMEP) as a functional-state/retention module alongside the documented PMo12 scaffold. Performed test: primary preparation, medium, clock and measurement-linkage audit. [Detailed source audit](<CONDITION_AUDIT.md>).
 
 **Result: component function is supported; quantitative pooling and integrated-complement admission are unsupported.** The catalytic panels and product-branch figure share a declared catalyst/assay condition family. They do not identify a common clock-time series with Ge coordination, water uptake, structure and activity. Spectroscopy, thermal desorption and humidity experiments use different preparation histories and operating media. Butanol's active organic role is a recorded dependency; this is not a claim that every carbon-containing feed or measurement invalidates inorganic organization. No common-medium PMo12 experiment, new-material repair or functional descendant assay is supplied. [Primary article and SI](https://doi.org/10.1021/jacs.5c12567).
 

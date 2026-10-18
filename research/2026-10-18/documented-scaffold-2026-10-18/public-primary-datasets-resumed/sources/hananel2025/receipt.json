@@ -1,0 +1,52 @@
+{
+  "retrieved_utc": "2026-10-18T17:00:27.497770+00:00",
+  "resource_doi": "10.1021/jacs.4c16883",
+  "requests": [
+    {
+      "name": "main.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12046555/fullTextXML",
+      "attempted_utc": "2026-10-18T17:00:25.653985+00:00",
+      "status": 200,
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12046555/fullTextXML",
+      "content_type": "application/xml",
+      "bytes": 80907,
+      "sha256": "f132e272fa0e34b76600454fc94fc5c716064d47506d01224eca15a12f6e6ac7",
+      "md5": "775ee7b83fdabc5e3fd32921e2354f2d"
+    },
+    {
+      "name": "deposit.json",
+      "url": "https://api.figshare.com/v2/articles/28823413",
+      "attempted_utc": "2026-10-18T17:00:25.654392+00:00",
+      "status": 200,
+      "resolved_url": "https://api.figshare.com/v2/articles/28823413",
+      "content_type": "application/json",
+      "bytes": 6764,
+      "sha256": "2a99c1dc9f882160508bfa6baee7410db0e2d6299c409321256afac8bf94f8fd",
+      "md5": "c60337ac4333f26debc7f5b6b7eb5798"
+    },
+    {
+      "name": "si.pdf",
+      "url": "https://ndownloader.figshare.com/files/53780128",
+      "attempted_utc": "2026-10-18T17:00:25.654449+00:00",
+      "status": 500,
+      "resolved_url": "https://ndownloader.figshare.com/files/53780128",
+      "content_type": "application/json",
+      "bytes": 71,
+      "sha256": "b3283bf52e978fcc6e69a90e96036f16ea8d84feb0923e8c4b0a953dec3429dc",
+      "md5": "b8bb7cf4589f5a9907c4dee84129edec"
+    }
+  ],
+  "checks": {
+    "main.xml_http200": true,
+    "deposit.json_http200": true,
+    "si.pdf_http200": false,
+    "si_size": false,
+    "si_md5": false,
+    "si_signature": false,
+    "deposit_doi": true,
+    "main_doi": true
+  },
+  "metadata_error": null,
+  "numerical_test_executed": false,
+  "scientific_validation": false
+}

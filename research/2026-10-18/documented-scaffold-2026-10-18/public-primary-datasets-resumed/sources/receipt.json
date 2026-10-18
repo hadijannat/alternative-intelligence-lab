@@ -1,0 +1,41 @@
+{
+  "retrieved_utc": "2026-10-18T16:49:36.913556+00:00",
+  "resource_doi": "10.1038/s41467-022-35416-w",
+  "source_title": "A self-healing electrocatalytic system via electrohydrodynamics induced evolution in liquid metal",
+  "observed_publisher_license": "CC BY 4.0",
+  "source_helper_sha256": "1a3e810e5afeeb6d0704c631bdfb5b4bde7d0cbbf0c57d505cec60b6633040d8",
+  "requests": [
+    {
+      "name": "hou-si.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35416-w/MediaObjects/41467_2022_35416_MOESM1_ESM.pdf",
+      "attempted_utc": "2026-10-18T16:49:29.564913+00:00",
+      "status": 200,
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35416-w/MediaObjects/41467_2022_35416_MOESM1_ESM.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3811836,
+      "sha256": "adf9763a2b1f2f6d31695fb78b05ef342e07b1186aa5df9f60418a368826c246",
+      "md5": "3baf52ecfaa8e2e9f96cbe2bd16516dd"
+    },
+    {
+      "name": "hou-source.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35416-w/MediaObjects/41467_2022_35416_MOESM7_ESM.xlsx",
+      "attempted_utc": "2026-10-18T16:49:29.565180+00:00",
+      "status": 200,
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35416-w/MediaObjects/41467_2022_35416_MOESM7_ESM.xlsx",
+      "content_type": "application/octet-stream",
+      "bytes": 29687651,
+      "sha256": "3319d65a2cfc4fa43f1ea78b906b5be2a5987d5efa928f1312beaeb38f843315",
+      "md5": "b3936bfcd41bdf84df8b2fdf4b41d256"
+    },
+    {
+      "name": "hou-main.html",
+      "url": "https://www.nature.com/articles/s41467-022-35416-w",
+      "acquisition": "preserved specialist publisher-response bytes; local import",
+      "original_local_path": ".omo/evidence/public-repair-datasets-2026-10-18/hou2022.html",
+      "bytes": 423265,
+      "sha256": "e7fd5c1f4ddd5557c51fe53a81fa4f5e7fd9d387b81ec9f8e76128d6edbdf8f3"
+    }
+  ],
+  "numerical_responses_selected": false,
+  "scientific_validation": false
+}

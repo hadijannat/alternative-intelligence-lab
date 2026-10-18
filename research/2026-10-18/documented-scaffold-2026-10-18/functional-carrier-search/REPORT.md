@@ -29,7 +29,7 @@ Decision: **component-supported useful structural state; inheritance unresolved*
 
 [Primary DOI10.1039/D1NR04400A](https://pubs.rsc.org/en/content/articlehtml/2021/nr/d1nr04400a). The original AuPd photocatalyst bed regenerates NADH that drives formation of new Au particles. Estimated outputs are100,133 and117 particles per founder rod over three cycles. Those are repeated founder-bed cycles, not descendant generations.
 
-The authors explicitly identify the missing positive-feedback link: the new Au particles lack Pd needed for efficient cofactor regeneration. The supporting information's small bare-Au-rod response is a different geometry/condition, so daughter-sphere activity is not set to exactly zero. No quantitative offspring reproduction kernel follows from the counts. Organic cofactor/matrix dependencies remain disclosed. Detailed primary-access limitations and source controls are retained in [the screen](sources/nanoparticle/SCREEN.md).
+The authors explicitly identify the missing positive-feedback link: the new Au particles lack Pd needed for efficient cofactor regeneration. The supporting information's small bare-Au-rod response is a different geometry/condition, so daughter-sphere activity is not set to exactly zero. No quantitative offspring reproduction kernel follows from the counts. Organic cofactor/matrix dependencies remain disclosed. Detailed primary-access limitations and source controls are retained in [the screen](<sources/nanoparticle/SCREEN.md>).
 
 Decision: **new material production supported; inherited catalytic feedback not demonstrated**. A future proposal must recreate the functional complement in the product and measure isolated-product activity; simply supplying a guessed daughter rate would hide the failure.
 
@@ -44,7 +44,7 @@ The linked [numeric deposit](https://doi.org/10.25405/data.ncl.9610601.v1) was a
 | Figure4.csv |2963|6331|887 negative N2 readings, retained|
 | Figure5.csv |43536|13273|30266 orphaned CO2 entries; independent timestamps;6793 negative N2 readings|
 
-Figure5 extends past111h, beyond the published recovery plot's approximately83h interval. Conditions in that late phase remain undocumented; it cannot prove spontaneous failure or durable recovery. No timestamps were invented, negatives clipped or curves fitted. Byte integrity and scientific attribution are distinct. [The assessment](sources/boundary/ASSESSMENT.md) retains all acquisition and metadata problems.
+Figure5 extends past111h, beyond the published recovery plot's approximately83h interval. Conditions in that late phase remain undocumented; it cannot prove spontaneous failure or durable recovery. No timestamps were invented, negatives clipped or curves fitted. Byte integrity and scientific attribution are distinct. [The assessment](<sources/boundary/ASSESSMENT.md>) retains all acquisition and metadata problems.
 
 Decision: **functional boundary-repair comparator supported; direct integration rejected; numerical recovery fitting quarantined** until source mapping/calibration/phase metadata are reconciled.
 

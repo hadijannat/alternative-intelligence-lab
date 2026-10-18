@@ -2,7 +2,7 @@
 
 This is a curated publication of saved research artifacts. Publication integrity is not scientific validation. No scientific model is rerun by the exporter or verifier. The full life/intelligence goal remains unachieved; no integrated complement is verified.
 
-Start with [the continuation ledger](documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md), [the next-session prompt](documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md), and [the original goal contract](GOAL_CONTRACT.md). Reports, protocols, authored model code, derived results, failed checks, numerical plots, and authored reviews are retained.
+Start with [the continuation ledger](documented-scaffold-2026-10-18/CONTINUATION_LEDGER.md), [the next-session prompt](documented-scaffold-2026-10-18/NEXT_SESSION_PROMPT.md), [the next copy-paste goal](documented-scaffold-2026-10-18/NEXT_GOAL.md), and [the original goal contract](GOAL_CONTRACT.md). Reports, protocols, authored model code, derived results, failed checks, numerical plots, and authored reviews are retained.
 
 The manifest maps each original project-relative path and SHA256 to its published path and SHA256, with sanitization and exclusions recorded. Frozen hashes embedded in scientific outputs identify original local bytes; sanitized publication hashes can differ. Do not rewrite frozen scientific hashes to claim byte-identical reproduction.
 

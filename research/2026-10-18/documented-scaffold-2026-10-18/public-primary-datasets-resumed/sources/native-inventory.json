@@ -1,0 +1,1130 @@
+{
+  "checks": {
+    "hou-si.pdf_size": true,
+    "hou-si.pdf_sha256": true,
+    "hou-source.xlsx_size": true,
+    "hou-source.xlsx_sha256": true,
+    "hou-main.html_size": true,
+    "hou-main.html_sha256": true,
+    "main_doi": true,
+    "main_title": true,
+    "main_cc_by_4": true,
+    "native_si_signature": true,
+    "si_title": true,
+    "si_21_pages": true,
+    "xlsx_entry_count": true,
+    "xlsx_total_expansion": true,
+    "xlsx_safe_paths": true,
+    "xlsx_crc": true,
+    "xlsx_no_vba": true
+  },
+  "passed": 17,
+  "total": 17,
+  "si_pages": 21,
+  "xlsx_members": 35,
+  "xlsx_expanded_bytes": 202309996,
+  "sheets": [
+    {
+      "name": "Fig. 2a",
+      "rows": 6096,
+      "columns": 14,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 2a"
+        },
+        {
+          "cell": "A2",
+          "text": "before evolution"
+        },
+        {
+          "cell": "D2",
+          "text": "after evolution"
+        },
+        {
+          "cell": "G2",
+          "text": "PDF#41-1449"
+        },
+        {
+          "cell": "J2",
+          "text": "PDF#44-1246"
+        },
+        {
+          "cell": "M2",
+          "text": "PDF#06-0180"
+        },
+        {
+          "cell": "A3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B3",
+          "text": "intensity"
+        },
+        {
+          "cell": "D3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E3",
+          "text": "intensity"
+        },
+        {
+          "cell": "G3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "H3",
+          "text": "intensity"
+        },
+        {
+          "cell": "J3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "K3",
+          "text": "intensity"
+        },
+        {
+          "cell": "M3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "N3",
+          "text": "intensity"
+        },
+        {
+          "cell": "H6",
+          "text": "--"
+        },
+        {
+          "cell": "K6",
+          "text": "--"
+        },
+        {
+          "cell": "N6",
+          "text": "--"
+        },
+        {
+          "cell": "H9",
+          "text": "--"
+        },
+        {
+          "cell": "K9",
+          "text": "--"
+        },
+        {
+          "cell": "N9",
+          "text": "--"
+        },
+        {
+          "cell": "H12",
+          "text": "--"
+        },
+        {
+          "cell": "K12",
+          "text": "--"
+        },
+        {
+          "cell": "N12",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 2b",
+      "rows": 3434,
+      "columns": 21,
+      "top_text_labels": [
+        {
+          "cell": "B1",
+          "text": "Fig. 2b"
+        },
+        {
+          "cell": "B4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "C4",
+          "text": "Intensity"
+        },
+        {
+          "cell": "E4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "F4",
+          "text": "Intensity"
+        },
+        {
+          "cell": "H4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "I4",
+          "text": "Intensity"
+        },
+        {
+          "cell": "K4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "L4",
+          "text": "Intensity"
+        },
+        {
+          "cell": "N4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "O4",
+          "text": "Intensity"
+        },
+        {
+          "cell": "Q4",
+          "text": "Raman shift"
+        },
+        {
+          "cell": "R4",
+          "text": "Intensity"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 2c",
+      "rows": 6097,
+      "columns": 32,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 2c"
+        },
+        {
+          "cell": "A2",
+          "text": "Original"
+        },
+        {
+          "cell": "A4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B4",
+          "text": "intensity"
+        },
+        {
+          "cell": "D4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E4",
+          "text": "intensity"
+        },
+        {
+          "cell": "G4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "H4",
+          "text": "intensity"
+        },
+        {
+          "cell": "J4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "K4",
+          "text": "intensity"
+        },
+        {
+          "cell": "M4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "N4",
+          "text": "intensity"
+        },
+        {
+          "cell": "P4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "Q4",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 4a",
+      "rows": 2004,
+      "columns": 17,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 4a"
+        },
+        {
+          "cell": "A3",
+          "text": "TPS N2"
+        },
+        {
+          "cell": "D3",
+          "text": "CVP N2"
+        },
+        {
+          "cell": "G3",
+          "text": "POP N2"
+        },
+        {
+          "cell": "J3",
+          "text": "TPS CO2"
+        },
+        {
+          "cell": "M3",
+          "text": "CVP CO2"
+        },
+        {
+          "cell": "P3",
+          "text": "POP CO2"
+        },
+        {
+          "cell": "A6",
+          "text": "potential"
+        },
+        {
+          "cell": "B6",
+          "text": "Current density"
+        },
+        {
+          "cell": "D6",
+          "text": "potential"
+        },
+        {
+          "cell": "E6",
+          "text": "Current density"
+        },
+        {
+          "cell": "G6",
+          "text": "potential"
+        },
+        {
+          "cell": "H6",
+          "text": "Current density"
+        },
+        {
+          "cell": "J6",
+          "text": "potential"
+        },
+        {
+          "cell": "K6",
+          "text": "Current density"
+        },
+        {
+          "cell": "M6",
+          "text": "potential"
+        },
+        {
+          "cell": "N6",
+          "text": "Current density"
+        },
+        {
+          "cell": "P6",
+          "text": "potential"
+        },
+        {
+          "cell": "Q6",
+          "text": "Current density"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 4b",
+      "rows": 75,
+      "columns": 8,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 4b"
+        },
+        {
+          "cell": "A4",
+          "text": "CVP mode"
+        },
+        {
+          "cell": "D4",
+          "text": "POP mode"
+        },
+        {
+          "cell": "G4",
+          "text": "TPS mode"
+        },
+        {
+          "cell": "A5",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "B5",
+          "text": "-Z\" (ohm)"
+        },
+        {
+          "cell": "D5",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "E5",
+          "text": "-Z\" (ohm)"
+        },
+        {
+          "cell": "G5",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "H5",
+          "text": "-Z\" (ohm)"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 4c",
+      "rows": 11,
+      "columns": 4,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 4c"
+        },
+        {
+          "cell": "A3",
+          "text": "potential"
+        },
+        {
+          "cell": "B3",
+          "text": "formate"
+        },
+        {
+          "cell": "C3",
+          "text": "H2"
+        },
+        {
+          "cell": "D3",
+          "text": "CO"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 4d",
+      "rows": 180014,
+      "columns": 4,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 4d"
+        },
+        {
+          "cell": "A3",
+          "text": "time"
+        },
+        {
+          "cell": "B3",
+          "text": "formate"
+        },
+        {
+          "cell": "C3",
+          "text": "H2"
+        },
+        {
+          "cell": "D3",
+          "text": "CO"
+        },
+        {
+          "cell": "A11",
+          "text": "time"
+        },
+        {
+          "cell": "B11",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 5a",
+      "rows": 6097,
+      "columns": 17,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 5a"
+        },
+        {
+          "cell": "A3",
+          "text": "original"
+        },
+        {
+          "cell": "D3",
+          "text": "1h"
+        },
+        {
+          "cell": "G3",
+          "text": "5h"
+        },
+        {
+          "cell": "J3",
+          "text": "8h"
+        },
+        {
+          "cell": "M3",
+          "text": "PDF#41-1488"
+        },
+        {
+          "cell": "P3",
+          "text": "PDF#44-1246"
+        },
+        {
+          "cell": "A4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B4",
+          "text": "intensity"
+        },
+        {
+          "cell": "D4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E4",
+          "text": "intensity"
+        },
+        {
+          "cell": "G4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "H4",
+          "text": "intensity"
+        },
+        {
+          "cell": "J4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "K4",
+          "text": "intensity"
+        },
+        {
+          "cell": "M4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "N4",
+          "text": "intensity"
+        },
+        {
+          "cell": "P4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "Q4",
+          "text": "intensity"
+        },
+        {
+          "cell": "N7",
+          "text": "--"
+        },
+        {
+          "cell": "Q7",
+          "text": "--"
+        },
+        {
+          "cell": "N10",
+          "text": "--"
+        },
+        {
+          "cell": "Q10",
+          "text": "--"
+        },
+        {
+          "cell": "N13",
+          "text": "--"
+        },
+        {
+          "cell": "Q13",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 5b",
+      "rows": 3428,
+      "columns": 5,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig.5b"
+        },
+        {
+          "cell": "A3",
+          "text": "Curves"
+        },
+        {
+          "cell": "D3",
+          "text": "PDF#41-1488"
+        },
+        {
+          "cell": "A4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B4",
+          "text": "intensity"
+        },
+        {
+          "cell": "D4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E4",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 5c",
+      "rows": 6097,
+      "columns": 20,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 5c"
+        },
+        {
+          "cell": "A4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B4",
+          "text": "intensity"
+        },
+        {
+          "cell": "D4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E4",
+          "text": "intensity"
+        },
+        {
+          "cell": "G4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "H4",
+          "text": "intensity"
+        },
+        {
+          "cell": "J4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "K4",
+          "text": "intensity"
+        },
+        {
+          "cell": "M4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "N4",
+          "text": "intensity"
+        },
+        {
+          "cell": "P4",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "Q4",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 5e",
+      "rows": 10,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 5e"
+        },
+        {
+          "cell": "A3",
+          "text": "origina-1"
+        },
+        {
+          "cell": "A4",
+          "text": "selfhealing-1"
+        },
+        {
+          "cell": "B5",
+          "text": "--"
+        },
+        {
+          "cell": "A6",
+          "text": "origina-2"
+        },
+        {
+          "cell": "A7",
+          "text": "selfhealing-2"
+        },
+        {
+          "cell": "B8",
+          "text": "--"
+        },
+        {
+          "cell": "A9",
+          "text": "origina-3"
+        },
+        {
+          "cell": "A10",
+          "text": "selfhealing-3"
+        }
+      ]
+    },
+    {
+      "name": "Fig. 5f",
+      "rows": 56,
+      "columns": 8,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. 5f"
+        },
+        {
+          "cell": "A3",
+          "text": "before  self-healing"
+        },
+        {
+          "cell": "D3",
+          "text": "during self-healing"
+        },
+        {
+          "cell": "G3",
+          "text": "after self-healing"
+        },
+        {
+          "cell": "A4",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "B4",
+          "text": "-Z\" (ohm)"
+        },
+        {
+          "cell": "D4",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "E4",
+          "text": "-Z\" (ohm)"
+        },
+        {
+          "cell": "G4",
+          "text": "Z' (ohm)"
+        },
+        {
+          "cell": "H4",
+          "text": "-Z\" (ohm)"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 3a",
+      "rows": 4012,
+      "columns": 17,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S3a"
+        },
+        {
+          "cell": "A3",
+          "text": "potential"
+        },
+        {
+          "cell": "B3",
+          "text": "current density"
+        },
+        {
+          "cell": "D3",
+          "text": "potential"
+        },
+        {
+          "cell": "E3",
+          "text": "current density"
+        },
+        {
+          "cell": "G3",
+          "text": "potential"
+        },
+        {
+          "cell": "H3",
+          "text": "current density"
+        },
+        {
+          "cell": "J3",
+          "text": "potential"
+        },
+        {
+          "cell": "K3",
+          "text": "current density"
+        },
+        {
+          "cell": "M3",
+          "text": "potential"
+        },
+        {
+          "cell": "N3",
+          "text": "current density"
+        },
+        {
+          "cell": "P3",
+          "text": "potential"
+        },
+        {
+          "cell": "Q3",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 3b",
+      "rows": 201667,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S3b"
+        },
+        {
+          "cell": "A4",
+          "text": "potential"
+        },
+        {
+          "cell": "B4",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 4",
+      "rows": 320978,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S4"
+        },
+        {
+          "cell": "A3",
+          "text": "potential"
+        },
+        {
+          "cell": "B3",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 8",
+      "rows": 2938,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S8"
+        },
+        {
+          "cell": "A3",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B3",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 9a",
+      "rows": 6098,
+      "columns": 5,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S9a"
+        },
+        {
+          "cell": "D4",
+          "text": "PDF#44-1246"
+        },
+        {
+          "cell": "A5",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "B5",
+          "text": "intensity"
+        },
+        {
+          "cell": "D5",
+          "text": "degree \uff082\u03b8\uff09"
+        },
+        {
+          "cell": "E5",
+          "text": "intensity"
+        },
+        {
+          "cell": "E8",
+          "text": "--"
+        },
+        {
+          "cell": "E11",
+          "text": "--"
+        },
+        {
+          "cell": "E14",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 9b",
+      "rows": 6097,
+      "columns": 11,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S9b"
+        },
+        {
+          "cell": "G3",
+          "text": "PDF#44-1246"
+        },
+        {
+          "cell": "J3",
+          "text": "PDF#41-1449"
+        },
+        {
+          "cell": "H7",
+          "text": "--"
+        },
+        {
+          "cell": "K7",
+          "text": "--"
+        },
+        {
+          "cell": "H10",
+          "text": "--"
+        },
+        {
+          "cell": "K10",
+          "text": "--"
+        },
+        {
+          "cell": "H13",
+          "text": "--"
+        },
+        {
+          "cell": "K13",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 11",
+      "rows": 3004,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S11"
+        },
+        {
+          "cell": "A3",
+          "text": "time"
+        },
+        {
+          "cell": "B3",
+          "text": "potential"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 13",
+      "rows": 65539,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S13"
+        },
+        {
+          "cell": "A3",
+          "text": "ppm"
+        },
+        {
+          "cell": "B3",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 14",
+      "rows": 22506,
+      "columns": 2,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S14"
+        },
+        {
+          "cell": "A3",
+          "text": "time"
+        },
+        {
+          "cell": "B3",
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 15",
+      "rows": 2405,
+      "columns": 5,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S15"
+        },
+        {
+          "cell": "B3",
+          "text": "Bi"
+        },
+        {
+          "cell": "E3",
+          "text": "Bi2O2CO3"
+        },
+        {
+          "cell": "A4",
+          "text": "potentia"
+        },
+        {
+          "cell": "B4",
+          "text": "current density"
+        },
+        {
+          "cell": "D4",
+          "text": "potentia"
+        },
+        {
+          "cell": "E4",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 16",
+      "rows": 180007,
+      "columns": 8,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S16"
+        },
+        {
+          "cell": "A4",
+          "text": "time"
+        },
+        {
+          "cell": "B4",
+          "text": "current density"
+        },
+        {
+          "cell": "D4",
+          "text": "time"
+        },
+        {
+          "cell": "E4",
+          "text": "current density"
+        },
+        {
+          "cell": "G4",
+          "text": "time "
+        },
+        {
+          "cell": "H4",
+          "text": "current density"
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Fig. 18",
+      "rows": 20008,
+      "columns": 23,
+      "top_text_labels": [
+        {
+          "cell": "A1",
+          "text": "Fig. S18"
+        },
+        {
+          "cell": "A4",
+          "text": "time"
+        },
+        {
+          "cell": "B4",
+          "text": "current density"
+        },
+        {
+          "cell": "D4",
+          "text": "time"
+        },
+        {
+          "cell": "E4",
+          "text": "current density"
+        },
+        {
+          "cell": "G4",
+          "text": "time"
+        },
+        {
+          "cell": "H4",
+          "text": "current density"
+        },
+        {
+          "cell": "J4",
+          "text": "time"
+        },
+        {
+          "cell": "K4",
+          "text": "current density"
+        },
+        {
+          "cell": "M4",
+          "text": "time"
+        },
+        {
+          "cell": "N4",
+          "text": "current density"
+        },
+        {
+          "cell": "P4",
+          "text": "time"
+        },
+        {
+          "cell": "Q4",
+          "text": "current density"
+        }
+      ]
+    }
+  ],
+  "response_values_selected": false,
+  "scientific_validation": false
+}

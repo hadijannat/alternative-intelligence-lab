@@ -1,6 +1,6 @@
 # Origin and function: continuation scope
 
-Date: 2026-10-18. The full objective remains all twelve I/E/T/B/R/H/V/S/M/A/J/C requirements in the original contract referenced by the [continuation ledger](../CONTINUATION_LEDGER.md). Mo34WV remains hypothetical. No verified integrated complement is added by opening this iteration.
+Date: 2026-10-18. The full objective remains all twelve I/E/T/B/R/H/V/S/M/A/J/C requirements in the original contract referenced by the [continuation ledger](<../CONTINUATION_LEDGER.md>). Mo34WV remains hypothetical. No verified integrated complement is added by opening this iteration.
 
 ## Baseline
 
